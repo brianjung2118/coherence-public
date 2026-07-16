@@ -74,12 +74,14 @@
   function selectedHistory(history, frequency) {
     const allEdm = Array.isArray(history && history.edm) ? history.edm : [];
     const allEarnings = Array.isArray(history && history.earnings) ? history.earnings : [];
+    const validEdm = allEdm.filter((row) => isoTime(row.diagnostic_date) != null);
     const selectedEdm = sampleHistory(
-      allEdm.filter((row) => isoTime(row.diagnostic_date) != null), frequency,
+      validEdm, frequency,
     );
     const selectedEarnings = allEarnings.filter((row) => isoTime(row.period_date) != null);
     return {
-      rawEdm: selectedEdm,
+      frequency,
+      rawEdm: validEdm,
       rawEarnings: selectedEarnings,
       edm: selectedEdm,
       earnings: selectedEarnings,
@@ -380,7 +382,8 @@
       const latest = isoTime(latestEdm.diagnostic_date);
       const stale = asOf != null && latest != null && asOf - latest > 45 * 86400000;
       edm.className = stale ? "stale" : "";
-      edm.textContent = `EDM 일별 이력 · ${domain.edm.length}개 관측 · 최신 ${latestEdm.diagnostic_date} · ${stale ? "최신 이력 지연" : "정상"}`;
+      const label = {daily: "일간", weekly: "주간", monthly: "월간"}[domain.frequency] || "주간";
+      edm.textContent = `EDM 일별 자료 · ${domain.rawEdm.length}일 · ${label} ${domain.edm.length}개 표시 · 최신 ${latestEdm.diagnostic_date} · ${stale ? "최신 이력 지연" : "정상"}`;
     }
     const earnings = el("p");
     earnings.dataset.freshness = "earnings";
