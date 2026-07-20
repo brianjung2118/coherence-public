@@ -167,37 +167,25 @@ aside.picker { background: var(--surface); border: 1px solid var(--ring); border
     CAPE 방식과 같은 발상). 주가·시가총액은 매일 반영합니다.</figcaption>
   </figure>
 
-  <h3>"비싸다"의 기준: 남과 비교하지 않고, 자기 과거와 비교합니다</h3>
-  <p>미국이나 다른 나라와 비교하면 "코리아 디스카운트" 때문에 한국은 늘 싸 보이는 왜곡이 생깁니다.
-  그래서 오늘의 가격 수준을 <strong>한국 시장 자신의 지난 역사 속 어디쯤인지</strong>로 매깁니다 —
-  마치 키 순서로 줄을 세우고 오늘이 몇 번째인지 보는 것과 같습니다.</p>
-  <figure class="card" style="padding:20px">
-    <svg viewBox="0 0 900 210" width="900" height="210" role="img" aria-label="과거 분포에서 오늘의 위치">
-      <line x1="60" y1="170" x2="860" y2="170" stroke="var(--axis)"/>
-      <g fill="var(--despondency)" opacity="0.55">
-        <rect x="90"  y="150" width="44" height="20" rx="3"/>
-        <rect x="146" y="128" width="44" height="42" rx="3"/>
-        <rect x="202" y="95"  width="44" height="75" rx="3"/>
-        <rect x="258" y="60"  width="44" height="110" rx="3"/>
-        <rect x="314" y="48"  width="44" height="122" rx="3"/>
-        <rect x="370" y="58"  width="44" height="112" rx="3"/>
-        <rect x="426" y="82"  width="44" height="88" rx="3"/>
-        <rect x="482" y="110" width="44" height="60" rx="3"/>
-        <rect x="538" y="132" width="44" height="38" rx="3"/>
-        <rect x="594" y="148" width="44" height="22" rx="3"/>
-        <rect x="650" y="158" width="44" height="12" rx="3"/>
-        <rect x="706" y="163" width="44" height="7"  rx="3"/>
-      </g>
-      <text x="90" y="192" font-size="12" fill="var(--muted)">싸다 &#8592;</text>
-      <text x="860" y="192" text-anchor="end" font-size="12" fill="var(--muted)">&#8594; 비싸다</text>
-      <text x="420" y="192" font-size="12" fill="var(--muted)" text-anchor="middle">지난 날들의 가격 수준 분포</text>
-      <line x1="712" y1="30" x2="712" y2="170" stroke="var(--euphoria)" stroke-width="2" stroke-dasharray="4 3"/>
-      <text x="712" y="22" text-anchor="middle" font-size="13" font-weight="700" fill="var(--euphoria)">오늘</text>
-    </svg>
-    <figcaption>오늘이 분포의 오른쪽 꼬리에 있으면 가격표 점수는 +100에 가깝고("역사상 가장 비싼 축"),
-    왼쪽 꼬리에 있으면 −100에 가깝습니다. 이 줄 세우기는 항상 <strong>그날까지의 과거만</strong> 사용합니다 —
-    미래의 날들과 비교하는 일은 없습니다.</figcaption>
-  </figure>
+  <h3>"비싸다"의 기준: 기업마다 독립적인 가치 범위를 만듭니다</h3>
+  <p>과거의 자기 가격과 비교하는 방식(상대 평가)은 버렸습니다. 대신 기업마다 <strong>보수적인
+  가치 범위(하단 · 중심 · 상단)</strong>를 직접 산정합니다: ① 사업의 질을 6가지 회계 증거
+  (수익성, 현금창출, 재무 체력, 안정성, 재투자 생산성, 주당 성과)로 등급화하고 — <strong>등급이
+  좋을수록 더 긴 미래를 더 좁은 오차로</strong> 내다볼 자격을 얻습니다(A등급 10년·±18%,
+  하위 등급 3년·±50%) — ② 시장 가격을 전혀 쓰지 않고 정상화된 이익 능력을 구한 뒤
+  ③ 현금흐름 할인으로 사업 가치를 계산하고 ④ 부채와 현금을 명시적으로 반영해 "주주 몫의
+  가치"로 바꿉니다(브릿지가 불완전하면 평가를 보류합니다 — 0으로 대충 채우지 않습니다).
+  은행 등 금융회사는 자기자본과 초과이익으로 별도 평가합니다.</p>
+  <p>오늘 시장이 부르는 값이 가치 범위의 <strong>하단이면 +30, 중심이면 0, 상단이면 −30</strong>
+  (페이지 점수 기준: 부호 반전 — 하단 −30 · 중심 0 · 상단 +30)이고, 그 밖은 로그 척도로
+  ±100까지 뻗습니다. 시장 점수는 종목 점수의 평균이 아니라, <strong>커버된 기업 전체의 시가총액
+  합계를 가치 합계에 대어 본 값</strong>입니다.</p>
+  <div class="callout">
+    <p style="font-size:14px"><strong>알아두실 특징:</strong> 이 잣대로 보면 한국 시장 전체가 독립 가치
+    아래로 내려간 적은 2018년 이후 거의 없습니다 — 2020년 코로나 바닥도 "제값 부근"(+15), 2022년
+    바닥도 +5였습니다. 보수적인 가치 산정의 결과이며, 그래서 이 점수에서는 <strong>낮은 값
+    자체가 희소하고 강한 신호</strong>입니다. 구간 이름도 이 분포에 맞게 실측으로 잘랐습니다.</p>
+  </div>
 
   <h3>실적은 "실제로 알 수 있었던 날"부터만 반영합니다</h3>
   <figure class="card" style="padding:20px">
