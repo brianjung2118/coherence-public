@@ -270,10 +270,16 @@ function drawStock(st, meta) {
   phase.textContent = `국면 · ${KO[last.q] || '—'}`;
   phase.style.background = COLORS[last.q] || 'var(--muted)';
   const vr = st.valuation;
-  document.getElementById('stSub').textContent =
+  document.getElementById('stSub').innerHTML =
     `가격표 ${fmt(last.v)} · 군중 온도 ${fmt(last.s)} · 기준일 ${last.d}` +
     (SUB[last.q] ? ` · 국면 ${KO[last.q]} = ${SUB[last.q]}` : '') +
-    (vr ? ` · 독립 가치 범위 ${vr.lower}~${vr.upper}${vr.unit} (중심 ${vr.central})` : '');
+    (vr ? ` · 독립 가치 범위 ${vr.lower}~${vr.upper}${vr.unit} (중심 ${vr.central})` : '') +
+    (vr && vr.ratio ? `<br><span style="color:var(--ink)">쉽게 말해: 시가총액 ${vr.mktcap}조원은 ` +
+      `실적으로 확인된 가치의 <b>${vr.ratio.toFixed(1)}배</b>입니다` +
+      (vr.ratio > 1 ? ' — 그 웃돈만큼은 아직 도착하지 않은 미래를 미리 치르는 값입니다.' : '.') +
+      `</span>` : '') +
+    (st.series && st.series.length && new Date(st.series[0].d) > new Date('2019-06-30')
+      ? `<br><span style="color:var(--muted)">※ 이 종목의 가치 평가는 ${st.series[0].d}부터 — 이력 축적 중입니다.</span>` : '');
   const fb = document.getElementById('fwdBlock');
   if (st.forward) {
     const f = st.forward;
