@@ -129,9 +129,7 @@ aside.picker { background: var(--surface); border: 1px solid var(--ring); border
     보여줍니다. 0이면 가치대로, 높을수록 가치보다 비싸게 부르는 중입니다. 한 가지 특징: 한국 시장 전체가
     독립 가치 아래로 내려간 적은 지난 8년간 거의 없습니다 — 코로나 바닥조차 "제값 부근"이었습니다.
     그래서 낮은 점수 자체가 희소한 신호입니다.</p>
-    <p style="margin-top:10px">점수가 오른다고 "시장이 강세"라는 뜻이 <strong>아닙니다</strong>.
-    지금이 좋은 예입니다: 점수는 플러스인데 군중은 오히려 겁을 먹고 있습니다 —
-    <strong>비싼 시장이 믿음을 잃어가는 중</strong>이라는, 조금 다른 종류의 경고입니다.</p>
+    <p style="margin-top:10px" id="whyNote"></p>
   </div>
 </div>
 
@@ -284,6 +282,19 @@ phase.textContent = `국면 · ${KO[last.q]}`;
 phase.style.background = COLORS[last.q];
 document.getElementById('statSub').textContent =
   `가격표 ${fmt(last.v)} · 군중 온도 ${fmt(last.s)} · 국면 ${KO[last.q]} = ${SUB[last.q]}`;
+// 국면별 해설: 오늘의 데이터가 말하는 것과 카피가 어긋나지 않도록 매일 payload에서 결정
+const WHY = {
+  Euphoria: '지금이 좋은 예입니다: 가격표도 높은데 군중까지 뜨겁습니다 — ' +
+    '<strong>비싼 값을 다들 기꺼이 치르고 있는 국면</strong>으로, 역사적으로 가장 조심해야 했던 조합입니다.',
+  Doubt: '지금이 좋은 예입니다: 점수는 플러스인데 군중은 오히려 겁을 먹고 있습니다 — ' +
+    '<strong>비싼 시장이 믿음을 잃어가는 중</strong>이라는, 조금 다른 종류의 경고입니다.',
+  Despondency: '지금은 그 반대쪽입니다: 가격표는 낮은데 군중은 공포에 빠져 있습니다 — ' +
+    '역사적으로 <strong>드물고 강한 기회의 신호</strong>였던 조합입니다.',
+  Recovery: '지금은 가격표가 낮은데 군중의 온기가 돌아오는 중입니다 — ' +
+    '역사적으로 <strong>회복이 자리잡던 구간</strong>의 조합입니다.',
+};
+document.getElementById('whyNote').innerHTML =
+  '점수가 오른다고 "시장이 강세"라는 뜻이 <strong>아닙니다</strong>. ' + WHY[last.q];
 
 /* ---------- history chart (board-switchable) ---------- */
 function drawHistory(board) {
