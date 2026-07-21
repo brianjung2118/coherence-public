@@ -111,8 +111,9 @@ aside.picker { background: var(--surface); border: 1px solid var(--ring); border
   <div class="kicker">방법론</div>
   <h1 style="font-size:36px">미스터 마켓 점수는 이렇게 만듭니다</h1>
   <p class="sub">수식 없이, 그림으로 따라올 수 있게 정리했습니다. 요약하면 —
-  <strong>매일의 주가를 천천히 변하는 기업의 실체와 비교해 "가격표"를 매기고,
-  투자자들의 체온을 재서 "군중 온도"를 구한 뒤, 둘을 6 : 4로 합칩니다.</strong></p>
+  <strong>기업마다 독립적인 가치 범위를 산정하고, 매일의 시가총액을 그 범위에 대어 본 것이
+  점수(가격표)의 전부입니다.</strong> 투자자들의 체온(군중 온도)은 점수에 넣지 않고,
+  국면(절망·회복·도취·의심) 판정에만 씁니다.</p>
 </header>
 
 <section>
@@ -127,16 +128,18 @@ aside.picker { background: var(--surface); border: 1px solid var(--ring); border
       <rect x="30" y="140" width="270" height="80" rx="12" fill="none" stroke="var(--euphoria)" stroke-width="1.5"/>
       <text x="165" y="172" text-anchor="middle" font-size="16" font-weight="700" fill="var(--ink)">② 군중 온도</text>
       <text x="165" y="196" text-anchor="middle" font-size="12.5" fill="var(--ink-2)">빚투 · 공매도 · 변동성 · 수급 등 8가지</text>
-      <text x="360" y="76" font-size="14" font-weight="700" fill="var(--ink-2)">× 0.6</text>
-      <text x="360" y="186" font-size="14" font-weight="700" fill="var(--ink-2)">× 0.4</text>
-      <path d="M 310 70 C 400 70, 420 118, 470 122" fill="none" stroke="var(--axis)" stroke-width="1.5"/>
-      <path d="M 310 180 C 400 180, 420 132, 470 128" fill="none" stroke="var(--axis)" stroke-width="1.5"/>
-      <rect x="480" y="85" width="390" height="80" rx="12" fill="var(--surface)" stroke="var(--ink)" stroke-width="1.5"/>
-      <text x="675" y="118" text-anchor="middle" font-size="17" font-weight="700" fill="var(--ink)">미스터 마켓 점수 (−100 ~ +100)</text>
-      <text x="675" y="142" text-anchor="middle" font-size="12.5" fill="var(--ink-2)">+ 급출렁 방지를 위한 3일 평활</text>
+      <path d="M 310 70 L 470 70" fill="none" stroke="var(--axis)" stroke-width="1.5"/>
+      <path d="M 310 180 L 470 180" fill="none" stroke="var(--axis)" stroke-width="1.5"/>
+      <rect x="480" y="35" width="390" height="70" rx="12" fill="var(--surface)" stroke="var(--ink)" stroke-width="1.5"/>
+      <text x="675" y="64" text-anchor="middle" font-size="16" font-weight="700" fill="var(--ink)">점수 = 가격표 (−100 ~ +100)</text>
+      <text x="675" y="88" text-anchor="middle" font-size="12" fill="var(--ink-2)">시가총액 합계를 가치 합계에 대어 본 값 — 그게 전부</text>
+      <rect x="480" y="145" width="390" height="70" rx="12" fill="var(--surface)" stroke="var(--grid)" stroke-width="1.5"/>
+      <text x="675" y="174" text-anchor="middle" font-size="16" font-weight="700" fill="var(--ink)">국면 = 절망 · 회복 · 도취 · 의심</text>
+      <text x="675" y="198" text-anchor="middle" font-size="12" fill="var(--ink-2)">가격표 부호 × 군중 온도 부호 — 점수와 별개의 축</text>
     </svg>
-    <figcaption>가격표에 더 큰 비중(0.6)을 두는 이유: 검증 결과, 미래 수익률과의 관계(예측력)는
-    주로 가격표 쪽에서 나오기 때문입니다. 군중 온도는 그 위에 "지금 분위기"의 결을 입힙니다.</figcaption>
+    <figcaption>과거에는 두 재료를 하나의 점수로 섞었지만, 지금은 <strong>섞지 않습니다</strong>.
+    검증 결과 미래 수익률과의 관계는 가격표에서 나오고, 군중 온도는 "같은 가격표라도 어떤 분위기에서
+    나온 것인지"를 알려주는 별도의 축이 더 정직했기 때문입니다.</figcaption>
   </figure>
 </section>
 
@@ -154,7 +157,7 @@ aside.picker { background: var(--surface); border: 1px solid var(--ring); border
                S 420 150, 470 120 S 540 40, 600 70 S 680 130, 720 100 S 800 40, 860 60"
             fill="none" stroke="var(--ink-2)" stroke-width="1.8"/>
       <text x="300" y="196" font-size="13" font-weight="700" fill="var(--despondency)">기업의 실체 (천천히 변함)</text>
-      <text x="300" y="212" font-size="11.5" fill="var(--muted)">= 장기 평균 이익 능력 × 순자산, 실제 공시일 기준</text>
+      <text x="300" y="212" font-size="11.5" fill="var(--muted)">= 정상화 이익 능력으로 산정한 가치 범위, 실제 공시일 기준</text>
       <text x="620" y="45" font-size="13" font-weight="700" fill="var(--ink-2)">주가 (매일 바뀜)</text>
       <line x1="860" y1="60" x2="860" y2="120" stroke="var(--euphoria)" stroke-width="2"/>
       <path d="M 855 66 L 860 58 L 865 66 Z" fill="var(--euphoria)"/>
@@ -162,9 +165,10 @@ aside.picker { background: var(--surface); border: 1px solid var(--ring); border
       <text x="845" y="95" text-anchor="end" font-size="12.5" font-weight="700" fill="var(--euphoria)">이 간격이</text>
       <text x="845" y="110" text-anchor="end" font-size="12.5" font-weight="700" fill="var(--euphoria)">"가격표"</text>
     </svg>
-    <figcaption>기업의 실체는 <strong>최근 5년 평균 수익력 × 순자산</strong>으로 잽니다. 한 해 실적이
-    유난히 좋거나 나빠도 흔들리지 않도록 긴 평균을 씁니다 (노벨상 수상자 로버트 실러 교수의
-    CAPE 방식과 같은 발상). 주가·시가총액은 매일 반영합니다.</figcaption>
+    <figcaption>기업의 실체(정상화 이익 능력)는 <strong>장기 실적의 중앙값 50% + 최근 4개 분기
+    실적의 중앙값 50%</strong>를 섞어 잽니다. 한 해의 이상치에 휘둘리지 않으면서(실러 CAPE의 발상),
+    확인된 구조 변화(예: 2023→26년 이익 급증)는 절반만큼 즉시 인정하는 절충입니다 — 단, 어디까지나
+    <strong>이미 발표된 실적만</strong> 씁니다. 전망치는 넣지 않습니다. 주가·시가총액은 매일 반영합니다.</figcaption>
   </figure>
 
   <h3>"비싸다"의 기준: 기업마다 독립적인 가치 범위를 만듭니다</h3>
@@ -177,8 +181,8 @@ aside.picker { background: var(--surface); border: 1px solid var(--ring); border
   가치"로 바꿉니다(브릿지가 불완전하면 평가를 보류합니다 — 0으로 대충 채우지 않습니다).
   은행 등 금융회사는 자기자본과 초과이익으로 별도 평가합니다.</p>
   <p>오늘 시장이 부르는 값이 가치 범위의 <strong>하단이면 +30, 중심이면 0, 상단이면 −30</strong>
-  (페이지 점수 기준: 부호 반전 — 하단 −30 · 중심 0 · 상단 +30)이고, 그 밖은 로그 척도로
-  ±100까지 뻗습니다. 시장 점수는 종목 점수의 평균이 아니라, <strong>커버된 기업 전체의 시가총액
+  (페이지 점수 기준: 부호 반전 — 하단 −30 · 중심 0 · 상단 +30)이고, 그 밖은 부드러운 로그
+  곡선으로 ±100을 향해 뻗습니다 (가치 중심의 2배 가격 ≈ +62 — 절대 ±100에 붙어 멈추지 않습니다). 시장 점수는 종목 점수의 평균이 아니라, <strong>커버된 기업 전체의 시가총액
   합계를 가치 합계에 대어 본 값</strong>입니다.</p>
   <div class="callout">
     <p style="font-size:14px"><strong>알아두실 특징:</strong> 가치는 세 개의 렌즈로 삼각측량합니다 —
@@ -214,31 +218,43 @@ aside.picker { background: var(--surface); border: 1px solid var(--ring); border
   <details>
     <summary>더 깊이 — 가격표의 정확한 계산 규칙</summary>
     <ul>
-      <li><strong>수익력 평균 기간:</strong> 1,260 거래일(약 5년) 이동평균. 최소 315 거래일(약 1년 3개월)의
-      재무 데이터가 쌓여야 계산이 시작됩니다 — 상장 초기 기업은 그동안 가격표가 비어 있습니다.</li>
-      <li><strong>다섯 개의 자를 평균:</strong> ① 수익력 잣대 = 5년 평균 자기자본이익률 × (순자산 ÷ 시가총액),
-      ② 자산 잣대 = 순자산 ÷ 시가총액, ③ 영업이익 잣대 = 5년 평활 연환산 영업이익 ÷ 시가총액,
-      ④ 매출총이익 잣대 = 5년 평활 연환산 매출총이익 ÷ 시가총액 (회계적으로 부풀리기 가장 어려운 항목),
-      ⑤ 매출 잣대 = 5년 평활 연환산 매출 ÷ 시가총액 (이익률이 출렁이는 기업을 안정화).
-      각각 따로 "역사 속 몇 번째"로 점수화한 뒤 <strong>이용 가능한 잣대들의 평균</strong>을 씁니다 —
-      분기 재무가 없는 기업·시기는 자동으로 ①②만으로 계산됩니다. 한 잣대의 착시를 나머지가 견제합니다.</li>
-      <li><strong>매일 움직이는 이유:</strong> 순자산과 이익은 분기마다 갱신되지만, 나누는 분모(시가총액)는
-      매일의 주가로 다시 계산합니다. 그래서 "실체는 그대로, 값만 출렁이는" 그레이엄의 구도가 됩니다.</li>
-      <li><strong>줄 세우기 규칙:</strong> 확장형(그날까지의 전체 역사, 2014년~) 백분위. 최소 252 거래일(1년)의
-      관측이 쌓여야 점수가 나옵니다. 그래서 지수 전체 역사가 2019년부터 시작합니다.</li>
-      <li><strong>시장 합산:</strong> 종목별 잣대를 시가총액 가중으로 합쳐 시장 하나의 잣대를 만든 뒤
-      점수화합니다 (대형주가 시장 가격표를 좌우 — 지수의 실제 구성과 같은 논리).</li>
+      <li><strong>정상화 이익 능력:</strong> 이익률(영업이익률·현금창출률)을 <strong>장기 중앙값 50% +
+      최근 4개 분기 중앙값 50%</strong>로 섞어 최근 매출에 적용합니다. 발표된 실적만 사용 — 전망치 없음.
+      한 해의 피크는 앵커를 최대 절반까지만 움직일 수 있습니다.</li>
+      <li><strong>세 개의 가치 렌즈:</strong> ① 잉여현금흐름(FCFF) 2단계 할인 — 성장은 "실제로 해 온
+      재투자 × 재투자 수익률"만큼만 인정, 등급이 낮을수록 더 빨리 잦아드는(fade) 구조.
+      ② 이익 능력(NOPAT ÷ 할인율) — 성장을 전혀 인정하지 않는 대신, 성장 투자에 들어간 현금을
+      가치 파괴로 취급하지도 않는 렌즈. 반도체처럼 설비투자가 큰 기업을 ①만으로 재면 만년
+      "비싸 보이는" 왜곡이 생깁니다. <strong>중심값 = 두 렌즈 중 큰 쪽</strong> (①은 성장을 이미 셌고
+      ②는 성장을 안 세므로, 큰 쪽을 골라도 성장이 두 번 계산되지 않습니다).
+      ③ 은행 등 금융회사와 지분법 지주회사(매출은 작은데 이익률이 비정상적으로 높고 순이익≈영업이익인
+      회계 시그니처로 감지)는 자기자본 + 초과이익(잔여이익) 모형으로 별도 평가합니다.</li>
+      <li><strong>등급 → 내다보는 길이:</strong> 6가지 회계 증거(수익성·현금창출·재무 체력·안정성·
+      재투자 생산성·주당 성과)로 A~E 등급을 매기고, A등급은 10년·±18% 범위, 하위 등급은 3년·±50%
+      범위만 내다볼 자격을 얻습니다.</li>
+      <li><strong>점수 척도:</strong> 시장이 부르는 값이 가치 하단이면 −30, 중심이면 0, 상단이면 +30
+      (페이지 점수 기준). 범위 밖은 로그 척도의 부드러운 곡선으로 이어져 — 가치의 2배면 약 +62 —
+      절대 ±100에 붙어 멈추지 않습니다 (급락이 보이지 않던 버그를 고친 결과입니다).</li>
+      <li><strong>시장 점수:</strong> 종목 점수의 평균이 아니라 <strong>커버된 기업 전체의 시가총액 합계 ÷
+      가치 합계</strong>를 같은 척도로 점수화한 값입니다 (대형주가 시장 가격표를 좌우 — 지수의 실제 구성과
+      같은 논리).</li>
+      <li><strong>커버리지 게이트:</strong> 시가총액 기준 75% 이상 평가되고 특정 기업 쏠림이 25% 미만일 때만
+      점수를 공표합니다. 순부채 브릿지가 불완전한 기업은 0으로 채우지 않고 <strong>평가를 보류</strong>합니다.
+      장기 적자로 이익 능력을 인증할 수 없는 기업(파이프라인 단계 바이오 등)도 마찬가지 — 엉터리 숫자보다
+      빈칸이 낫다는 원칙입니다.</li>
       <li><strong>공시일 규칙:</strong> 분기 재무는 실제 공시 접수일 + 1일부터 사용. 공시일을 확인할 수 없는
-      경우에만 "분기말 + 45일" 보수적 가정으로 대체합니다. 순자산이 음수(자본잠식)인 종목은 잣대 계산에서
-      제외됩니다.</li>
+      경우에만 "분기말 + 45일" 보수적 가정으로 대체합니다.</li>
+      <li><strong>역사 범위:</strong> 코스피·코스닥 모두 분기별 평가를 2018년부터 재구성했습니다
+      (일별 점수는 2018년 4월부터).</li>
     </ul>
   </details>
 </section>
 
 <section>
-  <h2>② 군중 온도 — 투자자들의 체온계 8개</h2>
+  <h2>② 군중 온도 — 투자자들의 체온계 8개 <span style="font-size:14px;color:var(--muted);font-weight:400">(점수에 미포함 — 국면 판정 전용)</span></h2>
   <p>사람들이 얼마나 달아올랐는지는 한 가지로 잴 수 없어서, 성격이 다른 체온계 8개의 평균을 씁니다.
-  각 체온계도 가격표와 같은 방식으로 "자기 과거 대비 몇 번째"로 점수화됩니다.</p>
+  각 체온계는 "자기 과거 대비 몇 번째"(백분위)로 점수화됩니다. <strong>군중 온도는 점수(가격표)에
+  섞이지 않습니다</strong> — 가격표의 부호와 조합해 국면(절망·회복·도취·의심)을 판정하는 데만 씁니다.</p>
   <div class="grid3">
     <div class="card"><h3 style="color:var(--euphoria)">뜨거움(탐욕) 신호</h3>
     <p><strong>빚투 증가</strong> — 신용융자 잔고가 불어나면 탐욕 ·
@@ -280,12 +296,12 @@ aside.picker { background: var(--surface); border: 1px solid var(--ring); border
 </section>
 
 <section>
-  <h2>③ 하나로 합치기</h2>
-  <div class="formula">점수 &nbsp;=&nbsp; 0.6 × 가격표 &nbsp;+&nbsp; 0.4 × 군중 온도
-    <small>마지막에 3일 평활(들쭉날쭉 완화) 후 −100 ~ +100 범위로 표시합니다.</small></div>
-  <p>가격표와 군중 온도가 <strong>서로 반대 방향</strong>일 수도 있습니다. 지금이 그렇습니다 —
-  가격표는 높은데(비쌈) 군중 온도는 낮습니다(불안). 그래서 점수 하나만 보지 말고, 지수 소개
-  페이지의 <a href="mr_market.html" style="color:var(--despondency)">사분면 지도</a>에서 "어떤 조합인지"를
+  <h2>③ 점수와 국면 — 두 개의 축, 섞지 않음</h2>
+  <div class="formula">점수 &nbsp;=&nbsp; 가격표 그 자체 &nbsp;·&nbsp; 국면 &nbsp;=&nbsp; (가격표 부호 × 군중 온도 부호)
+    <small>점수는 −100 ~ +100 (가치의 2배 ≈ +62). 군중 온도는 점수에 들어가지 않습니다.</small></div>
+  <p>가격표와 군중 온도가 <strong>서로 반대 방향</strong>일 수 있습니다 — 비싼데 군중이 겁먹은 날(의심),
+  싼데 군중이 데워지는 날(회복). 두 축을 하나의 숫자로 섞으면 이 정보가 사라지기 때문에 섞지 않고,
+  <a href="mr_market.html" style="color:var(--despondency)">사분면 지도</a>에서 "어떤 조합인지"를
   함께 보도록 만들었습니다:</p>
   <figure class="card" style="padding:20px">
     <svg viewBox="0 0 560 300" width="560" height="300" role="img" aria-label="사분면 정의" style="margin:0 auto">
@@ -310,14 +326,13 @@ aside.picker { background: var(--surface); border: 1px solid var(--ring); border
   <details>
     <summary>더 깊이 — 합성과 구간 이름의 규칙</summary>
     <ul>
-      <li><strong>왜 6 : 4인가:</strong> 검증에서 "이후 수익률과의 관계"는 가격표 쪽에서 나왔습니다.
+      <li><strong>왜 섞지 않는가:</strong> 검증에서 "이후 수익률과의 관계"는 가격표에서 나왔고,
       군중 온도만으로 만든 지표들은 (이 연구를 포함해 학계 전반에서) 장기 예측력이 약합니다.
-      그래서 예측의 몸통에 0.6, 분위기의 결에 0.4를 줍니다.</li>
-      <li><strong>3일 평활:</strong> 지수이동평균(span 3). 하루짜리 데이터 잡음은 걸러내되,
-      한 주간의 진짜 분위기 변화는 살아남는 수준입니다.</li>
-      <li><strong>값 구간(헐값~거품값):</strong> 점수를 고정 컷 −40 / −10 / +30 / +60에서 자릅니다 —
-      "이 점수가 실제로 의미해 온 것" 표와 정확히 같은 구간입니다. 값 구간의 이름은 일부러
-      가격 언어(헐값·싼값·제값·비싼값·거품값)만 씁니다.</li>
+      예전 버전은 6:4로 섞었지만, 지금은 예측의 몸통(가격표)만 점수로 쓰고 군중 온도는
+      국면이라는 별도 축으로 분리하는 쪽이 더 정직하다고 판단해 바꿨습니다.</li>
+      <li><strong>값 구간(싼값~거품값):</strong> 점수를 고정 컷 −10 / −6 / −1 / +16에서 자릅니다 —
+      역사 전체를 5등분한 실측 경계이고, "이 점수가 실제로 의미해 온 것" 표와 정확히 같은
+      구간입니다. 이름은 일부러 가격 언어(싼값·다소 싼값·제값·다소 비쌈·거품값)만 씁니다.</li>
       <li><strong>사분면 판정:</strong> 가격표와 군중 온도 각각의 부호(0 기준)로 나눕니다.
       숫자가 같아도 조합이 다르면 다른 국면입니다 — 그래서 점수와 사분면을 함께 보여줍니다.
       국면의 이름은 일부러 기분 언어(절망·회복·도취·의심)만 씁니다 — <strong>숫자의 딱지는 "값",
@@ -354,14 +369,14 @@ aside.picker { background: var(--surface); border: 1px solid var(--ring); border
       <text x="60" y="52" text-anchor="end" font-size="11" fill="var(--muted)">+0.2</text>
       <text x="60" y="124" text-anchor="end" font-size="11" fill="var(--muted)">0</text>
       <text x="60" y="196" text-anchor="end" font-size="11" fill="var(--muted)">−0.4</text>
-      <text x="60" y="232" text-anchor="end" font-size="11" fill="var(--muted)">−0.64</text>
+      <text x="60" y="232" text-anchor="end" font-size="11" fill="var(--muted)">−0.61</text>
       <g>
-        <rect x="100" y="106" width="70" height="14" rx="3" fill="var(--muted)" opacity="0.6"/>
-        <rect x="220" y="90"  width="70" height="30" rx="3" fill="var(--muted)" opacity="0.6"/>
-        <rect x="340" y="120" width="70" height="4"  rx="2" fill="var(--muted)" opacity="0.6"/>
-        <rect x="460" y="120" width="70" height="68" rx="3" fill="var(--despondency)"/>
-        <rect x="580" y="120" width="70" height="92" rx="3" fill="var(--despondency)"/>
-        <rect x="700" y="120" width="70" height="115" rx="3" fill="var(--despondency)"/>
+        <rect x="100" y="118" width="70" height="4"  rx="2" fill="var(--muted)" opacity="0.6"/>
+        <rect x="220" y="120" width="70" height="8"  rx="3" fill="var(--muted)" opacity="0.6"/>
+        <rect x="340" y="120" width="70" height="20" rx="3" fill="var(--muted)" opacity="0.6"/>
+        <rect x="460" y="120" width="70" height="74" rx="3" fill="var(--despondency)"/>
+        <rect x="580" y="120" width="70" height="94" rx="3" fill="var(--despondency)"/>
+        <rect x="700" y="120" width="70" height="110" rx="3" fill="var(--despondency)"/>
       </g>
       <text x="135" y="250" text-anchor="middle" font-size="12" fill="var(--ink-2)">1개월</text>
       <text x="255" y="250" text-anchor="middle" font-size="12" fill="var(--ink-2)">3개월</text>
@@ -369,9 +384,9 @@ aside.picker { background: var(--surface); border: 1px solid var(--ring); border
       <text x="495" y="250" text-anchor="middle" font-size="12" font-weight="700" fill="var(--ink)">12개월</text>
       <text x="615" y="250" text-anchor="middle" font-size="12" font-weight="700" fill="var(--ink)">24개월</text>
       <text x="735" y="250" text-anchor="middle" font-size="12" font-weight="700" fill="var(--ink)">36개월</text>
-      <text x="495" y="205" text-anchor="middle" font-size="11.5" font-weight="600" fill="var(--despondency)">−0.38</text>
-      <text x="615" y="229" text-anchor="middle" font-size="11.5" font-weight="600" fill="var(--despondency)">−0.51</text>
-      <text x="735" y="252" text-anchor="middle" font-size="11.5" font-weight="600" fill="var(--despondency)" dy="-16">−0.64</text>
+      <text x="495" y="209" text-anchor="middle" font-size="11.5" font-weight="600" fill="var(--despondency)">−0.41</text>
+      <text x="615" y="229" text-anchor="middle" font-size="11.5" font-weight="600" fill="var(--despondency)">−0.52</text>
+      <text x="735" y="247" text-anchor="middle" font-size="11.5" font-weight="600" fill="var(--despondency)">−0.61</text>
       <text x="840" y="40" text-anchor="end" font-size="12" fill="var(--ink-2)">막대가 아래로 길수록 = "점수 높음 &#8594; 이후 수익 나쁨"이 뚜렷</text>
     </svg>
     <figcaption>점수와 이후 코스피 수익률의 상관관계. 1~3개월 뒤는 거의 무관하지만(이 지수는 단기
@@ -380,49 +395,55 @@ aside.picker { background: var(--surface); border: 1px solid var(--ring); border
   </figure>
 
   <h3>시험 2 — 유명한 순간들을 맞혔는가?</h3>
-  <p>2020년 코로나 바닥과 2022년 바닥에서 <strong>절망</strong>(큰 마이너스), 2021년 고점과
-  2025–26년 과열에서 <strong>도취/탐욕</strong>(큰 플러스) — 네 번 모두 정답이었습니다.
-  특히 코로나 바닥에서는 −60까지 내려가며 "역사적 기회"를 크게 외쳤습니다.</p>
+  <p>2020년 코로나 바닥 <strong>−29 (역사상 가장 싼 날, 0번째 백분위)</strong>, 2022년 바닥 −15
+  (하위 3.5%), 2021년 고점 +28 (상위 12%), 2026년 5월 과열 +59 (상위 0.5%) — 네 번 모두
+  정답 방향이었습니다. 특히 시장 전체가 독립 가치 아래로 내려간 것은 코로나 바닥과 2022년
+  바닥뿐이라, 깊은 마이너스는 그 자체로 희소한 신호입니다.</p>
 
-  <h3>시험 3 — 학습에 쓰지 않은 데이터에서도 통했는가?</h3>
-  <p>각 시점까지의 데이터만으로 점수를 만들고 "그 다음 12개월"의 방향을 맞히는 시험에서
-  <strong>적중률 64%</strong>를 기록했습니다. 동전 던지기(50%)와 뚜렷이 구분되는 수준입니다.</p>
+  <h3>시험 3 — 구간의 이름값을 하는가?</h3>
+  <p>값 구간(싼값~거품값)별로 "그 구간이던 날로부터 12개월 뒤 코스피"를 전부 세면:
+  <strong>싼값 구간은 중앙값 +8%에 상승 확률 81%, 거품값 구간은 중앙값 −17%에 상승 확률 9%</strong>
+  — 구간 이름이 결과와 일치합니다 (전체 표는 지수 소개 페이지). 점수로 주식 비중을 기계적으로
+  조절하는 백테스트에서는 최대 낙폭이 −42% → −29%로 줄었지만 강세장 수익도 함께 줄었습니다 —
+  매매 신호가 아니라 <strong>현금 투입 속도 조절</strong> 용도라는 뜻입니다.</p>
 
   <details>
     <summary>더 깊이 — 검증 수치 전체</summary>
     <p>점수와 이후 코스피 수익률의 순위 상관(스피어만), 그리고 "점수가 가장 낮았던(가장 쌌던) 날들
     하위 10% − 가장 높았던(가장 비쌌던) 날들 상위 10%"의 이후 수익률 격차:</p>
     <table>
-      <thead><tr><th>이후 기간</th><th class="num">순위 상관</th><th class="num">절망 − 도취 수익 격차</th><th class="num">관측일수</th></tr></thead>
+      <thead><tr><th>이후 기간</th><th class="num">순위 상관</th><th class="num">싼 쪽 10% − 비싼 쪽 10% 수익 격차</th><th class="num">관측일수</th></tr></thead>
       <tbody>
-        <tr><td>1개월</td><td class="num">+0.08</td><td class="num">−4%p</td><td class="num">1,764</td></tr>
-        <tr><td>3개월</td><td class="num">+0.17</td><td class="num">−10%p</td><td class="num">1,722</td></tr>
-        <tr><td>6개월</td><td class="num">−0.02</td><td class="num">−6%p</td><td class="num">1,659</td></tr>
-        <tr><td><strong>12개월</strong></td><td class="num"><strong>−0.38</strong></td><td class="num"><strong>+34%p</strong></td><td class="num">1,533</td></tr>
-        <tr><td>24개월</td><td class="num">−0.51</td><td class="num">+60%p</td><td class="num">1,281</td></tr>
-        <tr><td>36개월</td><td class="num">−0.64</td><td class="num">+37%p</td><td class="num">1,029</td></tr>
+        <tr><td>1개월</td><td class="num">+0.01</td><td class="num">−0%p</td><td class="num">2,014</td></tr>
+        <tr><td>6개월</td><td class="num">−0.11</td><td class="num">+10%p</td><td class="num">1,909</td></tr>
+        <tr><td><strong>12개월</strong></td><td class="num"><strong>−0.41</strong></td><td class="num"><strong>+28%p</strong></td><td class="num">1,783</td></tr>
+        <tr><td>24개월</td><td class="num">−0.52</td><td class="num">+68%p</td><td class="num">1,531</td></tr>
+        <tr><td>36개월</td><td class="num">−0.61</td><td class="num">+47%p</td><td class="num">1,279</td></tr>
       </tbody>
     </table>
     <ul style="margin-top:10px">
       <li><strong>읽는 법:</strong> 상관이 마이너스 = "점수 높음 → 이후 수익 낮음". 격차가 플러스 =
-      절망에 산 쪽이 도취에 산 쪽보다 그만큼 더 벌었다는 뜻. 1~6개월은 사실상 무신호 —
-      이 지수로 단기 매매를 하면 안 되는 이유가 숫자에 그대로 있습니다.</li>
-      <li><strong>표본 외 시험의 정의:</strong> 시점 t까지의 데이터만으로 점수를 계산하고, 점수의 부호로
-      다음 12개월 방향을 예측(마이너스면 상승 쪽) — 780일 반복, 적중률 64.2%.</li>
-      <li><strong>속도 조절 백테스트:</strong> 점수에 따라 주식 비중을 매일 기계적으로 조절하는 단순 실험에서
-      최대 낙폭은 −36% → −22%로 줄었지만 강세장 수익도 함께 줄었습니다. 결론: 매매 신호가 아니라
-      <strong>현금 투입 속도</strong>를 조절하는 용도에 맞습니다.</li>
-      <li><strong>검증의 범위:</strong> 위 수치는 모두 <strong>시장 지수(전체 시장 점수 vs 코스피)</strong> 레벨입니다.
-      업종·종목별 점수는 같은 조리법을 적용한 참고 지표로, 종목 선택 성과는 별도로 검증되지 않았습니다.</li>
+      가장 쌌던 날들에 산 쪽이 가장 비쌌던 날들에 산 쪽보다 그만큼 더 벌었다는 뜻. 1~6개월은
+      사실상 무신호 — 이 지수로 단기 매매를 하면 안 되는 이유가 숫자에 그대로 있습니다.</li>
+      <li><strong>속도 조절 백테스트:</strong> 점수에 따라 주식 비중을 기계적으로 조절하는 단순 실험에서
+      최대 낙폭은 −42% → −29%로 줄었지만 연수익도 12.9% → 8.1%로 줄었습니다. 결론: 매매 신호가
+      아니라 <strong>현금 투입 속도</strong>를 조절하는 용도에 맞습니다.</li>
+      <li><strong>검증의 범위:</strong> 위 수치는 모두 <strong>시장 지수(전체 시장 점수 vs 코스피)</strong> 레벨이며,
+      과거 전체 구간에 하나의 조리법을 적용해 계산한 값입니다(사후 검증). 종목별 점수는 순위 정보만
+      통계적으로 유의하고, "싼 종목 매수" 전략은 시장·규모·모멘텀 통제 후 유의하지 않았습니다.</li>
     </ul>
   </details>
 
   <div class="callout">
     <h3 style="margin-top:0">솔직한 한계</h3>
-    <p style="font-size:14px">· 점수 역사가 2019년부터라 길지 않습니다 (기업 실체 계산에 5년치 재무가
-    필요해서 그 이전은 만들 수 없습니다).<br>
-    · 12개월 수익률 관측은 서로 겹치므로 통계적 표본은 보기보다 적습니다.<br>
-    · "도취" 구간(+60 이상)은 지금까지 13일뿐 — 그 구간 통계는 참고만 하세요.<br>
+    <p style="font-size:14px">· 점수 역사가 2018년 4월부터라 길지 않고, 12개월 수익률 관측은 서로
+    겹치므로 통계적 표본은 보기보다 적습니다.<br>
+    · 구간 경계와 검증표는 과거 전체 구간에서 계산한 사후 수치입니다 — 미래에도 같으리라는 보장이 아닙니다.<br>
+    · 가치는 발표된 실적만 세므로, 미래가 아직 숫자로 도착하지 않은 기업(신약 파이프라인 등)은
+    평가가 비거나 실제보다 비싸 보일 수 있습니다.<br>
+    · 코스닥은 초기 연도의 평가 가능 종목이 얇습니다(2018년 17곳 → 2026년 163곳) — 초기 코스닥
+    수치는 더 성기게 읽어주세요.<br>
+    · 보험·증권사는 아직 평가 데이터가 없어 빠져 있습니다.<br>
     · 그리고 언제나: 과거의 규칙성이 미래를 보장하지 않습니다.</p>
   </div>
 </section>
