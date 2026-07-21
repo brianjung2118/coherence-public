@@ -110,8 +110,8 @@ aside.picker { background: var(--surface); border: 1px solid var(--ring); border
 <header>
   <div class="kicker">종목별 보기</div>
   <h1 style="font-size:36px">종목 하나하나에도 미스터 마켓이 있습니다</h1>
-  <p class="sub">시장 전체에 쓰는 것과 <strong>완전히 같은 조리법</strong> — 그 종목의 실체 대비 가격표(0.6)
-  + 그 종목만의 군중 온도(0.4) — 을 종목 단위로 적용했습니다. 시가총액 상위 종목 가운데
+  <p class="sub">시장 전체에 쓰는 것과 <strong>완전히 같은 조리법</strong> — 그 종목의 독립 가치 범위에
+  매일의 시가총액을 대어 본 가격표가 점수이고, 그 종목만의 군중 온도는 국면을 판정합니다. 시가총액 상위 종목 가운데
   5년치 재무와 1년치 점수 이력이 충분히 쌓인 종목만 제공합니다 (신규 상장주는 이력이 쌓이면 자동 편입).</p>
 </header>
 
@@ -180,6 +180,13 @@ aside.picker { background: var(--surface); border: 1px solid var(--ring); border
         <div id="prices"></div>
         <figcaption>점수가 높던 구간과 낮던 구간 뒤에 주가가 어떻게 움직였는지 위 차트와 비교해 보세요.
         "지수 비교"를 켜면 같은 시장 지수(시작=100)가 함께 표시됩니다.</figcaption>
+      </div>
+      <div id="ratioBlock" style="border-top:1px solid var(--grid);margin-top:14px;padding-top:12px;display:none">
+        <div style="font-size:13.5px;font-weight:600;color:var(--ink-2)">이 종목의 디스카운트 지수 — 시가총액 ÷ 확인가치 (로그 축, 1.0 = 제값)</div>
+        <div id="ratioChart"></div>
+        <figcaption>점수와 같은 정보를 압축 없는 배수 축으로 본 것입니다. 1.0 아래 = 확인된 가치보다 싸게,
+        위 = 웃돈. 배수가 높을수록 가격의 더 많은 부분이 아직 도착하지 않은 미래에 대한 값입니다.
+        낮은 배수가 오래 유지되는 종목은 "싸다"가 아니라 "시장이 오래 외면해 왔다"로 읽어야 합니다.</figcaption>
       </div>
     </figure>
     <figure class="card" style="padding:16px;margin-top:14px">
@@ -347,7 +354,38 @@ function drawStock(st, meta) {
   } else db.textContent = '비교할 과거 전망이 아직 없습니다';
   drawHistory(S, st.name);
   drawPrice(S, st.board, st.name);
+  drawRatio(S, st.name);
   drawQuadrant(S);
+}
+
+function drawRatio(S, name) {
+  const block = document.getElementById('ratioBlock');
+  const R = S.filter(p => p.r !== null && p.r !== undefined && p.r > 0);
+  if (R.length < 30) { block.style.display = 'none'; return; }
+  block.style.display = 'block';
+  const W = 960, H = 230, M = {t: 14, r: 56, b: 26, l: 46};
+  const t0 = new Date(R[0].d), t1 = new Date(R[R.length - 1].d);
+  const vals = R.map(p => p.r);
+  const lo = Math.min(0.7, Math.min(...vals) * 0.9), hi = Math.max(1.5, Math.max(...vals) * 1.1);
+  const xs = d => M.l + (new Date(d) - t0) / (t1 - t0) * (W - M.l - M.r);
+  const ys = r => M.t + (Math.log(hi) - Math.log(r)) / (Math.log(hi) - Math.log(lo)) * (H - M.t - M.b);
+  const ticks = [0.5, 0.75, 1.0, 1.5, 2, 3, 5, 10, 20, 40].filter(v => v >= lo && v <= hi);
+  let g = `<svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="${name} 디스카운트 지수">`;
+  for (const v of ticks) {
+    const y = ys(v);
+    g += `<line x1="${M.l}" x2="${W - M.r}" y1="${y}" y2="${y}" stroke="${v === 1.0 ? 'var(--axis)' : 'var(--grid)'}" stroke-width="${v === 1.0 ? 1.6 : 1}"/>`;
+    g += `<text x="${M.l - 8}" y="${y + 4}" text-anchor="end" font-size="11" fill="var(--muted)">${v < 1 ? v.toFixed(2) : v}×</text>`;
+  }
+  if (1.0 >= lo && 1.0 <= hi)
+    g += `<text x="${W - M.r + 6}" y="${ys(1.0) + 4}" font-size="11.5" font-weight="700" fill="var(--ink-2)">제값</text>`;
+  for (let yr = t0.getFullYear() + 1; yr <= t1.getFullYear(); yr++)
+    g += `<text x="${xs(yr + '-01-01')}" y="${H - 6}" text-anchor="middle" font-size="11" fill="var(--muted)">${yr}</text>`;
+  const pts = R.map(p => `${xs(p.d).toFixed(1)},${ys(p.r).toFixed(1)}`).join(' ');
+  g += `<polyline points="${pts}" fill="none" stroke="var(--ink)" stroke-width="2"/>`;
+  const last = R[R.length - 1];
+  g += `<text x="${W - M.r + 6}" y="${ys(last.r) + 4}" font-size="11.5" font-weight="700" fill="var(--ink)">${last.r.toFixed(1)}×</text>`;
+  g += `</svg>`;
+  document.getElementById('ratioChart').innerHTML = g;
 }
 
 let idxOn = true;
