@@ -1,0 +1,26 @@
+{
+  "snapshot_id": "entrusted_capital_20260721_ab261f74",
+  "as_of": "2026-07-21",
+  "methodology_version": "shareholder_capture_entrusted_capital_v4",
+  "status": "research_ready",
+  "production_gate": false,
+  "coverage": {
+    "companies": 2720,
+    "receipt_available": 2350,
+    "mature_3y": 1466
+  },
+  "files": {
+    "annual_receipts.parquet": {
+      "sha256": "6d02afb0d6c5ade1a45668af64801b24541007e29a72c568bd62f16b2b5e4286",
+      "bytes": 2078469
+    },
+    "entrusted_capital_ledger.parquet": {
+      "sha256": "04e1398ebcf62764f559fa20622cc05236b9fe783fa505d0d44c9aca3f8a46a2",
+      "bytes": 1191124
+    },
+    "retail_payload.json": {
+      "sha256": "73616c13b8dd34b27c44d41d0d32b5ef3e4b4c90a8cea7c5d7ace6b4ce66c0c3",
+      "bytes": 26127714
+    }
+  }
+}
