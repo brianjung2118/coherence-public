@@ -121,8 +121,9 @@ aside.picker { background: var(--surface); border: 1px solid var(--ring); border
   유의합니다(12개월 순위상관 −0.12). 하지만 <strong>"싼 종목을 사고 비싼 종목을 피하는" 단순 전략은
   시장·규모·모멘텀을 통제하면 유의한 초과수익이 남지 않았습니다</strong> — 저희가 직접 실험해 확인한
   결과입니다. 즉 이 점수는 종목 추천이 아니라 맥락 지표입니다.
-  또 하나의 함정: 이 점수는 각 종목을 <em>자기 자신의 과거</em>와 비교하므로, 사업이 근본적으로
-  좋아져 정당하게 재평가된 기업은 계속 "비쌈"으로 보일 수 있습니다. 종목의 현재 상태를 읽는
+  또 하나의 함정: 이 점수의 가치는 <em>실적으로 이미 확인된 것</em>만 셉니다. 그래서 미래가 아직
+  숫자로 도착하지 않은 기업(신약 파이프라인, 급성장 초입)은 실제보다 "비쌈"으로 보일 수 있고,
+  반대로 낮은 점수가 "왜 싸게 방치되는지"까지 알려주지는 않습니다. 종목의 현재 상태를 읽는
   <strong>맥락 지표</strong>로만 사용하세요.</p>
 </div>
 
@@ -150,6 +151,7 @@ aside.picker { background: var(--surface); border: 1px solid var(--ring); border
         <span class="chip" id="stChip" style="background:var(--muted)">—</span>
         <span class="chip" id="stPhase" style="background:var(--muted);margin-left:6px">—</span>
         <div class="sub2" id="stSub"></div>
+        <div class="sub2" id="stQuadNote" style="margin-top:8px;color:var(--ink)"></div>
       </div>
       <div class="card" style="flex:1 1 300px">
         <div style="font-size:13px;color:var(--ink-2);font-weight:600">전망 가격표 <span style="font-weight:400;color:var(--muted)">— 참고용 · 전망 데이터 이력이 2년 미만이라 아직 백테스트할 수 없습니다</span></div>
@@ -183,6 +185,30 @@ aside.picker { background: var(--surface); border: 1px solid var(--ring); border
       <div id="quadrant"></div>
       <figcaption>월말 기준 이동 경로. 큰 테두리 점 = 오늘.</figcaption>
     </figure>
+
+    <section class="card" style="padding:20px;margin-top:14px">
+      <h2 style="margin-top:0">이 점수, 매매에 어떻게 써야 하나요?</h2>
+      <p style="font-size:14.5px">솔직한 답부터: <strong>이 점수 하나로 사고팔 종목을 고를 수는 없습니다.</strong>
+      저희가 직접 백테스트로 확인했습니다 — "싼 종목을 사고 비싼 종목을 파는" 단순 전략은 시장·규모·모멘텀을
+      감안하면 유의한 초과수익이 남지 않았습니다. 이 점수가 실제로 잘하는 일은 세 가지입니다.</p>
+      <p style="font-size:14.5px"><strong>① 내가 지금 무엇에 돈을 내는지 보여줍니다.</strong>
+      "시가총액 = 확인된 가치의 몇 배"가 이 페이지의 핵심 문장입니다. 1배 근처라면 이미 증명된 실적을 사는
+      것이고, 3배·5배라면 대부분 아직 도착하지 않은 미래에 대한 믿음을 사는 것입니다. 믿음을 사는 게 잘못은
+      아닙니다 — 다만 그럴 땐 "그 믿음의 근거가 나에게 있는가"를 물어야 하고, 전망·실적 이행 패널이
+      그 믿음이 현재 실적으로 뒷받침되는지 보여줍니다.</p>
+      <p style="font-size:14.5px"><strong>② 군중과 같은 방향인지 알려줍니다.</strong> 국면(절망·회복·도취·의심)은
+      지금 이 종목을 산다면 뜨거운 군중에 합류하는 것인지, 식은 군중을 거슬러 사는 것인지를 보여줍니다.
+      역사적으로 시장 전체 기준, 돈은 절망~회복에서 사서 벌렸고 도취에서 사서 잃었습니다.</p>
+      <p style="font-size:14.5px"><strong>③ 질문을 만들어 줍니다.</strong> 낮은 점수(싼값)를 봤다면 —
+      "시장이 왜 이 회사를 외면하나? 내가 아는 답이 있나, 아니면 시장이 아는 이유가 있나(업황 정점,
+      지배구조, 사양산업)?" 높은 점수(거품값)를 봤다면 — "웃돈을 정당화할 미래가 실제로 배달되고 있나?
+      전망은 오르는데 실적이 계속 못 미친다면?" 이 질문에 답을 갖고 있는 사람과 없는 사람의 매매는
+      같은 종목이라도 완전히 다릅니다.</p>
+      <p style="font-size:13px;color:var(--muted)">검증된 것과 아닌 것: 시장 지수 레벨의 구간별 이후 12개월
+      수익률 표는 2019년 이후 전 거래일로 검증되어 있습니다(지수 소개 페이지). 종목 레벨은 순위 정보만
+      통계적으로 유의하고, 매매 전략으로는 검증되지 않았습니다. 교육·연구 목적의 자료이며 투자 자문이
+      아닙니다.</p>
+    </section>
   </main>
 </div>
 
@@ -280,6 +306,20 @@ function drawStock(st, meta) {
       `</span>` : '') +
     (st.series && st.series.length && new Date(st.series[0].d) > new Date('2019-06-30')
       ? `<br><span style="color:var(--muted)">※ 이 종목의 가치 평가는 ${st.series[0].d}부터 — 이력 축적 중입니다.</span>` : '');
+  // 국면 해설 — 종목 단위에서 이 조합이 뜻하는 것 (추천 아님, 읽는 법)
+  const QUAD_NOTE = {
+    Despondency: '<b>절망 = 회사가 망가졌다는 뜻이 아닙니다.</b> 낮은 점수는 확인된 이익이 있어야만 ' +
+      '나올 수 있습니다 — 이 종목은 확인된 가치보다 싸게 팔리는데 군중의 관심도 식어 있는 상태입니다. ' +
+      '다만 "왜 싸게 방치되는지"는 점수가 알려주지 않습니다: 방치된 우량주일 수도, 이유 있는 ' +
+      '가치함정일 수도 있습니다.',
+    Recovery: '<b>회복 = 아직 싸게 팔리는데 온기가 돌아오는 중.</b> 시장 전체 기준으로는 역사적으로 ' +
+      '성적이 가장 좋았던 조합입니다 — 다만 종목 단위에서는 검증된 매수 신호가 아니라 참고 맥락입니다.',
+    Euphoria: '<b>도취 = 비싼 값을 군중이 기꺼이 치르는 중.</b> 웃돈은 아직 도착하지 않은 미래에 대한 ' +
+      '값입니다. 그 믿음이 실제 실적으로 도착하고 있는지는 오른쪽의 전망·실적 이행 패널로 확인하세요.',
+    Doubt: '<b>의심 = 가격은 비싼데 믿음이 식는 중.</b> 역사적으로 고점 뒤에 자주 나타난 조합입니다 — ' +
+      '비싼 가격을 지탱하던 군중의 온기가 빠져나가고 있다는 신호입니다.',
+  };
+  document.getElementById('stQuadNote').innerHTML = QUAD_NOTE[last.q] || '';
   const fb = document.getElementById('fwdBlock');
   if (st.forward) {
     const f = st.forward;
