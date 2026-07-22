@@ -114,6 +114,125 @@ aside.picker { background: var(--surface); border: 1px solid var(--ring); border
   <a href="mr_market_methodology.html" style="color:var(--despondency)">← 방법론 본편으로</a></p>
 </header>
 
+<section>
+  <h2>기호 한 줄, 뼈대 한 줄</h2>
+  <p>이 페이지는 수식을 씁니다 — 다만 무섭지 않게. 기호는 이게 전부입니다:
+  매출 <em>R</em>, 영업이익률 <em>m</em>, 세후영업이익 <em>NOPAT</em>, 잉여현금흐름 <em>F</em>,
+  투하자본 <em>IC</em>, 자기자본 <em>B</em>, 할인율 <em>r</em> (비금융 9%, 금융 10%),
+  영구성장률 <em>g<sub>∞</sub></em> = 2%. 그리고 전체 뼈대는 한 줄입니다:</p>
+  <div class="formula">실적 → 정상화 이익 능력 → 렌즈 3개 → 가치 범위 [L, C, U] → 오늘 가격을 대어 본 점수</div>
+</section>
+
+<section>
+  <h2>1단계 — 정상화 이익 능력: "요즘 실력 반, 평생 실력 반"</h2>
+  <p>한 해 실적은 요란하고, 평생 평균은 굼뜹니다. 그래서 반씩 섞습니다:</p>
+  <div class="formula">m̂ &nbsp;=&nbsp; 0.5 · median(m<sub>1..T</sub>) &nbsp;+&nbsp; 0.5 · median(m<sub>T−3..T</sub>)
+    <small>장기 중앙값 절반 + 최근 4개 분기 중앙값 절반. 정상화 영업이익 = m̂ × R<sub>T</sub>. FCFF 마진도 같은 방식.</small></div>
+  <p>이 한 줄에 성격이 다 들어 있습니다: 한 해의 피크는 앵커를 <strong>최대 절반</strong>까지만
+  끌 수 있고(중앙값이라 한 분기 이상치는 아예 무시), 확인된 구조 변화는 절반만큼 즉시 인정됩니다.
+  전망치는 어디에도 없습니다 — 2021년의 전망도 매우 밝았다는 것을 기억하기 때문입니다.</p>
+  <p><strong>재료 위생 3칙</strong> (기업 재편기의 오염 데이터 방어): ① 매출 ≤ 0인 행은 버림(분할
+  재작성 잔재) · ② 마지막 매출이 직전 4분기 중앙값의 4배 밖이면 그 중앙값으로 대체(합병 분기의
+  중복 집계) · ③ |F/R| ≥ 1인 행의 비율은 무시(스텁 행의 "FCFF 마진 280%" 같은 유령) —
+  세 규칙 모두 실제 사고(DL·동원산업·KG이니시스)에서 배웠습니다.</p>
+</section>
+
+<section>
+  <h2>2단계 — 렌즈 3개: 서로의 거짓말을 잡아 줍니다</h2>
+  <h3>렌즈 A · 현금흐름 할인 (성장을 "번 만큼만" 인정)</h3>
+  <div class="formula">g &nbsp;=&nbsp; clip(재투자율 × 증분ROIC, ±20%) &nbsp;&nbsp;·&nbsp;&nbsp;
+    g<sub>t</sub> &nbsp;=&nbsp; g·(1−t/N) + g<sub>∞</sub>·(t/N)
+    <small>성장률은 가정이 아니라 "실제로 해 온 재투자 × 그 수익률". N년에 걸쳐 2%로 잦아듭니다(fade).</small></div>
+  <div class="formula">V<sub>DCF</sub> &nbsp;=&nbsp; Σ<sub>t=1..N</sub> F<sub>t</sub>/(1+r)<sup>t</sup>
+    &nbsp;+&nbsp; F<sub>N</sub>(1+g<sub>∞</sub>) / (r−g<sub>∞</sub>) / (1+r)<sup>N</sup></div>
+  <h3>렌즈 B · 이익 능력 (성장을 0으로 두는 대신, 성장 투자를 벌주지도 않음)</h3>
+  <div class="formula">V<sub>EPV</sub> &nbsp;=&nbsp; NOPAT / r + 비영업순자산 &nbsp;&nbsp;·&nbsp;&nbsp; NOPAT = m̂·R·(1−0.25)
+    <small>반도체처럼 설비투자가 현금을 다 먹는 해에도 "번 돈"으로 가치를 재는 그린왈드의 렌즈.</small></div>
+  <div class="formula">중심값 C &nbsp;=&nbsp; max(V<sub>DCF</sub>, V<sub>EPV</sub>)
+    <small>성장이 두 번 계산될 걱정은 없습니다 — A는 성장을 이미 셌고, B는 아예 안 셉니다.</small></div>
+  <h3>렌즈 C · 자기자본 + 초과이익 (은행·지분법 지주회사 전용)</h3>
+  <div class="formula">V<sub>RIM</sub> &nbsp;=&nbsp; B<sub>0</sub> + Σ<sub>t=1..N</sub> (ROE<sub>t</sub> − r)·B<sub>t−1</sub> / (1+r)<sup>t</sup>
+    <small>초과수익률은 N년에 걸쳐 선형으로 잦아듭니다. "자본 × 자본이 버는 초과분"의 현재가치.</small></div>
+  <p><strong>지분법 지주회사 판별</strong> (SK스퀘어처럼 손익계산서가 지분법 이익의 "껍데기"인 회사):
+  최근 8분기 창에서 세 조건이 동시에 성립하면 — median(m) &gt; 0.30, R/B &lt; 0.5,
+  median(순이익)/median(영업이익) &gt; 0.95 — 렌즈 C로 보냅니다. 그리고 <strong>한 번
+  지주회사는 계속 지주회사</strong>입니다(끈끈이 규칙): 기업 구조는 분기마다 바뀌는 것이 아닌데,
+  판별 재료(지분법 이익)는 투자처의 경기를 따라 요동치기 때문입니다 — 하이닉스의 2023년 적자가
+  SK스퀘어의 판별을 뒤집어 가치가 13배 널뛰던 사고에서 배웠습니다.</p>
+  <p><strong>최소한도 문턱</strong>: 어느 렌즈가 이겼든 C &lt; 0.01 × IC이면 평가를 보류합니다 —
+  투하자본의 1%도 안 되는 "가치"는 수익성 경계에서 생긴 평활화 잡음이지 감정가가 아닙니다.</p>
+</section>
+
+<section>
+  <h2>3단계 — 등급이 사 주는 시간: 연속 fade</h2>
+  <p>사업의 질 점수(0~100)가 좋을수록 더 긴 미래(N)를 더 좁은 오차(±w)로 내다볼 자격을 삽니다.
+  예전엔 등급 경계에서 N이 7→5년으로 뚝 떨어졌는데(점수 1점에 가치 30~40% 절벽), 지금은
+  구간점을 직선으로 이어 연속으로 만듭니다:</p>
+  <figure class="card" style="padding:20px">
+    <svg viewBox="0 0 900 270" width="900" height="270" role="img" aria-label="품질 점수와 fade 연수">
+      <line x1="80" y1="230" x2="820" y2="230" stroke="var(--axis)"/>
+      <line x1="80" y1="30" x2="80" y2="230" stroke="var(--axis)"/>
+      <polyline points="165,208 313,163 471,119 630,74 767,52" fill="none" stroke="var(--despondency)" stroke-width="2.5"/>
+      <g font-size="11" fill="var(--muted)">
+        <text x="165" y="248" text-anchor="middle">28점</text><text x="313" y="248" text-anchor="middle">42점</text>
+        <text x="471" y="248" text-anchor="middle">57점</text><text x="630" y="248" text-anchor="middle">72점</text>
+        <text x="767" y="248" text-anchor="middle">85점</text>
+        <text x="70" y="212" text-anchor="end">3년</text><text x="70" y="123" text-anchor="end">7년</text>
+        <text x="70" y="56" text-anchor="end">10년</text>
+      </g>
+      <text x="450" y="20" text-anchor="middle" font-size="12.5" fill="var(--ink-2)">품질 점수 → 내다보는 연수 N (범위 폭 ±w도 같은 방식: 50% → 18%)</text>
+    </svg>
+    <figcaption>구간점 (28,3) (42,5) (57,7) (72,9) (85,10)을 잇는 꺾은선 — 옛 등급 사다리의 중앙값을
+    그대로 지나므로, 전형적인 기업의 가치는 바뀌지 않고 경계의 절벽만 사라집니다.</figcaption>
+  </figure>
+</section>
+
+<section>
+  <h2>4단계 — 가격을 대어 보는 자: 점수의 정확한 식</h2>
+  <p>범위 [L, C, U]가 나오면, 오늘 가격 P의 위치를 로그 자로 잽니다 (페이지 점수 기준 = 아래 식의 부호 반전):</p>
+  <div class="formula">P ∈ [L, C]: &nbsp; s = 30·ln(C/P)/ln(C/L) &nbsp;&nbsp;·&nbsp;&nbsp;
+    P ∈ [C, U]: &nbsp; s = −30·ln(P/C)/ln(U/C)<br>
+    P &lt; L: &nbsp; s = 30 + 70·tanh(½·log₂(L/P)) &nbsp;&nbsp;·&nbsp;&nbsp;
+    P &gt; U: &nbsp; s = −30 − 70·tanh(½·log₂(P/U))
+    <small>범위 안은 로그 보간, 범위 밖은 tanh 곡선 — ±100에 다가가되 절대 붙지 않습니다.</small></div>
+  <figure class="card" style="padding:20px">
+    <svg viewBox="0 0 900 320" width="900" height="320" role="img" aria-label="가격 배수와 점수 곡선">
+      <line x1="70" y1="160" x2="830" y2="160" stroke="var(--grid)"/>
+      <line x1="450" y1="40" x2="450" y2="280" stroke="var(--grid)"/>
+      <polyline points="70,269 76,268 83,268 89,267 95,266 102,266 108,265 114,264 121,264 127,263 133,262 140,261 146,260 152,259 159,259 165,258 171,257 178,256 184,255 190,253 197,252 203,251 209,250 216,249 222,247 228,246 235,245 241,243 247,242 254,240 260,239 266,237 273,236 279,234 285,232 292,230 298,229 304,227 311,225 317,223 323,221 330,219 336,217 342,215 349,213 355,211 361,209 368,207 374,205 380,203 387,201 393,199 399,197 406,193 412,189 418,184 425,179 431,174 437,170 444,165 450,160 456,155 463,150 469,146 475,141 482,136 488,131 494,127 501,123 507,121 513,119 520,117 526,115 532,113 539,111 545,109 551,107 558,105 564,103 570,101 577,99 583,97 589,95 596,93 602,91 608,90 615,88 621,86 627,84 634,83 640,81 646,80 653,78 659,77 665,75 672,74 678,73 684,71 691,70 697,69 703,68 710,67 716,65 722,64 729,63 735,62 741,61 748,61 754,60 760,59 767,58 773,57 779,56 786,56 792,55 798,54 805,54 811,53 817,52 824,52 830,51" fill="none" stroke="var(--despondency)" stroke-width="2.5"/>
+      <g font-size="11" fill="var(--muted)">
+        <text x="70" y="298" text-anchor="middle">중심의 ⅛배</text>
+        <text x="450" y="298" text-anchor="middle">딱 중심값</text>
+        <text x="830" y="298" text-anchor="middle">중심의 8배</text>
+        <text x="60" y="56" text-anchor="end">+100</text><text x="60" y="164" text-anchor="end">0</text>
+        <text x="60" y="272" text-anchor="end">−100</text>
+      </g>
+      <text x="450" y="26" text-anchor="middle" font-size="12.5" fill="var(--ink-2)">가격 배수(로그) → 페이지 점수. 중앙의 가파른 구간이 [L, U] 안, 양끝의 완만한 곡선이 tanh 꼬리.</text>
+    </svg>
+    <figcaption>2배면 약 +62, 4배면 약 +85 — 극단에서도 기울기가 남아 있어서 폭락·폭등이 늘 점수에 보입니다.
+    시장 점수는 같은 식에 Σ시가총액과 Σ범위를 넣은 것입니다 (평균이 아니라 합산 후 측정).</figcaption>
+  </figure>
+</section>
+
+<section>
+  <h2>이 조립을 이긴 도전자는 아직 없습니다 — 경마 기록부</h2>
+  <p>"더 학술적인" 대안 5가지를 같은 사전 등록 기준(12개월 상관 문턱 −0.35, 역사적 국면 4/4 정답,
+  구간 캘리브레이션 단조성, 커버리지 75%)으로 경주시킨 결과입니다:</p>
+  <table>
+    <thead><tr><th>도전자</th><th>근거 문헌</th><th class="num">12개월 상관</th><th>결과</th></tr></thead>
+    <tbody>
+      <tr><td><strong>현행 조립 (V0)</strong></td><td>—</td><td class="num"><strong>−0.41</strong></td><td><strong>승자 유지</strong></td></tr>
+      <tr><td>시장금리 연동 할인율</td><td>다모다란</td><td class="num">−0.14</td><td>탈락 — 2021년 저금리가 거품을 "정당화"해 버림</td></tr>
+      <tr><td>이익 수준 직접 정상화</td><td>그레이엄/실러</td><td class="num">−0.39</td><td>탈락 — 2022년 바닥 국면 오답</td></tr>
+      <tr><td>둘 다 적용</td><td>—</td><td class="num">−0.08</td><td>탈락</td></tr>
+      <tr><td>무형자산(조직자본) 자본화</td><td>Peters–Taylor</td><td class="num">−0.39</td><td>석패 — 문턱은 전부 통과, 주지표에서 패배. R&amp;D 원자료가 생기면 재도전 예정</td></tr>
+      <tr><td>실측 fade (초과ROIC 반감기)</td><td>수익성 지속성 연구</td><td class="num">−0.41</td><td>무승부 — fade 손잡이는 결과를 좌우하지 않음이 증명됨</td></tr>
+    </tbody>
+  </table>
+  <p style="font-size:13.5px;color:var(--muted);margin-top:8px">이 기록부가 이 방법론의 진짜 방어막입니다:
+  "논문에 있으니 옳다"도 "우리가 만들었으니 옳다"도 아니고, <strong>시험을 통과했으니 쓴다</strong>.</p>
+</section>
+
 <section id="deep1">
   <h2>더 깊이 — 가격표의 정확한 계산 규칙</h2>
     <ul>
