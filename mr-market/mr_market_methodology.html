@@ -173,17 +173,88 @@ aside.picker { background: var(--surface); border: 1px solid var(--ring); border
 
   <h3>"비싸다"의 기준: 기업마다 독립적인 가치 범위를 만듭니다</h3>
   <p>"예전 자기 주가보다 높은가" 같은 상대 비교가 아니라, 기업마다 <strong>보수적인
-  가치 범위(하단 · 중심 · 상단)</strong>를 직접 산정합니다: ① 사업의 질을 6가지 회계 증거
-  (수익성, 현금창출, 재무 체력, 안정성, 재투자 생산성, 주당 성과)로 등급화하고 — <strong>등급이
-  좋을수록 더 긴 미래를 더 좁은 오차로</strong> 내다볼 자격을 얻습니다(A등급 10년·±18%,
-  하위 등급 3년·±50%) — ② 시장 가격을 전혀 쓰지 않고 정상화된 이익 능력을 구한 뒤
-  ③ 현금흐름 할인으로 사업 가치를 계산하고 ④ 부채와 현금을 명시적으로 반영해 "주주 몫의
-  가치"로 바꿉니다(브릿지가 불완전하면 평가를 보류합니다 — 0으로 대충 채우지 않습니다).
-  은행 등 금융회사는 자기자본과 초과이익으로 별도 평가합니다.</p>
-  <p>오늘 시장이 부르는 값이 가치 범위의 <strong>하단이면 +30, 중심이면 0, 상단이면 −30</strong>
-  (페이지 점수 기준: 부호 반전 — 하단 −30 · 중심 0 · 상단 +30)이고, 그 밖은 부드러운 로그
-  곡선으로 ±100을 향해 뻗습니다 (가치 중심의 2배 가격 ≈ +62 — 절대 ±100에 붙어 멈추지 않습니다). 시장 점수는 종목 점수의 평균이 아니라, <strong>커버된 기업 전체의 시가총액
-  합계를 가치 합계에 대어 본 값</strong>입니다.</p>
+  가치 범위(하단 · 중심 · 상단)</strong>를 직접 산정합니다. 한 기업이 점수가 되기까지
+  네 단계를 거칩니다:</p>
+  <figure class="card" style="padding:20px">
+    <svg viewBox="0 0 900 330" width="900" height="330" role="img" aria-label="가치 산정 4단계 파이프라인">
+      <!-- step 1: quality grade -->
+      <rect x="20" y="20" width="200" height="120" rx="12" fill="var(--despondency)" opacity="0.08"/>
+      <rect x="20" y="20" width="200" height="120" rx="12" fill="none" stroke="var(--despondency)" stroke-width="1.5"/>
+      <text x="120" y="46" text-anchor="middle" font-size="14" font-weight="700" fill="var(--ink)">① 사업의 질 등급</text>
+      <text x="120" y="68" text-anchor="middle" font-size="11" fill="var(--ink-2)">회계 증거 6가지</text>
+      <text x="120" y="84" text-anchor="middle" font-size="11" fill="var(--ink-2)">수익성 · 현금창출 · 재무 체력</text>
+      <text x="120" y="100" text-anchor="middle" font-size="11" fill="var(--ink-2)">안정성 · 재투자 생산성 · 주당 성과</text>
+      <text x="120" y="124" text-anchor="middle" font-size="11.5" font-weight="600" fill="var(--despondency)">등급 좋을수록 긴 미래를 좁은 오차로</text>
+      <!-- step 2: earning power -->
+      <rect x="250" y="20" width="200" height="120" rx="12" fill="var(--despondency)" opacity="0.08"/>
+      <rect x="250" y="20" width="200" height="120" rx="12" fill="none" stroke="var(--despondency)" stroke-width="1.5"/>
+      <text x="350" y="46" text-anchor="middle" font-size="14" font-weight="700" fill="var(--ink)">② 정상 이익 능력</text>
+      <text x="350" y="68" text-anchor="middle" font-size="11" fill="var(--ink-2)">장기 실적 중앙값 50%</text>
+      <text x="350" y="84" text-anchor="middle" font-size="11" fill="var(--ink-2)">+ 최근 4분기 중앙값 50%</text>
+      <text x="350" y="108" text-anchor="middle" font-size="11.5" font-weight="600" fill="var(--despondency)">발표된 실적만 · 전망치 없음</text>
+      <text x="350" y="124" text-anchor="middle" font-size="11.5" font-weight="600" fill="var(--despondency)">시장 가격은 전혀 안 봄</text>
+      <!-- step 3: three lenses -->
+      <rect x="480" y="20" width="200" height="120" rx="12" fill="var(--despondency)" opacity="0.08"/>
+      <rect x="480" y="20" width="200" height="120" rx="12" fill="none" stroke="var(--despondency)" stroke-width="1.5"/>
+      <text x="580" y="46" text-anchor="middle" font-size="14" font-weight="700" fill="var(--ink)">③ 렌즈 3개로 삼각측량</text>
+      <text x="580" y="68" text-anchor="middle" font-size="11" fill="var(--ink-2)">현금흐름 할인 (성장 인정)</text>
+      <text x="580" y="84" text-anchor="middle" font-size="11" fill="var(--ink-2)">이익 능력 (성장 0으로 가정)</text>
+      <text x="580" y="100" text-anchor="middle" font-size="11" fill="var(--ink-2)">금융·지주사: 자기자본+초과이익</text>
+      <text x="580" y="124" text-anchor="middle" font-size="11.5" font-weight="600" fill="var(--despondency)">서로의 왜곡을 견제</text>
+      <!-- step 4: bridge -->
+      <rect x="710" y="20" width="170" height="120" rx="12" fill="var(--despondency)" opacity="0.08"/>
+      <rect x="710" y="20" width="170" height="120" rx="12" fill="none" stroke="var(--despondency)" stroke-width="1.5"/>
+      <text x="795" y="46" text-anchor="middle" font-size="14" font-weight="700" fill="var(--ink)">④ 부채·현금 반영</text>
+      <text x="795" y="68" text-anchor="middle" font-size="11" fill="var(--ink-2)">사업 가치에서 순부채를 빼</text>
+      <text x="795" y="84" text-anchor="middle" font-size="11" fill="var(--ink-2)">"주주 몫"으로 환산</text>
+      <text x="795" y="112" text-anchor="middle" font-size="11.5" font-weight="600" fill="var(--despondency)">데이터 불완전하면</text>
+      <text x="795" y="128" text-anchor="middle" font-size="11.5" font-weight="600" fill="var(--despondency)">평가 보류 (0으로 안 채움)</text>
+      <!-- arrows -->
+      <path d="M 224 80 L 246 80" stroke="var(--axis)" stroke-width="2"/><path d="M 242 74 L 250 80 L 242 86 Z" fill="var(--axis)"/>
+      <path d="M 454 80 L 476 80" stroke="var(--axis)" stroke-width="2"/><path d="M 472 74 L 480 80 L 472 86 Z" fill="var(--axis)"/>
+      <path d="M 684 80 L 706 80" stroke="var(--axis)" stroke-width="2"/><path d="M 702 74 L 710 80 L 702 86 Z" fill="var(--axis)"/>
+      <!-- result: the range -->
+      <path d="M 450 148 L 450 180" stroke="var(--axis)" stroke-width="2"/><path d="M 444 176 L 450 184 L 456 176 Z" fill="var(--axis)"/>
+      <rect x="150" y="196" width="600" height="46" rx="10" fill="var(--surface)" stroke="var(--ink)" stroke-width="1.5"/>
+      <line x1="230" y1="196" x2="230" y2="242" stroke="var(--grid)"/>
+      <line x1="670" y1="196" x2="670" y2="242" stroke="var(--grid)"/>
+      <text x="450" y="224" text-anchor="middle" font-size="15" font-weight="700" fill="var(--ink)">가치 범위: 하단 ~ 중심 ~ 상단</text>
+      <text x="190" y="264" text-anchor="middle" font-size="11.5" fill="var(--muted)">보수적 하단</text>
+      <text x="450" y="264" text-anchor="middle" font-size="11.5" fill="var(--muted)">가장 그럴듯한 값</text>
+      <text x="710" y="264" text-anchor="middle" font-size="11.5" fill="var(--muted)">낙관적 상단</text>
+      <text x="450" y="300" text-anchor="middle" font-size="12" fill="var(--ink-2)">등급이 좋을수록 범위가 좁고 (A등급 ±18%), 낮을수록 넓습니다 (±50%) — "모른다"를 숫자로 인정하는 방식입니다.</text>
+    </svg>
+    <figcaption>점수를 만들기까지 시장 가격은 한 번도 등장하지 않습니다 — 그래서 이 가치가
+    가격을 판정하는 "독립적인 자"가 될 수 있습니다.</figcaption>
+  </figure>
+
+  <h3>가격표 점수: 오늘 가격을 그 범위에 대어 봅니다</h3>
+  <figure class="card" style="padding:20px">
+    <svg viewBox="0 0 900 210" width="900" height="210" role="img" aria-label="가격 위치와 점수의 관계">
+      <!-- value range band -->
+      <rect x="250" y="70" width="400" height="34" rx="8" fill="var(--despondency)" opacity="0.14"/>
+      <line x1="250" y1="60" x2="250" y2="114" stroke="var(--despondency)" stroke-width="2"/>
+      <line x1="450" y1="60" x2="450" y2="114" stroke="var(--despondency)" stroke-width="2" stroke-dasharray="4 3"/>
+      <line x1="650" y1="60" x2="650" y2="114" stroke="var(--despondency)" stroke-width="2"/>
+      <text x="250" y="50" text-anchor="middle" font-size="12" font-weight="600" fill="var(--ink-2)">하단</text>
+      <text x="450" y="50" text-anchor="middle" font-size="12" font-weight="600" fill="var(--ink-2)">중심</text>
+      <text x="650" y="50" text-anchor="middle" font-size="12" font-weight="600" fill="var(--ink-2)">상단</text>
+      <!-- price axis -->
+      <line x1="60" y1="87" x2="860" y2="87" stroke="var(--axis)" stroke-width="1.5"/>
+      <text x="60" y="135" text-anchor="middle" font-size="13" font-weight="700" fill="var(--despondency)">−60</text>
+      <text x="250" y="135" text-anchor="middle" font-size="13" font-weight="700" fill="var(--despondency)">−30</text>
+      <text x="450" y="135" text-anchor="middle" font-size="13" font-weight="700" fill="var(--ink)">0</text>
+      <text x="650" y="135" text-anchor="middle" font-size="13" font-weight="700" fill="var(--euphoria)">+30</text>
+      <text x="855" y="135" text-anchor="middle" font-size="13" font-weight="700" fill="var(--euphoria)">+62</text>
+      <text x="60" y="155" text-anchor="middle" font-size="11" fill="var(--muted)">가격이 하단의 절반</text>
+      <text x="450" y="155" text-anchor="middle" font-size="11" fill="var(--muted)">딱 제값</text>
+      <text x="855" y="155" text-anchor="middle" font-size="11" fill="var(--muted)">가격이 중심의 2배</text>
+      <text x="450" y="30" text-anchor="middle" font-size="13" font-weight="600" fill="var(--ink-2)">오늘 가격이 여기 어디에 있는가 → 그 위치가 점수입니다</text>
+      <text x="450" y="185" text-anchor="middle" font-size="12" fill="var(--ink-2)">범위 밖은 부드러운 로그 곡선으로 ±100을 향해 뻗습니다 — 극단에서도 벽에 붙어 멈추지 않아 급등락이 늘 보입니다.</text>
+    </svg>
+    <figcaption>시장 점수는 종목 점수의 평균이 아니라 <strong>커버된 기업 전체의 시가총액 합계를
+    가치 합계에 대어 본 값</strong>입니다 — 지수의 실제 구성과 같은 논리로, 대형주가 시장 가격표를 좌우합니다.</figcaption>
+  </figure>
   <div class="callout">
     <p style="font-size:14px"><strong>알아두실 특징:</strong> 가치는 세 개의 렌즈로 삼각측량합니다 —
     잉여현금흐름 할인(DCF), 성장 투자를 투자로 인정하는 <strong>이익 능력(NOPAT) 렌즈</strong>,
