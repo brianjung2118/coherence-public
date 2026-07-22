@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="ko" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>방법론 부록 — Mr. Market 미스터 마켓</title>
+<style>
+:root {
+  color-scheme: light;
+  --page: #f9f9f7; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e;
+  --muted: #898781; --grid: #e1e0d9; --axis: #c3c2b7; --ring: rgba(11,11,11,.10);
+  --despondency: #2a78d6; --recovery: #1baf7a; --euphoria: #e34948; --doubt: #4a3aa7;
+}
+* { box-sizing: border-box; margin: 0; }
+body { background: var(--page); color: var(--ink);
+  font-family: "Apple SD Gothic Neo", "Pretendard", system-ui, -apple-system, "Segoe UI", "Malgun Gothic", sans-serif;
+  line-height: 1.65; }
+.wrap { max-width: 1020px; margin: 0 auto; padding: 28px 24px 72px; }
+nav.tabs { display: flex; gap: 6px; margin-bottom: 26px; border-bottom: 1px solid var(--grid); }
+nav.tabs a { text-decoration: none; color: var(--ink-2); font-size: 14.5px; font-weight: 600;
+  padding: 8px 14px; border-radius: 8px 8px 0 0; border-bottom: 2px solid transparent; }
+nav.tabs a.active { color: var(--ink); border-bottom-color: var(--ink); }
+nav.tabs a:hover { background: var(--surface); }
+header .kicker { font-size: 13px; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--ink-2); font-weight: 600; }
+h1 { font-size: 44px; letter-spacing: -.02em; margin: 4px 0 6px; }
+.sub { color: var(--ink-2); font-size: 17px; max-width: 660px; }
+.asof { color: var(--muted); font-size: 13px; margin-top: 8px; }
+.hero { display: flex; gap: 20px; flex-wrap: wrap; margin: 28px 0 8px; }
+.card { background: var(--surface); border: 1px solid var(--ring); border-radius: 12px;
+  padding: 20px 22px; }
+.stat { min-width: 220px; flex: 0 0 auto; }
+.stat .label { font-size: 13px; color: var(--ink-2); font-weight: 600; }
+.stat .num { font-size: 52px; font-weight: 700; letter-spacing: -.02em; line-height: 1.1; }
+.chip { display: inline-block; font-size: 13px; font-weight: 600; padding: 2px 10px;
+  border-radius: 999px; color: #fff; margin-top: 4px; }
+.stat .sub2 { font-size: 13px; color: var(--muted); margin-top: 8px; }
+.hero .meaning { flex: 1 1 320px; font-size: 15px; color: var(--ink-2); }
+.hero .meaning strong { color: var(--ink); }
+section { margin-top: 44px; }
+h2 { font-size: 24px; letter-spacing: -.01em; margin-bottom: 10px; }
+h3 { font-size: 16.5px; margin: 18px 0 6px; }
+p  { margin: 8px 0; color: var(--ink-2); font-size: 15px; }
+p strong, li strong { color: var(--ink); }
+.grid3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; margin-top: 14px; }
+.grid3 .card h3 { font-size: 15px; margin: 0 0 6px; }
+.grid3 .card p { font-size: 14px; margin: 0; }
+figure { margin: 18px 0 0; }
+figcaption { font-size: 13px; color: var(--muted); margin-top: 8px; }
+svg { display: block; max-width: 100%; height: auto; }
+svg text { font-family: inherit; }
+.legend { display: flex; gap: 18px; flex-wrap: wrap; margin: 10px 0 2px; font-size: 13px; color: var(--ink-2); }
+.legend span::before { content: ""; display: inline-block; width: 10px; height: 10px;
+  border-radius: 3px; margin-right: 6px; vertical-align: -1px; background: var(--c); }
+.seg { display: inline-flex; border: 1px solid var(--grid); border-radius: 9px; overflow: hidden; margin: 4px 0 10px; }
+.seg button { border: 0; background: var(--surface); color: var(--ink-2); font: inherit;
+  font-size: 13.5px; font-weight: 600; padding: 7px 16px; cursor: pointer; }
+.seg button + button { border-left: 1px solid var(--grid); }
+.seg button.on { background: var(--ink); color: #fff; }
+table { border-collapse: collapse; width: 100%; margin-top: 14px; font-size: 14px; background: var(--surface); }
+th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--grid); }
+th { font-size: 12.5px; letter-spacing: .04em; color: var(--muted); }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+.dot { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 8px; vertical-align: -1px; }
+.tooltip { position: fixed; pointer-events: none; background: var(--surface); color: var(--ink);
+  border: 1px solid var(--ring); border-radius: 8px; padding: 8px 11px; font-size: 12.5px;
+  box-shadow: 0 4px 16px rgba(0,0,0,.12); opacity: 0; transition: opacity .08s; z-index: 10; }
+.callout { border-left: 3px solid var(--axis); padding: 10px 16px; background: var(--surface);
+  border-radius: 0 10px 10px 0; margin-top: 14px; }
+.formula { font-size: 18px; font-weight: 700; letter-spacing: .01em; background: var(--surface);
+  border: 1px solid var(--ring); border-radius: 10px; padding: 16px 20px; margin: 14px 0;
+  text-align: center; }
+.formula small { display: block; font-size: 13px; font-weight: 400; color: var(--muted); margin-top: 6px; }
+footer { margin-top: 56px; padding-top: 18px; border-top: 1px solid var(--grid);
+  font-size: 13px; color: var(--muted); }
+details { margin-top: 12px; background: var(--surface); border: 1px solid var(--ring);
+  border-radius: 10px; padding: 12px 16px; }
+details summary { cursor: pointer; font-weight: 600; font-size: 14px; color: var(--ink-2); }
+details[open] summary { margin-bottom: 8px; }
+details p, details li { font-size: 14px; }
+details ul { margin: 6px 0 4px 18px; padding: 0; color: var(--ink-2); }
+details li { margin: 4px 0; }
+.stockgrid { display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 18px; margin-top: 20px; }
+@media (max-width: 820px) { .stockgrid { grid-template-columns: 1fr; } }
+aside.picker { background: var(--surface); border: 1px solid var(--ring); border-radius: 12px;
+  padding: 14px; max-height: 82vh; overflow-y: auto; align-self: start; }
+.picker input { width: 100%; font: inherit; font-size: 14px; padding: 8px 10px;
+  border: 1px solid var(--grid); border-radius: 8px; margin: 10px 0; background: var(--page); color: var(--ink); }
+.slist { list-style: none; padding: 0; margin: 0; }
+.slist li { display: flex; justify-content: space-between; align-items: center; gap: 8px;
+  padding: 7px 8px; border-radius: 8px; cursor: pointer; font-size: 13.5px; }
+.slist li:hover { background: var(--page); }
+.slist li.sel { background: var(--ink); color: #fff; }
+.slist li.sel .mc { color: rgba(255,255,255,.7); }
+.slist .nm { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.slist .mc { color: var(--muted); font-size: 11.5px; font-variant-numeric: tabular-nums; }
+.badge { flex: 0 0 auto; font-size: 11.5px; font-weight: 700; color: #fff; border-radius: 6px; padding: 1px 7px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<nav class="tabs">
+  <a href="mr_market.html" class="">지수 소개</a>
+  <a href="mr_market_methodology.html" class="active">방법론 — 어떻게 만드나</a>
+  <a href="mr_market_stocks.html" class="">종목별 보기</a>
+</nav>
+
+
+<header>
+  <div class="kicker">방법론 부록</div>
+  <h1 style="font-size:32px">정확한 규칙과 근거를 모두 적어 둡니다</h1>
+  <p class="sub">본편은 그림으로 이해되도록, 부록은 검증하려는 분을 위해 빠짐없이 —
+  <a href="mr_market_methodology.html" style="color:var(--despondency)">← 방법론 본편으로</a></p>
+</header>
+
+<section id="deep1">
+  <h2>더 깊이 — 가격표의 정확한 계산 규칙</h2>
+    <ul>
+      <li><strong>정상화 이익 능력:</strong> 이익률(영업이익률·현금창출률)을 <strong>장기 중앙값 50% +
+      최근 4개 분기 중앙값 50%</strong>로 섞어 최근 매출에 적용합니다. 발표된 실적만 사용 — 전망치 없음.
+      한 해의 피크는 앵커를 최대 절반까지만 움직일 수 있습니다.</li>
+      <li><strong>세 개의 가치 렌즈:</strong> ① 잉여현금흐름(FCFF) 2단계 할인 — 성장은 "실제로 해 온
+      재투자 × 재투자 수익률"만큼만 인정, 등급이 낮을수록 더 빨리 잦아드는(fade) 구조.
+      ② 이익 능력(NOPAT ÷ 할인율) — 성장을 전혀 인정하지 않는 대신, 성장 투자에 들어간 현금을
+      가치 파괴로 취급하지도 않는 렌즈. 반도체처럼 설비투자가 큰 기업을 ①만으로 재면 만년
+      "비싸 보이는" 왜곡이 생깁니다. <strong>중심값 = 두 렌즈 중 큰 쪽</strong> (①은 성장을 이미 셌고
+      ②는 성장을 안 세므로, 큰 쪽을 골라도 성장이 두 번 계산되지 않습니다).
+      ③ 은행 등 금융회사와 지분법 지주회사(매출은 작은데 이익률이 비정상적으로 높고 순이익≈영업이익인
+      회계 시그니처로 감지)는 자기자본 + 초과이익(잔여이익) 모형으로 별도 평가합니다.</li>
+      <li><strong>등급 → 내다보는 길이:</strong> 6가지 회계 증거(수익성·현금창출·재무 체력·안정성·
+      재투자 생산성·주당 성과)로 A~E 등급을 매기고, A등급은 10년·±18% 범위, 하위 등급은 3년·±50%
+      범위만 내다볼 자격을 얻습니다.</li>
+      <li><strong>점수 척도:</strong> 시장이 부르는 값이 가치 하단이면 −30, 중심이면 0, 상단이면 +30
+      (페이지 점수 기준). 범위 밖은 로그 척도의 부드러운 곡선으로 이어져 — 가치의 2배면 약 +62 —
+      절대 ±100에 붙어 멈추지 않습니다 — 아무리 극단적인 날에도 점수가 벽에 붙어 시장의 급등락을
+      놓치는 일이 없도록 한 설계입니다.</li>
+      <li><strong>시장 점수:</strong> 종목 점수의 평균이 아니라 <strong>커버된 기업 전체의 시가총액 합계 ÷
+      가치 합계</strong>를 같은 척도로 점수화한 값입니다 (대형주가 시장 가격표를 좌우 — 지수의 실제 구성과
+      같은 논리).</li>
+      <li><strong>커버리지 게이트:</strong> 시가총액 기준 75% 이상 평가되고 특정 기업 쏠림이 25% 미만일 때만
+      점수를 공표합니다. 순부채 브릿지가 불완전한 기업은 0으로 채우지 않고 <strong>평가를 보류</strong>합니다.
+      장기 적자로 이익 능력을 인증할 수 없는 기업(파이프라인 단계 바이오 등)도 마찬가지 — 엉터리 숫자보다
+      빈칸이 낫다는 원칙입니다.</li>
+      <li><strong>공시일 규칙:</strong> 분기 재무는 실제 공시 접수일 + 1일부터 사용. 공시일을 확인할 수 없는
+      경우에만 "분기말 + 45일" 보수적 가정으로 대체합니다.</li>
+      <li><strong>역사 범위:</strong> 코스피·코스닥 모두 분기별 평가를 2018년부터 재구성했습니다
+      (일별 점수는 2018년 4월부터).</li>
+    </ul>
+</section>
+
+<section id="deep2">
+  <h2>더 깊이 — 체온계 8개의 정확한 창(window)과 집계 규칙</h2>
+    <ul>
+      <li><strong>변동성:</strong> 최근 10 거래일 수익률의 출렁임(연율화). 낮을수록 안일함 = 탐욕 쪽.</li>
+      <li><strong>고점 대비:</strong> 역대 최고가 대비 현재 하락 폭. 고점 근처 = 탐욕, 깊은 하락 = 공포.</li>
+      <li><strong>추격 매수:</strong> 최근 10 거래일 지수 수익률. 급등 추격 국면 = 탐욕.</li>
+      <li><strong>수급:</strong> 외국인 + 개인 순매수 금액의 10 거래일 누적. 순매수 = 탐욕.</li>
+      <li><strong>빚투 증가:</strong> 신용융자 잔고 총액의 20 거래일 증가율.</li>
+      <li><strong>빚투자의 손익:</strong> 신용 매수자들의 평균 취득단가 대비 현재가 손익 — 잔고 금액 가중 평균.
+      물려 있을수록 공포.</li>
+      <li><strong>공매도 쏠림:</strong> 공매도 잔고 주수 합계 ÷ 20일 평균 거래량 합계.</li>
+      <li><strong>과열 3종 + 거시:</strong> 급등 지속·거래 쏠림·시총 집중(과열 진단 엔진의 3개 지표) +
+      환율·해외 변동성 스트레스.</li>
+      <li><strong>공통 규칙:</strong> 모든 체온계는 각자 "자기 역사 속 몇 번째"(확장형 백분위, 최소 1년)로
+      점수화한 뒤 <strong>단순 평균</strong>합니다. 신용·공매도 데이터는 거래소 <strong>공표일</strong> 기준으로만
+      반영(집계 시차 반영). 자료가 없는 체온계는 그날 평균에서 자동 제외 — 지수가 멈추지 않습니다.
+      업종·종목 단위에서는 표본이 5종목 미만이면 빚투 계열 체온계를 끕니다.</li>
+    </ul>
+</section>
+
+<section id="deep3">
+  <h2>더 깊이 — 합성과 구간 이름의 규칙</h2>
+    <ul>
+      <li><strong>왜 섞지 않는가:</strong> 검증에서 "이후 수익률과의 관계"는 가격표에서 나오고,
+      군중 온도만으로 만든 지표들은 (이 연구를 포함해 학계 전반에서) 장기 예측력이 약합니다.
+      예측의 몸통(가격표)만 점수로 쓰고, 군중 온도는 국면이라는 별도 축으로 보여주는 것이
+      두 정보 모두에게 정직한 자리입니다.</li>
+      <li><strong>값 구간(싼값~거품값):</strong> 점수를 고정 컷 −10 / −6 / −1 / +16에서 자릅니다 —
+      역사 전체를 5등분한 실측 경계이고, "이 점수가 실제로 의미해 온 것" 표와 정확히 같은
+      구간입니다. 이름은 일부러 가격 언어(싼값·다소 싼값·제값·다소 비쌈·거품값)만 씁니다.</li>
+      <li><strong>사분면 판정:</strong> 가격표와 군중 온도 각각의 부호(0 기준)로 나눕니다.
+      숫자가 같아도 조합이 다르면 다른 국면입니다 — 그래서 점수와 사분면을 함께 보여줍니다.
+      국면의 이름은 일부러 기분 언어(절망·회복·도취·의심)만 씁니다 — <strong>숫자의 딱지는 "값",
+      국면의 딱지는 "기분"</strong>으로 어휘를 분리해 혼동을 막습니다. 예: 점수 −21(싼값)이면서
+      국면은 회복(싸고·온기)일 수 있습니다 — 싸게 거래되는데 군중이 막 데워지기 시작한 상태.</li>
+    </ul>
+</section>
+
+<section id="deep4">
+  <h2>더 깊이 — 검증 수치 전체</h2>
+    <p>점수와 이후 코스피 수익률의 순위 상관(스피어만), 그리고 "점수가 가장 낮았던(가장 쌌던) 날들
+    하위 10% − 가장 높았던(가장 비쌌던) 날들 상위 10%"의 이후 수익률 격차:</p>
+    <table>
+      <thead><tr><th>이후 기간</th><th class="num">순위 상관</th><th class="num">싼 쪽 10% − 비싼 쪽 10% 수익 격차</th><th class="num">관측일수</th></tr></thead>
+      <tbody>
+        <tr><td>1개월</td><td class="num">+0.01</td><td class="num">−0%p</td><td class="num">2,014</td></tr>
+        <tr><td>6개월</td><td class="num">−0.11</td><td class="num">+10%p</td><td class="num">1,909</td></tr>
+        <tr><td><strong>12개월</strong></td><td class="num"><strong>−0.41</strong></td><td class="num"><strong>+28%p</strong></td><td class="num">1,783</td></tr>
+        <tr><td>24개월</td><td class="num">−0.52</td><td class="num">+68%p</td><td class="num">1,531</td></tr>
+        <tr><td>36개월</td><td class="num">−0.61</td><td class="num">+47%p</td><td class="num">1,279</td></tr>
+      </tbody>
+    </table>
+    <ul style="margin-top:10px">
+      <li><strong>읽는 법:</strong> 상관이 마이너스 = "점수 높음 → 이후 수익 낮음". 격차가 플러스 =
+      가장 쌌던 날들에 산 쪽이 가장 비쌌던 날들에 산 쪽보다 그만큼 더 벌었다는 뜻. 1~6개월은
+      사실상 무신호 — 이 지수로 단기 매매를 하면 안 되는 이유가 숫자에 그대로 있습니다.</li>
+      <li><strong>속도 조절 백테스트:</strong> 점수에 따라 주식 비중을 기계적으로 조절하는 단순 실험에서
+      최대 낙폭은 −42% → −29%로 줄었지만 연수익도 12.9% → 8.1%로 줄었습니다. 결론: 매매 신호가
+      아니라 <strong>현금 투입 속도</strong>를 조절하는 용도에 맞습니다.</li>
+      <li><strong>검증의 범위:</strong> 위 수치는 모두 <strong>시장 지수(전체 시장 점수 vs 코스피)</strong> 레벨이며,
+      과거 전체 구간에 하나의 조리법을 적용해 계산한 값입니다(사후 검증). 종목별 점수는 순위 정보만
+      통계적으로 유의하고, "싼 종목 매수" 전략은 시장·규모·모멘텀 통제 후 유의하지 않았습니다.</li>
+    </ul>
+</section>
+
+<section>
+  <h2>전망 가격표와 실적 이행 — 참고 축 (점수에 미포함)</h2>
+  <p>위의 가격표는 일부러 <strong>과거 실적만</strong> 씁니다. 전망치(증권사 추정)는 고점에서 가장 낙관적이라,
+  점수에 섞으면 지수가 군중과 같은 기분에 물듭니다 — 2021년 고점에서는 전망 기준으로 "싸다"고 읽혔을 것입니다.
+  그래서 전망 정보는 <strong>별도의 참고 축</strong>으로만 보여줍니다:</p>
+  <p><strong>전망 가격표</strong> — 각 종목의 올해 영업이익 전망(브로커별 최신 추정의 중앙값)을 시가총액으로
+  나눈 "전망 수익률"을, <strong>같은 날 커버리지 전체 종목과 비교해 순위</strong>로 매깁니다. 전망 데이터의 역사가
+  짧아(2024년 중반~) 자기 역사와 비교할 수 없기 때문에, 대신 "오늘 동료들 대비 싼가"를 답합니다.
+  <strong>실적 이행</strong> — 발표 <em>전</em>의 컨센서스와 실제 발표된 분기 영업이익을 비교합니다
+  (발표 후 추정치는 계산에서 제외 — 시점 규율). 최근 4개 분기 중 몇 번 컨센서스를 넘었는지 보여줍니다.</p>
+  <p><strong>함께 읽는 법:</strong> 검증된 가격표가 "비쌈"인데 실적이 계속 컨센서스를 넘고 있다면 —
+  실적이 뒷받침하는 재평가일 수 있습니다. 비싸고 · 전망만 오르고 · 실적은 빗나간다면 — 희망에 기댄
+  비쌈입니다 (가장 위험한 조합). 싸고 · 실적이 넘고 있다면 — 소외된 이행주(가장 흥미로운 조합).
+  이 참고 축은 점수·구간·캘리브레이션 표 어디에도 들어가지 않습니다.</p>
+</section>
+
+<section>
+  <h2>이론적 배경 — 어떤 어깨 위에 서 있나</h2>
+  <p>이 지수는 새로 발명한 이론이 아니라, 가치평가의 고전들을 조립한 것입니다.
+  부품마다 출처가 있고, 출처가 없는 조립 방식은 저희가 직접 실험으로 검증했습니다.</p>
+  <table>
+    <thead><tr><th>이 지수의 부품</th><th>근거가 되는 이론 · 연구</th></tr></thead>
+    <tbody>
+      <tr><td>미스터 마켓 비유 · 안전마진(가치 범위) · 정상화 이익</td>
+          <td>벤저민 그레이엄, <em>증권분석</em>(1934) · <em>현명한 투자자</em>(1949)</td></tr>
+      <tr><td>이익 능력 렌즈 (성장을 인정하지 않는 NOPAT ÷ 요구수익률)</td>
+          <td>브루스 그린왈드, <em>Value Investing</em> (컬럼비아대) — Earnings Power Value</td></tr>
+      <tr><td>성장 = 재투자율 × 재투자수익률 (성장을 "가정"하지 않고 실적에서 도출)</td>
+          <td>애스워스 다모다란의 fundamental growth 항등식 — DCF 교과서 표준</td></tr>
+      <tr><td>단계적으로 잦아드는(fade) 성장의 2단계 현금흐름 할인</td>
+          <td>표준 밸류에이션 실무 (다모다란; 매킨지 <em>Valuation</em>)</td></tr>
+      <tr><td>금융회사·지주회사의 자기자본 + 초과이익 평가</td>
+          <td>Ohlson (1995) 잔여이익모형 — 은행 밸류에이션의 학계 표준</td></tr>
+      <tr><td>한 해가 아니라 장기 실적으로 이익을 정상화</td>
+          <td>그레이엄 → 로버트 실러의 CAPE (노벨경제학상, 2013)</td></tr>
+      <tr><td>"가격 ÷ 독립 가치" 비율이 이후 수익률을 예측한다는 뼈대</td>
+          <td>Frankel &amp; Lee (1998) — V/P 비율의 1~3년 수익률 예측력 (이 지수의 검증 결과와 같은 모양)</td></tr>
+      <tr><td>실적을 "실제 공시일"부터만 반영하는 시점 규율</td>
+          <td>Ball &amp; Brown (1968) 이래의 이벤트 스터디 표준</td></tr>
+    </tbody>
+  </table>
+  <p style="font-size:13.5px;margin-top:10px">출처가 없는 부분 — 렌즈들을 합치는 규칙, 장기·최근 실적의
+  50:50 배합, 구간 경계 같은 조립 방식 — 은 <strong>사전 등록된 실험</strong>으로 검증했습니다:
+  후보 방식 5가지(시장금리 연동 할인율, 이익 수준 직접 정상화, 무형자산 자본화 등 — 모두 각자의
+  근거 문헌이 있는 방식들)를 같은 기준으로 경주시켜, 현재 방식이 이긴 경우에만 유지했습니다.
+  "논문에 있으니 옳다"도, "우리가 만들었으니 옳다"도 아니고 — <strong>시험을 통과했으니 쓴다</strong>가
+  이 지수의 원칙입니다.</p>
+</section>
+
+<section>
+  <h2>데이터 출처와 갱신</h2>
+  <table>
+    <thead><tr><th>재료</th><th>출처</th><th>갱신 주기</th></tr></thead>
+    <tbody>
+      <tr><td>주가 · 시가총액 · 거래량</td><td>한국거래소 시세 (코스피+코스닥 전 종목)</td><td>매 영업일</td></tr>
+      <tr><td>분기 재무 (이익 · 순자산)</td><td>기업 분기 보고서 — <strong>DART 실제 공시 접수일</strong> 기준 반영</td><td>공시 즉시</td></tr>
+      <tr><td>신용융자 · 공매도 잔고</td><td>거래소 · 증권금융 공표 데이터 (종목별, 공표일 기준)</td><td>매 영업일</td></tr>
+      <tr><td>투자자별 매매 (외국인 · 개인)</td><td>거래소 투자자별 거래 실적</td><td>매 영업일</td></tr>
+      <tr><td>거시 환경 (환율 · 해외 변동성 등)</td><td>공개 시장 데이터</td><td>매 영업일</td></tr>
+    </tbody>
+  </table>
+  <p style="font-size:13px;color:var(--muted);margin-top:8px">모든 재료는 "그날 실제로 알 수 있었던 값"만
+  사용합니다(point-in-time 원칙). 증권사 리포트 기반 이익 전망치는 참고 지표로만 별도 표시하며,
+  점수 계산에는 넣지 않습니다 (데이터 축적 기간이 아직 짧아 검증이 불가능하기 때문입니다).</p>
+</section>
+
+<footer>
+  Mr. Market 미스터 마켓 지수 · 방법론 부록 · 교육·연구 목적의 자료이며 투자 자문이 아닙니다.
+  <a href="mr_market_methodology.html" style="color:var(--despondency)">← 방법론 본편으로 돌아가기</a>
+</footer>
+
+</div>
+</body>
+</html>
