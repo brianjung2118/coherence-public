@@ -136,8 +136,8 @@ aside.picker { background: var(--surface); border: 1px solid var(--ring); border
     <input id="q" type="search" placeholder="종목명 · 코드 검색" autocomplete="off">
     <div class="seg" id="sortSeg" style="margin:0 0 8px">
       <button data-s="cap" class="on">시총순</button>
-      <button data-s="asc">절망순</button>
-      <button data-s="desc">도취순</button>
+      <button data-s="asc">얼음순</button>
+      <button data-s="desc">과열순</button>
     </div>
     <div style="font-size:11.5px;color:var(--muted);margin-bottom:6px" id="listCap">시가총액 순 · 오늘 기분</div>
     <ul class="slist" id="slist"></ul>
@@ -165,8 +165,8 @@ aside.picker { background: var(--surface); border: 1px solid var(--ring); border
     </div>
     <figure class="card" style="padding:16px;margin-top:14px">
       <div class="legend">
-        <span style="--c:var(--despondency)">절망</span><span style="--c:var(--recovery)">회복</span>
-        <span style="--c:var(--euphoria)">도취</span><span style="--c:var(--doubt)">의심</span>
+        <span style="--c:var(--despondency)">얼어붙음</span><span style="--c:var(--recovery)">해빙</span>
+        <span style="--c:var(--euphoria)">과열</span><span style="--c:var(--doubt)">식어감</span>
       </div>
       <div id="history"></div>
       <figcaption id="histCap"></figcaption>
@@ -204,9 +204,9 @@ aside.picker { background: var(--surface); border: 1px solid var(--ring); border
       것이고, 3배·5배라면 대부분 아직 도착하지 않은 미래에 대한 믿음을 사는 것입니다. 믿음을 사는 게 잘못은
       아닙니다 — 다만 그럴 땐 "그 믿음의 근거가 나에게 있는가"를 물어야 하고, 전망·실적 이행 패널이
       그 믿음이 현재 실적으로 뒷받침되는지 보여줍니다.</p>
-      <p style="font-size:14.5px"><strong>② 군중과 같은 방향인지 알려줍니다.</strong> 국면(절망·회복·도취·의심)은
+      <p style="font-size:14.5px"><strong>② 군중과 같은 방향인지 알려줍니다.</strong> 국면(얼어붙음·해빙·과열·식어감)은
       지금 이 종목을 산다면 뜨거운 군중에 합류하는 것인지, 식은 군중을 거슬러 사는 것인지를 보여줍니다.
-      역사적으로 시장 전체 기준, 돈은 절망~회복에서 사서 벌렸고 도취에서 사서 잃었습니다.</p>
+      역사적으로 시장 전체 기준, 돈은 얼어붙음~해빙에서 사서 벌렸고 과열에서 사서 잃었습니다.</p>
       <p style="font-size:14.5px"><strong>③ 질문을 만들어 줍니다.</strong> 낮은 점수(싼값)를 봤다면 —
       "시장이 왜 이 회사를 외면하나? 내가 아는 답이 있나, 아니면 시장이 아는 이유가 있나(업황 정점,
       지배구조, 사양산업)?" 높은 점수(거품값)를 봤다면 — "웃돈을 정당화할 미래가 실제로 배달되고 있나?
@@ -234,9 +234,9 @@ const UNIVERSE = JSON.parse(document.getElementById('universe').textContent);
 const INDEX_SERIES = JSON.parse(document.getElementById('indexdata').textContent);
 const COLORS = { Despondency: 'var(--despondency)', Recovery: 'var(--recovery)',
                  Euphoria: 'var(--euphoria)', Doubt: 'var(--doubt)' };
-const KO = { Despondency: '절망', Recovery: '회복', Euphoria: '도취', Doubt: '의심' };
-const SUB = { Despondency: '싸고 · 공포', Recovery: '싸고 · 온기',
-              Euphoria: '비싸고 · 뜨거움', Doubt: '비싼데 · 불안' };
+const KO = { Despondency: '얼어붙음', Recovery: '해빙', Euphoria: '과열', Doubt: '식어감' };
+const SUB = { Despondency: '싸게 팔리는데 · 군중은 얼음', Recovery: '싸게 팔리는데 · 녹는 중',
+              Euphoria: '비싼데 · 뜨거움', Doubt: '비싼데 · 식는 중' };
 // the NUMBER speaks price; the QUADRANT speaks mood — deliberately disjoint vocabularies
 const BANDS = [{"label": "싼값", "lo": -100.0, "hi": -10.0, "color": "#2a78d6"}, {"label": "다소 싼값", "lo": -10.0, "hi": -6.0, "color": "#6aa5e0"}, {"label": "제값", "lo": -6.0, "hi": -1.0, "color": "#898781"}, {"label": "다소 비쌈", "lo": -1.0, "hi": 16.0, "color": "#eda100"}, {"label": "거품값", "lo": 16.0, "hi": 100.0, "color": "#d03b3b"}];   // data-driven: frozen empirical cuts shipped by the export
 const bandDef = p => BANDS.find((b, i) => p < b.hi || i === BANDS.length - 1);
@@ -253,8 +253,8 @@ const cap = n => n >= 1e12 ? (n / 1e12).toFixed(1) + '조' : Math.round(n / 1e8)
 let board = 'KOSPI', selected = null, sortMode = 'cap';
 const SORTS = {
   cap:  { fn: (a, b) => b.mktcap - a.mktcap, cap: '시가총액 순 · 오늘 기분' },
-  asc:  { fn: (a, b) => a.p - b.p, cap: '점수 낮은 순 — 가장 절망적인 종목부터' },
-  desc: { fn: (a, b) => b.p - a.p, cap: '점수 높은 순 — 가장 도취/과열인 종목부터' },
+  asc:  { fn: (a, b) => a.p - b.p, cap: '점수 낮은 순 — 군중이 가장 얼어붙은 종목부터' },
+  desc: { fn: (a, b) => b.p - a.p, cap: '점수 높은 순 — 군중이 가장 과열된 종목부터' },
 };
 
 function renderList() {
@@ -316,16 +316,16 @@ function drawStock(st, meta) {
       ? `<br><span style="color:var(--muted)">※ 이 종목의 가치 평가는 ${st.series[0].d}부터 — 이력 축적 중입니다.</span>` : '');
   // 국면 해설 — 종목 단위에서 이 조합이 뜻하는 것 (추천 아님, 읽는 법)
   const QUAD_NOTE = {
-    Despondency: '<b>절망 = 회사가 망가졌다는 뜻이 아닙니다.</b> 낮은 점수는 확인된 이익이 있어야만 ' +
-      '나올 수 있습니다 — 이 종목은 확인된 가치보다 싸게 팔리는데 군중의 관심도 식어 있는 상태입니다. ' +
-      '다만 "왜 싸게 방치되는지"는 점수가 알려주지 않습니다: 방치된 우량주일 수도, 이유 있는 ' +
-      '가치함정일 수도 있습니다.',
-    Recovery: '<b>회복 = 아직 싸게 팔리는데 온기가 돌아오는 중.</b> 시장 전체 기준으로는 역사적으로 ' +
+    Despondency: '<b>얼어붙음 = 회사가 망가졌다는 뜻이 아닙니다.</b> 낮은 점수는 확인된 이익이 있어야만 ' +
+      '나올 수 있습니다 — 이 종목은 확인된 가치보다 싸게 팔리는데, 군중이 얼어붙어 아무도 값을 ' +
+      '올려 부르지 않는 상태입니다. 다만 "왜 싸게 방치되는지"는 점수가 알려주지 않습니다: ' +
+      '방치된 우량주일 수도, 이유 있는 가치함정일 수도 있습니다.',
+    Recovery: '<b>해빙 = 아직 싸게 팔리는데 군중이 녹기 시작.</b> 시장 전체 기준으로는 역사적으로 ' +
       '성적이 가장 좋았던 조합입니다 — 다만 종목 단위에서는 검증된 매수 신호가 아니라 참고 맥락입니다.',
-    Euphoria: '<b>도취 = 비싼 값을 군중이 기꺼이 치르는 중.</b> 웃돈은 아직 도착하지 않은 미래에 대한 ' +
+    Euphoria: '<b>과열 = 비싼 값을 군중이 기꺼이 치르는 중.</b> 웃돈은 아직 도착하지 않은 미래에 대한 ' +
       '값입니다. 그 믿음이 실제 실적으로 도착하고 있는지는 오른쪽의 전망·실적 이행 패널로 확인하세요.',
-    Doubt: '<b>의심 = 가격은 비싼데 믿음이 식는 중.</b> 역사적으로 고점 뒤에 자주 나타난 조합입니다 — ' +
-      '비싼 가격을 지탱하던 군중의 온기가 빠져나가고 있다는 신호입니다.',
+    Doubt: '<b>식어감 = 가격은 비싼데 군중의 열기가 빠지는 중.</b> 역사적으로 고점 뒤에 자주 나타난 ' +
+      '조합입니다 — 비싼 가격을 지탱하던 온기가 식어가고 있다는 신호입니다.',
   };
   document.getElementById('stQuadNote').innerHTML = QUAD_NOTE[last.q] || '';
   const fb = document.getElementById('fwdBlock');
@@ -512,10 +512,10 @@ function drawQuadrant(S) {
   for (const p of S) { const m = p.d.slice(0, 7); if (m !== curM) { monthly.push(p); curM = m; } else monthly[monthly.length - 1] = p; }
   let g = `<svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="사분면 지도" style="margin:0 auto">`;
   const quads = [
-    [xs(0), M, "var(--euphoria)", "도취", xs(72), ys(90)],
-    [M, M, "var(--doubt)", "의심", xs(-72), ys(90)],
-    [M, ys(0), "var(--despondency)", "절망", xs(-72), ys(-94)],
-    [xs(0), ys(0), "var(--recovery)", "회복", xs(72), ys(-94)]];
+    [xs(0), M, "var(--euphoria)", "과열", xs(72), ys(90)],
+    [M, M, "var(--doubt)", "식어감", xs(-72), ys(90)],
+    [M, ys(0), "var(--despondency)", "얼어붙음", xs(-72), ys(-94)],
+    [xs(0), ys(0), "var(--recovery)", "해빙", xs(72), ys(-94)]];
   for (const [qx, qy, c, name, tx, tyy] of quads) {
     g += `<rect x="${qx}" y="${qy}" width="${(W - 2 * M) / 2}" height="${(H - 2 * M) / 2}" fill="${c}" opacity="0.06"/>`;
     g += `<text x="${tx}" y="${tyy}" text-anchor="middle" font-size="14" font-weight="700" fill="${c}">${name}</text>`;
