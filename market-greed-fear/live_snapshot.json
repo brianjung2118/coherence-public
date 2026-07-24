@@ -1,0 +1,73 @@
+{
+  "as_of": "2026-07-24 09:31 KST",
+  "event_date": "2026-07-24",
+  "boards": {
+    "KOSPI": {
+      "score": -0.84165,
+      "previous_final": -0.8141,
+      "components": {
+        "discussion": {
+          "score": -0.19859,
+          "confidence": 0.1196,
+          "observations": 6234,
+          "coverage": 0.154
+        },
+        "news": {
+          "score": -1.24387,
+          "confidence": 0.3677,
+          "observations": 871,
+          "coverage": 0.8016
+        },
+        "market": {
+          "score": -1.4386,
+          "confidence": 0.0,
+          "observations": 0,
+          "coverage": 0.0
+        }
+      }
+    },
+    "KOSDAQ": {
+      "score": -0.25186,
+      "previous_final": -0.15808,
+      "components": {
+        "discussion": {
+          "score": 0.24045,
+          "confidence": 0.0896,
+          "observations": 2990,
+          "coverage": 0.1458
+        },
+        "news": {
+          "score": -0.56968,
+          "confidence": 0.3651,
+          "observations": 157,
+          "coverage": 0.6879
+        },
+        "market": {
+          "score": -0.70322,
+          "confidence": 0.0,
+          "observations": 0,
+          "coverage": 0.0
+        }
+      }
+    }
+  },
+  "sources": {
+    "discussion": {
+      "latest_event": "2026-07-24 09:16 KST",
+      "latest_seen": "2026-07-24 09:30 KST",
+      "active_minutes": 100,
+      "observations": 9285
+    },
+    "news": {
+      "latest_event": "2026-07-24 09:30 KST",
+      "latest_seen": "2026-07-24 09:31 KST",
+      "active_minutes": 90,
+      "observations": 716
+    },
+    "market": {
+      "latest_event": null,
+      "latest_seen": null,
+      "active_minutes": null
+    }
+  }
+}
