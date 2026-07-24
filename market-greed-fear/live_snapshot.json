@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-24 17:21 KST",
+  "as_of": "2026-07-24 17:26 KST",
   "event_date": "2026-07-24",
   "market_session": {
     "status": "trading",
@@ -8,8 +8,8 @@
   },
   "boards": {
     "KOSPI": {
-      "score": -1.79157,
-      "text_pulse": -1.69865,
+      "score": -1.79725,
+      "text_pulse": -1.70739,
       "previous_final": -0.80585,
       "index": {
         "price": 6690.62,
@@ -18,14 +18,14 @@
       },
       "components": {
         "discussion": {
-          "score": -0.85487,
-          "observations": 34890,
-          "coverage": 0.1158
+          "score": -0.85916,
+          "observations": 35059,
+          "coverage": 0.1157
         },
         "news": {
-          "score": -3.59716,
-          "observations": 3431,
-          "coverage": 0.8101
+          "score": -3.61591,
+          "observations": 3461,
+          "coverage": 0.8091
         },
         "news_hankyung": {
           "score": -0.98885,
@@ -42,6 +42,115 @@
       "news_articles": {
         "all": [
           {
+            "news_id": "c8cd64bb94fe4a4edc3a339171f8bb7f",
+            "published_at": "2026-07-24 17:20 KST",
+            "press": "노컷뉴스",
+            "title": "넷마블·넥슨, 삼성 갤럭시 신제품 출시 기념 테마 공개",
+            "sentiment_score": 0.57293,
+            "associated_companies": 2,
+            "company_names": [
+              "넷마블",
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "3cbf97cccff6566eb0c30a38db58122a",
+            "published_at": "2026-07-24 17:19 KST",
+            "press": "헤럴드경제",
+            "title": "현대차, 아산공장 18일간 멈춘다…파업·휴가 겹쳐 생산차질 부담",
+            "sentiment_score": 0.27918,
+            "associated_companies": 1,
+            "company_names": [
+              "현대차"
+            ]
+          },
+          {
+            "news_id": "541d42460137e6613c60307bd9e02ab8",
+            "published_at": "2026-07-24 17:16 KST",
+            "press": "서울경제",
+            "title": "SK쉴더스 ‘캡스텍’ 인수 우협에 제네시스PE[시그널]",
+            "sentiment_score": 0.5596,
+            "associated_companies": 3,
+            "company_names": [
+              "SK스퀘어",
+              "자이에스앤디",
+              "현대차"
+            ]
+          },
+          {
+            "news_id": "710e9dcd98d3aeadcf1a41d6420041a0",
+            "published_at": "2026-07-24 17:16 KST",
+            "press": "뉴시스",
+            "title": "키움인베스트, '키움 커넥팅데이' 개최…3대 혁신기업 육성전략 발표",
+            "sentiment_score": 0.55918,
+            "associated_companies": 2,
+            "company_names": [
+              "NAVER",
+              "키움증권"
+            ]
+          },
+          {
+            "news_id": "079b504aed163a666c2ab3f6a68b317b",
+            "published_at": "2026-07-24 17:15 KST",
+            "press": "더팩트",
+            "title": "'윤재승 지배' 이지메디컴 서울대병원 입찰대행 불공정 논란",
+            "sentiment_score": 0.44918,
+            "associated_companies": 2,
+            "company_names": [
+              "대웅",
+              "대웅제약"
+            ]
+          },
+          {
+            "news_id": "b9acb4e49e0418af68c352a614c582a4",
+            "published_at": "2026-07-24 17:15 KST",
+            "press": "동행미디어 시대",
+            "title": "삼성중공업, 2분기 영업익 3250억원…전년비 59%↑",
+            "sentiment_score": 0.63043,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성중공업"
+            ]
+          },
+          {
+            "news_id": "df68bdc10ddf21f49ddbc1206d9dc4ce",
+            "published_at": "2026-07-24 17:15 KST",
+            "press": "블로터",
+            "title": "하나손보, 상반기 순손실 711억…하반기 반등 카드는 '장기보험'",
+            "sentiment_score": 0.49293,
+            "associated_companies": 1,
+            "company_names": [
+              "하나금융지주"
+            ]
+          },
+          {
+            "news_id": "ee077540f0a4af0f4cb576a5ac3da966",
+            "published_at": "2026-07-24 17:15 KST",
+            "press": "비즈워치",
+            "title": "영풍, 석포제련소 친환경성 적극 강조에 엇갈린 평가",
+            "sentiment_score": 0.47793,
+            "associated_companies": 2,
+            "company_names": [
+              "고려아연",
+              "영풍"
+            ]
+          },
+          {
+            "news_id": "7154610a8ac55a0670246d530c85f256",
+            "published_at": "2026-07-24 17:14 KST",
+            "press": "동아일보",
+            "title": "최태원 9440억 마련 어떻게…주식담보대출-실트론 매각 거론",
+            "sentiment_score": 0.34543,
+            "associated_companies": 5,
+            "company_names": [
+              "SK",
+              "SK스퀘어",
+              "SK텔레콤",
+              "SK하이닉스",
+              "두산"
+            ]
+          },
+          {
             "news_id": "14af88c1af0f8f0d9ae0eab3ce73e1b8",
             "published_at": "2026-07-24 17:13 KST",
             "press": "노컷뉴스",
@@ -51,6 +160,28 @@
             "company_names": [
               "동양생명",
               "우리금융지주"
+            ]
+          },
+          {
+            "news_id": "20680b66c0fa3c5cd6696370e1007d0b",
+            "published_at": "2026-07-24 17:13 KST",
+            "press": "연합뉴스TV",
+            "title": "[뉴스워치] '세기의 재산분할' 결론…\"최태원, 노소영에 9,440억“",
+            "sentiment_score": 0.44043,
+            "associated_companies": 1,
+            "company_names": [
+              "SK"
+            ]
+          },
+          {
+            "news_id": "a89a67e36574b4e1e5c00c0fc5c7b264",
+            "published_at": "2026-07-24 17:13 KST",
+            "press": "지디넷코리아",
+            "title": "농협금융, 2026년 상반기 당기순익 1조7791억원…전년比 9.2% 증가",
+            "sentiment_score": 0.53793,
+            "associated_companies": 1,
+            "company_names": [
+              "NH투자증권"
             ]
           },
           {
@@ -1088,129 +1219,6 @@
               "우리금융지주",
               "종근당홀딩스"
             ]
-          },
-          {
-            "news_id": "344de056bdfbbe57d2245a5e420628d4",
-            "published_at": "2026-07-24 16:36 KST",
-            "press": "파이낸셜뉴스",
-            "title": "최태원 회장, 재산분할 9440억원 어떻게 마련하나...\"재상고 여부 검토\"",
-            "sentiment_score": 0.49793,
-            "associated_companies": 2,
-            "company_names": [
-              "SK",
-              "두산"
-            ]
-          },
-          {
-            "news_id": "8ccb3992750a4bed5186a18234a33b00",
-            "published_at": "2026-07-24 16:36 KST",
-            "press": "조세일보",
-            "title": "농협금융, 상반기 순익 1.8조 ‘역대 최대’…증권 날개 달고 9.2% ‘쑥’",
-            "sentiment_score": 0.53293,
-            "associated_companies": 1,
-            "company_names": [
-              "NH투자증권"
-            ]
-          },
-          {
-            "news_id": "8f2d45c3873ce65f495f3de90250b495",
-            "published_at": "2026-07-24 16:36 KST",
-            "press": "연합뉴스TV",
-            "title": "최태원, 재상고 나설까…\"판결문 검토 후 결정\"",
-            "sentiment_score": 0.50543,
-            "associated_companies": 1,
-            "company_names": [
-              "SK"
-            ]
-          },
-          {
-            "news_id": "c5a33d20b67422471d995425f0933c10",
-            "published_at": "2026-07-24 16:36 KST",
-            "press": "연합뉴스",
-            "title": "[영상] \"노소영에 9천440억원 지급\" 판결…최태원 SK주식 분할대상 판단",
-            "sentiment_score": 0.47793,
-            "associated_companies": 1,
-            "company_names": [
-              "SK"
-            ]
-          },
-          {
-            "news_id": "dbe242a4e7a1fcece581270049a8f6b9",
-            "published_at": "2026-07-24 16:36 KST",
-            "press": "파이낸셜뉴스",
-            "title": "현대위아, 2분기 영업이익 504억원…\"美 관세 여파에 10.6%↓\"",
-            "sentiment_score": 0.50043,
-            "associated_companies": 1,
-            "company_names": [
-              "현대위아"
-            ]
-          },
-          {
-            "news_id": "1c319aafbfdfafd74f3642b9388ec44d",
-            "published_at": "2026-07-24 16:35 KST",
-            "press": "비즈워치",
-            "title": "상반기 질주 이어간 기아…美관세 이전 영업이익률 회복",
-            "sentiment_score": 0.61543,
-            "associated_companies": 1,
-            "company_names": [
-              "기아"
-            ]
-          },
-          {
-            "news_id": "67581b238f751bda13b49dc15658ef88",
-            "published_at": "2026-07-24 16:35 KST",
-            "press": "동아일보",
-            "title": "한국비철금속협회, 영풍 석포제련소 방문… 환경설비 운영 현황 점검",
-            "sentiment_score": 0.55793,
-            "associated_companies": 1,
-            "company_names": [
-              "영풍"
-            ]
-          },
-          {
-            "news_id": "7ba5cf8707066446017c8da9ce40aa10",
-            "published_at": "2026-07-24 16:35 KST",
-            "press": "블로터",
-            "title": "동국제강, 'AI 인프라' 실적 반등…'수출 활성화' 성과 가시화",
-            "sentiment_score": 0.50293,
-            "associated_companies": 1,
-            "company_names": [
-              "동국홀딩스"
-            ]
-          },
-          {
-            "news_id": "8d0b01d51753b1dd027d7b2d0b4908bd",
-            "published_at": "2026-07-24 16:35 KST",
-            "press": "MBN",
-            "title": "\"6만 원 때 1억 원 매수\"…삼성전자 매매 연예인 최고수는? [포크뉴스]",
-            "sentiment_score": 0.54793,
-            "associated_companies": 2,
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "cc02a90899f52214da416af675e606b7",
-            "published_at": "2026-07-24 16:35 KST",
-            "press": "동아일보",
-            "title": "탈북청소년 여명학교 ‘떠돌이 생활’ 끝낸다…폐교 부지에 건물 신축",
-            "sentiment_score": 0.63293,
-            "associated_companies": 1,
-            "company_names": [
-              "현대차"
-            ]
-          },
-          {
-            "news_id": "2a19c06bda032348cdde8f0b701e46d0",
-            "published_at": "2026-07-24 16:34 KST",
-            "press": "뉴스1",
-            "title": "유가 급등·외인 매도에도 달러·원 0.2원 하락…1466.6원 마감(종합)",
-            "sentiment_score": 0.52793,
-            "associated_companies": 1,
-            "company_names": [
-              "SK하이닉스"
-            ]
           }
         ],
         "hankyung": [
@@ -1815,8 +1823,8 @@
       }
     },
     "KOSDAQ": {
-      "score": -1.17164,
-      "text_pulse": -1.31694,
+      "score": -1.17088,
+      "text_pulse": -1.31578,
       "previous_final": -0.14827,
       "index": {
         "price": 748.22,
@@ -1825,14 +1833,14 @@
       },
       "components": {
         "discussion": {
-          "score": -1.15874,
-          "observations": 21438,
-          "coverage": 0.1284
+          "score": -1.15844,
+          "observations": 21510,
+          "coverage": 0.1286
         },
         "news": {
-          "score": -1.6729,
-          "observations": 787,
-          "coverage": 0.5413
+          "score": -1.6698,
+          "observations": 789,
+          "coverage": 0.5412
         },
         "news_hankyung": {
           "score": -1.64324,
@@ -1848,6 +1856,17 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "710e9dcd98d3aeadcf1a41d6420041a0",
+            "published_at": "2026-07-24 17:16 KST",
+            "press": "뉴시스",
+            "title": "키움인베스트, '키움 커넥팅데이' 개최…3대 혁신기업 육성전략 발표",
+            "sentiment_score": 0.61293,
+            "associated_companies": 1,
+            "company_names": [
+              "안랩"
+            ]
+          },
           {
             "news_id": "3cb773ec4340803419f265a2584af041",
             "published_at": "2026-07-24 17:11 KST",
@@ -2960,17 +2979,6 @@
             "company_names": [
               "가비아"
             ]
-          },
-          {
-            "news_id": "1bf2d4fc3339141c08d0d7189c28ff14",
-            "published_at": "2026-07-24 13:49 KST",
-            "press": "문화일보",
-            "title": "코드게이트서 만난 팔란티어·한컴그룹",
-            "sentiment_score": 0.56293,
-            "associated_companies": 1,
-            "company_names": [
-              "한글과컴퓨터"
-            ]
           }
         ],
         "hankyung": [
@@ -3099,15 +3107,15 @@
   "sources": {
     "discussion": {
       "latest_event": "2026-07-24 17:03 KST",
-      "latest_seen": "2026-07-24 17:21 KST",
-      "active_minutes": 323,
-      "observations": 58141
+      "latest_seen": "2026-07-24 17:26 KST",
+      "active_minutes": 328,
+      "observations": 58382
     },
     "news": {
-      "latest_event": "2026-07-24 17:13 KST",
-      "latest_seen": "2026-07-24 17:15 KST",
-      "active_minutes": 298,
-      "observations": 2593
+      "latest_event": "2026-07-24 17:25 KST",
+      "latest_seen": "2026-07-24 17:26 KST",
+      "active_minutes": 301,
+      "observations": 2614
     },
     "market": {
       "latest_event": "2026-07-24",
