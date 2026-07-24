@@ -1,20 +1,20 @@
 {
-  "as_of": "2026-07-24 13:22 KST",
+  "as_of": "2026-07-24 13:29 KST",
   "event_date": "2026-07-24",
   "boards": {
     "KOSPI": {
-      "score": -1.53676,
+      "score": -1.54018,
       "previous_final": -0.8141,
       "components": {
         "discussion": {
-          "score": -0.81769,
-          "observations": 22512,
+          "score": -0.82738,
+          "observations": 22703,
           "coverage": 0.1215
         },
         "news": {
-          "score": -3.32643,
-          "observations": 2078,
-          "coverage": 0.8279
+          "score": -3.32175,
+          "observations": 2085,
+          "coverage": 0.828
         },
         "news_hankyung": {
           "score": -1.56132,
@@ -31,6 +31,19 @@
       "news_articles": {
         "all": [
           {
+            "news_id": "56b43ff7ec5426ecc73f33de70a66b06",
+            "published_at": "2026-07-24 13:22 KST",
+            "press": "서울경제",
+            "title": "HJ중공업, 한·미 조선업 공동 기술협력 나선다",
+            "sentiment_score": 0.62793,
+            "associated_companies": 3,
+            "company_names": [
+              "HJ중공업",
+              "삼성중공업",
+              "한화오션"
+            ]
+          },
+          {
             "news_id": "82fd42a8fe0078192cf52f15450f67a2",
             "published_at": "2026-07-24 13:20 KST",
             "press": "뉴스1",
@@ -45,7 +58,7 @@
             "news_id": "d192bc4f86d10d07ab4f0eda77687ff3",
             "published_at": "2026-07-24 13:18 KST",
             "press": "한국경제",
-            "title": "중동발 유가 급등에 코스피·코스닥 급락…양시장 매도 사이드카 [종합]",
+            "title": "중동발 유가 급등에 급락…코스피·코스닥 '매도 사이드카' [종합]",
             "sentiment_score": 0.30343,
             "associated_companies": 10,
             "company_names": [
@@ -70,6 +83,29 @@
             "associated_companies": 1,
             "company_names": [
               "삼성전자"
+            ]
+          },
+          {
+            "news_id": "c3e956b1e5472946e1663148585ddb33",
+            "published_at": "2026-07-24 13:17 KST",
+            "press": "지디넷코리아",
+            "title": "[1보] 솔루스첨단소재, 2분기 영업손실 213억…적자 2.2% 확대",
+            "sentiment_score": 0.44043,
+            "associated_companies": 1,
+            "company_names": [
+              "솔루스첨단소재"
+            ]
+          },
+          {
+            "news_id": "a09b52f4cc0deaaf824420516c3bfdae",
+            "published_at": "2026-07-24 13:15 KST",
+            "press": "뉴스1",
+            "title": "부산 조선기자재 업계, 북극항로·AI 시대 해양산업 신성장동력 모색",
+            "sentiment_score": 0.56668,
+            "associated_companies": 2,
+            "company_names": [
+              "HJ중공업",
+              "HMM"
             ]
           },
           {
@@ -1201,46 +1237,6 @@
             "company_names": [
               "농심"
             ]
-          },
-          {
-            "news_id": "84c0fa756ca559bde53e72cdfc6c9927",
-            "published_at": "2026-07-24 11:30 KST",
-            "press": "아시아경제",
-            "title": "현대차그룹, 여명학교 신축 후원…\"북한 배경 학생 자립 돕는다\"",
-            "sentiment_score": 0.63793,
-            "associated_companies": 1,
-            "company_names": [
-              "현대차"
-            ]
-          },
-          {
-            "news_id": "85aee7839d6ffdc97555c9b571ac0ab5",
-            "published_at": "2026-07-24 11:30 KST",
-            "press": "연합뉴스",
-            "title": "코스피, 4%대로 낙폭 확대…매도 사이드카 발동",
-            "sentiment_score": 0.29856,
-            "associated_companies": 8,
-            "company_names": [
-              "SK스퀘어",
-              "SK하이닉스",
-              "삼성바이오로직스",
-              "삼성전기",
-              "삼성전자",
-              "셀트리온",
-              "한화에어로스페이스",
-              "현대차"
-            ]
-          },
-          {
-            "news_id": "d5ca5206e076795a2f364f32c507643c",
-            "published_at": "2026-07-24 11:30 KST",
-            "press": "데일리안",
-            "title": "현대차그룹, 북한 배경 학생 ‘배움터’ 세운다…졸업 후 자립 지원",
-            "sentiment_score": 0.64043,
-            "associated_companies": 1,
-            "company_names": [
-              "현대차"
-            ]
           }
         ],
         "hankyung": [
@@ -1248,7 +1244,7 @@
             "news_id": "d192bc4f86d10d07ab4f0eda77687ff3",
             "published_at": "2026-07-24 13:18 KST",
             "press": "한국경제",
-            "title": "중동발 유가 급등에 코스피·코스닥 급락…양시장 매도 사이드카 [종합]",
+            "title": "중동발 유가 급등에 급락…코스피·코스닥 '매도 사이드카' [종합]",
             "sentiment_score": 0.30343,
             "associated_companies": 10,
             "company_names": [
@@ -1648,13 +1644,13 @@
       }
     },
     "KOSDAQ": {
-      "score": -1.1731,
+      "score": -1.17613,
       "previous_final": -0.15808,
       "components": {
         "discussion": {
-          "score": -1.15126,
-          "observations": 13797,
-          "coverage": 0.1308
+          "score": -1.15799,
+          "observations": 13935,
+          "coverage": 0.131
         },
         "news": {
           "score": -2.04454,
@@ -1690,7 +1686,7 @@
             "news_id": "d192bc4f86d10d07ab4f0eda77687ff3",
             "published_at": "2026-07-24 13:18 KST",
             "press": "한국경제",
-            "title": "중동발 유가 급등에 코스피·코스닥 급락…양시장 매도 사이드카 [종합]",
+            "title": "중동발 유가 급등에 급락…코스피·코스닥 '매도 사이드카' [종합]",
             "sentiment_score": 0.32099,
             "associated_companies": 9,
             "company_names": [
@@ -2804,7 +2800,7 @@
             "news_id": "d192bc4f86d10d07ab4f0eda77687ff3",
             "published_at": "2026-07-24 13:18 KST",
             "press": "한국경제",
-            "title": "중동발 유가 급등에 코스피·코스닥 급락…양시장 매도 사이드카 [종합]",
+            "title": "중동발 유가 급등에 급락…코스피·코스닥 '매도 사이드카' [종합]",
             "sentiment_score": 0.32099,
             "associated_companies": 9,
             "company_names": [
@@ -2913,16 +2909,16 @@
   },
   "sources": {
     "discussion": {
-      "latest_event": "2026-07-24 13:14 KST",
-      "latest_seen": "2026-07-24 13:22 KST",
-      "active_minutes": 204,
-      "observations": 37279
+      "latest_event": "2026-07-24 13:15 KST",
+      "latest_seen": "2026-07-24 13:27 KST",
+      "active_minutes": 208,
+      "observations": 37660
     },
     "news": {
-      "latest_event": "2026-07-24 13:21 KST",
-      "latest_seen": "2026-07-24 13:22 KST",
-      "active_minutes": 186,
-      "observations": 1568
+      "latest_event": "2026-07-24 13:28 KST",
+      "latest_seen": "2026-07-24 13:29 KST",
+      "active_minutes": 188,
+      "observations": 1577
     },
     "market": {
       "latest_event": null,
