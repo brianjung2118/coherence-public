@@ -1,9 +1,9 @@
 {
-  "as_of": "2026-07-24 12:31 KST",
+  "as_of": "2026-07-24 12:38 KST",
   "event_date": "2026-07-24",
   "boards": {
     "KOSPI": {
-      "score": -1.49241,
+      "score": -1.49615,
       "previous_final": -0.8141,
       "components": {
         "discussion": {
@@ -12,9 +12,9 @@
           "coverage": 0.1221
         },
         "news": {
-          "score": -3.31377,
-          "observations": 2047,
-          "coverage": 0.8272
+          "score": -3.33251,
+          "observations": 2052,
+          "coverage": 0.8277
         },
         "news_hankyung": {
           "score": -0.7409,
@@ -30,6 +30,31 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "9960f55a538c642425281e88fe8915f3",
+            "published_at": "2026-07-24 12:29 KST",
+            "press": "디지털데일리",
+            "title": "코스피 5%·코스닥 4%대 급락에 동반 매도사이드카…서킷 브레이커 목전",
+            "sentiment_score": 0.26262,
+            "associated_companies": 4,
+            "company_names": [
+              "SK하이닉스",
+              "삼성바이오로직스",
+              "삼성생명",
+              "종근당홀딩스"
+            ]
+          },
+          {
+            "news_id": "adddcb87de73abfd36980dfde8692f5b",
+            "published_at": "2026-07-24 12:24 KST",
+            "press": "동아일보",
+            "title": "분양가 뛰자 5억 공공분양으로… 역곡지구 9.8대 1 마감",
+            "sentiment_score": 0.58793,
+            "associated_companies": 1,
+            "company_names": [
+              "남광토건"
+            ]
+          },
           {
             "news_id": "041a4b69a72f3aec2b5b0c5511cd5c58",
             "published_at": "2026-07-24 12:20 KST",
@@ -1220,28 +1245,6 @@
               "SK하이닉스",
               "삼성전자"
             ]
-          },
-          {
-            "news_id": "4c434027733cdb8519b13147d68f413b",
-            "published_at": "2026-07-24 11:27 KST",
-            "press": "연합뉴스TV",
-            "title": "육개장사발면·새우깡·던킨도넛 등 내달부터 줄인상",
-            "sentiment_score": 0.36793,
-            "associated_companies": 1,
-            "company_names": [
-              "농심"
-            ]
-          },
-          {
-            "news_id": "ef0f6e1948c975b1f332cb0501687420",
-            "published_at": "2026-07-24 11:27 KST",
-            "press": "국민일보",
-            "title": "현대모비스, 2분기 영업익 9752억원… 전년 대비 12%↑",
-            "sentiment_score": 0.62543,
-            "associated_companies": 1,
-            "company_names": [
-              "현대모비스"
-            ]
           }
         ],
         "hankyung": [
@@ -1629,7 +1632,7 @@
       }
     },
     "KOSDAQ": {
-      "score": -1.07454,
+      "score": -1.06998,
       "previous_final": -0.15808,
       "components": {
         "discussion": {
@@ -1638,9 +1641,9 @@
           "coverage": 0.1336
         },
         "news": {
-          "score": -1.88228,
-          "observations": 476,
-          "coverage": 0.5777
+          "score": -1.85949,
+          "observations": 486,
+          "coverage": 0.5658
         },
         "news_hankyung": {
           "score": -0.22559,
@@ -2875,10 +2878,10 @@
       "observations": 33253
     },
     "news": {
-      "latest_event": "2026-07-24 12:20 KST",
-      "latest_seen": "2026-07-24 12:30 KST",
+      "latest_event": "2026-07-24 12:31 KST",
+      "latest_seen": "2026-07-24 12:32 KST",
       "active_minutes": 172,
-      "observations": 1519
+      "observations": 1525
     },
     "market": {
       "latest_event": null,
