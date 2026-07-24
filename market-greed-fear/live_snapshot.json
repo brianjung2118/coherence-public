@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-24 17:36 KST",
+  "as_of": "2026-07-24 17:41 KST",
   "event_date": "2026-07-24",
   "market_session": {
     "status": "trading",
@@ -8,8 +8,8 @@
   },
   "boards": {
     "KOSPI": {
-      "score": -1.79303,
-      "text_pulse": -1.70089,
+      "score": -1.79257,
+      "text_pulse": -1.70019,
       "previous_final": -0.80585,
       "index": {
         "price": 6690.62,
@@ -23,14 +23,14 @@
           "coverage": 0.1155
         },
         "news": {
-          "score": -3.59539,
-          "observations": 3553,
-          "coverage": 0.8045
+          "score": -3.59309,
+          "observations": 3565,
+          "coverage": 0.8049
         },
         "news_hankyung": {
-          "score": -0.98241,
-          "observations": 170,
-          "coverage": 0.7135
+          "score": -0.98466,
+          "observations": 182,
+          "coverage": 0.7268
         },
         "market": {
           "score": -1.96413,
@@ -41,6 +41,57 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "32f8c639e69dc6dadf21811edc241595",
+            "published_at": "2026-07-24 17:40 KST",
+            "press": "한국경제",
+            "title": "기아, 매출 33조…2분기 사상 최대",
+            "sentiment_score": 0.4946,
+            "associated_companies": 3,
+            "company_names": [
+              "기아",
+              "현대로템",
+              "현대모비스"
+            ]
+          },
+          {
+            "news_id": "dbd8495719bf9cb82948f388a9eee126",
+            "published_at": "2026-07-24 17:39 KST",
+            "press": "한국경제",
+            "title": "라면·콜라·도넛 줄인상…\"고유가에 포장지 값 올라\"",
+            "sentiment_score": 0.41731,
+            "associated_companies": 4,
+            "company_names": [
+              "LG생활건강",
+              "농심",
+              "롯데칠성",
+              "오뚜기"
+            ]
+          },
+          {
+            "news_id": "bf6c87d244dc82983ab0b9c9452bfd48",
+            "published_at": "2026-07-24 17:39 KST",
+            "press": "한국경제",
+            "title": "'캐즘 직격탄' SK시그넷, 홍콩계 앵커PE에 팔린다",
+            "sentiment_score": 0.40043,
+            "associated_companies": 2,
+            "company_names": [
+              "SK",
+              "SK네트웍스"
+            ]
+          },
+          {
+            "news_id": "cdc83090101edee461e4234b5031db9f",
+            "published_at": "2026-07-24 17:38 KST",
+            "press": "한국경제",
+            "title": "삼성發 로봇 붐…ETF 시장도 들썩 [한경 프리미엄9 TODAY]",
+            "sentiment_score": 0.58918,
+            "associated_companies": 2,
+            "company_names": [
+              "SK",
+              "삼성전자"
+            ]
+          },
           {
             "news_id": "532cb629dd309e0ed6198ee3ed1b8640",
             "published_at": "2026-07-24 17:35 KST",
@@ -1192,56 +1243,60 @@
             "company_names": [
               "기아"
             ]
-          },
-          {
-            "news_id": "e0a3718c90612701bd4852554f3ade04",
-            "published_at": "2026-07-24 16:43 KST",
-            "press": "헤럴드경제",
-            "title": "동양생명, 주총서 주식교환 가결…우리금융 완전 자회사로",
-            "sentiment_score": 0.42918,
-            "associated_companies": 2,
-            "company_names": [
-              "동양생명",
-              "우리금융지주"
-            ]
-          },
-          {
-            "news_id": "f7b69cc3b2251d1bd8524a09f525a6a8",
-            "published_at": "2026-07-24 16:43 KST",
-            "press": "조선비즈",
-            "title": "두산로보틱스, 2분기 영업손실 144억원… 전분기比 적자 확대",
-            "sentiment_score": 0.54543,
-            "associated_companies": 1,
-            "company_names": [
-              "두산로보틱스"
-            ]
-          },
-          {
-            "news_id": "ffb58559537bf72079631c4beb9b3c71",
-            "published_at": "2026-07-24 16:43 KST",
-            "press": "서울신문",
-            "title": "코스피, 유가 상승에 ‘검은 금요일’…이번주 내내 사이드카",
-            "sentiment_score": 0.30793,
-            "associated_companies": 2,
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "05fa893644de2ba3345884e8b16a51ec",
-            "published_at": "2026-07-24 16:42 KST",
-            "press": "SBS Biz",
-            "title": "최태원-젠슨 황 美서 만찬...곽노정·메디슨 황도 참석",
-            "sentiment_score": 0.55543,
-            "associated_companies": 2,
-            "company_names": [
-              "SK텔레콤",
-              "SK하이닉스"
-            ]
           }
         ],
         "hankyung": [
+          {
+            "news_id": "32f8c639e69dc6dadf21811edc241595",
+            "published_at": "2026-07-24 17:40 KST",
+            "press": "한국경제",
+            "title": "기아, 매출 33조…2분기 사상 최대",
+            "sentiment_score": 0.4946,
+            "associated_companies": 3,
+            "company_names": [
+              "기아",
+              "현대로템",
+              "현대모비스"
+            ]
+          },
+          {
+            "news_id": "dbd8495719bf9cb82948f388a9eee126",
+            "published_at": "2026-07-24 17:39 KST",
+            "press": "한국경제",
+            "title": "라면·콜라·도넛 줄인상…\"고유가에 포장지 값 올라\"",
+            "sentiment_score": 0.41731,
+            "associated_companies": 4,
+            "company_names": [
+              "LG생활건강",
+              "농심",
+              "롯데칠성",
+              "오뚜기"
+            ]
+          },
+          {
+            "news_id": "bf6c87d244dc82983ab0b9c9452bfd48",
+            "published_at": "2026-07-24 17:39 KST",
+            "press": "한국경제",
+            "title": "'캐즘 직격탄' SK시그넷, 홍콩계 앵커PE에 팔린다",
+            "sentiment_score": 0.40043,
+            "associated_companies": 2,
+            "company_names": [
+              "SK",
+              "SK네트웍스"
+            ]
+          },
+          {
+            "news_id": "cdc83090101edee461e4234b5031db9f",
+            "published_at": "2026-07-24 17:38 KST",
+            "press": "한국경제",
+            "title": "삼성發 로봇 붐…ETF 시장도 들썩 [한경 프리미엄9 TODAY]",
+            "sentiment_score": 0.58918,
+            "associated_companies": 2,
+            "company_names": [
+              "SK",
+              "삼성전자"
+            ]
+          },
           {
             "news_id": "532cb629dd309e0ed6198ee3ed1b8640",
             "published_at": "2026-07-24 17:35 KST",
@@ -3175,10 +3230,10 @@
       "observations": 58800
     },
     "news": {
-      "latest_event": "2026-07-24 17:35 KST",
-      "latest_seen": "2026-07-24 17:36 KST",
-      "active_minutes": 308,
-      "observations": 2666
+      "latest_event": "2026-07-24 17:40 KST",
+      "latest_seen": "2026-07-24 17:41 KST",
+      "active_minutes": 310,
+      "observations": 2672
     },
     "market": {
       "latest_event": "2026-07-24",
