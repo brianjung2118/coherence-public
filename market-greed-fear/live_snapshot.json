@@ -1,9 +1,15 @@
 {
-  "as_of": "2026-07-24 16:34 KST",
+  "as_of": "2026-07-24 16:41 KST",
   "event_date": "2026-07-24",
+  "market_session": {
+    "status": "trading",
+    "reason": "market_record_available",
+    "market_component_available": true
+  },
   "boards": {
     "KOSPI": {
-      "score": -1.7897,
+      "score": -1.79005,
+      "text_pulse": -1.69632,
       "previous_final": -0.80585,
       "index": {
         "price": 6690.62,
@@ -17,14 +23,14 @@
           "coverage": 0.1159
         },
         "news": {
-          "score": -3.63563,
-          "observations": 3180,
-          "coverage": 0.8121
+          "score": -3.63741,
+          "observations": 3187,
+          "coverage": 0.8122
         },
         "news_hankyung": {
-          "score": -1.32493,
-          "observations": 150,
-          "coverage": 0.6954
+          "score": -1.33552,
+          "observations": 153,
+          "coverage": 0.6948
         },
         "market": {
           "score": -1.96413,
@@ -165,6 +171,18 @@
             ]
           },
           {
+            "news_id": "e4f3f7ed406118c94dd747d6924153d4",
+            "published_at": "2026-07-24 16:28 KST",
+            "press": "디지털데일리",
+            "title": "한국비철금속협회, 영풍 석포제련소 방문…친환경 제련 기술 현장 확인",
+            "sentiment_score": 0.58293,
+            "associated_companies": 2,
+            "company_names": [
+              "영풍",
+              "종근당홀딩스"
+            ]
+          },
+          {
             "news_id": "d1c6dde53be74c0cfa1ca1c1143fcfd9",
             "published_at": "2026-07-24 16:27 KST",
             "press": "한국경제",
@@ -211,6 +229,17 @@
             ]
           },
           {
+            "news_id": "8c6f71aa6be1dd1444a49ef96bc1835b",
+            "published_at": "2026-07-24 16:26 KST",
+            "press": "파이낸셜뉴스",
+            "title": "\"이렇게 늘 줄이야\"…비은행 계열사 실적에 웃은 하나금융, 성장세 이어간다",
+            "sentiment_score": 0.61293,
+            "associated_companies": 1,
+            "company_names": [
+              "하나금융지주"
+            ]
+          },
+          {
             "news_id": "b4dfcdb7dfedffca002ad281623badc8",
             "published_at": "2026-07-24 16:26 KST",
             "press": "이데일리",
@@ -230,6 +259,17 @@
             "associated_companies": 1,
             "company_names": [
               "삼성바이오로직스"
+            ]
+          },
+          {
+            "news_id": "e025fb534eef2ffef3601bcac7943c20",
+            "published_at": "2026-07-24 16:26 KST",
+            "press": "서울경제",
+            "title": "두산로보틱스 올해 2분기 영업손실 144억원…적자폭 축소",
+            "sentiment_score": 0.49543,
+            "associated_companies": 1,
+            "company_names": [
+              "두산로보틱스"
             ]
           },
           {
@@ -1177,41 +1217,6 @@
               "SK텔레콤",
               "하나금융지주"
             ]
-          },
-          {
-            "news_id": "f028b210d04c8d19d32cd22ae97abcc0",
-            "published_at": "2026-07-24 16:06 KST",
-            "press": "디지털데일리",
-            "title": "브로커리지 날았지만 IB는 뒷걸음질…신한투자증권 상반기 순익 123% 급증",
-            "sentiment_score": 0.52793,
-            "associated_companies": 2,
-            "company_names": [
-              "신한지주",
-              "종근당홀딩스"
-            ]
-          },
-          {
-            "news_id": "150b0a83157948ffc849fa1190d38917",
-            "published_at": "2026-07-24 16:05 KST",
-            "press": "SBS Biz",
-            "title": "삼성전자·SK하이닉스 7~8%대 급락…외국인·기관 동반 순매도",
-            "sentiment_score": 0.27356,
-            "associated_companies": 2,
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "eb58299c2249171c04fadedb4feef69c",
-            "published_at": "2026-07-24 16:05 KST",
-            "press": "비즈워치",
-            "title": "하나금융, 상반기 순익 2.4조 '역대 최대'…'기업가치 제고 2.0' 발표",
-            "sentiment_score": 0.60293,
-            "associated_companies": 1,
-            "company_names": [
-              "하나금융지주"
-            ]
           }
         ],
         "hankyung": [
@@ -1778,7 +1783,8 @@
       }
     },
     "KOSDAQ": {
-      "score": -1.19441,
+      "score": -1.19251,
+      "text_pulse": -1.34906,
       "previous_final": -0.14827,
       "index": {
         "price": 748.22,
@@ -1792,9 +1798,9 @@
           "coverage": 0.1301
         },
         "news": {
-          "score": -1.69207,
-          "observations": 752,
-          "coverage": 0.5452
+          "score": -1.6826,
+          "observations": 753,
+          "coverage": 0.5458
         },
         "news_hankyung": {
           "score": -1.64324,
@@ -1819,6 +1825,17 @@
             "associated_companies": 1,
             "company_names": [
               "라온피플"
+            ]
+          },
+          {
+            "news_id": "b486e4dd8586c93993687c5cb116dc24",
+            "published_at": "2026-07-24 16:25 KST",
+            "press": "이데일리",
+            "title": "기가비스, 223억 규모 공급계약 체결",
+            "sentiment_score": 0.65043,
+            "associated_companies": 1,
+            "company_names": [
+              "기가비스"
             ]
           },
           {
@@ -2930,18 +2947,6 @@
             "company_names": [
               "형지글로벌"
             ]
-          },
-          {
-            "news_id": "98f468c86e4a99016d799fa5d6cf33a5",
-            "published_at": "2026-07-24 12:36 KST",
-            "press": "전자신문",
-            "title": "삼천당제약, 경구용 인슐린 글로벌 임상 1상 '순항'",
-            "sentiment_score": 0.60168,
-            "associated_companies": 2,
-            "company_names": [
-              "삼천당제약",
-              "에스씨디"
-            ]
           }
         ],
         "hankyung": [
@@ -3075,15 +3080,16 @@
       "observations": 55992
     },
     "news": {
-      "latest_event": "2026-07-24 16:33 KST",
-      "latest_seen": "2026-07-24 16:34 KST",
-      "active_minutes": 284,
-      "observations": 2422
+      "latest_event": "2026-07-24 16:40 KST",
+      "latest_seen": "2026-07-24 16:41 KST",
+      "active_minutes": 285,
+      "observations": 2423
     },
     "market": {
       "latest_event": "2026-07-24",
       "latest_seen": null,
-      "active_minutes": null
+      "active_minutes": null,
+      "status_record_available": true
     }
   }
 }
