@@ -1,25 +1,25 @@
 {
-  "as_of": "2026-07-24 13:15 KST",
+  "as_of": "2026-07-24 13:22 KST",
   "event_date": "2026-07-24",
   "boards": {
     "KOSPI": {
-      "score": -1.52365,
+      "score": -1.53676,
       "previous_final": -0.8141,
       "components": {
         "discussion": {
-          "score": -0.80671,
-          "observations": 22363,
-          "coverage": 0.1214
+          "score": -0.81769,
+          "observations": 22512,
+          "coverage": 0.1215
         },
         "news": {
-          "score": -3.28558,
-          "observations": 2066,
-          "coverage": 0.8269
+          "score": -3.32643,
+          "observations": 2078,
+          "coverage": 0.8279
         },
         "news_hankyung": {
-          "score": -0.7409,
-          "observations": 82,
-          "coverage": 0.7711
+          "score": -1.56132,
+          "observations": 92,
+          "coverage": 0.7957
         },
         "market": {
           "score": -1.4386,
@@ -30,6 +30,48 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "82fd42a8fe0078192cf52f15450f67a2",
+            "published_at": "2026-07-24 13:20 KST",
+            "press": "뉴스1",
+            "title": "'여명학교 20년 만에 새 교사 마련을 위해'",
+            "sentiment_score": 0.60293,
+            "associated_companies": 1,
+            "company_names": [
+              "현대차"
+            ]
+          },
+          {
+            "news_id": "d192bc4f86d10d07ab4f0eda77687ff3",
+            "published_at": "2026-07-24 13:18 KST",
+            "press": "한국경제",
+            "title": "중동발 유가 급등에 코스피·코스닥 급락…양시장 매도 사이드카 [종합]",
+            "sentiment_score": 0.30343,
+            "associated_companies": 10,
+            "company_names": [
+              "KB금융",
+              "LG에너지솔루션",
+              "SK스퀘어",
+              "SK하이닉스",
+              "기아",
+              "삼성물산",
+              "삼성생명",
+              "삼성전기",
+              "삼성전자",
+              "현대차"
+            ]
+          },
+          {
+            "news_id": "b5c3ad1d9cd3d5b22a9c27e7761d6acb",
+            "published_at": "2026-07-24 13:18 KST",
+            "press": "파이낸셜뉴스",
+            "title": "삼성전자, 베트남서 '갤럭시 Z 폴드8' 출시 앞두고 얼리 체험 프로그램 운영",
+            "sentiment_score": 0.60543,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성전자"
+            ]
+          },
           {
             "news_id": "7911f66412566ef50aad4dfa7262e5a7",
             "published_at": "2026-07-24 13:05 KST",
@@ -1199,42 +1241,29 @@
             "company_names": [
               "현대차"
             ]
-          },
-          {
-            "news_id": "f0a6825f1c269458e597b63f785bc604",
-            "published_at": "2026-07-24 11:30 KST",
-            "press": "동행미디어 시대",
-            "title": "신한은행, SOL트래블 외화 직접이체 도입…여행 체크카드 이벤트도",
-            "sentiment_score": 0.57543,
-            "associated_companies": 1,
-            "company_names": [
-              "신한지주"
-            ]
-          },
-          {
-            "news_id": "f67506970b29a71030ee12c6a0fb9161",
-            "published_at": "2026-07-24 11:30 KST",
-            "press": "더팩트",
-            "title": "현대차그룹, 통일부·교육청과 맞손…\"사회 통합 인재 육성\"",
-            "sentiment_score": 0.65543,
-            "associated_companies": 1,
-            "company_names": [
-              "현대차"
-            ]
-          },
-          {
-            "news_id": "cd75e25fc378a3db990790c601fc4524",
-            "published_at": "2026-07-24 11:29 KST",
-            "press": "EBN",
-            "title": "유한양행, 4253억원 규모 자사주 소각…주주가치 제고 본격화",
-            "sentiment_score": 0.62293,
-            "associated_companies": 1,
-            "company_names": [
-              "유한양행"
-            ]
           }
         ],
         "hankyung": [
+          {
+            "news_id": "d192bc4f86d10d07ab4f0eda77687ff3",
+            "published_at": "2026-07-24 13:18 KST",
+            "press": "한국경제",
+            "title": "중동발 유가 급등에 코스피·코스닥 급락…양시장 매도 사이드카 [종합]",
+            "sentiment_score": 0.30343,
+            "associated_companies": 10,
+            "company_names": [
+              "KB금융",
+              "LG에너지솔루션",
+              "SK스퀘어",
+              "SK하이닉스",
+              "기아",
+              "삼성물산",
+              "삼성생명",
+              "삼성전기",
+              "삼성전자",
+              "현대차"
+            ]
+          },
           {
             "news_id": "7f932c6e00af2073a9a25aabb12fcb7a",
             "published_at": "2026-07-24 11:30 KST",
@@ -1619,23 +1648,23 @@
       }
     },
     "KOSDAQ": {
-      "score": -1.13098,
+      "score": -1.1731,
       "previous_final": -0.15808,
       "components": {
         "discussion": {
-          "score": -1.15075,
-          "observations": 13738,
-          "coverage": 0.1309
+          "score": -1.15126,
+          "observations": 13797,
+          "coverage": 0.1308
         },
         "news": {
-          "score": -1.83506,
-          "observations": 489,
-          "coverage": 0.5685
+          "score": -2.04454,
+          "observations": 502,
+          "coverage": 0.5777
         },
         "news_hankyung": {
-          "score": -0.22559,
-          "observations": 26,
-          "coverage": 0.3846
+          "score": -2.05768,
+          "observations": 35,
+          "coverage": 0.5429
         },
         "market": {
           "score": -0.70322,
@@ -1647,6 +1676,36 @@
       "news_articles": {
         "all": [
           {
+            "news_id": "74b1a7009441830952dea71eba921fc1",
+            "published_at": "2026-07-24 13:19 KST",
+            "press": "아이뉴스24",
+            "title": "컴투스, 8월 7일 MMORPG '제우스: 오만의 신' 쇼케이스 개최",
+            "sentiment_score": 0.56293,
+            "associated_companies": 1,
+            "company_names": [
+              "컴투스"
+            ]
+          },
+          {
+            "news_id": "d192bc4f86d10d07ab4f0eda77687ff3",
+            "published_at": "2026-07-24 13:18 KST",
+            "press": "한국경제",
+            "title": "중동발 유가 급등에 코스피·코스닥 급락…양시장 매도 사이드카 [종합]",
+            "sentiment_score": 0.32099,
+            "associated_companies": 9,
+            "company_names": [
+              "레인보우로보틱스",
+              "리노공업",
+              "알테오젠",
+              "에이비엘바이오",
+              "에코프로",
+              "에코프로비엠",
+              "원익IPS",
+              "주성엔지니어링",
+              "피에스케이"
+            ]
+          },
+          {
             "news_id": "4716fa1f2b9dab873b20c82af3446ce7",
             "published_at": "2026-07-24 13:10 KST",
             "press": "블로터",
@@ -1655,6 +1714,28 @@
             "associated_companies": 1,
             "company_names": [
               "오스코텍"
+            ]
+          },
+          {
+            "news_id": "9d69f3b284d677cf3560a207cbd40e1b",
+            "published_at": "2026-07-24 13:02 KST",
+            "press": "YTN",
+            "title": "\"똘똘한 한 채 문제\" 보유세 강화 무게...집값 잡을까? [뉴스나우]",
+            "sentiment_score": 0.42793,
+            "associated_companies": 1,
+            "company_names": [
+              "YTN"
+            ]
+          },
+          {
+            "news_id": "80cb7acfc025ef4c9761ae053285e36a",
+            "published_at": "2026-07-24 12:50 KST",
+            "press": "EBN",
+            "title": "'형지코인'보다 '형지페이' 먼저…형지글로벌, 결제 생태계부터 키운다",
+            "sentiment_score": 0.59543,
+            "associated_companies": 1,
+            "company_names": [
+              "형지글로벌"
             ]
           },
           {
@@ -2716,54 +2797,28 @@
             "company_names": [
               "KT밀리의서재"
             ]
-          },
-          {
-            "news_id": "18069dd88022c65c662465c54bd2335d",
-            "published_at": "2026-07-24 09:40 KST",
-            "press": "서울경제",
-            "title": "교원창업기업 러셀, 포스코인터 손잡고 ‘태양전지 필름’ 해외 진출",
-            "sentiment_score": 0.59293,
-            "associated_companies": 1,
-            "company_names": [
-              "러셀"
-            ]
-          },
-          {
-            "news_id": "fb4970ff6cce93f978c70e8f39bd069a",
-            "published_at": "2026-07-24 09:40 KST",
-            "press": "파이낸셜뉴스",
-            "title": "\"친 AI 제조기업 도약\" 에너토크, 마키나락스와 MOU",
-            "sentiment_score": 0.64293,
-            "associated_companies": 2,
-            "company_names": [
-              "마키나락스",
-              "에너토크"
-            ]
-          },
-          {
-            "news_id": "a0ffdae767d285e8a0e0834b92d16d18",
-            "published_at": "2026-07-24 09:38 KST",
-            "press": "한국경제",
-            "title": "한 달 만에 10만원→1.4만원…코오롱티슈진 쓰디쓴 임상 실패",
-            "sentiment_score": 0.30418,
-            "associated_companies": 1,
-            "company_names": [
-              "코오롱티슈진"
-            ]
-          },
-          {
-            "news_id": "65f3c4a30b00fafd79336e333c565c96",
-            "published_at": "2026-07-24 09:38 KST",
-            "press": "파이낸셜뉴스",
-            "title": "젝시믹스 고윤정 효과…주요제품 판매 쑥",
-            "sentiment_score": 0.64543,
-            "associated_companies": 1,
-            "company_names": [
-              "젝시믹스"
-            ]
           }
         ],
         "hankyung": [
+          {
+            "news_id": "d192bc4f86d10d07ab4f0eda77687ff3",
+            "published_at": "2026-07-24 13:18 KST",
+            "press": "한국경제",
+            "title": "중동발 유가 급등에 코스피·코스닥 급락…양시장 매도 사이드카 [종합]",
+            "sentiment_score": 0.32099,
+            "associated_companies": 9,
+            "company_names": [
+              "레인보우로보틱스",
+              "리노공업",
+              "알테오젠",
+              "에이비엘바이오",
+              "에코프로",
+              "에코프로비엠",
+              "원익IPS",
+              "주성엔지니어링",
+              "피에스케이"
+            ]
+          },
           {
             "news_id": "a694fe9baa6423f0bafffdbf8dbd9f81",
             "published_at": "2026-07-24 10:41 KST",
@@ -2858,16 +2913,16 @@
   },
   "sources": {
     "discussion": {
-      "latest_event": "2026-07-24 13:08 KST",
-      "latest_seen": "2026-07-24 13:15 KST",
-      "active_minutes": 197,
-      "observations": 37054
+      "latest_event": "2026-07-24 13:14 KST",
+      "latest_seen": "2026-07-24 13:22 KST",
+      "active_minutes": 204,
+      "observations": 37279
     },
     "news": {
-      "latest_event": "2026-07-24 13:13 KST",
-      "latest_seen": "2026-07-24 13:15 KST",
-      "active_minutes": 184,
-      "observations": 1558
+      "latest_event": "2026-07-24 13:21 KST",
+      "latest_seen": "2026-07-24 13:22 KST",
+      "active_minutes": 186,
+      "observations": 1568
     },
     "market": {
       "latest_event": null,
