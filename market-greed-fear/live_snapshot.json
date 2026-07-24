@@ -1,35 +1,436 @@
 {
-  "as_of": "2026-07-24 15:38 KST",
+  "as_of": "2026-07-24 15:45 KST",
   "event_date": "2026-07-24",
   "boards": {
     "KOSPI": {
-      "score": -1.51641,
+      "score": -1.68756,
       "previous_final": -0.80585,
       "components": {
         "discussion": {
-          "score": -0.78175,
+          "score": -0.75807,
           "observations": 30870,
           "coverage": 0.1175
         },
         "news": {
-          "score": -3.30556,
-          "observations": 2580,
-          "coverage": 0.8346
+          "score": -3.29489,
+          "observations": 2663,
+          "coverage": 0.8338
         },
         "news_hankyung": {
-          "score": -1.48941,
-          "observations": 122,
-          "coverage": 0.7805
+          "score": -1.43729,
+          "observations": 127,
+          "coverage": 0.7656
         },
         "market": {
-          "score": -1.4386,
-          "confidence": 0.0,
-          "observations": 0,
-          "coverage": 0.0
+          "score": -1.96413,
+          "confidence": 1.0,
+          "observations": 903,
+          "coverage": 1.0
         }
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "35d3d55aa6f8f33ee8b6a79110da7834",
+            "published_at": "2026-07-24 15:42 KST",
+            "press": "디지털데일리",
+            "title": "하나증권 상반기 순익 2731억원…전년비 155.7% 급증",
+            "sentiment_score": 0.56168,
+            "associated_companies": 2,
+            "company_names": [
+              "종근당홀딩스",
+              "하나금융지주"
+            ]
+          },
+          {
+            "news_id": "36a5e49bf29ae6ee5022f076f6677f78",
+            "published_at": "2026-07-24 15:41 KST",
+            "press": "조선비즈",
+            "title": "롯데웰푸드, 꼬깔콘 모델로 배우 오정세 발탁",
+            "sentiment_score": 0.59293,
+            "associated_companies": 1,
+            "company_names": [
+              "롯데웰푸드"
+            ]
+          },
+          {
+            "news_id": "36c236a513e8abf03aa09617276dc6f4",
+            "published_at": "2026-07-24 15:41 KST",
+            "press": "SBS Biz",
+            "title": "국제유가 급등에 코스피 7천선 붕괴…6700선 후퇴",
+            "sentiment_score": 0.3065,
+            "associated_companies": 7,
+            "company_names": [
+              "LG에너지솔루션",
+              "SK하이닉스",
+              "기아",
+              "삼성바이오로직스",
+              "삼성전기",
+              "삼성전자",
+              "현대차"
+            ]
+          },
+          {
+            "news_id": "a4adcd73c37b9fdafa6b5efe95a398f7",
+            "published_at": "2026-07-24 15:41 KST",
+            "press": "연합뉴스TV",
+            "title": "삼성중공업 2분기 영업이익 3,250억원…전년 동기 대비 1.5배",
+            "sentiment_score": 0.62793,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성중공업"
+            ]
+          },
+          {
+            "news_id": "4c5922aa5398ed814526b03324b5a25d",
+            "published_at": "2026-07-24 15:40 KST",
+            "press": "이데일리",
+            "title": "삼성重, 2분기 영업익 '3250억'…전년比 59%↑",
+            "sentiment_score": 0.62793,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성중공업"
+            ]
+          },
+          {
+            "news_id": "4eccea8e3b6e60062724af359883528a",
+            "published_at": "2026-07-24 15:40 KST",
+            "press": "동아일보",
+            "title": "기아, 2분기 최대 매출·판매…관세 여파·인센티브 지출로 영업익은 감소",
+            "sentiment_score": 0.48293,
+            "associated_companies": 1,
+            "company_names": [
+              "기아"
+            ]
+          },
+          {
+            "news_id": "77e200b0dae15005c9c98b5769e90519",
+            "published_at": "2026-07-24 15:40 KST",
+            "press": "SBS Biz",
+            "title": "'금감원 참이슬' 한 잔 하며…보이스피싱 예방은 이렇게",
+            "sentiment_score": 0.44793,
+            "associated_companies": 1,
+            "company_names": [
+              "하이트진로"
+            ]
+          },
+          {
+            "news_id": "ec6929558c4dea05add5dd6db7811827",
+            "published_at": "2026-07-24 15:40 KST",
+            "press": "더팩트",
+            "title": "쿠팡 화재에 유통업계 비상…물류센터 안전관리 '고삐'",
+            "sentiment_score": 0.30918,
+            "associated_companies": 3,
+            "company_names": [
+              "CJ대한통운",
+              "롯데지주",
+              "한진"
+            ]
+          },
+          {
+            "news_id": "09a1831151dce47917c5f40a3adf4ae1",
+            "published_at": "2026-07-24 15:39 KST",
+            "press": "이코노미스트",
+            "title": "농심부터 CJ까지...李 출국날 제품 가격 인상 발표",
+            "sentiment_score": 0.41043,
+            "associated_companies": 2,
+            "company_names": [
+              "CJ",
+              "농심"
+            ]
+          },
+          {
+            "news_id": "0b9f75bd03294c3d513f7a4542f43b70",
+            "published_at": "2026-07-24 15:39 KST",
+            "press": "뉴스1",
+            "title": "동국씨엠, 2Q 영업익 211억 '흑자 전환'…매출 5451억 '8.6%↑'",
+            "sentiment_score": 0.64043,
+            "associated_companies": 1,
+            "company_names": [
+              "동국씨엠"
+            ]
+          },
+          {
+            "news_id": "36b0276cdee439f968243866918e4ece",
+            "published_at": "2026-07-24 15:39 KST",
+            "press": "뉴스1",
+            "title": "법원 \"최태원, 노소영에 9440억 줘야\"…최 \"심려끼쳐 송구\"(종합)",
+            "sentiment_score": 0.47293,
+            "associated_companies": 1,
+            "company_names": [
+              "SK"
+            ]
+          },
+          {
+            "news_id": "50736c619abe5182357eeb9e5f481a09",
+            "published_at": "2026-07-24 15:39 KST",
+            "press": "머니투데이",
+            "title": "삼성중공업, 2분기 영업익 3250억원…전년 대비 59%↑",
+            "sentiment_score": 0.63043,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성중공업"
+            ]
+          },
+          {
+            "news_id": "6be42e6f4eab8c2c7f4205c605f6248a",
+            "published_at": "2026-07-24 15:38 KST",
+            "press": "조선비즈",
+            "title": "[단독] 신한은행도 신용대출 조인다… 한도 1억원·마통 5000만원",
+            "sentiment_score": 0.55918,
+            "associated_companies": 2,
+            "company_names": [
+              "KB금융",
+              "신한지주"
+            ]
+          },
+          {
+            "news_id": "c7a710e8413c97c38669a08a2e7dfbd4",
+            "published_at": "2026-07-24 15:38 KST",
+            "press": "연합뉴스",
+            "title": "충남도, '202조 첨단산업 투자 지원' 전담조직 가동",
+            "sentiment_score": 0.58377,
+            "associated_companies": 3,
+            "company_names": [
+              "SK텔레콤",
+              "삼성SDI",
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "da869ed7f599064446cc0624d2fe4421",
+            "published_at": "2026-07-24 15:38 KST",
+            "press": "세계일보",
+            "title": "현대모비스, 2분기 매출 역대 최대…영업이익 12％↑",
+            "sentiment_score": 0.62543,
+            "associated_companies": 1,
+            "company_names": [
+              "현대모비스"
+            ]
+          },
+          {
+            "news_id": "090bf9115934d3c72b03191ee4fd57c2",
+            "published_at": "2026-07-24 15:36 KST",
+            "press": "조선비즈",
+            "title": "NH투자증권, 운용·자문사 CEO와 간담회…WM 상품 경쟁력 강화 논의",
+            "sentiment_score": 0.57043,
+            "associated_companies": 1,
+            "company_names": [
+              "NH투자증권"
+            ]
+          },
+          {
+            "news_id": "0a1233c6b53055645fadeb08dbc907cc",
+            "published_at": "2026-07-24 15:36 KST",
+            "press": "뉴시스",
+            "title": "삼성중공업, 2Q 영업익 3250억…전년比 58.7%↑",
+            "sentiment_score": 0.62543,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성중공업"
+            ]
+          },
+          {
+            "news_id": "721c03d0f646d7a3f9ff8b065b0f5301",
+            "published_at": "2026-07-24 15:36 KST",
+            "press": "뉴스1",
+            "title": "\"주주환원 속도\"…달바글로벌, 자사주 6만여주 연내 소각",
+            "sentiment_score": 0.58043,
+            "associated_companies": 2,
+            "company_names": [
+              "NH투자증권",
+              "달바글로벌"
+            ]
+          },
+          {
+            "news_id": "3c9f6f0d5b1ce2f8effc9dca880211ad",
+            "published_at": "2026-07-24 15:35 KST",
+            "press": "뉴시스",
+            "title": "[속보]삼성전자 7.59%·SK하이닉스 8.34% 하락 마감",
+            "sentiment_score": 0.33793,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "7c95ab866a9551cbc40c7bec94f34a3d",
+            "published_at": "2026-07-24 15:35 KST",
+            "press": "한국일보",
+            "title": "김성환 \"반도체 팹 4개, 기존 전력 인프라로 감당... 29년까지 2개는 운영 가능\"",
+            "sentiment_score": 0.59043,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "bc75fa45971837437e547686b343f560",
+            "published_at": "2026-07-24 15:35 KST",
+            "press": "뉴시스",
+            "title": "[컨콜] 기아 \"中 전기차 대응해 유럽서 인센티브 확대…더 늘리진 않을 듯\"",
+            "sentiment_score": 0.57043,
+            "associated_companies": 1,
+            "company_names": [
+              "기아"
+            ]
+          },
+          {
+            "news_id": "f2c39ff1b56170074493ab16716c374f",
+            "published_at": "2026-07-24 15:35 KST",
+            "press": "동아일보",
+            "title": "최태원·노소영 재산분할 파기환송심 4368억↓ 판결… “상고 여부 등 검토 후 대응”",
+            "sentiment_score": 0.55293,
+            "associated_companies": 1,
+            "company_names": [
+              "SK"
+            ]
+          },
+          {
+            "news_id": "3357871b3bd3ffcc95e6569e659b7da6",
+            "published_at": "2026-07-24 15:34 KST",
+            "press": "데일리안",
+            "title": "'루퍼·스피릿' vs '막눈·인섹'…LCK 레전드 매치 명단 공개",
+            "sentiment_score": 0.55043,
+            "associated_companies": 1,
+            "company_names": [
+              "SK텔레콤"
+            ]
+          },
+          {
+            "news_id": "824654c45881dd673e0069cd09117ff7",
+            "published_at": "2026-07-24 15:34 KST",
+            "press": "헤럴드경제",
+            "title": "하나금융, 상반기 순익 2조4029억원…역대 최대 실적",
+            "sentiment_score": 0.60043,
+            "associated_companies": 1,
+            "company_names": [
+              "하나금융지주"
+            ]
+          },
+          {
+            "news_id": "b64639110acd55ada87b4ac7d6ed33fe",
+            "published_at": "2026-07-24 15:34 KST",
+            "press": "헤럴드경제",
+            "title": "현대위아, 2분기 매출 2조3537억원…전년 대비 8%↑",
+            "sentiment_score": 0.59543,
+            "associated_companies": 1,
+            "company_names": [
+              "현대위아"
+            ]
+          },
+          {
+            "news_id": "544f1d3b9c32e7d730b2e4340e2022b6",
+            "published_at": "2026-07-24 15:33 KST",
+            "press": "이코노미스트",
+            "title": "“낙상 예방부터 자산관리까지”…KB국민은행, ‘골든라이프 Day’ 운영",
+            "sentiment_score": 0.58293,
+            "associated_companies": 1,
+            "company_names": [
+              "KB금융"
+            ]
+          },
+          {
+            "news_id": "9d3586b12ed2ff768ddf5fb4cc9c316e",
+            "published_at": "2026-07-24 15:33 KST",
+            "press": "MBC",
+            "title": "기아, 올해 2분기 매출 사상 최대 33조 원‥영업이익은 5% 감소",
+            "sentiment_score": 0.34043,
+            "associated_companies": 1,
+            "company_names": [
+              "기아"
+            ]
+          },
+          {
+            "news_id": "01828c9b58bef6452c7205dcaf6841c4",
+            "published_at": "2026-07-24 15:32 KST",
+            "press": "뉴시스",
+            "title": "농심, 내달 스낵제품 출고가격 인상",
+            "sentiment_score": 0.44793,
+            "associated_companies": 1,
+            "company_names": [
+              "농심"
+            ]
+          },
+          {
+            "news_id": "33802629fcea2e67c0b30e1c89611ab1",
+            "published_at": "2026-07-24 15:32 KST",
+            "press": "뉴시스",
+            "title": "농심, 새우깡 등 주요 스낵 제품 출고가 인상",
+            "sentiment_score": 0.39043,
+            "associated_companies": 1,
+            "company_names": [
+              "농심"
+            ]
+          },
+          {
+            "news_id": "40d951f14aa818215a1df90d501c140b",
+            "published_at": "2026-07-24 15:32 KST",
+            "press": "뉴시스",
+            "title": "농심, 새우깡 등 주요 스낵 제품 출고가 인상",
+            "sentiment_score": 0.39043,
+            "associated_companies": 1,
+            "company_names": [
+              "농심"
+            ]
+          },
+          {
+            "news_id": "52eb28c55c2bb76f0fbdd7efc735882f",
+            "published_at": "2026-07-24 15:32 KST",
+            "press": "뉴시스",
+            "title": "농심, 새우깡 등 주요 스낵 제품 출고가 인상",
+            "sentiment_score": 0.39043,
+            "associated_companies": 1,
+            "company_names": [
+              "농심"
+            ]
+          },
+          {
+            "news_id": "615538db4050abef7d2900390ba8ce91",
+            "published_at": "2026-07-24 15:32 KST",
+            "press": "뉴시스",
+            "title": "농심, 카프리썬 등 주요 음료 출고가 인상",
+            "sentiment_score": 0.39043,
+            "associated_companies": 1,
+            "company_names": [
+              "농심"
+            ]
+          },
+          {
+            "news_id": "6799f504de5a81587ba2cd2306554a81",
+            "published_at": "2026-07-24 15:32 KST",
+            "press": "뉴시스",
+            "title": "농심, 새우깡 등 주요 스낵 제품 출고가 인상",
+            "sentiment_score": 0.39043,
+            "associated_companies": 1,
+            "company_names": [
+              "농심"
+            ]
+          },
+          {
+            "news_id": "697879db914d44a8f7a0daa6c18812c3",
+            "published_at": "2026-07-24 15:32 KST",
+            "press": "뉴시스",
+            "title": "농심, 육개장 사발면 등 주요 용기라면 출고가 인상",
+            "sentiment_score": 0.39543,
+            "associated_companies": 1,
+            "company_names": [
+              "농심"
+            ]
+          },
+          {
+            "news_id": "6eaac8c07fe4e78d30b0226e6ca4504e",
+            "published_at": "2026-07-24 15:32 KST",
+            "press": "뉴시스",
+            "title": "농심, 꿀꽈배기 등 주요 스낵 출고가 인상",
+            "sentiment_score": 0.38293,
+            "associated_companies": 1,
+            "company_names": [
+              "농심"
+            ]
+          },
           {
             "news_id": "7b875808eee1bcd62bae93225929046b",
             "published_at": "2026-07-24 15:32 KST",
@@ -40,6 +441,128 @@
             "company_names": [
               "신세계",
               "에이피알"
+            ]
+          },
+          {
+            "news_id": "7c0f8258caa714d4977050c900b5a8d7",
+            "published_at": "2026-07-24 15:32 KST",
+            "press": "뉴시스",
+            "title": "농심, 육개장 사발면 등 주요 용기라면 출고가 인상",
+            "sentiment_score": 0.39543,
+            "associated_companies": 1,
+            "company_names": [
+              "농심"
+            ]
+          },
+          {
+            "news_id": "91b83c0d7e34356d8444837f248c8348",
+            "published_at": "2026-07-24 15:32 KST",
+            "press": "뉴시스",
+            "title": "농심, 육개장 사발면 등 주요 용기라면 출고가 인상",
+            "sentiment_score": 0.39543,
+            "associated_companies": 1,
+            "company_names": [
+              "농심"
+            ]
+          },
+          {
+            "news_id": "924b9a3ff8e55f83c7e613e76c53b8ac",
+            "published_at": "2026-07-24 15:32 KST",
+            "press": "뉴시스",
+            "title": "농심, 육개장 사발면 등 주요 용기라면 출고가 인상",
+            "sentiment_score": 0.39543,
+            "associated_companies": 1,
+            "company_names": [
+              "농심"
+            ]
+          },
+          {
+            "news_id": "9aff4dd08c1c34f9e1331d9c2c0d2a52",
+            "published_at": "2026-07-24 15:32 KST",
+            "press": "뉴시스",
+            "title": "농심, 내달 스낵제품 출고가격 인상",
+            "sentiment_score": 0.44793,
+            "associated_companies": 1,
+            "company_names": [
+              "농심"
+            ]
+          },
+          {
+            "news_id": "aa6a81e928be79a43933a5b2e2bf30e6",
+            "published_at": "2026-07-24 15:32 KST",
+            "press": "뉴시스",
+            "title": "농심, 육개장 사발면 등 주요 용기라면 출고가 인상",
+            "sentiment_score": 0.39543,
+            "associated_companies": 1,
+            "company_names": [
+              "농심"
+            ]
+          },
+          {
+            "news_id": "b006aa1bcf681d4b6599b12ebff1c912",
+            "published_at": "2026-07-24 15:32 KST",
+            "press": "뉴시스",
+            "title": "농심, 카프리썬 등 주요 음료 출고가 인상",
+            "sentiment_score": 0.39043,
+            "associated_companies": 1,
+            "company_names": [
+              "농심"
+            ]
+          },
+          {
+            "news_id": "c6e3bdf73d803a2711ac50b0e98e6afb",
+            "published_at": "2026-07-24 15:32 KST",
+            "press": "뉴시스",
+            "title": "농심, 내달 스낵제품 출고가격 인상",
+            "sentiment_score": 0.44793,
+            "associated_companies": 1,
+            "company_names": [
+              "농심"
+            ]
+          },
+          {
+            "news_id": "c7b94358a568d968910ef534f1f858db",
+            "published_at": "2026-07-24 15:32 KST",
+            "press": "뉴시스",
+            "title": "농심, 육개장 사발면 등 주요 용기라면 출고가 인상",
+            "sentiment_score": 0.39543,
+            "associated_companies": 1,
+            "company_names": [
+              "농심"
+            ]
+          },
+          {
+            "news_id": "d49dc4f381da1f4d5dd9fe9e4db7becc",
+            "published_at": "2026-07-24 15:32 KST",
+            "press": "조선비즈",
+            "title": "외국인, 국내 증시 돌아오나…‘복귀 신호’ 켜졌지만 추세 전환은 아직",
+            "sentiment_score": 0.56793,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "e802819bf7df44854c0d43b3296724ef",
+            "published_at": "2026-07-24 15:32 KST",
+            "press": "뉴시스",
+            "title": "농심, 꿀꽈배기 등 주요 스낵 출고가 인상",
+            "sentiment_score": 0.38293,
+            "associated_companies": 1,
+            "company_names": [
+              "농심"
+            ]
+          },
+          {
+            "news_id": "ecdc28fdf1fc1f1f8e0aeae5a4a18f8b",
+            "published_at": "2026-07-24 15:32 KST",
+            "press": "블로터",
+            "title": "최태원 SK 회장, 재산분할액 '9440억 조달' 방안은",
+            "sentiment_score": 0.47543,
+            "associated_companies": 1,
+            "company_names": [
+              "SK"
             ]
           },
           {
@@ -246,6 +769,17 @@
             ]
           },
           {
+            "news_id": "dc5fce984c6dc73d420a464fd29bf88e",
+            "published_at": "2026-07-24 15:24 KST",
+            "press": "EBN",
+            "title": "기아, 2분기 매출 33조370억원 '역대 최대'…영업익 4.9% 감소",
+            "sentiment_score": 0.58543,
+            "associated_companies": 1,
+            "company_names": [
+              "기아"
+            ]
+          },
+          {
             "news_id": "4fb3be30d30bf46636866fc7fa1a4bfd",
             "published_at": "2026-07-24 15:24 KST",
             "press": "서울경제",
@@ -276,6 +810,17 @@
             "associated_companies": 1,
             "company_names": [
               "셀트리온"
+            ]
+          },
+          {
+            "news_id": "ac0e7e07c70a034d5aef10015e0e1ab8",
+            "published_at": "2026-07-24 15:23 KST",
+            "press": "EBN",
+            "title": "‘여름휴가 전 타결’ 총력 교섭…조선·철강 임단협 중대 고비",
+            "sentiment_score": 0.33293,
+            "associated_companies": 1,
+            "company_names": [
+              "POSCO홀딩스"
             ]
           },
           {
@@ -622,545 +1167,6 @@
             "associated_companies": 1,
             "company_names": [
               "현대건설"
-            ]
-          },
-          {
-            "news_id": "ae524349eb0aa1bd0b3ea71e4dff1a68",
-            "published_at": "2026-07-24 15:12 KST",
-            "press": "디지털데일리",
-            "title": "하나금융, 상반기 순익 2.4조 ‘역대 최대’…주주환원율 50% 이상",
-            "sentiment_score": 0.57168,
-            "associated_companies": 2,
-            "company_names": [
-              "종근당홀딩스",
-              "하나금융지주"
-            ]
-          },
-          {
-            "news_id": "c9e97897ad3e80e83f81a0f9eb728d42",
-            "published_at": "2026-07-24 15:12 KST",
-            "press": "이데일리",
-            "title": "최태원·노소영 '세기의 재산분할' 9440억…SK 지배구조·리밸런싱 '새 변수'",
-            "sentiment_score": 0.43043,
-            "associated_companies": 1,
-            "company_names": [
-              "SK"
-            ]
-          },
-          {
-            "news_id": "574a1f856006900314efc88b6f769d18",
-            "published_at": "2026-07-24 15:11 KST",
-            "press": "지디넷코리아",
-            "title": "최태원, 수조원대 분할 부담 피했다…SK 주식 2024년 가격 적용",
-            "sentiment_score": 0.60293,
-            "associated_companies": 1,
-            "company_names": [
-              "SK"
-            ]
-          },
-          {
-            "news_id": "09d42b6ba2392215ebcaa3a74b343296",
-            "published_at": "2026-07-24 15:10 KST",
-            "press": "시사저널",
-            "title": "최태원·노소영 '세기의 재산분할', 9440억원 '근거'는 [QnA]",
-            "sentiment_score": 0.48293,
-            "associated_companies": 1,
-            "company_names": [
-              "SK"
-            ]
-          },
-          {
-            "news_id": "af0545c558047f5c4b0d769e086c68f2",
-            "published_at": "2026-07-24 15:10 KST",
-            "press": "서울신문",
-            "title": "하나금융, 2분기 순이익 1조 2061억원…증권 실적 ‘껑충’",
-            "sentiment_score": 0.57293,
-            "associated_companies": 1,
-            "company_names": [
-              "하나금융지주"
-            ]
-          },
-          {
-            "news_id": "d34ee2c0fceed4a45f821cac8034c8a1",
-            "published_at": "2026-07-24 15:10 KST",
-            "press": "뉴스1",
-            "title": "동국제강, 2Q 영업익 456억 '52.3%↑'…\"주력 품목 수익성 개선\"",
-            "sentiment_score": 0.57043,
-            "associated_companies": 2,
-            "company_names": [
-              "동국제강",
-              "동국홀딩스"
-            ]
-          },
-          {
-            "news_id": "551cee22f3dcaefe33b5b6939cf23d23",
-            "published_at": "2026-07-24 15:09 KST",
-            "press": "뉴스1",
-            "title": "美 강제노동 관세 현실화…식품업계, 대미 수출 리스크에 촉각",
-            "sentiment_score": 0.3321,
-            "associated_companies": 3,
-            "company_names": [
-              "CJ제일제당",
-              "대상",
-              "삼양식품"
-            ]
-          },
-          {
-            "news_id": "8228004eb80dd71eba607410446acff8",
-            "published_at": "2026-07-24 15:09 KST",
-            "press": "아시아경제",
-            "title": "제일기획, 2분기 영업익 927억…전년보다 0.6% 증가",
-            "sentiment_score": 0.55043,
-            "associated_companies": 2,
-            "company_names": [
-              "NAVER",
-              "제일기획"
-            ]
-          },
-          {
-            "news_id": "9a3487c4ff829579c509f8ad3096d7c9",
-            "published_at": "2026-07-24 15:09 KST",
-            "press": "서울경제",
-            "title": "셀트리온, 자가면역질환제 ‘코센틱스’ 바이오시밀러 유럽 허가 신청",
-            "sentiment_score": 0.63293,
-            "associated_companies": 1,
-            "company_names": [
-              "셀트리온"
-            ]
-          },
-          {
-            "news_id": "3635c7b44757b9290bec26de2f483134",
-            "published_at": "2026-07-24 15:08 KST",
-            "press": "EBN",
-            "title": "성모윌병원, 대웅제약과 스마트 병상 모니터링 시스템 '씽크' 도입",
-            "sentiment_score": 0.64543,
-            "associated_companies": 1,
-            "company_names": [
-              "대웅제약"
-            ]
-          },
-          {
-            "news_id": "8d0b1627aa9c180cf61cba23ad1fdc8e",
-            "published_at": "2026-07-24 15:08 KST",
-            "press": "EBN",
-            "title": "日 6개사 22조원 관세 충격…현대차도 상반기 1.8조원 부담",
-            "sentiment_score": 0.34793,
-            "associated_companies": 1,
-            "company_names": [
-              "현대차"
-            ]
-          },
-          {
-            "news_id": "c57e28a074ff2ccc241258c1e3761f9c",
-            "published_at": "2026-07-24 15:08 KST",
-            "press": "뉴시스",
-            "title": "법원 \"최태원, 노소영에 9440억 지급\"…주식도 분할 대상(종합)",
-            "sentiment_score": 0.50293,
-            "associated_companies": 1,
-            "company_names": [
-              "SK"
-            ]
-          },
-          {
-            "news_id": "e6a3a3a88db8f402a031782d209f2fad",
-            "published_at": "2026-07-24 15:08 KST",
-            "press": "데일리안",
-            "title": "[컨콜] 기아 \"국내 시장 점유율 36%…백오더 3개월 보유\"",
-            "sentiment_score": 0.54543,
-            "associated_companies": 2,
-            "company_names": [
-              "기아",
-              "현대차"
-            ]
-          },
-          {
-            "news_id": "ffacddc25fffc9708946532262b5d1a0",
-            "published_at": "2026-07-24 15:08 KST",
-            "press": "연합뉴스TV",
-            "title": "최태원, 재상고 나설까…\"판결문 검토 후 결정\"",
-            "sentiment_score": 0.54043,
-            "associated_companies": 1,
-            "company_names": [
-              "SK"
-            ]
-          },
-          {
-            "news_id": "2d01a15aea7176a2c5bc99fafc661c32",
-            "published_at": "2026-07-24 15:07 KST",
-            "press": "동행미디어 시대",
-            "title": "KB국민은행, '골든라이프 Day'로 시니어 토탈케어 강화",
-            "sentiment_score": 0.58793,
-            "associated_companies": 1,
-            "company_names": [
-              "KB금융"
-            ]
-          },
-          {
-            "news_id": "294b5433ced34aa9478d03e18bd32563",
-            "published_at": "2026-07-24 15:06 KST",
-            "press": "EBN",
-            "title": "\"닷컴 버블과 유사해\"…SK하이닉스 ADR 괴리율에 美 전문가 '경고'",
-            "sentiment_score": 0.41043,
-            "associated_companies": 2,
-            "company_names": [
-              "KB금융",
-              "SK하이닉스"
-            ]
-          },
-          {
-            "news_id": "37107c8ce9b61c11217a3b1d9947d12f",
-            "published_at": "2026-07-24 15:06 KST",
-            "press": "연합뉴스",
-            "title": "육개장사발면·새우깡·카프리썬 등 내달 가격 인상",
-            "sentiment_score": 0.32293,
-            "associated_companies": 1,
-            "company_names": [
-              "농심"
-            ]
-          },
-          {
-            "news_id": "37b5cf6ad7493fe00eb36ada311c9b29",
-            "published_at": "2026-07-24 15:06 KST",
-            "press": "연합뉴스",
-            "title": "육개장사발면·새우깡·카프리썬 등 내달 가격 인상",
-            "sentiment_score": 0.32293,
-            "associated_companies": 1,
-            "company_names": [
-              "농심"
-            ]
-          },
-          {
-            "news_id": "5351dc1e45b229760e77673d425ef7d1",
-            "published_at": "2026-07-24 15:06 KST",
-            "press": "연합뉴스",
-            "title": "육개장사발면·새우깡·카프리썬 등 내달 가격 인상",
-            "sentiment_score": 0.32293,
-            "associated_companies": 1,
-            "company_names": [
-              "농심"
-            ]
-          },
-          {
-            "news_id": "7aafb5579ebe6e3558f0c04cab199ad0",
-            "published_at": "2026-07-24 15:06 KST",
-            "press": "연합뉴스",
-            "title": "육개장사발면·새우깡·카프리썬 등 내달 가격 인상",
-            "sentiment_score": 0.32293,
-            "associated_companies": 1,
-            "company_names": [
-              "농심"
-            ]
-          },
-          {
-            "news_id": "e768da7477979a6329445651cbff41e3",
-            "published_at": "2026-07-24 15:06 KST",
-            "press": "연합뉴스",
-            "title": "육개장사발면·새우깡·카프리썬 등 내달 가격 인상",
-            "sentiment_score": 0.32293,
-            "associated_companies": 1,
-            "company_names": [
-              "농심"
-            ]
-          },
-          {
-            "news_id": "c105335f9c3728030237b7deba62de93",
-            "published_at": "2026-07-24 15:05 KST",
-            "press": "아시아경제",
-            "title": "하나금융지주, 하나손해보험 주주배정 유상증자에 2000억 참여",
-            "sentiment_score": 0.50793,
-            "associated_companies": 1,
-            "company_names": [
-              "하나금융지주"
-            ]
-          },
-          {
-            "news_id": "dae9491c7678da0bc2fb0b03e767f86c",
-            "published_at": "2026-07-24 15:03 KST",
-            "press": "EBN",
-            "title": "비자금 기여 배제·사실심 주가 적용…최태원, '경영권 리스크' 해소",
-            "sentiment_score": 0.57293,
-            "associated_companies": 1,
-            "company_names": [
-              "SK"
-            ]
-          },
-          {
-            "news_id": "24646297d545c6b3434e561afc6861fe",
-            "published_at": "2026-07-24 15:03 KST",
-            "press": "한국경제",
-            "title": "전기차 판매 60% 뛴 기아, 글로벌 매출·판매량·시장점유율 '역대 최대' [종합]",
-            "sentiment_score": 0.58793,
-            "associated_companies": 1,
-            "company_names": [
-              "기아"
-            ]
-          },
-          {
-            "news_id": "5006d160cc53d30778074a04ca308231",
-            "published_at": "2026-07-24 15:03 KST",
-            "press": "아이뉴스24",
-            "title": "하나증권, 상반기 영업익 3453억…증시 활황에 191%↑",
-            "sentiment_score": 0.59043,
-            "associated_companies": 1,
-            "company_names": [
-              "하나금융지주"
-            ]
-          },
-          {
-            "news_id": "89eb1a77e08e278e2ffe07831615e411",
-            "published_at": "2026-07-24 15:02 KST",
-            "press": "아이뉴스24",
-            "title": "하나금융 상반기 당기순이익 2조 4029억원⋯역대 최대",
-            "sentiment_score": 0.61543,
-            "associated_companies": 1,
-            "company_names": [
-              "하나금융지주"
-            ]
-          },
-          {
-            "news_id": "eae1a1dc2bc6b32d7cd354f89b46afbb",
-            "published_at": "2026-07-24 15:02 KST",
-            "press": "이데일리",
-            "title": "아인스스카이, 수주잔고 2700억 돌파…코스닥 상장 추진",
-            "sentiment_score": 0.5296,
-            "associated_companies": 3,
-            "company_names": [
-              "기업은행",
-              "두산에너빌리티",
-              "한국금융지주"
-            ]
-          },
-          {
-            "news_id": "40945773dab2b2803a637c1999c51c9e",
-            "published_at": "2026-07-24 15:01 KST",
-            "press": "경향신문",
-            "title": "해외 브랜드 즐비한 프리미엄 아울렛…신세계, 노림수 있는 ‘K-패션 브랜드’ 강화",
-            "sentiment_score": 0.61293,
-            "associated_companies": 1,
-            "company_names": [
-              "신세계"
-            ]
-          },
-          {
-            "news_id": "a3de12791e4ef70b2e06dfeb286906f6",
-            "published_at": "2026-07-24 15:00 KST",
-            "press": "EBN",
-            "title": "셀트리온, 코센틱스 바이오시밀러 유럽 허가 신청",
-            "sentiment_score": 0.63793,
-            "associated_companies": 1,
-            "company_names": [
-              "셀트리온"
-            ]
-          },
-          {
-            "news_id": "2132779b5c4c87b82faacc5c247acff3",
-            "published_at": "2026-07-24 15:00 KST",
-            "press": "서울경제",
-            "title": "토스·웨이브릿지, ‘세계 최고’ 핀테크 기업",
-            "sentiment_score": 0.58043,
-            "associated_companies": 1,
-            "company_names": [
-              "NAVER"
-            ]
-          },
-          {
-            "news_id": "601c42bfe51a5657e2f0d00a3c6f2e47",
-            "published_at": "2026-07-24 14:59 KST",
-            "press": "서울경제",
-            "title": "하나증권, 상반기 순이익 2731억…전년 동기比 155.7%↑",
-            "sentiment_score": 0.55043,
-            "associated_companies": 1,
-            "company_names": [
-              "하나금융지주"
-            ]
-          },
-          {
-            "news_id": "6b9fce68c490fe6892cf1c6e4c94bea1",
-            "published_at": "2026-07-24 14:59 KST",
-            "press": "서울신문",
-            "title": "대형 산업 인프라 확대에…동국제강, 2분기 영업이익 52.3% 증가",
-            "sentiment_score": 0.62043,
-            "associated_companies": 2,
-            "company_names": [
-              "동국씨엠",
-              "동국홀딩스"
-            ]
-          },
-          {
-            "news_id": "1956fadc0635f0611ad05ce3f64013cc",
-            "published_at": "2026-07-24 14:58 KST",
-            "press": "SBS Biz",
-            "title": "하나금융, 상반기 순익 2.4조…이자·수수료이익 전년대비 13%↑",
-            "sentiment_score": 0.59043,
-            "associated_companies": 1,
-            "company_names": [
-              "하나금융지주"
-            ]
-          },
-          {
-            "news_id": "2bb45099ba38993c2de2fc325d52a3c7",
-            "published_at": "2026-07-24 14:57 KST",
-            "press": "한국경제",
-            "title": "\"SK 주식은 공동재산\"…최태원, 노소영에 '9440억 지급' 판결",
-            "sentiment_score": 0.52043,
-            "associated_companies": 1,
-            "company_names": [
-              "SK"
-            ]
-          },
-          {
-            "news_id": "60f912eecbe268d5f783f2479c104600",
-            "published_at": "2026-07-24 14:57 KST",
-            "press": "경향신문",
-            "title": "기아, 올해 역대 2분기 최다 판매·최대 매출 달성…영업이익은 5% 감소",
-            "sentiment_score": 0.57043,
-            "associated_companies": 1,
-            "company_names": [
-              "기아"
-            ]
-          },
-          {
-            "news_id": "4b19847e0dd9fda8eb9a6aec05722b90",
-            "published_at": "2026-07-24 14:56 KST",
-            "press": "뉴시스",
-            "title": "최태원 측 \"심려 끼쳐 죄송, 재상고 검토 후 말씀\"…노소영 측 '묵묵부답'",
-            "sentiment_score": 0.35543,
-            "associated_companies": 1,
-            "company_names": [
-              "SK"
-            ]
-          },
-          {
-            "news_id": "a980eedb51a6a2b55af398d687399639",
-            "published_at": "2026-07-24 14:55 KST",
-            "press": "한국경제",
-            "title": "1조원 달하는 세기의 재산분할 판결…\"SK 팔고 텔레콤 사라\"",
-            "sentiment_score": 0.49293,
-            "associated_companies": 1,
-            "company_names": [
-              "SK"
-            ]
-          },
-          {
-            "news_id": "0711684943a1d19ca28a82bcec553e87",
-            "published_at": "2026-07-24 14:53 KST",
-            "press": "머니투데이",
-            "title": "하나금융, 상반기 순이익 2.4조원 사상 최대…밸류업 2.0 발표",
-            "sentiment_score": 0.62043,
-            "associated_companies": 1,
-            "company_names": [
-              "하나금융지주"
-            ]
-          },
-          {
-            "news_id": "131f806d30341e3eb321738b2bf46991",
-            "published_at": "2026-07-24 14:52 KST",
-            "press": "데일리안",
-            "title": "HD현대에너지솔루션, 美매출 4.2배·분기 영업익 '역대 최대'",
-            "sentiment_score": 0.63293,
-            "associated_companies": 1,
-            "company_names": [
-              "HD현대에너지솔루션"
-            ]
-          },
-          {
-            "news_id": "bd5cb6b10356375d161f010956206ac5",
-            "published_at": "2026-07-24 14:52 KST",
-            "press": "더팩트",
-            "title": "NH투자증권, 운용·자문사 CEO 한자리에…\"WM 상품 경쟁력 강화\"",
-            "sentiment_score": 0.58043,
-            "associated_companies": 1,
-            "company_names": [
-              "NH투자증권"
-            ]
-          },
-          {
-            "news_id": "e39b3ce7809f0d3e9fcad153780fd8ac",
-            "published_at": "2026-07-24 14:51 KST",
-            "press": "EBN",
-            "title": "오뚜기, 완도산 전복죽 연간 10만개 생산…지역 상생 확대",
-            "sentiment_score": 0.62293,
-            "associated_companies": 1,
-            "company_names": [
-              "오뚜기"
-            ]
-          },
-          {
-            "news_id": "1e58413c4fc885e3cbd946ae70e59fe7",
-            "published_at": "2026-07-24 14:51 KST",
-            "press": "조세일보",
-            "title": "제논, 기술특례 아닌 '일반상장' 코스닥 예심 청구... 주관사 삼성증권",
-            "sentiment_score": 0.55293,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성증권"
-            ]
-          },
-          {
-            "news_id": "6a354a6204b659f733d6fc43251fd47c",
-            "published_at": "2026-07-24 14:50 KST",
-            "press": "머니투데이",
-            "title": "기아 \"올해 도매 335만대·영업익 10.2조원 목표 달성 가능\"",
-            "sentiment_score": 0.61543,
-            "associated_companies": 1,
-            "company_names": [
-              "기아"
-            ]
-          },
-          {
-            "news_id": "8feffbe3972b87ddecfa686817335143",
-            "published_at": "2026-07-24 14:50 KST",
-            "press": "아시아경제",
-            "title": "서울 도심 희소한 대규모 개발부지… BYC (구)본사 ‘GD메트로타워’ 본격화",
-            "sentiment_score": 0.52293,
-            "associated_companies": 1,
-            "company_names": [
-              "BYC"
-            ]
-          },
-          {
-            "news_id": "4ccd79ef4274caaf239123ea3d3d4318",
-            "published_at": "2026-07-24 14:49 KST",
-            "press": "대전일보",
-            "title": "농심·던킨·뚜레쥬르 다 오른다… 식품업계 가격 인상 확산",
-            "sentiment_score": 0.37043,
-            "associated_companies": 2,
-            "company_names": [
-              "CJ",
-              "농심"
-            ]
-          },
-          {
-            "news_id": "06a4d6caab5e160813015b6be2c8054d",
-            "published_at": "2026-07-24 14:48 KST",
-            "press": "머니투데이",
-            "title": "2분기 영업이익 전년比 4.9% 감소… 기아, 장중 12%대 급락",
-            "sentiment_score": 0.25793,
-            "associated_companies": 1,
-            "company_names": [
-              "기아"
-            ]
-          },
-          {
-            "news_id": "24fb813007f093824e0836b081c5d380",
-            "published_at": "2026-07-24 14:48 KST",
-            "press": "SBS Biz",
-            "title": "하나증권 2분기 영업이익 2037억원…전년대비 783.3%↑",
-            "sentiment_score": 0.59293,
-            "associated_companies": 1,
-            "company_names": [
-              "하나금융지주"
-            ]
-          },
-          {
-            "news_id": "4d71e89ec9648efc787e7a28e37646c5",
-            "published_at": "2026-07-24 14:48 KST",
-            "press": "동행미디어 시대",
-            "title": "풀무원 해외사업 반전…미국 두부 성공 이어 유럽 노린다",
-            "sentiment_score": 0.63043,
-            "associated_companies": 1,
-            "company_names": [
-              "풀무원"
             ]
           }
         ],
@@ -1627,6 +1633,18 @@
             ]
           },
           {
+            "news_id": "4ea32492733d3130bb4daabe078baccf",
+            "published_at": "2026-07-24 07:53 KST",
+            "press": "한국경제",
+            "title": "\"○○○ 사두고 여름휴가 다녀오세요\"…고수가 찍은 유망 업종",
+            "sentiment_score": 0.42668,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
+          {
             "news_id": "568946b3de74a359d168dc20890a0a17",
             "published_at": "2026-07-24 07:46 KST",
             "press": "한국경제",
@@ -1692,33 +1710,100 @@
       }
     },
     "KOSDAQ": {
-      "score": -1.13481,
+      "score": -1.16018,
       "previous_final": -0.14827,
       "components": {
         "discussion": {
-          "score": -1.21213,
+          "score": -1.14181,
           "observations": 18469,
           "coverage": 0.1304
         },
         "news": {
-          "score": -1.71613,
-          "observations": 586,
-          "coverage": 0.6177
+          "score": -1.6537,
+          "observations": 598,
+          "coverage": 0.6187
         },
         "news_hankyung": {
-          "score": -2.04831,
+          "score": -2.0174,
           "observations": 37,
           "coverage": 0.5405
         },
         "market": {
-          "score": -0.70322,
-          "confidence": 0.0,
-          "observations": 0,
-          "coverage": 0.0
+          "score": -0.90178,
+          "confidence": 1.0,
+          "observations": 1764,
+          "coverage": 1.0
         }
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "62336f24952790be1448ef460ff1a456",
+            "published_at": "2026-07-24 15:41 KST",
+            "press": "전자신문",
+            "title": "파로스아이바이오-케이메디허브, AI 기반 신약개발 협약",
+            "sentiment_score": 0.65043,
+            "associated_companies": 1,
+            "company_names": [
+              "파로스아이바이오"
+            ]
+          },
+          {
+            "news_id": "677fbcf33d58dcc2a09ffcdb98ee11ce",
+            "published_at": "2026-07-24 15:40 KST",
+            "press": "아시아경제",
+            "title": "가비아 공개매수 공방…맥쿼리 \"가격 적정\" VS 얼라인 \"절차가 핵심\"",
+            "sentiment_score": 0.32043,
+            "associated_companies": 1,
+            "company_names": [
+              "가비아"
+            ]
+          },
+          {
+            "news_id": "aa1468fa55907a2796d4cdb07e8dbc70",
+            "published_at": "2026-07-24 15:40 KST",
+            "press": "머니투데이",
+            "title": "유바이오로직스, 면역증강제 'EcML' 美 FDA Type IV DMF 등록",
+            "sentiment_score": 0.63543,
+            "associated_companies": 1,
+            "company_names": [
+              "유바이오로직스"
+            ]
+          },
+          {
+            "news_id": "1c639f8b5dd4cae524a8597b1bcf70ad",
+            "published_at": "2026-07-24 15:39 KST",
+            "press": "머니투데이",
+            "title": "\"고윤정이 입은 크롭탑 23배 더 팔렸다\"...대박 난 젝시믹스",
+            "sentiment_score": 0.65043,
+            "associated_companies": 1,
+            "company_names": [
+              "젝시믹스"
+            ]
+          },
+          {
+            "news_id": "7349f03ddb612ce7c97210c5657a3c95",
+            "published_at": "2026-07-24 15:39 KST",
+            "press": "이데일리",
+            "title": "마키나락스, 에너토크와 'AI 네이티브 팩토리' 구축 맞손",
+            "sentiment_score": 0.64043,
+            "associated_companies": 2,
+            "company_names": [
+              "마키나락스",
+              "에너토크"
+            ]
+          },
+          {
+            "news_id": "f840a3312caf13777aabe7813452f34f",
+            "published_at": "2026-07-24 15:33 KST",
+            "press": "파이낸셜뉴스",
+            "title": "가격 공방 선 그은 얼라인…\"이제 공은 가비아 이사회로\" [fn마켓워치]",
+            "sentiment_score": 0.47293,
+            "associated_companies": 1,
+            "company_names": [
+              "가비아"
+            ]
+          },
           {
             "news_id": "0735d6029145b707f98faaa686960d69",
             "published_at": "2026-07-24 15:30 KST",
@@ -1816,6 +1901,17 @@
             "associated_companies": 1,
             "company_names": [
               "기가비스"
+            ]
+          },
+          {
+            "news_id": "a6b5f35c9ff2186344fc93b4495461f3",
+            "published_at": "2026-07-24 15:11 KST",
+            "press": "EBN",
+            "title": "동국제약, 의과학 기반 더마코스메슈티컬 브랜드 '마데카랩스' 개발",
+            "sentiment_score": 0.63543,
+            "associated_companies": 1,
+            "company_names": [
+              "동국제약"
             ]
           },
           {
@@ -2775,83 +2871,6 @@
               "오리콤",
               "한글과컴퓨터"
             ]
-          },
-          {
-            "news_id": "c7612ea545d7f110cc8cee25e9598a8d",
-            "published_at": "2026-07-24 10:51 KST",
-            "press": "스포츠조선",
-            "title": "컴투스 '제우스: 오만의 신', 8월 7일 쇼케이스…출시일 첫 공개",
-            "sentiment_score": 0.55043,
-            "associated_companies": 1,
-            "company_names": [
-              "컴투스"
-            ]
-          },
-          {
-            "news_id": "3097e3a9911fb3278c018925e38ca751",
-            "published_at": "2026-07-24 10:46 KST",
-            "press": "서울경제",
-            "title": "훈민정음·민화 입은 패션…내셔널지오그래픽 ‘K헤리티지’ 팝업 흥행",
-            "sentiment_score": 0.61043,
-            "associated_companies": 1,
-            "company_names": [
-              "더네이쳐홀딩스"
-            ]
-          },
-          {
-            "news_id": "a694fe9baa6423f0bafffdbf8dbd9f81",
-            "published_at": "2026-07-24 10:41 KST",
-            "press": "한국경제",
-            "title": "대우건설, 데이터센터 전문 기업 KINX와 업무협약",
-            "sentiment_score": 0.60793,
-            "associated_companies": 1,
-            "company_names": [
-              "케이아이엔엑스"
-            ]
-          },
-          {
-            "news_id": "78f1b08fd665e430d4828f6abd8ab590",
-            "published_at": "2026-07-24 10:41 KST",
-            "press": "이데일리",
-            "title": "넥써쓰, '프로스트 킹덤' 출시…\"웹3 전략 시뮬레이션 게임\"",
-            "sentiment_score": 0.63543,
-            "associated_companies": 1,
-            "company_names": [
-              "넥써쓰"
-            ]
-          },
-          {
-            "news_id": "92755e7341f015a317db0c8436b0c544",
-            "published_at": "2026-07-24 10:40 KST",
-            "press": "연합뉴스",
-            "title": "대우건설, 데이터센서 개발·시공·운영 '통합 디벨로퍼화' 추진",
-            "sentiment_score": 0.60293,
-            "associated_companies": 1,
-            "company_names": [
-              "케이아이엔엑스"
-            ]
-          },
-          {
-            "news_id": "1c0abcbff7b120c86ee8ad9cef15bda5",
-            "published_at": "2026-07-24 10:39 KST",
-            "press": "이데일리",
-            "title": "파인텍, 195억 규모 OLED 제조장비 공급…10년만 최대 규모 수주",
-            "sentiment_score": 0.64043,
-            "associated_companies": 1,
-            "company_names": [
-              "파인텍"
-            ]
-          },
-          {
-            "news_id": "29f9743ee4d94bca2df7301a7c3c80fd",
-            "published_at": "2026-07-24 10:39 KST",
-            "press": "YTN",
-            "title": "SK그룹, 판결 앞두고 '긴장'...최태원은 AI 경영행보",
-            "sentiment_score": 0.46793,
-            "associated_companies": 1,
-            "company_names": [
-              "YTN"
-            ]
           }
         ],
         "hankyung": [
@@ -2974,13 +2993,13 @@
       "observations": 50924
     },
     "news": {
-      "latest_event": "2026-07-24 15:33 KST",
-      "latest_seen": "2026-07-24 15:37 KST",
-      "active_minutes": 255,
-      "observations": 2090
+      "latest_event": "2026-07-24 15:42 KST",
+      "latest_seen": "2026-07-24 15:45 KST",
+      "active_minutes": 259,
+      "observations": 2155
     },
     "market": {
-      "latest_event": null,
+      "latest_event": "2026-07-24",
       "latest_seen": null,
       "active_minutes": null
     }
