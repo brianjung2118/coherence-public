@@ -1,28 +1,26 @@
 {
-  "as_of": "2026-07-24 11:10 KST",
+  "as_of": "2026-07-24 11:23 KST",
   "event_date": "2026-07-24",
   "boards": {
     "KOSPI": {
-      "score": -1.03482,
+      "score": -1.12202,
       "previous_final": -0.8141,
       "components": {
         "discussion": {
-          "score": -0.23068,
-          "confidence": 0.2629,
-          "observations": 13699,
-          "coverage": 0.1304
+          "score": -0.2339,
+          "confidence": 0.2708,
+          "observations": 14111,
+          "coverage": 0.1298
         },
         "news": {
-          "score": -2.1375,
-          "confidence": 0.6979,
-          "observations": 1653,
-          "coverage": 0.8266
+          "score": -2.56626,
+          "observations": 1742,
+          "coverage": 0.8251
         },
         "news_hankyung": {
-          "score": 0.42558,
-          "confidence": 0.2862,
-          "observations": 79,
-          "coverage": 0.7625
+          "score": -0.79959,
+          "observations": 80,
+          "coverage": 0.7654
         },
         "market": {
           "score": -1.4386,
@@ -34,12 +32,348 @@
       "news_articles": {
         "all": [
           {
+            "news_id": "4dbbda4835452deb7524aee79f3bc2ee",
+            "published_at": "2026-07-24 11:21 KST",
+            "press": "지디넷코리아",
+            "title": "넥슨-삼성전자, '메이플스토리M' 갤럭시 Z 폴드8·플립8 스페셜 테마 공개",
+            "sentiment_score": 0.57043,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "5f8d04843726648bc61c9db6045395d0",
+            "published_at": "2026-07-24 11:21 KST",
+            "press": "조선비즈",
+            "title": "[비즈톡톡] 삼성전자는 폴더블폰 신제품 공개… ‘아이폰 울트라’는 올해 안 나오나",
+            "sentiment_score": 0.41543,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "64f514511b2b2cf21356597ea354cda8",
+            "published_at": "2026-07-24 11:21 KST",
+            "press": "스포츠경향",
+            "title": "농심, 용기라면-스낵-음료 가격 인상한다",
+            "sentiment_score": 0.49793,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "eb057e75906fe47901a4e892e5f0e57f",
+            "published_at": "2026-07-24 11:21 KST",
+            "press": "블로터",
+            "title": "[K조선 공급망] 태광, 중동·미국 수출 업고 '피팅 업사이클' 진입",
+            "sentiment_score": 0.5996,
+            "associated_companies": 6
+          },
+          {
+            "news_id": "b6a2811a884b6a59434c8cbd07b59b73",
+            "published_at": "2026-07-24 11:20 KST",
+            "press": "헤럴드경제",
+            "title": "韓바이오 ‘장기 성장’에 베팅…뭉칫돈 몰린다",
+            "sentiment_score": 0.60293,
+            "associated_companies": 2
+          },
+          {
+            "news_id": "de72fa5ef679203d475cd72fd33b4ff3",
+            "published_at": "2026-07-24 11:19 KST",
+            "press": "동행미디어 시대",
+            "title": "삼성E&A, 2분기 영업익 51% 증가…\"원가 안정으로 수익 회복\"",
+            "sentiment_score": 0.65043,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "301d03002c2122d6bb9b9f9e9fdcba8e",
+            "published_at": "2026-07-24 11:18 KST",
+            "press": "한국경제",
+            "title": "\"원가부담 심화\"…농심 용기면·스낵값 평균 5.8% 인상",
+            "sentiment_score": 0.34793,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "4c6d23746e24ead19536bf2dac6917cb",
+            "published_at": "2026-07-24 11:18 KST",
+            "press": "서울경제",
+            "title": "메가프로젝트 테마주 주의보…상한가 갔던 건설사 8% 하락 [이런국장 저런주식]",
+            "sentiment_score": 0.3946,
+            "associated_companies": 3
+          },
+          {
+            "news_id": "ac62693ceacdf49a8ee909702febd5b9",
+            "published_at": "2026-07-24 11:18 KST",
+            "press": "디지털데일리",
+            "title": "제논, 코스닥 일반 상장 예심 제출",
+            "sentiment_score": 0.50793,
+            "associated_companies": 2
+          },
+          {
+            "news_id": "eb8c0af6769c690d89b0bed116848a1e",
+            "published_at": "2026-07-24 11:18 KST",
+            "press": "동아일보",
+            "title": "충주맨, 삼전 5만원 대 1000주 매입…“6만원 대 팔았다”",
+            "sentiment_score": 0.55293,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "8404201e2f4b5161366b98de6df905f6",
+            "published_at": "2026-07-24 11:17 KST",
+            "press": "뉴시스",
+            "title": "포스코 노사 갈등 '최고조'…반세기 만에 '첫 파업' 갈림길",
+            "sentiment_score": 0.29668,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "7299472217e46c5021e5ac6ae5ae950b",
+            "published_at": "2026-07-24 11:16 KST",
+            "press": "파이낸셜뉴스",
+            "title": "신라면 용기면·새우깡 가격 오른다…식품업계 가격 줄인상",
+            "sentiment_score": 0.39356,
+            "associated_companies": 4
+          },
+          {
+            "news_id": "74932ddb31697de6f8311e7a05611ed8",
+            "published_at": "2026-07-24 11:15 KST",
+            "press": "뉴시스",
+            "title": "\"삼전·닉스만 올라선 안 돼\"…전문가가 꼽은 증시 안정 위한 조건은?",
+            "sentiment_score": 0.51793,
+            "associated_companies": 2
+          },
+          {
+            "news_id": "74780162a57a954b42cf6aeee11b8bd7",
+            "published_at": "2026-07-24 11:14 KST",
+            "press": "YTN",
+            "title": "새우깡 100원 오른다...농심, 용기면·스낵 가격 인상",
+            "sentiment_score": 0.45043,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "9ecb8d30c616f3df9fdac1a7653709dd",
+            "published_at": "2026-07-24 11:14 KST",
+            "press": "조선비즈",
+            "title": "따뜻한하루, LG사이언스파크서 에티오피아 참전용사 후손‘강뉴합창단’ 연습실 조성·기자재 지원 전달식 진행",
+            "sentiment_score": 0.57043,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "b99913ac6687464ffeb11153d6859aa3",
+            "published_at": "2026-07-24 11:14 KST",
+            "press": "비즈워치",
+            "title": "농심, 육개장·새우깡 가격 올린다…봉지면은 제외",
+            "sentiment_score": 0.43543,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "090e352085d37513b492234dce2af641",
+            "published_at": "2026-07-24 11:12 KST",
+            "press": "헤럴드경제",
+            "title": "BNK금융 ‘미래비전 포럼’ 지역경제·해양금융役 모색",
+            "sentiment_score": 0.55793,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "949dda23595b54f0410234e37c3f4489",
+            "published_at": "2026-07-24 11:12 KST",
+            "press": "헤럴드경제",
+            "title": "요아정, 카카오 ‘리틀어피치’ 협업 저당 시리즈 선봬",
+            "sentiment_score": 0.59293,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "3b4ec5b67ac456a21edf411cddbf12c7",
+            "published_at": "2026-07-24 11:11 KST",
+            "press": "서울경제",
+            "title": "경동나비엔, 공기열 보일러 국내 양산 시작…히트펌프 국산화 완성",
+            "sentiment_score": 0.63793,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "493798afaa221bd71d9c1eb61eb020e4",
+            "published_at": "2026-07-24 11:10 KST",
+            "press": "연합뉴스",
+            "title": "코스맥스, 고객사 수출입 지원 플랫폼 가동…관세 환급 등 지원",
+            "sentiment_score": 0.61793,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "6f81de2ed7bf4d784ce9e223f5095226",
+            "published_at": "2026-07-24 11:09 KST",
+            "press": "전자신문",
+            "title": "무한정보기술, 국토부 AX-Sprint 선정… AI 기반 도로관리 플랫폼 '미어캣' 신속 상용화",
+            "sentiment_score": 0.58293,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "1dae284efb74a99664a2f52e7dfd3009",
+            "published_at": "2026-07-24 11:08 KST",
+            "press": "데일리안",
+            "title": "코스맥스, 고객사 수출입 지원 플랫폼 구축…K뷰티 해외 진출 돕는다",
+            "sentiment_score": 0.64043,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "2b842530edd0f1af9aefa6f9062b3c1a",
+            "published_at": "2026-07-24 11:07 KST",
+            "press": "이데일리",
+            "title": "LX세미콘, 2분기 영업익 220억원…전년比 115.1%↑",
+            "sentiment_score": 0.64543,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "5f7eb96aba74a09930b2fd28ff2cac53",
+            "published_at": "2026-07-24 11:07 KST",
+            "press": "파이낸셜뉴스",
+            "title": "산·학·관 모여 한국 조선해양산업 발전 전략 모색",
+            "sentiment_score": 0.56668,
+            "associated_companies": 2
+          },
+          {
+            "news_id": "da713f92eaec73d16beb15120ff667c1",
+            "published_at": "2026-07-24 11:07 KST",
+            "press": "이데일리",
+            "title": "KCC글라스, 롯데케미칼 건자재사업부 인수 검토…\"결정된 사항은 없어\"",
+            "sentiment_score": 0.56168,
+            "associated_companies": 2
+          },
+          {
+            "news_id": "276ee1a31558e2b536a83e593345c813",
+            "published_at": "2026-07-24 11:06 KST",
+            "press": "지디넷코리아",
+            "title": "맥쿼리 \"가비아 공개매수가 4만8천원, 글로벌 투자 경험 반영한 적정 가격\"",
+            "sentiment_score": 0.48793,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "37dba34e4116ba7217028ba5a1b538c5",
+            "published_at": "2026-07-24 11:06 KST",
+            "press": "뉴스1",
+            "title": "고려아연 온산제련소, 전용 소방차 도입…화재 대응 강화",
+            "sentiment_score": 0.61043,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "f0a397015f0998286c28e518e881aaa2",
+            "published_at": "2026-07-24 11:06 KST",
+            "press": "디지털데일리",
+            "title": "올릴 계획 없다더니…농심, 라면·스낵·음료 출고가 인상 행렬",
+            "sentiment_score": 0.36493,
+            "associated_companies": 5
+          },
+          {
+            "news_id": "5c2dab86020d5872d3906dd87a879ff0",
+            "published_at": "2026-07-24 11:05 KST",
+            "press": "조세일보",
+            "title": "SKC, 유리기판 양산 내년으로…삼성전기·LG이노텍 추격전",
+            "sentiment_score": 0.51127,
+            "associated_companies": 3
+          },
+          {
+            "news_id": "c2187e28947459169ee2ba2b5ff7653b",
+            "published_at": "2026-07-24 11:05 KST",
+            "press": "스포츠조선",
+            "title": "넷마블-삼성전자 협업…'세븐나이츠 리버스'·'몬길: STAR DIVE' 갤럭시 테마 공개",
+            "sentiment_score": 0.57793,
+            "associated_companies": 2
+          },
+          {
+            "news_id": "d1cda996d181f1c2a7ab8791a5557237",
+            "published_at": "2026-07-24 11:05 KST",
+            "press": "머니투데이",
+            "title": "고유가·고환율에 '새우깡·도넛' 가격 오른다…\"더이상 못버텨\"",
+            "sentiment_score": 0.37543,
+            "associated_companies": 2
+          },
+          {
+            "news_id": "deafa1fa484e79a1c610995d581d54f0",
+            "published_at": "2026-07-24 11:05 KST",
+            "press": "서울경제",
+            "title": "현대모비스, 2분기 영업이익 9752억…고부가 전장부품 덕에 12% 증가",
+            "sentiment_score": 0.62043,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "1a5b478ec5f0ac80587a2825f729c15b",
+            "published_at": "2026-07-24 11:04 KST",
+            "press": "서울신문",
+            "title": "“분명 그저께 200만원이었는데”…‘181만닉스’로 주저앉았다 [내가샀다]",
+            "sentiment_score": 0.28606,
+            "associated_companies": 2
+          },
+          {
+            "news_id": "875b07181484ecc0715707eccb62d657",
+            "published_at": "2026-07-24 11:04 KST",
+            "press": "지디넷코리아",
+            "title": "SK하이닉스, 또 쌓는다...온디바이스 AI용 '3D 적층 D램' 개발 시동",
+            "sentiment_score": 0.62043,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "883dc3df7863acd0fab71a95f79514a8",
+            "published_at": "2026-07-24 11:04 KST",
+            "press": "이데일리",
+            "title": "한미약품, 세계 첫 '근육 늘리는 비만신약' AI로 설계…임상 1상 진행 중",
+            "sentiment_score": 0.63043,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "2b53bd42dcd44977c7f938aa4fd8c23a",
+            "published_at": "2026-07-24 11:03 KST",
+            "press": "파이낸셜뉴스",
+            "title": "고려아연 온산제련소, 전용 소방차 도입..\"골든타임 잡는다\"",
+            "sentiment_score": 0.60543,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "6b4b46ad43b4fc2b6d6726ad59f0febc",
+            "published_at": "2026-07-24 11:03 KST",
+            "press": "헤럴드경제",
+            "title": "우진아이엔에스, 103억 규모 수용가 인입 열수송관공사 수주",
+            "sentiment_score": 0.65043,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "865effc18bea040ee68f9f8c6d6783aa",
+            "published_at": "2026-07-24 11:03 KST",
+            "press": "뉴스1",
+            "title": "신세계백화점 '제주 산지의 맛과 이야기를 담아'",
+            "sentiment_score": 0.57293,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "c07cd6c6c7d3ac967982a66bb3083600",
+            "published_at": "2026-07-24 11:03 KST",
+            "press": "뉴스1",
+            "title": "신세계百, 제주 제철 먹거리 모았다",
+            "sentiment_score": 0.57418,
+            "associated_companies": 2
+          },
+          {
+            "news_id": "fc36644bcaaa8e2894bea11287116ee3",
+            "published_at": "2026-07-24 11:03 KST",
+            "press": "뉴스1",
+            "title": "신세계백화점, '알로하, 제주 온 더 테이블' 진행",
+            "sentiment_score": 0.55293,
+            "associated_companies": 1
+          },
+          {
             "news_id": "51a6227fcfb407bda1f7569a8dba5004",
             "published_at": "2026-07-24 11:02 KST",
             "press": "뉴스1",
             "title": "제주항공·에어프레미아, 인터라인 협약…아시아·미주 하늘길 확장",
             "sentiment_score": 0.6021,
             "associated_companies": 3
+          },
+          {
+            "news_id": "6b1e5849645d8880e6c992a0e5d10a65",
+            "published_at": "2026-07-24 11:02 KST",
+            "press": "지디넷코리아",
+            "title": "삼성·SK하이닉스 레버리지 규제, 시장에 ‘약’ 될까",
+            "sentiment_score": 0.42168,
+            "associated_companies": 2
+          },
+          {
+            "news_id": "7e11665e0ef42ca6259873e78675661f",
+            "published_at": "2026-07-24 11:02 KST",
+            "press": "파이낸셜뉴스",
+            "title": "현대모비스, 2분기 영업이익 9752억원…전년 대비 12％↑",
+            "sentiment_score": 0.62293,
+            "associated_companies": 1
           },
           {
             "news_id": "010f04a71261239da2008936b7fe01fc",
@@ -55,6 +389,22 @@
             "press": "아이뉴스24",
             "title": "농심, 컵라면·새우깡 가격 올린다…봉지라면은 동결",
             "sentiment_score": 0.43793,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "b4b91e120160072d79e671b18c3f84ef",
+            "published_at": "2026-07-24 11:01 KST",
+            "press": "뉴시스",
+            "title": "넥슨, 갤 Z 폴드8 전용 '메이플스토리M' 테마 공개",
+            "sentiment_score": 0.56543,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "f767f16d97ef6248f1a9a1bcd5c84b0c",
+            "published_at": "2026-07-24 11:01 KST",
+            "press": "뉴시스",
+            "title": "\"고유가에 원가부담 가중\" 농심, 신라면컵·새우깡 등 평균 5.8%↑",
+            "sentiment_score": 0.40543,
             "associated_companies": 1
           },
           {
@@ -239,6 +589,14 @@
             "press": "파이낸셜뉴스",
             "title": "맥쿼리 \"가비아 4만8000원은 장기가치 반영\"...공개매수가 논란 정면돌파 [fn마켓워치]",
             "sentiment_score": 0.43543,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "03c72e2d577ebce4edc3259ff8f2dce2",
+            "published_at": "2026-07-24 10:52 KST",
+            "press": "EBN",
+            "title": "현대모비스, 2분기 영업익 9752억원…전장·A/S 호조",
+            "sentiment_score": 0.61293,
             "associated_companies": 1
           },
           {
@@ -472,369 +830,17 @@
             "title": "신라면컵에 육개장사발면도 가격 오른다",
             "sentiment_score": 0.37043,
             "associated_companies": 1
-          },
-          {
-            "news_id": "c71460320e08c01e508d0be9b703bd88",
-            "published_at": "2026-07-24 10:43 KST",
-            "press": "뉴스1",
-            "title": "농심, 신라면 용기면·새우깡 가격 올린다…43개 브랜드 평균 5.8%↑",
-            "sentiment_score": 0.47043,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "ca05a55cbdbf7c3ea04d1d37bc908e13",
-            "published_at": "2026-07-24 10:43 KST",
-            "press": "헤럴드경제",
-            "title": "복잡한 제련소 어디든 달린다…고려아연, 온산에 전용 소방차 배치",
-            "sentiment_score": 0.60543,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "cb00d0e30e8a5213461d60a5ffbc6dcb",
-            "published_at": "2026-07-24 10:43 KST",
-            "press": "SBS Biz",
-            "title": "넷마블·넥슨, 갤럭시 'Z폴드8' 스페셜 테마 출시",
-            "sentiment_score": 0.57543,
-            "associated_companies": 2
-          },
-          {
-            "news_id": "ab0ba4d705288fbe0b46d2e849cd569d",
-            "published_at": "2026-07-24 10:42 KST",
-            "press": "연합뉴스",
-            "title": "갤럭시 폴더블 신작 출시…게임업계 협업 경쟁 본격화",
-            "sentiment_score": 0.59793,
-            "associated_companies": 2
-          },
-          {
-            "news_id": "a694fe9baa6423f0bafffdbf8dbd9f81",
-            "published_at": "2026-07-24 10:41 KST",
-            "press": "한국경제",
-            "title": "대우건설, 데이터센터 전문 기업 KINX와 업무협약",
-            "sentiment_score": 0.62043,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "238163205059bb0a4935d30a0c5b82c4",
-            "published_at": "2026-07-24 10:41 KST",
-            "press": "연합뉴스",
-            "title": "[게시판] KB금융, 유튜브 콘텐츠 '별방' 첫 오프라인 콘서트",
-            "sentiment_score": 0.57293,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "78f1b08fd665e430d4828f6abd8ab590",
-            "published_at": "2026-07-24 10:41 KST",
-            "press": "이데일리",
-            "title": "넥써쓰, '프로스트 킹덤' 출시…\"웹3 전략 시뮬레이션 게임\"",
-            "sentiment_score": 0.54793,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "8c4be0c7a3f44aa73152d4ceb6ecc17e",
-            "published_at": "2026-07-24 10:41 KST",
-            "press": "헤럴드경제",
-            "title": "LGU+ “국산 AI ‘엑사원’ 품은 AICC 키운다…고객 품질 최우선”",
-            "sentiment_score": 0.58668,
-            "associated_companies": 2
-          },
-          {
-            "news_id": "b0b91816d2a421b708e86b91b70e7180",
-            "published_at": "2026-07-24 10:41 KST",
-            "press": "머니투데이",
-            "title": "농심 '새우깡' 100원 오른다…'1500원→1600원'",
-            "sentiment_score": 0.37543,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "f06499e0403fe40dd6b905e4182ab9d4",
-            "published_at": "2026-07-24 10:41 KST",
-            "press": "파이낸셜뉴스",
-            "title": "\"갤럭시 안 쓰면 배드\"...'남부대공' 밈 댄스 춘 노태문 사장 '깜짝 박자감'",
-            "sentiment_score": 0.54418,
-            "associated_companies": 2
-          },
-          {
-            "news_id": "27f80a185ffac6b91ce654c2139f0578",
-            "published_at": "2026-07-24 10:40 KST",
-            "press": "뉴시스",
-            "title": "지역 최고가 아파트 45%, 정비사업 수주 '빅5' 시공",
-            "sentiment_score": 0.61193,
-            "associated_companies": 5
-          },
-          {
-            "news_id": "39a7f1fe9d8eba59dff7616f652e8130",
-            "published_at": "2026-07-24 10:40 KST",
-            "press": "부산일보",
-            "title": "제주항공·에어프레미아, 8월 1일부터 연계운항",
-            "sentiment_score": 0.61043,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "92755e7341f015a317db0c8436b0c544",
-            "published_at": "2026-07-24 10:40 KST",
-            "press": "연합뉴스",
-            "title": "대우건설, 데이터센서 개발·시공·운영 '통합 디벨로퍼화' 추진",
-            "sentiment_score": 0.61543,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "acd05f74128d93f02acb9d3b1534747b",
-            "published_at": "2026-07-24 10:40 KST",
-            "press": "동행미디어 시대",
-            "title": "한국타이어 라우펜, 폭스바겐 '폴로'에 타이어 공급",
-            "sentiment_score": 0.63043,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "1c0abcbff7b120c86ee8ad9cef15bda5",
-            "published_at": "2026-07-24 10:39 KST",
-            "press": "이데일리",
-            "title": "파인텍, 195억 규모 OLED 제조장비 공급…10년만 최대 규모 수주",
-            "sentiment_score": 0.59043,
-            "associated_companies": 2
-          },
-          {
-            "news_id": "29f9743ee4d94bca2df7301a7c3c80fd",
-            "published_at": "2026-07-24 10:39 KST",
-            "press": "YTN",
-            "title": "SK그룹, 판결 앞두고 '긴장'...최태원은 AI 경영행보",
-            "sentiment_score": 0.46543,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "37dae76a05cabf583cbf56b4a84006fe",
-            "published_at": "2026-07-24 10:39 KST",
-            "press": "더팩트",
-            "title": "\"든든한 디딤돌 역할 수행\" 하나금융, 금감원과 청년 금융인재 54명 배출",
-            "sentiment_score": 0.58043,
-            "associated_companies": 2
-          },
-          {
-            "news_id": "d2dc88d1020d7b3c43c33e8d84df6d5f",
-            "published_at": "2026-07-24 10:39 KST",
-            "press": "이데일리",
-            "title": "\"화재 골든타임 잡는다\"…고려아연 온산제련소, 전용 소방차 도입",
-            "sentiment_score": 0.59293,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "d79456c0907d2d5bf7e70a623faa0cc8",
-            "published_at": "2026-07-24 10:39 KST",
-            "press": "뉴스1",
-            "title": "LCK 레전드 매치 라인업 공개…'낭만의 시대' 대표 선수 총출동",
-            "sentiment_score": 0.56293,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "f2712857fdae56493c1d5bc9e610183b",
-            "published_at": "2026-07-24 10:39 KST",
-            "press": "연합뉴스",
-            "title": "[게시판] 현대건설, 건설 실무과정 교육생 모집…전기·안전 등 9개 과정",
-            "sentiment_score": 0.54793,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "423905357138840800220d07673907d8",
-            "published_at": "2026-07-24 10:38 KST",
-            "press": "한겨레",
-            "title": "SK, 자회사 SK시그넷 매각 결정…소액주주 주식 공개매수",
-            "sentiment_score": 0.54043,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "4dfc1810054b14adce4b09eb98b8745f",
-            "published_at": "2026-07-24 10:38 KST",
-            "press": "서울경제",
-            "title": "S-OIL, 주니어보드 주관 전사 소통 프로그램 개최",
-            "sentiment_score": 0.61043,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "60861c673291080dcbe6c168db36e55c",
-            "published_at": "2026-07-24 10:38 KST",
-            "press": "더팩트",
-            "title": "부천 '역곡지구 하우스토리' 최고 경쟁률 15.2대 1",
-            "sentiment_score": 0.59043,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "627e829a40987a91f97e0546e3ac4429",
-            "published_at": "2026-07-24 10:38 KST",
-            "press": "연합뉴스",
-            "title": "농심, 용기라면·스낵·음료 43개 브랜드 출고가 평균 5.8%↑",
-            "sentiment_score": 0.44293,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "cd9431d87d198ecb4bbf350ec8326c33",
-            "published_at": "2026-07-24 10:38 KST",
-            "press": "연합뉴스",
-            "title": "제주항공-에어프레미아, 8월 아시아·미주 잇는 연계운항 시작",
-            "sentiment_score": 0.61543,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "0000f7265bee20476283724cc6b071e1",
-            "published_at": "2026-07-24 10:37 KST",
-            "press": "뉴시스",
-            "title": "삼성, 갤워치 건강 데이터 수집서 한발 더…질병 징후 찾고 식단·운동까지 추천",
-            "sentiment_score": 0.59043,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "5eab31b54f036e8b9596f0bac4c8b812",
-            "published_at": "2026-07-24 10:37 KST",
-            "press": "문화일보",
-            "title": "‘더블 초역세권’ DL이앤씨, e편한세상 부천 어반스퀘어 분양",
-            "sentiment_score": 0.57418,
-            "associated_companies": 2
-          },
-          {
-            "news_id": "77d5d3c749f2deaf2371a1c3c676b27e",
-            "published_at": "2026-07-24 10:37 KST",
-            "press": "연합뉴스",
-            "title": "[게시판] 에쓰오일, 전사 소통 프로그램 개최",
-            "sentiment_score": 0.55293,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "ec51e4dac5e769cebc8887d270aed40d",
-            "published_at": "2026-07-24 10:37 KST",
-            "press": "블로터",
-            "title": "[단독] 현대차 첫 '울 시트' GV90에…아즈텍WB 납품",
-            "sentiment_score": 0.60793,
-            "associated_companies": 2
-          },
-          {
-            "news_id": "bda8993140e8d72e3c5a36688f33fe6d",
-            "published_at": "2026-07-24 10:36 KST",
-            "press": "연합뉴스TV",
-            "title": "고려아연, 온산제련소에 전용 소방차 도입…골든타임 확보",
-            "sentiment_score": 0.60793,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "f4dc7661cf1fd1b2992dc8011edf0c07",
-            "published_at": "2026-07-24 10:36 KST",
-            "press": "헤럴드경제",
-            "title": "‘엔비디아 대항마’ AMD, 삼성 HBM4 들어간 차세대 AI 인프라(헬리오스) 양산 개시",
-            "sentiment_score": 0.62043,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "2b04b5c86eb2c0a7deaddc521aa8d5a1",
-            "published_at": "2026-07-24 10:35 KST",
-            "press": "연합뉴스",
-            "title": "현대모비스, 2분기 영업이익 9천752억원…작년 대비 12％↑(종합)",
-            "sentiment_score": 0.62543,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "4060c04581bf99e07fe85544f9c1a3da",
-            "published_at": "2026-07-24 10:35 KST",
-            "press": "전자신문",
-            "title": "GS25, 부산에 업계 최초 '꽝 없는 뽑기' 특화 매장 오픈",
-            "sentiment_score": 0.57543,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "cdae2ce1b1632461e0b6068c7bbbce61",
-            "published_at": "2026-07-24 10:35 KST",
-            "press": "디지털데일리",
-            "title": "HJ중공업, AI 기반 차세대 용접기술 확보한다…마스가 부응",
-            "sentiment_score": 0.62127,
-            "associated_companies": 3
-          },
-          {
-            "news_id": "4b656ef59e5d21054da7f43417322bc8",
-            "published_at": "2026-07-24 10:34 KST",
-            "press": "한국경제",
-            "title": "한미약품 \"세계 첫 근육 증가 비만신약, AI로 설계\"",
-            "sentiment_score": 0.64543,
-            "associated_companies": 2
-          },
-          {
-            "news_id": "1fdb4f00584179dbf4cfde7f21a52897",
-            "published_at": "2026-07-24 10:34 KST",
-            "press": "노컷뉴스",
-            "title": "6·25 지상전 뛰어든 '에티오피아 강뉴부대'…LG, 후손 합창단 후원",
-            "sentiment_score": 0.58168,
-            "associated_companies": 2
-          },
-          {
-            "news_id": "49d08bb679e6adaa10444c3004fe0cb9",
-            "published_at": "2026-07-24 10:34 KST",
-            "press": "뉴시스",
-            "title": "[속보]농심, 용기라면·스낵·음료 가격 내달 1일 평균 5.8% 인상",
-            "sentiment_score": 0.40293,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "6bf245f1e8fc9218816e6630b717b367",
-            "published_at": "2026-07-24 10:34 KST",
-            "press": "연합뉴스",
-            "title": "GS건설, 분양부터 입주까지 전자계약…목동윤슬자이 첫 적용",
-            "sentiment_score": 0.58043,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "4451939af2fd2bfb788363ac7a3cc1ff",
-            "published_at": "2026-07-24 10:33 KST",
-            "press": "아이뉴스24",
-            "title": "한화운용, 레몬헬스케어 엑시트 장기화 조짐",
-            "sentiment_score": 0.30606,
-            "associated_companies": 2
-          },
-          {
-            "news_id": "5c203e22db580bdbc11a6dd5457c8514",
-            "published_at": "2026-07-24 10:33 KST",
-            "press": "뉴스1",
-            "title": "트럼프 \"이란 대규모 공격 고려\"…LIG디펜스·한화에어로 강세[핫종목]",
-            "sentiment_score": 0.57793,
-            "associated_companies": 2
-          },
-          {
-            "news_id": "b1d89937d9c4985c5499f1afd2b4593e",
-            "published_at": "2026-07-24 10:33 KST",
-            "press": "SBS Biz",
-            "title": "현대모비스, 2분기 영업익 1조 성큼…전장·A/S 호조",
-            "sentiment_score": 0.62293,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "fa987e83928761e71263a2c567bb0765",
-            "published_at": "2026-07-24 10:33 KST",
-            "press": "뉴시스",
-            "title": "현대해상, 오티즘엑스포 후원…발달장애 조기개입 솔루션 선봬",
-            "sentiment_score": 0.60293,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "3f4aa7db0edd91973d9fcd638c20f7df",
-            "published_at": "2026-07-24 10:32 KST",
-            "press": "데일리안",
-            "title": "대법서 뒤집힌 1조원대 최태원·노소영 '재산분할'…오늘 감액 폭에 쏠린 눈",
-            "sentiment_score": 0.45293,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "5873a3231333325d86020beb9d8df200",
-            "published_at": "2026-07-24 10:32 KST",
-            "press": "연합뉴스TV",
-            "title": "GS25, 부산 서면에 업계 최초 '꽝 없는 뽑기' 특화 매장 열어",
-            "sentiment_score": 0.58793,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "5a21a97de3ed9497906b741f9ec02060",
-            "published_at": "2026-07-24 10:32 KST",
-            "press": "노컷뉴스",
-            "title": "캐즘 뚫은 현대모비스…2분기 매출 16조·순이익 1조원 돌파",
-            "sentiment_score": 0.62543,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
+          {
+            "news_id": "301d03002c2122d6bb9b9f9e9fdcba8e",
+            "published_at": "2026-07-24 11:18 KST",
+            "press": "한국경제",
+            "title": "\"원가부담 심화\"…농심 용기면·스낵값 평균 5.8% 인상",
+            "sentiment_score": 0.34793,
+            "associated_companies": 1
+          },
           {
             "news_id": "91571ce65ca9a027cdf0cd46affb20ce",
             "published_at": "2026-07-24 10:53 KST",
@@ -1071,24 +1077,22 @@
       }
     },
     "KOSDAQ": {
-      "score": -0.56338,
+      "score": -0.57913,
       "previous_final": -0.15808,
       "components": {
         "discussion": {
-          "score": 0.0782,
-          "confidence": 0.2675,
-          "observations": 8926,
-          "coverage": 0.1321
+          "score": 0.07291,
+          "confidence": 0.2709,
+          "observations": 9040,
+          "coverage": 0.1322
         },
         "news": {
-          "score": -1.76219,
-          "confidence": 0.9302,
-          "observations": 400,
-          "coverage": 0.6175
+          "score": -1.82907,
+          "observations": 415,
+          "coverage": 0.6217
         },
         "news_hankyung": {
-          "score": 0.59669,
-          "confidence": 0.3969,
+          "score": -0.22559,
           "observations": 26,
           "coverage": 0.3846
         },
@@ -1101,6 +1105,62 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "eb057e75906fe47901a4e892e5f0e57f",
+            "published_at": "2026-07-24 11:21 KST",
+            "press": "블로터",
+            "title": "[K조선 공급망] 태광, 중동·미국 수출 업고 '피팅 업사이클' 진입",
+            "sentiment_score": 0.63668,
+            "associated_companies": 2
+          },
+          {
+            "news_id": "b6a2811a884b6a59434c8cbd07b59b73",
+            "published_at": "2026-07-24 11:20 KST",
+            "press": "헤럴드경제",
+            "title": "韓바이오 ‘장기 성장’에 베팅…뭉칫돈 몰린다",
+            "sentiment_score": 0.63043,
+            "associated_companies": 2
+          },
+          {
+            "news_id": "4c6d23746e24ead19536bf2dac6917cb",
+            "published_at": "2026-07-24 11:18 KST",
+            "press": "서울경제",
+            "title": "메가프로젝트 테마주 주의보…상한가 갔던 건설사 8% 하락 [이런국장 저런주식]",
+            "sentiment_score": 0.38793,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "74780162a57a954b42cf6aeee11b8bd7",
+            "published_at": "2026-07-24 11:14 KST",
+            "press": "YTN",
+            "title": "새우깡 100원 오른다...농심, 용기면·스낵 가격 인상",
+            "sentiment_score": 0.48293,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "86f3416a6198d2828d829ba04bd1c0cf",
+            "published_at": "2026-07-24 11:07 KST",
+            "press": "매일신문",
+            "title": "\"이러다 진짜 티슈되겠네\"…임상 실패에 곡소리 나는 코오롱티슈진[개미와글와글]",
+            "sentiment_score": 0.30043,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "276ee1a31558e2b536a83e593345c813",
+            "published_at": "2026-07-24 11:06 KST",
+            "press": "지디넷코리아",
+            "title": "맥쿼리 \"가비아 공개매수가 4만8천원, 글로벌 투자 경험 반영한 적정 가격\"",
+            "sentiment_score": 0.53043,
+            "associated_companies": 2
+          },
+          {
+            "news_id": "31d142c24d7b8e8b93c5c7abdb89dd5c",
+            "published_at": "2026-07-24 11:02 KST",
+            "press": "연합뉴스",
+            "title": "맥쿼리, 가비아 공개매수가 낮다는 지적에 \"의미있는 프리미엄\"",
+            "sentiment_score": 0.34918,
+            "associated_companies": 2
+          },
           {
             "news_id": "26b1c6750638decf0362cdf74cacc553",
             "published_at": "2026-07-24 11:00 KST",
@@ -1844,62 +1904,6 @@
             "title": "AMD 로보틱스 파트너 네트워크 참여…노타 6%↑[특징주]",
             "sentiment_score": 0.64043,
             "associated_companies": 1
-          },
-          {
-            "news_id": "2d433754244a99960882792e1fccab70",
-            "published_at": "2026-07-24 09:32 KST",
-            "press": "한국경제",
-            "title": "로킷헬스케어, 美 20/20 바이오랩스와 다중암·만성질환 AI 진단 공동개발",
-            "sentiment_score": 0.65043,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "44cc126969bed505727080a9cd9228ec",
-            "published_at": "2026-07-24 09:32 KST",
-            "press": "이데일리",
-            "title": "네오사피엔스, 증권신고서 제출…코스닥 상장 절차 본격화",
-            "sentiment_score": 0.56293,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "4683766d23dc06c70efd31e8f01c1394",
-            "published_at": "2026-07-24 09:31 KST",
-            "press": "전자신문",
-            "title": "동국제약, 고기능 스킨케어 '마데카랩스' 개발 나서",
-            "sentiment_score": 0.64543,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "314192c6672df3337dd2aa975e84cce1",
-            "published_at": "2026-07-24 09:30 KST",
-            "press": "한국경제",
-            "title": "'아기상어' 더핑크퐁컴퍼니, 자사주 매입·소각 소식에 강세",
-            "sentiment_score": 0.64543,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "0c08d861e0864690bdc42e6502ffe925",
-            "published_at": "2026-07-24 09:30 KST",
-            "press": "뉴스1",
-            "title": "한컴, 36년만에 사명·종목명 변경 완료…\"AI 글로벌 표준 도전\"",
-            "sentiment_score": 0.59418,
-            "associated_companies": 2
-          },
-          {
-            "news_id": "18f19c8ef6875203b16f8a919ce5fe3b",
-            "published_at": "2026-07-24 09:28 KST",
-            "press": "동행미디어 시대",
-            "title": "6870선 등락 코스피…삼성전자·하이닉스 3% 넘게 하락",
-            "sentiment_score": 0.39168,
-            "associated_companies": 8
-          },
-          {
-            "news_id": "4fd85191187dfb015e0c0ad7b4076938",
-            "published_at": "2026-07-24 09:25 KST",
-            "press": "뉴시스",
-            "title": "\"과거 병력도 함께 판독\"…딥노이드, AI기술 특허",
-            "sentiment_score": 0.63293,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
@@ -1973,16 +1977,16 @@
   },
   "sources": {
     "discussion": {
-      "latest_event": "2026-07-24 11:06 KST",
-      "latest_seen": "2026-07-24 11:10 KST",
-      "active_minutes": 138,
-      "observations": 23103
+      "latest_event": "2026-07-24 11:13 KST",
+      "latest_seen": "2026-07-24 11:23 KST",
+      "active_minutes": 151,
+      "observations": 23721
     },
     "news": {
-      "latest_event": "2026-07-24 11:02 KST",
-      "latest_seen": "2026-07-24 11:04 KST",
-      "active_minutes": 140,
-      "observations": 1265
+      "latest_event": "2026-07-24 11:22 KST",
+      "latest_seen": "2026-07-24 11:23 KST",
+      "active_minutes": 148,
+      "observations": 1350
     },
     "market": {
       "latest_event": null,
