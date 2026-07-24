@@ -175,7 +175,7 @@
   <div class="eyebrow">KOREAN MARKET SENTIMENT · PROTOTYPE V0</div>
   <h1>한국 시장 탐욕·공포 지수</h1>
   <p class="subtitle">시장가격과 감정 점수를 같은 시간축에서 비교합니다.</p>
-  <div class="freshness"><span class="freshness-dot"></span>최종 완성 점수: 2026-07-23 · 페이지 갱신: 2026-07-24 15:15 KST</div>
+  <div class="freshness"><span class="freshness-dot"></span>최종 완성 점수: 2026-07-23 · 페이지 갱신: 2026-07-24 15:28 KST</div>
 
   <div class="toolbar">
     <div class="control-group">
@@ -210,6 +210,15 @@
         <button class="period" data-period="24">2년</button>
         <button class="period" data-period="60">5년</button>
         <button class="period" data-period="all">전체</button>
+      </div>
+    </div>
+    <div class="control-group">
+      <span class="control-label">σ 밴드 기준</span>
+      <div class="segmented" aria-label="표준편차 밴드 기준 기간 선택">
+        <button class="band-window" data-band-window="all">전체</button>
+        <button class="band-window" data-band-window="1260">5년</button>
+        <button class="band-window active" data-band-window="756">3년</button>
+        <button class="band-window" data-band-window="252">1년</button>
       </div>
     </div>
   </div>
@@ -420,7 +429,7 @@
         <details class="technical"><summary>수식과 세부 기준 보기</summary>
           <div class="formula"><span class="formula-label">일일 합산 점수</span>GFI<sup>daily</sup><sub>b,t</sub> = 0.45 × D<sub>b,t</sub> + 0.20 × N<sub>b,t</sub> + 0.35 × M<sub>b,t</sub></div>
           <div class="formula"><span class="formula-label">화면에서 선택하는 k일 EWMA · k ∈ {5, 10, 20}</span>α<sub>k</sub> = 2 / (k + 1)<br>w<sub>k,j</sub> = (1 − α<sub>k</sub>)<sup>j</sup><br>EWMA<sup>(k)</sup><sub>b,t</sub> = [Σ<sup>t−1</sup><sub>j=0</sub> w<sub>k,j</sub> × GFI<sup>daily</sup><sub>b,t−j</sub>] / [Σ<sup>t−1</sup><sub>j=0</sub> w<sub>k,j</sub>]</div>
-          <div class="common-scale"><b>공통 표준화 기준:</b> H<sub>t</sub>(x)는 x<sub>t−756</sub>부터 x<sub>t−1</sub>까지, 즉 오늘을 제외한 과거 최대 756개 관측값입니다. 최소 252개가 있어야 계산합니다. D, N, M은 이 기준으로 표준화하지만, 합친 일일 GFI 자체는 다시 표준화하지 않습니다.<br><span class="formula">μ<sub>x,t</sub> = mean(H<sub>t</sub>(x)), &nbsp; σ<sub>x,t</sub> = stdev(H<sub>t</sub>(x))<br>Z<sub>t</sub>(x) = (x<sub>t</sub> − μ<sub>x,t</sub>) / σ<sub>x,t</sub></span><br><b>차트 배경:</b> 현재 선택한 일일 점수 또는 EWMA의 과거 평균과 표준편차를 별도로 계산합니다.<br><span class="formula">Band<sup>(m)</sup><sub>x,t</sub> = μ<sub>x,t</sub> ± mσ<sub>x,t</sub>, &nbsp; m ∈ {1, 2}</span></div>
+          <div class="common-scale"><b>공통 표준화 기준:</b> H<sub>t</sub>(x)는 x<sub>t−756</sub>부터 x<sub>t−1</sub>까지, 즉 오늘을 제외한 과거 최대 756개 관측값입니다. 최소 252개가 있어야 계산합니다. D, N, M은 이 기준으로 표준화하지만, 합친 일일 GFI 자체는 다시 표준화하지 않습니다.<br><span class="formula">μ<sub>x,t</sub> = mean(H<sub>t</sub>(x)), &nbsp; σ<sub>x,t</sub> = stdev(H<sub>t</sub>(x))<br>Z<sub>t</sub>(x) = (x<sub>t</sub> − μ<sub>x,t</sub>) / σ<sub>x,t</sub></span><br><b>차트 배경:</b> 현재 선택한 일일 점수 또는 EWMA의 과거 평균과 표준편차를 별도로 계산합니다. 배경 밴드와 ‘현재 판단’ σ의 기준 기간은 페이지 상단에서 전체·5년·3년·1년 중 선택할 수 있으며 기본값은 3년입니다(구성요소 표준화는 항상 최대 756일 고정). 어느 기준이든 오늘을 제외한 과거 관측 252개 이상이 필요합니다.<br><span class="formula">Band<sup>(m)</sup><sub>x,t</sub> = μ<sub>x,t</sub> ± mσ<sub>x,t</sub>, &nbsp; m ∈ {1, 2}</span></div>
         </details>
       </div>
       <div class="glossary" aria-label="쉬운 용어 설명">
@@ -452,6 +461,8 @@ let board = 'KOSPI';
 let months = 12;
 let ewmaSpan = 20;
 let scoreMode = 'ewma';
+let bandWindow = '756';
+const BAND_LABELS = {all:'전체', '1260':'5년', '756':'3년', '252':'1년'};
 let syncingRange = false;
 let newsSet = 'all';
 let newsSortKey = 'published_at';
@@ -559,12 +570,12 @@ function renderLivePrototype() {
   document.getElementById('live-score').textContent=signed(liveBoard.score);
   const delta=(liveBoard.score==null || liveBoard.previous_final==null)
     ? null : Number(liveBoard.score)-Number(liveBoard.previous_final);
-  const prior=DATA[board].raw || {};
-  const liveSigma=(liveBoard.score==null || prior.prior_mean==null
-      || prior.prior_std==null || Number(prior.prior_std)<=0)
-    ? null : (Number(liveBoard.score)-Number(prior.prior_mean))/Number(prior.prior_std);
+  const rawBands=bandsFor(DATA[board],'raw',DATA[board].candidate_score_new);
+  const liveSigma=(liveBoard.score==null || rawBands.nextMean==null
+      || rawBands.nextStd==null || rawBands.nextStd<=0)
+    ? null : (Number(liveBoard.score)-rawBands.nextMean)/rawBands.nextStd;
   const sigmaText=liveSigma==null ? '' :
-    ` · 과거 일일 점수 분포 대비 ${signed(liveSigma)}σ`;
+    ` · 과거 일일 점수 분포(${BAND_LABELS[bandWindow]} 기준) 대비 ${signed(liveSigma)}σ`;
   document.getElementById('live-delta').textContent=
     '직전 최종 점수 대비 '+signed(delta)+sigmaText;
   const asOf=liveData.as_of || '스냅샷 없음';
@@ -605,6 +616,73 @@ async function refreshPublicLiveSnapshot() {
     applyLiveFreshness();
   }
 }
+function stateLabelFor(z) {
+  if (z == null || !Number.isFinite(z)) return '판단 유보';
+  if (z >= 2) return '극단적 탐욕';
+  if (z >= 1) return '탐욕 우세';
+  if (z <= -2) return '극단적 공포';
+  if (z <= -1) return '공포 우세';
+  return '중립 범위';
+}
+function rollingBands(values, windowSize) {
+  // Prior-only (shift-1) rolling mean/std over the chosen band window;
+  // null windowSize = expanding. Needs 252 valid prior observations,
+  // mirroring the Python 756/252 rule.
+  const n = values.length;
+  const minValid = 252;
+  const mean = new Array(n).fill(null);
+  const std = new Array(n).fill(null);
+  const buffer = [];
+  let sum = 0, sumSq = 0, count = 0;
+  for (let i = 0; i < n; i += 1) {
+    if (count >= minValid) {
+      const m = sum / count;
+      const variance = (sumSq - count * m * m) / (count - 1);
+      if (variance > 0) { mean[i] = m; std[i] = Math.sqrt(variance); }
+    }
+    const value = values[i];
+    buffer.push(value);
+    if (value != null && Number.isFinite(value)) {
+      sum += value; sumSq += value * value; count += 1;
+    }
+    if (windowSize != null && buffer.length > windowSize) {
+      const old = buffer.shift();
+      if (old != null && Number.isFinite(old)) {
+        sum -= old; sumSq -= old * old; count -= 1;
+      }
+    }
+  }
+  let nextMean = null, nextStd = null;
+  if (count >= minValid) {
+    const m = sum / count;
+    const variance = (sumSq - count * m * m) / (count - 1);
+    if (variance > 0) { nextMean = m; nextStd = Math.sqrt(variance); }
+  }
+  return {mean, std, nextMean, nextStd};
+}
+function bandsFor(d, seriesKey, values) {
+  d._bands = d._bands || {};
+  const cacheKey = seriesKey + '|' + bandWindow;
+  if (!d._bands[cacheKey]) {
+    const windowSize = bandWindow === 'all' ? null : Number(bandWindow);
+    const bands = rollingBands(values, windowSize);
+    bands.lower1 = bands.mean.map((m, i) => m == null || bands.std[i] == null ? null : m - bands.std[i]);
+    bands.upper1 = bands.mean.map((m, i) => m == null || bands.std[i] == null ? null : m + bands.std[i]);
+    bands.lower2 = bands.mean.map((m, i) => m == null || bands.std[i] == null ? null : m - 2 * bands.std[i]);
+    bands.upper2 = bands.mean.map((m, i) => m == null || bands.std[i] == null ? null : m + 2 * bands.std[i]);
+    d._bands[cacheKey] = bands;
+  }
+  return d._bands[cacheKey];
+}
+function latestBandZ(values, bands) {
+  for (let i = values.length - 1; i >= 0; i -= 1) {
+    if (values[i] != null && Number.isFinite(values[i])) {
+      if (bands.mean[i] == null || bands.std[i] == null || bands.std[i] <= 0) return null;
+      return (values[i] - bands.mean[i]) / bands.std[i];
+    }
+  }
+  return null;
+}
 function firstScoreIndex(data) {
   const scores = data.candidate_score_new || [];
   for (let i = 0; i < scores.length; i += 1) {
@@ -629,21 +707,14 @@ function chartDefinition(d, source='all') {
   const line = isHankyung
     ? (scoreMode==='raw' ? d.candidate_score_hankyung : d['hankyung_smooth_'+key])
     : (scoreMode==='raw' ? d.candidate_score_new : d['smooth_'+key]);
-  const mean = isHankyung
-    ? (scoreMode==='raw' ? d.candidate_hankyung_prior_mean : d['hankyung_smooth_mean_'+key])
-    : (scoreMode==='raw' ? d.candidate_new_prior_mean : d['smooth_mean_'+key]);
-  const lower1 = isHankyung
-    ? (scoreMode==='raw' ? d.hankyung_raw_lower_1 : d['hankyung_smooth_lower_1_'+key])
-    : (scoreMode==='raw' ? d.raw_lower_1 : d['smooth_lower_1_'+key]);
-  const upper1 = isHankyung
-    ? (scoreMode==='raw' ? d.hankyung_raw_upper_1 : d['hankyung_smooth_upper_1_'+key])
-    : (scoreMode==='raw' ? d.raw_upper_1 : d['smooth_upper_1_'+key]);
-  const lower2 = isHankyung
-    ? (scoreMode==='raw' ? d.hankyung_raw_lower_2 : d['hankyung_smooth_lower_2_'+key])
-    : (scoreMode==='raw' ? d.raw_lower_2 : d['smooth_lower_2_'+key]);
-  const upper2 = isHankyung
-    ? (scoreMode==='raw' ? d.hankyung_raw_upper_2 : d['hankyung_smooth_upper_2_'+key])
-    : (scoreMode==='raw' ? d.raw_upper_2 : d['smooth_upper_2_'+key]);
+  const seriesKey = (isHankyung ? 'hankyung_' : '')
+    + (scoreMode==='raw' ? 'raw' : 'smooth_'+key);
+  const bands = bandsFor(d, seriesKey, line);
+  const mean = bands.mean;
+  const lower1 = bands.lower1;
+  const upper1 = bands.upper1;
+  const lower2 = bands.lower2;
+  const upper2 = bands.upper2;
   const lineName = scoreMode==='raw' ? '일일 원점수' : ewmaSpan+'일 EWMA';
   const titleName = isHankyung ? '한경그룹 뉴스 실험' : '전체 뉴스 기준';
   const subtitle = isHankyung
@@ -655,9 +726,9 @@ function chartDefinition(d, source='all') {
   const traces = [
     ...priceTraces,
     trace('−2σ', lower2, {xaxis:'x2',yaxis:'y2',line:{width:0},hoverinfo:'skip',showlegend:false}),
-    trace('±2σ', upper2, {xaxis:'x2',yaxis:'y2',line:{width:0},fill:'tonexty',fillcolor:'rgba(196,207,221,.30)',hoverinfo:'skip'}),
+    trace('±2σ · '+BAND_LABELS[bandWindow], upper2, {xaxis:'x2',yaxis:'y2',line:{width:0},fill:'tonexty',fillcolor:'rgba(196,207,221,.30)',hoverinfo:'skip'}),
     trace('−1σ', lower1, {xaxis:'x2',yaxis:'y2',line:{width:0},hoverinfo:'skip',showlegend:false}),
-    trace('±1σ', upper1, {xaxis:'x2',yaxis:'y2',line:{width:0},fill:'tonexty',fillcolor:'rgba(155,177,204,.33)',hoverinfo:'skip'}),
+    trace('±1σ · '+BAND_LABELS[bandWindow], upper1, {xaxis:'x2',yaxis:'y2',line:{width:0},fill:'tonexty',fillcolor:'rgba(155,177,204,.33)',hoverinfo:'skip'}),
     trace(lineName, line, {xaxis:'x2',yaxis:'y2',line:{color:'#172033',width:2.4}}),
     trace('과거 평균', mean, {xaxis:'x2',yaxis:'y2',line:{color:'#687385',width:1,dash:'dot'}})
   ];
@@ -709,12 +780,17 @@ function render() {
     Plotly.react('chart', chart.traces, chart.layout, config),
     Plotly.react('chart-hankyung', hankyungChart.traces, hankyungChart.layout, config)
   ]).then(syncChartRanges);
-  document.getElementById('state').textContent=selected.state;
-  document.getElementById('state').style.color=colorForState(selected.state);
+  const mainSeriesKey = scoreMode==='raw' ? 'raw' : 'smooth_'+key;
+  const mainSeries = scoreMode==='raw' ? d.candidate_score_new : d['smooth_'+key];
+  const mainBands = bandsFor(d, mainSeriesKey, mainSeries);
+  const bandZ = latestBandZ(mainSeries, mainBands);
+  const bandState = stateLabelFor(bandZ);
+  document.getElementById('state').textContent=bandState;
+  document.getElementById('state').style.color=colorForState(bandState);
   document.getElementById('score-label').textContent=scoreMode==='raw'?'최신 탐욕·공포 점수 · 일일 원점수':'최신 탐욕·공포 점수 · EWMA';
   document.getElementById('smooth').textContent=selected.score == null ? '—' : (selected.score>=0?'+':'')+selected.score.toFixed(2);
   document.getElementById('score-note').textContent=lineName+' · '+d.latest.date+' · 전일 대비 '+(selected.change==null?'—':(selected.change>=0?'+':'')+selected.change.toFixed(2));
-  document.getElementById('state-note').textContent=lineName+' 과거 분포 대비 '+(selected.historical_z==null?'—':(selected.historical_z>=0?'+':'')+selected.historical_z.toFixed(2)+'σ');
+  document.getElementById('state-note').textContent=lineName+' 과거 분포('+BAND_LABELS[bandWindow]+' 기준) 대비 '+(bandZ==null?'—':(bandZ>=0?'+':'')+bandZ.toFixed(2)+'σ');
   document.getElementById('comparison-label').textContent=scoreMode==='raw'?ewmaSpan+'일 EWMA 참고값':'일일 원점수 참고값';
   document.getElementById('daily').textContent=comparison.score == null ? '—' : (comparison.score>=0?'+':'')+comparison.score.toFixed(2);
   document.getElementById('comparison-note').textContent=scoreMode==='raw'?'완화된 감정 추세':'당일 토론·뉴스·시장의 가중합';
@@ -744,6 +820,10 @@ document.querySelectorAll('.ewma').forEach(button => button.addEventListener('cl
 document.querySelectorAll('.score-mode').forEach(button => button.addEventListener('click', () => {
   scoreMode=button.dataset.scoreMode;
   document.querySelectorAll('.score-mode').forEach(b=>b.classList.toggle('active',b===button)); render();
+}));
+document.querySelectorAll('.band-window').forEach(button => button.addEventListener('click', () => {
+  bandWindow=button.dataset.bandWindow;
+  document.querySelectorAll('.band-window').forEach(b=>b.classList.toggle('active',b===button)); render();
 }));
 document.querySelectorAll('.news-tab').forEach(button => button.addEventListener('click', () => {
   newsSet=button.dataset.newsSet;
