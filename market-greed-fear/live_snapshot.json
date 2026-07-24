@@ -1,22 +1,22 @@
 {
-  "as_of": "2026-07-24 10:56 KST",
+  "as_of": "2026-07-24 11:03 KST",
   "event_date": "2026-07-24",
   "boards": {
     "KOSPI": {
-      "score": -1.02152,
+      "score": -1.03617,
       "previous_final": -0.8141,
       "components": {
         "discussion": {
-          "score": -0.21829,
-          "confidence": 0.216,
-          "observations": 11257,
-          "coverage": 0.1354
+          "score": -0.23394,
+          "confidence": 0.2472,
+          "observations": 12884,
+          "coverage": 0.1319
         },
         "news": {
-          "score": -2.09889,
-          "confidence": 0.6751,
-          "observations": 1599,
-          "coverage": 0.8314
+          "score": -2.13693,
+          "confidence": 0.6912,
+          "observations": 1637,
+          "coverage": 0.8249
         },
         "news_hankyung": {
           "score": 0.42558,
@@ -34,12 +34,124 @@
       "news_articles": {
         "all": [
           {
+            "news_id": "9c6e2387d506dbea98624c37a27b3b94",
+            "published_at": "2026-07-24 11:01 KST",
+            "press": "아이뉴스24",
+            "title": "농심, 컵라면·새우깡 가격 올린다…봉지라면은 동결",
+            "sentiment_score": 0.43793,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "26b1c6750638decf0362cdf74cacc553",
+            "published_at": "2026-07-24 11:00 KST",
+            "press": "머니투데이",
+            "title": "GIST 창업기업 리셀, 포스코인터내셔널과 MOU…글로벌 사업화 본격화",
+            "sentiment_score": 0.62668,
+            "associated_companies": 2
+          },
+          {
+            "news_id": "36bcc206538f1ecc4da0fc9d5d81da16",
+            "published_at": "2026-07-24 11:00 KST",
+            "press": "뉴시스",
+            "title": "넷마블 인기 게임 '세븐나이츠'·'몬길' 갤 폴드8 대화면으로 만난다",
+            "sentiment_score": 0.58793,
+            "associated_companies": 2
+          },
+          {
+            "news_id": "3d3d71f39f07ba2170c499e631385106",
+            "published_at": "2026-07-24 11:00 KST",
+            "press": "아시아경제",
+            "title": "[언박싱]\"돌고 돌아 순정\"…'클래식 끝판왕' 삼성 뮤직스튜디오",
+            "sentiment_score": 0.59293,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "74312b5fda6d6916e416c086376150f4",
+            "published_at": "2026-07-24 11:00 KST",
+            "press": "KBS",
+            "title": "농심·던킨, 다음 달부터 제품 가격 인상…“원가 부담”",
+            "sentiment_score": 0.32793,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "d05161fd0237b410b9573fbda1291547",
+            "published_at": "2026-07-24 11:00 KST",
+            "press": "아시아경제",
+            "title": "[N% 성과급이 남긴 것]③이상민 한양대 교수…\"흑자와 적자에 같은 원칙 적용해야\"",
+            "sentiment_score": 0.37043,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "4ab030b2e6cce6b9799746d145c4d554",
+            "published_at": "2026-07-24 10:59 KST",
+            "press": "데일리안",
+            "title": "농심, 용기면·스낵·음료 출고가 인상…\"신라면 봉지 제외\"",
+            "sentiment_score": 0.38043,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "d7e68115412ec147894bd3b810beb1a2",
+            "published_at": "2026-07-24 10:59 KST",
+            "press": "뉴스1",
+            "title": "\"오포 등 中제조사, 삼성전자 제시 3Q 반도체 가격 인상안 보이콧\"",
+            "sentiment_score": 0.36543,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "3a72e91bbdc95fe798918fa9f289a9e6",
+            "published_at": "2026-07-24 10:58 KST",
+            "press": "뉴시스",
+            "title": "카카오페이지, 임제열 '아카데미 절대 교수'·더은 '천마출몰' 공개",
+            "sentiment_score": 0.55043,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "22512d5317c12552bfb79f53025d07b8",
+            "published_at": "2026-07-24 10:56 KST",
+            "press": "데일리안",
+            "title": "한화오션, 美 함정 공동 개발 본격화…인력·공급망까지 협력",
+            "sentiment_score": 0.62793,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "80e87bd9cee6634c15858ba1c7c6afb0",
+            "published_at": "2026-07-24 10:55 KST",
+            "press": "동아일보",
+            "title": "육개장사발면, 새우깡도 오른다… 농심, 주요 용기면·스낵·음료 평균 5.8% ↑",
+            "sentiment_score": 0.41168,
+            "associated_companies": 2
+          },
+          {
+            "news_id": "82ebda6379dfe6f4183cbc2199d43492",
+            "published_at": "2026-07-24 10:55 KST",
+            "press": "SBS Biz",
+            "title": "롯데웰푸드, '꼬깔콘' 모델에 '니가 좋아' 배우 오정세 발탁",
+            "sentiment_score": 0.58043,
+            "associated_companies": 1
+          },
+          {
+            "news_id": "e5f41c17db955d11d3e569c024ecc73a",
+            "published_at": "2026-07-24 10:54 KST",
+            "press": "아시아경제",
+            "title": "\"컵라면·새우깡 가격 오른다\"…식품 가격 인상 줄줄이",
+            "sentiment_score": 0.31856,
+            "associated_companies": 2
+          },
+          {
             "news_id": "91571ce65ca9a027cdf0cd46affb20ce",
             "published_at": "2026-07-24 10:53 KST",
             "press": "한국경제",
             "title": "무림P&P, 펄프로 과수 냉해 막는다…동결보호제 개발 착수",
             "sentiment_score": 0.64543,
             "associated_companies": 1
+          },
+          {
+            "news_id": "359e7f67de62715973271fcfd095bbe5",
+            "published_at": "2026-07-24 10:53 KST",
+            "press": "마이데일리",
+            "title": "통신 3사, 5G 구축 끝나자 투자 6년새 3.5조 급감…AI망서 반등할까",
+            "sentiment_score": 0.51356,
+            "associated_companies": 4
           },
           {
             "news_id": "584b234947abfdd7430ffb73cc0a87d4",
@@ -720,118 +832,6 @@
             "title": "스마트폰 다음은 AI 글래스… 'K-디스플레이'서 OLEDoS 생태계 격돌",
             "sentiment_score": 0.60418,
             "associated_companies": 2
-          },
-          {
-            "news_id": "73da74b5926a7f0e17ee2d606dff5a64",
-            "published_at": "2026-07-24 10:30 KST",
-            "press": "뉴스1",
-            "title": "하자소송 책임 나누고 유보금 없앤다…중견 건설사 30곳 상생협약",
-            "sentiment_score": 0.52481,
-            "associated_companies": 4
-          },
-          {
-            "news_id": "d7fd573c1318f9a9d7d3b5d04d2b63ba",
-            "published_at": "2026-07-24 10:30 KST",
-            "press": "뉴스1",
-            "title": "현대건설, '실전 취업 트랙' 교육생 모집…공사관리 등 9개 과정",
-            "sentiment_score": 0.58793,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "ea618b96a1cd63812f2ebc66360e0467",
-            "published_at": "2026-07-24 10:30 KST",
-            "press": "머니투데이",
-            "title": "교보증권, 전사 AI·DX 교육 돌입",
-            "sentiment_score": 0.54293,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "17c79b0476b3cffa6318ffbed520cad2",
-            "published_at": "2026-07-24 10:29 KST",
-            "press": "서울경제",
-            "title": "교보증권, 전사 AI 교육으로 업무혁신 나선다",
-            "sentiment_score": 0.58793,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "4386e8a0069c909c759e0bc2b68015fb",
-            "published_at": "2026-07-24 10:29 KST",
-            "press": "동행미디어 시대",
-            "title": "현대모비스, 2분기 영업이익 9752억원…전장·A/S 쌍끌이",
-            "sentiment_score": 0.61293,
-            "associated_companies": 2
-          },
-          {
-            "news_id": "8fffc4f4cb0270e6f141e921e9395347",
-            "published_at": "2026-07-24 10:29 KST",
-            "press": "더팩트",
-            "title": "동일토건, '용인반도체클러스터 동일하이빌 파크밸리' 8월 분양",
-            "sentiment_score": 0.61043,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "cb970c45b769181e86034a80287d2677",
-            "published_at": "2026-07-24 10:29 KST",
-            "press": "헤럴드경제",
-            "title": "파인텍, 195억 규모 OLED 제조장비 공급계약",
-            "sentiment_score": 0.53793,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "d25aa1283b39f0ac7ef59202cda9c1f6",
-            "published_at": "2026-07-24 10:29 KST",
-            "press": "뉴스1",
-            "title": "티웨이, 인천~시드니 누적 탑승객 40만명 돌파…10월부터 매일 운항",
-            "sentiment_score": 0.62043,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "3e0b946c92e7add7df6fe11a37ec718d",
-            "published_at": "2026-07-24 10:28 KST",
-            "press": "세계일보",
-            "title": "지역 어르신 챙기고 환경 살리고…ESG 보폭 넓히는 기업들",
-            "sentiment_score": 0.61418,
-            "associated_companies": 2
-          },
-          {
-            "news_id": "79bc1605f8269e97109aa79187208480",
-            "published_at": "2026-07-24 10:28 KST",
-            "press": "서울경제",
-            "title": "넷마블, ‘갤럭시 Z8 시리즈’ 출시 기념 스페셜 테마 출시",
-            "sentiment_score": 0.59293,
-            "associated_companies": 2
-          },
-          {
-            "news_id": "8f3539edc4580bd172b2c8044cb73dac",
-            "published_at": "2026-07-24 10:28 KST",
-            "press": "디지털타임스",
-            "title": "대한민국 최초 리조트 도시… 입주 후 더 빛난 DK아시아 ‘검암역 로열파크씨티 푸르지오’",
-            "sentiment_score": 0.59293,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "ec246e3040416db513bf2cacdbc7b64f",
-            "published_at": "2026-07-24 10:28 KST",
-            "press": "뉴스1",
-            "title": "에쓰오일, 울산공장서 전사 소통의 장 열어…조직간 협업 방안 모색",
-            "sentiment_score": 0.61043,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "fce105f609424d88f31b4851a7936e35",
-            "published_at": "2026-07-24 10:28 KST",
-            "press": "뉴스1",
-            "title": "\"종이 없어도 된다\"…GS건설, 분양계약에 전자계약 도입",
-            "sentiment_score": 0.59793,
-            "associated_companies": 1
-          },
-          {
-            "news_id": "07f091ee51d5c97b2285dd557ce1f410",
-            "published_at": "2026-07-24 10:27 KST",
-            "press": "데일리안",
-            "title": "넥슨 '메이플스토리M', 갤럭시 Z8 시리즈 전용 테마 선보인다",
-            "sentiment_score": 0.58293,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
@@ -1071,20 +1071,20 @@
       }
     },
     "KOSDAQ": {
-      "score": -0.5333,
+      "score": -0.5552,
       "previous_final": -0.15808,
       "components": {
         "discussion": {
-          "score": 0.13691,
-          "confidence": 0.2054,
-          "observations": 6853,
-          "coverage": 0.1353
+          "score": 0.08492,
+          "confidence": 0.2423,
+          "observations": 8084,
+          "coverage": 0.1355
         },
         "news": {
-          "score": -1.74392,
-          "confidence": 0.907,
-          "observations": 390,
-          "coverage": 0.6103
+          "score": -1.73645,
+          "confidence": 0.9116,
+          "observations": 392,
+          "coverage": 0.6097
         },
         "news_hankyung": {
           "score": 0.59669,
@@ -1101,6 +1101,14 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "26b1c6750638decf0362cdf74cacc553",
+            "published_at": "2026-07-24 11:00 KST",
+            "press": "머니투데이",
+            "title": "GIST 창업기업 리셀, 포스코인터내셔널과 MOU…글로벌 사업화 본격화",
+            "sentiment_score": 0.62043,
+            "associated_companies": 1
+          },
           {
             "news_id": "5bf6e6c08aab6be55487a17ad2466b31",
             "published_at": "2026-07-24 10:51 KST",
@@ -1892,14 +1900,6 @@
             "title": "美·이란 확전에 탈플라스틱株 삼륭물산 장초반 19% 상승",
             "sentiment_score": 0.63293,
             "associated_companies": 3
-          },
-          {
-            "news_id": "1fc66b2cb28c498a4decc7666ecab4b2",
-            "published_at": "2026-07-24 09:19 KST",
-            "press": "조선비즈",
-            "title": "[특징주] 코오롱티슈진, 3상 실패에 나흘만에 주가 6만원→ 1.6만원…24% ↓",
-            "sentiment_score": 0.31793,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
@@ -1973,16 +1973,16 @@
   },
   "sources": {
     "discussion": {
-      "latest_event": "2026-07-24 10:11 KST",
-      "latest_seen": "2026-07-24 10:28 KST",
-      "active_minutes": 128,
-      "observations": 18459
+      "latest_event": "2026-07-24 11:03 KST",
+      "latest_seen": "2026-07-24 11:03 KST",
+      "active_minutes": 131,
+      "observations": 21358
     },
     "news": {
-      "latest_event": "2026-07-24 10:53 KST",
-      "latest_seen": "2026-07-24 10:54 KST",
-      "active_minutes": 133,
-      "observations": 1227
+      "latest_event": "2026-07-24 11:01 KST",
+      "latest_seen": "2026-07-24 11:03 KST",
+      "active_minutes": 140,
+      "observations": 1259
     },
     "market": {
       "latest_event": null,
