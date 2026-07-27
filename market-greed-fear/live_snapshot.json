@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-27 19:16 KST",
+  "as_of": "2026-07-27 19:26 KST",
   "event_date": "2026-07-27",
   "market_session": {
     "status": "trading",
@@ -8,8 +8,8 @@
   },
   "boards": {
     "KOSPI": {
-      "score": 0.33812,
-      "text_pulse": 0.34984,
+      "score": 0.34404,
+      "text_pulse": 0.35895,
       "previous_final": -1.56599,
       "index": {
         "price": 6755.75,
@@ -21,14 +21,14 @@
       },
       "components": {
         "discussion": {
-          "score": 0.1617,
-          "observations": 36305,
+          "score": 0.17607,
+          "observations": 36451,
           "coverage": 0.1312
         },
         "news": {
-          "score": 0.77316,
-          "observations": 2180,
-          "coverage": 0.826
+          "score": 0.77043,
+          "observations": 2181,
+          "coverage": 0.8261
         },
         "news_hankyung": {
           "score": 1.63498,
@@ -48,8 +48,20 @@
             "news_id": "b6bae38632119dcd424a0f0b542ed8bc",
             "published_at": "2026-07-27 19:13 KST",
             "press": "한국경제",
-            "title": "중CXMT,상장첫날 5배 급등…중국 최대기업으로 등극",
+            "title": "CXMT, 상장 첫날 5배 급등…중국 최대 기업으로 등극",
             "sentiment_score": 0.58043,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "3298a4ababd21276f731754de61f55b5",
+            "published_at": "2026-07-27 19:09 KST",
+            "press": "KBS",
+            "title": "삼성·SK하이닉스, 반도체 산단 현지 답사",
+            "sentiment_score": 0.56543,
             "associated_companies": 2,
             "company_names": [
               "SK하이닉스",
@@ -1205,17 +1217,6 @@
               "SK하이닉스",
               "삼성전자"
             ]
-          },
-          {
-            "news_id": "43ed356a5448c0696b0c205da819fe96",
-            "published_at": "2026-07-27 18:03 KST",
-            "press": "아이뉴스24",
-            "title": "애플, 내년 6월 첫 AI 안경 공개…메타·삼성과 승부",
-            "sentiment_score": 0.55793,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성전자"
-            ]
           }
         ],
         "hankyung": [
@@ -1223,7 +1224,7 @@
             "news_id": "b6bae38632119dcd424a0f0b542ed8bc",
             "published_at": "2026-07-27 19:13 KST",
             "press": "한국경제",
-            "title": "중CXMT,상장첫날 5배 급등…중국 최대기업으로 등극",
+            "title": "CXMT, 상장 첫날 5배 급등…중국 최대 기업으로 등극",
             "sentiment_score": 0.58043,
             "associated_companies": 2,
             "company_names": [
@@ -3933,15 +3934,15 @@
   "sources": {
     "discussion": {
       "latest_event": "2026-07-27 19:04 KST",
-      "latest_seen": "2026-07-27 19:16 KST",
-      "active_minutes": 344,
-      "observations": 52817
+      "latest_seen": "2026-07-27 19:26 KST",
+      "active_minutes": 354,
+      "observations": 52963
     },
     "news": {
-      "latest_event": "2026-07-27 19:13 KST",
-      "latest_seen": "2026-07-27 19:16 KST",
-      "active_minutes": 378,
-      "observations": 3524
+      "latest_event": "2026-07-27 19:19 KST",
+      "latest_seen": "2026-07-27 19:22 KST",
+      "active_minutes": 380,
+      "observations": 3533
     },
     "market": {
       "latest_event": "2026-07-27",
