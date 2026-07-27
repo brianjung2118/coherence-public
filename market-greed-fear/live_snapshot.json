@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-27 19:05 KST",
+  "as_of": "2026-07-27 19:16 KST",
   "event_date": "2026-07-27",
   "market_session": {
     "status": "trading",
@@ -8,8 +8,8 @@
   },
   "boards": {
     "KOSPI": {
-      "score": 0.33983,
-      "text_pulse": 0.35246,
+      "score": 0.33812,
+      "text_pulse": 0.34984,
       "previous_final": -1.56599,
       "index": {
         "price": 6755.75,
@@ -21,19 +21,19 @@
       },
       "components": {
         "discussion": {
-          "score": 0.16417,
-          "observations": 36140,
+          "score": 0.1617,
+          "observations": 36305,
           "coverage": 0.1312
         },
         "news": {
-          "score": 0.77611,
-          "observations": 2177,
-          "coverage": 0.8258
+          "score": 0.77316,
+          "observations": 2180,
+          "coverage": 0.826
         },
         "news_hankyung": {
-          "score": 1.69691,
-          "observations": 130,
-          "coverage": 0.8532
+          "score": 1.63498,
+          "observations": 131,
+          "coverage": 0.8543
         },
         "market": {
           "score": 0.31636,
@@ -44,6 +44,41 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "b6bae38632119dcd424a0f0b542ed8bc",
+            "published_at": "2026-07-27 19:13 KST",
+            "press": "한국경제",
+            "title": "중CXMT,상장첫날 5배 급등…중국 최대기업으로 등극",
+            "sentiment_score": 0.58043,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "1a52b02b13caf69b6f30700f62c6becc",
+            "published_at": "2026-07-27 19:05 KST",
+            "press": "동아일보",
+            "title": "SK렌터카 제주지점, 기업 실증형 B2B 마케팅 플랫폼 진화",
+            "sentiment_score": 0.57793,
+            "associated_companies": 2,
+            "company_names": [
+              "아모레퍼시픽홀딩스",
+              "오리온"
+            ]
+          },
+          {
+            "news_id": "7624c2a63bcca2b0ca24f8aa8fafb993",
+            "published_at": "2026-07-27 19:03 KST",
+            "press": "스포츠서울",
+            "title": "동아쏘시오홀딩스, 동아제약·용마로지스 성장에 2분기 실적 개선",
+            "sentiment_score": 0.62793,
+            "associated_companies": 1,
+            "company_names": [
+              "동아쏘시오홀딩스"
+            ]
+          },
           {
             "news_id": "c38ad86f57632bd26b19cd2df4ece485",
             "published_at": "2026-07-27 19:00 KST",
@@ -1181,46 +1216,21 @@
             "company_names": [
               "삼성전자"
             ]
-          },
-          {
-            "news_id": "7a28e6c2b85f6c7277b9ef455f95a2aa",
-            "published_at": "2026-07-27 18:03 KST",
-            "press": "SBS Biz",
-            "title": "[이슈체크] CXMT 상장 첫날 535% '폭등'하며 본토 시총 1위 등극…메모리판 뒤집나?",
-            "sentiment_score": 0.58168,
-            "associated_companies": 2,
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "813cabcff76779f4b1219f710a7549d2",
-            "published_at": "2026-07-27 18:03 KST",
-            "press": "연합뉴스TV",
-            "title": "코스피, 널뛰기 끝 6,700선 사수…코스닥 상승",
-            "sentiment_score": 0.5721,
-            "associated_companies": 3,
-            "company_names": [
-              "NAVER",
-              "SK하이닉스",
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "94ca8eb5a22b6ee26c951babb1ddd284",
-            "published_at": "2026-07-27 18:03 KST",
-            "press": "디지털데일리",
-            "title": "\"중소사업자, 쉽게 톡채널 친구 모은다\"…카카오, '우리채널 알리기' 오픈",
-            "sentiment_score": 0.58043,
-            "associated_companies": 2,
-            "company_names": [
-              "종근당홀딩스",
-              "카카오"
-            ]
           }
         ],
         "hankyung": [
+          {
+            "news_id": "b6bae38632119dcd424a0f0b542ed8bc",
+            "published_at": "2026-07-27 19:13 KST",
+            "press": "한국경제",
+            "title": "중CXMT,상장첫날 5배 급등…중국 최대기업으로 등극",
+            "sentiment_score": 0.58043,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
           {
             "news_id": "c38ad86f57632bd26b19cd2df4ece485",
             "published_at": "2026-07-27 19:00 KST",
@@ -2379,17 +2389,6 @@
             "associated_companies": 1,
             "company_names": [
               "카카오"
-            ]
-          },
-          {
-            "news_id": "5c8ba13dc59ef7a965a5f53088a218b0",
-            "published_at": "2026-07-27 08:06 KST",
-            "press": "한국경제",
-            "title": "유니클로서 '나만의 벨리곰 굿즈' 만든다…롯데홈쇼핑, 협업 확대",
-            "sentiment_score": 0.61043,
-            "associated_companies": 1,
-            "company_names": [
-              "롯데쇼핑"
             ]
           }
         ]
@@ -3934,15 +3933,15 @@
   "sources": {
     "discussion": {
       "latest_event": "2026-07-27 19:04 KST",
-      "latest_seen": "2026-07-27 19:05 KST",
-      "active_minutes": 333,
-      "observations": 52652
+      "latest_seen": "2026-07-27 19:16 KST",
+      "active_minutes": 344,
+      "observations": 52817
     },
     "news": {
-      "latest_event": "2026-07-27 19:02 KST",
-      "latest_seen": "2026-07-27 19:03 KST",
-      "active_minutes": 374,
-      "observations": 3513
+      "latest_event": "2026-07-27 19:13 KST",
+      "latest_seen": "2026-07-27 19:16 KST",
+      "active_minutes": 378,
+      "observations": 3524
     },
     "market": {
       "latest_event": "2026-07-27",
