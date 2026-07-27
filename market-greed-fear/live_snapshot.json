@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-28 00:52 KST",
+  "as_of": "2026-07-28 01:02 KST",
   "event_date": "2026-07-28",
   "market_session": {
     "status": "unconfirmed",
@@ -9,7 +9,7 @@
   "boards": {
     "KOSPI": {
       "score": null,
-      "text_pulse": -1.92827,
+      "text_pulse": -1.70053,
       "previous_final": -0.53404,
       "index": {
         "price": 6755.75,
@@ -26,8 +26,8 @@
           "coverage": 0.1029
         },
         "news": {
-          "score": -3.05012,
-          "observations": 3,
+          "score": -2.30997,
+          "observations": 9,
           "coverage": 1.0
         },
         "news_hankyung": {
@@ -44,6 +44,56 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "10876ccd556aad6cdbc4cb9277b56e7a",
+            "published_at": "2026-07-28 00:34 KST",
+            "press": "조선일보",
+            "title": "두산에 SK실트론 지분 매각… 7개월 협상, 이르면 31일 결론",
+            "sentiment_score": 0.55543,
+            "associated_companies": 2,
+            "company_names": [
+              "SK",
+              "두산"
+            ]
+          },
+          {
+            "news_id": "795bc9fd7a2e1dd1c822c9f42a7b8173",
+            "published_at": "2026-07-28 00:32 KST",
+            "press": "동아일보",
+            "title": "본주보다 비싼 SK하닉 ADR… 내일부터 상호전환 가능",
+            "sentiment_score": 0.55793,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "신한지주"
+            ]
+          },
+          {
+            "news_id": "df1d14e46ff1eebed0e4675c280b38a3",
+            "published_at": "2026-07-28 00:31 KST",
+            "press": "동아일보",
+            "title": "[단신]KB금융, 1500억 원 규모 유니콘 육성 펀드 조성 外",
+            "sentiment_score": 0.59793,
+            "associated_companies": 3,
+            "company_names": [
+              "KB금융",
+              "NAVER",
+              "하나금융지주"
+            ]
+          },
+          {
+            "news_id": "f642c410abad7b6f049c11742fce9997",
+            "published_at": "2026-07-28 00:23 KST",
+            "press": "국민일보",
+            "title": "낮아진 K뷰티 문턱에 인디브랜드·이종업계 진출 ‘러시’",
+            "sentiment_score": 0.61377,
+            "associated_companies": 3,
+            "company_names": [
+              "GS리테일",
+              "코스맥스",
+              "한국콜마"
+            ]
+          },
           {
             "news_id": "06a75200c967a6809da2ea98dcf1e618",
             "published_at": "2026-07-28 00:18 KST",
@@ -68,6 +118,28 @@
               "SK스퀘어",
               "SK텔레콤",
               "삼성전자"
+            ]
+          },
+          {
+            "news_id": "8f7cf03dac9b98151eff1329741df745",
+            "published_at": "2026-07-28 00:02 KST",
+            "press": "중앙일보",
+            "title": "1.1조원 거대 엑스레이 현미경…새빛가속기 첫삽 떴다",
+            "sentiment_score": 0.59043,
+            "associated_companies": 1,
+            "company_names": [
+              "POSCO홀딩스"
+            ]
+          },
+          {
+            "news_id": "b6bab750f8adbc2382e1b6be198fd17b",
+            "published_at": "2026-07-28 00:02 KST",
+            "press": "중앙일보",
+            "title": "[Biz & Now] KB금융, 1500억 규모 유니콘 육성 펀드 조성",
+            "sentiment_score": 0.60043,
+            "associated_companies": 1,
+            "company_names": [
+              "KB금융"
             ]
           },
           {
@@ -159,10 +231,10 @@
       "observations": 78
     },
     "news": {
-      "latest_event": "2026-07-28 00:18 KST",
-      "latest_seen": "2026-07-28 00:20 KST",
-      "active_minutes": 4,
-      "observations": 6
+      "latest_event": "2026-07-28 00:47 KST",
+      "latest_seen": "2026-07-28 01:02 KST",
+      "active_minutes": 6,
+      "observations": 38
     },
     "market": {
       "latest_event": null,
