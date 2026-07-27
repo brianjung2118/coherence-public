@@ -254,7 +254,7 @@
         <div class="pipe-stage">뉴스<br><span>사건 단위 감성</span></div>
         <div class="pipe-stage">시장<br><span>추세 · 시장 폭 · 변동성</span></div>
         <div class="pipe-arrow">→ 각자 과거와 비교(z) →</div>
-        <div class="pipe-stage pipe-mix">45% · 20% · 35% 가중합</div>
+        <div class="pipe-stage pipe-mix">시장별 가중합<br><span>코스피 60·15·25 / 코스닥 45·20·35</span></div>
         <div class="pipe-arrow">→</div>
         <div class="pipe-stage pipe-out">일일 GFI → EWMA → 판단</div>
       </div>
@@ -380,9 +380,9 @@
     <section class="panel m-section" id="m-example">
       <h2>3. 오늘의 예시 <span class="m-badge">자동 갱신</span></h2>
       <p>가장 최근 확정일의 실제 수치로 계산 과정을 그대로 보여줍니다.</p>
-<div class="m-example"><b>코스피 · 2026-07-24 (가장 최근 확정일)</b><br>토론 -1.30 × 0.45 = -0.58 &nbsp;·&nbsp; 뉴스 -1.98 × 0.20 = -0.40 &nbsp;·&nbsp; 시장 -1.96 × 0.35 = -0.69<br>→ 일일 점수 <b>-1.67</b>, 20일 EWMA <b>-1.04</b> → 판단 <b>극단적 공포 (하위 0.3%)</b></div>
+<div class="m-example"><b>코스피 · 2026-07-24 (가장 최근 확정일)</b><br>토론 -1.30 × 0.60 = -0.78 &nbsp;·&nbsp; 뉴스 -1.98 × 0.15 = -0.30 &nbsp;·&nbsp; 시장 -1.96 × 0.25 = -0.49<br>→ 일일 점수 <b>-1.57</b>, 20일 EWMA <b>-0.90</b> → 판단 <b>극단적 공포 (하위 0.3%)</b></div>
 <div class="m-example"><b>코스닥 · 2026-07-24 (가장 최근 확정일)</b><br>토론 -0.15 × 0.45 = -0.07 &nbsp;·&nbsp; 뉴스 -0.90 × 0.20 = -0.18 &nbsp;·&nbsp; 시장 -0.90 × 0.35 = -0.32<br>→ 일일 점수 <b>-0.56</b>, 20일 EWMA <b>-0.63</b> → 판단 <b>뚜렷한 공포 (하위 4.0%)</b></div>
-<div class="m-example m-example-fixed"><b>극단의 예 · 2026-07-13 코스피 (급락일, 고정 예시)</b><br>토론 -2.47 · 뉴스 -3.62 · 시장 -2.69 → 일일 점수 <b>-2.78</b>. 세 신호가 모두 같은 방향을 가리키면 점수가 이렇게 깊어집니다.</div>
+<div class="m-example m-example-fixed"><b>극단의 예 · 2026-07-13 코스피 (급락일, 고정 예시)</b><br>토론 -2.47 · 뉴스 -3.62 · 시장 -2.69 → 일일 점수 <b>-2.70</b>. 세 신호가 모두 같은 방향을 가리키면 점수가 이렇게 깊어집니다.</div>
     </section>
     <section class="panel m-section" id="m-combine">
       <h2>4. 하나로 합치기</h2>
@@ -391,14 +391,14 @@
         <p>세 신호가 같은 방향을 가리키면 점수가 강하게 움직입니다. 서로 다른 방향이면 서로를 일부 상쇄합니다.</p>
         <ol class="calculation-steps">
           <li>토론, 뉴스, 시장 움직임을 모두 “평소보다 좋은가 나쁜가”라는 같은 기준으로 맞춥니다.</li>
-          <li>세 구성요소를 45%, 20%, 35% 비중으로 더합니다. 사람들의 말 45%, 뉴스 20%, 실제 시장 움직임 35%입니다.</li>
+          <li>세 구성요소를 시장별 비중으로 더합니다. 코스피는 사람들의 말 60%, 뉴스 15%, 실제 시장 움직임 25%. 코스닥은 사람들의 말 45%, 뉴스 20%, 실제 시장 움직임 35%입니다. 코스피에서 토론 비중이 큰 이유는 검증 결과 토론이 국면 구분과 앞으로의 변동성 정보를 가장 많이 담고 있었기 때문이고, 코스닥은 텍스트 자료의 기업 커버리지가 아직 낮아 원래 비중을 유지합니다.</li>
           <li>합친 결과가 오늘의 일일 점수입니다. 높을수록 탐욕, 낮을수록 공포입니다.</li>
           <li>EWMA를 고르면 하루의 큰 출렁임을 줄이고 최근 며칠의 흐름을 더 쉽게 볼 수 있습니다.</li>
           <li>마지막으로 오늘 점수가 평소 범위인지, 역사적으로 드문 수준인지 배경 영역과 비교합니다.</li>
         </ol>
         <p class="plain-example"><b>예:</b> 사람들의 말, 뉴스, 주가가 모두 매우 낙관적이면 최종 점수는 탐욕 쪽으로 크게 올라갑니다. 셋 중 하나만 낙관적이면 상승 폭은 작아집니다.</p>
         <details class="technical"><summary>수식과 세부 기준 보기</summary>
-          <div class="formula"><span class="formula-label">일일 합산 점수</span>GFI<sup>daily</sup><sub>b,t</sub> = 0.45 × D<sub>b,t</sub> + 0.20 × N<sub>b,t</sub> + 0.35 × M<sub>b,t</sub></div>
+          <div class="formula"><span class="formula-label">일일 합산 점수</span>GFI<sup>daily</sup><sub>b,t</sub> = w<sup>D</sup><sub>b</sub> × D<sub>b,t</sub> + w<sup>N</sup><sub>b</sub> × N<sub>b,t</sub> + w<sup>M</sup><sub>b</sub> × M<sub>b,t</sub><br>코스피: (w<sup>D</sup>, w<sup>N</sup>, w<sup>M</sup>) = (0.60, 0.15, 0.25) &nbsp;·&nbsp; 코스닥: (0.45, 0.20, 0.35)</div>
           <div class="formula"><span class="formula-label">화면에서 선택하는 k일 EWMA · k ∈ {5, 10, 20}</span>α<sub>k</sub> = 2 / (k + 1)<br>w<sub>k,j</sub> = (1 − α<sub>k</sub>)<sup>j</sup><br>EWMA<sup>(k)</sup><sub>b,t</sub> = [Σ<sup>t−1</sup><sub>j=0</sub> w<sub>k,j</sub> × GFI<sup>daily</sup><sub>b,t−j</sub>] / [Σ<sup>t−1</sup><sub>j=0</sub> w<sub>k,j</sub>]</div>
           <div class="common-scale"><b>공통 표준화 기준:</b> H<sub>t</sub>(x)는 x<sub>t−756</sub>부터 x<sub>t−1</sub>까지, 즉 오늘을 제외한 과거 최대 756개 관측값입니다. 최소 252개가 있어야 계산합니다. D, N, M은 이 기준으로 표준화하지만, 합친 일일 GFI 자체는 다시 표준화하지 않습니다.<br><span class="formula">μ<sub>x,t</sub> = mean(H<sub>t</sub>(x)), &nbsp; σ<sub>x,t</sub> = stdev(H<sub>t</sub>(x))<br>Z<sub>t</sub>(x) = (x<sub>t</sub> − μ<sub>x,t</sub>) / σ<sub>x,t</sub></span><br><b>차트 배경:</b> 현재 선택한 일일 점수 또는 EWMA의 과거 평균과 표준편차를 별도로 계산합니다. 배경 밴드와 ‘현재 판단’ σ의 기준 기간은 페이지 상단에서 전체·5년·3년·1년 중 선택할 수 있으며 기본값은 3년입니다(구성요소 표준화는 항상 최대 756일 고정). 어느 기준이든 오늘을 제외한 과거 관측 252개 이상이 필요합니다.<br><span class="formula">Band<sup>(m)</sup><sub>x,t</sub> = μ<sub>x,t</sub> ± mσ<sub>x,t</sub>, &nbsp; m ∈ {1, 2}</span></div>
         </details>
@@ -451,6 +451,7 @@
         <details><summary>지수가 제 체감과 다른데요?</summary><p>흔한 이유는 두 가지입니다. 첫째, 헤드라인 지수와 평균 종목이 다르게 움직이는 날이 있습니다(대형주만 급락하고 시장 폭은 멀쩡한 날). 둘째, 화면의 큰 숫자는 20일 EWMA라 지난 몇 주를 기억합니다. 오늘 하루의 느낌은 실시간 섹션이 더 가깝습니다.</p></details>
         <details><summary>매매 신호인가요?</summary><p>아닙니다. 자체 검증에서 이 지수의 극단은 "이후 수익률 반전"이 아니라 "이후 변동성 확대"와 연결되었습니다. 상태를 설명하는 지표이지, 타이밍 도구가 아닙니다.</p></details>
         <details><summary>왜 코스피와 코스닥을 따로 계산하나요?</summary><p>두 시장은 참여자 구성과 변동성 구조가 크게 다릅니다. 하나의 분포로 표준화하면 서로의 극단을 희석합니다.</p></details>
+        <details><summary>왜 두 시장의 가중치가 다른가요?</summary><p>자료 품질이 다르기 때문입니다. 코스피는 토론 자료가 국면 구분과 앞으로의 변동성 정보를 가장 많이 담고 있어 토론 60%를 줍니다. 이 결과는 표본을 시간 전·후반으로 나눈 검증에서 양쪽 모두 성립했습니다. 코스닥은 뉴스가 시가총액의 약 37%만 다루는 등 텍스트 커버리지가 아직 낮아, 토론 비중을 높이면 잡음이 커지고 시장 비중을 높이면 지수가 주가의 반복이 됩니다. 그래서 원래의 45·20·35를 유지하고, 커버리지 개선 후 재검토합니다.</p></details>
         <details><summary>±2σ 밖이면 어떤 의미인가요?</summary><p>선택한 기준 기간의 과거 분포에서 역사적으로 드문 수준이라는 뜻입니다. 확률로 환산할 수 있는 정규분포 가정은 하지 않습니다.</p></details>
       </div>
     </section>
@@ -467,6 +468,7 @@
       <h2>11. 변경 기록</h2>
       <table class="m-table m-changelog"><thead>
         <tr><th>날짜</th><th>문제</th><th>변경</th><th>영향</th></tr></thead><tbody>
+        <tr><td>2026-07-27</td><td>단일 가중치(45·20·35)가 두 시장의 서로 다른 자료 품질을 무시함. 검증 결과 코스피는 토론 비중을 높일수록 국면 구분과 40일 앞 변동성 정보가 표본 전·후반 모두에서 개선, 코스닥은 텍스트 커버리지가 낮아 개선 없음</td><td>가중치를 시장별로 분리: 코스피 토론 60% · 뉴스 15% · 시장 25%, 코스닥은 45% · 20% · 35% 유지. 전체 이력 재계산</td><td>코스피 점수 이력이 토론 중심으로 재계산됨 (국면 분리 3.88→4.38, 40일 변동성 설명력 5.8pp→9.0pp). 코스닥 수치 불변</td></tr>
         <tr><td>2026-07-27</td><td>현재 판단 라벨이 ±2σ 문턱에서 곧장 '극단적'으로 점프해, 표시 점수 체감보다 과격하고 실제 극단과 구분되지 않음</td><td>라벨을 과거 분포 백분위 7단계로 변경하고 컷오프를 공개 (σ 값은 참고로 병기)</td><td>라벨 표기만 변경, 지수 수치 불변</td></tr>
         <tr><td>2026-07-27</td><td>방법론이 지수 페이지 안에 눌려 있어 읽기 어려움</td><td>방법론을 별도 페이지로 분리하고 실시간/과거 2단 구성으로 재편</td><td>표시 방식만 변경, 수치 불변</td></tr>
         <tr><td>2026-07-27</td><td>실시간 시장 점수가 "지난 20일" 이야기를 해서 당일 체감과 어긋남</td><td>실시간 시장 구성요소를 당일 수익률·시장 폭 기준의 '당일 펄스'로 교체 (확정 지수는 기존 20일 창 유지)</td><td>실시간 값만 변경. 예: 07-27 오전 구 방식 −1.55 → 펄스 −0.08</td></tr>
