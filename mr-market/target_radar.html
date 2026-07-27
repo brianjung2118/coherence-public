@@ -64,8 +64,8 @@ svg{width:100%;height:auto}
       <figcaption id="lcap"></figcaption>
     </div>
     <div class="card">
-      <div class="ctitle">가격÷목표가 — 목표가 도달률</div>
-      <div class="clegend">두 선의 간격을 100% 기준으로 환산한 값. 절대 수준보다 평소 대비 위치가 신호.</div>
+      <div class="ctitle">가격÷목표가 — 평소와 견준 위치</div>
+      <div class="clegend" id="rLegend"></div>
       <div id="chart"></div>
       <figcaption id="cap"></figcaption>
     </div>
@@ -167,6 +167,58 @@ function hover(el,S,xs,W,H,M,t0,t1,fmt){
     svg.appendChild(tip);
   });
   hx.addEventListener('mouseleave',()=>{ if(tip){tip.remove();tip=null;} });
+}
+
+/* ---------- point-in-time own-history norm ----------
+   100% is a landmark almost nothing reaches (삼성전자 has never touched it in
+   its whole history; its own norm is 81%). What matters is where the ratio
+   sits against ITS OWN habit. Expanding window, data up to that day only —
+   the band never sees the future. */
+const NORM_WARMUP = 60;
+function pitNorm(S){
+  const out=[], sorted=[];
+  for(const r of S){
+    let k=0; while(k<sorted.length && sorted[k]<r.v) k++;
+    sorted.splice(k,0,r.v);
+    if(sorted.length<NORM_WARMUP){ out.push(null); continue; }
+    const q=p=>{ const x=(sorted.length-1)*p, l=Math.floor(x), h=Math.ceil(x);
+                 return sorted[l]+(sorted[h]-sorted[l])*(x-l); };
+    out.push({lo:q(0.25), mid:q(0.5), hi:q(0.75)});
+  }
+  return out;
+}
+function normSvg(S,N,b){
+  const segs=[]; let cur=[];
+  for(let i=0;i<S.length;i++){
+    const brk = i>0 && (new Date(S[i].d)-new Date(S[i-1].d))>14*86400e3;
+    if(!N[i] || brk){ if(cur.length>1) segs.push(cur); cur=[]; }
+    if(N[i]) cur.push(i);
+  }
+  if(cur.length>1) segs.push(cur);
+  let t='';
+  for(const g of segs){
+    const up=g.map(i=>`${b.xs(S[i].d).toFixed(1)},${b.ys(N[i].hi).toFixed(1)}`).join(' ');
+    const dn=g.slice().reverse().map(i=>`${b.xs(S[i].d).toFixed(1)},${b.ys(N[i].lo).toFixed(1)}`).join(' ');
+    t+=`<polygon points="${up} ${dn}" fill="rgba(138,135,127,0.18)" stroke="none"/>`+
+       `<polyline points="${g.map(i=>`${b.xs(S[i].d).toFixed(1)},${b.ys(N[i].mid).toFixed(1)}`).join(' ')}" `+
+       `fill="none" stroke="var(--muted)" stroke-width="1.4" stroke-dasharray="5 4"/>`;
+  }
+  return t;
+}
+function setRatioLegend(){
+  document.getElementById('rLegend').innerHTML=
+    `<span><i style="background:var(--accent)"></i>가격÷목표가</span>`+
+    `<span><i style="background:var(--muted)"></i>평소 수준 (그날까지의 중앙값)</span>`+
+    `<span><b style="background:rgba(138,135,127,0.34)"></b>흔한 범위 (25~75%)</span>`+
+    `<span style="color:var(--ink-2)">100% = 목표가 도달</span>`;
+}
+function normCap(S,N,unitLbl){
+  let i=N.length-1; while(i>=0 && !N[i]) i--;
+  if(i<0) return `아직 ${NORM_WARMUP}거래일이 안 돼 평소 범위를 그리지 않았습니다.`;
+  const n=N[i], cur=S[S.length-1].v, gap=Math.round((cur-n.mid)*100);
+  return `${unitLbl} 평소(지금까지 중앙값) ${Math.round(n.mid*100)}% · 흔한 범위 ${Math.round(n.lo*100)}~${Math.round(n.hi*100)}% — `+
+    `지금 ${Math.round(cur*100)}%로 평소보다 ${gap===0?'같은 수준':(gap<0?`${-gap}pp 아래`:`${gap}pp 위`)}. `+
+    `회색 띠·점선은 그날까지의 과거만으로 계산해 미래를 쓰지 않습니다(${NORM_WARMUP}거래일 확보 후부터).`;
 }
 
 /* ---------- levels chart (주가 vs 목표가, real units) ----------
@@ -472,7 +524,10 @@ function draw(){
     const idxLast=idxMap[lastR.d];
     const tpIdx=idxLast?Math.round(idxLast/lastR.v):null;
     const b=baseSvg(S,W,H,M, tpIdx?`${tpIdx.toLocaleString()}pt (지수 환산)`:null);
+    const N=pitNorm(S);
+    b.t+=normSvg(S,N,b);
     b.t+=`<polyline points="${S.map(r=>`${b.xs(r.d).toFixed(1)},${b.ys(r.v).toFixed(1)}`).join(' ')}" fill="none" stroke="var(--accent)" stroke-width="2.2"/>`;
+    setRatioLegend();
     const last=S[S.length-1];
     b.t+=`<text x="${W-M.r+6}" y="${b.ys(last.v)+4}" font-size="11" font-weight="700" fill="var(--accent)">현재 ${Math.round(last.v*100)}%</text>`;
     b.t+=monthLabels(S,b.xs,H);
@@ -482,7 +537,8 @@ function draw(){
     const idxNow=idxMap[last.d];
     document.getElementById('cap').textContent =
       `최신(${last.d}): ${Math.round(last.v*100)}% (역사 백분위 ${pctl(vals,last.v)}%) · 커버 ${last.n}개사 · `+
-      `기간 최저 ${Math.round(Math.min(...vals)*100)}% / 최고 ${Math.round(Math.max(...vals)*100)}%.`+
+      `기간 최저 ${Math.round(Math.min(...vals)*100)}% / 최고 ${Math.round(Math.max(...vals)*100)}%. `+
+      normCap(S,N,'이 시장의')+
       (idxNow&&tpIdx?` 지수 ${Math.round(idxNow).toLocaleString()}pt 기준, 증권가 목표가 총액은 지수 ${tpIdx.toLocaleString()}pt에 해당합니다 (커버 종목 시총 가중 환산).`:'');
     hover(el,S,b.xs,W,H,M,b.t0,b.t1,r=>{
       const iv=idxMap[r.d];
@@ -533,6 +589,9 @@ function draw(){
     if(S.length<3){ el.innerHTML='<p style="color:var(--muted)">데이터 없음</p>'; return; }
     const W=980,H=420,M={t:16,r:130,b:34,l:52};
     const b=baseSvg(S,W,H,M, c.tp!=null?c.tp.toLocaleString()+'원':null);
+    const N=pitNorm(S);
+    b.t+=normSvg(S,N,b);
+    setRatioLegend();
     let seg=[];
     const flush=()=>{ if(seg.length>1) b.t+=`<polyline points="${seg.join(' ')}" fill="none" stroke="var(--accent)" stroke-width="2"/>`; seg=[]; };
     for(let i=0;i<S.length;i++){
@@ -550,7 +609,8 @@ function draw(){
     const depth = last.n>=5?'두터움':last.n>=2?'보통':'단 1곳 — 한 증권사의 의견';
     document.getElementById('cap').textContent =
       (stale?`마지막 관측 ${last.d} 기준 당시`:'현재 주가는 최근')+
-      ` 3개월 목표가 중앙값의 ${Math.round(last.v*100)}% (자기 역사 백분위 ${pctl(vals,last.v)}%) · 근거 증권사 ${last.n}곳 (${depth}, 증권사당 최신 목표가 한 표).`+
+      ` 3개월 목표가 중앙값의 ${Math.round(last.v*100)}% (자기 역사 백분위 ${pctl(vals,last.v)}%) · 근거 증권사 ${last.n}곳 (${depth}, 증권사당 최신 목표가 한 표). `+
+      normCap(S,N,'이 종목')+
       (stale?' ⚠ 그 이후 목표가 리포트가 전혀 없어 선이 멈춘 상태 — 증권가가 이 종목에서 손을 뗀 구간입니다.':'')+
       ' 선이 끊긴 구간 = 최근 3개월 내 목표가 리포트가 없던 기간.';
     hover(el,S,b.xs,W,H,M,b.t0,b.t1,r=>{
