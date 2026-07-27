@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-27 13:32 KST",
+  "as_of": "2026-07-27 13:37 KST",
   "event_date": "2026-07-27",
   "market_session": {
     "status": "trading",
@@ -8,15 +8,15 @@
   },
   "boards": {
     "KOSPI": {
-      "score": -0.12327,
-      "text_pulse": -0.06266,
+      "score": -0.11236,
+      "text_pulse": -0.06235,
       "previous_final": -1.66622,
       "index": {
-        "price": 6641.31,
+        "price": 6649.74,
         "prev_close": 6690.62,
-        "change": -49.31,
-        "change_pct": -0.74,
-        "as_of": "2026-07-27 13:32 KST",
+        "change": -40.88,
+        "change_pct": -0.61,
+        "as_of": "2026-07-27 13:37 KST",
         "live": true
       },
       "components": {
@@ -26,9 +26,9 @@
           "coverage": 0.1329
         },
         "news": {
-          "score": 0.25478,
-          "observations": 1235,
-          "coverage": 0.8212
+          "score": 0.25579,
+          "observations": 1237,
+          "coverage": 0.8218
         },
         "news_hankyung": {
           "score": 0.00063,
@@ -36,7 +36,7 @@
           "coverage": 0.8991
         },
         "market": {
-          "score": -0.23584,
+          "score": -0.20523,
           "confidence": 1.0,
           "observations": 915,
           "coverage": 1.0
@@ -44,6 +44,45 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "babf4a4652bde6abb937f9772f6f5f0c",
+            "published_at": "2026-07-27 13:32 KST",
+            "press": "디지털데일리",
+            "title": "“매출·성장성 보고 2.2조 푼다”…소상공인 대출 새 신용평가 도입",
+            "sentiment_score": 0.60143,
+            "associated_companies": 5,
+            "company_names": [
+              "KB금융",
+              "기업은행",
+              "제주은행",
+              "종근당홀딩스",
+              "케이뱅크"
+            ]
+          },
+          {
+            "news_id": "bd715cb05354fb26966d6d23fba89e4d",
+            "published_at": "2026-07-27 13:27 KST",
+            "press": "동행미디어 시대",
+            "title": "[티타임]외인 2조 탈출…효과 없는 미국 'AI 동맹', 삼전닉스 0.3%대 상승",
+            "sentiment_score": 0.4796,
+            "associated_companies": 3,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자",
+              "현대차"
+            ]
+          },
+          {
+            "news_id": "455cfbb9cd79b5cdd3a7271a8d40d96c",
+            "published_at": "2026-07-27 13:22 KST",
+            "press": "전자신문",
+            "title": "네이버, 엔비디아를 3대 주주로…14조원 AI 인프라 사업 본격화",
+            "sentiment_score": 0.60293,
+            "associated_companies": 1,
+            "company_names": [
+              "NAVER"
+            ]
+          },
           {
             "news_id": "6d080ce91bdceac23e7f69fe4ca1538f",
             "published_at": "2026-07-27 13:21 KST",
@@ -1214,45 +1253,6 @@
             "company_names": [
               "삼성물산"
             ]
-          },
-          {
-            "news_id": "2d713df0cb91d4db11c7ebde6db0eefe",
-            "published_at": "2026-07-27 11:30 KST",
-            "press": "머니투데이",
-            "title": "삼성운용, 'FUNETF' 신규 서비스 이벤트… 커피쿠폰 100% 증정",
-            "sentiment_score": 0.53418,
-            "associated_companies": 2,
-            "company_names": [
-              "대한항공",
-              "삼성생명"
-            ]
-          },
-          {
-            "news_id": "46cc491e30cbe9f27bb7a53d7e3ee4c4",
-            "published_at": "2026-07-27 11:30 KST",
-            "press": "뉴시스",
-            "title": "중국車 우회 진출 막는 미국…현대차·기아 美 성장판 확대 '청신호'",
-            "sentiment_score": 0.65043,
-            "associated_companies": 2,
-            "company_names": [
-              "기아",
-              "현대차"
-            ]
-          },
-          {
-            "news_id": "48088262768dcb705302b3b6e2060a60",
-            "published_at": "2026-07-27 11:30 KST",
-            "press": "이데일리",
-            "title": "한화, KAI 지분 14%대로 확대…인수설 다시 '탄력'",
-            "sentiment_score": 0.62193,
-            "associated_companies": 5,
-            "company_names": [
-              "한국항공우주",
-              "한화",
-              "한화시스템",
-              "한화에어로스페이스",
-              "한화오션"
-            ]
           }
         ],
         "hankyung": [
@@ -1851,15 +1851,15 @@
       }
     },
     "KOSDAQ": {
-      "score": 0.43503,
-      "text_pulse": 0.36281,
+      "score": 0.44467,
+      "text_pulse": 0.36151,
       "previous_final": -0.56353,
       "index": {
-        "price": 760.54,
+        "price": 761.18,
         "prev_close": 748.22,
-        "change": 12.32,
-        "change_pct": 1.65,
-        "as_of": "2026-07-27 13:32 KST",
+        "change": 12.96,
+        "change_pct": 1.73,
+        "as_of": "2026-07-27 13:37 KST",
         "live": true
       },
       "components": {
@@ -1869,9 +1869,9 @@
           "coverage": 0.1262
         },
         "news": {
-          "score": 0.67423,
+          "score": 0.67,
           "observations": 239,
-          "coverage": 0.6854
+          "coverage": 0.6902
         },
         "news_hankyung": {
           "score": 0.90157,
@@ -1879,7 +1879,7 @@
           "coverage": 0.9231
         },
         "market": {
-          "score": 0.56917,
+          "score": 0.5991,
           "confidence": 1.0,
           "observations": 1803,
           "coverage": 1.0
@@ -1887,6 +1887,26 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "bd715cb05354fb26966d6d23fba89e4d",
+            "published_at": "2026-07-27 13:27 KST",
+            "press": "동행미디어 시대",
+            "title": "[티타임]외인 2조 탈출…효과 없는 미국 'AI 동맹', 삼전닉스 0.3%대 상승",
+            "sentiment_score": 0.49468,
+            "associated_companies": 10,
+            "company_names": [
+              "HLB",
+              "레인보우로보틱스",
+              "리노공업",
+              "알테오젠",
+              "에이비엘바이오",
+              "에코프로",
+              "에코프로비엠",
+              "원익IPS",
+              "주성엔지니어링",
+              "피에스케이"
+            ]
+          },
           {
             "news_id": "d7e870cc1cbb43fef4be359568b46e39",
             "published_at": "2026-07-27 13:20 KST",
@@ -3020,17 +3040,6 @@
             "company_names": [
               "HPSP"
             ]
-          },
-          {
-            "news_id": "84c8e0a1c14199fcebb4bd02a1b29693",
-            "published_at": "2026-07-27 10:20 KST",
-            "press": "디지털데일리",
-            "title": "펄어비스 '붉은사막', 할인 없이도 스팀 매출만 2770억원 돌파",
-            "sentiment_score": 0.63293,
-            "associated_companies": 1,
-            "company_names": [
-              "펄어비스"
-            ]
           }
         ],
         "hankyung": [
@@ -3269,14 +3278,14 @@
       "observations": 34792
     },
     "news": {
-      "latest_event": "2026-07-27 13:22 KST",
-      "latest_seen": "2026-07-27 13:32 KST",
-      "active_minutes": 193,
-      "observations": 1945
+      "latest_event": "2026-07-27 13:32 KST",
+      "latest_seen": "2026-07-27 13:33 KST",
+      "active_minutes": 194,
+      "observations": 1958
     },
     "market": {
       "latest_event": "2026-07-27",
-      "latest_seen": "2026-07-27 13:32 KST",
+      "latest_seen": "2026-07-27 13:37 KST",
       "active_minutes": null,
       "intraday": true,
       "status_record_available": true
