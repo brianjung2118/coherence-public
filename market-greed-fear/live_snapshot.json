@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-27 21:08 KST",
+  "as_of": "2026-07-27 21:18 KST",
   "event_date": "2026-07-27",
   "market_session": {
     "status": "trading",
@@ -8,8 +8,8 @@
   },
   "boards": {
     "KOSPI": {
-      "score": 0.31965,
-      "text_pulse": 0.32143,
+      "score": 0.31505,
+      "text_pulse": 0.31435,
       "previous_final": -1.56599,
       "index": {
         "price": 6755.75,
@@ -21,19 +21,19 @@
       },
       "components": {
         "discussion": {
-          "score": 0.12751,
-          "observations": 37976,
+          "score": 0.11551,
+          "observations": 38098,
           "coverage": 0.1307
         },
         "news": {
-          "score": 0.75774,
-          "observations": 2220,
-          "coverage": 0.8271
+          "score": 0.76172,
+          "observations": 2221,
+          "coverage": 0.8272
         },
         "news_hankyung": {
-          "score": 1.43598,
-          "observations": 137,
-          "coverage": 0.8447
+          "score": 1.45918,
+          "observations": 138,
+          "coverage": 0.8464
         },
         "market": {
           "score": 0.31636,
@@ -44,6 +44,19 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "6831ba969b1bf4e9221a86c0e599eb51",
+            "published_at": "2026-07-27 21:12 KST",
+            "press": "한국경제",
+            "title": "해외 곳곳서 '부산병'…인천공항만 찾던 외국인들 달라졌다 [플라잇톡]",
+            "sentiment_score": 0.60293,
+            "associated_companies": 3,
+            "company_names": [
+              "에어부산",
+              "제주항공",
+              "진에어"
+            ]
+          },
           {
             "news_id": "6bbbf097687def639fefaba012fc4591",
             "published_at": "2026-07-27 21:00 KST",
@@ -1226,20 +1239,22 @@
             "company_names": [
               "NH투자증권"
             ]
-          },
-          {
-            "news_id": "0aa9135ecab382f3b3c0b4d6415fd27d",
-            "published_at": "2026-07-27 18:12 KST",
-            "press": "파이낸셜뉴스",
-            "title": "미래에셋證 퇴직연금 2분기 10조 불었다",
-            "sentiment_score": 0.60543,
-            "associated_companies": 1,
-            "company_names": [
-              "미래에셋증권"
-            ]
           }
         ],
         "hankyung": [
+          {
+            "news_id": "6831ba969b1bf4e9221a86c0e599eb51",
+            "published_at": "2026-07-27 21:12 KST",
+            "press": "한국경제",
+            "title": "해외 곳곳서 '부산병'…인천공항만 찾던 외국인들 달라졌다 [플라잇톡]",
+            "sentiment_score": 0.60293,
+            "associated_companies": 3,
+            "company_names": [
+              "에어부산",
+              "제주항공",
+              "진에어"
+            ]
+          },
           {
             "news_id": "6bbbf097687def639fefaba012fc4591",
             "published_at": "2026-07-27 21:00 KST",
@@ -2398,18 +2413,6 @@
             "company_names": [
               "아모레퍼시픽",
               "아모레퍼시픽홀딩스"
-            ]
-          },
-          {
-            "news_id": "2dc3bd573e7c6bdb798a866fa720b9d9",
-            "published_at": "2026-07-27 08:32 KST",
-            "press": "한국경제",
-            "title": "서울 야경 보며 '치맥'…남산타워 맥주 축제 열린다",
-            "sentiment_score": 0.56043,
-            "associated_companies": 2,
-            "company_names": [
-              "CJ",
-              "CJ제일제당"
             ]
           }
         ]
@@ -3954,15 +3957,15 @@
   "sources": {
     "discussion": {
       "latest_event": "2026-07-27 21:02 KST",
-      "latest_seen": "2026-07-27 21:08 KST",
-      "active_minutes": 395,
-      "observations": 55261
+      "latest_seen": "2026-07-27 21:18 KST",
+      "active_minutes": 405,
+      "observations": 55383
     },
     "news": {
-      "latest_event": "2026-07-27 21:00 KST",
-      "latest_seen": "2026-07-27 21:03 KST",
-      "active_minutes": 406,
-      "observations": 3611
+      "latest_event": "2026-07-27 21:12 KST",
+      "latest_seen": "2026-07-27 21:13 KST",
+      "active_minutes": 408,
+      "observations": 3612
     },
     "market": {
       "latest_event": "2026-07-27",
