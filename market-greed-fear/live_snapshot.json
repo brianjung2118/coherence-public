@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-27 10:47 KST",
+  "as_of": "2026-07-27 10:52 KST",
   "event_date": "2026-07-27",
   "market_session": {
     "status": "trading",
@@ -8,15 +8,15 @@
   },
   "boards": {
     "KOSPI": {
-      "score": -0.369,
-      "text_pulse": 0.24922,
+      "score": -0.37477,
+      "text_pulse": 0.24671,
       "previous_final": -1.66622,
       "index": {
-        "price": 6636.98,
+        "price": 6632.91,
         "prev_close": 6690.62,
-        "change": -53.64,
-        "change_pct": -0.8,
-        "as_of": "2026-07-27 10:47 KST",
+        "change": -57.71,
+        "change_pct": -0.86,
+        "as_of": "2026-07-27 10:52 KST",
         "live": true
       },
       "components": {
@@ -26,17 +26,17 @@
           "coverage": 0.1374
         },
         "news": {
-          "score": 0.09049,
-          "observations": 931,
-          "coverage": 0.8294
+          "score": 0.08233,
+          "observations": 936,
+          "coverage": 0.8303
         },
         "news_hankyung": {
-          "score": -0.13515,
-          "observations": 46,
-          "coverage": 0.9032
+          "score": -0.10001,
+          "observations": 47,
+          "coverage": 0.9043
         },
         "market": {
-          "score": -1.51712,
+          "score": -1.52895,
           "confidence": 1.0,
           "observations": 915,
           "coverage": 1.0
@@ -44,6 +44,77 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "08e0d65ec15ae06e14b1fafb01f730b0",
+            "published_at": "2026-07-27 10:50 KST",
+            "press": "한국경제",
+            "title": "“제주를 한국판 애리조나로”…쏘카, 정부에 로보택시·로보버스 도시 제안",
+            "sentiment_score": 0.62543,
+            "associated_companies": 1,
+            "company_names": [
+              "쏘카"
+            ]
+          },
+          {
+            "news_id": "83acf723173f366f4b49c8582f57f90c",
+            "published_at": "2026-07-27 10:47 KST",
+            "press": "파이낸셜뉴스",
+            "title": "미래에셋증권, 퇴직연금 적립금 2분기에만 9.6조 증가…전 금융권 1위",
+            "sentiment_score": 0.60793,
+            "associated_companies": 1,
+            "company_names": [
+              "미래에셋증권"
+            ]
+          },
+          {
+            "news_id": "030456b83ccc9c6f47b5c0216216dc49",
+            "published_at": "2026-07-27 10:46 KST",
+            "press": "뉴시스",
+            "title": "\"신혼 혼수로 딱\"…한샘, '르베 모듈형 소파' 출시",
+            "sentiment_score": 0.61043,
+            "associated_companies": 1,
+            "company_names": [
+              "한샘"
+            ]
+          },
+          {
+            "news_id": "5425dcdea56e4b51e1fddb152899fa75",
+            "published_at": "2026-07-27 10:46 KST",
+            "press": "YTN",
+            "title": "코스피 하락·코스닥지수 상승...네이버는 급등",
+            "sentiment_score": 0.41981,
+            "associated_companies": 4,
+            "company_names": [
+              "NAVER",
+              "SK하이닉스",
+              "삼성전자",
+              "현대차"
+            ]
+          },
+          {
+            "news_id": "fa30572fbf4fe0ed7a28e5f018d98d64",
+            "published_at": "2026-07-27 10:46 KST",
+            "press": "더팩트",
+            "title": "코인원 앱에서 주식도 산다…한투증권, '코인·주식' 접점 확대",
+            "sentiment_score": 0.58293,
+            "associated_companies": 3,
+            "company_names": [
+              "NAVER",
+              "삼성전자",
+              "한국금융지주"
+            ]
+          },
+          {
+            "news_id": "58fd8032e1b9deade07cb59dee2f9355",
+            "published_at": "2026-07-27 10:44 KST",
+            "press": "전자신문",
+            "title": "삼성 갤럭시Z8·워치 사전판매 돌입…내달 7일 정식 출시",
+            "sentiment_score": 0.59043,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성전자"
+            ]
+          },
           {
             "news_id": "281f234a9909034004eb1b32c651a0d5",
             "published_at": "2026-07-27 10:42 KST",
@@ -1154,86 +1225,20 @@
               "SK",
               "두산"
             ]
-          },
-          {
-            "news_id": "cfd8019fb4bfb40893e67f498e22ccf6",
-            "published_at": "2026-07-27 10:18 KST",
-            "press": "데일리안",
-            "title": "소상공인 성장성 반영한 신용평가 도입…16개 은행서 2조2000억원 시범운영",
-            "sentiment_score": 0.61793,
-            "associated_companies": 5,
-            "company_names": [
-              "JB금융지주",
-              "iM금융지주",
-              "제주은행",
-              "카카오뱅크",
-              "케이뱅크"
-            ]
-          },
-          {
-            "news_id": "36aa1f9969613038473a4afc5b41707f",
-            "published_at": "2026-07-27 10:17 KST",
-            "press": "매일신문",
-            "title": "[여의도 단신]하나증권·신한투자증권·키움증권·유안타증권",
-            "sentiment_score": 0.5846,
-            "associated_companies": 3,
-            "company_names": [
-              "신한지주",
-              "키움증권",
-              "하나금융지주"
-            ]
-          },
-          {
-            "news_id": "74846cc7ffa82aa4a45256c231d200e7",
-            "published_at": "2026-07-27 10:17 KST",
-            "press": "머니투데이",
-            "title": "코웨이, 상반기 '코웨이갤러리' 10곳 추가…전국 체험매장 42곳",
-            "sentiment_score": 0.59793,
-            "associated_companies": 1,
-            "company_names": [
-              "코웨이"
-            ]
-          },
-          {
-            "news_id": "94ccd68efbb38e78e21d29c1340722a9",
-            "published_at": "2026-07-27 10:17 KST",
-            "press": "매일신문",
-            "title": "[여의도단신]한국투자증권·삼성자산운용·KB자산운용·한국투자신탁운용",
-            "sentiment_score": 0.55893,
-            "associated_companies": 5,
-            "company_names": [
-              "KB금융",
-              "NAVER",
-              "삼성생명",
-              "삼성전자",
-              "한국금융지주"
-            ]
-          },
-          {
-            "news_id": "1e4726680bd956d3d0e1240d124a6a06",
-            "published_at": "2026-07-27 10:16 KST",
-            "press": "SBS Biz",
-            "title": "두산에너빌리티, 中라이양 원전 5·6호기 핵심소재 공급",
-            "sentiment_score": 0.63293,
-            "associated_companies": 1,
-            "company_names": [
-              "두산에너빌리티"
-            ]
-          },
-          {
-            "news_id": "27bd8e49c8bdf6372d4e828dc66ec548",
-            "published_at": "2026-07-27 10:16 KST",
-            "press": "SBS Biz",
-            "title": "현대글로비스, 中수주 대거 확보…전기차 배터리·부품 다각도 운송",
-            "sentiment_score": 0.64918,
-            "associated_companies": 2,
-            "company_names": [
-              "현대글로비스",
-              "현대차"
-            ]
           }
         ],
         "hankyung": [
+          {
+            "news_id": "08e0d65ec15ae06e14b1fafb01f730b0",
+            "published_at": "2026-07-27 10:50 KST",
+            "press": "한국경제",
+            "title": "“제주를 한국판 애리조나로”…쏘카, 정부에 로보택시·로보버스 도시 제안",
+            "sentiment_score": 0.62543,
+            "associated_companies": 1,
+            "company_names": [
+              "쏘카"
+            ]
+          },
           {
             "news_id": "4463abdfa6220121dd6a7bfad9ada5ff",
             "published_at": "2026-07-27 10:39 KST",
@@ -1689,7 +1694,7 @@
             "news_id": "6917a26c205607cbcd605690409f9745",
             "published_at": "2026-07-27 07:52 KST",
             "press": "한국경제",
-            "title": "[속보] 네이버, 엔비디아에 1.48조 규모 3자배정 유상증자 결정",
+            "title": "[속보] 네이버, 엔비디아 대상 1.48조 규모 3자배정 유상증자 결정",
             "sentiment_score": 0.44793,
             "associated_companies": 1,
             "company_names": [
@@ -1735,15 +1740,15 @@
       }
     },
     "KOSDAQ": {
-      "score": 0.26432,
-      "text_pulse": 0.5599,
+      "score": 0.25381,
+      "text_pulse": 0.55851,
       "previous_final": -0.56353,
       "index": {
-        "price": 764.19,
+        "price": 762.6,
         "prev_close": 748.22,
-        "change": 15.97,
-        "change_pct": 2.13,
-        "as_of": "2026-07-27 10:47 KST",
+        "change": 14.38,
+        "change_pct": 1.92,
+        "as_of": "2026-07-27 10:52 KST",
         "live": true
       },
       "components": {
@@ -1753,17 +1758,17 @@
           "coverage": 0.1321
         },
         "news": {
-          "score": 0.65813,
-          "observations": 183,
-          "coverage": 0.6702
+          "score": 0.65362,
+          "observations": 184,
+          "coverage": 0.6723
         },
         "news_hankyung": {
-          "score": 1.32601,
-          "observations": 12,
-          "coverage": 0.9091
+          "score": 1.07098,
+          "observations": 13,
+          "coverage": 0.913
         },
         "market": {
-          "score": -0.28461,
+          "score": -0.31205,
           "confidence": 1.0,
           "observations": 1803,
           "coverage": 1.0
@@ -1771,6 +1776,39 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "d45f920525c26e7e930ead041e381962",
+            "published_at": "2026-07-27 10:47 KST",
+            "press": "한국경제",
+            "title": "코오롱티슈진 \"주주들에 사과…2차임상 분석 '외부 전문업체'에 맡길 것\"",
+            "sentiment_score": 0.34543,
+            "associated_companies": 1,
+            "company_names": [
+              "코오롱티슈진"
+            ]
+          },
+          {
+            "news_id": "5425dcdea56e4b51e1fddb152899fa75",
+            "published_at": "2026-07-27 10:46 KST",
+            "press": "YTN",
+            "title": "코스피 하락·코스닥지수 상승...네이버는 급등",
+            "sentiment_score": 0.44793,
+            "associated_companies": 1,
+            "company_names": [
+              "YTN"
+            ]
+          },
+          {
+            "news_id": "58fd8032e1b9deade07cb59dee2f9355",
+            "published_at": "2026-07-27 10:44 KST",
+            "press": "전자신문",
+            "title": "삼성 갤럭시Z8·워치 사전판매 돌입…내달 7일 정식 출시",
+            "sentiment_score": 0.50043,
+            "associated_companies": 1,
+            "company_names": [
+              "NEW"
+            ]
+          },
           {
             "news_id": "bb7785468f06fb378f1ed02f5a4d6d0d",
             "published_at": "2026-07-27 10:40 KST",
@@ -2869,42 +2907,20 @@
             "company_names": [
               "CJ ENM"
             ]
-          },
-          {
-            "news_id": "9828386e67f0fb151347521d6c17d254",
-            "published_at": "2026-07-27 09:31 KST",
-            "press": "머니투데이",
-            "title": "차바이오텍, 과기부 'AX 원스톱 바우처' 선정…\"세포치료제 상용화 가속\"",
-            "sentiment_score": 0.62543,
-            "associated_companies": 1,
-            "company_names": [
-              "차바이오텍"
-            ]
-          },
-          {
-            "news_id": "d60531d3eb0287b7cf0b0edac7ddcaf3",
-            "published_at": "2026-07-27 09:31 KST",
-            "press": "조선비즈",
-            "title": "[특징주] “삼성전자 폴더블폰에 소재 공급 중” 소식에…아이씨에이치, 上",
-            "sentiment_score": 0.64543,
-            "associated_companies": 1,
-            "company_names": [
-              "아이씨에이치"
-            ]
-          },
-          {
-            "news_id": "bb4fcb710dd8d4258f751060e19758c0",
-            "published_at": "2026-07-27 09:30 KST",
-            "press": "한국경제",
-            "title": "우진비앤지, 인도네시아서 이리도바이러스 백신 현지 임상 착수",
-            "sentiment_score": 0.64043,
-            "associated_companies": 1,
-            "company_names": [
-              "우진비앤지"
-            ]
           }
         ],
         "hankyung": [
+          {
+            "news_id": "d45f920525c26e7e930ead041e381962",
+            "published_at": "2026-07-27 10:47 KST",
+            "press": "한국경제",
+            "title": "코오롱티슈진 \"주주들에 사과…2차임상 분석 '외부 전문업체'에 맡길 것\"",
+            "sentiment_score": 0.34543,
+            "associated_companies": 1,
+            "company_names": [
+              "코오롱티슈진"
+            ]
+          },
           {
             "news_id": "895209bf51ba57ad94f5e79f58e2a20d",
             "published_at": "2026-07-27 10:29 KST",
@@ -3096,14 +3112,14 @@
       "observations": 18261
     },
     "news": {
-      "latest_event": "2026-07-27 10:44 KST",
-      "latest_seen": "2026-07-27 10:47 KST",
-      "active_minutes": 130,
-      "observations": 1443
+      "latest_event": "2026-07-27 10:50 KST",
+      "latest_seen": "2026-07-27 10:52 KST",
+      "active_minutes": 132,
+      "observations": 1464
     },
     "market": {
       "latest_event": "2026-07-27",
-      "latest_seen": "2026-07-27 10:47 KST",
+      "latest_seen": "2026-07-27 10:52 KST",
       "active_minutes": null,
       "intraday": true,
       "status_record_available": true
