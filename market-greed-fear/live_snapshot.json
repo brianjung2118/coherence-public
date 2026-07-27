@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-27 13:37 KST",
+  "as_of": "2026-07-27 13:42 KST",
   "event_date": "2026-07-27",
   "market_session": {
     "status": "trading",
@@ -8,15 +8,15 @@
   },
   "boards": {
     "KOSPI": {
-      "score": -0.11236,
-      "text_pulse": -0.06235,
+      "score": -0.07746,
+      "text_pulse": -0.06268,
       "previous_final": -1.66622,
       "index": {
-        "price": 6649.74,
+        "price": 6671.55,
         "prev_close": 6690.62,
-        "change": -40.88,
-        "change_pct": -0.61,
-        "as_of": "2026-07-27 13:37 KST",
+        "change": -19.07,
+        "change_pct": -0.29,
+        "as_of": "2026-07-27 13:42 KST",
         "live": true
       },
       "components": {
@@ -26,17 +26,17 @@
           "coverage": 0.1329
         },
         "news": {
-          "score": 0.25579,
-          "observations": 1237,
-          "coverage": 0.8218
+          "score": 0.25471,
+          "observations": 1244,
+          "coverage": 0.8219
         },
         "news_hankyung": {
-          "score": 0.00063,
-          "observations": 53,
-          "coverage": 0.8991
+          "score": 0.00718,
+          "observations": 55,
+          "coverage": 0.9009
         },
         "market": {
-          "score": -0.20523,
+          "score": -0.10491,
           "confidence": 1.0,
           "observations": 915,
           "coverage": 1.0
@@ -44,6 +44,98 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "c2949b70acc577f78676da57d9bcb870",
+            "published_at": "2026-07-27 13:41 KST",
+            "press": "한국경제",
+            "title": "돈 넣고 칩 팔고 지분까지…엔비디아의 ‘AI 금융술’",
+            "sentiment_score": 0.60793,
+            "associated_companies": 1,
+            "company_names": [
+              "NAVER"
+            ]
+          },
+          {
+            "news_id": "a7ec78d3266c3f2773a8c62976dd0bee",
+            "published_at": "2026-07-27 13:40 KST",
+            "press": "동행미디어 시대",
+            "title": "미래에셋증권 2분기 퇴직연금 적립금, 약 10조 증가…전체 21% 차지",
+            "sentiment_score": 0.60043,
+            "associated_companies": 1,
+            "company_names": [
+              "미래에셋증권"
+            ]
+          },
+          {
+            "news_id": "10baa78f0a7fb0f7b32637b9b8de6ee5",
+            "published_at": "2026-07-27 13:39 KST",
+            "press": "SBS Biz",
+            "title": "[시장 따라잡기] 미군, 방공 미사일 부족 보도…글로벌 방산주 영향은?",
+            "sentiment_score": 0.50127,
+            "associated_companies": 3,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자",
+              "하나금융지주"
+            ]
+          },
+          {
+            "news_id": "6ea942c8504db0d5530aec109be7b9fc",
+            "published_at": "2026-07-27 13:37 KST",
+            "press": "한국경제",
+            "title": "\"여벌옷 필수\"…에버랜드, 여름밤 물축제 '밤밤 썸머 나이트' 연다",
+            "sentiment_score": 0.56293,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성물산"
+            ]
+          },
+          {
+            "news_id": "435650572e68a733c3ce5ed5771dad13",
+            "published_at": "2026-07-27 13:35 KST",
+            "press": "데일리안",
+            "title": "\"금융권 유일\"…미래에셋증권, 2분기 퇴직연금 10조원 증가",
+            "sentiment_score": 0.62293,
+            "associated_companies": 1,
+            "company_names": [
+              "미래에셋증권"
+            ]
+          },
+          {
+            "news_id": "5bb0f80e7b03ee53c675540192e0c1f7",
+            "published_at": "2026-07-27 13:35 KST",
+            "press": "뉴스1",
+            "title": "푹푹 찌는 폭염…파세코·위닉스 냉방가전株 강세[핫종목]",
+            "sentiment_score": 0.63043,
+            "associated_companies": 1,
+            "company_names": [
+              "신일전자"
+            ]
+          },
+          {
+            "news_id": "cb2d9c1af33612e1961305a21c8771a0",
+            "published_at": "2026-07-27 13:35 KST",
+            "press": "블로터",
+            "title": "[네이버·엔비디아 빅딜 해부] ①14.6조 조달 셈법…'유상증자+PF'",
+            "sentiment_score": 0.56793,
+            "associated_companies": 1,
+            "company_names": [
+              "NAVER"
+            ]
+          },
+          {
+            "news_id": "be650a63e9e3cf3e1acc890aa14a6fda",
+            "published_at": "2026-07-27 13:34 KST",
+            "press": "아이뉴스24",
+            "title": "한화그룹, KAI 주식 추가 매입⋯지분율 15% 육박",
+            "sentiment_score": 0.5646,
+            "associated_companies": 3,
+            "company_names": [
+              "한국항공우주",
+              "한화시스템",
+              "한화에어로스페이스"
+            ]
+          },
           {
             "news_id": "babf4a4652bde6abb937f9772f6f5f0c",
             "published_at": "2026-07-27 13:32 KST",
@@ -1161,101 +1253,31 @@
               "삼양식품",
               "키움증권"
             ]
-          },
+          }
+        ],
+        "hankyung": [
           {
-            "news_id": "c5de2781c6641e34ac3ba40ef0af8653",
-            "published_at": "2026-07-27 11:32 KST",
-            "press": "헤럴드경제",
-            "title": "‘갤럭시 Z폴드8·플립8’ 사전 판매…7일 공식 출시",
-            "sentiment_score": 0.57543,
+            "news_id": "c2949b70acc577f78676da57d9bcb870",
+            "published_at": "2026-07-27 13:41 KST",
+            "press": "한국경제",
+            "title": "돈 넣고 칩 팔고 지분까지…엔비디아의 ‘AI 금융술’",
+            "sentiment_score": 0.60793,
             "associated_companies": 1,
             "company_names": [
-              "삼성전자"
+              "NAVER"
             ]
           },
           {
-            "news_id": "dea6fe0ddf6f90f52053a4d7028024b0",
-            "published_at": "2026-07-27 11:32 KST",
-            "press": "헤럴드경제",
-            "title": "LG CNS, 신소재 AI R&D 글로벌연합 창립 멤버",
-            "sentiment_score": 0.57543,
-            "associated_companies": 1,
-            "company_names": [
-              "LG씨엔에스"
-            ]
-          },
-          {
-            "news_id": "0afaeac99db81bc2266f58332ed8f85a",
-            "published_at": "2026-07-27 11:31 KST",
-            "press": "헤럴드경제",
-            "title": "삼성전자, 차세대 ‘롤러블폰’ 상용화 속도",
-            "sentiment_score": 0.59668,
-            "associated_companies": 2,
-            "company_names": [
-              "LG전자",
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "2df7dba31d04d4b4b30aa70190b50498",
-            "published_at": "2026-07-27 11:31 KST",
-            "press": "전자신문",
-            "title": "동화약품 '후시다인', 더마 사이언스 스킨웨어로 브랜드 재편",
-            "sentiment_score": 0.59043,
-            "associated_companies": 1,
-            "company_names": [
-              "동화약품"
-            ]
-          },
-          {
-            "news_id": "b3b19f0d0f43b418768148188cd4c00d",
-            "published_at": "2026-07-27 11:31 KST",
-            "press": "디지털데일리",
-            "title": "산업부, 완성차-부품사 연계 '생태계 협력 R&D' 첫 추진…3년간 240억 지원",
-            "sentiment_score": 0.63127,
-            "associated_companies": 3,
-            "company_names": [
-              "KG모빌리티",
-              "종근당홀딩스",
-              "현대차"
-            ]
-          },
-          {
-            "news_id": "b4ecc9d265335ab6259eb0197d5f05e1",
-            "published_at": "2026-07-27 11:31 KST",
-            "press": "헤럴드경제",
-            "title": "삼성SDS·앤트로픽, AI 시장공략 파트너십",
-            "sentiment_score": 0.63293,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성에스디에스"
-            ]
-          },
-          {
-            "news_id": "c331feae89622050dd310a9218cbc0c5",
-            "published_at": "2026-07-27 11:31 KST",
-            "press": "연합뉴스",
-            "title": "코스피, 장중 하락전환해 6,600대…삼전·닉스도 약세",
-            "sentiment_score": 0.38168,
-            "associated_companies": 2,
-            "company_names": [
-              "SK하이닉스",
-              "현대차증권"
-            ]
-          },
-          {
-            "news_id": "29bdeaca46d9d3577397430f80a85609",
-            "published_at": "2026-07-27 11:30 KST",
-            "press": "파이낸셜뉴스",
-            "title": "DK아시아 '검암역 로열파크씨티 푸르지오', 살기 좋은 아파트 선발대회 종합대상 선정",
-            "sentiment_score": 0.58293,
+            "news_id": "6ea942c8504db0d5530aec109be7b9fc",
+            "published_at": "2026-07-27 13:37 KST",
+            "press": "한국경제",
+            "title": "\"여벌옷 필수\"…에버랜드, 여름밤 물축제 '밤밤 썸머 나이트' 연다",
+            "sentiment_score": 0.56293,
             "associated_companies": 1,
             "company_names": [
               "삼성물산"
             ]
-          }
-        ],
-        "hankyung": [
+          },
           {
             "news_id": "89ce20e03e072207bb529c465c8061bf",
             "published_at": "2026-07-27 12:34 KST",
@@ -1851,15 +1873,15 @@
       }
     },
     "KOSDAQ": {
-      "score": 0.44467,
-      "text_pulse": 0.36151,
+      "score": 0.46477,
+      "text_pulse": 0.36494,
       "previous_final": -0.56353,
       "index": {
-        "price": 761.18,
+        "price": 762.5,
         "prev_close": 748.22,
-        "change": 12.96,
-        "change_pct": 1.73,
-        "as_of": "2026-07-27 13:37 KST",
+        "change": 14.28,
+        "change_pct": 1.91,
+        "as_of": "2026-07-27 13:42 KST",
         "live": true
       },
       "components": {
@@ -1869,9 +1891,9 @@
           "coverage": 0.1262
         },
         "news": {
-          "score": 0.67,
-          "observations": 239,
-          "coverage": 0.6902
+          "score": 0.68116,
+          "observations": 240,
+          "coverage": 0.6916
         },
         "news_hankyung": {
           "score": 0.90157,
@@ -1879,7 +1901,7 @@
           "coverage": 0.9231
         },
         "market": {
-          "score": 0.5991,
+          "score": 0.65016,
           "confidence": 1.0,
           "observations": 1803,
           "coverage": 1.0
@@ -1887,6 +1909,19 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "5bb0f80e7b03ee53c675540192e0c1f7",
+            "published_at": "2026-07-27 13:35 KST",
+            "press": "뉴스1",
+            "title": "푹푹 찌는 폭염…파세코·위닉스 냉방가전株 강세[핫종목]",
+            "sentiment_score": 0.64043,
+            "associated_companies": 3,
+            "company_names": [
+              "엔바이오니아",
+              "위닉스",
+              "파세코"
+            ]
+          },
           {
             "news_id": "bd715cb05354fb26966d6d23fba89e4d",
             "published_at": "2026-07-27 13:27 KST",
@@ -3029,17 +3064,6 @@
             "company_names": [
               "원티드랩"
             ]
-          },
-          {
-            "news_id": "7b36159694ca122358d59ea24816f1c3",
-            "published_at": "2026-07-27 10:20 KST",
-            "press": "SBS Biz",
-            "title": "[하우머니] 머스크의 반도체 왕국, 175조 베팅의 수혜주",
-            "sentiment_score": 0.58793,
-            "associated_companies": 1,
-            "company_names": [
-              "HPSP"
-            ]
           }
         ],
         "hankyung": [
@@ -3278,14 +3302,14 @@
       "observations": 34792
     },
     "news": {
-      "latest_event": "2026-07-27 13:32 KST",
-      "latest_seen": "2026-07-27 13:33 KST",
-      "active_minutes": 194,
-      "observations": 1958
+      "latest_event": "2026-07-27 13:41 KST",
+      "latest_seen": "2026-07-27 13:42 KST",
+      "active_minutes": 197,
+      "observations": 1969
     },
     "market": {
       "latest_event": "2026-07-27",
-      "latest_seen": "2026-07-27 13:37 KST",
+      "latest_seen": "2026-07-27 13:42 KST",
       "active_minutes": null,
       "intraday": true,
       "status_record_available": true
