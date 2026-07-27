@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-27 11:25 KST",
+  "as_of": "2026-07-27 11:30 KST",
   "event_date": "2026-07-27",
   "market_session": {
     "status": "trading",
@@ -8,35 +8,35 @@
   },
   "boards": {
     "KOSPI": {
-      "score": -0.00368,
-      "text_pulse": 0.09251,
+      "score": -0.03555,
+      "text_pulse": 0.02521,
       "previous_final": -1.66622,
       "index": {
-        "price": 6627.24,
+        "price": 6632.15,
         "prev_close": 6690.62,
-        "change": -63.38,
-        "change_pct": -0.95,
-        "as_of": "2026-07-27 11:25 KST",
+        "change": -58.47,
+        "change_pct": -0.87,
+        "as_of": "2026-07-27 11:30 KST",
         "live": true
       },
       "components": {
         "discussion": {
-          "score": 0.03529,
-          "observations": 16264,
-          "coverage": 0.1373
+          "score": -0.062,
+          "observations": 18070,
+          "coverage": 0.1355
         },
         "news": {
-          "score": 0.22126,
-          "observations": 1094,
-          "coverage": 0.8315
+          "score": 0.22142,
+          "observations": 1095,
+          "coverage": 0.8316
         },
         "news_hankyung": {
-          "score": -0.32125,
-          "observations": 49,
-          "coverage": 0.91
+          "score": -0.25467,
+          "observations": 50,
+          "coverage": 0.9118
         },
         "market": {
-          "score": -0.18232,
+          "score": -0.14837,
           "confidence": 1.0,
           "observations": 915,
           "coverage": 1.0
@@ -44,6 +44,18 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "07142c9a686ed56b85ae2ae8d268bd78",
+            "published_at": "2026-07-27 11:29 KST",
+            "press": "한국경제",
+            "title": "얼굴이 화끈화끈…붙이자마자 피부 온도 '뚝' 떨어지는 패드",
+            "sentiment_score": 0.63543,
+            "associated_companies": 2,
+            "company_names": [
+              "신세계",
+              "신세계인터내셔날"
+            ]
+          },
           {
             "news_id": "95e9228ef0b6538115d95fc1e414e390",
             "published_at": "2026-07-27 11:22 KST",
@@ -1197,24 +1209,21 @@
             "company_names": [
               "현대차증권"
             ]
-          },
-          {
-            "news_id": "997b109d02c44649f863ef2c51b1461d",
-            "published_at": "2026-07-27 10:56 KST",
-            "press": "뉴시스",
-            "title": "'샌프란 깐부회동'에 AI 밸류체인 들썩…반도체株 다시 달릴까",
-            "sentiment_score": 0.63193,
-            "associated_companies": 5,
-            "company_names": [
-              "NAVER",
-              "SK텔레콤",
-              "SK하이닉스",
-              "삼성전자",
-              "현대차"
-            ]
           }
         ],
         "hankyung": [
+          {
+            "news_id": "07142c9a686ed56b85ae2ae8d268bd78",
+            "published_at": "2026-07-27 11:29 KST",
+            "press": "한국경제",
+            "title": "얼굴이 화끈화끈…붙이자마자 피부 온도 '뚝' 떨어지는 패드",
+            "sentiment_score": 0.63543,
+            "associated_companies": 2,
+            "company_names": [
+              "신세계",
+              "신세계인터내셔날"
+            ]
+          },
           {
             "news_id": "21bb12482957e1b5f41020bb58792e48",
             "published_at": "2026-07-27 11:07 KST",
@@ -1763,15 +1772,15 @@
       }
     },
     "KOSDAQ": {
-      "score": 0.50223,
-      "text_pulse": 0.40438,
+      "score": 0.53259,
+      "text_pulse": 0.4053,
       "previous_final": -0.56353,
       "index": {
-        "price": 762.57,
+        "price": 762.97,
         "prev_close": 748.22,
-        "change": 14.35,
-        "change_pct": 1.92,
-        "as_of": "2026-07-27 11:25 KST",
+        "change": 14.75,
+        "change_pct": 1.97,
+        "as_of": "2026-07-27 11:30 KST",
         "live": true
       },
       "components": {
@@ -1781,17 +1790,17 @@
           "coverage": 0.1289
         },
         "news": {
-          "score": 0.65477,
-          "observations": 224,
-          "coverage": 0.6989
+          "score": 0.65778,
+          "observations": 225,
+          "coverage": 0.6995
         },
         "news_hankyung": {
-          "score": 0.74276,
-          "observations": 14,
-          "coverage": 0.9167
+          "score": 0.91554,
+          "observations": 15,
+          "coverage": 0.92
         },
         "market": {
-          "score": 0.68396,
+          "score": 0.76897,
           "confidence": 1.0,
           "observations": 1803,
           "coverage": 1.0
@@ -1799,6 +1808,17 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "ddef0d2899c2fb46f226a7a79cdac743",
+            "published_at": "2026-07-27 11:26 KST",
+            "press": "한국경제",
+            "title": "후속작 홍수 뚫은 ‘붉은사막’…올해 신규 IP 스팀 매출 1위",
+            "sentiment_score": 0.62293,
+            "associated_companies": 1,
+            "company_names": [
+              "펄어비스"
+            ]
+          },
           {
             "news_id": "7ecd0f6b14c16f1a07d3e7cde411031a",
             "published_at": "2026-07-27 11:20 KST",
@@ -2918,21 +2938,20 @@
               "파세코",
               "현대무벡스"
             ]
-          },
-          {
-            "news_id": "fcb90f7bbae1282823396813490f0da2",
-            "published_at": "2026-07-27 10:02 KST",
-            "press": "데일리안",
-            "title": "계란도 집고 300㎏도 든다…케이엔알시스템, 산업용 '로봇손' 개발",
-            "sentiment_score": 0.64043,
-            "associated_companies": 2,
-            "company_names": [
-              "서진시스템",
-              "케이엔알시스템"
-            ]
           }
         ],
         "hankyung": [
+          {
+            "news_id": "ddef0d2899c2fb46f226a7a79cdac743",
+            "published_at": "2026-07-27 11:26 KST",
+            "press": "한국경제",
+            "title": "후속작 홍수 뚫은 ‘붉은사막’…올해 신규 IP 스팀 매출 1위",
+            "sentiment_score": 0.62293,
+            "associated_companies": 1,
+            "company_names": [
+              "펄어비스"
+            ]
+          },
           {
             "news_id": "21bb12482957e1b5f41020bb58792e48",
             "published_at": "2026-07-27 11:07 KST",
@@ -3140,20 +3159,20 @@
   },
   "sources": {
     "discussion": {
-      "latest_event": "2026-07-27 11:09 KST",
-      "latest_seen": "2026-07-27 11:25 KST",
+      "latest_event": "2026-07-27 11:10 KST",
+      "latest_seen": "2026-07-27 11:28 KST",
       "active_minutes": 135,
-      "observations": 23386
+      "observations": 25192
     },
     "news": {
-      "latest_event": "2026-07-27 11:22 KST",
-      "latest_seen": "2026-07-27 11:25 KST",
-      "active_minutes": 152,
-      "observations": 1690
+      "latest_event": "2026-07-27 11:29 KST",
+      "latest_seen": "2026-07-27 11:30 KST",
+      "active_minutes": 154,
+      "observations": 1693
     },
     "market": {
       "latest_event": "2026-07-27",
-      "latest_seen": "2026-07-27 11:25 KST",
+      "latest_seen": "2026-07-27 11:30 KST",
       "active_minutes": null,
       "intraday": true,
       "status_record_available": true
