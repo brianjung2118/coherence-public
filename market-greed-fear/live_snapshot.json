@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-27 19:26 KST",
+  "as_of": "2026-07-27 19:36 KST",
   "event_date": "2026-07-27",
   "market_session": {
     "status": "trading",
@@ -8,8 +8,8 @@
   },
   "boards": {
     "KOSPI": {
-      "score": 0.34404,
-      "text_pulse": 0.35895,
+      "score": 0.3462,
+      "text_pulse": 0.36227,
       "previous_final": -1.56599,
       "index": {
         "price": 6755.75,
@@ -21,19 +21,19 @@
       },
       "components": {
         "discussion": {
-          "score": 0.17607,
-          "observations": 36451,
-          "coverage": 0.1312
+          "score": 0.17669,
+          "observations": 36500,
+          "coverage": 0.1313
         },
         "news": {
-          "score": 0.77043,
-          "observations": 2181,
+          "score": 0.77983,
+          "observations": 2185,
           "coverage": 0.8261
         },
         "news_hankyung": {
-          "score": 1.63498,
-          "observations": 131,
-          "coverage": 0.8543
+          "score": 1.5772,
+          "observations": 132,
+          "coverage": 0.8555
         },
         "market": {
           "score": 0.31636,
@@ -44,6 +44,42 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "4f8abf889c0b5f1654bb3fadc398537a",
+            "published_at": "2026-07-27 19:30 KST",
+            "press": "한국경제",
+            "title": "\"1,200%상승\"vs\"기술력한계반영해야\"…노무라와 모닝스타의 극과극 CXMT 전망",
+            "sentiment_score": 0.58043,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "4d32feaec5d72be89755e370e0ddd85b",
+            "published_at": "2026-07-27 19:30 KST",
+            "press": "이데일리",
+            "title": "종근당, 고혈압 신약 'CKD-339' 국내 3상 승인",
+            "sentiment_score": 0.62793,
+            "associated_companies": 2,
+            "company_names": [
+              "종근당",
+              "종근당홀딩스"
+            ]
+          },
+          {
+            "news_id": "9954b09506ea89a5f7bc45adec1df0ed",
+            "published_at": "2026-07-27 19:28 KST",
+            "press": "국제신문",
+            "title": "AI가 바꾼 반도체 지형…국내 생산액 82% 수도권 몰렸다",
+            "sentiment_score": 0.60043,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
           {
             "news_id": "b6bae38632119dcd424a0f0b542ed8bc",
             "published_at": "2026-07-27 19:13 KST",
@@ -1182,44 +1218,21 @@
             "company_names": [
               "CJ"
             ]
-          },
+          }
+        ],
+        "hankyung": [
           {
-            "news_id": "453cd7a48456e6cf24a5de4b364bc441",
-            "published_at": "2026-07-27 18:04 KST",
-            "press": "서울경제",
-            "title": "IBK투자증권, 2분기 순익 166억…전년대비 27.7% 증가",
-            "sentiment_score": 0.52793,
-            "associated_companies": 1,
-            "company_names": [
-              "기업은행"
-            ]
-          },
-          {
-            "news_id": "78cdfd7908af36ac8206f91d39679336",
-            "published_at": "2026-07-27 18:04 KST",
-            "press": "아시아경제",
-            "title": "[클릭 e종목]\"현대모비스, 실적 받쳐주고 로봇 기대감도…목표가 상향\"",
-            "sentiment_score": 0.53918,
-            "associated_companies": 2,
-            "company_names": [
-              "교보증권",
-              "현대모비스"
-            ]
-          },
-          {
-            "news_id": "b683373bb3df7191fea3a34bd592d3f0",
-            "published_at": "2026-07-27 18:04 KST",
-            "press": "MBN",
-            "title": "이재용·최태원, 미국 찍고 이탈리아로⋯전 세계 테크 CEO 모임 참석",
-            "sentiment_score": 0.59043,
+            "news_id": "4f8abf889c0b5f1654bb3fadc398537a",
+            "published_at": "2026-07-27 19:30 KST",
+            "press": "한국경제",
+            "title": "\"1,200%상승\"vs\"기술력한계반영해야\"…노무라와 모닝스타의 극과극 CXMT 전망",
+            "sentiment_score": 0.58043,
             "associated_companies": 2,
             "company_names": [
               "SK하이닉스",
               "삼성전자"
             ]
-          }
-        ],
-        "hankyung": [
+          },
           {
             "news_id": "b6bae38632119dcd424a0f0b542ed8bc",
             "published_at": "2026-07-27 19:13 KST",
@@ -1540,7 +1553,7 @@
             "news_id": "f2432a3da28bc3cf1fb203e4c28ecafd",
             "published_at": "2026-07-27 17:42 KST",
             "press": "한국경제",
-            "title": "한국타이어, 렌터카 시장 뛰어든다…롯데렌탈·SK렌터카 인수 추진",
+            "title": "실탄 두둑한 한국타이어, 롯데렌탈·SK렌터카 인수 추진",
             "sentiment_score": 0.59877,
             "associated_companies": 3,
             "company_names": [
@@ -2379,17 +2392,6 @@
               "KG모빌리티",
               "케이카",
               "한화생명"
-            ]
-          },
-          {
-            "news_id": "5cfa5e4ef945af351592df7e71ca871e",
-            "published_at": "2026-07-27 08:10 KST",
-            "press": "한국경제",
-            "title": "[단독] 카카오 계열사 투자자들, 회수 통로 막혀 '울상'",
-            "sentiment_score": 0.27668,
-            "associated_companies": 1,
-            "company_names": [
-              "카카오"
             ]
           }
         ]
@@ -3934,15 +3936,15 @@
   "sources": {
     "discussion": {
       "latest_event": "2026-07-27 19:04 KST",
-      "latest_seen": "2026-07-27 19:26 KST",
-      "active_minutes": 354,
-      "observations": 52963
+      "latest_seen": "2026-07-27 19:30 KST",
+      "active_minutes": 358,
+      "observations": 53012
     },
     "news": {
-      "latest_event": "2026-07-27 19:19 KST",
-      "latest_seen": "2026-07-27 19:22 KST",
-      "active_minutes": 380,
-      "observations": 3533
+      "latest_event": "2026-07-27 19:32 KST",
+      "latest_seen": "2026-07-27 19:33 KST",
+      "active_minutes": 383,
+      "observations": 3546
     },
     "market": {
       "latest_event": "2026-07-27",
