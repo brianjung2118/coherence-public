@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-27 10:57 KST",
+  "as_of": "2026-07-27 11:02 KST",
   "event_date": "2026-07-27",
   "market_session": {
     "status": "trading",
@@ -8,27 +8,27 @@
   },
   "boards": {
     "KOSPI": {
-      "score": -0.38527,
-      "text_pulse": 0.24278,
+      "score": -0.45454,
+      "text_pulse": 0.12152,
       "previous_final": -1.66622,
       "index": {
-        "price": 6611.95,
+        "price": 6636.98,
         "prev_close": 6690.62,
-        "change": -78.67,
-        "change_pct": -1.18,
-        "as_of": "2026-07-27 10:57 KST",
+        "change": -53.64,
+        "change_pct": -0.8,
+        "as_of": "2026-07-27 11:02 KST",
         "live": true
       },
       "components": {
         "discussion": {
-          "score": 0.31976,
-          "observations": 13180,
-          "coverage": 0.1374
+          "score": 0.13008,
+          "observations": 14177,
+          "coverage": 0.1361
         },
         "news": {
-          "score": 0.06958,
-          "observations": 967,
-          "coverage": 0.8318
+          "score": 0.10226,
+          "observations": 974,
+          "coverage": 0.8294
         },
         "news_hankyung": {
           "score": -0.10001,
@@ -36,7 +36,7 @@
           "coverage": 0.9043
         },
         "market": {
-          "score": -1.55166,
+          "score": -1.52436,
           "confidence": 1.0,
           "observations": 915,
           "coverage": 1.0
@@ -44,6 +44,46 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "701028ea02b4d24f923b8c618cafdb7e",
+            "published_at": "2026-07-27 10:59 KST",
+            "press": "뉴스1",
+            "title": "韓 AI 투자 훈풍에 관련주 급등…오브젠 '上'·코난테크 28%↑[핫종목]",
+            "sentiment_score": 0.61127,
+            "associated_companies": 3,
+            "company_names": [
+              "NAVER",
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "997b109d02c44649f863ef2c51b1461d",
+            "published_at": "2026-07-27 10:56 KST",
+            "press": "뉴시스",
+            "title": "'샌프란 깐부회동'에 AI 밸류체인 들썩…반도체株 다시 달릴까",
+            "sentiment_score": 0.63193,
+            "associated_companies": 5,
+            "company_names": [
+              "NAVER",
+              "SK텔레콤",
+              "SK하이닉스",
+              "삼성전자",
+              "현대차"
+            ]
+          },
+          {
+            "news_id": "db874660b4253a3ae6726c633284707c",
+            "published_at": "2026-07-27 10:54 KST",
+            "press": "뉴시스",
+            "title": "'AI 서밋'에도 미끄러진 삼전닉스…오히려 기회?",
+            "sentiment_score": 0.51793,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
           {
             "news_id": "0732e73f6181236ddf4615feaaba0269",
             "published_at": "2026-07-27 10:52 KST",
@@ -816,6 +856,18 @@
             ]
           },
           {
+            "news_id": "365c902310d3fef8d998ba297cad16d4",
+            "published_at": "2026-07-27 10:32 KST",
+            "press": "EBN",
+            "title": "브라질 간 K뷰티 CEO들…중남미 전초기지 구축 나선다",
+            "sentiment_score": 0.61668,
+            "associated_companies": 2,
+            "company_names": [
+              "신세계",
+              "아모레퍼시픽홀딩스"
+            ]
+          },
+          {
             "news_id": "51c96ae9063aa0fdd130fc0c3cf17ddf",
             "published_at": "2026-07-27 10:32 KST",
             "press": "파이낸셜뉴스",
@@ -1030,6 +1082,17 @@
             ]
           },
           {
+            "news_id": "a6f6960274d8f2d4c3febe8c16895e35",
+            "published_at": "2026-07-27 10:28 KST",
+            "press": "EBN",
+            "title": "삼성전기, AI 서버 심장부 장악…MLCC 대형 수주 릴레이 '잭팟'",
+            "sentiment_score": 0.62543,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성전기"
+            ]
+          },
+          {
             "news_id": "4a27922af2bef57e7bbdf26be1fd7c6c",
             "published_at": "2026-07-27 10:28 KST",
             "press": "서울신문",
@@ -1165,65 +1228,6 @@
             "associated_companies": 1,
             "company_names": [
               "KB금융"
-            ]
-          },
-          {
-            "news_id": "23b76deec8c8f4fefd6477c63c198255",
-            "published_at": "2026-07-27 10:26 KST",
-            "press": "아시아경제",
-            "title": "한전, 글로벌 준법경영 최고 권위 'ICA 어워즈' 대상…국내 기업 최초",
-            "sentiment_score": 0.59543,
-            "associated_companies": 1,
-            "company_names": [
-              "한국전력"
-            ]
-          },
-          {
-            "news_id": "7052ec8700a6bfaf15e783be0f68dbd0",
-            "published_at": "2026-07-27 10:26 KST",
-            "press": "헤럴드경제",
-            "title": "SK하이닉스, 2분기 60조원대 영업이익 예상…상반기만 100조 번다",
-            "sentiment_score": 0.63293,
-            "associated_companies": 1,
-            "company_names": [
-              "SK하이닉스"
-            ]
-          },
-          {
-            "news_id": "728756c52be0045d7fc94c07516e2735",
-            "published_at": "2026-07-27 10:26 KST",
-            "press": "연합뉴스",
-            "title": "CJ대한통운·환경공단, AI 기반 '적정 포장' 검증 체계 구축 MOU",
-            "sentiment_score": 0.59793,
-            "associated_companies": 1,
-            "company_names": [
-              "CJ대한통운"
-            ]
-          },
-          {
-            "news_id": "84c8d8bb99c7b5b67bfcb0418122c115",
-            "published_at": "2026-07-27 10:26 KST",
-            "press": "파이낸셜뉴스",
-            "title": "한화그룹, KAI 지분 14.6% 확보… '한국판 스페이스X' 밸류체인 가시화",
-            "sentiment_score": 0.62168,
-            "associated_companies": 4,
-            "company_names": [
-              "한국항공우주",
-              "한화",
-              "한화시스템",
-              "한화에어로스페이스"
-            ]
-          },
-          {
-            "news_id": "9c55087c2cddc939abd4f8a2a88568a0",
-            "published_at": "2026-07-27 10:25 KST",
-            "press": "파이낸셜뉴스",
-            "title": "카카오페이손보, 갤럭시 휴대폰보험 보장기간 최대 5년으로 확대",
-            "sentiment_score": 0.59418,
-            "associated_companies": 2,
-            "company_names": [
-              "삼성전자",
-              "카카오페이"
             ]
           }
         ],
@@ -1740,27 +1744,27 @@
       }
     },
     "KOSDAQ": {
-      "score": 0.23877,
-      "text_pulse": 0.54845,
+      "score": 0.235,
+      "text_pulse": 0.51783,
       "previous_final": -0.56353,
       "index": {
-        "price": 761.09,
+        "price": 764.26,
         "prev_close": 748.22,
-        "change": 12.87,
-        "change_pct": 1.72,
-        "as_of": "2026-07-27 10:57 KST",
+        "change": 16.04,
+        "change_pct": 2.14,
+        "as_of": "2026-07-27 11:02 KST",
         "live": true
       },
       "components": {
         "discussion": {
-          "score": 0.51624,
-          "observations": 4889,
-          "coverage": 0.1321
+          "score": 0.44939,
+          "observations": 5442,
+          "coverage": 0.1314
         },
         "news": {
-          "score": 0.62093,
-          "observations": 200,
-          "coverage": 0.6862
+          "score": 0.67183,
+          "observations": 202,
+          "coverage": 0.6906
         },
         "news_hankyung": {
           "score": 1.07098,
@@ -1768,7 +1772,7 @@
           "coverage": 0.913
         },
         "market": {
-          "score": -0.33635,
+          "score": -0.29026,
           "confidence": 1.0,
           "observations": 1803,
           "coverage": 1.0
@@ -1776,6 +1780,21 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "701028ea02b4d24f923b8c618cafdb7e",
+            "published_at": "2026-07-27 10:59 KST",
+            "press": "뉴스1",
+            "title": "韓 AI 투자 훈풍에 관련주 급등…오브젠 '上'·코난테크 28%↑[핫종목]",
+            "sentiment_score": 0.63643,
+            "associated_companies": 5,
+            "company_names": [
+              "마키나락스",
+              "오브젠",
+              "이스트소프트",
+              "지니언스",
+              "코난테크놀로지"
+            ]
+          },
           {
             "news_id": "bfb81e7d10404acc53ac46b329fce6da",
             "published_at": "2026-07-27 10:51 KST",
@@ -2106,6 +2125,18 @@
             "associated_companies": 1,
             "company_names": [
               "바이오포트"
+            ]
+          },
+          {
+            "news_id": "92a32430ad1ec6c526230c35fdc8b3af",
+            "published_at": "2026-07-27 10:31 KST",
+            "press": "EBN",
+            "title": "HLB펩, 항이뇨호르몬 바소프레신 API 美 FDA 등록",
+            "sentiment_score": 0.61418,
+            "associated_companies": 2,
+            "company_names": [
+              "HLB",
+              "HLB펩"
             ]
           },
           {
@@ -2871,28 +2902,6 @@
             "company_names": [
               "오에스피"
             ]
-          },
-          {
-            "news_id": "1cdc108fb593302e376a7326b95dd657",
-            "published_at": "2026-07-27 09:45 KST",
-            "press": "뉴시스",
-            "title": "두산에너빌리티, 中 라이양 5·6호기 원전 핵심 소재 공급 계약",
-            "sentiment_score": 0.62543,
-            "associated_companies": 1,
-            "company_names": [
-              "캐프"
-            ]
-          },
-          {
-            "news_id": "9cd8f2ae9a13fac5a1ef71b1128d03d6",
-            "published_at": "2026-07-27 09:45 KST",
-            "press": "이데일리",
-            "title": "다날, 과기부 '예금토큰 기반 결제 인프라 확대 사업' 참여기관에 선정",
-            "sentiment_score": 0.62793,
-            "associated_companies": 1,
-            "company_names": [
-              "다날"
-            ]
           }
         ],
         "hankyung": [
@@ -3092,20 +3101,20 @@
   },
   "sources": {
     "discussion": {
-      "latest_event": "2026-07-27 10:22 KST",
-      "latest_seen": "2026-07-27 10:31 KST",
-      "active_minutes": 111,
-      "observations": 18261
+      "latest_event": "2026-07-27 11:02 KST",
+      "latest_seen": "2026-07-27 11:02 KST",
+      "active_minutes": 113,
+      "observations": 19872
     },
     "news": {
-      "latest_event": "2026-07-27 10:52 KST",
-      "latest_seen": "2026-07-27 10:56 KST",
-      "active_minutes": 135,
-      "observations": 1503
+      "latest_event": "2026-07-27 11:01 KST",
+      "latest_seen": "2026-07-27 11:02 KST",
+      "active_minutes": 137,
+      "observations": 1528
     },
     "market": {
       "latest_event": "2026-07-27",
-      "latest_seen": "2026-07-27 10:57 KST",
+      "latest_seen": "2026-07-27 11:02 KST",
       "active_minutes": null,
       "intraday": true,
       "status_record_available": true
