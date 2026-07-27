@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-27 13:47 KST",
+  "as_of": "2026-07-27 13:52 KST",
   "event_date": "2026-07-27",
   "market_session": {
     "status": "trading",
@@ -8,15 +8,15 @@
   },
   "boards": {
     "KOSPI": {
-      "score": -0.04456,
-      "text_pulse": -0.05828,
+      "score": -0.02996,
+      "text_pulse": -0.05961,
       "previous_final": -1.66622,
       "index": {
-        "price": 6684.49,
+        "price": 6698.13,
         "prev_close": 6690.62,
-        "change": -6.13,
-        "change_pct": -0.09,
-        "as_of": "2026-07-27 13:47 KST",
+        "change": 7.51,
+        "change_pct": 0.11,
+        "as_of": "2026-07-27 13:52 KST",
         "live": true
       },
       "components": {
@@ -26,9 +26,9 @@
           "coverage": 0.1329
         },
         "news": {
-          "score": 0.26902,
-          "observations": 1253,
-          "coverage": 0.822
+          "score": 0.26468,
+          "observations": 1257,
+          "coverage": 0.8189
         },
         "news_hankyung": {
           "score": 0.00718,
@@ -36,7 +36,7 @@
           "coverage": 0.9009
         },
         "market": {
-          "score": -0.01909,
+          "score": 0.02512,
           "confidence": 1.0,
           "observations": 915,
           "coverage": 1.0
@@ -44,6 +44,63 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "c3cb69c622e86ad32def6cd835e4b8de",
+            "published_at": "2026-07-27 13:49 KST",
+            "press": "머니투데이",
+            "title": "한국투자증권, '코인원' 앱에서 국내주식 거래...첫 협업 사례",
+            "sentiment_score": 0.56877,
+            "associated_companies": 3,
+            "company_names": [
+              "NAVER",
+              "삼성전자",
+              "한국금융지주"
+            ]
+          },
+          {
+            "news_id": "132a55b056b79199f2fc08b2963c76e5",
+            "published_at": "2026-07-27 13:46 KST",
+            "press": "뉴스1",
+            "title": "반도체 무너진 한 달…마진 좋은 정유, 변동성 버틴 금융만 살았다",
+            "sentiment_score": 0.47861,
+            "associated_companies": 11,
+            "company_names": [
+              "LG이노텍",
+              "S-Oil",
+              "SK스퀘어",
+              "SK하이닉스",
+              "기아",
+              "삼성전기",
+              "삼성전자",
+              "한미반도체",
+              "현대모비스",
+              "현대오토에버",
+              "현대차"
+            ]
+          },
+          {
+            "news_id": "276fe2eb1ae278be103e7b79378e51a9",
+            "published_at": "2026-07-27 13:45 KST",
+            "press": "헤럴드경제",
+            "title": "삼성카드, 2분기 영업익 2086억…전년비 4.1% ↑",
+            "sentiment_score": 0.54543,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성카드"
+            ]
+          },
+          {
+            "news_id": "cc0a7e099d6fd8d14a4bb4c5f46019cd",
+            "published_at": "2026-07-27 13:43 KST",
+            "press": "파이낸셜뉴스",
+            "title": "HJ중공업, KLPGA 골프단 창단...브랜드 마케팅 강화",
+            "sentiment_score": 0.60043,
+            "associated_companies": 2,
+            "company_names": [
+              "HJ중공업",
+              "한국토지신탁"
+            ]
+          },
           {
             "news_id": "4254aa036b57ae70fba8b9e05a47265f",
             "published_at": "2026-07-27 13:42 KST",
@@ -1196,55 +1253,6 @@
             "company_names": [
               "LG씨엔에스"
             ]
-          },
-          {
-            "news_id": "7fb6b16076179ee8da8fcb6f88e59aba",
-            "published_at": "2026-07-27 11:38 KST",
-            "press": "서울경제",
-            "title": "HJ중공업, KLPGA 골프단 창단…박지영·홍정민 등 소속",
-            "sentiment_score": 0.58668,
-            "associated_companies": 2,
-            "company_names": [
-              "HJ중공업",
-              "한국토지신탁"
-            ]
-          },
-          {
-            "news_id": "1bfe002c4da1b5b4fbc0a166b90ef4da",
-            "published_at": "2026-07-27 11:37 KST",
-            "press": "연합뉴스",
-            "title": "쏘카 \"제주를 자율주행 메카로…탄소 배출 감축·관광 활성화\"",
-            "sentiment_score": 0.62793,
-            "associated_companies": 1,
-            "company_names": [
-              "쏘카"
-            ]
-          },
-          {
-            "news_id": "4ee34b552182028858897469ba6a977e",
-            "published_at": "2026-07-27 11:37 KST",
-            "press": "SBS Biz",
-            "title": "이 시각 주요 뉴스",
-            "sentiment_score": 0.53043,
-            "associated_companies": 4,
-            "company_names": [
-              "NAVER",
-              "SK",
-              "SK하이닉스",
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "6159c9a323279abc213c34bad5b59370",
-            "published_at": "2026-07-27 11:36 KST",
-            "press": "아시아경제",
-            "title": "삼전닉스 뒤쫓는 中CXMT…공모가 472% 상회",
-            "sentiment_score": 0.62668,
-            "associated_companies": 2,
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ]
           }
         ],
         "hankyung": [
@@ -1865,15 +1873,15 @@
       }
     },
     "KOSDAQ": {
-      "score": 0.49097,
+      "score": 0.50349,
       "text_pulse": 0.36514,
       "previous_final": -0.56353,
       "index": {
-        "price": 763.58,
+        "price": 764.06,
         "prev_close": 748.22,
-        "change": 15.36,
-        "change_pct": 2.05,
-        "as_of": "2026-07-27 13:47 KST",
+        "change": 15.84,
+        "change_pct": 2.12,
+        "as_of": "2026-07-27 13:52 KST",
         "live": true
       },
       "components": {
@@ -1884,8 +1892,8 @@
         },
         "news": {
           "score": 0.68181,
-          "observations": 240,
-          "coverage": 0.6921
+          "observations": 241,
+          "coverage": 0.6925
         },
         "news_hankyung": {
           "score": 0.90157,
@@ -1893,7 +1901,7 @@
           "coverage": 0.9231
         },
         "market": {
-          "score": 0.72466,
+          "score": 0.76041,
           "confidence": 1.0,
           "observations": 1803,
           "coverage": 1.0
@@ -1901,6 +1909,17 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "cc0a7e099d6fd8d14a4bb4c5f46019cd",
+            "published_at": "2026-07-27 13:43 KST",
+            "press": "파이낸셜뉴스",
+            "title": "HJ중공업, KLPGA 골프단 창단...브랜드 마케팅 강화",
+            "sentiment_score": 0.57543,
+            "associated_companies": 1,
+            "company_names": [
+              "오로라"
+            ]
+          },
           {
             "news_id": "cfefca595d566d112631429a9fd628e0",
             "published_at": "2026-07-27 13:38 KST",
@@ -3044,18 +3063,6 @@
             "company_names": [
               "컴투스"
             ]
-          },
-          {
-            "news_id": "a1187e93e78c2bd67b665e1c50fbc76d",
-            "published_at": "2026-07-27 10:22 KST",
-            "press": "뉴시스",
-            "title": "씨젠 \"STI·HPV 동시감염 종합검사 필요성 제시\"",
-            "sentiment_score": 0.55168,
-            "associated_companies": 2,
-            "company_names": [
-              "씨젠",
-              "에스티아이"
-            ]
           }
         ],
         "hankyung": [
@@ -3294,14 +3301,14 @@
       "observations": 34792
     },
     "news": {
-      "latest_event": "2026-07-27 13:42 KST",
-      "latest_seen": "2026-07-27 13:46 KST",
-      "active_minutes": 200,
-      "observations": 1988
+      "latest_event": "2026-07-27 13:51 KST",
+      "latest_seen": "2026-07-27 13:52 KST",
+      "active_minutes": 202,
+      "observations": 2007
     },
     "market": {
       "latest_event": "2026-07-27",
-      "latest_seen": "2026-07-27 13:47 KST",
+      "latest_seen": "2026-07-27 13:52 KST",
       "active_minutes": null,
       "intraday": true,
       "status_record_available": true
