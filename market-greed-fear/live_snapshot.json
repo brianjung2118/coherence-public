@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-27 15:11 KST",
+  "as_of": "2026-07-27 15:21 KST",
   "event_date": "2026-07-27",
   "market_session": {
     "status": "trading",
@@ -8,27 +8,27 @@
   },
   "boards": {
     "KOSPI": {
-      "score": 0.12989,
-      "text_pulse": 0.0986,
+      "score": 0.19427,
+      "text_pulse": 0.14508,
       "previous_final": -1.56599,
       "index": {
-        "price": 6755.28,
+        "price": 6767.62,
         "prev_close": 6690.62,
-        "change": 64.66,
-        "change_pct": 0.97,
-        "as_of": "2026-07-27 15:11 KST",
+        "change": 77.0,
+        "change_pct": 1.15,
+        "as_of": "2026-07-27 15:21 KST",
         "live": true
       },
       "components": {
         "discussion": {
-          "score": -0.08768,
-          "observations": 28846,
+          "score": -0.07834,
+          "observations": 29070,
           "coverage": 0.1314
         },
         "news": {
-          "score": 0.51774,
-          "observations": 1477,
-          "coverage": 0.826
+          "score": 0.64778,
+          "observations": 1517,
+          "coverage": 0.8265
         },
         "news_hankyung": {
           "score": 0.44841,
@@ -36,7 +36,7 @@
           "coverage": 0.8889
         },
         "market": {
-          "score": 0.18801,
+          "score": 0.28563,
           "confidence": 1.0,
           "observations": 915,
           "coverage": 1.0
@@ -44,6 +44,361 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "b2acf40f8ad8cd5bfd078f434827e269",
+            "published_at": "2026-07-27 15:11 KST",
+            "press": "중앙일보",
+            "title": "‘D램 굴기’ CXMT, 화려한 데뷔…中 증시 1위 직행",
+            "sentiment_score": 0.62418,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "bb851fa341135d0784b733e063cd7cca",
+            "published_at": "2026-07-27 15:11 KST",
+            "press": "뉴스1",
+            "title": "코인원도 '투자 플랫폼' 승부수…한국투자증권 투자 후 첫 협업",
+            "sentiment_score": 0.60543,
+            "associated_companies": 1,
+            "company_names": [
+              "한국금융지주"
+            ]
+          },
+          {
+            "news_id": "dccbbf6e71f0d11eb0e2439421756daf",
+            "published_at": "2026-07-27 15:11 KST",
+            "press": "이데일리",
+            "title": "\"코스피처럼 될라\"…키옥시아 레버리지 ETF 상장 추진에 '경고'",
+            "sentiment_score": 0.27418,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "09f31b95f194ee36c6c75e10831ac6cf",
+            "published_at": "2026-07-27 15:10 KST",
+            "press": "뉴시스",
+            "title": "현대차그룹 청년 직무역량 강화 교육 프로그램 HINT 1기 합동 입교식",
+            "sentiment_score": 0.58793,
+            "associated_companies": 1,
+            "company_names": [
+              "현대차"
+            ]
+          },
+          {
+            "news_id": "39af929bea6b9891a886131d65a43602",
+            "published_at": "2026-07-27 15:10 KST",
+            "press": "파이낸셜뉴스",
+            "title": "'삼전·하닉에 도전' 中CXMT, 상장 첫날 시총 1위…코인 우회 투자까지 등장",
+            "sentiment_score": 0.61918,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "a0f4a4165b617e357c0da9b1bda71c57",
+            "published_at": "2026-07-27 15:10 KST",
+            "press": "뉴시스",
+            "title": "HD현대마린솔루션, 2Q 영업이익 976억…전년比 17.6%↑",
+            "sentiment_score": 0.64543,
+            "associated_companies": 1,
+            "company_names": [
+              "HD현대마린솔루션"
+            ]
+          },
+          {
+            "news_id": "c13500afe35d63067d65e0d5c6bd481b",
+            "published_at": "2026-07-27 15:10 KST",
+            "press": "파이낸셜뉴스",
+            "title": "동탄 묶자 옆 비규제지역 반사이익...'반세권+분상제' 공급 잇따라",
+            "sentiment_score": 0.61793,
+            "associated_companies": 4,
+            "company_names": [
+              "SK하이닉스",
+              "계룡건설",
+              "남광토건",
+              "현대건설"
+            ]
+          },
+          {
+            "news_id": "4b2db4be0d6837541f9dfea4e686fe90",
+            "published_at": "2026-07-27 15:09 KST",
+            "press": "연합뉴스",
+            "title": "HD현대마린솔루션 2분기 영업이익 976억원…작년 대비 17.6%↑",
+            "sentiment_score": 0.64543,
+            "associated_companies": 1,
+            "company_names": [
+              "HD현대마린솔루션"
+            ]
+          },
+          {
+            "news_id": "b6aab37d8f13ab3150b73e271297e472",
+            "published_at": "2026-07-27 15:09 KST",
+            "press": "SBS Biz",
+            "title": "LG이노텍 상반기 매출 첫 10조 돌파...\"반도체 기판 호조\"",
+            "sentiment_score": 0.61293,
+            "associated_companies": 1,
+            "company_names": [
+              "LG이노텍"
+            ]
+          },
+          {
+            "news_id": "6d66dd4eeea9b0a8a63195e253584bc5",
+            "published_at": "2026-07-27 15:08 KST",
+            "press": "뉴스1",
+            "title": "현대차그룹, 미래 모빌리티 인재 500명 육성 나선다",
+            "sentiment_score": 0.60543,
+            "associated_companies": 1,
+            "company_names": [
+              "현대차"
+            ]
+          },
+          {
+            "news_id": "d582a7be2d154653fe047774c8f7eb47",
+            "published_at": "2026-07-27 15:08 KST",
+            "press": "뉴스1",
+            "title": "현대차그룹, 청년 직무역량 강화 교육 프로그램 입교식",
+            "sentiment_score": 0.60043,
+            "associated_companies": 1,
+            "company_names": [
+              "현대차"
+            ]
+          },
+          {
+            "news_id": "f7b702f0ef507ee6b5a52b7907ea8065",
+            "published_at": "2026-07-27 15:08 KST",
+            "press": "뉴스1",
+            "title": "현대차그룹, 청년 미래 모빌리티 인재 육성 'HINT' 1기 출범",
+            "sentiment_score": 0.61043,
+            "associated_companies": 1,
+            "company_names": [
+              "현대차"
+            ]
+          },
+          {
+            "news_id": "44ee0869507c0253a388ad518f1f8203",
+            "published_at": "2026-07-27 15:07 KST",
+            "press": "뉴시스",
+            "title": "삼성전자 '원스톱 솔루션' 전략 통했다…브로드컴과 AI동맹, 앞으로가 더 중요한 까닭",
+            "sentiment_score": 0.62293,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "9ef017cb96e5cf658ea0d17c452d893b",
+            "published_at": "2026-07-27 15:07 KST",
+            "press": "헤럴드경제",
+            "title": "LG이노텍, 2분기 영업익 2458억원…전년동기比 2057% ↑",
+            "sentiment_score": 0.60543,
+            "associated_companies": 1,
+            "company_names": [
+              "LG이노텍"
+            ]
+          },
+          {
+            "news_id": "06c4fd904a860aa3beb71104761c729d",
+            "published_at": "2026-07-27 15:06 KST",
+            "press": "아시아경제",
+            "title": "동아쏘시오홀딩스, 2분기 영업익 390억…전년比 38%↑",
+            "sentiment_score": 0.61293,
+            "associated_companies": 1,
+            "company_names": [
+              "동아쏘시오홀딩스"
+            ]
+          },
+          {
+            "news_id": "c3e7f5da683c6a49405c04f6d222b6f2",
+            "published_at": "2026-07-27 15:06 KST",
+            "press": "데일리안",
+            "title": "현대차, 한·중앙아시아 정상회의에 제네시스 33대 띄운다",
+            "sentiment_score": 0.67543,
+            "associated_companies": 1,
+            "company_names": [
+              "현대차"
+            ]
+          },
+          {
+            "news_id": "f90996829bc8961426379f238a1a1f86",
+            "published_at": "2026-07-27 15:06 KST",
+            "press": "머니투데이",
+            "title": "LG이노텍, 영업익 전년比 20배 급등…상반기 매출 첫 10조 돌파",
+            "sentiment_score": 0.60543,
+            "associated_companies": 1,
+            "company_names": [
+              "LG이노텍"
+            ]
+          },
+          {
+            "news_id": "172e89fb258e8ec38af227d0177fe869",
+            "published_at": "2026-07-27 15:05 KST",
+            "press": "연합뉴스",
+            "title": "신한은행, 시니어 특화 'SOL메이트 정기예금' 특판",
+            "sentiment_score": 0.54543,
+            "associated_companies": 1,
+            "company_names": [
+              "신한지주"
+            ]
+          },
+          {
+            "news_id": "593b748a3ee65d899b703849cde16b21",
+            "published_at": "2026-07-27 15:05 KST",
+            "press": "전자신문",
+            "title": "동아쏘시오홀딩스, 2분기 매출 4124억원 달성",
+            "sentiment_score": 0.64543,
+            "associated_companies": 1,
+            "company_names": [
+              "동아쏘시오홀딩스"
+            ]
+          },
+          {
+            "news_id": "7b9bd69977a1d833c4b49d73f393a091",
+            "published_at": "2026-07-27 15:05 KST",
+            "press": "동행미디어 시대",
+            "title": "현대차그룹, 청년 직무교육 'HINT' 1기 출범",
+            "sentiment_score": 0.65043,
+            "associated_companies": 1,
+            "company_names": [
+              "현대차"
+            ]
+          },
+          {
+            "news_id": "8a856751f5a2d468fbad5cf9e6925a6c",
+            "published_at": "2026-07-27 15:05 KST",
+            "press": "동아일보",
+            "title": "中 CXMT 상하이 증시 데뷔…ICBC 제치고 시총 1위",
+            "sentiment_score": 0.61293,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "c9912d0ff09bebd717e355c484897bf5",
+            "published_at": "2026-07-27 15:05 KST",
+            "press": "아이뉴스24",
+            "title": "LG이노텍, 2분기 영업익 2458억원…상반기 매출 첫 10조 돌파",
+            "sentiment_score": 0.56293,
+            "associated_companies": 1,
+            "company_names": [
+              "LG이노텍"
+            ]
+          },
+          {
+            "news_id": "e7a88c731346b9a5667e1dd6c4cce836",
+            "published_at": "2026-07-27 15:05 KST",
+            "press": "헤럴드경제",
+            "title": "SKC, 2분기 적자폭 전년比 79% ↓…동박 판매 호조",
+            "sentiment_score": 0.60543,
+            "associated_companies": 1,
+            "company_names": [
+              "SKC"
+            ]
+          },
+          {
+            "news_id": "3842f42986608ff219a235eaf6e1b5b9",
+            "published_at": "2026-07-27 15:04 KST",
+            "press": "중앙일보",
+            "title": "“널뛰기 장세에서도 수익” 커버드콜로 피신…파킹형·고배당에도 자금 유입",
+            "sentiment_score": 0.57043,
+            "associated_companies": 1,
+            "company_names": [
+              "하나금융지주"
+            ]
+          },
+          {
+            "news_id": "68db14fa8567ca0c4bb94039b0cfcabf",
+            "published_at": "2026-07-27 15:04 KST",
+            "press": "머니투데이",
+            "title": "하나증권, 홍콩 푸투증권과 외국인통합계좌 거래 개시",
+            "sentiment_score": 0.61043,
+            "associated_companies": 1,
+            "company_names": [
+              "하나금융지주"
+            ]
+          },
+          {
+            "news_id": "7cc1f1632c284a43c1b3a5bc978d728b",
+            "published_at": "2026-07-27 15:04 KST",
+            "press": "노컷뉴스",
+            "title": "한화, KAI 지분 추가 매수해 '15%' 코앞",
+            "sentiment_score": 0.55356,
+            "associated_companies": 4,
+            "company_names": [
+              "한국항공우주",
+              "한화",
+              "한화시스템",
+              "한화에어로스페이스"
+            ]
+          },
+          {
+            "news_id": "e0a324af752f7cc9e4a9e87060559c0a",
+            "published_at": "2026-07-27 15:04 KST",
+            "press": "디지털데일리",
+            "title": "국산 장비사 수주잔고 폭발… 삼성⋅SK '용인 속도전'이 당긴 호황기",
+            "sentiment_score": 0.63377,
+            "associated_companies": 3,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자",
+              "종근당홀딩스"
+            ]
+          },
+          {
+            "news_id": "f77d73a0721169a2655e0d496482b9a4",
+            "published_at": "2026-07-27 15:04 KST",
+            "press": "디지털데일리",
+            "title": "LG이노텍, 2Q 영업익 2458억원… 전년 비교 2057% '어닝 서프라이즈'",
+            "sentiment_score": 0.57668,
+            "associated_companies": 2,
+            "company_names": [
+              "LG이노텍",
+              "종근당홀딩스"
+            ]
+          },
+          {
+            "news_id": "716b6aba24dea5f7e3d6492ab5db27aa",
+            "published_at": "2026-07-27 15:03 KST",
+            "press": "SBS",
+            "title": "[자막뉴스] 상장 직후 400% '폭풍 상승'…\"중국판 하이닉스\" 본토 '시총 1위' 등극",
+            "sentiment_score": 0.61668,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "bd4ebe1b556245babc2131c9b232479f",
+            "published_at": "2026-07-27 15:03 KST",
+            "press": "뉴시스",
+            "title": "신한은행, 'SOL메이트 정기예금' 특판…연 3.5% 금리",
+            "sentiment_score": 0.56543,
+            "associated_companies": 1,
+            "company_names": [
+              "신한지주"
+            ]
+          },
+          {
+            "news_id": "544a92684e7337c6e102d4d90cfedc2a",
+            "published_at": "2026-07-27 15:02 KST",
+            "press": "디지털데일리",
+            "title": "네이버-두나무 ‘빅딜’ 규제 부담 덜었다…12월 주식교환 ‘청신호’",
+            "sentiment_score": 0.61168,
+            "associated_companies": 2,
+            "company_names": [
+              "NAVER",
+              "종근당홀딩스"
+            ]
+          },
           {
             "news_id": "69789d37847791732f0564e6990b63da",
             "published_at": "2026-07-27 15:02 KST",
@@ -54,6 +409,17 @@
             "company_names": [
               "신한지주",
               "키움증권"
+            ]
+          },
+          {
+            "news_id": "9ac88804395e682191d31f903c6ea5cf",
+            "published_at": "2026-07-27 15:02 KST",
+            "press": "연합뉴스",
+            "title": "세아베스틸, 군산시 취약계층에 2억5천만원 성금 기탁",
+            "sentiment_score": 0.61043,
+            "associated_companies": 1,
+            "company_names": [
+              "세아베스틸지주"
             ]
           },
           {
@@ -173,6 +539,19 @@
             ]
           },
           {
+            "news_id": "a44094cf1951c41ac22e297fbf4969a3",
+            "published_at": "2026-07-27 14:55 KST",
+            "press": "EBN",
+            "title": "삼성·SK하이닉스, '800조' 호남 반도체 클러스터 잰걸음…현장 실사 본격화",
+            "sentiment_score": 0.59543,
+            "associated_companies": 3,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자",
+              "한국전력"
+            ]
+          },
+          {
             "news_id": "621f3e6bfb961947956574865672a06d",
             "published_at": "2026-07-27 14:55 KST",
             "press": "뉴스1",
@@ -200,6 +579,17 @@
             "press": "데일리안",
             "title": "[컨콜] 한화오션 \"필리조선소 MRIV 사업에 설계·생산 지원\"",
             "sentiment_score": 0.62293,
+            "associated_companies": 1,
+            "company_names": [
+              "한화오션"
+            ]
+          },
+          {
+            "news_id": "e81a762cb9eb7c38cae995ad216028b6",
+            "published_at": "2026-07-27 14:52 KST",
+            "press": "EBN",
+            "title": "[컨콜] 한화오션 \"加 잠수함 수주 실패, 기술력 입증한 과정...다음 시장 공략\"",
+            "sentiment_score": 0.61293,
             "associated_companies": 1,
             "company_names": [
               "한화오션"
@@ -497,6 +887,28 @@
             ]
           },
           {
+            "news_id": "ee977b3f4216d4a733d09cdc497c020e",
+            "published_at": "2026-07-27 14:44 KST",
+            "press": "EBN",
+            "title": "한화오션, 상선 호황 타고 '실적 레벨업'...2Q 영업익 7361억원",
+            "sentiment_score": 0.62793,
+            "associated_companies": 1,
+            "company_names": [
+              "한화오션"
+            ]
+          },
+          {
+            "news_id": "6c4297e6f0b869d53b935b0cf1215ebd",
+            "published_at": "2026-07-27 14:44 KST",
+            "press": "EBN",
+            "title": "\"한은 8월 또 금리 올린다\"…중동發 유가 급등에 채권시장 '긴장'",
+            "sentiment_score": 0.46543,
+            "associated_companies": 1,
+            "company_names": [
+              "신영증권"
+            ]
+          },
+          {
             "news_id": "2ecbd52b9ab6162cdee27f00562cf08b",
             "published_at": "2026-07-27 14:44 KST",
             "press": "전자신문",
@@ -541,6 +953,17 @@
             ]
           },
           {
+            "news_id": "3add52a25392f0e4079366e9a5b8bd67",
+            "published_at": "2026-07-27 14:43 KST",
+            "press": "EBN",
+            "title": "SKC, 2분기 영업손실 144억원…전년 比 적자폭 79% 축소",
+            "sentiment_score": 0.59043,
+            "associated_companies": 1,
+            "company_names": [
+              "SKC"
+            ]
+          },
+          {
             "news_id": "274405942765f45cf4b3f38b2f2698a5",
             "published_at": "2026-07-27 14:43 KST",
             "press": "블로터",
@@ -572,6 +995,19 @@
             "company_names": [
               "미래에셋증권",
               "종근당홀딩스"
+            ]
+          },
+          {
+            "news_id": "00f070cd44916e635a7a7173587b00bb",
+            "published_at": "2026-07-27 14:42 KST",
+            "press": "EBN",
+            "title": "[Gov & Now] 방미통위 \"갤Z8 사전예약 과장광고 주의\"",
+            "sentiment_score": 0.38793,
+            "associated_companies": 3,
+            "company_names": [
+              "SK텔레콤",
+              "삼성전자",
+              "한국자산신탁"
             ]
           },
           {
@@ -771,451 +1207,6 @@
             "company_names": [
               "카카오",
               "카카오뱅크"
-            ]
-          },
-          {
-            "news_id": "8cd580e6a8251929aeda70cf6a50f54f",
-            "published_at": "2026-07-27 14:39 KST",
-            "press": "뉴시스",
-            "title": "농심, 용기라면 출고가 인상",
-            "sentiment_score": 0.29231,
-            "associated_companies": 4,
-            "company_names": [
-              "CJ제일제당",
-              "농심",
-              "롯데칠성",
-              "오뚜기"
-            ]
-          },
-          {
-            "news_id": "907fb888dfa14f81a29b31ff5337559f",
-            "published_at": "2026-07-27 14:39 KST",
-            "press": "뉴시스",
-            "title": "식품업계 먹거리 릴레이 가격 인상",
-            "sentiment_score": 0.30231,
-            "associated_companies": 4,
-            "company_names": [
-              "CJ제일제당",
-              "농심",
-              "롯데칠성",
-              "오뚜기"
-            ]
-          },
-          {
-            "news_id": "ae8b8d03ff7a2a5bd8f95a1ac4a82a79",
-            "published_at": "2026-07-27 14:39 KST",
-            "press": "뉴시스",
-            "title": "식품업계 먹거리 릴레이 가격 인상",
-            "sentiment_score": 0.30231,
-            "associated_companies": 4,
-            "company_names": [
-              "CJ제일제당",
-              "농심",
-              "롯데칠성",
-              "오뚜기"
-            ]
-          },
-          {
-            "news_id": "b512160981e546aa6289bb6c79e931a0",
-            "published_at": "2026-07-27 14:39 KST",
-            "press": "뉴시스",
-            "title": "식품업계 줄줄이 가격 인상",
-            "sentiment_score": 0.28575,
-            "associated_companies": 4,
-            "company_names": [
-              "CJ제일제당",
-              "농심",
-              "롯데칠성",
-              "오뚜기"
-            ]
-          },
-          {
-            "news_id": "c26e7f02b39746d995135cdc643d5942",
-            "published_at": "2026-07-27 14:39 KST",
-            "press": "뉴시스",
-            "title": "식품업계 줄줄이 가격 인상",
-            "sentiment_score": 0.26981,
-            "associated_companies": 4,
-            "company_names": [
-              "CJ제일제당",
-              "농심",
-              "롯데칠성",
-              "오뚜기"
-            ]
-          },
-          {
-            "news_id": "cab20f94c076c8e46c844a56129c3914",
-            "published_at": "2026-07-27 14:39 KST",
-            "press": "더팩트",
-            "title": "기아, 하반기 엔지니어 채용 개시…\"신규 인재상 반영 선발\"",
-            "sentiment_score": 0.59043,
-            "associated_companies": 1,
-            "company_names": [
-              "기아"
-            ]
-          },
-          {
-            "news_id": "d3fbef472d003348a4608138c436add0",
-            "published_at": "2026-07-27 14:39 KST",
-            "press": "뉴시스",
-            "title": "'제조 원가 부담' 식품업계 줄줄이 가격 인상",
-            "sentiment_score": 0.27731,
-            "associated_companies": 4,
-            "company_names": [
-              "CJ제일제당",
-              "농심",
-              "롯데칠성",
-              "오뚜기"
-            ]
-          },
-          {
-            "news_id": "f189e544f4aab264f1247b2099e4d808",
-            "published_at": "2026-07-27 14:39 KST",
-            "press": "뉴시스",
-            "title": "식품업계 줄줄이 가격 인상",
-            "sentiment_score": 0.26856,
-            "associated_companies": 4,
-            "company_names": [
-              "CJ제일제당",
-              "농심",
-              "롯데칠성",
-              "오뚜기"
-            ]
-          },
-          {
-            "news_id": "29cbc6543051a08f73a931bc361fd7dd",
-            "published_at": "2026-07-27 14:38 KST",
-            "press": "뉴시스",
-            "title": "검색·쇼핑·라인·가상자산 다음은 'AI 팩토리'…이해진 또다른 승부수 통할까",
-            "sentiment_score": 0.58293,
-            "associated_companies": 1,
-            "company_names": [
-              "NAVER"
-            ]
-          },
-          {
-            "news_id": "64bc52bd1c64c32c472d58e18e5a5a9f",
-            "published_at": "2026-07-27 14:38 KST",
-            "press": "아시아경제",
-            "title": "2030도 안심 못 한다…지방간 20대 유병률 10년 새 1.5배",
-            "sentiment_score": 0.53543,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성화재"
-            ]
-          },
-          {
-            "news_id": "8c2a786919dc1cf048a4719c6dfcb8dd",
-            "published_at": "2026-07-27 14:38 KST",
-            "press": "파이낸셜뉴스",
-            "title": "한화오션 \"수상함, 미국 기회 있으면 자체 생산능력 활용\"[컨콜]",
-            "sentiment_score": 0.62293,
-            "associated_companies": 1,
-            "company_names": [
-              "한화오션"
-            ]
-          },
-          {
-            "news_id": "9ca3e58f05ad137ef100faf6951f384d",
-            "published_at": "2026-07-27 14:38 KST",
-            "press": "뉴시스",
-            "title": "HD건설기계, 중남미 매출 46% 쑥…브라질 거점 삼아 '공략 가속'",
-            "sentiment_score": 0.64543,
-            "associated_companies": 1,
-            "company_names": [
-              "HD건설기계"
-            ]
-          },
-          {
-            "news_id": "ee998f23b837b1d8bc4f9c509a25d173",
-            "published_at": "2026-07-27 14:36 KST",
-            "press": "한국경제",
-            "title": "HJ중공업, KLPGA 골프단 창단식 개최",
-            "sentiment_score": 0.59043,
-            "associated_companies": 2,
-            "company_names": [
-              "HJ중공업",
-              "한국토지신탁"
-            ]
-          },
-          {
-            "news_id": "11991d3c6fe0c53c7da2839d04e84fcf",
-            "published_at": "2026-07-27 14:36 KST",
-            "press": "뉴시스",
-            "title": "KAI, 사천 지역사회와 상생…\"소외아동 여름나기·출산용품 지원\"",
-            "sentiment_score": 0.58543,
-            "associated_companies": 1,
-            "company_names": [
-              "한국항공우주"
-            ]
-          },
-          {
-            "news_id": "206c935e975e253a01334739c9c21f16",
-            "published_at": "2026-07-27 14:36 KST",
-            "press": "이데일리",
-            "title": "[속보]LG이노텍, 2분기 영업익 2458억원…전년비 2057.3%↑",
-            "sentiment_score": 0.61043,
-            "associated_companies": 1,
-            "company_names": [
-              "LG이노텍"
-            ]
-          },
-          {
-            "news_id": "4ece3d46deeb5703d08f2a1b7c28fec6",
-            "published_at": "2026-07-27 14:36 KST",
-            "press": "디지털데일리",
-            "title": "개인정보위, 29일 KT 제재안 심의…과징금 규모 결정",
-            "sentiment_score": 0.26981,
-            "associated_companies": 2,
-            "company_names": [
-              "SK텔레콤",
-              "종근당홀딩스"
-            ]
-          },
-          {
-            "news_id": "684c70fd408897bfab044fd707356072",
-            "published_at": "2026-07-27 14:36 KST",
-            "press": "부산일보",
-            "title": "중국 비중 줄고 대만 ‘급부상’…AI가 바꾼 반도체 수출",
-            "sentiment_score": 0.58543,
-            "associated_companies": 2,
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "832670a7f0c3960be4513f57712ad672",
-            "published_at": "2026-07-27 14:36 KST",
-            "press": "데일리안",
-            "title": "LG이노텍, 2분기 영업익 2458억…전년比 2057% 급증",
-            "sentiment_score": 0.61043,
-            "associated_companies": 1,
-            "company_names": [
-              "LG이노텍"
-            ]
-          },
-          {
-            "news_id": "9a50dbced617760dfd3f7dbe536ea042",
-            "published_at": "2026-07-27 14:36 KST",
-            "press": "데일리안",
-            "title": "\"브라질 수출 3년 새 6배\"…K뷰티, 중남미 영토 확장 나선다",
-            "sentiment_score": 0.65043,
-            "associated_companies": 1,
-            "company_names": [
-              "아모레퍼시픽홀딩스"
-            ]
-          },
-          {
-            "news_id": "1be6dce72f69dcba1006cb0ac5baa21e",
-            "published_at": "2026-07-27 14:35 KST",
-            "press": "EBN",
-            "title": "LG이노텍, 상반기 매출 첫 10조 돌파…2분기 영업익 2458억원",
-            "sentiment_score": 0.63293,
-            "associated_companies": 1,
-            "company_names": [
-              "LG이노텍"
-            ]
-          },
-          {
-            "news_id": "36b8cfb36e1d46811acd3667264ff2c5",
-            "published_at": "2026-07-27 14:35 KST",
-            "press": "경기일보",
-            "title": "대한항공, 기내방송 목소리를 동화책에…재능기부 캠페인",
-            "sentiment_score": 0.57293,
-            "associated_companies": 1,
-            "company_names": [
-              "대한항공"
-            ]
-          },
-          {
-            "news_id": "4618c867d558fb20ea04f2b9177eb39d",
-            "published_at": "2026-07-27 14:35 KST",
-            "press": "머니투데이",
-            "title": "감성코퍼레이션 김호선 대표, 6억원 자사주 추가 매수 \"실적·성장성 자신감\"",
-            "sentiment_score": 0.50793,
-            "associated_companies": 1,
-            "company_names": [
-              "NAVER"
-            ]
-          },
-          {
-            "news_id": "8364a1ce1b81488160a5b4f27f041109",
-            "published_at": "2026-07-27 14:35 KST",
-            "press": "파이낸셜뉴스",
-            "title": "SKC 화학산업 회복에 2분기 실적 개선..영업손실 50% 감소",
-            "sentiment_score": 0.61543,
-            "associated_companies": 1,
-            "company_names": [
-              "SKC"
-            ]
-          },
-          {
-            "news_id": "d06ef23293a9169ded9ced512dbd8f92",
-            "published_at": "2026-07-27 14:35 KST",
-            "press": "이데일리",
-            "title": "한화오션 2분기 영업익 98% 급증…LNG선 등 고부가 수주 확대",
-            "sentiment_score": 0.62793,
-            "associated_companies": 1,
-            "company_names": [
-              "한화오션"
-            ]
-          },
-          {
-            "news_id": "41ea008b90b3d0b8e7aaab7c94987046",
-            "published_at": "2026-07-27 14:34 KST",
-            "press": "데일리안",
-            "title": "[컨콜] 한화오션 \"美 해군 관련 여러 사업 기회 논의 중\"",
-            "sentiment_score": 0.62043,
-            "associated_companies": 1,
-            "company_names": [
-              "한화오션"
-            ]
-          },
-          {
-            "news_id": "b1e68b49f891e60085321edb02b151ce",
-            "published_at": "2026-07-27 14:34 KST",
-            "press": "이데일리",
-            "title": "아모레퍼시픽홀딩스, 하이어와 맞손…\"뷰티·메디컬 강화\"",
-            "sentiment_score": 0.64043,
-            "associated_companies": 2,
-            "company_names": [
-              "아모레퍼시픽",
-              "아모레퍼시픽홀딩스"
-            ]
-          },
-          {
-            "news_id": "84a8a49462257e7b317f96facd88a811",
-            "published_at": "2026-07-27 14:33 KST",
-            "press": "뉴스1",
-            "title": "[속보] LG이노텍, 2Q 영업익 2458억…전년比 2057% ↑",
-            "sentiment_score": 0.59043,
-            "associated_companies": 1,
-            "company_names": [
-              "LG이노텍"
-            ]
-          },
-          {
-            "news_id": "aa942c5fb9de73ed497f413eab924420",
-            "published_at": "2026-07-27 14:33 KST",
-            "press": "이데일리",
-            "title": "노루페인트, 국산 항공기 실란트 앞세워 세계 시장 공략",
-            "sentiment_score": 0.64543,
-            "associated_companies": 1,
-            "company_names": [
-              "노루페인트"
-            ]
-          },
-          {
-            "news_id": "697533edf27e44961d062c6bc00a7e12",
-            "published_at": "2026-07-27 14:32 KST",
-            "press": "이데일리",
-            "title": "2명이 개발해 매출 1000억원···日 소규모 게임 잇단 흥행 주목",
-            "sentiment_score": 0.60543,
-            "associated_companies": 1,
-            "company_names": [
-              "크래프톤"
-            ]
-          },
-          {
-            "news_id": "715b0bb17673b2b03a939f8fbd721182",
-            "published_at": "2026-07-27 14:32 KST",
-            "press": "파이낸셜뉴스",
-            "title": "동양생명, 상반기 순익 919억원…전년比 11.6% 증가",
-            "sentiment_score": 0.62043,
-            "associated_companies": 1,
-            "company_names": [
-              "동양생명"
-            ]
-          },
-          {
-            "news_id": "75f9bb4d6cce37422e419ab77bd721cf",
-            "published_at": "2026-07-27 14:32 KST",
-            "press": "연합뉴스TV",
-            "title": "삼성카드, 상반기 당기순익 3,105억원…전년대비 7.5% 감소",
-            "sentiment_score": 0.37043,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성카드"
-            ]
-          },
-          {
-            "news_id": "8514015af56ea450b87b3118c5b30358",
-            "published_at": "2026-07-27 14:32 KST",
-            "press": "동행미디어 시대",
-            "title": "삼성카드, 상반기 순익 3105억…조달·일회성 비용에 7.5%↓",
-            "sentiment_score": 0.54293,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성카드"
-            ]
-          },
-          {
-            "news_id": "c1dc3758cad15d8ba0794c68e36818c1",
-            "published_at": "2026-07-27 14:32 KST",
-            "press": "디지털데일리",
-            "title": "삼성전자 \"HBM5서 GAA 2나노 적용, 전작 대비 동작 속도 50% 이상 높일 것\"",
-            "sentiment_score": 0.59918,
-            "associated_companies": 2,
-            "company_names": [
-              "삼성전자",
-              "종근당홀딩스"
-            ]
-          },
-          {
-            "news_id": "53baa8182f0a7101ad068bb6bf1e6568",
-            "published_at": "2026-07-27 14:31 KST",
-            "press": "파이낸셜뉴스",
-            "title": "한화오션 \"올해 말까지는 업스케일 예상\"[컨콜]",
-            "sentiment_score": 0.62793,
-            "associated_companies": 1,
-            "company_names": [
-              "한화오션"
-            ]
-          },
-          {
-            "news_id": "7986b6f3266f4d585ea0a2d488a4a1eb",
-            "published_at": "2026-07-27 14:31 KST",
-            "press": "YTN",
-            "title": "더위·장마도 '나 혼자 난다'...소형 가전 인기",
-            "sentiment_score": 0.59293,
-            "associated_companies": 1,
-            "company_names": [
-              "롯데하이마트"
-            ]
-          },
-          {
-            "news_id": "d4c277b7a34cb8d4fc8534015eabbceb",
-            "published_at": "2026-07-27 14:31 KST",
-            "press": "헤럴드경제",
-            "title": "LG이노텍, 2분기 영업익 2458억…전년비 2057.3% ↑",
-            "sentiment_score": 0.62543,
-            "associated_companies": 1,
-            "company_names": [
-              "LG이노텍"
-            ]
-          },
-          {
-            "news_id": "79172cd86ae9df0019527f10658ae99c",
-            "published_at": "2026-07-27 14:30 KST",
-            "press": "YTN",
-            "title": "'상승 출발' 코스피, CXMT발 변동성에 혼조세",
-            "sentiment_score": 0.53793,
-            "associated_companies": 2,
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "a2852ede027a74a2d65d1c95c3e81db5",
-            "published_at": "2026-07-27 14:30 KST",
-            "press": "이코노미스트",
-            "title": "신한투자증권, 美 블록체인 기업 '디지털에셋' 투자",
-            "sentiment_score": 0.60793,
-            "associated_companies": 1,
-            "company_names": [
-              "신한지주"
             ]
           }
         ],
@@ -1873,35 +1864,35 @@
       }
     },
     "KOSDAQ": {
-      "score": 0.51048,
-      "text_pulse": 0.4383,
+      "score": 0.59853,
+      "text_pulse": 0.44539,
       "previous_final": -0.56353,
       "index": {
-        "price": 761.74,
+        "price": 764.65,
         "prev_close": 748.22,
-        "change": 13.52,
-        "change_pct": 1.81,
-        "as_of": "2026-07-27 15:11 KST",
+        "change": 16.43,
+        "change_pct": 2.2,
+        "as_of": "2026-07-27 15:21 KST",
         "live": true
       },
       "components": {
         "discussion": {
-          "score": 0.23924,
-          "observations": 12176,
-          "coverage": 0.1237
+          "score": 0.23846,
+          "observations": 12217,
+          "coverage": 0.1238
         },
         "news": {
-          "score": 0.88618,
-          "observations": 282,
-          "coverage": 0.7077
+          "score": 0.91096,
+          "observations": 291,
+          "coverage": 0.7099
         },
         "news_hankyung": {
-          "score": 0.79525,
-          "observations": 18,
-          "coverage": 0.9355
+          "score": 0.72535,
+          "observations": 19,
+          "coverage": 0.9375
         },
         "market": {
-          "score": 0.64453,
+          "score": 0.88295,
           "confidence": 1.0,
           "observations": 1803,
           "coverage": 1.0
@@ -1909,6 +1900,118 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "620d29955b424d44af1fc046330b0d34",
+            "published_at": "2026-07-27 15:20 KST",
+            "press": "한국경제",
+            "title": "'호프' 손익분기점이 350만? 투자사 발표에 '논란'",
+            "sentiment_score": 0.41543,
+            "associated_companies": 1,
+            "company_names": [
+              "에피소드컴퍼니"
+            ]
+          },
+          {
+            "news_id": "ede54158a853462e632825ab28e0c25e",
+            "published_at": "2026-07-27 15:12 KST",
+            "press": "이데일리",
+            "title": "미스터블루, 데이즈엔터 합병 시너지 본격화",
+            "sentiment_score": 0.64043,
+            "associated_companies": 1,
+            "company_names": [
+              "미스터블루"
+            ]
+          },
+          {
+            "news_id": "bb851fa341135d0784b733e063cd7cca",
+            "published_at": "2026-07-27 15:11 KST",
+            "press": "뉴스1",
+            "title": "코인원도 '투자 플랫폼' 승부수…한국투자증권 투자 후 첫 협업",
+            "sentiment_score": 0.60793,
+            "associated_companies": 1,
+            "company_names": [
+              "컴투스홀딩스"
+            ]
+          },
+          {
+            "news_id": "d69f2ac1928a0082540f4c55a1f2800c",
+            "published_at": "2026-07-27 15:11 KST",
+            "press": "매일신문",
+            "title": "대동금속, 반도체·발전·선박용 고부가 부품 키운다",
+            "sentiment_score": 0.66043,
+            "associated_companies": 1,
+            "company_names": [
+              "대동금속"
+            ]
+          },
+          {
+            "news_id": "02fdadc620be4501d04e07597bff2902",
+            "published_at": "2026-07-27 15:09 KST",
+            "press": "이데일리",
+            "title": "SAMG엔터·SM엔터, K팝 애니메이션 공동 제작",
+            "sentiment_score": 0.57918,
+            "associated_companies": 2,
+            "company_names": [
+              "SAMG엔터",
+              "에스엠"
+            ]
+          },
+          {
+            "news_id": "858a3268576b5d766014a0b7c6af6677",
+            "published_at": "2026-07-27 15:08 KST",
+            "press": "부산일보",
+            "title": "‘3상 실패’ 코오롱티슈진, 주주에 사과…“질책 뼈아프게 새길 것”",
+            "sentiment_score": 0.26668,
+            "associated_companies": 1,
+            "company_names": [
+              "코오롱티슈진"
+            ]
+          },
+          {
+            "news_id": "37040fa24daecb3dfa35df764b8f73bb",
+            "published_at": "2026-07-27 15:07 KST",
+            "press": "블로터",
+            "title": "[K조선 공급망]태광, '이차전지·부동산 임대' 다각화 승부 적자 부메랑",
+            "sentiment_score": 0.41918,
+            "associated_companies": 2,
+            "company_names": [
+              "에이치와이티씨",
+              "태광"
+            ]
+          },
+          {
+            "news_id": "e0a324af752f7cc9e4a9e87060559c0a",
+            "published_at": "2026-07-27 15:04 KST",
+            "press": "디지털데일리",
+            "title": "국산 장비사 수주잔고 폭발… 삼성⋅SK '용인 속도전'이 당긴 호황기",
+            "sentiment_score": 0.66043,
+            "associated_companies": 1,
+            "company_names": [
+              "테스"
+            ]
+          },
+          {
+            "news_id": "e8e13c715a061297a9b4db259df59598",
+            "published_at": "2026-07-27 15:03 KST",
+            "press": "뉴시스",
+            "title": "유니테크노 \"올해 매출 1342억·영업익 81억 전망…성장 본격화\"",
+            "sentiment_score": 0.65543,
+            "associated_companies": 1,
+            "company_names": [
+              "유니테크노"
+            ]
+          },
+          {
+            "news_id": "da3902c579b5c861f35a46aaa3051c22",
+            "published_at": "2026-07-27 15:02 KST",
+            "press": "뉴시스",
+            "title": "김호선 감성코퍼레이션 대표, 자사주 6억 추가 매입",
+            "sentiment_score": 0.61543,
+            "associated_companies": 1,
+            "company_names": [
+              "감성코퍼레이션"
+            ]
+          },
           {
             "news_id": "c44f68f956c9fa5ba21b6525005bca49",
             "published_at": "2026-07-27 15:00 KST",
@@ -1986,6 +2089,17 @@
             "associated_companies": 1,
             "company_names": [
               "에스티팜"
+            ]
+          },
+          {
+            "news_id": "00f070cd44916e635a7a7173587b00bb",
+            "published_at": "2026-07-27 14:42 KST",
+            "press": "EBN",
+            "title": "[Gov & Now] 방미통위 \"갤Z8 사전예약 과장광고 주의\"",
+            "sentiment_score": 0.38543,
+            "associated_companies": 1,
+            "company_names": [
+              "한국정보통신"
             ]
           },
           {
@@ -2936,139 +3050,20 @@
             "company_names": [
               "펄어비스"
             ]
-          },
-          {
-            "news_id": "22cc74cb26b672bbf82fec3b4f726027",
-            "published_at": "2026-07-27 11:08 KST",
-            "press": "아시아경제",
-            "title": "\"헥토파이낸셜, 스테이블코인·AI 기반 글로벌 결제망…기업가치 상승\"",
-            "sentiment_score": 0.57543,
-            "associated_companies": 2,
-            "company_names": [
-              "LS증권",
-              "헥토파이낸셜"
-            ]
-          },
-          {
-            "news_id": "6d2fc08d2c5c9791c744676eb922b17a",
-            "published_at": "2026-07-27 11:08 KST",
-            "press": "스포츠서울",
-            "title": "두산에너빌리티, 中 라이양 원전 5∙6호기 핵심소재 공급 계약",
-            "sentiment_score": 0.62793,
-            "associated_companies": 1,
-            "company_names": [
-              "캐프"
-            ]
-          },
-          {
-            "news_id": "21bb12482957e1b5f41020bb58792e48",
-            "published_at": "2026-07-27 11:07 KST",
-            "press": "한국경제",
-            "title": "갤럭시Z8 사전예약 앞두고…방미통위 \"과장광고 주의\"",
-            "sentiment_score": 0.33293,
-            "associated_companies": 1,
-            "company_names": [
-              "한국정보통신"
-            ]
-          },
-          {
-            "news_id": "45b9a4ec133cebfeac5ae8a6cc15cdb4",
-            "published_at": "2026-07-27 11:06 KST",
-            "press": "연합뉴스",
-            "title": "[테크스냅] 노타, '솔라 오픈2' 경량화 모델 공개…GPU 8장→2장",
-            "sentiment_score": 0.6221,
-            "associated_companies": 3,
-            "company_names": [
-              "노타",
-              "이스트소프트",
-              "한국정보통신"
-            ]
-          },
-          {
-            "news_id": "4d3337ae1cc788d3fb08b10b2d68ef78",
-            "published_at": "2026-07-27 11:06 KST",
-            "press": "디지털데일리",
-            "title": "유진테크놀로지, 美 미시간주 랜싱 각형 LFP 라인에 노칭 프레스 공급",
-            "sentiment_score": 0.66043,
-            "associated_companies": 1,
-            "company_names": [
-              "유진테크놀로지"
-            ]
-          },
-          {
-            "news_id": "15b38ed9f12004daabdc7b1866e8e543",
-            "published_at": "2026-07-27 11:05 KST",
-            "press": "지디넷코리아",
-            "title": "고가 지원금+경품?...갤럭시Z8 시리즈 과장광고 주의하세요",
-            "sentiment_score": 0.34793,
-            "associated_companies": 1,
-            "company_names": [
-              "한국정보통신"
-            ]
-          },
-          {
-            "news_id": "fd50b8f527a138ec1177ff9af9484e74",
-            "published_at": "2026-07-27 11:05 KST",
-            "press": "SBS Biz",
-            "title": "방미통위 \"갤럭시Z8 사전예약, 허위·과장광고 주의\"",
-            "sentiment_score": 0.29293,
-            "associated_companies": 1,
-            "company_names": [
-              "한국정보통신"
-            ]
-          },
-          {
-            "news_id": "1a08a77ba9bb39a919fffbf390874b43",
-            "published_at": "2026-07-27 11:04 KST",
-            "press": "아시아경제",
-            "title": "일동제약, 눈 건강기능식품 '메가루테인' 신제품 2종 출시",
-            "sentiment_score": 0.58043,
-            "associated_companies": 1,
-            "company_names": [
-              "아스타"
-            ]
-          },
-          {
-            "news_id": "9fc5134917d33e32156b98c9f327ebd9",
-            "published_at": "2026-07-27 11:04 KST",
-            "press": "한국일보",
-            "title": "유진테크놀로지, 美 LFP·ESS 생산라인에 금형 노칭 프레스 공급",
-            "sentiment_score": 0.65543,
-            "associated_companies": 1,
-            "company_names": [
-              "유진테크놀로지"
-            ]
-          },
-          {
-            "news_id": "f1feb2351f6f50ef041477d593a27308",
-            "published_at": "2026-07-27 11:03 KST",
-            "press": "조선비즈",
-            "title": "다날, 과기부 ‘예금 토큰 기반 결제 인프라 확대 사업’ 선정",
-            "sentiment_score": 0.62043,
-            "associated_companies": 1,
-            "company_names": [
-              "다날"
-            ]
-          },
-          {
-            "news_id": "f12b32dfa0ff01480dcbc6374d987959",
-            "published_at": "2026-07-27 11:02 KST",
-            "press": "머니투데이",
-            "title": "코스피 외국인 매도에 6600 후퇴…실적·금리 관망세",
-            "sentiment_score": 0.43793,
-            "associated_companies": 7,
-            "company_names": [
-              "레인보우로보틱스",
-              "리가켐바이오",
-              "리노공업",
-              "알테오젠",
-              "에코프로",
-              "원익IPS",
-              "주성엔지니어링"
-            ]
           }
         ],
         "hankyung": [
+          {
+            "news_id": "620d29955b424d44af1fc046330b0d34",
+            "published_at": "2026-07-27 15:20 KST",
+            "press": "한국경제",
+            "title": "'호프' 손익분기점이 350만? 투자사 발표에 '논란'",
+            "sentiment_score": 0.41543,
+            "associated_companies": 1,
+            "company_names": [
+              "에피소드컴퍼니"
+            ]
+          },
           {
             "news_id": "ee998f23b837b1d8bc4f9c509a25d173",
             "published_at": "2026-07-27 14:36 KST",
@@ -3320,20 +3315,20 @@
   },
   "sources": {
     "discussion": {
-      "latest_event": "2026-07-27 15:06 KST",
-      "latest_seen": "2026-07-27 15:11 KST",
-      "active_minutes": 227,
-      "observations": 41938
+      "latest_event": "2026-07-27 15:07 KST",
+      "latest_seen": "2026-07-27 15:21 KST",
+      "active_minutes": 236,
+      "observations": 42203
     },
     "news": {
-      "latest_event": "2026-07-27 15:02 KST",
-      "latest_seen": "2026-07-27 15:03 KST",
-      "active_minutes": 241,
-      "observations": 2364
+      "latest_event": "2026-07-27 15:20 KST",
+      "latest_seen": "2026-07-27 15:21 KST",
+      "active_minutes": 246,
+      "observations": 2421
     },
     "market": {
       "latest_event": "2026-07-27",
-      "latest_seen": "2026-07-27 15:11 KST",
+      "latest_seen": "2026-07-27 15:21 KST",
       "active_minutes": null,
       "intraday": true,
       "status_record_available": true
