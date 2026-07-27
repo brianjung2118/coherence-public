@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-28 01:02 KST",
+  "as_of": "2026-07-28 01:12 KST",
   "event_date": "2026-07-28",
   "market_session": {
     "status": "unconfirmed",
@@ -9,7 +9,7 @@
   "boards": {
     "KOSPI": {
       "score": null,
-      "text_pulse": -1.70053,
+      "text_pulse": -1.21968,
       "previous_final": -0.53404,
       "index": {
         "price": 6755.75,
@@ -26,14 +26,14 @@
           "coverage": 0.1029
         },
         "news": {
-          "score": -2.30997,
-          "observations": 9,
-          "coverage": 1.0
+          "score": -0.74723,
+          "observations": 32,
+          "coverage": 0.8636
         },
         "news_hankyung": {
-          "score": -4.3845,
-          "observations": 1,
-          "coverage": 1.0
+          "score": -3.24709,
+          "observations": 2,
+          "coverage": 0.6
         },
         "market": {
           "score": null,
@@ -45,6 +45,64 @@
       "news_articles": {
         "all": [
           {
+            "news_id": "d38c209505732bee4e34892f38e65434",
+            "published_at": "2026-07-28 01:07 KST",
+            "press": "한국경제",
+            "title": "엔비디아의 오픈AI 지급보증에 다시 불거진 'AI순환금융'",
+            "sentiment_score": 0.41043,
+            "associated_companies": 2,
+            "company_names": [
+              "SK",
+              "가온전선"
+            ]
+          },
+          {
+            "news_id": "236d3cb57677d6bf4d68d15c2ec08f62",
+            "published_at": "2026-07-28 00:38 KST",
+            "press": "조선일보",
+            "title": "내연 기관, 전기 모터 보조… 가격 3750만원 파격",
+            "sentiment_score": 0.60793,
+            "associated_companies": 2,
+            "company_names": [
+              "기아",
+              "카카오"
+            ]
+          },
+          {
+            "news_id": "4833dbb748f055183ff9ed83cadbc98f",
+            "published_at": "2026-07-28 00:38 KST",
+            "press": "조선일보",
+            "title": "대형 디스플레이에 AI 비서… 전기차 같은 변화",
+            "sentiment_score": 0.61543,
+            "associated_companies": 1,
+            "company_names": [
+              "현대차"
+            ]
+          },
+          {
+            "news_id": "c9d38c880aa3bad387bab24ce46defd8",
+            "published_at": "2026-07-28 00:38 KST",
+            "press": "조선일보",
+            "title": "레이싱 ‘매력’은 변하지 않는다… 전기차 전환으로 달라질뿐",
+            "sentiment_score": 0.66043,
+            "associated_companies": 1,
+            "company_names": [
+              "현대차"
+            ]
+          },
+          {
+            "news_id": "3d994ec00015716efc60357d7e1643d3",
+            "published_at": "2026-07-28 00:35 KST",
+            "press": "조선일보",
+            "title": "AI 활용… 리니지 개발자도 혼자 만든 게임 공개",
+            "sentiment_score": 0.47293,
+            "associated_companies": 2,
+            "company_names": [
+              "NC",
+              "크래프톤"
+            ]
+          },
+          {
             "news_id": "10876ccd556aad6cdbc4cb9277b56e7a",
             "published_at": "2026-07-28 00:34 KST",
             "press": "조선일보",
@@ -54,6 +112,89 @@
             "company_names": [
               "SK",
               "두산"
+            ]
+          },
+          {
+            "news_id": "650c81b81dd79b70aeafc588dc8bf41c",
+            "published_at": "2026-07-28 00:34 KST",
+            "press": "조선일보",
+            "title": "LG전자 ‘액체 냉각 솔루션’, 엔비디아 인증 획득",
+            "sentiment_score": 0.60543,
+            "associated_companies": 1,
+            "company_names": [
+              "LG전자"
+            ]
+          },
+          {
+            "news_id": "c348ad3d1a69a71899d078870cf006fd",
+            "published_at": "2026-07-28 00:34 KST",
+            "press": "조선일보",
+            "title": "인도 공사장 누비는 K굴착기… 中日과 각축전",
+            "sentiment_score": 0.59668,
+            "associated_companies": 2,
+            "company_names": [
+              "HD건설기계",
+              "두산밥캣"
+            ]
+          },
+          {
+            "news_id": "5cd1635d25741861ad32a736b05021b4",
+            "published_at": "2026-07-28 00:33 KST",
+            "press": "동아일보",
+            "title": "LG전자 데이터센터 냉각 기술, 엔비디아서 품질 인증",
+            "sentiment_score": 0.60793,
+            "associated_companies": 1,
+            "company_names": [
+              "LG전자"
+            ]
+          },
+          {
+            "news_id": "60f113bb16d9df3f78d36fb7d2f58e95",
+            "published_at": "2026-07-28 00:33 KST",
+            "press": "동아일보",
+            "title": "더 얇은 디스플레이, 더 오래가는 배터리… “갤럭시 Z8 시리즈는 가장 진화한 폴더블”",
+            "sentiment_score": 0.61043,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "deab436d092c9fc5301bec62419c2044",
+            "published_at": "2026-07-28 00:33 KST",
+            "press": "동아일보",
+            "title": "SK이노 호주-HD현대오일뱅크 남미… 대체 원유 찾는 정유사",
+            "sentiment_score": 0.59918,
+            "associated_companies": 2,
+            "company_names": [
+              "HD현대",
+              "SK이노베이션"
+            ]
+          },
+          {
+            "news_id": "58f3937a549841ae3c65ca3ded9c23a3",
+            "published_at": "2026-07-28 00:32 KST",
+            "press": "동아일보",
+            "title": "폰 300만원 시대… “폰 보험 팝니다”",
+            "sentiment_score": 0.56343,
+            "associated_companies": 5,
+            "company_names": [
+              "KT",
+              "LG유플러스",
+              "SK텔레콤",
+              "삼성전자",
+              "카카오페이"
+            ]
+          },
+          {
+            "news_id": "671cc07193aea7f4f3c6f1eb03e8fd81",
+            "published_at": "2026-07-28 00:32 KST",
+            "press": "동아일보",
+            "title": "AI 기판 날개 단 LG이노텍, 상반기 매출 11조 첫 돌파",
+            "sentiment_score": 0.63793,
+            "associated_companies": 1,
+            "company_names": [
+              "LG이노텍"
             ]
           },
           {
@@ -69,6 +210,17 @@
             ]
           },
           {
+            "news_id": "c7deec72d45cae7c3762d194dadbb048",
+            "published_at": "2026-07-28 00:32 KST",
+            "press": "동아일보",
+            "title": "롯데웰푸드, 인도 초코파이 생산 33% 늘려",
+            "sentiment_score": 0.61293,
+            "associated_companies": 1,
+            "company_names": [
+              "롯데웰푸드"
+            ]
+          },
+          {
             "news_id": "df1d14e46ff1eebed0e4675c280b38a3",
             "published_at": "2026-07-28 00:31 KST",
             "press": "동아일보",
@@ -79,6 +231,39 @@
               "KB금융",
               "NAVER",
               "하나금융지주"
+            ]
+          },
+          {
+            "news_id": "b00f8fe2c013dbf75ac1371a7517004a",
+            "published_at": "2026-07-28 00:29 KST",
+            "press": "국민일보",
+            "title": "SK이노 E&S, 호주 초경질유 들여온다",
+            "sentiment_score": 0.63543,
+            "associated_companies": 1,
+            "company_names": [
+              "SK이노베이션"
+            ]
+          },
+          {
+            "news_id": "a4fee53fa51f77d3c0c4f3469a5cf0c4",
+            "published_at": "2026-07-28 00:27 KST",
+            "press": "국민일보",
+            "title": "KB금융, 1500억 유니콘 펀드 조성… 첨단산업 키운다",
+            "sentiment_score": 0.61543,
+            "associated_companies": 1,
+            "company_names": [
+              "KB금융"
+            ]
+          },
+          {
+            "news_id": "fa9359eb31d531ef043d36dc513eb316",
+            "published_at": "2026-07-28 00:25 KST",
+            "press": "국민일보",
+            "title": "LG전자의 ‘액체냉각 솔루션’, 국내 첫 엔비디아 인증 획득",
+            "sentiment_score": 0.62043,
+            "associated_companies": 1,
+            "company_names": [
+              "LG전자"
             ]
           },
           {
@@ -106,6 +291,43 @@
             ]
           },
           {
+            "news_id": "564d1fea7db5fd0f14747d5436ad98f2",
+            "published_at": "2026-07-28 00:16 KST",
+            "press": "국민일보",
+            "title": "AI 메모리 격차 더 벌리는 삼성전자… HBM5에 2나노 공정 적용",
+            "sentiment_score": 0.62043,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "acd277c800deffe0f5c61b5b835e8184",
+            "published_at": "2026-07-28 00:14 KST",
+            "press": "문화일보",
+            "title": "‘삼전·닉스 흔들까’…CXMT 상장하자마자 시총 1위, D램 치킨게임 긴장감",
+            "sentiment_score": 0.60543,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "e5273a74dbff7ef9249630c44f288631",
+            "published_at": "2026-07-28 00:09 KST",
+            "press": "국민일보",
+            "title": "AI 만나 폭발적 성장… 로봇 패권 전쟁 시작됐다",
+            "sentiment_score": 0.63168,
+            "associated_companies": 4,
+            "company_names": [
+              "LG",
+              "LG전자",
+              "삼성전자",
+              "현대차"
+            ]
+          },
+          {
             "news_id": "2777ed4e3f620bdd0a091d34672f2639",
             "published_at": "2026-07-28 00:02 KST",
             "press": "이데일리",
@@ -118,6 +340,28 @@
               "SK스퀘어",
               "SK텔레콤",
               "삼성전자"
+            ]
+          },
+          {
+            "news_id": "35766f28535f9400e7b1720cc1d6b912",
+            "published_at": "2026-07-28 00:02 KST",
+            "press": "중앙일보",
+            "title": "SK이노, 중동 의존도 낮추기…‘호주산 초경질유’ 들여온다",
+            "sentiment_score": 0.54543,
+            "associated_companies": 1,
+            "company_names": [
+              "SK이노베이션"
+            ]
+          },
+          {
+            "news_id": "60b507feab1707be8886a0460163143e",
+            "published_at": "2026-07-28 00:02 KST",
+            "press": "중앙일보",
+            "title": "[Biz & Now] LG이노텍 상반기 매출 첫 10조원 달성",
+            "sentiment_score": 0.58793,
+            "associated_companies": 1,
+            "company_names": [
+              "LG이노텍"
             ]
           },
           {
@@ -140,6 +384,17 @@
             "associated_companies": 1,
             "company_names": [
               "KB금융"
+            ]
+          },
+          {
+            "news_id": "e2c31044ba9df41690d068c1000b25ee",
+            "published_at": "2026-07-28 00:02 KST",
+            "press": "중앙일보",
+            "title": "[Biz & Now] 에쓰오일, 협력사 7곳에 휴게시설 지원",
+            "sentiment_score": 0.58543,
+            "associated_companies": 1,
+            "company_names": [
+              "S-Oil"
             ]
           },
           {
@@ -168,6 +423,18 @@
           }
         ],
         "hankyung": [
+          {
+            "news_id": "d38c209505732bee4e34892f38e65434",
+            "published_at": "2026-07-28 01:07 KST",
+            "press": "한국경제",
+            "title": "엔비디아의 오픈AI 지급보증에 다시 불거진 'AI순환금융'",
+            "sentiment_score": 0.41043,
+            "associated_companies": 2,
+            "company_names": [
+              "SK",
+              "가온전선"
+            ]
+          },
           {
             "news_id": "06a75200c967a6809da2ea98dcf1e618",
             "published_at": "2026-07-28 00:18 KST",
@@ -231,10 +498,10 @@
       "observations": 78
     },
     "news": {
-      "latest_event": "2026-07-28 00:47 KST",
-      "latest_seen": "2026-07-28 01:02 KST",
-      "active_minutes": 6,
-      "observations": 38
+      "latest_event": "2026-07-28 01:07 KST",
+      "latest_seen": "2026-07-28 01:08 KST",
+      "active_minutes": 8,
+      "observations": 48
     },
     "market": {
       "latest_event": null,
