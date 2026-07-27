@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-28 00:12 KST",
+  "as_of": "2026-07-28 00:22 KST",
   "event_date": "2026-07-28",
   "market_session": {
     "status": "unconfirmed",
@@ -9,7 +9,7 @@
   "boards": {
     "KOSPI": {
       "score": null,
-      "text_pulse": -1.8783,
+      "text_pulse": -1.92827,
       "previous_final": -0.53404,
       "index": {
         "price": 6755.75,
@@ -21,19 +21,19 @@
       },
       "components": {
         "discussion": {
-          "score": -1.59324,
-          "observations": 62,
-          "coverage": 0.0968
+          "score": -1.42966,
+          "observations": 68,
+          "coverage": 0.1029
         },
         "news": {
-          "score": -2.51968,
-          "observations": 2,
+          "score": -3.05012,
+          "observations": 3,
           "coverage": 1.0
         },
         "news_hankyung": {
-          "score": null,
-          "observations": 0,
-          "coverage": 0.0
+          "score": -4.3845,
+          "observations": 1,
+          "coverage": 1.0
         },
         "market": {
           "score": null,
@@ -44,6 +44,17 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "06a75200c967a6809da2ea98dcf1e618",
+            "published_at": "2026-07-28 00:18 KST",
+            "press": "한국경제",
+            "title": "美증시, 반도체주식 급락에 나스닥 하락 전환",
+            "sentiment_score": 0.35543,
+            "associated_companies": 1,
+            "company_names": [
+              "SK하이닉스"
+            ]
+          },
           {
             "news_id": "2777ed4e3f620bdd0a091d34672f2639",
             "published_at": "2026-07-28 00:02 KST",
@@ -84,7 +95,19 @@
             ]
           }
         ],
-        "hankyung": []
+        "hankyung": [
+          {
+            "news_id": "06a75200c967a6809da2ea98dcf1e618",
+            "published_at": "2026-07-28 00:18 KST",
+            "press": "한국경제",
+            "title": "美증시, 반도체주식 급락에 나스닥 하락 전환",
+            "sentiment_score": 0.35543,
+            "associated_companies": 1,
+            "company_names": [
+              "SK하이닉스"
+            ]
+          }
+        ]
       }
     },
     "KOSDAQ": {
@@ -130,16 +153,16 @@
   },
   "sources": {
     "discussion": {
-      "latest_event": "2026-07-28 00:04 KST",
-      "latest_seen": "2026-07-28 00:10 KST",
-      "active_minutes": 6,
-      "observations": 72
+      "latest_event": "2026-07-28 00:05 KST",
+      "latest_seen": "2026-07-28 00:20 KST",
+      "active_minutes": 8,
+      "observations": 78
     },
     "news": {
-      "latest_event": "2026-07-28 00:02 KST",
-      "latest_seen": "2026-07-28 00:07 KST",
-      "active_minutes": 3,
-      "observations": 5
+      "latest_event": "2026-07-28 00:18 KST",
+      "latest_seen": "2026-07-28 00:20 KST",
+      "active_minutes": 4,
+      "observations": 6
     },
     "market": {
       "latest_event": null,
