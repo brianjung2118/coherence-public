@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-28 07:38 KST",
+  "as_of": "2026-07-28 07:48 KST",
   "event_date": "2026-07-28",
   "market_session": {
     "status": "unconfirmed",
@@ -9,7 +9,7 @@
   "boards": {
     "KOSPI": {
       "score": null,
-      "text_pulse": -1.76265,
+      "text_pulse": -1.76375,
       "previous_final": -0.53404,
       "index": {
         "price": 6755.75,
@@ -26,14 +26,14 @@
           "coverage": 0.1291
         },
         "news": {
-          "score": -1.16726,
-          "observations": 146,
-          "coverage": 0.7333
+          "score": -1.17085,
+          "observations": 147,
+          "coverage": 0.7341
         },
         "news_hankyung": {
           "score": -2.67961,
-          "observations": 8,
-          "coverage": 0.3448
+          "observations": 9,
+          "coverage": 0.3667
         },
         "market": {
           "score": null,
@@ -44,6 +44,17 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "eb3d076852e89c161ee0b88cf15b81ec",
+            "published_at": "2026-07-28 07:39 KST",
+            "press": "한국경제",
+            "title": "트럼프 \"관세가 자동차 산업 살렸다\"…접전지 미시간서 성과 강조",
+            "sentiment_score": 0.59293,
+            "associated_companies": 1,
+            "company_names": [
+              "현대차"
+            ]
+          },
           {
             "news_id": "00fefe601742ba9218e640d77a164a01",
             "published_at": "2026-07-28 07:10 KST",
@@ -1200,20 +1211,20 @@
             "company_names": [
               "삼성전자"
             ]
-          },
-          {
-            "news_id": "8e179ecb73e7e41ca8101229c8558214",
-            "published_at": "2026-07-28 04:10 KST",
-            "press": "머니투데이",
-            "title": "진화한 티타늄, 주름 잡고 배터리 더 오래",
-            "sentiment_score": 0.61293,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성전자"
-            ]
           }
         ],
         "hankyung": [
+          {
+            "news_id": "eb3d076852e89c161ee0b88cf15b81ec",
+            "published_at": "2026-07-28 07:39 KST",
+            "press": "한국경제",
+            "title": "트럼프 \"관세가 자동차 산업 살렸다\"…접전지 미시간서 성과 강조",
+            "sentiment_score": 0.59293,
+            "associated_companies": 1,
+            "company_names": [
+              "현대차"
+            ]
+          },
           {
             "news_id": "00fefe601742ba9218e640d77a164a01",
             "published_at": "2026-07-28 07:10 KST",
@@ -1525,10 +1536,10 @@
       "observations": 3737
     },
     "news": {
-      "latest_event": "2026-07-28 07:20 KST",
-      "latest_seen": "2026-07-28 07:30 KST",
-      "active_minutes": 38,
-      "observations": 254
+      "latest_event": "2026-07-28 07:39 KST",
+      "latest_seen": "2026-07-28 07:45 KST",
+      "active_minutes": 40,
+      "observations": 257
     },
     "market": {
       "latest_event": null,
