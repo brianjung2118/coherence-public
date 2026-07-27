@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-27 13:42 KST",
+  "as_of": "2026-07-27 13:47 KST",
   "event_date": "2026-07-27",
   "market_session": {
     "status": "trading",
@@ -8,15 +8,15 @@
   },
   "boards": {
     "KOSPI": {
-      "score": -0.07746,
-      "text_pulse": -0.06268,
+      "score": -0.04456,
+      "text_pulse": -0.05828,
       "previous_final": -1.66622,
       "index": {
-        "price": 6671.55,
+        "price": 6684.49,
         "prev_close": 6690.62,
-        "change": -19.07,
-        "change_pct": -0.29,
-        "as_of": "2026-07-27 13:42 KST",
+        "change": -6.13,
+        "change_pct": -0.09,
+        "as_of": "2026-07-27 13:47 KST",
         "live": true
       },
       "components": {
@@ -26,9 +26,9 @@
           "coverage": 0.1329
         },
         "news": {
-          "score": 0.25471,
-          "observations": 1244,
-          "coverage": 0.8219
+          "score": 0.26902,
+          "observations": 1253,
+          "coverage": 0.822
         },
         "news_hankyung": {
           "score": 0.00718,
@@ -36,7 +36,7 @@
           "coverage": 0.9009
         },
         "market": {
-          "score": -0.10491,
+          "score": -0.01909,
           "confidence": 1.0,
           "observations": 915,
           "coverage": 1.0
@@ -45,14 +45,59 @@
       "news_articles": {
         "all": [
           {
+            "news_id": "4254aa036b57ae70fba8b9e05a47265f",
+            "published_at": "2026-07-27 13:42 KST",
+            "press": "SBS Biz",
+            "title": "삼성전자 \"HBM5에 2나노 공정 적용\"…속도 50% 향상 목표",
+            "sentiment_score": 0.61793,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성전자"
+            ]
+          },
+          {
             "news_id": "c2949b70acc577f78676da57d9bcb870",
             "published_at": "2026-07-27 13:41 KST",
             "press": "한국경제",
-            "title": "돈 넣고 칩 팔고 지분까지…엔비디아의 ‘AI 금융술’",
+            "title": "돈 넣고 칩 팔고 지분까지…엔비디아의 'AI 금융술'",
             "sentiment_score": 0.60793,
             "associated_companies": 1,
             "company_names": [
               "NAVER"
+            ]
+          },
+          {
+            "news_id": "1b79a532ff6529f25f961519e50069f0",
+            "published_at": "2026-07-27 13:41 KST",
+            "press": "SBS Biz",
+            "title": "[직설] 李대통령·빅테크 '깐부 회동'…AI 거품론·반도체 피크아웃 잠재울까?",
+            "sentiment_score": 0.56668,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "80e158d52f9ce08816073e27af57c421",
+            "published_at": "2026-07-27 13:41 KST",
+            "press": "매일신문",
+            "title": "대구백화점, 최대주주 변경·개발 기대감에 6%대 급등",
+            "sentiment_score": 0.63293,
+            "associated_companies": 1,
+            "company_names": [
+              "대구백화점"
+            ]
+          },
+          {
+            "news_id": "31442523b4614ed9f4756eebb522c322",
+            "published_at": "2026-07-27 13:40 KST",
+            "press": "JIBS",
+            "title": "얼굴 한번 등록하니 체크인 ‘쓱’… 제주항공 스마트패스 이용 8배 늘었다",
+            "sentiment_score": 0.61543,
+            "associated_companies": 1,
+            "company_names": [
+              "제주항공"
             ]
           },
           {
@@ -80,6 +125,17 @@
             ]
           },
           {
+            "news_id": "a7b7a005a8352fd5f4014cc129fc8997",
+            "published_at": "2026-07-27 13:38 KST",
+            "press": "조선비즈",
+            "title": "애플, 내년 6월 첫 스마트 안경 공개… 메타 추격 나선다",
+            "sentiment_score": 0.53793,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성전자"
+            ]
+          },
+          {
             "news_id": "6ea942c8504db0d5530aec109be7b9fc",
             "published_at": "2026-07-27 13:37 KST",
             "press": "한국경제",
@@ -88,6 +144,17 @@
             "associated_companies": 1,
             "company_names": [
               "삼성물산"
+            ]
+          },
+          {
+            "news_id": "cb2227d22a99a436d642b32dc5cc9cfb",
+            "published_at": "2026-07-27 13:36 KST",
+            "press": "헤럴드경제",
+            "title": "한국자산신탁, ‘작심’과 맞손…아파트 커뮤니티에 스터디카페 넣는다",
+            "sentiment_score": 0.63543,
+            "associated_companies": 1,
+            "company_names": [
+              "한국자산신탁"
             ]
           },
           {
@@ -121,6 +188,29 @@
             "associated_companies": 1,
             "company_names": [
               "NAVER"
+            ]
+          },
+          {
+            "news_id": "73787bdec7124a30e26ab4691b75e038",
+            "published_at": "2026-07-27 13:34 KST",
+            "press": "전자신문",
+            "title": "[ET특징주] 우리금융지주, 1500억원 규모 자사주 매입 · 소각 발표… 주가 8%↑",
+            "sentiment_score": 0.57918,
+            "associated_companies": 2,
+            "company_names": [
+              "미래에셋증권",
+              "우리금융지주"
+            ]
+          },
+          {
+            "news_id": "a9d2e9a46025066962f197a9681527f2",
+            "published_at": "2026-07-27 13:34 KST",
+            "press": "뉴시스",
+            "title": "삼성카드, 상반기 순이익 3105억원…전년비 7.5% 감소",
+            "sentiment_score": 0.40793,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성카드"
             ]
           },
           {
@@ -199,6 +289,17 @@
               "우리금융지주",
               "종근당홀딩스",
               "하나금융지주"
+            ]
+          },
+          {
+            "news_id": "219e9233debbd516c93a64f08bdf7257",
+            "published_at": "2026-07-27 13:19 KST",
+            "press": "EBN",
+            "title": "한화손해보험, 펨테크 스타트업 발굴·금융지원 추진",
+            "sentiment_score": 0.62793,
+            "associated_companies": 1,
+            "company_names": [
+              "한화손해보험"
             ]
           },
           {
@@ -1144,115 +1245,6 @@
               "SK하이닉스",
               "삼성전자"
             ]
-          },
-          {
-            "news_id": "1189c4d3aa8e98d0d532abb1944faa46",
-            "published_at": "2026-07-27 11:34 KST",
-            "press": "뉴스1",
-            "title": "\"갤럭시Z8 사전판매 과장광고 주의\"…방통위, 불완전판매 점검 당부",
-            "sentiment_score": 0.3671,
-            "associated_companies": 3,
-            "company_names": [
-              "SK텔레콤",
-              "삼성전자",
-              "한국자산신탁"
-            ]
-          },
-          {
-            "news_id": "2abf78f79c6717d5637105dac679ce32",
-            "published_at": "2026-07-27 11:34 KST",
-            "press": "데일리안",
-            "title": "'보안' 강조한 박윤영 첫 시험대…KT 과징금 2000억 갈까",
-            "sentiment_score": 0.39543,
-            "associated_companies": 2,
-            "company_names": [
-              "KT",
-              "SK텔레콤"
-            ]
-          },
-          {
-            "news_id": "c7a50e9898a3579c097f1e22048f94d9",
-            "published_at": "2026-07-27 11:34 KST",
-            "press": "더팩트",
-            "title": "'룰라 국빈 선물'로 오휘 줬는데…LG생건, 브라질 사절단엔 왜 빠졌나",
-            "sentiment_score": 0.53293,
-            "associated_companies": 2,
-            "company_names": [
-              "LG생활건강",
-              "아모레퍼시픽홀딩스"
-            ]
-          },
-          {
-            "news_id": "82d9eacd8a97f5f8e165376697781cc6",
-            "published_at": "2026-07-27 11:33 KST",
-            "press": "연합뉴스TV",
-            "title": "네이버·엔비디아 맞손…세종에 글로벌 'AI 팩토리' 짓는다 [뉴스더보기]",
-            "sentiment_score": 0.57793,
-            "associated_companies": 1,
-            "company_names": [
-              "NAVER"
-            ]
-          },
-          {
-            "news_id": "d3212b6853e3bed16d8eb46b128858c4",
-            "published_at": "2026-07-27 11:33 KST",
-            "press": "코메디닷컴",
-            "title": "원비-디, 중국 재도전…일양약품 176억 베팅, 승산 있는 이유",
-            "sentiment_score": 0.61043,
-            "associated_companies": 1,
-            "company_names": [
-              "일양약품"
-            ]
-          },
-          {
-            "news_id": "09967034047f8e6e327ac4347218c3ca",
-            "published_at": "2026-07-27 11:32 KST",
-            "press": "연합뉴스",
-            "title": "1조1천억 '새빛가속기' 첫 삽…반도체·신약 연구 새 전기(종합)",
-            "sentiment_score": 0.60043,
-            "associated_companies": 1,
-            "company_names": [
-              "POSCO홀딩스"
-            ]
-          },
-          {
-            "news_id": "41f789346ca1aa82acf7e4f53c2d5b7a",
-            "published_at": "2026-07-27 11:32 KST",
-            "press": "헤럴드경제",
-            "title": "LG헬로비전 ‘백조 에보스 스마트 씽크볼’ 출시",
-            "sentiment_score": 0.60793,
-            "associated_companies": 1,
-            "company_names": [
-              "LG헬로비전"
-            ]
-          },
-          {
-            "news_id": "b67ad32eb0d7f88916a2bc407c6a4921",
-            "published_at": "2026-07-27 11:32 KST",
-            "press": "동행미디어 시대",
-            "title": "연매출 1000억 인도 초코파이 키운다…롯데웰푸드, 4라인 가동",
-            "sentiment_score": 0.62293,
-            "associated_companies": 1,
-            "company_names": [
-              "롯데웰푸드"
-            ]
-          },
-          {
-            "news_id": "c1662b7a1c90ef192bafc77fa7f98524",
-            "published_at": "2026-07-27 11:32 KST",
-            "press": "서울경제",
-            "title": "SK하닉·삼전 담는 초고수…‘AI 서밋’ 기대감 속 반도체 베팅 [주식 초고수는 지금]",
-            "sentiment_score": 0.47579,
-            "associated_companies": 7,
-            "company_names": [
-              "SK텔레콤",
-              "SK하이닉스",
-              "미래에셋증권",
-              "삼성에스디에스",
-              "삼성전자",
-              "삼양식품",
-              "키움증권"
-            ]
           }
         ],
         "hankyung": [
@@ -1260,7 +1252,7 @@
             "news_id": "c2949b70acc577f78676da57d9bcb870",
             "published_at": "2026-07-27 13:41 KST",
             "press": "한국경제",
-            "title": "돈 넣고 칩 팔고 지분까지…엔비디아의 ‘AI 금융술’",
+            "title": "돈 넣고 칩 팔고 지분까지…엔비디아의 'AI 금융술'",
             "sentiment_score": 0.60793,
             "associated_companies": 1,
             "company_names": [
@@ -1873,15 +1865,15 @@
       }
     },
     "KOSDAQ": {
-      "score": 0.46477,
-      "text_pulse": 0.36494,
+      "score": 0.49097,
+      "text_pulse": 0.36514,
       "previous_final": -0.56353,
       "index": {
-        "price": 762.5,
+        "price": 763.58,
         "prev_close": 748.22,
-        "change": 14.28,
-        "change_pct": 1.91,
-        "as_of": "2026-07-27 13:42 KST",
+        "change": 15.36,
+        "change_pct": 2.05,
+        "as_of": "2026-07-27 13:47 KST",
         "live": true
       },
       "components": {
@@ -1891,9 +1883,9 @@
           "coverage": 0.1262
         },
         "news": {
-          "score": 0.68116,
+          "score": 0.68181,
           "observations": 240,
-          "coverage": 0.6916
+          "coverage": 0.6921
         },
         "news_hankyung": {
           "score": 0.90157,
@@ -1901,7 +1893,7 @@
           "coverage": 0.9231
         },
         "market": {
-          "score": 0.65016,
+          "score": 0.72466,
           "confidence": 1.0,
           "observations": 1803,
           "coverage": 1.0
@@ -1909,6 +1901,17 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "cfefca595d566d112631429a9fd628e0",
+            "published_at": "2026-07-27 13:38 KST",
+            "press": "조선비즈",
+            "title": "펄어비스, ‘붉은사막’ 올해 신규 IP 중 스팀 매출 1위",
+            "sentiment_score": 0.63043,
+            "associated_companies": 1,
+            "company_names": [
+              "펄어비스"
+            ]
+          },
           {
             "news_id": "5bb0f80e7b03ee53c675540192e0c1f7",
             "published_at": "2026-07-27 13:35 KST",
@@ -3053,17 +3056,6 @@
               "씨젠",
               "에스티아이"
             ]
-          },
-          {
-            "news_id": "0145f2486a197018ce9cb76a508cf698",
-            "published_at": "2026-07-27 10:21 KST",
-            "press": "서울경제",
-            "title": "원티드랩, ‘글로벌 리크루팅 카니발’ 열고 해외 채용 사업 확장",
-            "sentiment_score": 0.63793,
-            "associated_companies": 1,
-            "company_names": [
-              "원티드랩"
-            ]
           }
         ],
         "hankyung": [
@@ -3302,14 +3294,14 @@
       "observations": 34792
     },
     "news": {
-      "latest_event": "2026-07-27 13:41 KST",
-      "latest_seen": "2026-07-27 13:42 KST",
-      "active_minutes": 197,
-      "observations": 1969
+      "latest_event": "2026-07-27 13:42 KST",
+      "latest_seen": "2026-07-27 13:46 KST",
+      "active_minutes": 200,
+      "observations": 1988
     },
     "market": {
       "latest_event": "2026-07-27",
-      "latest_seen": "2026-07-27 13:42 KST",
+      "latest_seen": "2026-07-27 13:47 KST",
       "active_minutes": null,
       "intraday": true,
       "status_record_available": true
