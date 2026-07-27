@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-27 10:36 KST",
+  "as_of": "2026-07-27 10:41 KST",
   "event_date": "2026-07-27",
   "market_session": {
     "status": "trading",
@@ -8,15 +8,15 @@
   },
   "boards": {
     "KOSPI": {
-      "score": -0.37843,
-      "text_pulse": 0.23215,
+      "score": -0.36635,
+      "text_pulse": 0.23234,
       "previous_final": -1.66622,
       "index": {
-        "price": 6621.88,
+        "price": 6663.87,
         "prev_close": 6690.62,
-        "change": -68.74,
-        "change_pct": -1.03,
-        "as_of": "2026-07-27 10:36 KST",
+        "change": -26.75,
+        "change_pct": -0.4,
+        "as_of": "2026-07-27 10:41 KST",
         "live": true
       },
       "components": {
@@ -26,17 +26,17 @@
           "coverage": 0.1374
         },
         "news": {
-          "score": 0.03502,
-          "observations": 897,
-          "coverage": 0.8344
+          "score": 0.03565,
+          "observations": 898,
+          "coverage": 0.8345
         },
         "news_hankyung": {
-          "score": -0.14301,
-          "observations": 45,
-          "coverage": 0.9022
+          "score": -0.13515,
+          "observations": 46,
+          "coverage": 0.9032
         },
         "market": {
-          "score": -1.51235,
+          "score": -1.47821,
           "confidence": 1.0,
           "observations": 915,
           "coverage": 1.0
@@ -44,6 +44,17 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "4463abdfa6220121dd6a7bfad9ada5ff",
+            "published_at": "2026-07-27 10:39 KST",
+            "press": "한국경제",
+            "title": "엔비디아, 네이버에 1.5조 투자…네이버 3대 주주 오른다",
+            "sentiment_score": 0.60793,
+            "associated_companies": 1,
+            "company_names": [
+              "NAVER"
+            ]
+          },
           {
             "news_id": "66844592311dc67a7be5b1754d22fd37",
             "published_at": "2026-07-27 10:32 KST",
@@ -1226,22 +1237,20 @@
             "company_names": [
               "NAVER"
             ]
-          },
-          {
-            "news_id": "cdce50e0482984903a38a44304c4c1f8",
-            "published_at": "2026-07-27 10:12 KST",
-            "press": "서울경제",
-            "title": "크래프톤, 포닥 펠로십 도입…국내 IT 기업 첫 도전",
-            "sentiment_score": 0.5821,
-            "associated_companies": 3,
-            "company_names": [
-              "LG",
-              "NAVER",
-              "크래프톤"
-            ]
           }
         ],
         "hankyung": [
+          {
+            "news_id": "4463abdfa6220121dd6a7bfad9ada5ff",
+            "published_at": "2026-07-27 10:39 KST",
+            "press": "한국경제",
+            "title": "엔비디아, 네이버에 1.5조 투자…네이버 3대 주주 오른다",
+            "sentiment_score": 0.60793,
+            "associated_companies": 1,
+            "company_names": [
+              "NAVER"
+            ]
+          },
           {
             "news_id": "af8dcfc782cf4bd7bb5b479cbc31cb11",
             "published_at": "2026-07-27 10:26 KST",
@@ -1732,15 +1741,15 @@
       }
     },
     "KOSDAQ": {
-      "score": 0.2678,
+      "score": 0.28442,
       "text_pulse": 0.56542,
       "previous_final": -0.56353,
       "index": {
-        "price": 763.12,
+        "price": 767.65,
         "prev_close": 748.22,
-        "change": 14.9,
-        "change_pct": 1.99,
-        "as_of": "2026-07-27 10:36 KST",
+        "change": 19.43,
+        "change_pct": 2.6,
+        "as_of": "2026-07-27 10:41 KST",
         "live": true
       },
       "components": {
@@ -1760,7 +1769,7 @@
           "coverage": 0.9091
         },
         "market": {
-          "score": -0.28494,
+          "score": -0.23743,
           "confidence": 1.0,
           "observations": 1803,
           "coverage": 1.0
@@ -3105,14 +3114,14 @@
       "observations": 18261
     },
     "news": {
-      "latest_event": "2026-07-27 10:33 KST",
-      "latest_seen": "2026-07-27 10:34 KST",
-      "active_minutes": 124,
-      "observations": 1396
+      "latest_event": "2026-07-27 10:39 KST",
+      "latest_seen": "2026-07-27 10:40 KST",
+      "active_minutes": 126,
+      "observations": 1397
     },
     "market": {
       "latest_event": "2026-07-27",
-      "latest_seen": "2026-07-27 10:36 KST",
+      "latest_seen": "2026-07-27 10:41 KST",
       "active_minutes": null,
       "intraday": true,
       "status_record_available": true
