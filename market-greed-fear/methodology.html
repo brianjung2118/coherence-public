@@ -163,6 +163,34 @@
       background:linear-gradient(135deg,#f7faff,#f9fbfd); }
     .final-assembly h3 { margin-top:0; font-size:15px; }
     .final-assembly .calculation-steps { margin-bottom:4px; font-size:13px; }
+    .m-grid { display:grid; grid-template-columns:190px minmax(0,1fr); gap:18px; align-items:start; }
+    .m-toc { position:sticky; top:14px; display:flex; flex-direction:column; gap:4px;
+      padding:14px; background:#fff; border:1px solid var(--line); border-radius:13px; }
+    .m-toc b { font-size:12px; color:#5b6b82; margin-bottom:4px; }
+    .m-toc a { font-size:12px; color:#36537b; text-decoration:none; padding:4px 7px; border-radius:7px; }
+    .m-toc a:hover { background:#eef2f8; }
+    .m-section { margin-top:14px; scroll-margin-top:14px; }
+    .m-section > h2 { margin-top:0; }
+    .m-badge { font-size:10px; font-weight:800; color:#177b65; background:#e2f3ee;
+      padding:3px 8px; border-radius:999px; vertical-align:middle; }
+    .m-example { margin-top:10px; padding:13px 15px; border-radius:11px; background:#f4f7fb;
+      border:1px solid var(--line); font-size:13px; line-height:1.8; }
+    .m-example-fixed { background:#fdf3ef; }
+    .m-table { width:100%; border-collapse:collapse; margin-top:10px; font-size:12.5px; }
+    .m-table th, .m-table td { padding:8px 10px; border:1px solid var(--line); text-align:left; vertical-align:top; }
+    .m-table th { background:#f4f7fb; }
+    .m-note { margin-top:10px; color:var(--muted); font-size:12px; }
+    .m-faq details { margin-top:8px; padding:11px 14px; border:1px solid var(--line); border-radius:10px; background:#fbfcfe; }
+    .m-faq summary { cursor:pointer; font-weight:700; font-size:13px; }
+    .m-faq p { margin:8px 0 0; font-size:13px; color:#3d4c62; line-height:1.7; }
+    .pipeline { display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:6px 0 16px; }
+    .pipe-stage { padding:10px 13px; border-radius:10px; background:#eef2f8; border:1px solid var(--line);
+      font-size:12.5px; font-weight:750; line-height:1.5; }
+    .pipe-stage span { font-weight:500; color:var(--muted); font-size:11px; }
+    .pipe-mix { background:#e7f0e9; }
+    .pipe-out { background:#fdf0e3; }
+    .pipe-arrow { color:#8a97ab; font-size:12px; font-weight:700; }
+    @media (max-width: 900px) { .m-grid { grid-template-columns:1fr; } .m-toc { position:static; flex-direction:row; flex-wrap:wrap; } }
     .side-nav { display:flex; gap:8px; margin:14px 0 4px; position:sticky; top:8px; z-index:30; }
     .side-nav a { padding:7px 13px; border-radius:999px; background:#eef2f8; border:1px solid var(--line);
       color:#36537b; font-size:12px; font-weight:700; text-decoration:none; }
@@ -197,14 +225,39 @@
   </style>
 </head>
 <body>
-<main>
+<main class="m-main">
   <div class="eyebrow">KOREAN MARKET SENTIMENT · METHODOLOGY</div>
   <h1>탐욕·공포 지수 · 방법론</h1>
   <p class="subtitle">지수를 구성하는 세 요소와 계산 규칙, 중복 제거, 검증 결과를 설명합니다.</p>
   <nav class="side-nav" aria-label="페이지 이동"><a href="./">← 지수 페이지로 돌아가기</a></nav>
-  <section class="method">
-    <div class="panel">
-      <h2>어떻게 계산했나</h2>
+
+  <div class="m-grid">
+  <nav class="m-toc" aria-label="방법론 목차">
+    <b>목차</b>
+    <a href="#m-overview">1. 한눈에 보기</a>
+    <a href="#m-components">2. 세 구성요소</a>
+    <a href="#m-example">3. 오늘의 예시</a>
+    <a href="#m-combine">4. 하나로 합치기</a>
+    <a href="#m-quality">5. 데이터 품질·중복 제거</a>
+    <a href="#m-live">6. 실시간 vs 확정</a>
+    <a href="#m-validation">7. 검증한 것들</a>
+    <a href="#m-limits">8. 한계와 주의</a>
+    <a href="#m-faq">9. 자주 묻는 해석 질문</a>
+    <a href="#m-glossary">10. 용어</a>
+    <a href="#m-changelog">11. 변경 기록</a>
+  </nav>
+  <div class="m-content">
+    <section class="panel m-section" id="m-overview">
+      <h2>1. 한눈에 보기</h2>
+      <div class="pipeline" aria-label="계산 흐름">
+        <div class="pipe-stage">소셜 미디어 토론<br><span>당일 제목의 탐욕·공포 표현</span></div>
+        <div class="pipe-stage">뉴스<br><span>사건 단위 감성</span></div>
+        <div class="pipe-stage">시장<br><span>추세 · 시장 폭 · 변동성</span></div>
+        <div class="pipe-arrow">→ 각자 과거와 비교(z) →</div>
+        <div class="pipe-stage pipe-mix">45% · 20% · 35% 가중합</div>
+        <div class="pipe-arrow">→</div>
+        <div class="pipe-stage pipe-out">일일 GFI → EWMA → 판단</div>
+      </div>
       <div class="simple-overview">
         <h3>30초 만에 이해하기</h3>
         <p>이 지수는 복잡한 미래 예측기가 아닙니다. 매일 시장에서 보이는 세 가지 신호를 모아, 사람들이 평소보다 더 낙관적인지 더 불안한지를 한 줄로 보여줍니다.</p>
@@ -215,6 +268,7 @@
           <div class="overview-step"><b>4. 하나로 합치기</b>세 신호를 합쳐 오늘의 탐욕·공포 점수를 만듭니다.</div>
         </div>
       </div>
+      </div>
       <div class="notation-key" aria-label="수식 표기법">
         <b>수식 표기</b>
         <span>i = 기업</span>
@@ -224,6 +278,10 @@
         <span>n<sub>b,t</sub> = 관측 기업 수</span>
         <span class="notation-note">별표(*)는 아직 과거 분포와 비교하기 전의 집계값이며, “raw”라는 모호한 아래첨자를 사용하지 않습니다.</span>
       </div>
+      </div>
+    </section>
+    <section class="panel m-section" id="m-components">
+      <h2>2. 세 구성요소</h2>
       <div class="component-details">
         <article class="component">
           <h3>① 소셜 미디어 종목토론</h3>
@@ -237,7 +295,7 @@
             <li>오늘의 대화가 그동안의 평범한 날보다 얼마나 낙관적이거나 불안한지 비교합니다.</li>
           </ol>
           <p class="plain-example"><b>예:</b> 삼성전자뿐 아니라 여러 종목에서 기대하는 말이 평소보다 많다면 토론 점수는 올라갑니다.</p>
-          <details class="technical" open><summary>수식과 세부 기준 보기</summary>
+          <details class="technical"><summary>수식과 세부 기준 보기</summary>
             <div class="formula"><span class="formula-label">1. 기업별 감정 방향</span>e<sub>i,t</sub> = (G<sub>i,t</sub> − F<sub>i,t</sub>) / T<sub>i,t</sub></div>
             <div class="formula"><span class="formula-label">2. 게시물 수를 반영한 감정 압력</span>p<sub>i,t</sub> = e<sub>i,t</sub> × ln(1 + T<sub>i,t</sub>)</div>
             <div class="formula"><span class="formula-label">3. 시장 단위 집계값</span>D<sup>*</sup><sub>b,t</sub> = 0.70 × [Σ<sub>i∈O(b,t)</sub> MC<sub>i,t</sub>p<sub>i,t</sub> / MC<sub>b,t</sub>]<br>+ 0.30 × [Σ<sub>i∈O(b,t)</sub> sign(e<sub>i,t</sub>) / n<sub>b,t</sub>]</div>
@@ -266,7 +324,7 @@
             <li><b>6. 평소와 비교하기:</b> 오늘 결과가 과거의 보통 날보다 얼마나 긍정적이거나 부정적인지 z점수로 표시합니다.</li>
           </ol>
           <p class="plain-example"><b>예:</b> 실적 개선 같은 좋은 소식이 많은 기업에서 동시에 나오면 뉴스 점수는 올라갑니다.</p>
-          <details class="technical" open><summary>수식과 세부 기준 보기</summary>
+          <details class="technical"><summary>수식과 세부 기준 보기</summary>
             <div class="formula"><span class="formula-label">1. 기업별 뉴스 방향</span>q<sub>i,t</sub> = (Pos<sub>i,t</sub> − Neg<sub>i,t</sub>) / News<sub>i,t</sub></div>
             <div class="formula"><span class="formula-label">2. 뉴스 수를 반영한 서사 압력</span>u<sub>i,t</sub> = q<sub>i,t</sub> × ln(1 + News<sub>i,t</sub>)</div>
             <div class="formula"><span class="formula-label">3. 시장 단위 집계값</span>N<sup>*</sup><sub>b,t</sub> = 0.70 × [Σ<sub>i∈O(b,t)</sub> MC<sub>i,t</sub>u<sub>i,t</sub> / MC<sub>b,t</sub>]<br>+ 0.30 × [Σ<sub>i∈O(b,t)</sub> sign(q<sub>i,t</sub>) / n<sub>b,t</sub>]</div>
@@ -296,7 +354,7 @@
             <li>합친 값을 다시 과거 분포와 비교합니다. 세 z점수의 평균은 개별 z점수보다 흔들림이 작아서, 이 단계를 거치지 않으면 35% 비중이 실제로는 35%보다 작게 반영됩니다.</li>
           </ol>
           <p class="plain-example"><b>예:</b> 지수가 오르고, 많은 종목이 함께 상승하며, 큰 움직임도 주로 상승일에 나타나면 시장 점수는 탐욕 쪽으로 올라갑니다.</p>
-          <details class="technical" open><summary>수식과 세부 기준 보기</summary>
+          <details class="technical"><summary>수식과 세부 기준 보기</summary>
             <div class="formula"><span class="formula-label">1. 일별 시장 수익률</span>r<sub>b,t</sub> = P<sub>b,t</sub> / P<sub>b,t−1</sub> − 1</div>
             <div class="formula"><span class="formula-label">2. 20거래일 지수 추세</span>Trend<sup>(20)</sup><sub>b,t</sub> = P<sub>b,t</sub> / P<sub>b,t−20</sub> − 1</div>
             <div class="formula"><span class="formula-label">3. 하루의 시장 폭</span>Breadth<sup>(1)</sup><sub>b,t</sub> = (A<sub>b,t</sub> − D<sub>b,t</sub>) / (A<sub>b,t</sub> + D<sub>b,t</sub> + U<sub>b,t</sub>)</div>
@@ -317,6 +375,17 @@
           </details>
         </article>
       </div>
+      </div>
+    </section>
+    <section class="panel m-section" id="m-example">
+      <h2>3. 오늘의 예시 <span class="m-badge">자동 갱신</span></h2>
+      <p>가장 최근 확정일의 실제 수치로 계산 과정을 그대로 보여줍니다.</p>
+<div class="m-example"><b>코스피 · 2026-07-24 (가장 최근 확정일)</b><br>토론 -1.30 × 0.45 = -0.58 &nbsp;·&nbsp; 뉴스 -1.98 × 0.20 = -0.40 &nbsp;·&nbsp; 시장 -1.96 × 0.35 = -0.69<br>→ 일일 점수 <b>-1.67</b>, 20일 EWMA <b>-1.04</b> → 판단 <b>극단적 공포</b></div>
+<div class="m-example"><b>코스닥 · 2026-07-24 (가장 최근 확정일)</b><br>토론 -0.15 × 0.45 = -0.07 &nbsp;·&nbsp; 뉴스 -0.90 × 0.20 = -0.18 &nbsp;·&nbsp; 시장 -0.90 × 0.35 = -0.32<br>→ 일일 점수 <b>-0.56</b>, 20일 EWMA <b>-0.63</b> → 판단 <b>공포 우세</b></div>
+<div class="m-example m-example-fixed"><b>극단의 예 · 2026-07-13 코스피 (급락일, 고정 예시)</b><br>토론 -2.47 · 뉴스 -3.62 · 시장 -2.69 → 일일 점수 <b>-2.78</b>. 세 신호가 모두 같은 방향을 가리키면 점수가 이렇게 깊어집니다.</div>
+    </section>
+    <section class="panel m-section" id="m-combine">
+      <h2>4. 하나로 합치기</h2>
       <div class="final-assembly">
         <h3>④ 최종 점수 · 아주 쉬운 계산 순서</h3>
         <p>세 신호가 같은 방향을 가리키면 점수가 강하게 움직입니다. 서로 다른 방향이면 서로를 일부 상쇄합니다.</p>
@@ -328,20 +397,44 @@
           <li>마지막으로 오늘 점수가 평소 범위인지, 역사적으로 드문 수준인지 배경 영역과 비교합니다.</li>
         </ol>
         <p class="plain-example"><b>예:</b> 사람들의 말, 뉴스, 주가가 모두 매우 낙관적이면 최종 점수는 탐욕 쪽으로 크게 올라갑니다. 셋 중 하나만 낙관적이면 상승 폭은 작아집니다.</p>
-        <details class="technical" open><summary>수식과 세부 기준 보기</summary>
+        <details class="technical"><summary>수식과 세부 기준 보기</summary>
           <div class="formula"><span class="formula-label">일일 합산 점수</span>GFI<sup>daily</sup><sub>b,t</sub> = 0.45 × D<sub>b,t</sub> + 0.20 × N<sub>b,t</sub> + 0.35 × M<sub>b,t</sub></div>
           <div class="formula"><span class="formula-label">화면에서 선택하는 k일 EWMA · k ∈ {5, 10, 20}</span>α<sub>k</sub> = 2 / (k + 1)<br>w<sub>k,j</sub> = (1 − α<sub>k</sub>)<sup>j</sup><br>EWMA<sup>(k)</sup><sub>b,t</sub> = [Σ<sup>t−1</sup><sub>j=0</sub> w<sub>k,j</sub> × GFI<sup>daily</sup><sub>b,t−j</sub>] / [Σ<sup>t−1</sup><sub>j=0</sub> w<sub>k,j</sub>]</div>
           <div class="common-scale"><b>공통 표준화 기준:</b> H<sub>t</sub>(x)는 x<sub>t−756</sub>부터 x<sub>t−1</sub>까지, 즉 오늘을 제외한 과거 최대 756개 관측값입니다. 최소 252개가 있어야 계산합니다. D, N, M은 이 기준으로 표준화하지만, 합친 일일 GFI 자체는 다시 표준화하지 않습니다.<br><span class="formula">μ<sub>x,t</sub> = mean(H<sub>t</sub>(x)), &nbsp; σ<sub>x,t</sub> = stdev(H<sub>t</sub>(x))<br>Z<sub>t</sub>(x) = (x<sub>t</sub> − μ<sub>x,t</sub>) / σ<sub>x,t</sub></span><br><b>차트 배경:</b> 현재 선택한 일일 점수 또는 EWMA의 과거 평균과 표준편차를 별도로 계산합니다. 배경 밴드와 ‘현재 판단’ σ의 기준 기간은 페이지 상단에서 전체·5년·3년·1년 중 선택할 수 있으며 기본값은 3년입니다(구성요소 표준화는 항상 최대 756일 고정). 어느 기준이든 오늘을 제외한 과거 관측 252개 이상이 필요합니다.<br><span class="formula">Band<sup>(m)</sup><sub>x,t</sub> = μ<sub>x,t</sub> ± mσ<sub>x,t</sub>, &nbsp; m ∈ {1, 2}</span></div>
         </details>
       </div>
-      <div class="glossary" aria-label="쉬운 용어 설명">
-        <div><b>시가총액 = 회사의 크기</b><br>큰 회사가 시장 전체에 미치는 영향을 더 크게 보는 기준입니다.</div>
-        <div><b>z점수 = 오늘이 평소보다 얼마나 특별한지</b><br>0 근처면 평범하고, 숫자가 크게 벗어날수록 드문 날입니다.</div>
-        <div><b>EWMA = 들쭉날쭉한 일일 점수를 부드럽게 만든 흐름</b><br>최근 날짜를 더 중요하게 보면서 여러 날의 점수를 섞습니다.</div>
-        <div><b>변동성 = 주가가 얼마나 거칠게 움직이는지</b><br>짧은 기간에 크게 오르내릴수록 변동성이 높습니다.</div>
       </div>
-    </div>
-    <aside class="panel">
+    </section>
+    <section class="panel m-section" id="m-quality">
+      <h2>5. 데이터 품질 · 중복 제거</h2>
+      <p>같은 사건이 여러 번 계산되지 않도록, 뉴스는 기사 단위가 아니라 <b>사건 단위</b>로 셉니다:
+      같은 날 동일 제목은 하나의 사건으로 묶고(널리 재보도된 사건은 1 + ln(기사 수)로 완만하게만 가중),
+      한 사건이 K개 기업과 연결되면 가중치 1을 1/K씩 나눕니다. 아래는 실제 측정된 연도별 중복 규모입니다.</p>
+<table class="m-table"><thead><tr><th>연도</th><th>기사 수</th><th>완전 중복 비율</th><th>동일 제목 재보도 비율</th><th>사건당 평균 연결 기업</th></tr></thead><tbody><tr><td>2017</td><td>393,934</td><td>2.7%</td><td>2.7%</td><td>1.91</td></tr><tr><td>2018</td><td>433,671</td><td>2.4%</td><td>2.6%</td><td>1.94</td></tr><tr><td>2019</td><td>418,950</td><td>3.0%</td><td>2.2%</td><td>1.99</td></tr><tr><td>2020</td><td>405,649</td><td>4.2%</td><td>2.1%</td><td>2.42</td></tr><tr><td>2021</td><td>396,751</td><td>3.4%</td><td>3.5%</td><td>1.98</td></tr><tr><td>2022</td><td>450,959</td><td>3.1%</td><td>3.4%</td><td>2.03</td></tr><tr><td>2023</td><td>490,313</td><td>2.8%</td><td>3.8%</td><td>2.07</td></tr><tr><td>2024</td><td>771,654</td><td>2.4%</td><td>5.4%</td><td>2.38</td></tr><tr><td>2025</td><td>887,024</td><td>2.7%</td><td>5.3%</td><td>2.29</td></tr><tr><td>2026</td><td>411,651</td><td>2.8%</td><td>3.6%</td><td>2.21</td></tr></tbody></table>
+      <p class="m-note">제목이 다른 재보도(패러프레이즈)는 아직 묶지 않습니다. 기업 연결 자체는 상위 데이터베이스를 따르며 별도 검수 전입니다.</p>
+    </section>
+    <section class="panel m-section" id="m-live">
+      <h2>6. 실시간 vs 확정</h2>
+      <table class="m-table"><thead>
+        <tr><th></th><th>실시간 잠정치</th><th>확정 일일 지수</th></tr></thead><tbody>
+        <tr><td>답하는 질문</td><td>오늘이 얼마나 특별한 하루인가</td><td>최근 한 달의 시장까지 반영하면 얼마나 특별한가</td></tr>
+        <tr><td>토론·뉴스</td><td>당일 자료 그대로 (확정으로 그대로 이어짐)</td><td>같은 방식</td></tr>
+        <tr><td>시장</td><td>당일 지수 등락·시장 폭을 과거 <b>하루치</b> 분포와 비교</td><td>최근 <b>20거래일</b> 창의 추세·폭·변동성</td></tr>
+        <tr><td>갱신 주기</td><td>약 5분 (시장 원자료는 약 10초 간격)</td><td>하루 1회, 자정 이후 확정</td></tr>
+        <tr><td>서로 같아지나?</td><td colspan="2">토론·뉴스는 수렴하지만 시장 구성요소는 정의가 다르므로 수렴하지 않습니다. 이는 의도된 설계입니다.</td></tr>
+      </tbody></table>
+    </section>
+    <section class="panel m-section" id="m-validation">
+      <h2>7. 검증한 것들</h2>
+      <ul class="notes">
+        <li>장중 스냅샷의 장 마감 마지막 값 = 공식 종가와 <b>정확히 일치</b> (코스피·코스닥 5거래일 연속, 차이 0.00).</li>
+        <li>장중 상승·하락 종목 수로 계산한 시장 폭 = 종목별 종가 기반 시장 폭과 <b>상관계수 0.999</b>.</li>
+        <li>뉴스 사건 단위 집계 전환 시 과거 지수와의 상관: 뉴스 구성요소 0.95(코스피)/0.88(코스닥), 합산 지수 0.995/0.989 — 모양은 유지되고 극단만 교정.</li>
+        <li>제목 분류 규칙과 중복 제거 규칙은 자동 테스트로 고정되어, 규칙이 바뀌면 테스트가 먼저 실패합니다.</li>
+      </ul>
+    </section>
+    <section class="panel m-section" id="m-limits">
+      <h2>8. 한계와 주의</h2>
       <h2>차트를 읽는 법</h2>
       <ul class="notes">
         <li>점수가 높을수록 탐욕, 낮을수록 공포에 가깝습니다.</li>
@@ -350,8 +443,41 @@
         <li>±2σ 바깥이면 역사적으로 드문 감정 수준이라는 뜻이지, 향후 수익률 예측은 아닙니다.</li>
       </ul>
       <div class="source">자료: 사내 소셜 미디어 종목토론·뉴스 집계, KOSPI/KOSDAQ 지수 및 구성종목 가격. 비교 실험의 한경그룹 뉴스는 <b>한국경제·한국경제TV·한경비즈니스 통합</b>이며, 데이터베이스의 세 언론사 표기를 모두 포함합니다. 한경그룹 기사별 감성점수는 <b>0.60 이상은 긍정, 0.40 이하는 부정</b>, 그 사이는 중립으로 분류합니다. 토론 제목은 결정론적 표본과 키워드 분류를 사용한 초기 프로토타입이며, KOSDAQ 뉴스 커버리지는 상대적으로 낮습니다.</div>
-    </aside>
-  </section>
+    </section>
+    <section class="panel m-section" id="m-faq">
+      <h2>9. 자주 묻는 해석 질문</h2>
+      <div class="m-faq">
+        <details><summary>지수가 제 체감과 다른데요?</summary><p>흔한 이유는 두 가지입니다. 첫째, 헤드라인 지수와 평균 종목이 다르게 움직이는 날이 있습니다(대형주만 급락하고 시장 폭은 멀쩡한 날). 둘째, 화면의 큰 숫자는 20일 EWMA라 지난 몇 주를 기억합니다. 오늘 하루의 느낌은 실시간 섹션이 더 가깝습니다.</p></details>
+        <details><summary>매매 신호인가요?</summary><p>아닙니다. 자체 검증에서 이 지수의 극단은 "이후 수익률 반전"이 아니라 "이후 변동성 확대"와 연결되었습니다. 상태를 설명하는 지표이지, 타이밍 도구가 아닙니다.</p></details>
+        <details><summary>왜 코스피와 코스닥을 따로 계산하나요?</summary><p>두 시장은 참여자 구성과 변동성 구조가 크게 다릅니다. 하나의 분포로 표준화하면 서로의 극단을 희석합니다.</p></details>
+        <details><summary>±2σ 밖이면 어떤 의미인가요?</summary><p>선택한 기준 기간의 과거 분포에서 역사적으로 드문 수준이라는 뜻입니다. 확률로 환산할 수 있는 정규분포 가정은 하지 않습니다.</p></details>
+      </div>
+    </section>
+    <section class="panel m-section" id="m-glossary">
+      <h2>10. 용어</h2>
+      <div class="glossary" aria-label="쉬운 용어 설명">
+        <div><b>시가총액 = 회사의 크기</b><br>큰 회사가 시장 전체에 미치는 영향을 더 크게 보는 기준입니다.</div>
+        <div><b>z점수 = 오늘이 평소보다 얼마나 특별한지</b><br>0 근처면 평범하고, 숫자가 크게 벗어날수록 드문 날입니다.</div>
+        <div><b>EWMA = 들쭉날쭉한 일일 점수를 부드럽게 만든 흐름</b><br>최근 날짜를 더 중요하게 보면서 여러 날의 점수를 섞습니다.</div>
+        <div><b>변동성 = 주가가 얼마나 거칠게 움직이는지</b><br>짧은 기간에 크게 오르내릴수록 변동성이 높습니다.</div>
+      </div>
+    </section>
+    <section class="panel m-section" id="m-changelog">
+      <h2>11. 변경 기록</h2>
+      <table class="m-table m-changelog"><thead>
+        <tr><th>날짜</th><th>문제</th><th>변경</th><th>영향</th></tr></thead><tbody>
+        <tr><td>2026-07-27</td><td>방법론이 지수 페이지 안에 눌려 있어 읽기 어려움</td><td>방법론을 별도 페이지로 분리하고 실시간/과거 2단 구성으로 재편</td><td>표시 방식만 변경, 수치 불변</td></tr>
+        <tr><td>2026-07-27</td><td>실시간 시장 점수가 "지난 20일" 이야기를 해서 당일 체감과 어긋남</td><td>실시간 시장 구성요소를 당일 수익률·시장 폭 기준의 '당일 펄스'로 교체 (확정 지수는 기존 20일 창 유지)</td><td>실시간 값만 변경. 예: 07-27 오전 구 방식 −1.55 → 펄스 −0.08</td></tr>
+        <tr><td>2026-07-27</td><td>장중에 지수 가격·시장 구성요소가 전일 종가에 고정</td><td>약 10초 간격 장중 지수·등락 종목 수 자료 연결</td><td>실시간 표시가 실제로 실시간이 됨</td></tr>
+        <tr><td>2026-07-27</td><td>같은 사건의 재보도와 여러 기업 연결이 각각 독립 신호로 계산됨 (외부 검토 지적)</td><td>뉴스를 사건 단위로 묶고(1+ln(기사 수) 포화), 사건당 가중치 1을 기업들이 1/K로 분배. 이 과정에서 집계 원천을 기사 단위 원자료로 전환</td><td>뉴스 z 상관 0.95/0.88로 모양 유지, 급락기 극단 완화(−3.96→−3.61). 부수 효과로 커버리지 확대(코스닥 25%→37%)</td></tr>
+        <tr><td>2026-07-23</td><td>시장 구성요소가 z점수 3개의 평균이라 분산이 1보다 작아, 명목 35% 비중이 실제로는 그보다 작게 반영</td><td>합산 전 같은 756일 기준으로 한 번 더 표준화</td><td>합산 지수 상관 0.993으로 거의 동일하나 비중이 명목대로 작동. 점수 시작일이 2019-02-27로 이동</td></tr>
+        <tr><td>2026-07-23</td><td>"나간다" 속의 "간다"처럼 반대 뜻 단어 속 표현이 잘못 집계되고, 탐욕·공포 표현이 함께 있으면 무조건 중립 처리</td><td>표현 개수를 세어 우세한 쪽으로 분류, 포함 단어 차단. 3곳에 중복 구현돼 있던 분류 규칙을 하나로 통합</td><td>일별 상관 0.997로 미세 교정. 규칙 불일치 위험 제거</td></tr>
+        <tr><td>2026-07-22</td><td>—</td><td>V0 최초 공개 (토론 45% · 뉴스 20% · 시장 35%, 756일 사전관찰 없는 표준화)</td><td>—</td></tr>
+      </tbody></table>
+      <p class="m-note">이 기록은 지수 수치에 영향을 주는 모든 변경을 남기기 위한 것입니다. 새 변경은 위에 추가됩니다.</p>
+    </section>
+  </div>
+  </div>
 </main>
 </body>
 </html>
