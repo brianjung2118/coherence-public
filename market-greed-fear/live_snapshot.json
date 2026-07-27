@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-27 19:36 KST",
+  "as_of": "2026-07-27 19:46 KST",
   "event_date": "2026-07-27",
   "market_session": {
     "status": "trading",
@@ -8,8 +8,8 @@
   },
   "boards": {
     "KOSPI": {
-      "score": 0.3462,
-      "text_pulse": 0.36227,
+      "score": 0.34622,
+      "text_pulse": 0.3623,
       "previous_final": -1.56599,
       "index": {
         "price": 6755.75,
@@ -26,9 +26,9 @@
           "coverage": 0.1313
         },
         "news": {
-          "score": 0.77983,
-          "observations": 2185,
-          "coverage": 0.8261
+          "score": 0.77991,
+          "observations": 2189,
+          "coverage": 0.8259
         },
         "news_hankyung": {
           "score": 1.5772,
@@ -45,15 +45,48 @@
       "news_articles": {
         "all": [
           {
+            "news_id": "8a0072f668fcadfe3b516b208f7c425b",
+            "published_at": "2026-07-27 19:41 KST",
+            "press": "이데일리",
+            "title": "CJ제일제당 ‘자리’, 상생 모델 인정…K증류주 세계화 박차",
+            "sentiment_score": 0.62543,
+            "associated_companies": 1,
+            "company_names": [
+              "CJ제일제당"
+            ]
+          },
+          {
+            "news_id": "51b91b5ab88b3f90ec262ed82b24dbe6",
+            "published_at": "2026-07-27 19:35 KST",
+            "press": "노컷뉴스",
+            "title": "'주가조작 패가망신 1호' 사건 제동…금융위 재항고 방침",
+            "sentiment_score": 0.32543,
+            "associated_companies": 1,
+            "company_names": [
+              "DI동일"
+            ]
+          },
+          {
             "news_id": "4f8abf889c0b5f1654bb3fadc398537a",
             "published_at": "2026-07-27 19:30 KST",
             "press": "한국경제",
-            "title": "\"1,200%상승\"vs\"기술력한계반영해야\"…노무라와 모닝스타의 극과극 CXMT 전망",
+            "title": "\"1200% 상승\" vs \"기술력 한계 반영해야\"…CXMT '극과극' 전망",
             "sentiment_score": 0.58043,
             "associated_companies": 2,
             "company_names": [
               "SK하이닉스",
               "삼성전자"
+            ]
+          },
+          {
+            "news_id": "49b9c6251b734e1278c53dfd5ddce321",
+            "published_at": "2026-07-27 19:30 KST",
+            "press": "SBS",
+            "title": "[이슈빡] 샌프란시스코 '깐부 회동', 대체불가 'AI 황금기' 만들까?",
+            "sentiment_score": 0.47793,
+            "associated_companies": 1,
+            "company_names": [
+              "SBS"
             ]
           },
           {
@@ -1184,40 +1217,6 @@
             "company_names": [
               "LS ELECTRIC"
             ]
-          },
-          {
-            "news_id": "4b0ebae8b28acec357ea823059e77ae7",
-            "published_at": "2026-07-27 18:05 KST",
-            "press": "머니투데이",
-            "title": "\"SK하닉 하락? 더 사자\"…미장 몰려간 서학개미, 마이크론은 매도[서학픽]",
-            "sentiment_score": 0.39293,
-            "associated_companies": 1,
-            "company_names": [
-              "SK하이닉스"
-            ]
-          },
-          {
-            "news_id": "c2e611f575b9a6a52251f7c18cf929c8",
-            "published_at": "2026-07-27 18:05 KST",
-            "press": "서울경제",
-            "title": "‘보수적 분산투자’ 전략 통했나…변동성 장세서 웃은 ‘디딤펀드’",
-            "sentiment_score": 0.58418,
-            "associated_companies": 2,
-            "company_names": [
-              "HDC",
-              "기업은행"
-            ]
-          },
-          {
-            "news_id": "68e6ed754b8cfd3056051791b28e247c",
-            "published_at": "2026-07-27 18:04 KST",
-            "press": "한국경제",
-            "title": "해외서 뜬 K뷰티, 국내 '역진출'",
-            "sentiment_score": 0.57043,
-            "associated_companies": 1,
-            "company_names": [
-              "CJ"
-            ]
           }
         ],
         "hankyung": [
@@ -1225,7 +1224,7 @@
             "news_id": "4f8abf889c0b5f1654bb3fadc398537a",
             "published_at": "2026-07-27 19:30 KST",
             "press": "한국경제",
-            "title": "\"1,200%상승\"vs\"기술력한계반영해야\"…노무라와 모닝스타의 극과극 CXMT 전망",
+            "title": "\"1200% 상승\" vs \"기술력 한계 반영해야\"…CXMT '극과극' 전망",
             "sentiment_score": 0.58043,
             "associated_companies": 2,
             "company_names": [
@@ -2398,8 +2397,8 @@
       }
     },
     "KOSDAQ": {
-      "score": 0.59055,
-      "text_pulse": 0.41954,
+      "score": 0.59105,
+      "text_pulse": 0.4203,
       "previous_final": -0.56353,
       "index": {
         "price": 764.86,
@@ -2416,9 +2415,9 @@
           "coverage": 0.1213
         },
         "news": {
-          "score": 0.89998,
-          "observations": 386,
-          "coverage": 0.6805
+          "score": 0.90248,
+          "observations": 387,
+          "coverage": 0.6808
         },
         "news_hankyung": {
           "score": 0.44747,
@@ -2434,6 +2433,17 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "4ad03cefa79151d9379a5a678ca42107",
+            "published_at": "2026-07-27 19:38 KST",
+            "press": "이데일리",
+            "title": "전승호 대표 등 코오롱티슈진 경영진, 인보사 3상 실패 이후 첫 동반 자사주 매수",
+            "sentiment_score": 0.57543,
+            "associated_companies": 1,
+            "company_names": [
+              "코오롱티슈진"
+            ]
+          },
           {
             "news_id": "6b39f15877a655e63b38927bf17e2abb",
             "published_at": "2026-07-27 19:00 KST",
@@ -3559,17 +3569,6 @@
             "company_names": [
               "에스티팜"
             ]
-          },
-          {
-            "news_id": "2aab868e42fdd508c044b14764c6e8c3",
-            "published_at": "2026-07-27 15:47 KST",
-            "press": "이데일리",
-            "title": "인바디, 블루포인트와 110억 오픈이노베이션[마켓인]",
-            "sentiment_score": 0.62793,
-            "associated_companies": 1,
-            "company_names": [
-              "인바디"
-            ]
           }
         ],
         "hankyung": [
@@ -3941,10 +3940,10 @@
       "observations": 53012
     },
     "news": {
-      "latest_event": "2026-07-27 19:32 KST",
-      "latest_seen": "2026-07-27 19:33 KST",
-      "active_minutes": 383,
-      "observations": 3546
+      "latest_event": "2026-07-27 19:42 KST",
+      "latest_seen": "2026-07-27 19:46 KST",
+      "active_minutes": 388,
+      "observations": 3555
     },
     "market": {
       "latest_event": "2026-07-27",
