@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-27 09:58 KST",
+  "as_of": "2026-07-27 10:01 KST",
   "event_date": "2026-07-27",
   "market_session": {
     "status": "trading",
@@ -8,39 +8,53 @@
   },
   "boards": {
     "KOSPI": {
-      "score": -0.40878,
-      "text_pulse": 0.42786,
+      "score": -0.19149,
+      "text_pulse": 0.45484,
       "previous_final": -1.66622,
       "index": {
-        "price": null,
+        "price": 6727.41,
         "prev_close": 6690.62,
-        "change_pct": null
+        "change": 36.79,
+        "change_pct": 0.55,
+        "as_of": "2026-07-27 10:01 KST",
+        "live": true
       },
       "components": {
         "discussion": {
-          "score": 0.74572,
-          "observations": 6208,
-          "coverage": 0.1509
+          "score": 0.75454,
+          "observations": 6528,
+          "coverage": 0.1487
         },
         "news": {
-          "score": -0.28733,
-          "observations": 660,
-          "coverage": 0.8361
+          "score": -0.21949,
+          "observations": 665,
+          "coverage": 0.8236
         },
         "news_hankyung": {
-          "score": -0.97948,
-          "observations": 40,
-          "coverage": 0.907
+          "score": -0.17349,
+          "observations": 42,
+          "coverage": 0.8989
         },
         "market": {
-          "score": -1.96253,
-          "confidence": 0.0,
+          "score": -1.39181,
+          "confidence": 1.0,
           "observations": 0,
-          "coverage": 0.0
+          "coverage": 1.0
         }
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "35eb76d11c17c825db272a9b5af4c81c",
+            "published_at": "2026-07-27 10:00 KST",
+            "press": "한국경제",
+            "title": "\"엔비디아 인증\" LG전자 일냈다…젠슨 황 찜한 기술 뭐길래",
+            "sentiment_score": 0.60793,
+            "associated_companies": 1,
+            "company_names": [
+              "LG전자"
+            ]
+          },
           {
             "news_id": "0e315fbbd00a4974c6aaf5311a48f400",
             "published_at": "2026-07-27 09:54 KST",
@@ -1219,21 +1233,20 @@
             "company_names": [
               "SK이노베이션"
             ]
-          },
-          {
-            "news_id": "cd1c0c1ac54eca476d1f1221ab95db71",
-            "published_at": "2026-07-27 09:34 KST",
-            "press": "데일리안",
-            "title": "카카오뱅크 노조, 조합원 과반 확보…\"성과 보상 불만 누적\"",
-            "sentiment_score": 0.29481,
-            "associated_companies": 2,
-            "company_names": [
-              "카카오",
-              "카카오뱅크"
-            ]
           }
         ],
         "hankyung": [
+          {
+            "news_id": "35eb76d11c17c825db272a9b5af4c81c",
+            "published_at": "2026-07-27 10:00 KST",
+            "press": "한국경제",
+            "title": "\"엔비디아 인증\" LG전자 일냈다…젠슨 황 찜한 기술 뭐길래",
+            "sentiment_score": 0.60793,
+            "associated_companies": 1,
+            "company_names": [
+              "LG전자"
+            ]
+          },
           {
             "news_id": "0e315fbbd00a4974c6aaf5311a48f400",
             "published_at": "2026-07-27 09:54 KST",
@@ -1691,24 +1704,27 @@
       }
     },
     "KOSDAQ": {
-      "score": 0.0163,
-      "text_pulse": 0.50998,
+      "score": 0.29622,
+      "text_pulse": 0.52842,
       "previous_final": -0.56353,
       "index": {
-        "price": null,
+        "price": 773.41,
         "prev_close": 748.22,
-        "change_pct": null
+        "change": 25.19,
+        "change_pct": 3.37,
+        "as_of": "2026-07-27 10:01 KST",
+        "live": true
       },
       "components": {
         "discussion": {
-          "score": 0.55202,
-          "observations": 2018,
-          "coverage": 0.1452
+          "score": 0.58645,
+          "observations": 2074,
+          "coverage": 0.1427
         },
         "news": {
-          "score": 0.41538,
-          "observations": 135,
-          "coverage": 0.7413
+          "score": 0.39785,
+          "observations": 136,
+          "coverage": 0.7177
         },
         "news_hankyung": {
           "score": 1.06066,
@@ -1716,10 +1732,10 @@
           "coverage": 0.9
         },
         "market": {
-          "score": -0.90054,
-          "confidence": 0.0,
+          "score": -0.135,
+          "confidence": 1.0,
           "observations": 0,
-          "coverage": 0.0
+          "coverage": 1.0
         }
       },
       "news_articles": {
@@ -2118,6 +2134,17 @@
             ]
           },
           {
+            "news_id": "c5aa63b6172263f61595096533f717a5",
+            "published_at": "2026-07-27 09:32 KST",
+            "press": "EBN",
+            "title": "[Tech & Now] 코스모로보틱스, '뇌파 제어' 재활로봇 상용화 착수 등",
+            "sentiment_score": 0.64543,
+            "associated_companies": 1,
+            "company_names": [
+              "코스모로보틱스"
+            ]
+          },
+          {
             "news_id": "1859c4b0a9a311aadfbc03c68af9486c",
             "published_at": "2026-07-27 09:32 KST",
             "press": "강원도민일보",
@@ -2226,6 +2253,19 @@
             "associated_companies": 1,
             "company_names": [
               "에프앤가이드"
+            ]
+          },
+          {
+            "news_id": "bf768a64fbe0f3f8a76ed5ac0382296d",
+            "published_at": "2026-07-27 09:29 KST",
+            "press": "EBN",
+            "title": "[1% 초고수의 개장 선택] 'NAVER' 사고 '대한항공' 줄였다",
+            "sentiment_score": 0.56293,
+            "associated_companies": 3,
+            "company_names": [
+              "에코프로",
+              "원익IPS",
+              "지엔씨에너지"
             ]
           },
           {
@@ -2839,28 +2879,6 @@
             "company_names": [
               "인바이오"
             ]
-          },
-          {
-            "news_id": "08bbc9719e938406280898c5feb46993",
-            "published_at": "2026-07-27 08:58 KST",
-            "press": "아시아경제",
-            "title": "HK이노엔, 케이캡 6번째 적응증 추가…\"국내 P-CAB 최다\"",
-            "sentiment_score": 0.64543,
-            "associated_companies": 1,
-            "company_names": [
-              "HK이노엔"
-            ]
-          },
-          {
-            "news_id": "1420c63f7c0a28080913524a18f858e8",
-            "published_at": "2026-07-27 08:58 KST",
-            "press": "아시아경제",
-            "title": "우진비앤지, 아시아 수산백신 시장 공략…인도네시아서 현지 임상 돌입",
-            "sentiment_score": 0.63543,
-            "associated_companies": 1,
-            "company_names": [
-              "우진비앤지"
-            ]
           }
         ],
         "hankyung": [
@@ -3037,21 +3055,22 @@
   },
   "sources": {
     "discussion": {
-      "latest_event": "2026-07-27 09:19 KST",
-      "latest_seen": "2026-07-27 09:29 KST",
-      "active_minutes": 81,
-      "observations": 8275
+      "latest_event": "2026-07-27 10:01 KST",
+      "latest_seen": "2026-07-27 10:01 KST",
+      "active_minutes": 82,
+      "observations": 8672
     },
     "news": {
-      "latest_event": "2026-07-27 09:57 KST",
-      "latest_seen": "2026-07-27 09:58 KST",
-      "active_minutes": 102,
-      "observations": 1056
+      "latest_event": "2026-07-27 10:00 KST",
+      "latest_seen": "2026-07-27 10:01 KST",
+      "active_minutes": 103,
+      "observations": 1066
     },
     "market": {
-      "latest_event": null,
-      "latest_seen": null,
+      "latest_event": "2026-07-27",
+      "latest_seen": "2026-07-27 10:01 KST",
       "active_minutes": null,
+      "intraday": true,
       "status_record_available": true
     }
   }
