@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-28 00:01 KST",
+  "as_of": "2026-07-28 00:12 KST",
   "event_date": "2026-07-28",
   "market_session": {
     "status": "unconfirmed",
@@ -9,7 +9,7 @@
   "boards": {
     "KOSPI": {
       "score": null,
-      "text_pulse": null,
+      "text_pulse": -1.8783,
       "previous_final": -0.53404,
       "index": {
         "price": 6755.75,
@@ -21,14 +21,14 @@
       },
       "components": {
         "discussion": {
-          "score": -3.64846,
-          "observations": 24,
-          "coverage": 0.0833
+          "score": -1.59324,
+          "observations": 62,
+          "coverage": 0.0968
         },
         "news": {
-          "score": null,
-          "observations": 0,
-          "coverage": 0.0
+          "score": -2.51968,
+          "observations": 2,
+          "coverage": 1.0
         },
         "news_hankyung": {
           "score": null,
@@ -43,13 +43,53 @@
         }
       },
       "news_articles": {
-        "all": [],
+        "all": [
+          {
+            "news_id": "2777ed4e3f620bdd0a091d34672f2639",
+            "published_at": "2026-07-28 00:02 KST",
+            "press": "이데일리",
+            "title": "'더블 스토리지·할인 쿠폰' 쏟아진다… '갤럭시 Z8' 사전 판매 오늘 0시 개시",
+            "sentiment_score": 0.57743,
+            "associated_companies": 5,
+            "company_names": [
+              "LG유플러스",
+              "NAVER",
+              "SK스퀘어",
+              "SK텔레콤",
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "f6b221bbb4d72e6e3504562de6102d3e",
+            "published_at": "2026-07-28 00:02 KST",
+            "press": "중앙일보",
+            "title": "널뛰는 장세…돈 몰리는 ‘횡보장 수익’ ETF",
+            "sentiment_score": 0.52293,
+            "associated_companies": 1,
+            "company_names": [
+              "하나금융지주"
+            ]
+          },
+          {
+            "news_id": "0e7e4278fffadfe8a2ecbf7fb3595faf",
+            "published_at": "2026-07-28 00:01 KST",
+            "press": "중앙일보",
+            "title": "갤Z8 사전예약 시작…“과도한 지원금 조심”",
+            "sentiment_score": 0.27668,
+            "associated_companies": 3,
+            "company_names": [
+              "LG유플러스",
+              "SK텔레콤",
+              "삼성전자"
+            ]
+          }
+        ],
         "hankyung": []
       }
     },
     "KOSDAQ": {
       "score": null,
-      "text_pulse": null,
+      "text_pulse": -0.86346,
       "previous_final": -0.01529,
       "index": {
         "price": 764.86,
@@ -61,12 +101,12 @@
       },
       "components": {
         "discussion": {
-          "score": -5.73497,
-          "observations": 1,
-          "coverage": 1.0
+          "score": -0.30191,
+          "observations": 10,
+          "coverage": 0.2
         },
         "news": {
-          "score": null,
+          "score": -2.12696,
           "observations": 0,
           "coverage": 0.0
         },
@@ -90,16 +130,16 @@
   },
   "sources": {
     "discussion": {
-      "latest_event": "2026-07-28 00:01 KST",
-      "latest_seen": "2026-07-28 00:01 KST",
-      "active_minutes": 1,
-      "observations": 25
+      "latest_event": "2026-07-28 00:04 KST",
+      "latest_seen": "2026-07-28 00:10 KST",
+      "active_minutes": 6,
+      "observations": 72
     },
     "news": {
-      "latest_event": null,
-      "latest_seen": null,
-      "active_minutes": 0,
-      "observations": 0
+      "latest_event": "2026-07-28 00:02 KST",
+      "latest_seen": "2026-07-28 00:07 KST",
+      "active_minutes": 3,
+      "observations": 5
     },
     "market": {
       "latest_event": null,
