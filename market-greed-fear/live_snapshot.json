@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-27 19:46 KST",
+  "as_of": "2026-07-27 19:56 KST",
   "event_date": "2026-07-27",
   "market_session": {
     "status": "trading",
@@ -8,8 +8,8 @@
   },
   "boards": {
     "KOSPI": {
-      "score": 0.34622,
-      "text_pulse": 0.3623,
+      "score": 0.34032,
+      "text_pulse": 0.35322,
       "previous_final": -1.56599,
       "index": {
         "price": 6755.75,
@@ -26,14 +26,14 @@
           "coverage": 0.1313
         },
         "news": {
-          "score": 0.77991,
-          "observations": 2189,
-          "coverage": 0.8259
+          "score": 0.75042,
+          "observations": 2194,
+          "coverage": 0.8264
         },
         "news_hankyung": {
-          "score": 1.5772,
-          "observations": 132,
-          "coverage": 0.8555
+          "score": 1.5324,
+          "observations": 133,
+          "coverage": 0.856
         },
         "market": {
           "score": 0.31636,
@@ -44,6 +44,75 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "43563df966bf3834858bea625b512f63",
+            "published_at": "2026-07-27 19:52 KST",
+            "press": "한국경제",
+            "title": "이재용·최태원, 샌프란시스코 건배 후 시칠리아도 '동행'",
+            "sentiment_score": 0.58043,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "60673a93ff3298fcbab00aed6ff266df",
+            "published_at": "2026-07-27 19:51 KST",
+            "press": "세계일보",
+            "title": "원화 강세·엔화 약세… 이례적 ‘탈동조화’ 언제까지",
+            "sentiment_score": 0.55043,
+            "associated_companies": 1,
+            "company_names": [
+              "SK하이닉스"
+            ]
+          },
+          {
+            "news_id": "1e0dcc291a831fd007ed0bb90a2129aa",
+            "published_at": "2026-07-27 19:49 KST",
+            "press": "세계일보",
+            "title": "LG이노텍, 8월 MSCI 지수 편입 유력",
+            "sentiment_score": 0.57493,
+            "associated_companies": 10,
+            "company_names": [
+              "HD현대마린솔루션",
+              "LG씨엔에스",
+              "LG이노텍",
+              "LS",
+              "POSCO홀딩스",
+              "SK바이오팜",
+              "삼성E&A",
+              "포스코인터내셔널",
+              "한진칼",
+              "현대오토에버"
+            ]
+          },
+          {
+            "news_id": "38f2568eb15d1dc33f707ee4c2bb8603",
+            "published_at": "2026-07-27 19:48 KST",
+            "press": "스포츠조선",
+            "title": "'동화책 읽어 드려요\" 한진 소속 항공사 5곳, 목소리 재능기부 캠페인 진행",
+            "sentiment_score": 0.56893,
+            "associated_companies": 5,
+            "company_names": [
+              "대한항공",
+              "아시아나항공",
+              "에어부산",
+              "진에어",
+              "한진"
+            ]
+          },
+          {
+            "news_id": "e657196be1bc3d933cf88c778e87610b",
+            "published_at": "2026-07-27 19:44 KST",
+            "press": "문화일보",
+            "title": "“한 달 5억 빠지니까…”레버ETF 투자 은행원 사연",
+            "sentiment_score": 0.37918,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
           {
             "news_id": "8a0072f668fcadfe3b516b208f7c425b",
             "published_at": "2026-07-27 19:41 KST",
@@ -1162,64 +1231,20 @@
             "company_names": [
               "한화손해보험"
             ]
-          },
-          {
-            "news_id": "ac4fea767e1ab5b74b51691da5bb7db1",
-            "published_at": "2026-07-27 18:07 KST",
-            "press": "파이낸셜뉴스",
-            "title": "SK이노베이션 E&S, 호주 LNG 이어 초경질유 30만배럴 반입",
-            "sentiment_score": 0.63793,
-            "associated_companies": 1,
-            "company_names": [
-              "SK이노베이션"
-            ]
-          },
-          {
-            "news_id": "e2bb8f091c82bc9a21f83622446d95b1",
-            "published_at": "2026-07-27 18:07 KST",
-            "press": "파이낸셜뉴스",
-            "title": "소외계층·협력사 든든한 힘 '에쓰오일 햇살나눔'",
-            "sentiment_score": 0.57043,
-            "associated_companies": 1,
-            "company_names": [
-              "S-Oil"
-            ]
-          },
-          {
-            "news_id": "f771b6e30a1fdc44272c1314ebde59fc",
-            "published_at": "2026-07-27 18:07 KST",
-            "press": "파이낸셜뉴스",
-            "title": "LG전자 고효율 냉각솔루션, 국내 첫 엔비디아 인증",
-            "sentiment_score": 0.62043,
-            "associated_companies": 1,
-            "company_names": [
-              "LG전자"
-            ]
-          },
-          {
-            "news_id": "f827735dbb0c3b95b5a533eaa1b091f0",
-            "published_at": "2026-07-27 18:07 KST",
-            "press": "서울경제",
-            "title": "삼성운용, FunETF에 미국 상장 ETF 서비스 추가…한·미 6600여개 상품 한눈에",
-            "sentiment_score": 0.53793,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성생명"
-            ]
-          },
-          {
-            "news_id": "ceafe2ce7d2bc01a793492d94f2a9b93",
-            "published_at": "2026-07-27 18:06 KST",
-            "press": "파이낸셜뉴스",
-            "title": "\"배전 검증, 당장에라도 가능\"… LS일렉 비밀병기 'PT&T'",
-            "sentiment_score": 0.59793,
-            "associated_companies": 1,
-            "company_names": [
-              "LS ELECTRIC"
-            ]
           }
         ],
         "hankyung": [
+          {
+            "news_id": "43563df966bf3834858bea625b512f63",
+            "published_at": "2026-07-27 19:52 KST",
+            "press": "한국경제",
+            "title": "이재용·최태원, 샌프란시스코 건배 후 시칠리아도 '동행'",
+            "sentiment_score": 0.58043,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성전자"
+            ]
+          },
           {
             "news_id": "4f8abf889c0b5f1654bb3fadc398537a",
             "published_at": "2026-07-27 19:30 KST",
@@ -2378,19 +2403,6 @@
             "associated_companies": 1,
             "company_names": [
               "GS리테일"
-            ]
-          },
-          {
-            "news_id": "aef4f67a6ebab4e6f4f3ac1a23790935",
-            "published_at": "2026-07-27 08:10 KST",
-            "press": "한국경제",
-            "title": "케이카캐피탈 품은 KG그룹…자회사 KG캐피탈 판다",
-            "sentiment_score": 0.5421,
-            "associated_companies": 3,
-            "company_names": [
-              "KG모빌리티",
-              "케이카",
-              "한화생명"
             ]
           }
         ]
@@ -3940,10 +3952,10 @@
       "observations": 53012
     },
     "news": {
-      "latest_event": "2026-07-27 19:42 KST",
-      "latest_seen": "2026-07-27 19:46 KST",
-      "active_minutes": 388,
-      "observations": 3555
+      "latest_event": "2026-07-27 19:52 KST",
+      "latest_seen": "2026-07-27 19:55 KST",
+      "active_minutes": 392,
+      "observations": 3561
     },
     "market": {
       "latest_event": "2026-07-27",
