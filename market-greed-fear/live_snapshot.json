@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-28 07:59 KST",
+  "as_of": "2026-07-28 08:09 KST",
   "event_date": "2026-07-28",
   "market_session": {
     "status": "unconfirmed",
@@ -9,7 +9,7 @@
   "boards": {
     "KOSPI": {
       "score": null,
-      "text_pulse": -1.77838,
+      "text_pulse": -1.99807,
       "previous_final": -0.53404,
       "index": {
         "price": 6755.75,
@@ -21,19 +21,19 @@
       },
       "components": {
         "discussion": {
-          "score": -2.02726,
-          "observations": 3223,
-          "coverage": 0.1291
+          "score": -2.25729,
+          "observations": 3792,
+          "coverage": 0.1387
         },
         "news": {
-          "score": -1.2184,
-          "observations": 148,
-          "coverage": 0.7357
+          "score": -1.4148,
+          "observations": 204,
+          "coverage": 0.7449
         },
         "news_hankyung": {
-          "score": -2.85972,
-          "observations": 10,
-          "coverage": 0.4062
+          "score": -2.85068,
+          "observations": 12,
+          "coverage": 0.4722
         },
         "market": {
           "score": null,
@@ -45,15 +45,372 @@
       "news_articles": {
         "all": [
           {
+            "news_id": "a048b79a0b3e9e24b114b4c1de87f403",
+            "published_at": "2026-07-28 08:04 KST",
+            "press": "한국경제",
+            "title": "\"네이버, 엔비디아 투자 이어 연말 두나무 합병으로 밸류업\"-하나",
+            "sentiment_score": 0.54918,
+            "associated_companies": 2,
+            "company_names": [
+              "NAVER",
+              "하나금융지주"
+            ]
+          },
+          {
+            "news_id": "46422d0d946af76502238f993eb12398",
+            "published_at": "2026-07-28 08:03 KST",
+            "press": "한국경제",
+            "title": "\"RF머트리얼즈, 루멘텀 패키지 출하 확대 본격화…목표가↑\"-한국",
+            "sentiment_score": 0.50043,
+            "associated_companies": 1,
+            "company_names": [
+              "한국금융지주"
+            ]
+          },
+          {
+            "news_id": "6ee2536d94901ea6019bf12e80517a3b",
+            "published_at": "2026-07-28 08:02 KST",
+            "press": "이데일리",
+            "title": "500번 쥐어보고 찾았다…‘여권 비율’ 품은 갤럭시 폴드8[모닝폰]",
+            "sentiment_score": 0.60293,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "6d54ee057879881a0273ba9588022d89",
+            "published_at": "2026-07-28 08:01 KST",
+            "press": "지디넷코리아",
+            "title": "삼성전자 \"갤럭시Z폴드8, 여권에서 최대 영감\"",
+            "sentiment_score": 0.59793,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "7a73c1a11366a857d975a135123fac8c",
+            "published_at": "2026-07-28 08:00 KST",
+            "press": "한국경제",
+            "title": "이일환 \"고객이 원하면 더 넓은 화면의 삼성 폴더블폰도 고려\"",
+            "sentiment_score": 0.59293,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "0d3c2a912ca7f82523436e72c61e7b38",
+            "published_at": "2026-07-28 08:00 KST",
+            "press": "아시아경제",
+            "title": "4대 3 황금비 '폴드8’ 디자인 어떻게 탄생했나...\"핵심 가치는 편안함\"",
+            "sentiment_score": 0.59543,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "106b16a7e0465e37fb0408650818b7e4",
+            "published_at": "2026-07-28 08:00 KST",
+            "press": "동행미디어 시대",
+            "title": "4.1㎜의 다음 질문…삼성 갤럭시 디자인, '얇음'에서 '편안함'으로",
+            "sentiment_score": 0.60293,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "134a473081675106261195ade71ee9c6",
+            "published_at": "2026-07-28 08:00 KST",
+            "press": "블로터",
+            "title": "[갤럭시 Z8 언팩]\"500개 목업이 찾은 비율\"…폼팩터 판도 지각변동",
+            "sentiment_score": 0.60293,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "226a403d495ea8367491c42f54729953",
+            "published_at": "2026-07-28 08:00 KST",
+            "press": "비즈워치",
+            "title": "비용 부담에도 순이익 늘린 카드사…수익성 방어 '안간힘'",
+            "sentiment_score": 0.58493,
+            "associated_companies": 5,
+            "company_names": [
+              "KB금융",
+              "삼성카드",
+              "신한지주",
+              "우리금융지주",
+              "현대차"
+            ]
+          },
+          {
+            "news_id": "255bd2dca411a534ccb8fd48fe011e02",
+            "published_at": "2026-07-28 08:00 KST",
+            "press": "파이낸셜뉴스",
+            "title": "\"편안함 구현한 갤럭시Z8, 폴더블폰 디자인 기준점 될 것\" [갤럭시 언팩 2026]",
+            "sentiment_score": 0.59543,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "5b3236e132169be8bcfb2eae7d68f80c",
+            "published_at": "2026-07-28 08:00 KST",
+            "press": "서울경제",
+            "title": "삼성 “갤럭시 Z8, 폴더블 디자인의 벤치마크 될 것”",
+            "sentiment_score": 0.60793,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "c89d19ad1bdd73a3dbe1ecd3b6c9b1af",
+            "published_at": "2026-07-28 08:00 KST",
+            "press": "조선비즈",
+            "title": "에이엔피, 상폐 위기서 돌연 매각 철회… 고의 상폐 의혹까지 제기",
+            "sentiment_score": 0.30043,
+            "associated_companies": 1,
+            "company_names": [
+              "에이엔피"
+            ]
+          },
+          {
+            "news_id": "d0dee9821fc4f03b36baed3c3dad73be",
+            "published_at": "2026-07-28 08:00 KST",
+            "press": "머니투데이",
+            "title": "\"82억명이 매일 쓴다\"…삼성 폴더블의 답, '여권'에서 찾았다",
+            "sentiment_score": 0.60793,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "d1c00f7b2aa09697a5fd75daf2117dcc",
+            "published_at": "2026-07-28 08:00 KST",
+            "press": "디지털타임스",
+            "title": "이일환 삼성 모바일 디자인팀장 “Z 폴드8 시리즈, 스펙 넘어 편안함 설계한 제품”",
+            "sentiment_score": 0.59043,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "d2074a46fda27586263f8e76eb869bdf",
+            "published_at": "2026-07-28 08:00 KST",
+            "press": "블로터",
+            "title": "[하이닉스 렌즈로 본 SK]① SK실트론 매각 지연…쏠리는 눈",
+            "sentiment_score": 0.37293,
+            "associated_companies": 3,
+            "company_names": [
+              "SK",
+              "SK하이닉스",
+              "두산"
+            ]
+          },
+          {
+            "news_id": "d9425c4d120411c39fc96a6a2b309cf0",
+            "published_at": "2026-07-28 08:00 KST",
+            "press": "뉴시스",
+            "title": "'여권 닮은' 갤폴드8 디자인 비화…\"출입국 심사관 손끝에서 영감\"",
+            "sentiment_score": 0.58043,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "e53fba5983b3f1bad4722edce5c35d65",
+            "published_at": "2026-07-28 08:00 KST",
+            "press": "연합뉴스",
+            "title": "\"작년 저신용자 최대 11.9만명 불법사금융으로 내몰려\"",
+            "sentiment_score": 0.35543,
+            "associated_companies": 1,
+            "company_names": [
+              "NICE평가정보"
+            ]
+          },
+          {
+            "news_id": "ff220380e612d4642be18869d5a7f041",
+            "published_at": "2026-07-28 08:00 KST",
+            "press": "연합뉴스",
+            "title": "[테크톡노트] \"얇고 가벼움은 기본\"…삼성이 꺼낸 새 디자인 철학",
+            "sentiment_score": 0.58793,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "7b1ba5e27fea78642f5856208b3231d3",
+            "published_at": "2026-07-28 07:59 KST",
+            "press": "이데일리",
+            "title": "셀트리온, 고마진 바이오시밀러 신제품으로 수익성 레벨업-신한",
+            "sentiment_score": 0.56918,
+            "associated_companies": 2,
+            "company_names": [
+              "셀트리온",
+              "신한지주"
+            ]
+          },
+          {
+            "news_id": "efac5bc3daed185336b0de9997d7b818",
+            "published_at": "2026-07-28 07:59 KST",
+            "press": "파이낸셜뉴스",
+            "title": "獨 전기차 비중, 사상 첫 1위인데…유럽서 현대차 대신 기아차가 '수성'",
+            "sentiment_score": 0.41793,
+            "associated_companies": 2,
+            "company_names": [
+              "기아",
+              "현대차"
+            ]
+          },
+          {
+            "news_id": "81db59a6680f1d92b9aa85ce873b156e",
+            "published_at": "2026-07-28 07:57 KST",
+            "press": "이데일리",
+            "title": "네이버, AI 팩토리 자금조달 우려 해소…33만원 간다-KB",
+            "sentiment_score": 0.58293,
+            "associated_companies": 1,
+            "company_names": [
+              "NAVER"
+            ]
+          },
+          {
             "news_id": "ed87bd9595e5c1d9593ea46727ffd959",
             "published_at": "2026-07-28 07:53 KST",
             "press": "한국경제",
-            "title": "\"삼전닉스 레버리지, 日까지 흔들어\"...증시 변동성 확산 [도쿄나우]",
+            "title": "\"삼전닉스 레버리지, 日까지 흔들어\"…증시 변동성 확산 [도쿄나우]",
             "sentiment_score": 0.39168,
             "associated_companies": 2,
             "company_names": [
               "SK하이닉스",
               "삼성전자"
+            ]
+          },
+          {
+            "news_id": "e391e5e09a73a6f5fb6fadc70e048dd3",
+            "published_at": "2026-07-28 07:53 KST",
+            "press": "머니투데이",
+            "title": "신세계아이앤씨, AI 계산대 고도화…일본 등 아시아 공략",
+            "sentiment_score": 0.60168,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "신세계 I&C"
+            ]
+          },
+          {
+            "news_id": "e04f9d71eed28d1f83ade3af6e8a1d47",
+            "published_at": "2026-07-28 07:51 KST",
+            "press": "연합뉴스",
+            "title": "의왕 현대차그룹 배터리연구시설서 불…폐기물 보관실서 발화(종합)",
+            "sentiment_score": 0.44793,
+            "associated_companies": 1,
+            "company_names": [
+              "현대차"
+            ]
+          },
+          {
+            "news_id": "c4c26c1fe7819f1fae29a039a159fa80",
+            "published_at": "2026-07-28 07:50 KST",
+            "press": "연합뉴스TV",
+            "title": "[3분증시] 뉴욕증시, 유가 급락 속 혼조 마감",
+            "sentiment_score": 0.40168,
+            "associated_companies": 2,
+            "company_names": [
+              "SK",
+              "SK하이닉스"
+            ]
+          },
+          {
+            "news_id": "3f2101b68bae09a49bd799b08d331a1b",
+            "published_at": "2026-07-28 07:48 KST",
+            "press": "조세일보",
+            "title": "원·달러 환율, 1464.61원…보합권 등락 전망",
+            "sentiment_score": 0.53293,
+            "associated_companies": 1,
+            "company_names": [
+              "키움증권"
+            ]
+          },
+          {
+            "news_id": "b9c0c3279177fee4a9669ed6f42cd1d4",
+            "published_at": "2026-07-28 07:48 KST",
+            "press": "이데일리",
+            "title": "한화오션, 깜짝 실적에도 수주가 관건…LNG선·FPSO 성과 주목-NH",
+            "sentiment_score": 0.52418,
+            "associated_companies": 2,
+            "company_names": [
+              "NH투자증권",
+              "한화오션"
+            ]
+          },
+          {
+            "news_id": "90322bf17e3cf0490b6862e22ae02aaa",
+            "published_at": "2026-07-28 07:46 KST",
+            "press": "연합뉴스",
+            "title": "양천구, 금융기관과 손잡고 소상공인에 300억원 특별신용보증",
+            "sentiment_score": 0.57377,
+            "associated_companies": 3,
+            "company_names": [
+              "KB금융",
+              "신한지주",
+              "하나금융지주"
+            ]
+          },
+          {
+            "news_id": "1381d29e1dd4edbd52c8c13a8f662300",
+            "published_at": "2026-07-28 07:45 KST",
+            "press": "이데일리",
+            "title": "LG이노텍, 목표가 100만원으로 하향…“실적 성장세는 견조”-NH",
+            "sentiment_score": 0.51293,
+            "associated_companies": 2,
+            "company_names": [
+              "LG이노텍",
+              "NH투자증권"
+            ]
+          },
+          {
+            "news_id": "cc2fc19e1bbe4c2d0f15f332c5d134a2",
+            "published_at": "2026-07-28 07:44 KST",
+            "press": "경향신문",
+            "title": "뉴욕증시, 유가 급락에도 반도체주 약세···S&P500은 ‘보합’",
+            "sentiment_score": 0.35043,
+            "associated_companies": 1,
+            "company_names": [
+              "SK하이닉스"
+            ]
+          },
+          {
+            "news_id": "6d08c7e0530477b5d244a7b47f68b5b0",
+            "published_at": "2026-07-28 07:42 KST",
+            "press": "이데일리",
+            "title": "SKC, 화학 개선에 적자 폭 축소…흑자전환은 아직-삼성",
+            "sentiment_score": 0.52668,
+            "associated_companies": 2,
+            "company_names": [
+              "SKC",
+              "삼성증권"
+            ]
+          },
+          {
+            "news_id": "6fc542b5120c78aca78747ad85f3f5b3",
+            "published_at": "2026-07-28 07:40 KST",
+            "press": "비즈워치",
+            "title": "700억 절감·경영권 유지…코인원의 '영리한 딜'",
+            "sentiment_score": 0.54543,
+            "associated_companies": 1,
+            "company_names": [
+              "한국금융지주"
             ]
           },
           {
@@ -68,6 +425,184 @@
             ]
           },
           {
+            "news_id": "2db11f22cb28780fb0c881c3f6f6d7f9",
+            "published_at": "2026-07-28 07:38 KST",
+            "press": "이데일리",
+            "title": "LG이노텍, 2분기 '깜짝 실적'…하반기 광학기판 동반 성장-유안타",
+            "sentiment_score": 0.52668,
+            "associated_companies": 2,
+            "company_names": [
+              "LG이노텍",
+              "유안타증권"
+            ]
+          },
+          {
+            "news_id": "568dfb6ca2557ae63157e4efe2f59654",
+            "published_at": "2026-07-28 07:38 KST",
+            "press": "헤럴드경제",
+            "title": "뉴욕증시, 유가 급락에도 혼조세…SK하이닉스 ADR 7.5% 급락 [투자360]",
+            "sentiment_score": 0.31918,
+            "associated_companies": 1,
+            "company_names": [
+              "SK하이닉스"
+            ]
+          },
+          {
+            "news_id": "8c5961cea06e67d4554ebfb348707858",
+            "published_at": "2026-07-28 07:36 KST",
+            "press": "뉴시스",
+            "title": "\"버블은 불가능하다…이번 주 코스피 7000 회복하며 저점 확인 가능성\"",
+            "sentiment_score": 0.57168,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "645e1f166341f7e09a9321db50204fdd",
+            "published_at": "2026-07-28 07:35 KST",
+            "press": "세계일보",
+            "title": "뉴욕증시, 유가 급락에도 혼조 마감…반도체주 하락",
+            "sentiment_score": 0.35293,
+            "associated_companies": 1,
+            "company_names": [
+              "SK하이닉스"
+            ]
+          },
+          {
+            "news_id": "4a64283f5a7570ea2a64ffa4242921bb",
+            "published_at": "2026-07-28 07:34 KST",
+            "press": "EBN",
+            "title": "﻿'메모리는 덜고 소부장은 담고'…외국인 반도체 리밸런싱 시작",
+            "sentiment_score": 0.50106,
+            "associated_companies": 4,
+            "company_names": [
+              "DB하이텍",
+              "LG이노텍",
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "88a5dab89710b70abb2d94a130589a19",
+            "published_at": "2026-07-28 07:34 KST",
+            "press": "헤럴드경제",
+            "title": "형지로보틱스, 中 중솨이로봇과 ‘웨어러블 로봇’ 공급 계약",
+            "sentiment_score": 0.63543,
+            "associated_companies": 1,
+            "company_names": [
+              "형지엘리트"
+            ]
+          },
+          {
+            "news_id": "25e2938ecd72b525f5683de04b45a7f4",
+            "published_at": "2026-07-28 07:33 KST",
+            "press": "뉴시스",
+            "title": "[오늘의 증시]'美반도체 약세·유가 급락' 엇갈린 신호…코스피, 변동성 또 커지나",
+            "sentiment_score": 0.35043,
+            "associated_companies": 1,
+            "company_names": [
+              "SK하이닉스"
+            ]
+          },
+          {
+            "news_id": "ae7f360c4ef2f3257f794d8b00f9b39c",
+            "published_at": "2026-07-28 07:31 KST",
+            "press": "EBN",
+            "title": "SK하이닉스 ADR, 상장가 밑으로...대형 IPO도 흔들",
+            "sentiment_score": 0.31043,
+            "associated_companies": 1,
+            "company_names": [
+              "SK하이닉스"
+            ]
+          },
+          {
+            "news_id": "820ce6e5794aa4d751bdcff591381b07",
+            "published_at": "2026-07-28 07:31 KST",
+            "press": "서울경제",
+            "title": "“지시·통제 리더십 한계... ‘공행원로’가 조직 바꿔”",
+            "sentiment_score": 0.48543,
+            "associated_companies": 2,
+            "company_names": [
+              "LG이노텍",
+              "LG전자"
+            ]
+          },
+          {
+            "news_id": "c0827f21ff93eff30eeb510e780f8c41",
+            "published_at": "2026-07-28 07:19 KST",
+            "press": "국민일보",
+            "title": "중국판 ‘삼전닉스’가 코스피 발목?… CXMT 상장에 파장",
+            "sentiment_score": 0.37793,
+            "associated_companies": 3,
+            "company_names": [
+              "SK하이닉스",
+              "대신증권",
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "225de5afd1060971ca9ad4b46b2e952f",
+            "published_at": "2026-07-28 07:17 KST",
+            "press": "TV조선",
+            "title": "SK하이닉스 ADR 7%·엔비디아 5% 급락…뉴욕증시 혼조 마감",
+            "sentiment_score": 0.28793,
+            "associated_companies": 1,
+            "company_names": [
+              "SK하이닉스"
+            ]
+          },
+          {
+            "news_id": "9ac2d2e08f91cea207d2de4b7ecae16f",
+            "published_at": "2026-07-28 07:15 KST",
+            "press": "아시아경제",
+            "title": "\"삼성전자, 브로드컴과 협력은 시작일 뿐…주도권 잡았다\"[클릭e종목]",
+            "sentiment_score": 0.61793,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "bc03cdd660146ddcf26f85a897f41ed5",
+            "published_at": "2026-07-28 07:15 KST",
+            "press": "아시아경제",
+            "title": "[클릭e종목] \"우리금융지주, 2분기 순익 1조 돌파…어닝서프라이즈\"",
+            "sentiment_score": 0.56543,
+            "associated_companies": 2,
+            "company_names": [
+              "대신증권",
+              "우리금융지주"
+            ]
+          },
+          {
+            "news_id": "c81b4d4e0025c5d13478eda8490f300b",
+            "published_at": "2026-07-28 07:15 KST",
+            "press": "서울경제",
+            "title": "이지스자산운용, 9000억에 동대문 두산타워 품는다 [시그널]",
+            "sentiment_score": 0.54893,
+            "associated_companies": 5,
+            "company_names": [
+              "NH투자증권",
+              "두산",
+              "키움증권",
+              "하나금융지주",
+              "한국금융지주"
+            ]
+          },
+          {
+            "news_id": "64618b0809283ab0fe7cc8c87470e551",
+            "published_at": "2026-07-28 07:12 KST",
+            "press": "이데일리",
+            "title": "타투하고, 산리오 가챠 뽑으러…MZ는 편의점에 간다",
+            "sentiment_score": 0.60793,
+            "associated_companies": 1,
+            "company_names": [
+              "BGF리테일"
+            ]
+          },
+          {
             "news_id": "00fefe601742ba9218e640d77a164a01",
             "published_at": "2026-07-28 07:10 KST",
             "press": "한국경제",
@@ -76,6 +611,63 @@
             "associated_companies": 1,
             "company_names": [
               "SK하이닉스"
+            ]
+          },
+          {
+            "news_id": "55a493653492ccd023051345c5549706",
+            "published_at": "2026-07-28 07:10 KST",
+            "press": "동행미디어 시대",
+            "title": "[뉴욕증시]유가 급락 속 반도체주 하락…SK하이닉스 ADR 7% '뚝'",
+            "sentiment_score": 0.28918,
+            "associated_companies": 1,
+            "company_names": [
+              "SK하이닉스"
+            ]
+          },
+          {
+            "news_id": "a88247a60d2ef33de580462449ff3161",
+            "published_at": "2026-07-28 07:10 KST",
+            "press": "비즈워치",
+            "title": "[거버넌스워치] 일진글로벌 2세 이동섭 체제 기초 세운 ‘일진 2640억’",
+            "sentiment_score": 0.56293,
+            "associated_companies": 1,
+            "company_names": [
+              "현대차"
+            ]
+          },
+          {
+            "news_id": "164656a44deb95a3de9d1b371634dfce",
+            "published_at": "2026-07-28 07:09 KST",
+            "press": "YTN",
+            "title": "7월 28일 화 경제 캘린더",
+            "sentiment_score": 0.45293,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "97b22dfac238d28ad8a647ec070b9dc4",
+            "published_at": "2026-07-28 07:08 KST",
+            "press": "아시아경제",
+            "title": "\"맥도날드, 싸다고 사기엔 이르다…바닥부터 확인해야\"[클릭 e종목]",
+            "sentiment_score": 0.45793,
+            "associated_companies": 1,
+            "company_names": [
+              "대신증권"
+            ]
+          },
+          {
+            "news_id": "e9b57912b08f33bb21bb60fb062b6ecd",
+            "published_at": "2026-07-28 07:05 KST",
+            "press": "데일리안",
+            "title": "커지는 기술주 의구심…AI 투자도 '선택과 집중'",
+            "sentiment_score": 0.55127,
+            "associated_companies": 3,
+            "company_names": [
+              "DB증권",
+              "SK하이닉스",
+              "삼성전자"
             ]
           },
           {
@@ -606,620 +1198,48 @@
             "company_names": [
               "현대차"
             ]
-          },
-          {
-            "news_id": "88415b4e020fe520f24a3d319eafb809",
-            "published_at": "2026-07-28 05:59 KST",
-            "press": "파이낸셜뉴스",
-            "title": "시장 위축에 관세 불확실성까지…삼성·LG 가전 셈법 복잡",
-            "sentiment_score": 0.31877,
-            "associated_companies": 3,
-            "company_names": [
-              "LG",
-              "LG전자",
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "f99a0f7b9e88ee8515c3f9858c5b5323",
-            "published_at": "2026-07-28 05:55 KST",
-            "press": "세계일보",
-            "title": "‘갤Z 폴드8’ 역대 폴더블폰 최다 판매 예감",
-            "sentiment_score": 0.61293,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "34ac92cb0eb0520a8013964ea48cdfe3",
-            "published_at": "2026-07-28 05:50 KST",
-            "press": "동행미디어 시대",
-            "title": "'감염 서버' 숨긴 KT, 29일 개보위 제재 앞둬…과징금 상한 2000억",
-            "sentiment_score": 0.20168,
-            "associated_companies": 1,
-            "company_names": [
-              "KT"
-            ]
-          },
-          {
-            "news_id": "8dcc0743cb2347e9835061fd686d5b9d",
-            "published_at": "2026-07-28 05:50 KST",
-            "press": "머니투데이",
-            "title": "'금속의 플라스틱 전환' 현실로..LG화학 로봇커버 양산도 눈앞[R&D인사이드]",
-            "sentiment_score": 0.63293,
-            "associated_companies": 1,
-            "company_names": [
-              "LG화학"
-            ]
-          },
-          {
-            "news_id": "76213485d0bfb5d442d87943ac83c6d6",
-            "published_at": "2026-07-28 05:48 KST",
-            "press": "디지털타임스",
-            "title": "中 CXMT에 결국 발목 잡힌 반도체주…또 불안해진 삼전ㆍSK하닉",
-            "sentiment_score": 0.37793,
-            "associated_companies": 2,
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "b2bf9f9b74dabcc723471b0abe8d208c",
-            "published_at": "2026-07-28 05:46 KST",
-            "press": "연합뉴스",
-            "title": "뉴욕증시, 유가 급락 속 혼조 마감…반도체주 하락(종합)",
-            "sentiment_score": 0.34293,
-            "associated_companies": 1,
-            "company_names": [
-              "SK하이닉스"
-            ]
-          },
-          {
-            "news_id": "5d7330e6e27dfa75906c0ec944c59b6f",
-            "published_at": "2026-07-28 05:43 KST",
-            "press": "머니투데이",
-            "title": "반도체 매도세에 묻힌 美 이란 공습 중단[뉴욕마감]",
-            "sentiment_score": 0.38793,
-            "associated_companies": 1,
-            "company_names": [
-              "SK하이닉스"
-            ]
-          },
-          {
-            "news_id": "1526120ce02a8d605f43637af2b2111f",
-            "published_at": "2026-07-28 05:40 KST",
-            "press": "머니투데이",
-            "title": "\"화면 커질수록 OLED로\"…초대형 TV 시장 이끄는 LG전자",
-            "sentiment_score": 0.59793,
-            "associated_companies": 2,
-            "company_names": [
-              "LG",
-              "LG전자"
-            ]
-          },
-          {
-            "news_id": "6dbdc39161cb062e26b137f4fe71353c",
-            "published_at": "2026-07-28 05:38 KST",
-            "press": "뉴스1",
-            "title": "유가 8% 급락에 다우 0.5% 상승…나스닥은 AI 불안에 0.2% 하락[뉴욕마감]",
-            "sentiment_score": 0.32543,
-            "associated_companies": 1,
-            "company_names": [
-              "SK하이닉스"
-            ]
-          },
-          {
-            "news_id": "f43f446f746a2a95bf2d690f5017d92c",
-            "published_at": "2026-07-28 05:37 KST",
-            "press": "연합뉴스TV",
-            "title": "네이버, 10억 달러 유치…엔비디아가 3대 주주로",
-            "sentiment_score": 0.56293,
-            "associated_companies": 1,
-            "company_names": [
-              "NAVER"
-            ]
-          },
-          {
-            "news_id": "3bf5bb005cc7cb77322814852d28d9a1",
-            "published_at": "2026-07-28 05:31 KST",
-            "press": "조선일보",
-            "title": "삼전닉스 대신 이것, 지금 사도 안 늦는 하반기 주도주",
-            "sentiment_score": 0.53043,
-            "associated_companies": 3,
-            "company_names": [
-              "NH투자증권",
-              "SK하이닉스",
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "95cd05d3ddfc3d28267df2cd6578bd22",
-            "published_at": "2026-07-28 05:31 KST",
-            "press": "뉴스1",
-            "title": "SK하닉 ADR, 나스닥 상장가 밑으로…AI 랠리 식으며 공모가 4% 하회",
-            "sentiment_score": 0.34293,
-            "associated_companies": 1,
-            "company_names": [
-              "SK하이닉스"
-            ]
-          },
-          {
-            "news_id": "e391f259a338e6aa2fb24f4a03be52c1",
-            "published_at": "2026-07-28 05:31 KST",
-            "press": "서울경제",
-            "title": "AI가 바꾼 반도체 공급망…대만 수출 두 배 ‘껑충’, 중국은 비중 감소 [Pick코노미]",
-            "sentiment_score": 0.61418,
-            "associated_companies": 2,
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "38faed3a7290c133278886e130fa15e8",
-            "published_at": "2026-07-28 05:30 KST",
-            "press": "머니투데이",
-            "title": "배터리 덜어내자 전기차 가격 40%↓…현대차그룹 인도 EV 공략 가속화",
-            "sentiment_score": 0.59043,
-            "associated_companies": 2,
-            "company_names": [
-              "기아",
-              "현대차"
-            ]
-          },
-          {
-            "news_id": "9dd332cdaee2b81ddc467e2d6b14c06f",
-            "published_at": "2026-07-28 05:30 KST",
-            "press": "뉴시스",
-            "title": "\"新공장부터 HVAC까지\" 류재철 LG전자 대표, 남미서 '글로벌 사우스' 전략 점검",
-            "sentiment_score": 0.61793,
-            "associated_companies": 1,
-            "company_names": [
-              "LG전자"
-            ]
-          },
-          {
-            "news_id": "d13de4f8019bc0b0737474610a17bcd3",
-            "published_at": "2026-07-28 05:30 KST",
-            "press": "뉴시스",
-            "title": "SKC, ESS 훈풍에 동박 반등 신호…\"적자 줄고, 북미 비중 67% 확대\"",
-            "sentiment_score": 0.56043,
-            "associated_companies": 1,
-            "company_names": [
-              "SKC"
-            ]
-          },
-          {
-            "news_id": "7f3c9c2d16313d4a51f6ee256130c752",
-            "published_at": "2026-07-28 05:29 KST",
-            "press": "파이낸셜뉴스",
-            "title": "\"내년 메모리 시장 8000억달러 전망\"…삼성·SK 가격 협상력 커지나",
-            "sentiment_score": 0.59106,
-            "associated_companies": 4,
-            "company_names": [
-              "SK",
-              "SK하이닉스",
-              "대신증권",
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "9d43104512ba13b8f34751c1fc050c62",
-            "published_at": "2026-07-28 05:28 KST",
-            "press": "파이낸셜뉴스",
-            "title": "[뉴욕증시] 반도체 고전 속 나스닥 4일 연속 하락…엔비디아, 5% 급락",
-            "sentiment_score": 0.30668,
-            "associated_companies": 1,
-            "company_names": [
-              "SK하이닉스"
-            ]
-          },
-          {
-            "news_id": "4c2ae253f3d79209c63aadcbe22ec266",
-            "published_at": "2026-07-28 05:21 KST",
-            "press": "뉴스1",
-            "title": "엔비디아 5% 급락…'순환금융' 우려에 SK하닉 ADR 7% 넘게 후퇴",
-            "sentiment_score": 0.28168,
-            "associated_companies": 1,
-            "company_names": [
-              "SK하이닉스"
-            ]
-          },
-          {
-            "news_id": "436907378a9389e0054aec21c5200836",
-            "published_at": "2026-07-28 05:05 KST",
-            "press": "서울신문",
-            "title": "규제하면 더 빠진다?… 中증시 폭락이 남긴 레버리지 경고",
-            "sentiment_score": 0.3996,
-            "associated_companies": 3,
-            "company_names": [
-              "SK하이닉스",
-              "대신증권",
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "455ee903e4fa45df5750556bdbe39aed",
-            "published_at": "2026-07-28 05:05 KST",
-            "press": "서울신문",
-            "title": "코인원·코빗·업비트 짝 찾았는데… ‘사면초가’ 빗썸은 누구와 손잡나[경제 블로그]",
-            "sentiment_score": 0.53043,
-            "associated_companies": 5,
-            "company_names": [
-              "NAVER",
-              "카카오",
-              "카카오페이",
-              "키움증권",
-              "한국금융지주"
-            ]
-          },
-          {
-            "news_id": "51e6866df5bcc3f6cf50df35046a3254",
-            "published_at": "2026-07-28 05:05 KST",
-            "press": "서울신문",
-            "title": "한화오션 2분기 영업익 7361억… 98% 뛰어 분기 ‘최대 실적’",
-            "sentiment_score": 0.63043,
-            "associated_companies": 1,
-            "company_names": [
-              "한화오션"
-            ]
-          },
-          {
-            "news_id": "72f528192014a430f14d439e9baf7adf",
-            "published_at": "2026-07-28 05:05 KST",
-            "press": "서울신문",
-            "title": "열대야는 나가 놀아라!…에버랜드 ‘밤밤 썸머 나이트’",
-            "sentiment_score": 0.53293,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성물산"
-            ]
-          },
-          {
-            "news_id": "c949050d65c4a91fd418c87c583a61db",
-            "published_at": "2026-07-28 05:05 KST",
-            "press": "서울신문",
-            "title": "셀트리온, 2분기 역대 최대 분기 매출… “올해 5조클럽 초과 달성”",
-            "sentiment_score": 0.61293,
-            "associated_companies": 2,
-            "company_names": [
-              "삼성바이오로직스",
-              "셀트리온"
-            ]
-          },
-          {
-            "news_id": "d0c3dbddc969cc540930d55d9e3cf6df",
-            "published_at": "2026-07-28 05:05 KST",
-            "press": "서울신문",
-            "title": "LG전자 액체냉각 솔루션, 국내 최초 엔비디아 인증 획득",
-            "sentiment_score": 0.57793,
-            "associated_companies": 1,
-            "company_names": [
-              "LG전자"
-            ]
-          },
-          {
-            "news_id": "1d47ba06d472e8f94248157309ed2106",
-            "published_at": "2026-07-28 05:04 KST",
-            "press": "서울신문",
-            "title": "삼성전자, HBM5에 2나노 적용… “AI 반도체 시장 공략 속도”",
-            "sentiment_score": 0.62043,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "97f551855fe526f3cf90eaf15b4acaf5",
-            "published_at": "2026-07-28 05:04 KST",
-            "press": "서울신문",
-            "title": "엔비디아가 3대 주주로… “네이버, AI 팩토리 승부”",
-            "sentiment_score": 0.57793,
-            "associated_companies": 2,
-            "company_names": [
-              "NAVER",
-              "가온전선"
-            ]
-          },
-          {
-            "news_id": "8316cb93989e00eb04f51916ed1f6eb9",
-            "published_at": "2026-07-28 05:03 KST",
-            "press": "연합뉴스TV",
-            "title": "금감원, 엘앤에프 정정공시 관련 거래소 압수수색",
-            "sentiment_score": 0.26543,
-            "associated_companies": 1,
-            "company_names": [
-              "엘앤에프"
-            ]
-          },
-          {
-            "news_id": "079b47d8b969f4f3056ae20cf67d047c",
-            "published_at": "2026-07-28 05:02 KST",
-            "press": "뉴시스",
-            "title": "\"8000억 풀린다\"…삼전 행사에 전통시장도 '들썩'",
-            "sentiment_score": 0.58293,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "0cd61ba456f622474896584c93a037d4",
-            "published_at": "2026-07-28 05:02 KST",
-            "press": "이데일리",
-            "title": "CXMT의 공습…\"K메모리 살 길은 한미 AI동맹\"",
-            "sentiment_score": 0.62668,
-            "associated_companies": 2,
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "226c70add0b2398b4fdca928a86e30eb",
-            "published_at": "2026-07-28 05:02 KST",
-            "press": "이데일리",
-            "title": "범용D램 넘어 HBM까지 노리는 中…韓, AI칩 초격차 속도내야",
-            "sentiment_score": 0.56168,
-            "associated_companies": 2,
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "2e121dfc2abbb2d0613cf24d020e6607",
-            "published_at": "2026-07-28 05:02 KST",
-            "press": "세계일보",
-            "title": "[경제 단신] 현대차, 한·중앙아 정상회의 차량 지원 외",
-            "sentiment_score": 0.63877,
-            "associated_companies": 3,
-            "company_names": [
-              "지역난방공사",
-              "한국타이어앤테크놀로지",
-              "현대차"
-            ]
-          },
-          {
-            "news_id": "81de1a958d98fed34bcab0dad3c0f83d",
-            "published_at": "2026-07-28 05:02 KST",
-            "press": "세계일보",
-            "title": "[이코노 브리핑] 고팍스, 새 대표 AWS출신 김나영 선임 외",
-            "sentiment_score": 0.54043,
-            "associated_companies": 2,
-            "company_names": [
-              "신한지주",
-              "한국금융지주"
-            ]
-          },
-          {
-            "news_id": "8dd49431142ecca6f2869af42366fd02",
-            "published_at": "2026-07-28 05:02 KST",
-            "press": "세계일보",
-            "title": "소상공인 대출문턱 낮춰… 16개 은행서 2.2조 공급 [경제 레이더]",
-            "sentiment_score": 0.6246,
-            "associated_companies": 3,
-            "company_names": [
-              "iM금융지주",
-              "제주은행",
-              "카카오"
-            ]
-          },
-          {
-            "news_id": "8f440a2bab70321cb52eda70394e6278",
-            "published_at": "2026-07-28 05:02 KST",
-            "press": "이데일리",
-            "title": "\"값싼 중국산 메모리 쓰겠다\"는 애플…삼전닉스 범용 주도권 흔들릴 판",
-            "sentiment_score": 0.3721,
-            "associated_companies": 3,
-            "company_names": [
-              "SK",
-              "SK하이닉스",
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "cf1ec481618d9ffb09a2e79a200f3c83",
-            "published_at": "2026-07-28 05:02 KST",
-            "press": "국민일보",
-            "title": "증시 활황에 증권사 ‘수수료’ 잭팟…“하반기 거래대금이 관건”",
-            "sentiment_score": 0.60543,
-            "associated_companies": 4,
-            "company_names": [
-              "NH투자증권",
-              "신한지주",
-              "우리금융지주",
-              "하나금융지주"
-            ]
-          },
-          {
-            "news_id": "3a0c9332fbd63d38bf6aee58b972aa3e",
-            "published_at": "2026-07-28 05:01 KST",
-            "press": "노컷뉴스",
-            "title": "'메타 독점' AI안경 시장…삼성 '갤럭시 생태계' 앞세워 도전장",
-            "sentiment_score": 0.60543,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "63e90db07fd3783ca2b8761eb900546f",
-            "published_at": "2026-07-28 05:01 KST",
-            "press": "노컷뉴스",
-            "title": "금투업계 만나는 당국, 단일종목 레버리지 쏠림 제동 걸릴까",
-            "sentiment_score": 0.42418,
-            "associated_companies": 2,
-            "company_names": [
-              "삼성생명",
-              "한국금융지주"
-            ]
-          },
-          {
-            "news_id": "d5406e77bad9810e3ae4e398b34c151f",
-            "published_at": "2026-07-28 05:01 KST",
-            "press": "서울경제",
-            "title": "“백화점 대신 카톡에서 명품 쇼핑을”…카톡 선물하기, ‘미우미우’ 입점",
-            "sentiment_score": 0.61043,
-            "associated_companies": 1,
-            "company_names": [
-              "카카오"
-            ]
-          },
-          {
-            "news_id": "0a539a85710207820c08b07606b494c0",
-            "published_at": "2026-07-28 05:00 KST",
-            "press": "뉴시스",
-            "title": "\"밖은 위험해\" 폭염 속 유통가, 실내 콘텐츠로 '몰캉스족' 잡는다",
-            "sentiment_score": 0.60043,
-            "associated_companies": 1,
-            "company_names": [
-              "현대백화점"
-            ]
-          },
-          {
-            "news_id": "3cd3358adb351800587b58efb0a5ecc9",
-            "published_at": "2026-07-28 05:00 KST",
-            "press": "중앙일보",
-            "title": "“가장 두려운 경쟁자”…상장날 466% 폭등, CXMT 공포",
-            "sentiment_score": 0.57668,
-            "associated_companies": 2,
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "415a3f185d2bb7852db537feeb666b30",
-            "published_at": "2026-07-28 05:00 KST",
-            "press": "한국일보",
-            "title": "포털 '다음' 운영사 AXZ, 다음으로 사명 변경",
-            "sentiment_score": 0.56043,
-            "associated_companies": 1,
-            "company_names": [
-              "카카오"
-            ]
-          },
-          {
-            "news_id": "4a303974c913cb19b11d004f78861c90",
-            "published_at": "2026-07-28 05:00 KST",
-            "press": "중앙일보",
-            "title": "“삼전 37만·SK하닉 298만원…전고점, 이 날짜에 회복한다”",
-            "sentiment_score": 0.51918,
-            "associated_companies": 2,
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "7faf347af79b980a3d9c1b7e393b889e",
-            "published_at": "2026-07-28 05:00 KST",
-            "press": "머니투데이",
-            "title": "\"A/S계 쿠팡 자리매김\"… 200억 신규 투자유치 나선 마이스터즈",
-            "sentiment_score": 0.50043,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성증권"
-            ]
-          },
-          {
-            "news_id": "9b2ccafed44a468339a71378e56e2a5e",
-            "published_at": "2026-07-28 05:00 KST",
-            "press": "동행미디어 시대",
-            "title": "카드사 상반기 성적표…은행계 치고 나가고 삼성은 주춤",
-            "sentiment_score": 0.58752,
-            "associated_companies": 6,
-            "company_names": [
-              "KB금융",
-              "삼성카드",
-              "신한지주",
-              "우리금융지주",
-              "하나금융지주",
-              "현대차"
-            ]
-          },
-          {
-            "news_id": "f7cfb56bab9787e00033f40f1d7cee99",
-            "published_at": "2026-07-28 05:00 KST",
-            "press": "뉴시스",
-            "title": "AI 훈풍에 '반도체 기판' 성장세…LG이노텍, 카메라모듈 의존도 낮춘다",
-            "sentiment_score": 0.63043,
-            "associated_companies": 1,
-            "company_names": [
-              "LG이노텍"
-            ]
-          },
-          {
-            "news_id": "c2c8725ee61cbe14e86757d1c04303a1",
-            "published_at": "2026-07-28 04:50 KST",
-            "press": "머니투데이",
-            "title": "신제품 통했다… 셀트리온 실적 신기록",
-            "sentiment_score": 0.63043,
-            "associated_companies": 1,
-            "company_names": [
-              "셀트리온"
-            ]
-          },
-          {
-            "news_id": "943e2795412b7f2aeb6a980d370a605d",
-            "published_at": "2026-07-28 04:33 KST",
-            "press": "동아일보",
-            "title": "14조원 실탄 확보한 中 CXMT… 메모리 수급난 틈타 韓 추격",
-            "sentiment_score": 0.61377,
-            "associated_companies": 3,
-            "company_names": [
-              "SK",
-              "SK하이닉스",
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "da50bca252d49b1e79cf53b7f14de179",
-            "published_at": "2026-07-28 04:32 KST",
-            "press": "동아일보",
-            "title": "2배 레버리지에 ‘홀짝판’ 된 증시… 43회 멈추고 1.8조 강제청산",
-            "sentiment_score": 0.25168,
-            "associated_companies": 2,
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "5ab79040854d78fe01810ba56e567a99",
-            "published_at": "2026-07-28 04:30 KST",
-            "press": "머니투데이",
-            "title": "머니투데이 오프라인 헤드라인-28일",
-            "sentiment_score": 0.56793,
-            "associated_companies": 4,
-            "company_names": [
-              "LG",
-              "NAVER",
-              "SK이노베이션",
-              "SK하이닉스"
-            ]
-          },
-          {
-            "news_id": "6ccc14edce24cb06bb21824137847871",
-            "published_at": "2026-07-28 04:30 KST",
-            "press": "머니투데이",
-            "title": "수도권 '알짜' 집중하는 중견건설사",
-            "sentiment_score": 0.61293,
-            "associated_companies": 1,
-            "company_names": [
-              "남광토건"
-            ]
           }
         ],
         "hankyung": [
           {
+            "news_id": "a048b79a0b3e9e24b114b4c1de87f403",
+            "published_at": "2026-07-28 08:04 KST",
+            "press": "한국경제",
+            "title": "\"네이버, 엔비디아 투자 이어 연말 두나무 합병으로 밸류업\"-하나",
+            "sentiment_score": 0.54918,
+            "associated_companies": 2,
+            "company_names": [
+              "NAVER",
+              "하나금융지주"
+            ]
+          },
+          {
+            "news_id": "46422d0d946af76502238f993eb12398",
+            "published_at": "2026-07-28 08:03 KST",
+            "press": "한국경제",
+            "title": "\"RF머트리얼즈, 루멘텀 패키지 출하 확대 본격화…목표가↑\"-한국",
+            "sentiment_score": 0.50043,
+            "associated_companies": 1,
+            "company_names": [
+              "한국금융지주"
+            ]
+          },
+          {
+            "news_id": "7a73c1a11366a857d975a135123fac8c",
+            "published_at": "2026-07-28 08:00 KST",
+            "press": "한국경제",
+            "title": "이일환 \"고객이 원하면 더 넓은 화면의 삼성 폴더블폰도 고려\"",
+            "sentiment_score": 0.59293,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성전자"
+            ]
+          },
+          {
             "news_id": "ed87bd9595e5c1d9593ea46727ffd959",
             "published_at": "2026-07-28 07:53 KST",
             "press": "한국경제",
-            "title": "\"삼전닉스 레버리지, 日까지 흔들어\"...증시 변동성 확산 [도쿄나우]",
+            "title": "\"삼전닉스 레버리지, 日까지 흔들어\"…증시 변동성 확산 [도쿄나우]",
             "sentiment_score": 0.39168,
             "associated_companies": 2,
             "company_names": [
@@ -1313,7 +1333,7 @@
     },
     "KOSDAQ": {
       "score": null,
-      "text_pulse": -0.94568,
+      "text_pulse": -0.83555,
       "previous_final": -0.01529,
       "index": {
         "price": 764.86,
@@ -1325,19 +1345,19 @@
       },
       "components": {
         "discussion": {
-          "score": -0.62817,
-          "observations": 499,
-          "coverage": 0.1844
+          "score": -0.49892,
+          "observations": 843,
+          "coverage": 0.1779
         },
         "news": {
-          "score": -1.66009,
-          "observations": 11,
-          "coverage": 0.4
+          "score": -1.59298,
+          "observations": 16,
+          "coverage": 0.451
         },
         "news_hankyung": {
-          "score": -1.34627,
+          "score": -0.69891,
           "observations": 1,
-          "coverage": 0.1429
+          "coverage": 0.25
         },
         "market": {
           "score": null,
@@ -1348,6 +1368,83 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "46422d0d946af76502238f993eb12398",
+            "published_at": "2026-07-28 08:03 KST",
+            "press": "한국경제",
+            "title": "\"RF머트리얼즈, 루멘텀 패키지 출하 확대 본격화…목표가↑\"-한국",
+            "sentiment_score": 0.63043,
+            "associated_companies": 1,
+            "company_names": [
+              "RF머트리얼즈"
+            ]
+          },
+          {
+            "news_id": "2852c81570f43a00e81b14af185e6eaa",
+            "published_at": "2026-07-28 07:40 KST",
+            "press": "아시아경제",
+            "title": "곁들임·조리 양념도 건강하게 먹는다…소스에 부는 '저당 열풍'",
+            "sentiment_score": 0.58543,
+            "associated_companies": 1,
+            "company_names": [
+              "엠브레인"
+            ]
+          },
+          {
+            "news_id": "6fc542b5120c78aca78747ad85f3f5b3",
+            "published_at": "2026-07-28 07:40 KST",
+            "press": "비즈워치",
+            "title": "700억 절감·경영권 유지…코인원의 '영리한 딜'",
+            "sentiment_score": 0.56793,
+            "associated_companies": 1,
+            "company_names": [
+              "컴투스홀딩스"
+            ]
+          },
+          {
+            "news_id": "dbc20527c9a983af03eddac31b188aad",
+            "published_at": "2026-07-28 07:30 KST",
+            "press": "비즈워치",
+            "title": "먹는 위고비?…소비자 노리는 의약품 오인 광고",
+            "sentiment_score": 0.37543,
+            "associated_companies": 1,
+            "company_names": [
+              "파마리서치"
+            ]
+          },
+          {
+            "news_id": "164656a44deb95a3de9d1b371634dfce",
+            "published_at": "2026-07-28 07:09 KST",
+            "press": "YTN",
+            "title": "7월 28일 화 경제 캘린더",
+            "sentiment_score": 0.48043,
+            "associated_companies": 1,
+            "company_names": [
+              "YTN"
+            ]
+          },
+          {
+            "news_id": "a5147a48faeb170f0c9ef2c55d66506a",
+            "published_at": "2026-07-28 07:09 KST",
+            "press": "머니투데이",
+            "title": "디알텍, 산업용 디텍터+씨암 글로벌 공략 순항…\"장기 공급 계약 기대\"",
+            "sentiment_score": 0.64543,
+            "associated_companies": 1,
+            "company_names": [
+              "디알텍"
+            ]
+          },
+          {
+            "news_id": "a12ec5cb556bf18b293feefd4c47c577",
+            "published_at": "2026-07-28 07:05 KST",
+            "press": "서울경제",
+            "title": "예비부부 신혼 침대 구매 트렌드 분석해보니",
+            "sentiment_score": 0.61043,
+            "associated_companies": 1,
+            "company_names": [
+              "에이스침대"
+            ]
+          },
           {
             "news_id": "ded3ec5afe864fcc1d8285cb33d703f3",
             "published_at": "2026-07-28 06:59 KST",
@@ -1527,6 +1624,17 @@
         ],
         "hankyung": [
           {
+            "news_id": "46422d0d946af76502238f993eb12398",
+            "published_at": "2026-07-28 08:03 KST",
+            "press": "한국경제",
+            "title": "\"RF머트리얼즈, 루멘텀 패키지 출하 확대 본격화…목표가↑\"-한국",
+            "sentiment_score": 0.63043,
+            "associated_companies": 1,
+            "company_names": [
+              "RF머트리얼즈"
+            ]
+          },
+          {
             "news_id": "f7fbc6ec6a009f001787c4e6b5aee54f",
             "published_at": "2026-07-28 06:30 KST",
             "press": "한국경제",
@@ -1543,16 +1651,16 @@
   },
   "sources": {
     "discussion": {
-      "latest_event": "2026-07-28 07:03 KST",
-      "latest_seen": "2026-07-28 07:26 KST",
-      "active_minutes": 67,
-      "observations": 3737
+      "latest_event": "2026-07-28 08:08 KST",
+      "latest_seen": "2026-07-28 08:09 KST",
+      "active_minutes": 76,
+      "observations": 4660
     },
     "news": {
-      "latest_event": "2026-07-28 07:58 KST",
-      "latest_seen": "2026-07-28 07:59 KST",
-      "active_minutes": 41,
-      "observations": 259
+      "latest_event": "2026-07-28 08:06 KST",
+      "latest_seen": "2026-07-28 08:08 KST",
+      "active_minutes": 48,
+      "observations": 350
     },
     "market": {
       "latest_event": null,
