@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-27 11:45 KST",
+  "as_of": "2026-07-27 11:50 KST",
   "event_date": "2026-07-27",
   "market_session": {
     "status": "trading",
@@ -8,15 +8,15 @@
   },
   "boards": {
     "KOSPI": {
-      "score": -0.02277,
-      "text_pulse": 0.01676,
+      "score": -0.10709,
+      "text_pulse": 0.0132,
       "previous_final": -1.66622,
       "index": {
-        "price": 6656.09,
+        "price": 6621.58,
         "prev_close": 6690.62,
-        "change": -34.53,
-        "change_pct": -0.52,
-        "as_of": "2026-07-27 11:45 KST",
+        "change": -69.04,
+        "change_pct": -1.03,
+        "as_of": "2026-07-27 11:50 KST",
         "live": true
       },
       "components": {
@@ -26,9 +26,9 @@
           "coverage": 0.1355
         },
         "news": {
-          "score": 0.19397,
-          "observations": 1160,
-          "coverage": 0.8254
+          "score": 0.1824,
+          "observations": 1162,
+          "coverage": 0.8244
         },
         "news_hankyung": {
           "score": -0.25467,
@@ -36,7 +36,7 @@
           "coverage": 0.9118
         },
         "market": {
-          "score": -0.09619,
+          "score": -0.33048,
           "confidence": 1.0,
           "observations": 915,
           "coverage": 1.0
@@ -716,6 +716,17 @@
             ]
           },
           {
+            "news_id": "e7c7472b7c23286524458dc1d86fd22a",
+            "published_at": "2026-07-27 11:23 KST",
+            "press": "EBN",
+            "title": "두부 이어 김치까지…풀무원, 미국 식탁 공략 '잰걸음'",
+            "sentiment_score": 0.63293,
+            "associated_companies": 1,
+            "company_names": [
+              "풀무원"
+            ]
+          },
+          {
             "news_id": "3f275e7d844bb572ad4467c24533f8be",
             "published_at": "2026-07-27 11:23 KST",
             "press": "조선비즈",
@@ -1215,19 +1226,6 @@
             "company_names": [
               "대한항공",
               "삼성생명"
-            ]
-          },
-          {
-            "news_id": "bf5107b487f101e639f25713931e5a0c",
-            "published_at": "2026-07-27 11:12 KST",
-            "press": "헤럴드경제",
-            "title": "한국투자증권, 코인원과 주식 투자 연결…첫 협업",
-            "sentiment_score": 0.5671,
-            "associated_companies": 3,
-            "company_names": [
-              "NAVER",
-              "삼성전자",
-              "한국금융지주"
             ]
           }
         ],
@@ -1792,15 +1790,15 @@
       }
     },
     "KOSDAQ": {
-      "score": 0.52548,
-      "text_pulse": 0.38171,
+      "score": 0.45132,
+      "text_pulse": 0.37821,
       "previous_final": -0.56353,
       "index": {
-        "price": 764.19,
+        "price": 761.14,
         "prev_close": 748.22,
-        "change": 15.97,
-        "change_pct": 2.13,
-        "as_of": "2026-07-27 11:45 KST",
+        "change": 12.92,
+        "change_pct": 1.73,
+        "as_of": "2026-07-27 11:50 KST",
         "live": true
       },
       "components": {
@@ -1810,9 +1808,9 @@
           "coverage": 0.1289
         },
         "news": {
-          "score": 0.58109,
-          "observations": 231,
-          "coverage": 0.6942
+          "score": 0.56973,
+          "observations": 232,
+          "coverage": 0.6779
         },
         "news_hankyung": {
           "score": 0.90157,
@@ -1820,7 +1818,7 @@
           "coverage": 0.9231
         },
         "market": {
-          "score": 0.79248,
+          "score": 0.58708,
           "confidence": 1.0,
           "observations": 1803,
           "coverage": 1.0
@@ -3192,13 +3190,13 @@
     },
     "news": {
       "latest_event": "2026-07-27 11:44 KST",
-      "latest_seen": "2026-07-27 11:45 KST",
-      "active_minutes": 161,
+      "latest_seen": "2026-07-27 11:50 KST",
+      "active_minutes": 162,
       "observations": 1776
     },
     "market": {
       "latest_event": "2026-07-27",
-      "latest_seen": "2026-07-27 11:45 KST",
+      "latest_seen": "2026-07-27 11:50 KST",
       "active_minutes": null,
       "intraday": true,
       "status_record_available": true
