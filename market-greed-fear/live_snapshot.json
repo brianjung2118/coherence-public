@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-27 12:09 KST",
+  "as_of": "2026-07-27 12:14 KST",
   "event_date": "2026-07-27",
   "market_session": {
     "status": "trading",
@@ -8,27 +8,27 @@
   },
   "boards": {
     "KOSPI": {
-      "score": -0.12292,
-      "text_pulse": -0.00882,
+      "score": -0.08541,
+      "text_pulse": -0.00549,
       "previous_final": -1.66622,
       "index": {
-        "price": 6622.16,
+        "price": 6645.3,
         "prev_close": 6690.62,
-        "change": -68.46,
-        "change_pct": -1.02,
-        "as_of": "2026-07-27 12:09 KST",
+        "change": -45.32,
+        "change_pct": -0.68,
+        "as_of": "2026-07-27 12:14 KST",
         "live": true
       },
       "components": {
         "discussion": {
-          "score": -0.12165,
-          "observations": 19827,
-          "coverage": 0.1341
+          "score": -0.12253,
+          "observations": 19966,
+          "coverage": 0.1344
         },
         "news": {
-          "score": 0.24506,
-          "observations": 1205,
-          "coverage": 0.8228
+          "score": 0.25787,
+          "observations": 1207,
+          "coverage": 0.8223
         },
         "news_hankyung": {
           "score": 0.32751,
@@ -36,7 +36,7 @@
           "coverage": 0.9143
         },
         "market": {
-          "score": -0.33482,
+          "score": -0.23384,
           "confidence": 1.0,
           "observations": 915,
           "coverage": 1.0
@@ -44,6 +44,18 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "248daabf8f16fc986d517a438609a114",
+            "published_at": "2026-07-27 12:05 KST",
+            "press": "노컷뉴스",
+            "title": "히트펌프가 가스보일러 대체할까…삼성, EHS 올인원 실증 착수",
+            "sentiment_score": 0.61668,
+            "associated_companies": 2,
+            "company_names": [
+              "삼성물산",
+              "삼성전자"
+            ]
+          },
           {
             "news_id": "4c47a825dd537f3e7d70e562f0943705",
             "published_at": "2026-07-27 12:01 KST",
@@ -1228,19 +1240,6 @@
               "현대차",
               "현대차증권"
             ]
-          },
-          {
-            "news_id": "ecfc26d4ace4c5f406f251527400dfa7",
-            "published_at": "2026-07-27 11:23 KST",
-            "press": "디지털데일리",
-            "title": "앞다퉈 '국중박'으로…유통업계, 새 격전지 된 이곳",
-            "sentiment_score": 0.60543,
-            "associated_companies": 3,
-            "company_names": [
-              "교촌에프앤비",
-              "롯데지주",
-              "종근당홀딩스"
-            ]
           }
         ],
         "hankyung": [
@@ -1827,21 +1826,21 @@
       }
     },
     "KOSDAQ": {
-      "score": 0.44773,
-      "text_pulse": 0.40494,
+      "score": 0.47228,
+      "text_pulse": 0.40495,
       "previous_final": -0.56353,
       "index": {
-        "price": 759.86,
+        "price": 761.84,
         "prev_close": 748.22,
-        "change": 11.64,
-        "change_pct": 1.56,
-        "as_of": "2026-07-27 12:09 KST",
+        "change": 13.62,
+        "change_pct": 1.82,
+        "as_of": "2026-07-27 12:14 KST",
         "live": true
       },
       "components": {
         "discussion": {
-          "score": 0.35521,
-          "observations": 8115,
+          "score": 0.35522,
+          "observations": 8147,
           "coverage": 0.1268
         },
         "news": {
@@ -1855,7 +1854,7 @@
           "coverage": 0.9231
         },
         "market": {
-          "score": 0.52721,
+          "score": 0.59732,
           "confidence": 1.0,
           "observations": 1803,
           "coverage": 1.0
@@ -3220,19 +3219,19 @@
   "sources": {
     "discussion": {
       "latest_event": "2026-07-27 12:04 KST",
-      "latest_seen": "2026-07-27 12:09 KST",
-      "active_minutes": 144,
-      "observations": 28506
+      "latest_seen": "2026-07-27 12:14 KST",
+      "active_minutes": 149,
+      "observations": 28677
     },
     "news": {
-      "latest_event": "2026-07-27 12:02 KST",
-      "latest_seen": "2026-07-27 12:05 KST",
-      "active_minutes": 168,
-      "observations": 1852
+      "latest_event": "2026-07-27 12:12 KST",
+      "latest_seen": "2026-07-27 12:13 KST",
+      "active_minutes": 170,
+      "observations": 1866
     },
     "market": {
       "latest_event": "2026-07-27",
-      "latest_seen": "2026-07-27 12:09 KST",
+      "latest_seen": "2026-07-27 12:14 KST",
       "active_minutes": null,
       "intraday": true,
       "status_record_available": true
