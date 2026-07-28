@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-29 00:52 KST",
+  "as_of": "2026-07-29 01:02 KST",
   "event_date": "2026-07-29",
   "market_session": {
     "status": "unconfirmed",
@@ -9,7 +9,7 @@
   "boards": {
     "KOSPI": {
       "score": null,
-      "text_pulse": null,
+      "text_pulse": -0.63469,
       "previous_final": -0.86415,
       "index": {
         "price": 6023.66,
@@ -26,14 +26,14 @@
           "coverage": 0.1081
         },
         "news": {
-          "score": null,
-          "observations": 0,
-          "coverage": 0.0
+          "score": -1.72157,
+          "observations": 11,
+          "coverage": 0.7241
         },
         "news_hankyung": {
-          "score": null,
-          "observations": 0,
-          "coverage": 0.0
+          "score": -2.40779,
+          "observations": 1,
+          "coverage": 0.8
         },
         "market": {
           "score": null,
@@ -43,8 +43,145 @@
         }
       },
       "news_articles": {
-        "all": [],
-        "hankyung": []
+        "all": [
+          {
+            "news_id": "6db1bf88376f42b927e16f082d8162c5",
+            "published_at": "2026-07-29 00:59 KST",
+            "press": "한국경제",
+            "title": "월가, 이젠 한국 증시보고 투자 결정한다[박신영의 개장전 요것만]",
+            "sentiment_score": 0.50801,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "037bf44844266c36936a4135a32e8912",
+            "published_at": "2026-07-29 00:53 KST",
+            "press": "국민일보",
+            "title": "임산부부터 장애인까지… 현대차·기아 ‘PBV 전략’ 가속",
+            "sentiment_score": 0.69802,
+            "associated_companies": 2,
+            "company_names": [
+              "기아",
+              "현대차"
+            ]
+          },
+          {
+            "news_id": "f9f92be8c99010d133b1976d5fdef0bc",
+            "published_at": "2026-07-29 00:51 KST",
+            "press": "한국경제",
+            "title": "AI가 엮은 운명…코스피와 나스닥 100 동조화",
+            "sentiment_score": 0.41176,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "2748718a0425cc4ceaa2db4f5dec72d6",
+            "published_at": "2026-07-29 00:37 KST",
+            "press": "SBS",
+            "title": "'기록적' 폭락 왜?…미국 금리·빅테크 실적이 '가늠자'",
+            "sentiment_score": 0.34739,
+            "associated_companies": 4,
+            "company_names": [
+              "SK하이닉스",
+              "iM금융지주",
+              "삼성전자",
+              "키움증권"
+            ]
+          },
+          {
+            "news_id": "22208380e6e511c03b39f0a8f3f8cf63",
+            "published_at": "2026-07-29 00:35 KST",
+            "press": "조선일보",
+            "title": "로봇 동선까지 고려… 주택 설계 공식 바뀐다",
+            "sentiment_score": 0.66385,
+            "associated_companies": 3,
+            "company_names": [
+              "GS건설",
+              "LG전자",
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "03fa9fb6cdb44460bab60da12cfa91e5",
+            "published_at": "2026-07-29 00:31 KST",
+            "press": "동아일보",
+            "title": "한화시스템 영업익 1037억, 1년새 219% 증가",
+            "sentiment_score": 0.67885,
+            "associated_companies": 3,
+            "company_names": [
+              "한화생명",
+              "한화시스템",
+              "한화에어로스페이스"
+            ]
+          },
+          {
+            "news_id": "ea97501e602da14c14686a737b1c4f4a",
+            "published_at": "2026-07-29 00:31 KST",
+            "press": "동아일보",
+            "title": "카카오, ‘카나나-2’ 4종 개방… 폰으로 구동 가능한 경량 AI",
+            "sentiment_score": 0.62301,
+            "associated_companies": 1,
+            "company_names": [
+              "카카오"
+            ]
+          },
+          {
+            "news_id": "2921a12e7ffe7ca167548e453e8c3317",
+            "published_at": "2026-07-29 00:25 KST",
+            "press": "중앙일보",
+            "title": "반도체주 급락 뒤엔 중국 굴기…“노광장비도 생산 시작”",
+            "sentiment_score": 0.39552,
+            "associated_companies": 1,
+            "company_names": [
+              "키움증권"
+            ]
+          },
+          {
+            "news_id": "47625fd1adaea95f3b6a1243d56d2129",
+            "published_at": "2026-07-29 00:10 KST",
+            "press": "국민일보",
+            "title": "“외국인, 코스피 이익 올라 급하게 판 것… 매도세 잦아들 가능성 크다”",
+            "sentiment_score": 0.47635,
+            "associated_companies": 3,
+            "company_names": [
+              "NH투자증권",
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          }
+        ],
+        "hankyung": [
+          {
+            "news_id": "6db1bf88376f42b927e16f082d8162c5",
+            "published_at": "2026-07-29 00:59 KST",
+            "press": "한국경제",
+            "title": "월가, 이젠 한국 증시보고 투자 결정한다[박신영의 개장전 요것만]",
+            "sentiment_score": 0.50801,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "f9f92be8c99010d133b1976d5fdef0bc",
+            "published_at": "2026-07-29 00:51 KST",
+            "press": "한국경제",
+            "title": "AI가 엮은 운명…코스피와 나스닥 100 동조화",
+            "sentiment_score": 0.41176,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          }
+        ]
       }
     },
     "KOSDAQ": {
@@ -96,10 +233,10 @@
       "observations": 52
     },
     "news": {
-      "latest_event": "2026-07-29 00:47 KST",
-      "latest_seen": "2026-07-29 00:48 KST",
-      "active_minutes": 4,
-      "observations": 8
+      "latest_event": "2026-07-29 00:59 KST",
+      "latest_seen": "2026-07-29 01:02 KST",
+      "active_minutes": 7,
+      "observations": 37
     },
     "market": {
       "latest_event": null,
