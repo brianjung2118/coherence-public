@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-28 19:23 KST",
+  "as_of": "2026-07-28 19:33 KST",
   "event_date": "2026-07-28",
   "market_session": {
     "status": "trading",
@@ -8,8 +8,8 @@
   },
   "boards": {
     "KOSPI": {
-      "score": -3.67542,
-      "text_pulse": -3.73852,
+      "score": -3.69533,
+      "text_pulse": -3.76506,
       "previous_final": -0.88783,
       "index": {
         "price": 6023.66,
@@ -21,19 +21,19 @@
       },
       "components": {
         "discussion": {
-          "score": -4.23108,
-          "observations": 61821,
-          "coverage": 0.1298
+          "score": -4.26773,
+          "observations": 62993,
+          "coverage": 0.1299
         },
         "news": {
-          "score": -2.75341,
-          "observations": 1896,
-          "coverage": 0.7987
+          "score": -2.75974,
+          "observations": 1900,
+          "coverage": 0.7989
         },
         "news_hankyung": {
-          "score": -2.96387,
-          "observations": 107,
-          "coverage": 0.786
+          "score": -3.16524,
+          "observations": 108,
+          "coverage": 0.7875
         },
         "market": {
           "score": -3.48614,
@@ -44,6 +44,55 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "1a9bd48dbb646f4876457b85a97cb3bb",
+            "published_at": "2026-07-28 19:31 KST",
+            "press": "한국경제",
+            "title": "AI순환금융우려에 中반도체쇼크…글로벌 반도체주 '최악의 날'",
+            "sentiment_score": 0.28239,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "92440f61ab352ec92b525d5b76c87236",
+            "published_at": "2026-07-28 19:27 KST",
+            "press": "이데일리",
+            "title": "[마켓인]정부 7000억 지원에 석화업계 ‘숨통’…신용도 강등 멈출까",
+            "sentiment_score": 0.38051,
+            "associated_companies": 4,
+            "company_names": [
+              "DL",
+              "롯데케미칼",
+              "하나금융지주",
+              "한화솔루션"
+            ]
+          },
+          {
+            "news_id": "9a5986e8db7b816f051ecc488a1c1951",
+            "published_at": "2026-07-28 19:21 KST",
+            "press": "KBS",
+            "title": "대한항공, 구마모토행 항공편 결항…“지진으로 현지 활주로 폐쇄”",
+            "sentiment_score": 0.30051,
+            "associated_companies": 1,
+            "company_names": [
+              "대한항공"
+            ]
+          },
+          {
+            "news_id": "ef01f60b5f23e61c99b4582bac7b74ac",
+            "published_at": "2026-07-28 19:20 KST",
+            "press": "KBS",
+            "title": "기후부, 전남광주 반도체 전력공급 첫 회의",
+            "sentiment_score": 0.66051,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
           {
             "news_id": "3a891eb0b2536f6d431dbadd3dbec63e",
             "published_at": "2026-07-28 19:11 KST",
@@ -1180,58 +1229,21 @@
             "company_names": [
               "하이브"
             ]
-          },
-          {
-            "news_id": "39fe8cebaedc3fce1e8c70f8650608c5",
-            "published_at": "2026-07-28 17:37 KST",
-            "press": "한국경제",
-            "title": "[단독] 장상욱 \"2년간 고강도 사업재편…내년 영업익 30%\"",
-            "sentiment_score": 0.55051,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "6b8112e66874ad62a487ba68e21ca1fd",
-            "published_at": "2026-07-28 17:37 KST",
-            "press": "매일신문",
-            "title": "\"검은 화요일\" 코스피 10.84%↓…사이드카·서킷브레이커 잇달아",
-            "sentiment_score": 0.29176,
-            "associated_companies": 1,
-            "company_names": [
-              "SK하이닉스"
-            ]
-          },
-          {
-            "news_id": "899d948adcff53842f383cbb6a0695c0",
-            "published_at": "2026-07-28 17:37 KST",
-            "press": "조세일보",
-            "title": "삼성물산·삼성E&A·삼성중공업, 평택 P4 공사 8542억 증액 [공시pick]",
-            "sentiment_score": 0.66802,
-            "associated_companies": 4,
-            "company_names": [
-              "삼성E&A",
-              "삼성물산",
-              "삼성전자",
-              "삼성중공업"
-            ]
-          },
-          {
-            "news_id": "e04d363c2897abadef71c491105b4c63",
-            "published_at": "2026-07-28 17:37 KST",
-            "press": "국민일보",
-            "title": "크래프톤 ‘분기 1조’ 굳히기… 게임업계 2분기 양극화 심화",
-            "sentiment_score": 0.52968,
-            "associated_companies": 3,
-            "company_names": [
-              "NC",
-              "크래프톤",
-              "하나금융지주"
-            ]
           }
         ],
         "hankyung": [
+          {
+            "news_id": "1a9bd48dbb646f4876457b85a97cb3bb",
+            "published_at": "2026-07-28 19:31 KST",
+            "press": "한국경제",
+            "title": "AI순환금융우려에 中반도체쇼크…글로벌 반도체주 '최악의 날'",
+            "sentiment_score": 0.28239,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
           {
             "news_id": "64f928b75fe547a4b87d2f4b67ff85a5",
             "published_at": "2026-07-28 18:04 KST",
@@ -2424,17 +2436,6 @@
             "company_names": [
               "SK",
               "가온전선"
-            ]
-          },
-          {
-            "news_id": "06a75200c967a6809da2ea98dcf1e618",
-            "published_at": "2026-07-28 00:18 KST",
-            "press": "한국경제",
-            "title": "美증시, 반도체주식 급락에 나스닥 하락 전환",
-            "sentiment_score": 0.35543,
-            "associated_companies": 1,
-            "company_names": [
-              "SK하이닉스"
             ]
           }
         ]
@@ -3878,15 +3879,15 @@
   "sources": {
     "discussion": {
       "latest_event": "2026-07-28 19:09 KST",
-      "latest_seen": "2026-07-28 19:23 KST",
-      "active_minutes": 438,
-      "observations": 83168
+      "latest_seen": "2026-07-28 19:33 KST",
+      "active_minutes": 447,
+      "observations": 84340
     },
     "news": {
-      "latest_event": "2026-07-28 19:22 KST",
-      "latest_seen": "2026-07-28 19:23 KST",
-      "active_minutes": 381,
-      "observations": 3258
+      "latest_event": "2026-07-28 19:31 KST",
+      "latest_seen": "2026-07-28 19:32 KST",
+      "active_minutes": 383,
+      "observations": 3267
     },
     "market": {
       "latest_event": "2026-07-28",
