@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-28 13:00 KST",
+  "as_of": "2026-07-28 13:10 KST",
   "event_date": "2026-07-28",
   "market_session": {
     "status": "trading",
@@ -8,35 +8,35 @@
   },
   "boards": {
     "KOSPI": {
-      "score": -3.46634,
-      "text_pulse": -3.55452,
+      "score": -3.54252,
+      "text_pulse": -3.61771,
       "previous_final": -0.88783,
       "index": {
-        "price": 6109.4,
+        "price": 6074.52,
         "prev_close": 6755.75,
-        "change": -646.35,
-        "change_pct": -9.57,
-        "as_of": "2026-07-28 13:00 KST",
+        "change": -681.23,
+        "change_pct": -10.08,
+        "as_of": "2026-07-28 13:10 KST",
         "live": true
       },
       "components": {
         "discussion": {
-          "score": -4.2696,
-          "observations": 35569,
-          "coverage": 0.1376
+          "score": -4.36463,
+          "observations": 37521,
+          "coverage": 0.1369
         },
         "news": {
-          "score": -2.12436,
-          "observations": 1056,
-          "coverage": 0.8157
+          "score": -2.12386,
+          "observations": 1057,
+          "coverage": 0.8158
         },
         "news_hankyung": {
-          "score": -3.24771,
-          "observations": 29,
-          "coverage": 0.7416
+          "score": -3.18958,
+          "observations": 30,
+          "coverage": 0.7444
         },
         "market": {
-          "score": -3.2018,
+          "score": -3.31696,
           "confidence": 1.0,
           "observations": 915,
           "coverage": 1.0
@@ -45,10 +45,21 @@
       "news_articles": {
         "all": [
           {
+            "news_id": "eb18d546be9384c1efccc4e323f9c1f5",
+            "published_at": "2026-07-28 13:02 KST",
+            "press": "한국경제",
+            "title": "카카오, 경량 AI 4종 공개…“한국어 효율 30% 높여”",
+            "sentiment_score": 0.61793,
+            "associated_companies": 1,
+            "company_names": [
+              "카카오"
+            ]
+          },
+          {
             "news_id": "8cfd571ac5a6c67eae9ecb348c15f898",
             "published_at": "2026-07-28 12:54 KST",
             "press": "한국경제",
-            "title": "'실물 보니 더 예쁘네'…갤럭시 Z8 시리즈 사전예약 시작",
+            "title": "[포토] '실물 보니 더 예쁘네'…갤럭시 Z8 시리즈 사전예약 시작",
             "sentiment_score": 0.57043,
             "associated_companies": 1,
             "company_names": [
@@ -491,7 +502,7 @@
             "news_id": "0aec91ace66c9ca4fab71b5e56c1ed72",
             "published_at": "2026-07-28 12:40 KST",
             "press": "한국경제",
-            "title": "삼성전자 '갤럭시 Z8' 시리즈 오늘부터 사전예약 시작",
+            "title": "[포토] 삼성전자 '갤럭시 Z8' 시리즈 오늘부터 사전예약 시작",
             "sentiment_score": 0.57043,
             "associated_companies": 1,
             "company_names": [
@@ -1196,25 +1207,25 @@
             "company_names": [
               "SK하이닉스"
             ]
-          },
-          {
-            "news_id": "bef21c611aadd45a07d96281956e557e",
-            "published_at": "2026-07-28 11:39 KST",
-            "press": "노컷뉴스",
-            "title": "LX하우시스, '올해의 녹색상품' 13년 연속 수상기록 이어가",
-            "sentiment_score": 0.63543,
-            "associated_companies": 1,
-            "company_names": [
-              "LX하우시스"
-            ]
           }
         ],
         "hankyung": [
           {
+            "news_id": "eb18d546be9384c1efccc4e323f9c1f5",
+            "published_at": "2026-07-28 13:02 KST",
+            "press": "한국경제",
+            "title": "카카오, 경량 AI 4종 공개…“한국어 효율 30% 높여”",
+            "sentiment_score": 0.61793,
+            "associated_companies": 1,
+            "company_names": [
+              "카카오"
+            ]
+          },
+          {
             "news_id": "8cfd571ac5a6c67eae9ecb348c15f898",
             "published_at": "2026-07-28 12:54 KST",
             "press": "한국경제",
-            "title": "'실물 보니 더 예쁘네'…갤럭시 Z8 시리즈 사전예약 시작",
+            "title": "[포토] '실물 보니 더 예쁘네'…갤럭시 Z8 시리즈 사전예약 시작",
             "sentiment_score": 0.57043,
             "associated_companies": 1,
             "company_names": [
@@ -1225,7 +1236,7 @@
             "news_id": "0aec91ace66c9ca4fab71b5e56c1ed72",
             "published_at": "2026-07-28 12:40 KST",
             "press": "한국경제",
-            "title": "삼성전자 '갤럭시 Z8' 시리즈 오늘부터 사전예약 시작",
+            "title": "[포토] 삼성전자 '갤럭시 Z8' 시리즈 오늘부터 사전예약 시작",
             "sentiment_score": 0.57043,
             "associated_companies": 1,
             "company_names": [
@@ -1557,22 +1568,22 @@
       }
     },
     "KOSDAQ": {
-      "score": -1.5653,
-      "text_pulse": -1.19441,
+      "score": -1.73912,
+      "text_pulse": -1.39557,
       "previous_final": 0.06513,
       "index": {
-        "price": 708.22,
+        "price": 705.55,
         "prev_close": 764.86,
-        "change": -56.64,
-        "change_pct": -7.41,
-        "as_of": "2026-07-28 13:00 KST",
+        "change": -59.31,
+        "change_pct": -7.75,
+        "as_of": "2026-07-28 13:10 KST",
         "live": true
       },
       "components": {
         "discussion": {
-          "score": -1.64218,
-          "observations": 11241,
-          "coverage": 0.1165
+          "score": -1.94392,
+          "observations": 13023,
+          "coverage": 0.12
         },
         "news": {
           "score": -0.29887,
@@ -1585,7 +1596,7 @@
           "coverage": 0.4667
         },
         "market": {
-          "score": -2.67798,
+          "score": -2.76976,
           "confidence": 1.0,
           "observations": 1802,
           "coverage": 1.0
@@ -2860,20 +2871,20 @@
   },
   "sources": {
     "discussion": {
-      "latest_event": "2026-07-28 12:20 KST",
-      "latest_seen": "2026-07-28 12:34 KST",
-      "active_minutes": 203,
-      "observations": 47432
+      "latest_event": "2026-07-28 13:06 KST",
+      "latest_seen": "2026-07-28 13:10 KST",
+      "active_minutes": 213,
+      "observations": 51278
     },
     "news": {
-      "latest_event": "2026-07-28 12:54 KST",
-      "latest_seen": "2026-07-28 12:58 KST",
-      "active_minutes": 180,
-      "observations": 1741
+      "latest_event": "2026-07-28 13:09 KST",
+      "latest_seen": "2026-07-28 13:10 KST",
+      "active_minutes": 183,
+      "observations": 1752
     },
     "market": {
       "latest_event": "2026-07-28",
-      "latest_seen": "2026-07-28 13:00 KST",
+      "latest_seen": "2026-07-28 13:10 KST",
       "active_minutes": null,
       "intraday": true,
       "status_record_available": true
