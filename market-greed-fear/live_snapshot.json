@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-28 13:41 KST",
+  "as_of": "2026-07-28 13:51 KST",
   "event_date": "2026-07-28",
   "market_session": {
     "status": "trading",
@@ -8,15 +8,15 @@
   },
   "boards": {
     "KOSPI": {
-      "score": -3.53992,
-      "text_pulse": -3.60776,
+      "score": -3.53367,
+      "text_pulse": -3.60646,
       "previous_final": -0.88783,
       "index": {
-        "price": 6069.39,
+        "price": 6078.44,
         "prev_close": 6755.75,
-        "change": -686.36,
-        "change_pct": -10.16,
-        "as_of": "2026-07-28 13:40 KST",
+        "change": -677.31,
+        "change_pct": -10.03,
+        "as_of": "2026-07-28 13:51 KST",
         "live": true
       },
       "components": {
@@ -26,9 +26,9 @@
           "coverage": 0.1368
         },
         "news": {
-          "score": -2.21346,
-          "observations": 1073,
-          "coverage": 0.816
+          "score": -2.20955,
+          "observations": 1079,
+          "coverage": 0.8162
         },
         "news_hankyung": {
           "score": -3.18958,
@@ -36,7 +36,7 @@
           "coverage": 0.7444
         },
         "market": {
-          "score": -3.33641,
+          "score": -3.31532,
           "confidence": 1.0,
           "observations": 915,
           "coverage": 1.0
@@ -44,6 +44,63 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "9daba299fbeef1a2437efa42a71abbbd",
+            "published_at": "2026-07-28 13:41 KST",
+            "press": "데일리안",
+            "title": "KGM, 수출 타고 상반기 영업익 305억원…4년 연속 흑자",
+            "sentiment_score": 0.60293,
+            "associated_companies": 1,
+            "company_names": [
+              "KG모빌리티"
+            ]
+          },
+          {
+            "news_id": "77f1ca6676f2e3fa2fb6ae77a831c2b0",
+            "published_at": "2026-07-28 13:38 KST",
+            "press": "뉴시스",
+            "title": "[속보] 한화시스템, 2Q 영업익 1037억…전년比 219% 급증",
+            "sentiment_score": 0.60543,
+            "associated_companies": 1,
+            "company_names": [
+              "한화시스템"
+            ]
+          },
+          {
+            "news_id": "c1a5577022c91359460d4371006af110",
+            "published_at": "2026-07-28 13:34 KST",
+            "press": "스포츠동아",
+            "title": "“얼려먹는 젤리” 롯데웰푸드, ‘젤리 먹은 죠스바·스크류바’ 출시",
+            "sentiment_score": 0.58793,
+            "associated_companies": 1,
+            "company_names": [
+              "롯데웰푸드"
+            ]
+          },
+          {
+            "news_id": "a4a2f86abb49ced59c64bafa21137516",
+            "published_at": "2026-07-28 13:32 KST",
+            "press": "뉴스1",
+            "title": "한화시스템, 2분기 영업이익 1037억원…전년 대비 218.8% 증가",
+            "sentiment_score": 0.64043,
+            "associated_companies": 1,
+            "company_names": [
+              "한화시스템"
+            ]
+          },
+          {
+            "news_id": "c4c6032a3cc84320cc1d2e8f31769c4d",
+            "published_at": "2026-07-28 13:32 KST",
+            "press": "뉴스1",
+            "title": "2546억 국가 AI 농업사업 따냈다…대동, 농업AX 플랫폼 구축",
+            "sentiment_score": 0.5821,
+            "associated_companies": 3,
+            "company_names": [
+              "GS",
+              "LG씨엔에스",
+              "대동"
+            ]
+          },
           {
             "news_id": "69b207ccf230d9f95a84bd5818c42f28",
             "published_at": "2026-07-28 13:30 KST",
@@ -1153,64 +1210,6 @@
               "삼성전자",
               "현대차"
             ]
-          },
-          {
-            "news_id": "7188ec9ed8cf42d2eefbc484eb64ab4e",
-            "published_at": "2026-07-28 11:48 KST",
-            "press": "서울경제",
-            "title": "‘반도체 급락’에도 저가매수…초고수, SK하이닉스·SK텔레콤 담았다 [주식 초고수는 지금]",
-            "sentiment_score": 0.39377,
-            "associated_companies": 3,
-            "company_names": [
-              "SK텔레콤",
-              "SK하이닉스",
-              "미래에셋증권"
-            ]
-          },
-          {
-            "news_id": "2611a395a5f928deacc6cf839ce2c2a9",
-            "published_at": "2026-07-28 11:46 KST",
-            "press": "연합뉴스TV",
-            "title": "포스코퓨처엠, 전사 AI 전환 추진…\"2028년 생산성 30% 향상\"",
-            "sentiment_score": 0.64543,
-            "associated_companies": 1,
-            "company_names": [
-              "포스코퓨처엠"
-            ]
-          },
-          {
-            "news_id": "27c6cfac6fc3cb9d3b002882c65e2b9a",
-            "published_at": "2026-07-28 11:46 KST",
-            "press": "SBS Biz",
-            "title": "롯데웰푸드, 한국타이어와 안전운전 캠페인…\"타이어 30%할인\"",
-            "sentiment_score": 0.60418,
-            "associated_companies": 2,
-            "company_names": [
-              "롯데웰푸드",
-              "한국타이어앤테크놀로지"
-            ]
-          },
-          {
-            "news_id": "5290be0dc151dbe3deeed306d3144b64",
-            "published_at": "2026-07-28 11:46 KST",
-            "press": "연합뉴스",
-            "title": "BNK투자증권 2분기 순익 363억원…작년 동기 대비 116%↑",
-            "sentiment_score": 0.57543,
-            "associated_companies": 1,
-            "company_names": [
-              "BNK금융지주"
-            ]
-          },
-          {
-            "news_id": "5c003df0565011997cf071c668751806",
-            "published_at": "2026-07-28 11:46 KST",
-            "press": "이데일리",
-            "title": "90년대 대표 순정만화 ‘언플러그드 보이’ 네이버웹툰으로 재탄생",
-            "sentiment_score": 0.55793,
-            "associated_companies": 1,
-            "company_names": [
-              "NAVER"
-            ]
           }
         ],
         "hankyung": [
@@ -1572,15 +1571,15 @@
       }
     },
     "KOSDAQ": {
-      "score": -1.74983,
-      "text_pulse": -1.4101,
+      "score": -1.74835,
+      "text_pulse": -1.40965,
       "previous_final": 0.06513,
       "index": {
-        "price": 705.55,
+        "price": 705.63,
         "prev_close": 764.86,
-        "change": -59.31,
-        "change_pct": -7.75,
-        "as_of": "2026-07-28 13:40 KST",
+        "change": -59.23,
+        "change_pct": -7.74,
+        "as_of": "2026-07-28 13:51 KST",
         "live": true
       },
       "components": {
@@ -1590,9 +1589,9 @@
           "coverage": 0.12
         },
         "news": {
-          "score": -0.34245,
-          "observations": 199,
-          "coverage": 0.5938
+          "score": -0.34111,
+          "observations": 200,
+          "coverage": 0.5934
         },
         "news_hankyung": {
           "score": 0.77129,
@@ -1600,7 +1599,7 @@
           "coverage": 0.4667
         },
         "market": {
-          "score": -2.76904,
+          "score": -2.76446,
           "confidence": 1.0,
           "observations": 1802,
           "coverage": 1.0
@@ -1608,6 +1607,17 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "b6aba9ae5f5e337470db5502fd683aa6",
+            "published_at": "2026-07-28 13:37 KST",
+            "press": "전자신문",
+            "title": "카카오게임즈, 콩 스튜디오 신작 '가디언 메이든' 글로벌 퍼블리싱 계약",
+            "sentiment_score": 0.60293,
+            "associated_companies": 1,
+            "company_names": [
+              "카카오게임즈"
+            ]
+          },
           {
             "news_id": "45d893787aca9ba981097ada9664ec79",
             "published_at": "2026-07-28 13:27 KST",
@@ -2722,17 +2732,6 @@
             "company_names": [
               "엠플러스"
             ]
-          },
-          {
-            "news_id": "42bf4f57511f28b3598a295f0526e9e9",
-            "published_at": "2026-07-28 10:14 KST",
-            "press": "뉴시스",
-            "title": "대원미디어, KT위즈와 '원피스' 콜라보 추진",
-            "sentiment_score": 0.57293,
-            "associated_companies": 1,
-            "company_names": [
-              "대원미디어"
-            ]
           }
         ],
         "hankyung": [
@@ -2882,14 +2881,14 @@
       "observations": 54195
     },
     "news": {
-      "latest_event": "2026-07-28 13:36 KST",
-      "latest_seen": "2026-07-28 13:37 KST",
-      "active_minutes": 190,
-      "observations": 1794
+      "latest_event": "2026-07-28 13:42 KST",
+      "latest_seen": "2026-07-28 13:45 KST",
+      "active_minutes": 193,
+      "observations": 1812
     },
     "market": {
       "latest_event": "2026-07-28",
-      "latest_seen": "2026-07-28 13:40 KST",
+      "latest_seen": "2026-07-28 13:51 KST",
       "active_minutes": null,
       "intraday": true,
       "status_record_available": true
