@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-28 13:30 KST",
+  "as_of": "2026-07-28 13:41 KST",
   "event_date": "2026-07-28",
   "market_session": {
     "status": "trading",
@@ -8,15 +8,15 @@
   },
   "boards": {
     "KOSPI": {
-      "score": -3.55372,
-      "text_pulse": -3.60185,
+      "score": -3.53992,
+      "text_pulse": -3.60776,
       "previous_final": -0.88783,
       "index": {
-        "price": 6049.21,
+        "price": 6069.39,
         "prev_close": 6755.75,
-        "change": -706.54,
-        "change_pct": -10.46,
-        "as_of": "2026-07-28 13:30 KST",
+        "change": -686.36,
+        "change_pct": -10.16,
+        "as_of": "2026-07-28 13:40 KST",
         "live": true
       },
       "components": {
@@ -26,9 +26,9 @@
           "coverage": 0.1368
         },
         "news": {
-          "score": -2.19573,
-          "observations": 1069,
-          "coverage": 0.8174
+          "score": -2.21346,
+          "observations": 1073,
+          "coverage": 0.816
         },
         "news_hankyung": {
           "score": -3.18958,
@@ -36,7 +36,7 @@
           "coverage": 0.7444
         },
         "market": {
-          "score": -3.40932,
+          "score": -3.33641,
           "confidence": 1.0,
           "observations": 915,
           "coverage": 1.0
@@ -44,6 +44,53 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "69b207ccf230d9f95a84bd5818c42f28",
+            "published_at": "2026-07-28 13:30 KST",
+            "press": "강원도민일보",
+            "title": "스페이스X 이어 하이닉스ADR도 공모가 밑돌아",
+            "sentiment_score": 0.30918,
+            "associated_companies": 2,
+            "company_names": [
+              "SK",
+              "SK하이닉스"
+            ]
+          },
+          {
+            "news_id": "80fa6196de52069d47e6360d22a74c82",
+            "published_at": "2026-07-28 13:28 KST",
+            "press": "뉴시스",
+            "title": "이우현 OCI 회장, 칠레 경제사절단 합류…\"글로벌 공급망 확장 행보\"",
+            "sentiment_score": 0.60793,
+            "associated_companies": 1,
+            "company_names": [
+              "OCI홀딩스"
+            ]
+          },
+          {
+            "news_id": "45d893787aca9ba981097ada9664ec79",
+            "published_at": "2026-07-28 13:27 KST",
+            "press": "YTN",
+            "title": "'검은 화요일'...코스피·코스닥 서킷브레이커 발동",
+            "sentiment_score": 0.30231,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "5c9a2751802ccc962551005c76594ad7",
+            "published_at": "2026-07-28 13:26 KST",
+            "press": "스포츠경향",
+            "title": "신세계아이앤씨, 차세대 인공지능 비전 리테일 솔루션 만들었다",
+            "sentiment_score": 0.60918,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "신세계 I&C"
+            ]
+          },
           {
             "news_id": "14c0b8cdde0a53b1972e75b78c1c4bff",
             "published_at": "2026-07-28 13:21 KST",
@@ -1164,50 +1211,6 @@
             "company_names": [
               "NAVER"
             ]
-          },
-          {
-            "news_id": "8d92e4dda392e91c1e226aaa7aa433d1",
-            "published_at": "2026-07-28 11:45 KST",
-            "press": "미디어오늘",
-            "title": "포털 다음 운영 AXZ, 업스테이지 인수 2개월 만에 사명 '다음'으로 변경",
-            "sentiment_score": 0.57543,
-            "associated_companies": 1,
-            "company_names": [
-              "카카오"
-            ]
-          },
-          {
-            "news_id": "0ae1c9cb4988839b5bd507c2afe820ac",
-            "published_at": "2026-07-28 11:44 KST",
-            "press": "문화일보",
-            "title": "정의선이 공들인 브라질… 3년 연속 20만대 ‘청신호’",
-            "sentiment_score": 0.67543,
-            "associated_companies": 1,
-            "company_names": [
-              "현대차"
-            ]
-          },
-          {
-            "news_id": "2aa2bfbc732cabcefac8f0da3ff88855",
-            "published_at": "2026-07-28 11:44 KST",
-            "press": "동아일보",
-            "title": "GTX 개통 맞춰 부천·의왕 등 신규 분양",
-            "sentiment_score": 0.63043,
-            "associated_companies": 1,
-            "company_names": [
-              "한신공영"
-            ]
-          },
-          {
-            "news_id": "8e003267f953cb9a53bb760c07667f6d",
-            "published_at": "2026-07-28 11:44 KST",
-            "press": "문화일보",
-            "title": "포스코퓨처엠 “전사적 AX 혁신”… 생산성 30%↑ 밑그림",
-            "sentiment_score": 0.64043,
-            "associated_companies": 1,
-            "company_names": [
-              "포스코퓨처엠"
-            ]
           }
         ],
         "hankyung": [
@@ -1569,15 +1572,15 @@
       }
     },
     "KOSDAQ": {
-      "score": -1.75678,
+      "score": -1.74983,
       "text_pulse": -1.4101,
       "previous_final": 0.06513,
       "index": {
-        "price": 704.61,
+        "price": 705.55,
         "prev_close": 764.86,
-        "change": -60.25,
-        "change_pct": -7.88,
-        "as_of": "2026-07-28 13:30 KST",
+        "change": -59.31,
+        "change_pct": -7.75,
+        "as_of": "2026-07-28 13:40 KST",
         "live": true
       },
       "components": {
@@ -1589,7 +1592,7 @@
         "news": {
           "score": -0.34245,
           "observations": 199,
-          "coverage": 0.593
+          "coverage": 0.5938
         },
         "news_hankyung": {
           "score": 0.77129,
@@ -1597,7 +1600,7 @@
           "coverage": 0.4667
         },
         "market": {
-          "score": -2.79684,
+          "score": -2.76904,
           "confidence": 1.0,
           "observations": 1802,
           "coverage": 1.0
@@ -1605,6 +1608,17 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "45d893787aca9ba981097ada9664ec79",
+            "published_at": "2026-07-28 13:27 KST",
+            "press": "YTN",
+            "title": "'검은 화요일'...코스피·코스닥 서킷브레이커 발동",
+            "sentiment_score": 0.41293,
+            "associated_companies": 1,
+            "company_names": [
+              "YTN"
+            ]
+          },
           {
             "news_id": "14c0b8cdde0a53b1972e75b78c1c4bff",
             "published_at": "2026-07-28 13:21 KST",
@@ -2719,18 +2733,6 @@
             "company_names": [
               "대원미디어"
             ]
-          },
-          {
-            "news_id": "b6926b7495c3a8e9115e24c03856caaa",
-            "published_at": "2026-07-28 10:14 KST",
-            "press": "데일리안",
-            "title": "동아쏘시오, 박카스·오쏘몰로 번 '현금' 자회사에 직접 수혈",
-            "sentiment_score": 0.63043,
-            "associated_companies": 2,
-            "company_names": [
-              "다날",
-              "에스티팜"
-            ]
           }
         ],
         "hankyung": [
@@ -2875,19 +2877,19 @@
   "sources": {
     "discussion": {
       "latest_event": "2026-07-28 13:15 KST",
-      "latest_seen": "2026-07-28 13:30 KST",
-      "active_minutes": 233,
+      "latest_seen": "2026-07-28 13:32 KST",
+      "active_minutes": 235,
       "observations": 54195
     },
     "news": {
-      "latest_event": "2026-07-28 13:26 KST",
-      "latest_seen": "2026-07-28 13:28 KST",
-      "active_minutes": 187,
-      "observations": 1778
+      "latest_event": "2026-07-28 13:36 KST",
+      "latest_seen": "2026-07-28 13:37 KST",
+      "active_minutes": 190,
+      "observations": 1794
     },
     "market": {
       "latest_event": "2026-07-28",
-      "latest_seen": "2026-07-28 13:30 KST",
+      "latest_seen": "2026-07-28 13:40 KST",
       "active_minutes": null,
       "intraday": true,
       "status_record_available": true
