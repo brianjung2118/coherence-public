@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-29 06:24 KST",
+  "as_of": "2026-07-29 06:35 KST",
   "event_date": "2026-07-29",
   "market_session": {
     "status": "unconfirmed",
@@ -9,7 +9,7 @@
   "boards": {
     "KOSPI": {
       "score": null,
-      "text_pulse": -2.34526,
+      "text_pulse": -2.32566,
       "previous_final": -0.86415,
       "index": {
         "price": 6023.66,
@@ -21,19 +21,19 @@
       },
       "components": {
         "discussion": {
-          "score": -2.022,
-          "observations": 2196,
-          "coverage": 0.1375
+          "score": -2.01265,
+          "observations": 2243,
+          "coverage": 0.1391
         },
         "news": {
-          "score": -2.99177,
-          "observations": 158,
-          "coverage": 0.7449
+          "score": -2.9517,
+          "observations": 163,
+          "coverage": 0.7439
         },
         "news_hankyung": {
-          "score": -1.64622,
-          "observations": 4,
-          "coverage": 0.6667
+          "score": -1.62344,
+          "observations": 6,
+          "coverage": 0.7727
         },
         "market": {
           "score": null,
@@ -44,6 +44,47 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "37123cdcc09105c1aef5c3facb307cc9",
+            "published_at": "2026-07-29 06:30 KST",
+            "press": "한국경제",
+            "title": "'물 한 방울'로 삼전닉스 자리 넘본다…中 '극강의 기술' 정체 [강경주의 테크X]",
+            "sentiment_score": 0.54635,
+            "associated_companies": 3,
+            "company_names": [
+              "SK",
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "88b244f16e427400f3bbc4c3bc95c887",
+            "published_at": "2026-07-29 06:30 KST",
+            "press": "한국경제",
+            "title": "'어닝 서프라이즈' 한화오션, 목표가 '뒷걸음질' 이유는 [종목+]",
+            "sentiment_score": 0.51593,
+            "associated_companies": 6,
+            "company_names": [
+              "HD현대중공업",
+              "iM금융지주",
+              "신한지주",
+              "유진투자증권",
+              "한화오션",
+              "현대차증권"
+            ]
+          },
+          {
+            "news_id": "1c1366b6c8e23e861fae62297b0b4796",
+            "published_at": "2026-07-29 06:30 KST",
+            "press": "한국경제",
+            "title": "실적으로 폭락장 버틴 바이오주…바닥 다지고 반등 나서나 [분석+]",
+            "sentiment_score": 0.51551,
+            "associated_companies": 2,
+            "company_names": [
+              "삼성바이오로직스",
+              "셀트리온"
+            ]
+          },
           {
             "news_id": "036026171b5e84c292ab0435cd7a3102",
             "published_at": "2026-07-29 06:02 KST",
@@ -274,6 +315,18 @@
               "신세계",
               "카카오페이",
               "호텔신라"
+            ]
+          },
+          {
+            "news_id": "36980b58e103af6b65dc86c3014e7691",
+            "published_at": "2026-07-29 06:00 KST",
+            "press": "EBN",
+            "title": "포르쉐 스포츠카부터 中 전기차까지…타이어 3사, 글로벌 OE 확대",
+            "sentiment_score": 0.68051,
+            "associated_companies": 2,
+            "company_names": [
+              "금호타이어",
+              "넥센타이어"
             ]
           },
           {
@@ -1182,62 +1235,50 @@
               "SK하이닉스",
               "한국전력"
             ]
-          },
-          {
-            "news_id": "d734498c7b55dc5559f171796d2e7ac4",
-            "published_at": "2026-07-29 04:31 KST",
-            "press": "한국일보",
-            "title": "㈜한화 건설부문, 현장 안전캐릭터 ‘한수호’ 공개",
-            "sentiment_score": 0.56802,
-            "associated_companies": 1,
-            "company_names": [
-              "한화"
-            ]
-          },
-          {
-            "news_id": "d608eee7932cb3c64b36ce175a6bab3c",
-            "published_at": "2026-07-29 04:30 KST",
-            "press": "한국일보",
-            "title": "미 수주 급증 ‘글로벌 전력 슈퍼사이클’ 패권 야망",
-            "sentiment_score": 0.68718,
-            "associated_companies": 3,
-            "company_names": [
-              "LS",
-              "LS ELECTRIC",
-              "가온전선"
-            ]
-          },
-          {
-            "news_id": "94c772ec36ef24773a8013116ed86ff6",
-            "published_at": "2026-07-29 04:20 KST",
-            "press": "한국일보",
-            "title": "카드도 똘똘한 한 장? 일상생활 3대 필수영역 혜택을 모두 담다",
-            "sentiment_score": 0.56468,
-            "associated_companies": 3,
-            "company_names": [
-              "삼성카드",
-              "아모레퍼시픽",
-              "아모레퍼시픽홀딩스"
-            ]
-          },
-          {
-            "news_id": "75a33051d8d948587cdfec99ce1bb342",
-            "published_at": "2026-07-29 04:05 KST",
-            "press": "머니투데이",
-            "title": "이억원 단일종목레버리지ETF 간담회... \"수요 진정 안 되면 투자제한 검토\"",
-            "sentiment_score": 0.37843,
-            "associated_companies": 6,
-            "company_names": [
-              "KB금융",
-              "NH투자증권",
-              "삼성생명",
-              "신한지주",
-              "키움증권",
-              "한국금융지주"
-            ]
           }
         ],
         "hankyung": [
+          {
+            "news_id": "37123cdcc09105c1aef5c3facb307cc9",
+            "published_at": "2026-07-29 06:30 KST",
+            "press": "한국경제",
+            "title": "'물 한 방울'로 삼전닉스 자리 넘본다…中 '극강의 기술' 정체 [강경주의 테크X]",
+            "sentiment_score": 0.54635,
+            "associated_companies": 3,
+            "company_names": [
+              "SK",
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "88b244f16e427400f3bbc4c3bc95c887",
+            "published_at": "2026-07-29 06:30 KST",
+            "press": "한국경제",
+            "title": "'어닝 서프라이즈' 한화오션, 목표가 '뒷걸음질' 이유는 [종목+]",
+            "sentiment_score": 0.51593,
+            "associated_companies": 6,
+            "company_names": [
+              "HD현대중공업",
+              "iM금융지주",
+              "신한지주",
+              "유진투자증권",
+              "한화오션",
+              "현대차증권"
+            ]
+          },
+          {
+            "news_id": "1c1366b6c8e23e861fae62297b0b4796",
+            "published_at": "2026-07-29 06:30 KST",
+            "press": "한국경제",
+            "title": "실적으로 폭락장 버틴 바이오주…바닥 다지고 반등 나서나 [분석+]",
+            "sentiment_score": 0.51551,
+            "associated_companies": 2,
+            "company_names": [
+              "삼성바이오로직스",
+              "셀트리온"
+            ]
+          },
           {
             "news_id": "bc80372f497efd61d880e210635d4ed3",
             "published_at": "2026-07-29 06:00 KST",
@@ -1289,7 +1330,7 @@
     },
     "KOSDAQ": {
       "score": null,
-      "text_pulse": -0.54811,
+      "text_pulse": -0.55572,
       "previous_final": 0.06242,
       "index": {
         "price": 705.85,
@@ -1306,14 +1347,14 @@
           "coverage": 0.1295
         },
         "news": {
-          "score": -1.88092,
-          "observations": 12,
-          "coverage": 0.75
+          "score": -1.90376,
+          "observations": 13,
+          "coverage": 0.6809
         },
         "news_hankyung": {
-          "score": 3.81296,
-          "observations": 0,
-          "coverage": 1.0
+          "score": -0.48625,
+          "observations": 1,
+          "coverage": 0.4286
         },
         "market": {
           "score": null,
@@ -1324,6 +1365,28 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "88b244f16e427400f3bbc4c3bc95c887",
+            "published_at": "2026-07-29 06:30 KST",
+            "press": "한국경제",
+            "title": "'어닝 서프라이즈' 한화오션, 목표가 '뒷걸음질' 이유는 [종목+]",
+            "sentiment_score": 0.52302,
+            "associated_companies": 1,
+            "company_names": [
+              "에프앤가이드"
+            ]
+          },
+          {
+            "news_id": "1c1366b6c8e23e861fae62297b0b4796",
+            "published_at": "2026-07-29 06:30 KST",
+            "press": "한국경제",
+            "title": "실적으로 폭락장 버틴 바이오주…바닥 다지고 반등 나서나 [분석+]",
+            "sentiment_score": 0.51802,
+            "associated_companies": 1,
+            "company_names": [
+              "알테오젠"
+            ]
+          },
           {
             "news_id": "816c4a67b119d859ef0d3a520407aef4",
             "published_at": "2026-07-29 06:01 KST",
@@ -1557,6 +1620,28 @@
         ],
         "hankyung": [
           {
+            "news_id": "88b244f16e427400f3bbc4c3bc95c887",
+            "published_at": "2026-07-29 06:30 KST",
+            "press": "한국경제",
+            "title": "'어닝 서프라이즈' 한화오션, 목표가 '뒷걸음질' 이유는 [종목+]",
+            "sentiment_score": 0.52302,
+            "associated_companies": 1,
+            "company_names": [
+              "에프앤가이드"
+            ]
+          },
+          {
+            "news_id": "1c1366b6c8e23e861fae62297b0b4796",
+            "published_at": "2026-07-29 06:30 KST",
+            "press": "한국경제",
+            "title": "실적으로 폭락장 버틴 바이오주…바닥 다지고 반등 나서나 [분석+]",
+            "sentiment_score": 0.51802,
+            "associated_companies": 1,
+            "company_names": [
+              "알테오젠"
+            ]
+          },
+          {
             "news_id": "a9123a32c92913432ae81639a6131d63",
             "published_at": "2026-07-29 06:00 KST",
             "press": "한국경제",
@@ -1574,15 +1659,15 @@
   "sources": {
     "discussion": {
       "latest_event": "2026-07-29 06:04 KST",
-      "latest_seen": "2026-07-29 06:23 KST",
-      "active_minutes": 52,
-      "observations": 2591
+      "latest_seen": "2026-07-29 06:27 KST",
+      "active_minutes": 46,
+      "observations": 2638
     },
     "news": {
-      "latest_event": "2026-07-29 06:22 KST",
-      "latest_seen": "2026-07-29 06:23 KST",
-      "active_minutes": 23,
-      "observations": 220
+      "latest_event": "2026-07-29 06:34 KST",
+      "latest_seen": "2026-07-29 06:35 KST",
+      "active_minutes": 27,
+      "observations": 229
     },
     "market": {
       "latest_event": null,
