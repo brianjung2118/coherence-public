@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-28 14:21 KST",
+  "as_of": "2026-07-28 14:31 KST",
   "event_date": "2026-07-28",
   "market_session": {
     "status": "trading",
@@ -8,35 +8,35 @@
   },
   "boards": {
     "KOSPI": {
-      "score": -3.564,
-      "text_pulse": -3.61015,
+      "score": -3.55862,
+      "text_pulse": -3.58272,
       "previous_final": -0.88783,
       "index": {
-        "price": 6050.76,
+        "price": 6035.02,
         "prev_close": 6755.75,
-        "change": -704.99,
-        "change_pct": -10.44,
-        "as_of": "2026-07-28 14:21 KST",
+        "change": -720.73,
+        "change_pct": -10.67,
+        "as_of": "2026-07-28 14:31 KST",
         "live": true
       },
       "components": {
         "discussion": {
-          "score": -4.32872,
-          "observations": 42427,
-          "coverage": 0.1356
+          "score": -4.2955,
+          "observations": 44995,
+          "coverage": 0.1348
         },
         "news": {
-          "score": -2.17299,
-          "observations": 1136,
-          "coverage": 0.8163
+          "score": -2.15718,
+          "observations": 1163,
+          "coverage": 0.8177
         },
         "news_hankyung": {
-          "score": -3.07574,
-          "observations": 33,
-          "coverage": 0.7553
+          "score": -3.07195,
+          "observations": 34,
+          "coverage": 0.7396
         },
         "market": {
-          "score": -3.42556,
+          "score": -3.48632,
           "confidence": 1.0,
           "observations": 915,
           "coverage": 1.0
@@ -45,15 +45,285 @@
       "news_articles": {
         "all": [
           {
+            "news_id": "2030135914ea581eb935560df5f53a19",
+            "published_at": "2026-07-28 14:30 KST",
+            "press": "아시아경제",
+            "title": "신한투자증권, '중개형ISA' 전용 특판RP 2차 출시",
+            "sentiment_score": 0.58793,
+            "associated_companies": 1,
+            "company_names": [
+              "신한지주"
+            ]
+          },
+          {
+            "news_id": "444b14e54b54911a85deac4cd892ea8e",
+            "published_at": "2026-07-28 14:26 KST",
+            "press": "뉴시스",
+            "title": "\"검색 대신 AI에게 묻는다\" 바뀐 쇼핑 공식, 유통업계도 전략 수정",
+            "sentiment_score": 0.53543,
+            "associated_companies": 1,
+            "company_names": [
+              "NAVER"
+            ]
+          },
+          {
+            "news_id": "021a61f12f2b490788ea564d26a2f25b",
+            "published_at": "2026-07-28 14:22 KST",
+            "press": "전자신문",
+            "title": "마키나락스, 한화시스템과 제조 AX 사업 확장 협력",
+            "sentiment_score": 0.64043,
+            "associated_companies": 1,
+            "company_names": [
+              "한화시스템"
+            ]
+          },
+          {
+            "news_id": "06664324d2b2142d4e58a4ad0c702b97",
+            "published_at": "2026-07-28 14:22 KST",
+            "press": "스포츠서울",
+            "title": "누적 50만잔 판매…CU, 리얼 스무디 전국으로 확대",
+            "sentiment_score": 0.62043,
+            "associated_companies": 1,
+            "company_names": [
+              "BGF리테일"
+            ]
+          },
+          {
+            "news_id": "7ac8e4463e4054a55b96a2cbc205ca37",
+            "published_at": "2026-07-28 14:20 KST",
+            "press": "데일리안",
+            "title": "한국타이어 하청노조도 “진짜 사장 나와라”…원청 교섭 요구 ‘도미노’",
+            "sentiment_score": 0.27543,
+            "associated_companies": 2,
+            "company_names": [
+              "한국타이어앤테크놀로지",
+              "현대차"
+            ]
+          },
+          {
+            "news_id": "b642e55fd71c10a340c212b6a4ccce92",
+            "published_at": "2026-07-28 14:20 KST",
+            "press": "머니투데이",
+            "title": "하나증권, 싱가포르 KSMC와 '글로벌 자산관리 솔루션' 강화",
+            "sentiment_score": 0.57543,
+            "associated_companies": 1,
+            "company_names": [
+              "하나금융지주"
+            ]
+          },
+          {
+            "news_id": "4fa1bda48508f85b79e709e48c565115",
+            "published_at": "2026-07-28 14:19 KST",
+            "press": "파이낸셜뉴스",
+            "title": "한화시스템 \"방산 마진 하반기 슬로우해질 것...매출 가이던스 20% 증가\"[컨콜]",
+            "sentiment_score": 0.63043,
+            "associated_companies": 1,
+            "company_names": [
+              "한화시스템"
+            ]
+          },
+          {
+            "news_id": "8670e98a886f91f1061924c6f50dba9d",
+            "published_at": "2026-07-28 14:19 KST",
+            "press": "동행미디어 시대",
+            "title": "한화시스템, 2분기 영업이익 1036억원…전년비 218.8%↑",
+            "sentiment_score": 0.63793,
+            "associated_companies": 1,
+            "company_names": [
+              "한화시스템"
+            ]
+          },
+          {
+            "news_id": "29d41a92e5c3264326bc879ee617bbf3",
+            "published_at": "2026-07-28 14:18 KST",
+            "press": "전자신문",
+            "title": "LS, '대학생 해외봉사단' 베트남·인도네시아 파견",
+            "sentiment_score": 0.56043,
+            "associated_companies": 1,
+            "company_names": [
+              "LS"
+            ]
+          },
+          {
+            "news_id": "c0038ab638c847ec592b48a7274109d8",
+            "published_at": "2026-07-28 14:18 KST",
+            "press": "서울경제",
+            "title": "기아, 서천갯벌 블루카본 생태복원사업 추진",
+            "sentiment_score": 0.61293,
+            "associated_companies": 1,
+            "company_names": [
+              "기아"
+            ]
+          },
+          {
+            "news_id": "14c84d747bc8040e7c1f5977cb59db8a",
+            "published_at": "2026-07-28 14:17 KST",
+            "press": "SBS Biz",
+            "title": "GS건설, 호주 첫 인프라 사업 '터널 관통'…2028년 개통 순항",
+            "sentiment_score": 0.62293,
+            "associated_companies": 1,
+            "company_names": [
+              "GS건설"
+            ]
+          },
+          {
+            "news_id": "69d8f904833fda1fd707d63498dec17d",
+            "published_at": "2026-07-28 14:17 KST",
+            "press": "머니투데이",
+            "title": "동양생명, 상반기 순익 919억 전년비 11.5%↑…\"종신보험 효과\"",
+            "sentiment_score": 0.63543,
+            "associated_companies": 1,
+            "company_names": [
+              "동양생명"
+            ]
+          },
+          {
+            "news_id": "9384b448e78bc110125da7c2b95d47a7",
+            "published_at": "2026-07-28 14:17 KST",
+            "press": "이데일리",
+            "title": "\"올해 방산, ICT부문 모두 전년 대비 20% 매출 성장 전망\"-한화시스템 컨콜",
+            "sentiment_score": 0.64043,
+            "associated_companies": 1,
+            "company_names": [
+              "한화시스템"
+            ]
+          },
+          {
+            "news_id": "9c37bec7af8e336beea66532a314bd44",
+            "published_at": "2026-07-28 14:17 KST",
+            "press": "뉴시스",
+            "title": "이규호 코오롱 부회장, '티슈진' 주식 2억원 매수",
+            "sentiment_score": 0.53043,
+            "associated_companies": 1,
+            "company_names": [
+              "코오롱"
+            ]
+          },
+          {
+            "news_id": "cb4dd3646b2e05d3b17d8c319dd4ac4c",
+            "published_at": "2026-07-28 14:17 KST",
+            "press": "KBS",
+            "title": "코스피 이어 코스닥 시장에서도 서킷브레이커 발동",
+            "sentiment_score": 0.24481,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
+          {
             "news_id": "e7d97751aebc25199d49813a7abb50e8",
             "published_at": "2026-07-28 14:16 KST",
             "press": "한국경제",
-            "title": "HDC현대산업, 2분기 영업이익 53%↑…5년 만에 1000억원 돌파",
+            "title": "IPARK현대산업개발, 2분기 영업이익 53%↑…5년 만에 1000억원 돌파",
             "sentiment_score": 0.57543,
             "associated_companies": 2,
             "company_names": [
               "HDC",
               "IPARK현대산업개발"
+            ]
+          },
+          {
+            "news_id": "1a860c062b1ed6ea157fad4946aa28a2",
+            "published_at": "2026-07-28 14:16 KST",
+            "press": "전자신문",
+            "title": "삼성 “갤럭시Z폴드8, 역대 최고 완성도…폴더블 벤치마크 될 것”",
+            "sentiment_score": 0.60293,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "8b7f18ae091d72a3a5a995d11f60b646",
+            "published_at": "2026-07-28 14:16 KST",
+            "press": "파이낸셜뉴스",
+            "title": "기아, 서천갯벌 5만평에 염생식물 심는다…탄소중립 협력 확대",
+            "sentiment_score": 0.61793,
+            "associated_companies": 1,
+            "company_names": [
+              "기아"
+            ]
+          },
+          {
+            "news_id": "39ca45dfc78a8b1eb69f7a324f53a66d",
+            "published_at": "2026-07-28 14:15 KST",
+            "press": "디지털타임스",
+            "title": "신세계I&C, AI계산대 고도화한 ‘스파로스 스캔프리’ 선봬",
+            "sentiment_score": 0.60793,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "신세계 I&C"
+            ]
+          },
+          {
+            "news_id": "432568369c776254fc776ff7a4436f39",
+            "published_at": "2026-07-28 14:15 KST",
+            "press": "전자신문",
+            "title": "LF 트라이씨클, AI 에이전트 도입…고객 상담체계 강화",
+            "sentiment_score": 0.56043,
+            "associated_companies": 1,
+            "company_names": [
+              "LF"
+            ]
+          },
+          {
+            "news_id": "80a658ac005f8653d59e556d63466632",
+            "published_at": "2026-07-28 14:15 KST",
+            "press": "경향신문",
+            "title": "KGM, 수출 호조에 2분기 매출 14%↑…상반기 4년 연속 흑자",
+            "sentiment_score": 0.59043,
+            "associated_companies": 1,
+            "company_names": [
+              "KG모빌리티"
+            ]
+          },
+          {
+            "news_id": "e5a31f9f890142c39551b0941503e6d9",
+            "published_at": "2026-07-28 14:15 KST",
+            "press": "한국일보",
+            "title": "호남 반도체 산단 전력 공급 위해 협의체 발족… 인허가 집중 협의",
+            "sentiment_score": 0.60793,
+            "associated_companies": 3,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자",
+              "한국전력"
+            ]
+          },
+          {
+            "news_id": "51a571ff757e8450d42c6cbbdf72d1ad",
+            "published_at": "2026-07-28 14:14 KST",
+            "press": "머니투데이",
+            "title": "기아, 서천 갯벌에 5만평 규모 염생식물 심는다…\"탄소 중립 추진\"",
+            "sentiment_score": 0.61793,
+            "associated_companies": 1,
+            "company_names": [
+              "기아"
+            ]
+          },
+          {
+            "news_id": "651bbd4cecec744aad7bdbc1dcd85999",
+            "published_at": "2026-07-28 14:13 KST",
+            "press": "헤럴드경제",
+            "title": "DS단석, 2분기 영업익 63억…흑자전환",
+            "sentiment_score": 0.62293,
+            "associated_companies": 1,
+            "company_names": [
+              "DS단석"
+            ]
+          },
+          {
+            "news_id": "b435535245e622950cdefa5407471785",
+            "published_at": "2026-07-28 14:13 KST",
+            "press": "이데일리",
+            "title": "드림텍, 반도체 승부수 띄웠다…DS부문 신설",
+            "sentiment_score": 0.59168,
+            "associated_companies": 2,
+            "company_names": [
+              "드림텍",
+              "삼성전자"
             ]
           },
           {
@@ -91,6 +361,18 @@
             "associated_companies": 1,
             "company_names": [
               "기아"
+            ]
+          },
+          {
+            "news_id": "b1bae3758b2ceda7f92555182f807f0a",
+            "published_at": "2026-07-28 14:11 KST",
+            "press": "뉴시스",
+            "title": "中BYD도 '로봇 패권 전쟁' 참전…현대차그룹 보스턴다이나믹스에 '맞불'",
+            "sentiment_score": 0.63168,
+            "associated_companies": 2,
+            "company_names": [
+              "삼성전자",
+              "현대차"
             ]
           },
           {
@@ -936,282 +1218,6 @@
             "company_names": [
               "하나금융지주"
             ]
-          },
-          {
-            "news_id": "56cbe9129c18f9247236e2c30a24891c",
-            "published_at": "2026-07-28 13:05 KST",
-            "press": "노컷뉴스",
-            "title": "'검은 화요일'…코스피·코스닥 동반 서킷브레이커",
-            "sentiment_score": 0.31293,
-            "associated_companies": 1,
-            "company_names": [
-              "하나금융지주"
-            ]
-          },
-          {
-            "news_id": "53f55b0a15d2ffca1631e56305133216",
-            "published_at": "2026-07-28 13:04 KST",
-            "press": "노컷뉴스",
-            "title": "코스피·코스닥 급락에 양시장 서킷브레이커 발동",
-            "sentiment_score": 0.28543,
-            "associated_companies": 1,
-            "company_names": [
-              "하나금융지주"
-            ]
-          },
-          {
-            "news_id": "84e0189cc12ddf88ff0062d13c471018",
-            "published_at": "2026-07-28 13:04 KST",
-            "press": "파이낸셜뉴스",
-            "title": "강화된 규제 속 '틈새' 상품… 주거용 오피스텔 '동탄역 대방 엘리움 더 시그니처' 청약",
-            "sentiment_score": 0.58543,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "eb18d546be9384c1efccc4e323f9c1f5",
-            "published_at": "2026-07-28 13:02 KST",
-            "press": "한국경제",
-            "title": "카카오, 경량 AI 4종 공개…\"한국어 효율 30% 높여\"",
-            "sentiment_score": 0.61793,
-            "associated_companies": 1,
-            "company_names": [
-              "카카오"
-            ]
-          },
-          {
-            "news_id": "8cfd571ac5a6c67eae9ecb348c15f898",
-            "published_at": "2026-07-28 12:54 KST",
-            "press": "한국경제",
-            "title": "[포토] '실물 보니 더 예쁘네'…갤럭시 Z8 시리즈 사전예약 시작",
-            "sentiment_score": 0.57043,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "0badcbb6e096b778fefd86000fcff8b4",
-            "published_at": "2026-07-28 12:51 KST",
-            "press": "EBN",
-            "title": "'국산 1호 양주' 캪틴큐 부활하나...상표출원에 애주가 관심↑",
-            "sentiment_score": 0.51793,
-            "associated_companies": 1,
-            "company_names": [
-              "롯데칠성"
-            ]
-          },
-          {
-            "news_id": "fac7b9d18de87eb8d5e99337fd13d61e",
-            "published_at": "2026-07-28 12:44 KST",
-            "press": "연합뉴스",
-            "title": "갤럭시 Z 폴드8·플립8 사전예약 시작",
-            "sentiment_score": 0.54043,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "051e25c2e6cc00de9e1afab32eae678e",
-            "published_at": "2026-07-28 12:43 KST",
-            "press": "연합뉴스",
-            "title": "오늘부터 갤럭시 Z 폴드8·플립8 사전예약 시작",
-            "sentiment_score": 0.54043,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "0be4011b9777697f6d53a249ba449b9b",
-            "published_at": "2026-07-28 12:43 KST",
-            "press": "뉴스1",
-            "title": "삼성전자, '갤럭시 8 시리즈 사전판매 시작'",
-            "sentiment_score": 0.53293,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "0e304d016a01065ddf771fa558bad983",
-            "published_at": "2026-07-28 12:43 KST",
-            "press": "중앙일보",
-            "title": "코스피 10%·코스닥 8% 급락에…양시장 서킷브레이커 발동",
-            "sentiment_score": 0.24668,
-            "associated_companies": 2,
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "1c9effe3236fccf73a46ba224ecb1cb0",
-            "published_at": "2026-07-28 12:43 KST",
-            "press": "뉴스1",
-            "title": "삼성전자, '갤럭시 Z 8' 시리즈 사전판매 시작",
-            "sentiment_score": 0.54043,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "24843194b62c5ebc4fffe59ce2c9e081",
-            "published_at": "2026-07-28 12:43 KST",
-            "press": "뉴스1",
-            "title": "삼성전자, 갤럭시 Z 폴드8 울트라·플립8·폴드8 사전판매 시작",
-            "sentiment_score": 0.54043,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "339a2d20b8be6d7e2be889c83de18dac",
-            "published_at": "2026-07-28 12:43 KST",
-            "press": "연합뉴스",
-            "title": "오늘부터 갤럭시 Z 폴드8·플립8 사전예약 시작",
-            "sentiment_score": 0.54043,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "33c775ef20ccdc9574cbcbc98160fb37",
-            "published_at": "2026-07-28 12:43 KST",
-            "press": "연합뉴스",
-            "title": "갤럭시 Z 폴드8·플립8 사전예약 시작",
-            "sentiment_score": 0.54043,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "383b0f8d770999b1d639d7634d689f0a",
-            "published_at": "2026-07-28 12:43 KST",
-            "press": "뉴스1",
-            "title": "삼성전자, '갤럭시 Z 8' 시리즈 사전 판매 시작",
-            "sentiment_score": 0.54293,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "46263ce5f620c98f3ae576da744726e1",
-            "published_at": "2026-07-28 12:43 KST",
-            "press": "뉴스1",
-            "title": "삼성전자, 갤럭시 워치 울트라2·갤럭시 워치9 사전판매 시작",
-            "sentiment_score": 0.54293,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "5b59c5b4010739da005c5daa88c12517",
-            "published_at": "2026-07-28 12:43 KST",
-            "press": "뉴스1",
-            "title": "삼성전자, '갤럭시 Z 8' 시리즈 사전 판매 시작",
-            "sentiment_score": 0.54293,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "5c794f886d9aca0908b33b776134f566",
-            "published_at": "2026-07-28 12:43 KST",
-            "press": "뉴스1",
-            "title": "삼성전자, '갤럭시 Z 8' 시리즈 사전 판매 시작",
-            "sentiment_score": 0.54293,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "675269668f61b3c4c63a527453323cb2",
-            "published_at": "2026-07-28 12:43 KST",
-            "press": "뉴스1",
-            "title": "삼성전자, '갤럭시 Z 8 시리즈 사전구매 하세요'",
-            "sentiment_score": 0.55043,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "6ee966f88e2c6fec390942b4aa4b4f03",
-            "published_at": "2026-07-28 12:43 KST",
-            "press": "연합뉴스",
-            "title": "갤럭시 Z 폴드8·플립8 사전예약 시작",
-            "sentiment_score": 0.54043,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "7828f83947d44570169a4f07042c28c2",
-            "published_at": "2026-07-28 12:43 KST",
-            "press": "연합뉴스",
-            "title": "갤럭시 Z 폴드8·플립8 사전예약 시작",
-            "sentiment_score": 0.54043,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "7a040c69d090e9d226ae397501917730",
-            "published_at": "2026-07-28 12:43 KST",
-            "press": "뉴스1",
-            "title": "삼성전자, '갤럭시 Z 8' 시리즈 사전 판매 시작",
-            "sentiment_score": 0.54293,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "8634e90f0af748f9f128c5cad514aa6f",
-            "published_at": "2026-07-28 12:43 KST",
-            "press": "연합뉴스",
-            "title": "오늘부터 갤럭시 Z 폴드8·플립8 사전예약 시작",
-            "sentiment_score": 0.54043,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "9450df3b632677aa332375e21df01fe2",
-            "published_at": "2026-07-28 12:43 KST",
-            "press": "뉴스1",
-            "title": "삼성전자, '갤럭시 Z 8' 시리즈 사전 판매 시작",
-            "sentiment_score": 0.54293,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "9e4c47806f7c0b48019e7a97074c6ac5",
-            "published_at": "2026-07-28 12:43 KST",
-            "press": "뉴스1",
-            "title": "삼성전자, '갤럭시 Z 8' 시리즈 사전판매 시작",
-            "sentiment_score": 0.54043,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성전자"
-            ]
           }
         ],
         "hankyung": [
@@ -1219,7 +1225,7 @@
             "news_id": "e7d97751aebc25199d49813a7abb50e8",
             "published_at": "2026-07-28 14:16 KST",
             "press": "한국경제",
-            "title": "HDC현대산업, 2분기 영업이익 53%↑…5년 만에 1000억원 돌파",
+            "title": "IPARK현대산업개발, 2분기 영업이익 53%↑…5년 만에 1000억원 돌파",
             "sentiment_score": 0.57543,
             "associated_companies": 2,
             "company_names": [
@@ -1585,15 +1591,15 @@
       }
     },
     "KOSDAQ": {
-      "score": -1.78588,
-      "text_pulse": -1.43714,
+      "score": -1.79777,
+      "text_pulse": -1.42876,
       "previous_final": 0.06513,
       "index": {
-        "price": 703.14,
+        "price": 700.72,
         "prev_close": 764.86,
-        "change": -61.72,
-        "change_pct": -8.07,
-        "as_of": "2026-07-28 14:21 KST",
+        "change": -64.14,
+        "change_pct": -8.39,
+        "as_of": "2026-07-28 14:31 KST",
         "live": true
       },
       "components": {
@@ -1603,17 +1609,17 @@
           "coverage": 0.1186
         },
         "news": {
-          "score": -0.35475,
-          "observations": 212,
-          "coverage": 0.606
+          "score": -0.3296,
+          "observations": 218,
+          "coverage": 0.6072
         },
         "news_hankyung": {
-          "score": 0.77129,
-          "observations": 9,
-          "coverage": 0.4667
+          "score": 0.76228,
+          "observations": 10,
+          "coverage": 0.4516
         },
         "market": {
-          "score": -2.8321,
+          "score": -2.90481,
           "confidence": 1.0,
           "observations": 1802,
           "coverage": 1.0
@@ -1621,6 +1627,39 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "021a61f12f2b490788ea564d26a2f25b",
+            "published_at": "2026-07-28 14:22 KST",
+            "press": "전자신문",
+            "title": "마키나락스, 한화시스템과 제조 AX 사업 확장 협력",
+            "sentiment_score": 0.63793,
+            "associated_companies": 1,
+            "company_names": [
+              "마키나락스"
+            ]
+          },
+          {
+            "news_id": "f572f19bacf710f78ad345eb285543c9",
+            "published_at": "2026-07-28 14:21 KST",
+            "press": "아시아경제",
+            "title": "HLB펩, 랩센 브랜드 라인업 강화",
+            "sentiment_score": 0.61293,
+            "associated_companies": 1,
+            "company_names": [
+              "HLB펩"
+            ]
+          },
+          {
+            "news_id": "9c37bec7af8e336beea66532a314bd44",
+            "published_at": "2026-07-28 14:17 KST",
+            "press": "뉴시스",
+            "title": "이규호 코오롱 부회장, '티슈진' 주식 2억원 매수",
+            "sentiment_score": 0.54793,
+            "associated_companies": 1,
+            "company_names": [
+              "코오롱티슈진"
+            ]
+          },
           {
             "news_id": "00ae0ebd4df7d99da8b8c0057a39d63c",
             "published_at": "2026-07-28 14:12 KST",
@@ -1645,6 +1684,17 @@
               "아이텍",
               "위닉스",
               "티에스아이"
+            ]
+          },
+          {
+            "news_id": "a2a5c543598c5fc258a359b0feb82fa8",
+            "published_at": "2026-07-28 14:04 KST",
+            "press": "EBN",
+            "title": "HLB, ESMO 2026서 리보세라닙·리라푸그라티닙 연구성과 공개",
+            "sentiment_score": 0.61293,
+            "associated_companies": 1,
+            "company_names": [
+              "HLB"
             ]
           },
           {
@@ -2287,6 +2337,17 @@
             ]
           },
           {
+            "news_id": "7188323cdeca812bd4c99d4a7508b5ae",
+            "published_at": "2026-07-28 11:03 KST",
+            "press": "EBN",
+            "title": "[EBN 데이터센터] 코스피 급락 속 초소형 건설 우선주 '이례적 급등'…진흥기업 계열 상한가",
+            "sentiment_score": 0.56293,
+            "associated_companies": 1,
+            "company_names": [
+              "엑시온그룹"
+            ]
+          },
+          {
             "news_id": "7065c3cad3d9cded81ede058bd1580ac",
             "published_at": "2026-07-28 11:02 KST",
             "press": "아이뉴스24",
@@ -2696,62 +2757,6 @@
             "company_names": [
               "현대무벡스"
             ]
-          },
-          {
-            "news_id": "59ad6c9094e9a50ea74c943d06ecc320",
-            "published_at": "2026-07-28 10:30 KST",
-            "press": "디지털데일리",
-            "title": "KG에코솔루션, 국내 정유3사와 선박용 바이오연료 공급계약",
-            "sentiment_score": 0.62543,
-            "associated_companies": 1,
-            "company_names": [
-              "KG에코솔루션"
-            ]
-          },
-          {
-            "news_id": "ae575644b7d2330e53726ebdddd5625d",
-            "published_at": "2026-07-28 10:29 KST",
-            "press": "파이낸셜뉴스",
-            "title": "KT, 아모레 70년치 연구 자산 'AI 레디 데이터'로…R&D 혁신 플랫폼 구축",
-            "sentiment_score": 0.63793,
-            "associated_companies": 1,
-            "company_names": [
-              "레몬"
-            ]
-          },
-          {
-            "news_id": "cd5a1be2e56c1496c5265626d209262a",
-            "published_at": "2026-07-28 10:29 KST",
-            "press": "블로터",
-            "title": "[동원개발 경영셈법]② 주택 간판 '비스타동원' 급감한 자체사업",
-            "sentiment_score": 0.45043,
-            "associated_companies": 1,
-            "company_names": [
-              "동원개발"
-            ]
-          },
-          {
-            "news_id": "d081657560119f5225bdde17a8e4b5ba",
-            "published_at": "2026-07-28 10:28 KST",
-            "press": "한국경제",
-            "title": "\"CXMT, 中증시 성공적 데뷔…국내 소부장 수혜 기대\"-현대차",
-            "sentiment_score": 0.65543,
-            "associated_companies": 2,
-            "company_names": [
-              "덕산하이메탈",
-              "엠케이전자"
-            ]
-          },
-          {
-            "news_id": "29093cb97d3230bc1f9b309e7a38f058",
-            "published_at": "2026-07-28 10:27 KST",
-            "press": "조선일보",
-            "title": "KT, 아모레퍼시픽 70년 연구 데이터로 ‘생성형 AI 플랫폼’ 구축",
-            "sentiment_score": 0.65543,
-            "associated_companies": 1,
-            "company_names": [
-              "레몬"
-            ]
           }
         ],
         "hankyung": [
@@ -2895,20 +2900,20 @@
   },
   "sources": {
     "discussion": {
-      "latest_event": "2026-07-28 14:15 KST",
-      "latest_seen": "2026-07-28 14:21 KST",
-      "active_minutes": 256,
-      "observations": 57778
+      "latest_event": "2026-07-28 14:18 KST",
+      "latest_seen": "2026-07-28 14:31 KST",
+      "active_minutes": 266,
+      "observations": 60346
     },
     "news": {
-      "latest_event": "2026-07-28 14:19 KST",
-      "latest_seen": "2026-07-28 14:20 KST",
-      "active_minutes": 206,
-      "observations": 1916
+      "latest_event": "2026-07-28 14:30 KST",
+      "latest_seen": "2026-07-28 14:31 KST",
+      "active_minutes": 213,
+      "observations": 1962
     },
     "market": {
       "latest_event": "2026-07-28",
-      "latest_seen": "2026-07-28 14:21 KST",
+      "latest_seen": "2026-07-28 14:31 KST",
       "active_minutes": null,
       "intraday": true,
       "status_record_available": true
