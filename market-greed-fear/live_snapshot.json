@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-28 12:29 KST",
+  "as_of": "2026-07-28 12:39 KST",
   "event_date": "2026-07-28",
   "market_session": {
     "status": "trading",
@@ -8,27 +8,27 @@
   },
   "boards": {
     "KOSPI": {
-      "score": -3.4774,
-      "text_pulse": -3.5178,
+      "score": -3.44176,
+      "text_pulse": -3.53364,
       "previous_final": -0.88783,
       "index": {
-        "price": 6062.64,
+        "price": 6115.64,
         "prev_close": 6755.75,
-        "change": -693.11,
-        "change_pct": -10.26,
-        "as_of": "2026-07-28 12:29 KST",
+        "change": -640.11,
+        "change_pct": -9.48,
+        "as_of": "2026-07-28 12:39 KST",
         "live": true
       },
       "components": {
         "discussion": {
-          "score": -4.26281,
-          "observations": 32295,
-          "coverage": 0.1384
+          "score": -4.2696,
+          "observations": 35569,
+          "coverage": 0.1376
         },
         "news": {
-          "score": -2.02779,
-          "observations": 1035,
-          "coverage": 0.8166
+          "score": -2.0617,
+          "observations": 1039,
+          "coverage": 0.8162
         },
         "news_hankyung": {
           "score": -3.2954,
@@ -36,7 +36,7 @@
           "coverage": 0.7356
         },
         "market": {
-          "score": -3.35618,
+          "score": -3.16612,
           "confidence": 1.0,
           "observations": 915,
           "coverage": 1.0
@@ -44,6 +44,42 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "f89d1f72dd974fd60bded9cea627aa50",
+            "published_at": "2026-07-28 12:31 KST",
+            "press": "서울경제",
+            "title": "中 반도체 우려에 삼전하닉 ‘휘청’…증권가는 오히려 “지금이 매수 적기”",
+            "sentiment_score": 0.38793,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "41819dfac3628a2308a2e0ca044d609c",
+            "published_at": "2026-07-28 12:26 KST",
+            "press": "데일리안",
+            "title": "갤럭시 Z8 출격…통신3사 지원금 최대 57만5000원",
+            "sentiment_score": 0.58668,
+            "associated_companies": 2,
+            "company_names": [
+              "KT",
+              "SK텔레콤"
+            ]
+          },
+          {
+            "news_id": "548755e055ade08be48bb793793be3ae",
+            "published_at": "2026-07-28 12:26 KST",
+            "press": "연합뉴스",
+            "title": "코스피 10%·코스닥 8% 급락에 양시장 서킷브레이커 발동",
+            "sentiment_score": 0.25481,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
           {
             "news_id": "9aaaa373e99d51e9178519688db8f5b0",
             "published_at": "2026-07-28 12:15 KST",
@@ -189,6 +225,18 @@
             "company_names": [
               "NAVER",
               "삼성화재"
+            ]
+          },
+          {
+            "news_id": "85ee9939639b5f6f4565de8d854003cf",
+            "published_at": "2026-07-28 12:00 KST",
+            "press": "EBN",
+            "title": "한국소비자원 \"공기청정기 호환필터 20개 중 16개 성능 미흡\"",
+            "sentiment_score": 0.26418,
+            "associated_companies": 2,
+            "company_names": [
+              "LG전자",
+              "삼성전자"
             ]
           },
           {
@@ -1188,57 +1236,6 @@
               "SK하이닉스",
               "삼성전자"
             ]
-          },
-          {
-            "news_id": "b303257f7751143077bf01fae45d38b4",
-            "published_at": "2026-07-28 11:26 KST",
-            "press": "이데일리",
-            "title": "KT M&S, 전국 KT플라자서 갤럭시Z 폴드8 사전예약",
-            "sentiment_score": 0.59168,
-            "associated_companies": 2,
-            "company_names": [
-              "KT",
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "28d72e84ab2a9d993fd71548967aa4eb",
-            "published_at": "2026-07-28 11:25 KST",
-            "press": "MBN",
-            "title": "최윤범 고려아연 회장, 이 대통령 칠레 순방 동행…자원·청정에너지 협력 확대",
-            "sentiment_score": 0.61793,
-            "associated_companies": 4,
-            "company_names": [
-              "OCI홀딩스",
-              "POSCO홀딩스",
-              "고려아연",
-              "현대차"
-            ]
-          },
-          {
-            "news_id": "757fe7a3e7f6b8b1870cfcc2bd0e20b4",
-            "published_at": "2026-07-28 11:25 KST",
-            "press": "이데일리",
-            "title": "폭풍전야 정무위…국힘 “삼전닉스 ETF·디지털자산 문제 논해야”",
-            "sentiment_score": 0.29168,
-            "associated_companies": 3,
-            "company_names": [
-              "NAVER",
-              "SK하이닉스",
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "ad66362f72093453f078f1f6019b408a",
-            "published_at": "2026-07-28 11:25 KST",
-            "press": "헤럴드경제",
-            "title": "부산시민사회, “BNK-JB 합병 중단하라”",
-            "sentiment_score": 0.27606,
-            "associated_companies": 2,
-            "company_names": [
-              "BNK금융지주",
-              "JB금융지주"
-            ]
           }
         ],
         "hankyung": [
@@ -1567,15 +1564,15 @@
       }
     },
     "KOSDAQ": {
-      "score": -1.59341,
-      "text_pulse": -1.1736,
+      "score": -1.57576,
+      "text_pulse": -1.18357,
       "previous_final": 0.06513,
       "index": {
-        "price": 702.93,
+        "price": 706.48,
         "prev_close": 764.86,
-        "change": -61.93,
-        "change_pct": -8.1,
-        "as_of": "2026-07-28 12:29 KST",
+        "change": -58.38,
+        "change_pct": -7.63,
+        "as_of": "2026-07-28 12:39 KST",
         "live": true
       },
       "components": {
@@ -1585,9 +1582,9 @@
           "coverage": 0.1165
         },
         "news": {
-          "score": -0.23642,
-          "observations": 193,
-          "coverage": 0.6
+          "score": -0.26635,
+          "observations": 194,
+          "coverage": 0.5996
         },
         "news_hankyung": {
           "score": 0.77129,
@@ -1595,7 +1592,7 @@
           "coverage": 0.4667
         },
         "market": {
-          "score": -2.85285,
+          "score": -2.75232,
           "confidence": 1.0,
           "observations": 1802,
           "coverage": 1.0
@@ -1613,6 +1610,17 @@
             "company_names": [
               "셀리드",
               "아이센스"
+            ]
+          },
+          {
+            "news_id": "85ee9939639b5f6f4565de8d854003cf",
+            "published_at": "2026-07-28 12:00 KST",
+            "press": "EBN",
+            "title": "한국소비자원 \"공기청정기 호환필터 20개 중 16개 성능 미흡\"",
+            "sentiment_score": 0.28668,
+            "associated_companies": 1,
+            "company_names": [
+              "위닉스"
             ]
           },
           {
@@ -2711,17 +2719,6 @@
             "company_names": [
               "HLB"
             ]
-          },
-          {
-            "news_id": "28c2b76025c445abcc479324114817da",
-            "published_at": "2026-07-28 10:07 KST",
-            "press": "헤럴드경제",
-            "title": "코나아이, 2분기 영업익 214억…전년비 24.3% ↑",
-            "sentiment_score": 0.63293,
-            "associated_companies": 1,
-            "company_names": [
-              "코나아이"
-            ]
           }
         ],
         "hankyung": [
@@ -2866,19 +2863,19 @@
   "sources": {
     "discussion": {
       "latest_event": "2026-07-28 12:20 KST",
-      "latest_seen": "2026-07-28 12:29 KST",
-      "active_minutes": 198,
-      "observations": 44158
+      "latest_seen": "2026-07-28 12:34 KST",
+      "active_minutes": 203,
+      "observations": 47432
     },
     "news": {
-      "latest_event": "2026-07-28 12:28 KST",
-      "latest_seen": "2026-07-28 12:29 KST",
-      "active_minutes": 171,
-      "observations": 1679
+      "latest_event": "2026-07-28 12:31 KST",
+      "latest_seen": "2026-07-28 12:33 KST",
+      "active_minutes": 175,
+      "observations": 1689
     },
     "market": {
       "latest_event": "2026-07-28",
-      "latest_seen": "2026-07-28 12:29 KST",
+      "latest_seen": "2026-07-28 12:39 KST",
       "active_minutes": null,
       "intraday": true,
       "status_record_available": true
