@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-28 23:08 KST",
+  "as_of": "2026-07-28 23:18 KST",
   "event_date": "2026-07-28",
   "market_session": {
     "status": "trading",
@@ -8,8 +8,8 @@
   },
   "boards": {
     "KOSPI": {
-      "score": -3.78631,
-      "text_pulse": -3.88637,
+      "score": -3.7915,
+      "text_pulse": -3.89328,
       "previous_final": -0.88783,
       "index": {
         "price": 6023.66,
@@ -21,19 +21,19 @@
       },
       "components": {
         "discussion": {
-          "score": -4.36486,
-          "observations": 68841,
-          "coverage": 0.1288
+          "score": -4.37041,
+          "observations": 68905,
+          "coverage": 0.1289
         },
         "news": {
-          "score": -2.92941,
-          "observations": 1961,
+          "score": -2.93903,
+          "observations": 1962,
           "coverage": 0.8013
         },
         "news_hankyung": {
-          "score": -3.33161,
-          "observations": 111,
-          "coverage": 0.7852
+          "score": -3.48396,
+          "observations": 112,
+          "coverage": 0.786
         },
         "market": {
           "score": -3.48614,
@@ -44,6 +44,17 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "3434e6e5c969499c511cb366919899b8",
+            "published_at": "2026-07-28 23:14 KST",
+            "press": "한국경제",
+            "title": "뉴욕증시,반도체주 하락에 나스닥 1.2%↓",
+            "sentiment_score": 0.31677,
+            "associated_companies": 1,
+            "company_names": [
+              "SK하이닉스"
+            ]
+          },
           {
             "news_id": "9f3e652a45ab224e1eee08eec163f029",
             "published_at": "2026-07-28 22:45 KST",
@@ -1235,21 +1246,20 @@
               "한국전력",
               "현대제철"
             ]
-          },
-          {
-            "news_id": "7676a0344fdfad3804019894905ccecc",
-            "published_at": "2026-07-28 18:22 KST",
-            "press": "파이낸셜뉴스",
-            "title": "OTT 구독·더블요금제·단말보상… 갤Z8 고객 유치전 '후끈'",
-            "sentiment_score": 0.55676,
-            "associated_companies": 2,
-            "company_names": [
-              "SK텔레콤",
-              "삼성전자"
-            ]
           }
         ],
         "hankyung": [
+          {
+            "news_id": "3434e6e5c969499c511cb366919899b8",
+            "published_at": "2026-07-28 23:14 KST",
+            "press": "한국경제",
+            "title": "뉴욕증시,반도체주 하락에 나스닥 1.2%↓",
+            "sentiment_score": 0.31677,
+            "associated_companies": 1,
+            "company_names": [
+              "SK하이닉스"
+            ]
+          },
           {
             "news_id": "b7dff0dee1908f7f62ffed545d6241d4",
             "published_at": "2026-07-28 22:00 KST",
@@ -2444,20 +2454,6 @@
             "associated_companies": 1,
             "company_names": [
               "SK하이닉스"
-            ]
-          },
-          {
-            "news_id": "260ce572dd470cddbf9c5d580560562f",
-            "published_at": "2026-07-28 06:00 KST",
-            "press": "한국경제",
-            "title": "'일단 잘 먹고 갑니다'…삼전닉스 팔아치운 외국인 이유 있었다",
-            "sentiment_score": 0.44981,
-            "associated_companies": 4,
-            "company_names": [
-              "DB하이텍",
-              "LG이노텍",
-              "SK하이닉스",
-              "삼성전자"
             ]
           }
         ]
@@ -3900,16 +3896,16 @@
   },
   "sources": {
     "discussion": {
-      "latest_event": "2026-07-28 23:04 KST",
-      "latest_seen": "2026-07-28 23:08 KST",
-      "active_minutes": 559,
-      "observations": 91932
+      "latest_event": "2026-07-28 23:08 KST",
+      "latest_seen": "2026-07-28 23:18 KST",
+      "active_minutes": 569,
+      "observations": 91996
     },
     "news": {
-      "latest_event": "2026-07-28 22:46 KST",
-      "latest_seen": "2026-07-28 23:04 KST",
-      "active_minutes": 433,
-      "observations": 3397
+      "latest_event": "2026-07-28 23:14 KST",
+      "latest_seen": "2026-07-28 23:15 KST",
+      "active_minutes": 435,
+      "observations": 3398
     },
     "market": {
       "latest_event": "2026-07-28",
