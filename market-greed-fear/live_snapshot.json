@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30 06:29 KST",
+  "as_of": "2026-07-30 06:39 KST",
   "event_date": "2026-07-30",
   "market_session": {
     "status": "unconfirmed",
@@ -9,7 +9,7 @@
   "boards": {
     "KOSPI": {
       "score": null,
-      "text_pulse": -2.04371,
+      "text_pulse": -2.19558,
       "previous_final": -3.0681,
       "index": {
         "price": 5663.24,
@@ -21,19 +21,19 @@
       },
       "components": {
         "discussion": {
-          "score": -1.69406,
-          "observations": 2868,
-          "coverage": 0.1318
+          "score": -1.91457,
+          "observations": 3170,
+          "coverage": 0.1369
         },
         "news": {
-          "score": -2.74302,
-          "observations": 164,
-          "coverage": 0.7887
+          "score": -2.7576,
+          "observations": 167,
+          "coverage": 0.7678
         },
         "news_hankyung": {
-          "score": -0.7526,
-          "observations": 2,
-          "coverage": 0.75
+          "score": -1.02281,
+          "observations": 3,
+          "coverage": 0.5
         },
         "market": {
           "score": null,
@@ -44,6 +44,17 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "ce54b9a0deb4889b8481d87d04ac59ca",
+            "published_at": "2026-07-30 06:30 KST",
+            "press": "한국경제",
+            "title": "어닝 서프라이즈에도 한미약품 목표가 줄하향…전망은? [종목+]",
+            "sentiment_score": 0.46052,
+            "associated_companies": 1,
+            "company_names": [
+              "한미약품"
+            ]
+          },
           {
             "news_id": "64e508a1fafc0e72137b58d2895cb94c",
             "published_at": "2026-07-30 06:01 KST",
@@ -1210,21 +1221,20 @@
             "company_names": [
               "기아"
             ]
-          },
-          {
-            "news_id": "c00e640be2a473916fa794f0c20dfe3e",
-            "published_at": "2026-07-30 03:18 KST",
-            "press": "파이낸셜뉴스",
-            "title": "전 세계 반도체 시총, 사흘 동안 1900조원 가까이 사라져",
-            "sentiment_score": 0.28614,
-            "associated_companies": 2,
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ]
           }
         ],
         "hankyung": [
+          {
+            "news_id": "ce54b9a0deb4889b8481d87d04ac59ca",
+            "published_at": "2026-07-30 06:30 KST",
+            "press": "한국경제",
+            "title": "어닝 서프라이즈에도 한미약품 목표가 줄하향…전망은? [종목+]",
+            "sentiment_score": 0.46052,
+            "associated_companies": 1,
+            "company_names": [
+              "한미약품"
+            ]
+          },
           {
             "news_id": "d11f7a40bf82dff1ee7482ab85b7bc1e",
             "published_at": "2026-07-30 06:00 KST",
@@ -1253,7 +1263,7 @@
     },
     "KOSDAQ": {
       "score": null,
-      "text_pulse": 0.28266,
+      "text_pulse": 0.30014,
       "previous_final": -1.81191,
       "index": {
         "price": 662.68,
@@ -1270,9 +1280,9 @@
           "coverage": 0.118
         },
         "news": {
-          "score": 0.27884,
-          "observations": 12,
-          "coverage": 0.8
+          "score": 0.33126,
+          "observations": 13,
+          "coverage": 0.8125
         },
         "news_hankyung": {
           "score": null,
@@ -1311,6 +1321,17 @@
             ]
           },
           {
+            "news_id": "4c1537fd410303c870855a36edbd5255",
+            "published_at": "2026-07-30 06:00 KST",
+            "press": "EBN",
+            "title": "[지면용] '리쥬란 신화' 파마리서치, 글로벌 '엑스테틱 왕국'의 새로운 꿈",
+            "sentiment_score": 0.69051,
+            "associated_companies": 1,
+            "company_names": [
+              "파마리서치"
+            ]
+          },
+          {
             "news_id": "60c5247913eb351573865820978cff11",
             "published_at": "2026-07-30 06:00 KST",
             "press": "파이낸셜뉴스",
@@ -1319,6 +1340,17 @@
             "associated_companies": 1,
             "company_names": [
               "인크로스"
+            ]
+          },
+          {
+            "news_id": "632de45c988379d1f9d0cbbb566f38ca",
+            "published_at": "2026-07-30 06:00 KST",
+            "press": "EBN",
+            "title": "[체험기] AI가 골라주고 읽어준다…내 손안의 지식 서재 '모아진'",
+            "sentiment_score": 0.59301,
+            "associated_companies": 1,
+            "company_names": [
+              "플랜티넷"
             ]
           },
           {
@@ -1540,15 +1572,15 @@
   "sources": {
     "discussion": {
       "latest_event": "2026-07-30 06:06 KST",
-      "latest_seen": "2026-07-30 06:28 KST",
-      "active_minutes": 61,
-      "observations": 3324
+      "latest_seen": "2026-07-30 06:30 KST",
+      "active_minutes": 58,
+      "observations": 3626
     },
     "news": {
-      "latest_event": "2026-07-30 06:12 KST",
-      "latest_seen": "2026-07-30 06:15 KST",
-      "active_minutes": 27,
-      "observations": 231
+      "latest_event": "2026-07-30 06:30 KST",
+      "latest_seen": "2026-07-30 06:31 KST",
+      "active_minutes": 29,
+      "observations": 237
     },
     "market": {
       "latest_event": null,
