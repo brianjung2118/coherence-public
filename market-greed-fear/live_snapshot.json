@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30 03:57 KST",
+  "as_of": "2026-07-30 04:07 KST",
   "event_date": "2026-07-30",
   "market_session": {
     "status": "unconfirmed",
@@ -9,7 +9,7 @@
   "boards": {
     "KOSPI": {
       "score": null,
-      "text_pulse": -2.62125,
+      "text_pulse": -0.26352,
       "previous_final": -3.0681,
       "index": {
         "price": 5663.24,
@@ -21,14 +21,14 @@
       },
       "components": {
         "discussion": {
-          "score": -2.67192,
-          "observations": 36,
-          "coverage": 0.1389
+          "score": 0.98958,
+          "observations": 408,
+          "coverage": 0.1373
         },
         "news": {
-          "score": -2.51989,
-          "observations": 49,
-          "coverage": 0.8145
+          "score": -2.7697,
+          "observations": 53,
+          "coverage": 0.8092
         },
         "news_hankyung": {
           "score": 0.86867,
@@ -44,6 +44,41 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "3e541bf7e091c69e54d633a6c735dc8e",
+            "published_at": "2026-07-30 03:59 KST",
+            "press": "머니투데이",
+            "title": "투매가 투매를 부른다, 연이틀 '서킷브레이커'",
+            "sentiment_score": 0.25989,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "19819839a1f0e8359a2234d728a5b451",
+            "published_at": "2026-07-30 03:31 KST",
+            "press": "뉴시스",
+            "title": "기아, 멕시코에 6억4900만달러 투자… 전기차 생산·판매",
+            "sentiment_score": 0.64051,
+            "associated_companies": 1,
+            "company_names": [
+              "기아"
+            ]
+          },
+          {
+            "news_id": "c00e640be2a473916fa794f0c20dfe3e",
+            "published_at": "2026-07-30 03:18 KST",
+            "press": "파이낸셜뉴스",
+            "title": "전 세계 반도체 시총, 사흘 동안 1900조원 가까이 사라져",
+            "sentiment_score": 0.28614,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
           {
             "news_id": "38ae266714decf62644f5ca4bbd1bf78",
             "published_at": "2026-07-30 03:00 KST",
@@ -643,7 +678,7 @@
     },
     "KOSDAQ": {
       "score": null,
-      "text_pulse": 0.01934,
+      "text_pulse": -0.25058,
       "previous_final": -1.81191,
       "index": {
         "price": 662.68,
@@ -655,9 +690,9 @@
       },
       "components": {
         "discussion": {
-          "score": 0.68016,
-          "observations": 10,
-          "coverage": 0.1
+          "score": 0.27528,
+          "observations": 288,
+          "coverage": 0.1076
         },
         "news": {
           "score": -1.30231,
@@ -729,16 +764,16 @@
   },
   "sources": {
     "discussion": {
-      "latest_event": "2026-07-30 00:02 KST",
-      "latest_seen": "2026-07-30 00:23 KST",
-      "active_minutes": 7,
-      "observations": 46
+      "latest_event": "2026-07-30 04:02 KST",
+      "latest_seen": "2026-07-30 04:05 KST",
+      "active_minutes": 12,
+      "observations": 698
     },
     "news": {
-      "latest_event": "2026-07-30 03:53 KST",
-      "latest_seen": "2026-07-30 03:56 KST",
-      "active_minutes": 13,
-      "observations": 64
+      "latest_event": "2026-07-30 04:01 KST",
+      "latest_seen": "2026-07-30 04:07 KST",
+      "active_minutes": 14,
+      "observations": 76
     },
     "market": {
       "latest_event": null,
