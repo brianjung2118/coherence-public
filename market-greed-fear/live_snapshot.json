@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30 01:14 KST",
+  "as_of": "2026-07-30 01:24 KST",
   "event_date": "2026-07-30",
   "market_session": {
     "status": "unconfirmed",
@@ -9,7 +9,7 @@
   "boards": {
     "KOSPI": {
       "score": null,
-      "text_pulse": -2.62751,
+      "text_pulse": -2.60515,
       "previous_final": -3.0681,
       "index": {
         "price": 5663.24,
@@ -26,14 +26,14 @@
           "coverage": 0.1389
         },
         "news": {
-          "score": -2.53869,
-          "observations": 46,
-          "coverage": 0.8125
+          "score": -2.47161,
+          "observations": 47,
+          "coverage": 0.8142
         },
         "news_hankyung": {
-          "score": null,
-          "observations": 0,
-          "coverage": 0.0
+          "score": 0.86867,
+          "observations": 1,
+          "coverage": 1.0
         },
         "market": {
           "score": null,
@@ -44,6 +44,17 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "2e4f9579f17b7897707f9f8aa571f57f",
+            "published_at": "2026-07-30 01:18 KST",
+            "press": "한국경제",
+            "title": "기아,9,4000억 투자…멕시코산 EV3로 북미 공략",
+            "sentiment_score": 0.67051,
+            "associated_companies": 1,
+            "company_names": [
+              "기아"
+            ]
+          },
           {
             "news_id": "c2810529a2349135bee913f15a5588b8",
             "published_at": "2026-07-30 00:56 KST",
@@ -586,7 +597,19 @@
             ]
           }
         ],
-        "hankyung": []
+        "hankyung": [
+          {
+            "news_id": "2e4f9579f17b7897707f9f8aa571f57f",
+            "published_at": "2026-07-30 01:18 KST",
+            "press": "한국경제",
+            "title": "기아,9,4000억 투자…멕시코산 EV3로 북미 공략",
+            "sentiment_score": 0.67051,
+            "associated_companies": 1,
+            "company_names": [
+              "기아"
+            ]
+          }
+        ]
       }
     },
     "KOSDAQ": {
@@ -672,10 +695,10 @@
       "observations": 46
     },
     "news": {
-      "latest_event": "2026-07-30 00:56 KST",
-      "latest_seen": "2026-07-30 01:03 KST",
-      "active_minutes": 5,
-      "observations": 54
+      "latest_event": "2026-07-30 01:18 KST",
+      "latest_seen": "2026-07-30 01:19 KST",
+      "active_minutes": 6,
+      "observations": 55
     },
     "market": {
       "latest_event": null,
