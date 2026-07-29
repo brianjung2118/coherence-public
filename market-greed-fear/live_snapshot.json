@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-29 13:02 KST",
+  "as_of": "2026-07-29 13:12 KST",
   "event_date": "2026-07-29",
   "market_session": {
     "status": "trading",
@@ -8,27 +8,27 @@
   },
   "boards": {
     "KOSPI": {
-      "score": -2.74058,
-      "text_pulse": -2.74169,
+      "score": -2.89948,
+      "text_pulse": -2.81863,
       "previous_final": -3.48991,
       "index": {
-        "price": 5531.56,
+        "price": 5428.14,
         "prev_close": 6023.66,
-        "change": -492.1,
-        "change_pct": -8.17,
-        "as_of": "2026-07-29 13:02 KST",
+        "change": -595.52,
+        "change_pct": -9.89,
+        "as_of": "2026-07-29 13:12 KST",
         "live": true
       },
       "components": {
         "discussion": {
-          "score": -3.26244,
-          "observations": 39002,
-          "coverage": 0.1322
+          "score": -3.36851,
+          "observations": 40941,
+          "coverage": 0.1316
         },
         "news": {
-          "score": -1.70018,
-          "observations": 1358,
-          "coverage": 0.8115
+          "score": -1.71889,
+          "observations": 1364,
+          "coverage": 0.8075
         },
         "news_hankyung": {
           "score": -0.51095,
@@ -36,7 +36,7 @@
           "coverage": 0.7845
         },
         "market": {
-          "score": -2.73725,
+          "score": -3.14203,
           "confidence": 1.0,
           "observations": 915,
           "coverage": 1.0
@@ -44,6 +44,51 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "3710a2ec909e5de579f28ecfeedbecfe",
+            "published_at": "2026-07-29 13:09 KST",
+            "press": "서울신문",
+            "title": "[서울데이터랩]코스피 시총상위주 장중 약세…셀트리온만 상승",
+            "sentiment_score": 0.30369,
+            "associated_companies": 13,
+            "company_names": [
+              "HD현대중공업",
+              "LG에너지솔루션",
+              "SK",
+              "SK스퀘어",
+              "SK하이닉스",
+              "기아",
+              "삼성물산",
+              "삼성바이오로직스",
+              "삼성전기",
+              "삼성전자",
+              "셀트리온",
+              "한화에어로스페이스",
+              "현대차"
+            ]
+          },
+          {
+            "news_id": "61cc3c27decbf736b42ffd0688ac25ca",
+            "published_at": "2026-07-29 13:02 KST",
+            "press": "서울경제",
+            "title": "한화에어로, ‘아리온스멧’ 군 다목적무인차량 사업자 공식 선정",
+            "sentiment_score": 0.67551,
+            "associated_companies": 1,
+            "company_names": [
+              "한화에어로스페이스"
+            ]
+          },
+          {
+            "news_id": "6494ae9e5f89d2e07f9027f1b18d8684",
+            "published_at": "2026-07-29 13:02 KST",
+            "press": "블로터",
+            "title": "AP위성, '다누리' 이어 달 착륙선 항법컴퓨터 제조·검증 맡는다",
+            "sentiment_score": 0.67051,
+            "associated_companies": 1,
+            "company_names": [
+              "한국항공우주"
+            ]
+          },
           {
             "news_id": "bc80b8543829fe26e95826bd3159a392",
             "published_at": "2026-07-29 13:00 KST",
@@ -53,6 +98,40 @@
             "associated_companies": 1,
             "company_names": [
               "하이트진로"
+            ]
+          },
+          {
+            "news_id": "06b1743d439db3dff2ce311ea036028d",
+            "published_at": "2026-07-29 12:55 KST",
+            "press": "SBS",
+            "title": "정부, 한·메르코수르 무역협정 속도…브라질과 광물 협력도 강화",
+            "sentiment_score": 0.68051,
+            "associated_companies": 1,
+            "company_names": [
+              "포스코인터내셔널"
+            ]
+          },
+          {
+            "news_id": "194c9927caec67d7e3e07fc389c5a610",
+            "published_at": "2026-07-29 12:54 KST",
+            "press": "뉴스1",
+            "title": "'대한민국 올해의 녹색상품 시상식' 기업상 수상",
+            "sentiment_score": 0.55302,
+            "associated_companies": 1,
+            "company_names": [
+              "무림P&P"
+            ]
+          },
+          {
+            "news_id": "59b6f39c4120ddbca8684854f58f0697",
+            "published_at": "2026-07-29 12:54 KST",
+            "press": "뉴스1",
+            "title": "제17회 대한민국 올해의 녹색상품 시상식",
+            "sentiment_score": 0.50426,
+            "associated_companies": 2,
+            "company_names": [
+              "LG전자",
+              "삼성전자"
             ]
           },
           {
@@ -1162,74 +1241,6 @@
             "company_names": [
               "에스엠벡셀"
             ]
-          },
-          {
-            "news_id": "510848e093e9d391a3cc195e303f28a7",
-            "published_at": "2026-07-29 11:36 KST",
-            "press": "헤럴드경제",
-            "title": "SK하이닉스, 2Q 영업익 60.5조…분기 역대 최대",
-            "sentiment_score": 0.68051,
-            "associated_companies": 1,
-            "company_names": [
-              "SK하이닉스"
-            ]
-          },
-          {
-            "news_id": "b676878eb499bc5e71c792c2c57a7955",
-            "published_at": "2026-07-29 11:36 KST",
-            "press": "헤럴드경제",
-            "title": "어제 10% 오늘도 5%…코스피 폭락",
-            "sentiment_score": 0.32614,
-            "associated_companies": 2,
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "d70003e1f4fbcd9e23af8132193c8457",
-            "published_at": "2026-07-29 11:36 KST",
-            "press": "한겨레",
-            "title": "같은 서울이어도 동네마다 취향 달랐다…농심라면 인기 지도 보니",
-            "sentiment_score": 0.53802,
-            "associated_companies": 1,
-            "company_names": [
-              "농심"
-            ]
-          },
-          {
-            "news_id": "df0981cf52f27cf686086591fb69bc4f",
-            "published_at": "2026-07-29 11:36 KST",
-            "press": "부산일보",
-            "title": "SK하이닉스 2분기 영업익 60.5조 ‘역대 최대’…영업이익률 76%",
-            "sentiment_score": 0.68051,
-            "associated_companies": 1,
-            "company_names": [
-              "SK하이닉스"
-            ]
-          },
-          {
-            "news_id": "ee4ff01c875ef850c71f6c38f3829996",
-            "published_at": "2026-07-29 11:36 KST",
-            "press": "오마이뉴스",
-            "title": "SK하이닉스, 2분기 '역대 최대' 행진... 시장 기대엔 못 미쳐",
-            "sentiment_score": 0.48302,
-            "associated_companies": 2,
-            "company_names": [
-              "SK하이닉스",
-              "하나금융지주"
-            ]
-          },
-          {
-            "news_id": "a59f69ba31c787a97b763a0b5ce91484",
-            "published_at": "2026-07-29 11:35 KST",
-            "press": "한국경제",
-            "title": "\"AI 버블 걱정 없다\"…SK하이닉스 40조 '승부수'",
-            "sentiment_score": 0.67551,
-            "associated_companies": 1,
-            "company_names": [
-              "SK하이닉스"
-            ]
           }
         ],
         "hankyung": [
@@ -1772,27 +1783,27 @@
       }
     },
     "KOSDAQ": {
-      "score": -1.67848,
-      "text_pulse": -1.24803,
+      "score": -1.92076,
+      "text_pulse": -1.54721,
       "previous_final": -1.64696,
       "index": {
-        "price": 643.7,
+        "price": 641.91,
         "prev_close": 705.85,
-        "change": -62.15,
-        "change_pct": -8.8,
-        "as_of": "2026-07-29 13:02 KST",
+        "change": -63.94,
+        "change_pct": -9.06,
+        "as_of": "2026-07-29 13:12 KST",
         "live": true
       },
       "components": {
         "discussion": {
-          "score": -1.58617,
-          "observations": 14049,
-          "coverage": 0.108
+          "score": -2.03626,
+          "observations": 16232,
+          "coverage": 0.1104
         },
         "news": {
-          "score": -0.57175,
-          "observations": 251,
-          "coverage": 0.682
+          "score": -0.5691,
+          "observations": 254,
+          "coverage": 0.6838
         },
         "news_hankyung": {
           "score": -1.64762,
@@ -1800,7 +1811,7 @@
           "coverage": 0.5778
         },
         "market": {
-          "score": -2.96981,
+          "score": -3.04142,
           "confidence": 1.0,
           "observations": 1802,
           "coverage": 1.0
@@ -1808,6 +1819,50 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "6494ae9e5f89d2e07f9027f1b18d8684",
+            "published_at": "2026-07-29 13:02 KST",
+            "press": "블로터",
+            "title": "AP위성, '다누리' 이어 달 착륙선 항법컴퓨터 제조·검증 맡는다",
+            "sentiment_score": 0.68051,
+            "associated_companies": 1,
+            "company_names": [
+              "AP위성"
+            ]
+          },
+          {
+            "news_id": "755f40064e93a9fc0d5dfa9152c28cc8",
+            "published_at": "2026-07-29 12:55 KST",
+            "press": "이데일리",
+            "title": "안랩 2분기 영업이익 54억 원…전년比 56.3%↑",
+            "sentiment_score": 0.69051,
+            "associated_companies": 1,
+            "company_names": [
+              "안랩"
+            ]
+          },
+          {
+            "news_id": "194c9927caec67d7e3e07fc389c5a610",
+            "published_at": "2026-07-29 12:54 KST",
+            "press": "뉴스1",
+            "title": "'대한민국 올해의 녹색상품 시상식' 기업상 수상",
+            "sentiment_score": 0.53302,
+            "associated_companies": 1,
+            "company_names": [
+              "브이티"
+            ]
+          },
+          {
+            "news_id": "f346c2788e01ecfd4f1c8dcec628f2d6",
+            "published_at": "2026-07-29 12:53 KST",
+            "press": "SBS",
+            "title": "성산일출봉에 하늘 나는 수직이착륙기…제주서 UAM 비행 시연",
+            "sentiment_score": 0.69551,
+            "associated_companies": 1,
+            "company_names": [
+              "삼보모터스"
+            ]
+          },
           {
             "news_id": "4e14e103ea2d3800fa6744f2dff950db",
             "published_at": "2026-07-29 12:49 KST",
@@ -2894,50 +2949,6 @@
             "company_names": [
               "컴투스"
             ]
-          },
-          {
-            "news_id": "c7fc2f07d42eace696437744c0f4671b",
-            "published_at": "2026-07-29 10:21 KST",
-            "press": "뉴시스",
-            "title": "골프존, 타이어프로 GTOUR MIXED 5차대회 개최",
-            "sentiment_score": 0.55302,
-            "associated_companies": 1,
-            "company_names": [
-              "골프존"
-            ]
-          },
-          {
-            "news_id": "c926d9d84b703bea5ddd980c78f6b4f9",
-            "published_at": "2026-07-29 10:21 KST",
-            "press": "뉴시스",
-            "title": "서울·경기 중식당 12곳, '밀가루 담합' 제분 7사에 손배소 제기",
-            "sentiment_score": 0.20802,
-            "associated_companies": 1,
-            "company_names": [
-              "한탑"
-            ]
-          },
-          {
-            "news_id": "9d1d9a0f78049a7352c66d3779a2998c",
-            "published_at": "2026-07-29 10:20 KST",
-            "press": "디지털데일리",
-            "title": "컴투스홀딩스, '페이탈 클로' 中 최대 게임쇼서 보스전·추격전 시연",
-            "sentiment_score": 0.57801,
-            "associated_companies": 1,
-            "company_names": [
-              "컴투스홀딩스"
-            ]
-          },
-          {
-            "news_id": "c5b479a840fe24264b6fd406eb2e1e69",
-            "published_at": "2026-07-29 10:20 KST",
-            "press": "연합뉴스",
-            "title": "안랩 2분기 영업이익 54억원…작년 동기 대비 55.6%↑",
-            "sentiment_score": 0.63301,
-            "associated_companies": 1,
-            "company_names": [
-              "안랩"
-            ]
           }
         ],
         "hankyung": [
@@ -3152,20 +3163,20 @@
   },
   "sources": {
     "discussion": {
-      "latest_event": "2026-07-29 13:01 KST",
-      "latest_seen": "2026-07-29 13:02 KST",
-      "active_minutes": 190,
-      "observations": 53708
+      "latest_event": "2026-07-29 13:11 KST",
+      "latest_seen": "2026-07-29 13:12 KST",
+      "active_minutes": 200,
+      "observations": 57893
     },
     "news": {
-      "latest_event": "2026-07-29 13:01 KST",
-      "latest_seen": "2026-07-29 13:02 KST",
-      "active_minutes": 196,
-      "observations": 2085
+      "latest_event": "2026-07-29 13:11 KST",
+      "latest_seen": "2026-07-29 13:12 KST",
+      "active_minutes": 198,
+      "observations": 2113
     },
     "market": {
       "latest_event": "2026-07-29",
-      "latest_seen": "2026-07-29 13:02 KST",
+      "latest_seen": "2026-07-29 13:12 KST",
       "active_minutes": null,
       "intraday": true,
       "status_record_available": true
