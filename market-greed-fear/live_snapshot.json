@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-31 02:58 KST",
+  "as_of": "2026-07-31 03:03 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -13,9 +13,9 @@
       "score": null,
       "components": {
         "news": {
-          "score": -1.09612,
-          "coverage": 0.8732,
-          "observations": 26
+          "score": -1.09104,
+          "coverage": 0.88,
+          "observations": 28
         },
         "market": {
           "score": null,
@@ -34,9 +34,33 @@
           "observations": 0
         }
       },
-      "text_pulse": 1.49834,
+      "text_pulse": 1.50003,
       "news_articles": {
         "all": [
+          {
+            "press": "머니투데이",
+            "title": "현장 데이터 전방위 분석… 설계부터 튼튼해졌다",
+            "news_id": "d0e11e72535805bf3060e3170ffbabba",
+            "published_at": "2026-07-31 03:00 KST",
+            "company_names": [
+              "대우건설"
+            ],
+            "sentiment_score": 0.67051,
+            "associated_companies": 1
+          },
+          {
+            "press": "뉴시스",
+            "title": "삼전하닉 주가 회복돼도 내 계좌는 마이너스?…'2배 레버리지'의 덫",
+            "news_id": "adfab56c7da8ef6b2a50df85e25e1876",
+            "published_at": "2026-07-31 02:20 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자",
+              "한양증권"
+            ],
+            "sentiment_score": 0.42051,
+            "associated_companies": 3
+          },
           {
             "press": "중앙일보",
             "title": "“도쿄바나나 아니었어?”…로고부터 포장까지 카피한 韓 브랜드",
@@ -452,10 +476,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 02:02 KST",
-      "latest_event": "2026-07-31 01:49 KST",
-      "observations": 65,
-      "active_minutes": 8
+      "latest_seen": "2026-07-31 03:02 KST",
+      "latest_event": "2026-07-31 03:00 KST",
+      "observations": 70,
+      "active_minutes": 10
     },
     "market": {
       "intraday": false,
@@ -481,6 +505,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 02:58 KST"
+    "attempted_at": "2026-07-31 03:03 KST"
   }
 }
