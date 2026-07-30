@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30 19:58 KST",
+  "as_of": "2026-07-30 20:03 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -10,12 +10,12 @@
         "change_pct": -1.23,
         "prev_close": 5663.24
       },
-      "score": -1.25635,
+      "score": -1.24865,
       "components": {
         "news": {
-          "score": 0.16657,
-          "coverage": 0.8422,
-          "observations": 3077
+          "score": 0.1462,
+          "coverage": 0.8427,
+          "observations": 3085
         },
         "market": {
           "score": 0.10936,
@@ -24,19 +24,118 @@
           "observations": 915
         },
         "discussion": {
-          "score": -2.65066,
-          "coverage": 0.1277,
-          "observations": 57898
+          "score": -2.62508,
+          "coverage": 0.1276,
+          "observations": 58474
         },
         "news_hankyung": {
-          "score": -0.35822,
-          "coverage": 0.8146,
-          "observations": 128
+          "score": -0.37137,
+          "coverage": 0.817,
+          "observations": 129
         }
       },
-      "text_pulse": -1.71159,
+      "text_pulse": -1.70132,
       "news_articles": {
         "all": [
+          {
+            "press": "한국경제",
+            "title": "양손 묶인 인뱅의 돌파구는 '사장님 대출'",
+            "news_id": "59f63afcfd73832d5e80e4486da7dbba",
+            "published_at": "2026-07-30 20:00 KST",
+            "company_names": [
+              "BNK금융지주",
+              "카카오뱅크",
+              "케이뱅크",
+              "현대차"
+            ],
+            "sentiment_score": 0.53864,
+            "associated_companies": 4
+          },
+          {
+            "press": "머니투데이",
+            "title": "\"통합 AX 기업 도약\" 카카오·배민 출신 개발자, 팀스파르타 합류",
+            "news_id": "0f44fe953bd297f767e01f779ad5cee5",
+            "published_at": "2026-07-30 20:00 KST",
+            "company_names": [
+              "SK스퀘어",
+              "카카오"
+            ],
+            "sentiment_score": 0.55177,
+            "associated_companies": 2
+          },
+          {
+            "press": "국제신문",
+            "title": "개미 레버리지 ETF 56조 원 손실 추정…‘빚투’는 여전",
+            "news_id": "075a73ff39281fc85e00144e2cb9f88c",
+            "published_at": "2026-07-30 19:59 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.30489,
+            "associated_companies": 2
+          },
+          {
+            "press": "국제신문",
+            "title": "하이닉스 목표가 줄하향…한투는 380→470만 원",
+            "news_id": "6df4e70ed66e529202b494eb8227e7e5",
+            "published_at": "2026-07-30 19:58 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성증권",
+              "신한지주",
+              "키움증권",
+              "한국금융지주"
+            ],
+            "sentiment_score": 0.41102,
+            "associated_companies": 5
+          },
+          {
+            "press": "전자신문",
+            "title": "최태원 SK그룹 회장, 주식 48억 규모 장내매수",
+            "news_id": "140370205023e7cb6b225f337e54b057",
+            "published_at": "2026-07-30 19:54 KST",
+            "company_names": [
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.51551,
+            "associated_companies": 1
+          },
+          {
+            "press": "더팩트",
+            "title": "카카오, 'AI&기술윤리소위원회' 외부 자문단 출범",
+            "news_id": "623adc0008df9220bb867769ac49c0a4",
+            "published_at": "2026-07-30 19:54 KST",
+            "company_names": [
+              "카카오"
+            ],
+            "sentiment_score": 0.52802,
+            "associated_companies": 1
+          },
+          {
+            "press": "서울경제",
+            "title": "SK하이닉스 주가 급락에…최태원, 49억원어치 직접 사들였다",
+            "news_id": "bac2e47dd326279c4da8efe3ed0c093f",
+            "published_at": "2026-07-30 19:53 KST",
+            "company_names": [
+              "SK",
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.44676,
+            "associated_companies": 2
+          },
+          {
+            "press": "연합뉴스TV",
+            "title": "[뉴스프라임] 코스피, 또 하락…개인 투자자들 '비명'",
+            "news_id": "9d9eb7e2ea5a791875f627597a1eae6b",
+            "published_at": "2026-07-30 19:52 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.31614,
+            "associated_companies": 2
+          },
           {
             "press": "데일리안",
             "title": "최태원, SK하이닉스 주식 48억원 첫 매입…주가 급락에 책임경영",
@@ -253,6 +352,18 @@
             ],
             "sentiment_score": 0.56051,
             "associated_companies": 1
+          },
+          {
+            "press": "EBN",
+            "title": "최태원 회장, SK하이닉스 주식 3620주 매수",
+            "news_id": "5ee2849abce252d572440d51bba995f6",
+            "published_at": "2026-07-30 19:26 KST",
+            "company_names": [
+              "SK스퀘어",
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.56302,
+            "associated_companies": 2
           },
           {
             "press": "지디넷코리아",
@@ -1088,114 +1199,23 @@
             ],
             "sentiment_score": 0.57051,
             "associated_companies": 1
-          },
-          {
-            "press": "EBN",
-            "title": "'성과급 갈등' 카카오 노사, 임금협상 잠정 합의",
-            "news_id": "d3382013369ba19238fc379731ebe247",
-            "published_at": "2026-07-30 18:17 KST",
-            "company_names": [
-              "카카오",
-              "카카오뱅크",
-              "카카오페이"
-            ],
-            "sentiment_score": 0.35302,
-            "associated_companies": 3
-          },
-          {
-            "press": "파이낸셜뉴스",
-            "title": "가전·휴대폰 잘 팔렸지만 '칩플레이션'에 발목… DX는 사상 첫 적자 [삼성 2분기 역대급 실적]",
-            "news_id": "3cf9fc48059ae5e9e55682412ce1342e",
-            "published_at": "2026-07-30 18:17 KST",
-            "company_names": [
-              "삼성전자"
-            ],
-            "sentiment_score": 0.30677,
-            "associated_companies": 1
-          },
-          {
-            "press": "디지털타임스",
-            "title": "AI로 체질 바꾼 5대 금융… 경영 효율성 ‘마의 40%’ 돌파",
-            "news_id": "a91cc4993405878513aeebf97b22d7dd",
-            "published_at": "2026-07-30 18:17 KST",
-            "company_names": [
-              "KB금융"
-            ],
-            "sentiment_score": 0.67051,
-            "associated_companies": 1
-          },
-          {
-            "press": "머니투데이",
-            "title": "현대제철, 현대차그룹 최초 원·하청 교섭 확정",
-            "news_id": "e19a25b19ddb56e9a8b3bc9ca1436849",
-            "published_at": "2026-07-30 18:17 KST",
-            "company_names": [
-              "현대제철",
-              "현대차"
-            ],
-            "sentiment_score": 0.59801,
-            "associated_companies": 2
-          },
-          {
-            "press": "뉴시스",
-            "title": "LG전자, 2Q 영업익 147% 껑충…\"프리미엄 전략·체질 개선 통했다\"",
-            "news_id": "8b16b9c4bc7ec1787576fb022f43cd73",
-            "published_at": "2026-07-30 18:15 KST",
-            "company_names": [
-              "LG이노텍",
-              "LG전자"
-            ],
-            "sentiment_score": 0.68301,
-            "associated_companies": 2
-          },
-          {
-            "press": "블로터",
-            "title": "LG전자 컨콜 달군 로봇·AIDC 냉각…신사업 상용화 속도",
-            "news_id": "803ea3edee4955d7f87745991942a087",
-            "published_at": "2026-07-30 18:14 KST",
-            "company_names": [
-              "LG전자"
-            ],
-            "sentiment_score": 0.67051,
-            "associated_companies": 1
-          },
-          {
-            "press": "파이낸셜뉴스",
-            "title": "\"상반기 4725억 손익\"… 신한금융, 해외사업에 '방긋'",
-            "news_id": "8af4030908f36459af43315d42accdea",
-            "published_at": "2026-07-30 18:14 KST",
-            "company_names": [
-              "신한지주",
-              "키움증권"
-            ],
-            "sentiment_score": 0.63677,
-            "associated_companies": 2
-          },
-          {
-            "press": "이데일리",
-            "title": "넷마블, 일본 시장 정조준…TGS 2026서 日 '맞춤형 라인업’ 공개",
-            "news_id": "103690a814320871ed00fe4a6dce39e5",
-            "published_at": "2026-07-30 18:13 KST",
-            "company_names": [
-              "넷마블"
-            ],
-            "sentiment_score": 0.60301,
-            "associated_companies": 1
-          },
-          {
-            "press": "파이낸셜뉴스",
-            "title": "현대차, 자율주행개발센터장에 삼성 출신 권정현 부사장 영입",
-            "news_id": "2061b39de9741ed2dc14db6f6d1f53f1",
-            "published_at": "2026-07-30 18:13 KST",
-            "company_names": [
-              "삼성전자",
-              "현대차"
-            ],
-            "sentiment_score": 0.55801,
-            "associated_companies": 2
           }
         ],
         "hankyung": [
+          {
+            "press": "한국경제",
+            "title": "양손 묶인 인뱅의 돌파구는 '사장님 대출'",
+            "news_id": "59f63afcfd73832d5e80e4486da7dbba",
+            "published_at": "2026-07-30 20:00 KST",
+            "company_names": [
+              "BNK금융지주",
+              "카카오뱅크",
+              "케이뱅크",
+              "현대차"
+            ],
+            "sentiment_score": 0.53864,
+            "associated_companies": 4
+          },
           {
             "press": "한국경제",
             "title": "최태원, SK하이닉스 주식 장내매수…48억원어치 산 이유",
@@ -2377,17 +2397,6 @@
             ],
             "sentiment_score": 0.60052,
             "associated_companies": 1
-          },
-          {
-            "press": "한국경제",
-            "title": "[속보] 삼성전자, 2분기 영업익 89.4조 …전년比 1813.8% 증가",
-            "news_id": "67bca9224c396d77fb9e1a627165c96d",
-            "published_at": "2026-07-30 08:49 KST",
-            "company_names": [
-              "삼성전자"
-            ],
-            "sentiment_score": 0.64051,
-            "associated_companies": 1
           }
         ]
       },
@@ -2402,7 +2411,7 @@
         "change_pct": -2.7,
         "prev_close": 662.68
       },
-      "score": -0.96543,
+      "score": -0.98402,
       "components": {
         "news": {
           "score": 0.13767,
@@ -2416,9 +2425,9 @@
           "observations": 1802
         },
         "discussion": {
-          "score": -1.68799,
-          "coverage": 0.1102,
-          "observations": 21159
+          "score": -1.72518,
+          "coverage": 0.1099,
+          "observations": 21674
         },
         "news_hankyung": {
           "score": 0.09844,
@@ -2426,7 +2435,7 @@
           "observations": 29
         }
       },
-      "text_pulse": -1.07944,
+      "text_pulse": -1.10423,
       "news_articles": {
         "all": [
           {
@@ -3875,10 +3884,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-30 19:57 KST",
-      "latest_event": "2026-07-30 19:51 KST",
-      "observations": 4560,
-      "active_minutes": 425
+      "latest_seen": "2026-07-30 20:04 KST",
+      "latest_event": "2026-07-30 20:03 KST",
+      "observations": 4573,
+      "active_minutes": 428
     },
     "market": {
       "intraday": true,
@@ -3888,10 +3897,10 @@
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-30 19:38 KST",
-      "latest_event": "2026-07-30 19:17 KST",
-      "observations": 79926,
-      "active_minutes": 458
+      "latest_seen": "2026-07-30 20:03 KST",
+      "latest_event": "2026-07-30 20:03 KST",
+      "observations": 81023,
+      "active_minutes": 461
     }
   },
   "event_date": "2026-07-30",
@@ -3904,6 +3913,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-30 19:58 KST"
+    "attempted_at": "2026-07-30 20:03 KST"
   }
 }
