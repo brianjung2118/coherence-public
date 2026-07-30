@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-31 08:36 KST",
+  "as_of": "2026-07-31 08:42 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -13,8 +13,8 @@
       "score": null,
       "components": {
         "news": {
-          "score": -0.37487,
-          "coverage": 0.8088,
+          "score": -0.3737,
+          "coverage": 0.8094,
           "observations": 263
         },
         "market": {
@@ -34,9 +34,21 @@
           "observations": 7
         }
       },
-      "text_pulse": 2.46218,
+      "text_pulse": 2.46257,
       "news_articles": {
         "all": [
+          {
+            "press": "동행미디어 시대",
+            "title": "[아침밥] 신영증권 \"아모레퍼시픽 멀티 브랜드 경쟁력 본격화\"",
+            "news_id": "9c6808a39774a7a82cc098433dbf3211",
+            "published_at": "2026-07-31 08:39 KST",
+            "company_names": [
+              "신영증권",
+              "아모레퍼시픽"
+            ],
+            "sentiment_score": 0.68301,
+            "associated_companies": 2
+          },
           {
             "press": "조선비즈",
             "title": "‘삼전닉스 레버리지’ 사려면 현금 3000만원…오늘부터 진입요건 강화",
@@ -1212,19 +1224,6 @@
             ],
             "sentiment_score": 0.67051,
             "associated_companies": 2
-          },
-          {
-            "press": "MBC",
-            "title": "뉴욕증시, 반도체주 반등에 강세 마감",
-            "news_id": "482ccbe977ce9ff3f796502ed0e8a160",
-            "published_at": "2026-07-31 07:41 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자",
-              "신영증권"
-            ],
-            "sentiment_score": 0.60801,
-            "associated_companies": 3
           }
         ],
         "hankyung": [
@@ -1345,9 +1344,9 @@
       "score": null,
       "components": {
         "news": {
-          "score": -0.80581,
-          "coverage": 0.7115,
-          "observations": 25
+          "score": -0.72829,
+          "coverage": 0.717,
+          "observations": 26
         },
         "market": {
           "score": null,
@@ -1366,9 +1365,20 @@
           "observations": 2
         }
       },
-      "text_pulse": 1.27261,
+      "text_pulse": 1.29845,
       "news_articles": {
         "all": [
+          {
+            "press": "동행미디어 시대",
+            "title": "[아침밥] 신영증권 \"아모레퍼시픽 멀티 브랜드 경쟁력 본격화\"",
+            "news_id": "9c6808a39774a7a82cc098433dbf3211",
+            "published_at": "2026-07-31 08:39 KST",
+            "company_names": [
+              "실리콘투"
+            ],
+            "sentiment_score": 0.69551,
+            "associated_companies": 1
+          },
           {
             "press": "이데일리",
             "title": "NC AI, 494억 규모 '에이전틱 AI' 국책사업 주관…'자율 업무 AI' 개발",
@@ -1747,10 +1757,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 08:33 KST",
-      "latest_event": "2026-07-31 08:32 KST",
-      "observations": 473,
-      "active_minutes": 56
+      "latest_seen": "2026-07-31 08:42 KST",
+      "latest_event": "2026-07-31 08:39 KST",
+      "observations": 477,
+      "active_minutes": 58
     },
     "market": {
       "intraday": false,
@@ -1776,6 +1786,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 08:36 KST"
+    "attempted_at": "2026-07-31 08:42 KST"
   }
 }
