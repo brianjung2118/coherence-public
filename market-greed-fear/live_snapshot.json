@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30 18:40 KST",
+  "as_of": "2026-07-30 18:45 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -10,12 +10,12 @@
         "change_pct": -1.23,
         "prev_close": 5663.24
       },
-      "score": -1.27524,
+      "score": -1.27441,
       "components": {
         "news": {
-          "score": 0.11603,
-          "coverage": 0.8415,
-          "observations": 3019
+          "score": 0.11937,
+          "coverage": 0.841,
+          "observations": 3029
         },
         "market": {
           "score": 0.10936,
@@ -29,14 +29,63 @@
           "observations": 56064
         },
         "news_hankyung": {
-          "score": -0.38313,
-          "coverage": 0.8097,
-          "observations": 123
+          "score": -0.38389,
+          "coverage": 0.8102,
+          "observations": 124
         }
       },
-      "text_pulse": -1.73678,
+      "text_pulse": -1.73566,
       "news_articles": {
         "all": [
+          {
+            "press": "디지털데일리",
+            "title": "'분사 이래 최대 성과' SK온, 본원적 경쟁력 확보한다…\"ESS 역량 확보\"",
+            "news_id": "5e60d92003f8aeba6d0f0fdbeaebdeed",
+            "published_at": "2026-07-30 18:41 KST",
+            "company_names": [
+              "SK이노베이션"
+            ],
+            "sentiment_score": 0.68551,
+            "associated_companies": 1
+          },
+          {
+            "press": "한국경제",
+            "title": "한화, 43세 김동관 수석부회장 체제로…3형제 계열사 책임경영",
+            "news_id": "7cb31c05103a7d8750da0d69d91420a8",
+            "published_at": "2026-07-30 18:40 KST",
+            "company_names": [
+              "한화",
+              "한화생명",
+              "한화솔루션",
+              "한화에어로스페이스",
+              "한화오션"
+            ],
+            "sentiment_score": 0.54151,
+            "associated_companies": 5
+          },
+          {
+            "press": "매일신문",
+            "title": "2차 피해 나온 KT 정보유출 과징금 540억원…\"쿠팡·SKT 차별하냐\" 목소리 확산, 왜?",
+            "news_id": "92c353ef7bc4493927b5516e4a63f5e1",
+            "published_at": "2026-07-30 18:40 KST",
+            "company_names": [
+              "KT",
+              "SK텔레콤"
+            ],
+            "sentiment_score": 0.24489,
+            "associated_companies": 2
+          },
+          {
+            "press": "서울경제",
+            "title": "김종건 목동8단지 조합장 “14개 단지 중 첫 입주 목표” [인터뷰]",
+            "news_id": "e6399e0ed4c8491a096807cf67e7cf14",
+            "published_at": "2026-07-30 18:40 KST",
+            "company_names": [
+              "대우건설"
+            ],
+            "sentiment_score": 0.55551,
+            "associated_companies": 1
+          },
           {
             "press": "한국경제",
             "title": "정의선의 현장 경영…\"브라질서 친환경車 키운다\"",
@@ -84,6 +133,17 @@
             "associated_companies": 1
           },
           {
+            "press": "조선비즈",
+            "title": "삼성전자, 반도체 스타트업 투자·기술 확보에 8000억 출자",
+            "news_id": "bdfc67a8f13f46c2cbd2880a86a14b5d",
+            "published_at": "2026-07-30 18:38 KST",
+            "company_names": [
+              "삼성전자"
+            ],
+            "sentiment_score": 0.66551,
+            "associated_companies": 1
+          },
+          {
             "press": "이데일리",
             "title": "씨이랩, GPU 장비 발주 착수…AI 컴퓨팅 자원 사업 본격화",
             "news_id": "1ee95ca166cd69c083ab9f5682924015",
@@ -92,6 +152,17 @@
               "효성"
             ],
             "sentiment_score": 0.65051,
+            "associated_companies": 1
+          },
+          {
+            "press": "디지털타임스",
+            "title": "[기획] 토스트에 ‘아아’도 사치… 출근길 덮친 ‘모닝플레이션’",
+            "news_id": "a475171a7614b0da1db707f1dca493e7",
+            "published_at": "2026-07-30 18:32 KST",
+            "company_names": [
+              "CJ"
+            ],
+            "sentiment_score": 0.31177,
             "associated_companies": 1
           },
           {
@@ -427,6 +498,19 @@
             "associated_companies": 1
           },
           {
+            "press": "EBN",
+            "title": "'성과급 갈등' 카카오 노사, 임금협상 잠정 합의",
+            "news_id": "d3382013369ba19238fc379731ebe247",
+            "published_at": "2026-07-30 18:17 KST",
+            "company_names": [
+              "카카오",
+              "카카오뱅크",
+              "카카오페이"
+            ],
+            "sentiment_score": 0.35302,
+            "associated_companies": 3
+          },
+          {
             "press": "파이낸셜뉴스",
             "title": "가전·휴대폰 잘 팔렸지만 '칩플레이션'에 발목… DX는 사상 첫 적자 [삼성 2분기 역대급 실적]",
             "news_id": "3cf9fc48059ae5e9e55682412ce1342e",
@@ -573,6 +657,17 @@
               "대신증권"
             ],
             "sentiment_score": 0.48801,
+            "associated_companies": 1
+          },
+          {
+            "press": "EBN",
+            "title": "LG엔솔, 2Q 영업익 1133억…북미 ESS 성장 업고 흑자전환",
+            "news_id": "dde5207d4f2de59bc6e791c0c65a3803",
+            "published_at": "2026-07-30 18:11 KST",
+            "company_names": [
+              "LG에너지솔루션"
+            ],
+            "sentiment_score": 0.63801,
             "associated_companies": 1
           },
           {
@@ -1110,99 +1205,24 @@
             ],
             "sentiment_score": 0.57302,
             "associated_companies": 1
-          },
-          {
-            "press": "데일리안",
-            "title": "시행 시점 '안갯속'…단일종목 레버리지 추가 대책 발표",
-            "news_id": "16a1bf34eaf7ac517fff1e99e21bb968",
-            "published_at": "2026-07-30 18:00 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.28489,
-            "associated_companies": 2
-          },
-          {
-            "press": "연합뉴스",
-            "title": "[연합뉴스 이 시각 헤드라인] - 18:00",
-            "news_id": "3308503b0d50ed178cf2584aebb84902",
-            "published_at": "2026-07-30 18:00 KST",
-            "company_names": [
-              "SK하이닉스"
-            ],
-            "sentiment_score": 0.36551,
-            "associated_companies": 1
-          },
-          {
-            "press": "SBS Biz",
-            "title": "강준현, MBK 겨냥 \"기간산업 경영하게 둘 거냐\"…이억원 \"규제 검토\"",
-            "news_id": "36e561bb3dedc084ed90d2e7f16d6fbd",
-            "published_at": "2026-07-30 18:00 KST",
-            "company_names": [
-              "고려아연"
-            ],
-            "sentiment_score": 0.26926,
-            "associated_companies": 1
-          },
-          {
-            "press": "주간조선",
-            "title": "'국장' 떠나지 마세요...\"9300선 회복 가능성 충분\" 보고서 나와",
-            "news_id": "374d87a8279b6bd33da73391d80f36a2",
-            "published_at": "2026-07-30 18:00 KST",
-            "company_names": [
-              "대신증권"
-            ],
-            "sentiment_score": 0.50552,
-            "associated_companies": 1
-          },
-          {
-            "press": "뉴시스",
-            "title": "한은, 프로젝트 아고라 실거래 테스트…\"안정적 가동 확인\"",
-            "news_id": "5df795d4f93c5e0306e78fa5a6979b0c",
-            "published_at": "2026-07-30 18:00 KST",
-            "company_names": [
-              "신한지주"
-            ],
-            "sentiment_score": 0.61301,
-            "associated_companies": 1
-          },
-          {
-            "press": "SBS Biz",
-            "title": "한은, 프로젝트 아고라 실거래 테스트 참여",
-            "news_id": "941468097dd8af18fdc03b49220eafac",
-            "published_at": "2026-07-30 18:00 KST",
-            "company_names": [
-              "신한지주"
-            ],
-            "sentiment_score": 0.56051,
-            "associated_companies": 1
-          },
-          {
-            "press": "머니투데이",
-            "title": "한은, 토큰화 지급준비금으로 이체 실험…국경 간 결제망 검증",
-            "news_id": "9f0827ec25cdd7af11f1a34a67fab380",
-            "published_at": "2026-07-30 18:00 KST",
-            "company_names": [
-              "신한지주",
-              "하나금융지주"
-            ],
-            "sentiment_score": 0.57177,
-            "associated_companies": 2
-          },
-          {
-            "press": "이코노미스트",
-            "title": "‘순익 20조원 시대’ 눈앞…4대 금융, 하반기 승부는 비은행",
-            "news_id": "a03a9f28b8ee00a2092a9e02f61179bc",
-            "published_at": "2026-07-30 18:00 KST",
-            "company_names": [
-              "KB금융"
-            ],
-            "sentiment_score": 0.54302,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
+          {
+            "press": "한국경제",
+            "title": "한화, 43세 김동관 수석부회장 체제로…3형제 계열사 책임경영",
+            "news_id": "7cb31c05103a7d8750da0d69d91420a8",
+            "published_at": "2026-07-30 18:40 KST",
+            "company_names": [
+              "한화",
+              "한화생명",
+              "한화솔루션",
+              "한화에어로스페이스",
+              "한화오션"
+            ],
+            "sentiment_score": 0.54151,
+            "associated_companies": 5
+          },
           {
             "press": "한국경제",
             "title": "정의선의 현장 경영…\"브라질서 친환경車 키운다\"",
@@ -2378,18 +2398,6 @@
             ],
             "sentiment_score": 0.51551,
             "associated_companies": 1
-          },
-          {
-            "press": "한국경제",
-            "title": "\"삼전닉스 아직 끝나지 않았다…내년 상반기까지 신고가 재시도 가능\"",
-            "news_id": "8ecc8ce249f40e80b1cc0016025e6ad4",
-            "published_at": "2026-07-30 08:35 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.46676,
-            "associated_companies": 2
           }
         ]
       },
@@ -2404,12 +2412,12 @@
         "change_pct": -2.7,
         "prev_close": 662.68
       },
-      "score": -0.955,
+      "score": -0.95547,
       "components": {
         "news": {
-          "score": 0.14029,
-          "coverage": 0.6821,
-          "observations": 390
+          "score": 0.13839,
+          "coverage": 0.6824,
+          "observations": 391
         },
         "market": {
           "score": -0.62339,
@@ -2428,7 +2436,7 @@
           "observations": 29
         }
       },
-      "text_pulse": -1.06553,
+      "text_pulse": -1.06617,
       "news_articles": {
         "all": [
           {
@@ -2511,6 +2519,17 @@
               "YTN"
             ],
             "sentiment_score": 0.61301,
+            "associated_companies": 1
+          },
+          {
+            "press": "EBN",
+            "title": "'성과급 갈등' 카카오 노사, 임금협상 잠정 합의",
+            "news_id": "d3382013369ba19238fc379731ebe247",
+            "published_at": "2026-07-30 18:17 KST",
+            "company_names": [
+              "카카오게임즈"
+            ],
+            "sentiment_score": 0.34052,
             "associated_companies": 1
           },
           {
@@ -3542,17 +3561,6 @@
             ],
             "sentiment_score": 0.52302,
             "associated_companies": 1
-          },
-          {
-            "press": "아시아경제",
-            "title": "하나금융, 잠실 스포츠·마이스 복합공간 4조원 PF 주관",
-            "news_id": "151d1afdb383afe48445a5d124898ab6",
-            "published_at": "2026-07-30 15:53 KST",
-            "company_names": [
-              "메가스터디교육"
-            ],
-            "sentiment_score": 0.58301,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
@@ -3877,10 +3885,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-30 18:40 KST",
-      "latest_event": "2026-07-30 18:39 KST",
-      "observations": 4442,
-      "active_minutes": 393
+      "latest_seen": "2026-07-30 18:45 KST",
+      "latest_event": "2026-07-30 18:42 KST",
+      "observations": 4457,
+      "active_minutes": 397
     },
     "market": {
       "intraday": true,
@@ -3893,7 +3901,7 @@
       "latest_seen": "2026-07-30 18:40 KST",
       "latest_event": "2026-07-30 18:13 KST",
       "observations": 77329,
-      "active_minutes": 425
+      "active_minutes": 424
     }
   },
   "event_date": "2026-07-30",
@@ -3906,6 +3914,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-30 18:40 KST"
+    "attempted_at": "2026-07-30 18:45 KST"
   }
 }
