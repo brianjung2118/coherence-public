@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-31 07:08 KST",
+  "as_of": "2026-07-31 07:13 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -13,9 +13,9 @@
       "score": null,
       "components": {
         "news": {
-          "score": -1.59229,
-          "coverage": 0.7795,
-          "observations": 136
+          "score": -1.5439,
+          "coverage": 0.7809,
+          "observations": 137
         },
         "market": {
           "score": null,
@@ -29,14 +29,26 @@
           "observations": 2917
         },
         "news_hankyung": {
-          "score": -2.88089,
-          "coverage": 0.8462,
-          "observations": 2
+          "score": -1.92885,
+          "coverage": 0.8667,
+          "observations": 3
         }
       },
-      "text_pulse": 2.02345,
+      "text_pulse": 2.03959,
       "news_articles": {
         "all": [
+          {
+            "press": "한국경제",
+            "title": "반도체주 반등에 일제 상승…나스닥 2.8%↑ [뉴욕증시 브리핑]",
+            "news_id": "e7061ad37d51d58d84158c42fd594532",
+            "published_at": "2026-07-31 07:12 KST",
+            "company_names": [
+              "SK하이닉스",
+              "미래에셋증권"
+            ],
+            "sentiment_score": 0.64802,
+            "associated_companies": 2
+          },
           {
             "press": "데일리안",
             "title": "실적 반등에도 카드사 '울상'…금리 뛰고 대규모 차환 몰린다",
@@ -1219,20 +1231,21 @@
             ],
             "sentiment_score": 0.67051,
             "associated_companies": 1
-          },
-          {
-            "press": "조선일보",
-            "title": "하이닉스 ‘반나절 심층 면접’ … AI 활용 능력 평가",
-            "news_id": "1064b3c0201e45ad22c8b7787d73da90",
-            "published_at": "2026-07-31 00:36 KST",
-            "company_names": [
-              "SK하이닉스"
-            ],
-            "sentiment_score": 0.55051,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
+          {
+            "press": "한국경제",
+            "title": "반도체주 반등에 일제 상승…나스닥 2.8%↑ [뉴욕증시 브리핑]",
+            "news_id": "e7061ad37d51d58d84158c42fd594532",
+            "published_at": "2026-07-31 07:12 KST",
+            "company_names": [
+              "SK하이닉스",
+              "미래에셋증권"
+            ],
+            "sentiment_score": 0.64802,
+            "associated_companies": 2
+          },
           {
             "press": "한국경제",
             "title": "주가 반토막 났는데…\"지금이 매수 기회\" 외친 이 종목 [종목+]",
@@ -1492,10 +1505,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 07:05 KST",
-      "latest_event": "2026-07-31 07:03 KST",
-      "observations": 271,
-      "active_minutes": 32
+      "latest_seen": "2026-07-31 07:13 KST",
+      "latest_event": "2026-07-31 07:12 KST",
+      "observations": 273,
+      "active_minutes": 34
     },
     "market": {
       "intraday": false,
@@ -1505,10 +1518,10 @@
       "status_record_available": false
     },
     "discussion": {
-      "latest_seen": "2026-07-31 07:07 KST",
+      "latest_seen": "2026-07-31 07:11 KST",
       "latest_event": "2026-07-31 07:04 KST",
       "observations": 3663,
-      "active_minutes": 51
+      "active_minutes": 54
     }
   },
   "event_date": "2026-07-31",
@@ -1521,6 +1534,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 07:08 KST"
+    "attempted_at": "2026-07-31 07:13 KST"
   }
 }
