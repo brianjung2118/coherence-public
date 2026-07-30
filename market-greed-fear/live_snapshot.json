@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30 18:34 KST",
+  "as_of": "2026-07-30 18:40 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -10,12 +10,12 @@
         "change_pct": -1.23,
         "prev_close": 5663.24
       },
-      "score": -1.27568,
+      "score": -1.27524,
       "components": {
         "news": {
-          "score": 0.11437,
+          "score": 0.11603,
           "coverage": 0.8415,
-          "observations": 3015
+          "observations": 3019
         },
         "market": {
           "score": 0.10936,
@@ -24,19 +24,65 @@
           "observations": 915
         },
         "discussion": {
-          "score": -2.66322,
+          "score": -2.66318,
           "coverage": 0.1288,
-          "observations": 56063
+          "observations": 56064
         },
         "news_hankyung": {
-          "score": -0.44997,
-          "coverage": 0.8085,
-          "observations": 119
+          "score": -0.38313,
+          "coverage": 0.8097,
+          "observations": 123
         }
       },
-      "text_pulse": -1.73736,
+      "text_pulse": -1.73678,
       "news_articles": {
         "all": [
+          {
+            "press": "한국경제",
+            "title": "정의선의 현장 경영…\"브라질서 친환경車 키운다\"",
+            "news_id": "135c27c108e669c784e1de8ad3f85402",
+            "published_at": "2026-07-30 18:39 KST",
+            "company_names": [
+              "현대차"
+            ],
+            "sentiment_score": 0.69551,
+            "associated_companies": 1
+          },
+          {
+            "press": "한국경제",
+            "title": "LG전자 \"中기업과도 피지컬 AI 협업 나선다\"",
+            "news_id": "ba401e0dbbb9c3657d76e49a8c031ef7",
+            "published_at": "2026-07-30 18:39 KST",
+            "company_names": [
+              "LG씨엔에스",
+              "LG이노텍"
+            ],
+            "sentiment_score": 0.69051,
+            "associated_companies": 2
+          },
+          {
+            "press": "한국경제",
+            "title": "HD현대, 美에 스마트 조선소 전수",
+            "news_id": "28886abc5a5d3c7ff3cb39df7159c5fe",
+            "published_at": "2026-07-30 18:38 KST",
+            "company_names": [
+              "HD한국조선해양",
+              "HD현대"
+            ],
+            "sentiment_score": 0.70552,
+            "associated_companies": 2
+          },
+          {
+            "press": "한국경제",
+            "title": "STX엔진, 머스크에 컨선 엔진 공급",
+            "news_id": "5176b0775997550cc8c444b710771ce2",
+            "published_at": "2026-07-30 18:38 KST",
+            "company_names": [
+              "STX엔진"
+            ],
+            "sentiment_score": 0.67551,
+            "associated_companies": 1
+          },
           {
             "press": "이데일리",
             "title": "씨이랩, GPU 장비 발주 착수…AI 컴퓨팅 자원 사업 본격화",
@@ -1154,53 +1200,55 @@
             ],
             "sentiment_score": 0.54302,
             "associated_companies": 1
-          },
+          }
+        ],
+        "hankyung": [
           {
-            "press": "아시아경제",
-            "title": "한은 \"프로젝트 아고라, 실제 운영 환경에서도 안정적 가동\"",
-            "news_id": "a74435fb096dff0e5ea3b2b4c1cdd07c",
-            "published_at": "2026-07-30 18:00 KST",
+            "press": "한국경제",
+            "title": "정의선의 현장 경영…\"브라질서 친환경車 키운다\"",
+            "news_id": "135c27c108e669c784e1de8ad3f85402",
+            "published_at": "2026-07-30 18:39 KST",
             "company_names": [
-              "신한지주"
+              "현대차"
             ],
-            "sentiment_score": 0.58052,
+            "sentiment_score": 0.69551,
             "associated_companies": 1
           },
           {
             "press": "한국경제",
-            "title": "[부고] 권영자씨 별세 外",
-            "news_id": "2475b60a8b2ff0020847c4f5337c881d",
-            "published_at": "2026-07-30 17:59 KST",
+            "title": "LG전자 \"中기업과도 피지컬 AI 협업 나선다\"",
+            "news_id": "ba401e0dbbb9c3657d76e49a8c031ef7",
+            "published_at": "2026-07-30 18:39 KST",
             "company_names": [
-              "삼성에스디에스"
+              "LG씨엔에스",
+              "LG이노텍"
             ],
-            "sentiment_score": 0.25551,
-            "associated_companies": 1
+            "sentiment_score": 0.69051,
+            "associated_companies": 2
           },
           {
-            "press": "뉴스1",
-            "title": "동국제강그룹, 450억원 '미래성장 벤처펀드 2호'로 \"AI 신산업 발굴\"",
-            "news_id": "5838c9a8c1584b9107f86fcadea27c1a",
-            "published_at": "2026-07-30 17:59 KST",
+            "press": "한국경제",
+            "title": "HD현대, 美에 스마트 조선소 전수",
+            "news_id": "28886abc5a5d3c7ff3cb39df7159c5fe",
+            "published_at": "2026-07-30 18:38 KST",
             "company_names": [
-              "동국홀딩스"
+              "HD한국조선해양",
+              "HD현대"
             ],
-            "sentiment_score": 0.57051,
-            "associated_companies": 1
+            "sentiment_score": 0.70552,
+            "associated_companies": 2
           },
           {
-            "press": "서울경제",
-            "title": "상반기 매출 100조 찍은 DX, 갤Z8·HVAC로 금맥 캔다",
-            "news_id": "e0e0a58ca93eaeb917514a93e7b6883b",
-            "published_at": "2026-07-30 17:58 KST",
+            "press": "한국경제",
+            "title": "STX엔진, 머스크에 컨선 엔진 공급",
+            "news_id": "5176b0775997550cc8c444b710771ce2",
+            "published_at": "2026-07-30 18:38 KST",
             "company_names": [
-              "삼성전자"
+              "STX엔진"
             ],
-            "sentiment_score": 0.58301,
+            "sentiment_score": 0.67551,
             "associated_companies": 1
-          }
-        ],
-        "hankyung": [
+          },
           {
             "press": "한국경제",
             "title": "올해 상반기 기업 도산 2030건 '역대 최대'",
@@ -2341,53 +2389,6 @@
               "삼성전자"
             ],
             "sentiment_score": 0.46676,
-            "associated_companies": 2
-          },
-          {
-            "press": "한국경제",
-            "title": "‘아르고’ 운영 테크타카에 알토스·네이버·일본 ZVC 투자 [VC 브리핑]",
-            "news_id": "c1cfc364b2359360cb327de4a4ec5bc8",
-            "published_at": "2026-07-30 08:30 KST",
-            "company_names": [
-              "JB금융지주",
-              "NAVER"
-            ],
-            "sentiment_score": 0.52926,
-            "associated_companies": 2
-          },
-          {
-            "press": "한국경제",
-            "title": "\"퇴근길에 사가야지\"…노브랜드표 복순도가 막걸리 등장",
-            "news_id": "00cc45792b930e82c736b06f2a179498",
-            "published_at": "2026-07-30 08:30 KST",
-            "company_names": [
-              "신세계",
-              "이마트"
-            ],
-            "sentiment_score": 0.56802,
-            "associated_companies": 2
-          },
-          {
-            "press": "한국경제",
-            "title": "SK하닉 '억대 성과급' 그냥 주는 거 아니었네…취준생 '발칵'",
-            "news_id": "f788e9ad4993af29611155fe4ce7394a",
-            "published_at": "2026-07-30 08:22 KST",
-            "company_names": [
-              "SK하이닉스"
-            ],
-            "sentiment_score": 0.55051,
-            "associated_companies": 1
-          },
-          {
-            "press": "한국경제",
-            "title": "\"한국 기업이 증시 흔들 줄은…\" SK하닉 급락에 日 '발칵' [최만수의 재팬 인사이트]",
-            "news_id": "e690ff2148d27a9e6aafdb9a0e10fc5a",
-            "published_at": "2026-07-30 08:19 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.47427,
             "associated_companies": 2
           }
         ]
@@ -3876,10 +3877,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-30 18:34 KST",
-      "latest_event": "2026-07-30 18:33 KST",
-      "observations": 4435,
-      "active_minutes": 388
+      "latest_seen": "2026-07-30 18:40 KST",
+      "latest_event": "2026-07-30 18:39 KST",
+      "observations": 4442,
+      "active_minutes": 393
     },
     "market": {
       "intraday": true,
@@ -3889,10 +3890,10 @@
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-30 18:34 KST",
+      "latest_seen": "2026-07-30 18:40 KST",
       "latest_event": "2026-07-30 18:13 KST",
-      "observations": 77328,
-      "active_minutes": 419
+      "observations": 77329,
+      "active_minutes": 425
     }
   },
   "event_date": "2026-07-30",
@@ -3905,6 +3906,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-30 18:34 KST"
+    "attempted_at": "2026-07-30 18:40 KST"
   }
 }
