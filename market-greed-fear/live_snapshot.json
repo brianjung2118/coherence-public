@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30 15:55 KST",
+  "as_of": "2026-07-30 16:00 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -10,12 +10,12 @@
         "change_pct": -1.23,
         "prev_close": 5663.24
       },
-      "score": -1.12118,
+      "score": -1.11688,
       "components": {
         "news": {
-          "score": 0.31051,
-          "coverage": 0.8526,
-          "observations": 2381
+          "score": 0.32769,
+          "coverage": 0.8528,
+          "observations": 2394
         },
         "market": {
           "score": 0.10936,
@@ -29,14 +29,39 @@
           "observations": 46571
         },
         "news_hankyung": {
-          "score": 0.2547,
-          "coverage": 0.8182,
-          "observations": 76
+          "score": 0.34189,
+          "coverage": 0.8232,
+          "observations": 77
         }
       },
-      "text_pulse": -1.53136,
+      "text_pulse": -1.52563,
       "news_articles": {
         "all": [
+          {
+            "press": "한국경제",
+            "title": "'라면 도시' 이름값 통했다…구미, 오뚜기 수출공장 유치",
+            "news_id": "411c61cc2ffd3ca0fe28809d4d156ec9",
+            "published_at": "2026-07-30 15:59 KST",
+            "company_names": [
+              "오뚜기",
+              "효성"
+            ],
+            "sentiment_score": 0.67802,
+            "associated_companies": 2
+          },
+          {
+            "press": "한국경제",
+            "title": "'제조 AX' 올라탄 포항…철강·소재 데이터로 최적 공정 찾는다",
+            "news_id": "568485bde108037274b70bcad8d9286f",
+            "published_at": "2026-07-30 15:58 KST",
+            "company_names": [
+              "POSCO홀딩스",
+              "가온전선",
+              "아주스틸"
+            ],
+            "sentiment_score": 0.67885,
+            "associated_companies": 3
+          },
           {
             "press": "지디넷코리아",
             "title": "KT, 갤럭시워치로 산업현장 안전 관리",
@@ -59,6 +84,23 @@
             ],
             "sentiment_score": 0.31301,
             "associated_companies": 1
+          },
+          {
+            "press": "동아일보",
+            "title": "삼성물산, 13년 연속 건설사 시공능력 평가 1위",
+            "news_id": "dfc3010feb7401b71084c52402acc940",
+            "published_at": "2026-07-30 15:52 KST",
+            "company_names": [
+              "GS건설",
+              "IPARK현대산업개발",
+              "POSCO홀딩스",
+              "SK",
+              "삼성E&A",
+              "삼성물산",
+              "현대건설"
+            ],
+            "sentiment_score": 0.55623,
+            "associated_companies": 7
           },
           {
             "press": "한국경제",
@@ -182,6 +224,17 @@
           },
           {
             "press": "뉴스1",
+            "title": "롯데정밀화학, 2분기 영업익 '612%↑' 619억…TMAC 증설 투자",
+            "news_id": "972fa4b1a6a75a079fb22089f17c51f1",
+            "published_at": "2026-07-30 15:50 KST",
+            "company_names": [
+              "롯데정밀화학"
+            ],
+            "sentiment_score": 0.67551,
+            "associated_companies": 1
+          },
+          {
+            "press": "뉴스1",
             "title": "SK이노베이션, 2분기 매출 29.2조…영업익 3.5조 흑자 전환(2보)",
             "news_id": "b28896af94d314296b66809c22c624c6",
             "published_at": "2026-07-30 15:50 KST",
@@ -251,6 +304,17 @@
             ],
             "sentiment_score": 0.29551,
             "associated_companies": 3
+          },
+          {
+            "press": "헤럴드경제",
+            "title": "BNK금융, 자회사 은행에 ‘금융소비자보호위원회’ 신설",
+            "news_id": "09d3595fe6620857e94a0d2afc34ae89",
+            "published_at": "2026-07-30 15:48 KST",
+            "company_names": [
+              "BNK금융지주"
+            ],
+            "sentiment_score": 0.52051,
+            "associated_companies": 1
           },
           {
             "press": "뉴스1",
@@ -382,6 +446,17 @@
             "associated_companies": 1
           },
           {
+            "press": "이코노미스트",
+            "title": "“초코파이보다 더 잘 팔려”…오리온, ‘감자 스낵’으로 세계 시장 잡는다",
+            "news_id": "b2f444b91f688e635815d75ac5b1b58b",
+            "published_at": "2026-07-30 15:47 KST",
+            "company_names": [
+              "오리온"
+            ],
+            "sentiment_score": 0.67051,
+            "associated_companies": 1
+          },
+          {
             "press": "조선비즈",
             "title": "KT스카이라이프 ‘ipit TV’ 24만 돌파… 인터넷 가입자도 66만명 넘어",
             "news_id": "ba88ff88866a98f8e70cc3e7f65bdd3d",
@@ -416,6 +491,18 @@
             "associated_companies": 2
           },
           {
+            "press": "지디넷코리아",
+            "title": "삼성전자·국과수, 목소리 지문으로 보이스피싱 탐지",
+            "news_id": "eb09128702386378fec4b7cb41bbf09a",
+            "published_at": "2026-07-30 15:47 KST",
+            "company_names": [
+              "KB금융",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.63051,
+            "associated_companies": 2
+          },
+          {
             "press": "이데일리",
             "title": "포스코DX, 2분기 영업익 99억원…전년比 42.3% 감소",
             "news_id": "f8cc54c695b3aae304538d71f26716e7",
@@ -437,6 +524,17 @@
               "대신증권"
             ],
             "sentiment_score": 0.34052,
+            "associated_companies": 1
+          },
+          {
+            "press": "연합뉴스",
+            "title": "DL이앤씨, 2분기 영업이익 1천594억원…작년 대비 26% 증가(종합)",
+            "news_id": "5409f87e2faeb8cf43e7b16a614ffa19",
+            "published_at": "2026-07-30 15:46 KST",
+            "company_names": [
+              "DL이앤씨"
+            ],
+            "sentiment_score": 0.67551,
             "associated_companies": 1
           },
           {
@@ -613,6 +711,17 @@
             "associated_companies": 4
           },
           {
+            "press": "EBN",
+            "title": "美 증시 반등하면 어디가 뛸까…'감마'가 찍은 두 섹터",
+            "news_id": "5c38b9d0110cd012f47b1b3373b7188c",
+            "published_at": "2026-07-30 15:40 KST",
+            "company_names": [
+              "한국금융지주"
+            ],
+            "sentiment_score": 0.54302,
+            "associated_companies": 1
+          },
+          {
             "press": "한국경제",
             "title": "\"단일종목 레버리지, 자연사시켜야\"…'ETF 아버지'의 경고",
             "news_id": "79ecb62e291e8fc002fc6cc304f9b850",
@@ -624,6 +733,17 @@
             ],
             "sentiment_score": 0.36968,
             "associated_companies": 3
+          },
+          {
+            "press": "EBN",
+            "title": "[증권 & Now] 우리투자증권, ETF 투자전략 무료 웨비나 개최",
+            "news_id": "3672457538d9d211ab02bf0b383b8c23",
+            "published_at": "2026-07-30 15:40 KST",
+            "company_names": [
+              "삼성생명"
+            ],
+            "sentiment_score": 0.49801,
+            "associated_companies": 1
           },
           {
             "press": "머니투데이",
@@ -685,6 +805,17 @@
             ],
             "sentiment_score": 0.19301,
             "associated_companies": 2
+          },
+          {
+            "press": "EBN",
+            "title": "\"본업 체력에 AI 신사업 날개\"…LG전자, 연간 영업익 4.5조원 전망",
+            "news_id": "b8c463a80333e5955e6d952c0f8ac033",
+            "published_at": "2026-07-30 15:39 KST",
+            "company_names": [
+              "교보증권"
+            ],
+            "sentiment_score": 0.68551,
+            "associated_companies": 1
           },
           {
             "press": "연합뉴스TV",
@@ -932,6 +1063,17 @@
             "associated_companies": 1
           },
           {
+            "press": "EBN",
+            "title": "[컨콜] 포스코홀딩스 \"日 도금강판 반덤핑 판정 반박 나설 것\"",
+            "news_id": "3bc3280e37f80d5130cc70a5c24f613b",
+            "published_at": "2026-07-30 15:33 KST",
+            "company_names": [
+              "POSCO홀딩스"
+            ],
+            "sentiment_score": 0.31301,
+            "associated_companies": 1
+          },
+          {
             "press": "뉴시스",
             "title": "[속보]SK하닉, 5.64% 내린 132만원선 마감…삼전도 0.72% 하락",
             "news_id": "ef1ca54aa06678df897a8ea1b240532b",
@@ -1041,6 +1183,17 @@
             "associated_companies": 1
           },
           {
+            "press": "EBN",
+            "title": "대한전선, 2분기 영업익 608억원...전년비 113% ↑",
+            "news_id": "3ea2e210efa18207d64ea4cdbb8f81ea",
+            "published_at": "2026-07-30 15:29 KST",
+            "company_names": [
+              "대한전선"
+            ],
+            "sentiment_score": 0.68551,
+            "associated_companies": 1
+          },
+          {
             "press": "한국경제",
             "title": "종근당, 먹는 비만약·치매 신약까지…미래 바이오 기업으로 진화",
             "news_id": "cb13a2299cb18358e1bd90fb3a892dc9",
@@ -1061,157 +1214,34 @@
             ],
             "sentiment_score": 0.55802,
             "associated_companies": 1
-          },
-          {
-            "press": "뉴스1",
-            "title": "[IR]포스코 \"車·조선과 협상에 원가 최대 반영…하반기 추가 인상\"",
-            "news_id": "ecbdb0c974e3097e886a95781c62e346",
-            "published_at": "2026-07-30 15:29 KST",
-            "company_names": [
-              "POSCO홀딩스"
-            ],
-            "sentiment_score": 0.44551,
-            "associated_companies": 1
-          },
-          {
-            "press": "비즈워치",
-            "title": "거래대금 급증에 활짝 웃은 키움증권…하반기 증시 급락 변수될까",
-            "news_id": "935162082d2577a98f0fa0efa1f733aa",
-            "published_at": "2026-07-30 15:28 KST",
-            "company_names": [
-              "키움증권"
-            ],
-            "sentiment_score": 0.66551,
-            "associated_companies": 1
-          },
-          {
-            "press": "전자신문",
-            "title": "대신증권, 해외주식 잔고화면 개편…환차손익 한눈에",
-            "news_id": "2c7efd8c3a783a361439cec23fb743e3",
-            "published_at": "2026-07-30 15:27 KST",
-            "company_names": [
-              "대신증권"
-            ],
-            "sentiment_score": 0.55302,
-            "associated_companies": 1
-          },
-          {
-            "press": "파이낸셜뉴스",
-            "title": "하반기 바이오 '임상 빅매치'..데이터의 質이 성패 가른다",
-            "news_id": "72c947cdcab55a57475595dea9f2046b",
-            "published_at": "2026-07-30 15:27 KST",
-            "company_names": [
-              "한올바이오파마"
-            ],
-            "sentiment_score": 0.60301,
-            "associated_companies": 1
-          },
-          {
-            "press": "지디넷코리아",
-            "title": "LG전자, 2Q 매출 23.8조 영업익1.5조 '역대 최대'…가전·전장 쌍끌이",
-            "news_id": "d621a4f88e61243c4d887f263e508a36",
-            "published_at": "2026-07-30 15:27 KST",
-            "company_names": [
-              "LG이노텍"
-            ],
-            "sentiment_score": 0.69551,
-            "associated_companies": 1
-          },
-          {
-            "press": "동행미디어 시대",
-            "title": "시공능력평가 3~6위 뒤집혔다…GS·현엔 순위 오르고 대우·DL 하락",
-            "news_id": "3fe42a7c7d3d5bd4e50a5072be7c8d87",
-            "published_at": "2026-07-30 15:26 KST",
-            "company_names": [
-              "DL이앤씨",
-              "GS",
-              "GS건설",
-              "POSCO홀딩스",
-              "삼성물산",
-              "현대건설"
-            ],
-            "sentiment_score": 0.45593,
-            "associated_companies": 6
-          },
-          {
-            "press": "지디넷코리아",
-            "title": "[컨콜] 삼성SDS \"AI 인프라 800MW 장기 구축…글로벌 기업도 고객으로 확보할 것\"",
-            "news_id": "9ce0fe6e94f9e44757ea8a97da3ccd91",
-            "published_at": "2026-07-30 15:26 KST",
-            "company_names": [
-              "삼성에스디에스"
-            ],
-            "sentiment_score": 0.67051,
-            "associated_companies": 1
-          },
-          {
-            "press": "뉴시스",
-            "title": "[컨콜]앤트로픽·오픈AI, 韓 데이터센터 쓸까…삼성SDS \"협력 논의 중\"",
-            "news_id": "9f6dd311da9e6451f1913c300f18a91d",
-            "published_at": "2026-07-30 15:26 KST",
-            "company_names": [
-              "삼성에스디에스"
-            ],
-            "sentiment_score": 0.66051,
-            "associated_companies": 1
-          },
-          {
-            "press": "이데일리",
-            "title": "포스코이앤씨, 2분기 영업익 440억…'흑자 전환' 성공",
-            "news_id": "ba2a5052d8fb087cb1e0d17c2af409f7",
-            "published_at": "2026-07-30 15:26 KST",
-            "company_names": [
-              "POSCO홀딩스"
-            ],
-            "sentiment_score": 0.65551,
-            "associated_companies": 1
-          },
-          {
-            "press": "연합뉴스",
-            "title": "조기 흑자전환 삼성SDI \"각형 LFP 수주, 이미 2029년 캐파 꽉차\"(종합2보)",
-            "news_id": "d5d540b12c813b68a31833d861bbfbe0",
-            "published_at": "2026-07-30 15:26 KST",
-            "company_names": [
-              "삼성SDI"
-            ],
-            "sentiment_score": 0.67551,
-            "associated_companies": 1
-          },
-          {
-            "press": "한국경제",
-            "title": "경마공원 개장·K팝 돔 추진…영천, 산업·관광 도시로 재탄생한다",
-            "news_id": "936a6070a8f9ef47e26a34f7cf7596e7",
-            "published_at": "2026-07-30 15:25 KST",
-            "company_names": [
-              "화신"
-            ],
-            "sentiment_score": 0.68051,
-            "associated_companies": 1
-          },
-          {
-            "press": "블로터",
-            "title": "삼성전기, AI 'MLCC' 10개사와 장기계약…3분기 최대 실적 전망",
-            "news_id": "efd16b5e0723e8026bb738ce14b4ace7",
-            "published_at": "2026-07-30 15:25 KST",
-            "company_names": [
-              "삼성전기"
-            ],
-            "sentiment_score": 0.67051,
-            "associated_companies": 1
-          },
-          {
-            "press": "서울경제",
-            "title": "SK하닉 1주 하한가에...코인선물 830억 청산",
-            "news_id": "b617998e39a187af14a06ac289cfa123",
-            "published_at": "2026-07-30 15:24 KST",
-            "company_names": [
-              "SK하이닉스"
-            ],
-            "sentiment_score": 0.25177,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
+          {
+            "press": "한국경제",
+            "title": "'라면 도시' 이름값 통했다…구미, 오뚜기 수출공장 유치",
+            "news_id": "411c61cc2ffd3ca0fe28809d4d156ec9",
+            "published_at": "2026-07-30 15:59 KST",
+            "company_names": [
+              "오뚜기",
+              "효성"
+            ],
+            "sentiment_score": 0.67802,
+            "associated_companies": 2
+          },
+          {
+            "press": "한국경제",
+            "title": "'제조 AX' 올라탄 포항…철강·소재 데이터로 최적 공정 찾는다",
+            "news_id": "568485bde108037274b70bcad8d9286f",
+            "published_at": "2026-07-30 15:58 KST",
+            "company_names": [
+              "POSCO홀딩스",
+              "가온전선",
+              "아주스틸"
+            ],
+            "sentiment_score": 0.67885,
+            "associated_companies": 3
+          },
           {
             "press": "한국경제",
             "title": "\"삼성전자 컨콜도 소용없네\"…5500대로 밀린 '롤러코스피'",
@@ -2037,12 +2067,12 @@
         "change_pct": -2.7,
         "prev_close": 662.68
       },
-      "score": -0.91015,
+      "score": -0.90471,
       "components": {
         "news": {
-          "score": 0.14634,
-          "coverage": 0.712,
-          "observations": 315
+          "score": 0.16811,
+          "coverage": 0.7111,
+          "observations": 318
         },
         "market": {
           "score": -0.62339,
@@ -2056,14 +2086,26 @@
           "observations": 16378
         },
         "news_hankyung": {
-          "score": -0.06307,
-          "coverage": 0.6136,
-          "observations": 19
+          "score": 0.18533,
+          "coverage": 0.6304,
+          "observations": 20
         }
       },
-      "text_pulse": -1.00574,
+      "text_pulse": -0.99848,
       "news_articles": {
         "all": [
+          {
+            "press": "한국경제",
+            "title": "'제조 AX' 올라탄 포항…철강·소재 데이터로 최적 공정 찾는다",
+            "news_id": "568485bde108037274b70bcad8d9286f",
+            "published_at": "2026-07-30 15:58 KST",
+            "company_names": [
+              "동국S&C",
+              "동국산업"
+            ],
+            "sentiment_score": 0.68301,
+            "associated_companies": 2
+          },
           {
             "press": "뉴스1",
             "title": "삼성SDI, 7분기 만에 '흑자'…ESS·유럽 전기차로 턴어라운드 시동(종합2보)",
@@ -2151,6 +2193,30 @@
             ],
             "sentiment_score": 0.61301,
             "associated_companies": 1
+          },
+          {
+            "press": "조선비즈",
+            "title": "뉴스·병원 사이트 접속했더니 해킹… 北 라자루스 추정 공격 확산",
+            "news_id": "d1e84466006f07d9554673ed9f487939",
+            "published_at": "2026-07-30 15:47 KST",
+            "company_names": [
+              "안랩",
+              "에스투더블유"
+            ],
+            "sentiment_score": 0.27552,
+            "associated_companies": 2
+          },
+          {
+            "press": "중앙일보",
+            "title": "정부 “뉴스 사이트만 접속해도 해킹될 수 있다”…북한발 사이버 공격 경고",
+            "news_id": "e8506209e19bd6dad63fe9c0ba939f00",
+            "published_at": "2026-07-30 15:44 KST",
+            "company_names": [
+              "안랩",
+              "에스투더블유"
+            ],
+            "sentiment_score": 0.35176,
+            "associated_companies": 2
           },
           {
             "press": "블로터",
@@ -2332,6 +2398,17 @@
               "그리드위즈"
             ],
             "sentiment_score": 0.65051,
+            "associated_companies": 1
+          },
+          {
+            "press": "EBN",
+            "title": "제이브이엠, 2분기 매출 493억 '역대 최대'…수출 비중 첫 50% 돌파",
+            "news_id": "97fe6363a6d2f66a51b7b8f77e79301c",
+            "published_at": "2026-07-30 15:25 KST",
+            "company_names": [
+              "제이브이엠"
+            ],
+            "sentiment_score": 0.69051,
             "associated_companies": 1
           },
           {
@@ -3147,53 +3224,21 @@
             ],
             "sentiment_score": 0.58301,
             "associated_companies": 1
-          },
-          {
-            "press": "더팩트",
-            "title": "콜마비앤에이치, 2분기 영업이익 117억원…전년比 11.8% 증가",
-            "news_id": "fb8a0494f1b09aac51ff8f09b9c0814b",
-            "published_at": "2026-07-30 14:01 KST",
-            "company_names": [
-              "콜마비앤에이치"
-            ],
-            "sentiment_score": 0.66551,
-            "associated_companies": 1
-          },
-          {
-            "press": "조선비즈",
-            "title": "NC AI, 씨메스로보틱스와 피지컬 AI 기술 고도화 협력",
-            "news_id": "e20fd043d821d87844660ad89b8af51f",
-            "published_at": "2026-07-30 14:00 KST",
-            "company_names": [
-              "씨메스로보틱스"
-            ],
-            "sentiment_score": 0.69551,
-            "associated_companies": 1
-          },
-          {
-            "press": "아시아경제",
-            "title": "메디포스트-정석병원, 카티스템 치료 노하우 공유하는 자리 마련",
-            "news_id": "e8add452c1f82e98615bea803ad71463",
-            "published_at": "2026-07-30 14:00 KST",
-            "company_names": [
-              "메디포스트"
-            ],
-            "sentiment_score": 0.58552,
-            "associated_companies": 1
-          },
-          {
-            "press": "연합뉴스",
-            "title": "[테크스냅] 갤럭시 스토어서 넷플릭스 '동궁' 테마 무료 제공",
-            "news_id": "463efaca77d4627e8fca6d4570fc86e1",
-            "published_at": "2026-07-30 13:59 KST",
-            "company_names": [
-              "CJ ENM"
-            ],
-            "sentiment_score": 0.66051,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
+          {
+            "press": "한국경제",
+            "title": "'제조 AX' 올라탄 포항…철강·소재 데이터로 최적 공정 찾는다",
+            "news_id": "568485bde108037274b70bcad8d9286f",
+            "published_at": "2026-07-30 15:58 KST",
+            "company_names": [
+              "동국S&C",
+              "동국산업"
+            ],
+            "sentiment_score": 0.68301,
+            "associated_companies": 2
+          },
           {
             "press": "한국경제",
             "title": "DGIST, 로봇·의료·산업 아우른 AI대학 신설…글로벌 융합 인재 기른다",
@@ -3425,10 +3470,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-30 15:55 KST",
-      "latest_event": "2026-07-30 15:53 KST",
-      "observations": 3444,
-      "active_minutes": 291
+      "latest_seen": "2026-07-30 16:00 KST",
+      "latest_event": "2026-07-30 15:59 KST",
+      "observations": 3454,
+      "active_minutes": 294
     },
     "market": {
       "intraday": true,
@@ -3454,6 +3499,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-30 15:55 KST"
+    "attempted_at": "2026-07-30 16:00 KST"
   }
 }
