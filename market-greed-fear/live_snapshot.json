@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30 18:07 KST",
+  "as_of": "2026-07-30 18:12 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -10,12 +10,12 @@
         "change_pct": -1.23,
         "prev_close": 5663.24
       },
-      "score": -1.25885,
+      "score": -1.26231,
       "components": {
         "news": {
-          "score": 0.13971,
+          "score": 0.12763,
           "coverage": 0.8418,
-          "observations": 2941
+          "observations": 2951
         },
         "market": {
           "score": 0.10936,
@@ -24,19 +24,131 @@
           "observations": 915
         },
         "discussion": {
-          "score": -2.64223,
-          "coverage": 0.129,
-          "observations": 54580
+          "score": -2.64312,
+          "coverage": 0.1291,
+          "observations": 54658
         },
         "news_hankyung": {
-          "score": 0.11801,
-          "coverage": 0.8022,
-          "observations": 111
+          "score": -0.13817,
+          "coverage": 0.8059,
+          "observations": 115
         }
       },
-      "text_pulse": -1.71492,
+      "text_pulse": -1.71954,
       "news_articles": {
         "all": [
+          {
+            "press": "한국경제",
+            "title": "'긴급진단, 한국 증시는 어디로 가는가'",
+            "news_id": "da0dd291aff636da5df55e82c6a618f8",
+            "published_at": "2026-07-30 18:11 KST",
+            "company_names": [
+              "대신증권"
+            ],
+            "sentiment_score": 0.48801,
+            "associated_companies": 1
+          },
+          {
+            "press": "한국경제",
+            "title": "신한카드, 군인가족 대상 '아름인도서관' 개관",
+            "news_id": "1fed08ebccbebfaf70978e4ab2bc6425",
+            "published_at": "2026-07-30 18:09 KST",
+            "company_names": [
+              "신한지주"
+            ],
+            "sentiment_score": 0.54051,
+            "associated_companies": 1
+          },
+          {
+            "press": "한국경제",
+            "title": "레버리지 규제로 코스닥 온기? [한경 프리미엄9 TODAY]",
+            "news_id": "32cd01811e8fdad4d567d41f4eafe0b9",
+            "published_at": "2026-07-30 18:09 KST",
+            "company_names": [
+              "삼성전자"
+            ],
+            "sentiment_score": 0.48551,
+            "associated_companies": 1
+          },
+          {
+            "press": "서울경제",
+            "title": "불법 기지국에 뚫린 KT, 개인정보 유출 540억 과징금",
+            "news_id": "3c3fbec3e610cf7014fe55c6780c5ea7",
+            "published_at": "2026-07-30 18:09 KST",
+            "company_names": [
+              "KT"
+            ],
+            "sentiment_score": 0.20302,
+            "associated_companies": 1
+          },
+          {
+            "press": "비즈워치",
+            "title": "체질 바꾼 LG전자, 2Q 영업익 2.5배 '껑충'…1천억 자사주 태운다",
+            "news_id": "c43e45f124439878c5e14d9252452b5a",
+            "published_at": "2026-07-30 18:08 KST",
+            "company_names": [
+              "LG전자"
+            ],
+            "sentiment_score": 0.67051,
+            "associated_companies": 1
+          },
+          {
+            "press": "파이낸셜뉴스",
+            "title": "레버리지 ETF 안정 위해 리밸런싱 거래 장중 분산",
+            "news_id": "6adbeed3999573ebcb5c79899b95d26e",
+            "published_at": "2026-07-30 18:07 KST",
+            "company_names": [
+              "한화생명"
+            ],
+            "sentiment_score": 0.51301,
+            "associated_companies": 1
+          },
+          {
+            "press": "파이낸셜뉴스",
+            "title": "\"470만원 가능\" \"148만원 적당\" SK하닉 주가 엇갈린 전망",
+            "news_id": "fed7bdbce17377cb0eafba6ff59e986c",
+            "published_at": "2026-07-30 18:07 KST",
+            "company_names": [
+              "BNK금융지주",
+              "NH투자증권",
+              "SK하이닉스",
+              "교보증권",
+              "다올투자증권",
+              "미래에셋증권",
+              "삼성전자",
+              "삼성증권",
+              "신한지주",
+              "하나금융지주",
+              "한국금융지주",
+              "한화투자증권"
+            ],
+            "sentiment_score": 0.45864,
+            "associated_companies": 12
+          },
+          {
+            "press": "한국일보",
+            "title": "한화 삼형제 동반 승진… 5개 계열사 수장 교체로 3세 체제 강화",
+            "news_id": "9249b617013799e1fc96b36c664db22c",
+            "published_at": "2026-07-30 18:05 KST",
+            "company_names": [
+              "한화",
+              "한화생명",
+              "한화에어로스페이스"
+            ],
+            "sentiment_score": 0.52635,
+            "associated_companies": 3
+          },
+          {
+            "press": "아시아경제",
+            "title": "LG전자, 2분기 매출·영업익 '역대 최대'… AI·전장·로봇 품고 체질 개선 속도낸다(종합)",
+            "news_id": "d6356eba0a3993ac27873565181c42ed",
+            "published_at": "2026-07-30 18:05 KST",
+            "company_names": [
+              "LG전자"
+            ],
+            "sentiment_score": 0.67051,
+            "associated_companies": 1
+          },
           {
             "press": "한국경제",
             "title": "[한경에세이] 멜버른행 비행기는 어디에?",
@@ -1104,113 +1216,42 @@
             ],
             "sentiment_score": 0.63051,
             "associated_companies": 2
-          },
+          }
+        ],
+        "hankyung": [
           {
-            "press": "국민일보",
-            "title": "‘하이닉스 470만원’ 노무라의 코스피 급락 진단…레버리지·국민연금·외국인",
-            "news_id": "5c48bb7357e0a07dd0e09d508619ca89",
-            "published_at": "2026-07-30 17:36 KST",
+            "press": "한국경제",
+            "title": "'긴급진단, 한국 증시는 어디로 가는가'",
+            "news_id": "da0dd291aff636da5df55e82c6a618f8",
+            "published_at": "2026-07-30 18:11 KST",
             "company_names": [
-              "SK하이닉스"
+              "대신증권"
             ],
-            "sentiment_score": 0.43801,
-            "associated_companies": 1
-          },
-          {
-            "press": "디지털데일리",
-            "title": "카카오 본사는 봉합 수순…계열사 교섭 현황은 [IT클로즈업]",
-            "news_id": "7624e78e03e5db80830996d66815ce70",
-            "published_at": "2026-07-30 17:36 KST",
-            "company_names": [
-              "카카오",
-              "카카오뱅크",
-              "카카오페이"
-            ],
-            "sentiment_score": 0.33218,
-            "associated_companies": 3
-          },
-          {
-            "press": "아시아경제",
-            "title": "삼성전자, 반도체 스타트업·DX 기술에 8000억원 출자",
-            "news_id": "f151554092ca9d66d64546f635809d75",
-            "published_at": "2026-07-30 17:36 KST",
-            "company_names": [
-              "삼성전자"
-            ],
-            "sentiment_score": 0.55551,
-            "associated_companies": 1
-          },
-          {
-            "press": "SBS Biz",
-            "title": "1조 현금 필요한 최태원 앞 선택지들 [CEO 업&다운]",
-            "news_id": "391d958b970469d032dda9b58997e962",
-            "published_at": "2026-07-30 17:34 KST",
-            "company_names": [
-              "SK"
-            ],
-            "sentiment_score": 0.43301,
-            "associated_companies": 1
-          },
-          {
-            "press": "대구MBC",
-            "title": "대구시, 8월 1일부터 도시가스 소비자 요금 평균 0.53% 인상",
-            "news_id": "ae7cc800d7edf635ffb7ecbeb89a37a7",
-            "published_at": "2026-07-30 17:34 KST",
-            "company_names": [
-              "대성에너지"
-            ],
-            "sentiment_score": 0.45051,
+            "sentiment_score": 0.48801,
             "associated_companies": 1
           },
           {
             "press": "한국경제",
-            "title": "형지, 본사까지 매물로…웨어러블 로봇 '승부수'",
-            "news_id": "d9b82f29fbb1d5d4178f386520419950",
-            "published_at": "2026-07-30 17:33 KST",
+            "title": "신한카드, 군인가족 대상 '아름인도서관' 개관",
+            "news_id": "1fed08ebccbebfaf70978e4ab2bc6425",
+            "published_at": "2026-07-30 18:09 KST",
             "company_names": [
-              "형지엘리트"
+              "신한지주"
             ],
-            "sentiment_score": 0.48052,
+            "sentiment_score": 0.54051,
             "associated_companies": 1
           },
           {
-            "press": "부산일보",
-            "title": "“여름 성수기, 편리하게 공항 이용하세요”",
-            "news_id": "15f9418aa6f6aecfaea13600e24da8d2",
-            "published_at": "2026-07-30 17:33 KST",
-            "company_names": [
-              "대한항공"
-            ],
-            "sentiment_score": 0.56302,
-            "associated_companies": 1
-          },
-          {
-            "press": "머니투데이",
-            "title": "블록레이블, 갤럭시탭에 삼성 Knox 기반 'MORIPE' 탑재 B2B 공급 계약",
-            "news_id": "212a302136f9557f22a8d563d9be567e",
-            "published_at": "2026-07-30 17:33 KST",
+            "press": "한국경제",
+            "title": "레버리지 규제로 코스닥 온기? [한경 프리미엄9 TODAY]",
+            "news_id": "32cd01811e8fdad4d567d41f4eafe0b9",
+            "published_at": "2026-07-30 18:09 KST",
             "company_names": [
               "삼성전자"
             ],
-            "sentiment_score": 0.65051,
+            "sentiment_score": 0.48551,
             "associated_companies": 1
           },
-          {
-            "press": "이데일리",
-            "title": "상동·동대문 이어 영통점?…롯데건설, 홈플러스 개발 '다음 타자' 어딜까",
-            "news_id": "494992855b8a46a0ccff55fa0a0814e4",
-            "published_at": "2026-07-30 17:33 KST",
-            "company_names": [
-              "교보증권",
-              "삼성증권",
-              "키움증권",
-              "한국금융지주"
-            ],
-            "sentiment_score": 0.59427,
-            "associated_companies": 4
-          }
-        ],
-        "hankyung": [
           {
             "press": "한국경제",
             "title": "[한경에세이] 멜버른행 비행기는 어디에?",
@@ -1505,6 +1546,18 @@
             ],
             "sentiment_score": 0.54302,
             "associated_companies": 1
+          },
+          {
+            "press": "한국경제",
+            "title": "\"AI로 가장 먼저 뜬 韓, 가장 먼저 무너지나\"…이코노미스트의 경고",
+            "news_id": "04b3890a96f782287b41f4ed23c31e59",
+            "published_at": "2026-07-30 16:58 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.30489,
+            "associated_companies": 2
           },
           {
             "press": "한국경제",
@@ -2355,51 +2408,6 @@
             ],
             "sentiment_score": 0.42676,
             "associated_companies": 2
-          },
-          {
-            "press": "한국경제",
-            "title": "'MSI 우승' 한화생명, 'EWC 챔피언' DK…LCK서 기세 이어갈 팀은?",
-            "news_id": "34d6530b1fd8020529d0eb1ed54939e1",
-            "published_at": "2026-07-30 07:00 KST",
-            "company_names": [
-              "한화생명"
-            ],
-            "sentiment_score": 0.56802,
-            "associated_companies": 1
-          },
-          {
-            "press": "한국경제",
-            "title": "한미약품 중국 핵심 자회사…영업익 90% 증발 미스터리",
-            "news_id": "7637300a7a70cd55c6415f3870ead4e3",
-            "published_at": "2026-07-30 07:00 KST",
-            "company_names": [
-              "한미약품"
-            ],
-            "sentiment_score": 0.24427,
-            "associated_companies": 1
-          },
-          {
-            "press": "한국경제",
-            "title": "1300억 실적 대박에도 '목표가 줄하향'…한미약품 전망은? [종목+]",
-            "news_id": "ce54b9a0deb4889b8481d87d04ac59ca",
-            "published_at": "2026-07-30 06:30 KST",
-            "company_names": [
-              "한미약품"
-            ],
-            "sentiment_score": 0.46052,
-            "associated_companies": 1
-          },
-          {
-            "press": "한국경제",
-            "title": "\"지금이 삼전닉스 사야할 때\"…'투자 대가' 박현주 긴급 조언",
-            "news_id": "d11f7a40bf82dff1ee7482ab85b7bc1e",
-            "published_at": "2026-07-30 06:00 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.42677,
-            "associated_companies": 2
           }
         ]
       },
@@ -2414,12 +2422,12 @@
         "change_pct": -2.7,
         "prev_close": 662.68
       },
-      "score": -0.96163,
+      "score": -0.9666,
       "components": {
         "news": {
-          "score": 0.1192,
+          "score": 0.11342,
           "coverage": 0.6802,
-          "observations": 378
+          "observations": 380
         },
         "market": {
           "score": -0.62339,
@@ -2428,19 +2436,41 @@
           "observations": 1802
         },
         "discussion": {
-          "score": -1.67116,
-          "coverage": 0.1109,
-          "observations": 20165
+          "score": -1.67822,
+          "coverage": 0.111,
+          "observations": 20203
         },
         "news_hankyung": {
-          "score": 0.13462,
-          "coverage": 0.6852,
-          "observations": 27
+          "score": 0.09982,
+          "coverage": 0.6786,
+          "observations": 28
         }
       },
-      "text_pulse": -1.07437,
+      "text_pulse": -1.08101,
       "news_articles": {
         "all": [
+          {
+            "press": "한국경제",
+            "title": "레버리지 규제로 코스닥 온기? [한경 프리미엄9 TODAY]",
+            "news_id": "32cd01811e8fdad4d567d41f4eafe0b9",
+            "published_at": "2026-07-30 18:09 KST",
+            "company_names": [
+              "태성"
+            ],
+            "sentiment_score": 0.51052,
+            "associated_companies": 1
+          },
+          {
+            "press": "파이낸셜뉴스",
+            "title": "\"470만원 가능\" \"148만원 적당\" SK하닉 주가 엇갈린 전망",
+            "news_id": "fed7bdbce17377cb0eafba6ff59e986c",
+            "published_at": "2026-07-30 18:07 KST",
+            "company_names": [
+              "에프앤가이드"
+            ],
+            "sentiment_score": 0.46302,
+            "associated_companies": 1
+          },
           {
             "press": "한국경제",
             "title": "파라타항공, 정비사에 쿨링조끼 지급",
@@ -3537,32 +3567,20 @@
             ],
             "sentiment_score": 0.69051,
             "associated_companies": 1
-          },
-          {
-            "press": "YTN",
-            "title": "LG전자 2분기 최대 실적...매출 23.8조·영업익 1.6조",
-            "news_id": "319c4111c139716f30cee073ea9f8312",
-            "published_at": "2026-07-30 15:41 KST",
-            "company_names": [
-              "YTN"
-            ],
-            "sentiment_score": 0.70051,
-            "associated_companies": 1
-          },
-          {
-            "press": "연합뉴스TV",
-            "title": "바이오연료 7개사 10조 규모 입찰 담합…과징금 최대 2조원",
-            "news_id": "7cfae421cc465c6515103b7a0778ee20",
-            "published_at": "2026-07-30 15:40 KST",
-            "company_names": [
-              "KG에코솔루션",
-              "제이씨케미칼"
-            ],
-            "sentiment_score": 0.22864,
-            "associated_companies": 2
           }
         ],
         "hankyung": [
+          {
+            "press": "한국경제",
+            "title": "레버리지 규제로 코스닥 온기? [한경 프리미엄9 TODAY]",
+            "news_id": "32cd01811e8fdad4d567d41f4eafe0b9",
+            "published_at": "2026-07-30 18:09 KST",
+            "company_names": [
+              "태성"
+            ],
+            "sentiment_score": 0.51052,
+            "associated_companies": 1
+          },
           {
             "press": "한국경제",
             "title": "파라타항공, 정비사에 쿨링조끼 지급",
@@ -3861,10 +3879,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-30 18:07 KST",
-      "latest_event": "2026-07-30 18:06 KST",
-      "observations": 4299,
-      "active_minutes": 365
+      "latest_seen": "2026-07-30 18:12 KST",
+      "latest_event": "2026-07-30 18:11 KST",
+      "observations": 4330,
+      "active_minutes": 369
     },
     "market": {
       "intraday": true,
@@ -3874,10 +3892,10 @@
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-30 18:07 KST",
-      "latest_event": "2026-07-30 18:04 KST",
-      "observations": 75599,
-      "active_minutes": 394
+      "latest_seen": "2026-07-30 18:12 KST",
+      "latest_event": "2026-07-30 18:05 KST",
+      "observations": 75715,
+      "active_minutes": 398
     }
   },
   "event_date": "2026-07-30",
@@ -3890,6 +3908,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-30 18:07 KST"
+    "attempted_at": "2026-07-30 18:12 KST"
   }
 }
