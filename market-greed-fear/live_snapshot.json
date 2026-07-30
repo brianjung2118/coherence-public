@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30 21:55 KST",
+  "as_of": "2026-07-30 22:01 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -10,12 +10,12 @@
         "change_pct": -1.23,
         "prev_close": 5663.24
       },
-      "score": -1.17233,
+      "score": -1.17355,
       "components": {
         "news": {
-          "score": 0.13589,
+          "score": 0.13069,
           "coverage": 0.8432,
-          "observations": 3124
+          "observations": 3125
         },
         "market": {
           "score": 0.10936,
@@ -24,19 +24,32 @@
           "observations": 915
         },
         "discussion": {
-          "score": -2.46728,
+          "score": -2.46713,
           "coverage": 0.1275,
-          "observations": 61200
+          "observations": 61203
         },
         "news_hankyung": {
-          "score": -0.35573,
-          "coverage": 0.8176,
-          "observations": 130
+          "score": -0.46101,
+          "coverage": 0.8167,
+          "observations": 131
         }
       },
-      "text_pulse": -1.59956,
+      "text_pulse": -1.60119,
       "news_articles": {
         "all": [
+          {
+            "press": "한국경제",
+            "title": "\"최악 국면 진입, AI 버블 붕괴 전조 가능성\"…외신이 본 위기의 K증시",
+            "news_id": "d0033af82a6a502ddf2f365fd8c848d9",
+            "published_at": "2026-07-30 22:00 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자",
+              "한국금융지주"
+            ],
+            "sentiment_score": 0.28052,
+            "associated_companies": 3
+          },
           {
             "press": "EBN",
             "title": "[EBN 오늘(30일) 이슈 종합] 한화에어로 대표에 이부환, 삼성전자 DX 상반기 매출 100조원 돌파 등",
@@ -1194,24 +1207,22 @@
             ],
             "sentiment_score": 0.68551,
             "associated_companies": 1
-          },
-          {
-            "press": "한국경제",
-            "title": "한화, 43세 김동관 수석부회장 체제로…3형제 계열사 책임경영",
-            "news_id": "7cb31c05103a7d8750da0d69d91420a8",
-            "published_at": "2026-07-30 18:40 KST",
-            "company_names": [
-              "한화",
-              "한화생명",
-              "한화솔루션",
-              "한화에어로스페이스",
-              "한화오션"
-            ],
-            "sentiment_score": 0.54151,
-            "associated_companies": 5
           }
         ],
         "hankyung": [
+          {
+            "press": "한국경제",
+            "title": "\"최악 국면 진입, AI 버블 붕괴 전조 가능성\"…외신이 본 위기의 K증시",
+            "news_id": "d0033af82a6a502ddf2f365fd8c848d9",
+            "published_at": "2026-07-30 22:00 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자",
+              "한국금융지주"
+            ],
+            "sentiment_score": 0.28052,
+            "associated_companies": 3
+          },
           {
             "press": "한국경제",
             "title": "\"군인이 마셔도 되나\"…하이트진로, '테라 제로' 음용 장면 넓힌다",
@@ -2395,17 +2406,6 @@
               "오리온"
             ],
             "sentiment_score": 0.67051,
-            "associated_companies": 1
-          },
-          {
-            "press": "한국경제",
-            "title": "[속보] 삼성전자 2분기 매출 171.5조원…역대 분기 최대",
-            "news_id": "0925f9c4c4f3011aff4a79fa9cb3b7b9",
-            "published_at": "2026-07-30 08:52 KST",
-            "company_names": [
-              "삼성전자"
-            ],
-            "sentiment_score": 0.50052,
             "associated_companies": 1
           }
         ]
@@ -3893,10 +3893,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-30 21:54 KST",
-      "latest_event": "2026-07-30 21:44 KST",
-      "observations": 4640,
-      "active_minutes": 439
+      "latest_seen": "2026-07-30 22:01 KST",
+      "latest_event": "2026-07-30 22:00 KST",
+      "observations": 4641,
+      "active_minutes": 441
     },
     "market": {
       "intraday": true,
@@ -3906,10 +3906,10 @@
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-30 21:38 KST",
-      "latest_event": "2026-07-30 21:09 KST",
-      "observations": 84350,
-      "active_minutes": 528
+      "latest_seen": "2026-07-30 22:01 KST",
+      "latest_event": "2026-07-30 21:49 KST",
+      "observations": 84354,
+      "active_minutes": 529
     }
   },
   "event_date": "2026-07-30",
@@ -3922,6 +3922,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-30 21:55 KST"
+    "attempted_at": "2026-07-30 22:01 KST"
   }
 }
