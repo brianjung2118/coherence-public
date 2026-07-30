@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30 12:31 KST",
+  "as_of": "2026-07-30 12:41 KST",
   "event_date": "2026-07-30",
   "market_session": {
     "status": "trading",
@@ -8,15 +8,15 @@
   },
   "boards": {
     "KOSPI": {
-      "score": -1.12021,
-      "text_pulse": -1.56821,
+      "score": -1.06368,
+      "text_pulse": -1.55973,
       "previous_final": -3.0681,
       "index": {
-        "price": 5632.5,
+        "price": 5666.8,
         "prev_close": 5663.24,
-        "change": -30.74,
-        "change_pct": -0.54,
-        "as_of": "2026-07-30 12:31 KST",
+        "change": 3.56,
+        "change_pct": 0.06,
+        "as_of": "2026-07-30 12:41 KST",
         "live": true
       },
       "components": {
@@ -26,9 +26,9 @@
           "coverage": 0.1386
         },
         "news": {
-          "score": -0.01749,
-          "observations": 1635,
-          "coverage": 0.8408
+          "score": 0.00794,
+          "observations": 1644,
+          "coverage": 0.8415
         },
         "news_hankyung": {
           "score": -0.60011,
@@ -36,7 +36,7 @@
           "coverage": 0.8108
         },
         "market": {
-          "score": 0.22378,
+          "score": 0.42446,
           "confidence": 1.0,
           "observations": 915,
           "coverage": 1.0
@@ -44,6 +44,120 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "2d0656c8a6bf1e56fcc60cc9c186b7aa",
+            "published_at": "2026-07-30 12:31 KST",
+            "press": "노컷뉴스",
+            "title": "현대차그룹, AVP본부 자율주행개발센터장에 'AI 전문가' 권정현 부사장 영입",
+            "sentiment_score": 0.56927,
+            "associated_companies": 2,
+            "company_names": [
+              "삼성전자",
+              "현대차"
+            ]
+          },
+          {
+            "news_id": "8904145ee8f765b5e5f1464fb978c3b8",
+            "published_at": "2026-07-30 12:31 KST",
+            "press": "파이낸셜뉴스",
+            "title": "SK 대표단 베트남 푸토성 방문..\"반도체 등 첨단 산업 발전에 기여하겠다\"",
+            "sentiment_score": 0.65051,
+            "associated_companies": 2,
+            "company_names": [
+              "SK",
+              "SKC"
+            ]
+          },
+          {
+            "news_id": "ea28ed97d619b7ffc56cbd3b4c236e6f",
+            "published_at": "2026-07-30 12:31 KST",
+            "press": "코메디닷컴",
+            "title": "정유석 대표, 일양약품 최대주주 올랐다…오너 3세 승계 사실상 마무리",
+            "sentiment_score": 0.55051,
+            "associated_companies": 1,
+            "company_names": [
+              "일양약품"
+            ]
+          },
+          {
+            "news_id": "fd5e080e04cd2311fa6ae70fd037dcea",
+            "published_at": "2026-07-30 12:26 KST",
+            "press": "연합뉴스",
+            "title": "삼성전기 2분기 영업익 전년비 2배 넘어…역대최대 분기매출(종합)",
+            "sentiment_score": 0.67051,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성전기"
+            ]
+          },
+          {
+            "news_id": "b63f9de43173ef292ccb731c827b55f9",
+            "published_at": "2026-07-30 12:25 KST",
+            "press": "데일리안",
+            "title": "삼성전자 영업익 19배 폭증…반도체가 99% 벌었다",
+            "sentiment_score": 0.66551,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "95e25d68cbfce88c16148953bba170e4",
+            "published_at": "2026-07-30 12:24 KST",
+            "press": "조선비즈",
+            "title": "“스펙보다 ‘생각 근육’이 중요”… SK하이닉스, 신입 사원 모집",
+            "sentiment_score": 0.53551,
+            "associated_companies": 1,
+            "company_names": [
+              "SK하이닉스"
+            ]
+          },
+          {
+            "news_id": "a13d81443745757a810a1769ec6acc9d",
+            "published_at": "2026-07-30 12:22 KST",
+            "press": "KBS",
+            "title": "공정위, 9조 원대 바이오 연료 입찰 담합 제재 심의한다",
+            "sentiment_score": 0.25718,
+            "associated_companies": 3,
+            "company_names": [
+              "DS단석",
+              "SK케미칼",
+              "애경케미칼"
+            ]
+          },
+          {
+            "news_id": "cad8eb3bf27fb7865f66d2758cb45fb1",
+            "published_at": "2026-07-30 12:22 KST",
+            "press": "SBS",
+            "title": "KT에 과징금 539억 원…\"불법 펨토셀 11개월간 몰랐다\"",
+            "sentiment_score": 0.17927,
+            "associated_companies": 1,
+            "company_names": [
+              "KT"
+            ]
+          },
+          {
+            "news_id": "39ee078d279cbd8d18f9e4861b11b523",
+            "published_at": "2026-07-30 12:21 KST",
+            "press": "MBC",
+            "title": "오늘의 증시",
+            "sentiment_score": 0.50301,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성증권"
+            ]
+          },
+          {
+            "news_id": "ffdcd4d4c1c6938926f61bfa242d53e5",
+            "published_at": "2026-07-30 12:20 KST",
+            "press": "KBS",
+            "title": "불법 ‘펨토셀 해킹’ KT에 539억 원 과징금",
+            "sentiment_score": 0.19051,
+            "associated_companies": 1,
+            "company_names": [
+              "KT"
+            ]
+          },
           {
             "news_id": "62dad8cb593dc0b0f68a9f5a3b808b54",
             "published_at": "2026-07-30 12:14 KST",
@@ -1124,123 +1238,6 @@
             "company_names": [
               "한국전력"
             ]
-          },
-          {
-            "news_id": "ec6db82bb1b10a5fa2ae3a710a82fc46",
-            "published_at": "2026-07-30 11:43 KST",
-            "press": "서울경제",
-            "title": "“세계 최고였는데 어쩌다” 외신도 걱정한 한국 증시…“개미들 절망과 좌절감 확산”",
-            "sentiment_score": 0.26926,
-            "associated_companies": 1,
-            "company_names": [
-              "SK하이닉스"
-            ]
-          },
-          {
-            "news_id": "fd35fe934ad55358cc537f3a4f5b0e78",
-            "published_at": "2026-07-30 11:43 KST",
-            "press": "헤럴드경제",
-            "title": "LG엔솔 “3분기 매출 20% 이상 성장 전망…GM 공장도 재가동”",
-            "sentiment_score": 0.58301,
-            "associated_companies": 1,
-            "company_names": [
-              "LG에너지솔루션"
-            ]
-          },
-          {
-            "news_id": "34f0bcae37c712fca0ccb0e85fa7bdc6",
-            "published_at": "2026-07-30 11:42 KST",
-            "press": "TV조선",
-            "title": "신세계百, 강남점에 국내 첫 '폼폼푸린 베이커리 카페' 선보인다",
-            "sentiment_score": 0.55802,
-            "associated_companies": 1,
-            "company_names": [
-              "신세계"
-            ]
-          },
-          {
-            "news_id": "35674c93522364f2c3d56cba402d0f31",
-            "published_at": "2026-07-30 11:42 KST",
-            "press": "머니투데이",
-            "title": "세아베스틸지주, 2분기 영업익 605억..전년 대비 35.9%↑",
-            "sentiment_score": 0.70051,
-            "associated_companies": 1,
-            "company_names": [
-              "세아베스틸지주"
-            ]
-          },
-          {
-            "news_id": "605d05195d2033c79e145cd3503c250b",
-            "published_at": "2026-07-30 11:42 KST",
-            "press": "이데일리",
-            "title": "“장주기 ESS용 소듐전지 기술 검증…상용화 논의 진행”-LG에너지솔루션 컨콜",
-            "sentiment_score": 0.58552,
-            "associated_companies": 1,
-            "company_names": [
-              "LG에너지솔루션"
-            ]
-          },
-          {
-            "news_id": "8fc382e7d5dddf935cd900bdf7fb37c5",
-            "published_at": "2026-07-30 11:42 KST",
-            "press": "서울경제",
-            "title": "삼성 반도체 분기 매출 첫 100조 돌파…영업익 89.2조 ‘역대 최대’",
-            "sentiment_score": 0.66551,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "9c5355075f1b41dc8336db9f920a2309",
-            "published_at": "2026-07-30 11:42 KST",
-            "press": "중앙일보",
-            "title": "“이번 위기 극복해야 다음있다” 정의선, 브라질서 中공세 총력전",
-            "sentiment_score": 0.58301,
-            "associated_companies": 1,
-            "company_names": [
-              "현대차"
-            ]
-          },
-          {
-            "news_id": "d368e36afc365776e6db7493e8e3afa9",
-            "published_at": "2026-07-30 11:42 KST",
-            "press": "서울경제",
-            "title": "동국제강그룹, 미래 건축인재 펠로우십 7명 선발",
-            "sentiment_score": 0.57177,
-            "associated_companies": 2,
-            "company_names": [
-              "동국제강",
-              "동국홀딩스"
-            ]
-          },
-          {
-            "news_id": "e1780a8f5dee6fcf6cdd7561f8cf4111",
-            "published_at": "2026-07-30 11:42 KST",
-            "press": "뉴시스",
-            "title": "\"이제 우리가 오를 차례\"…미·이란 무력 충돌에 방산주 강세",
-            "sentiment_score": 0.67468,
-            "associated_companies": 6,
-            "company_names": [
-              "LIG디펜스앤에어로스페이스",
-              "한국항공우주",
-              "한화시스템",
-              "한화에어로스페이스",
-              "한화오션",
-              "현대로템"
-            ]
-          },
-          {
-            "news_id": "429012a1cf5c053455d0cbc22d32a774",
-            "published_at": "2026-07-30 11:41 KST",
-            "press": "연합뉴스TV",
-            "title": "삼성전자 \"3분기 HBM4, 전분기 대비 3배 이상 매출\"",
-            "sentiment_score": 0.67051,
-            "associated_companies": 2,
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ]
           }
         ],
         "hankyung": [
@@ -1766,15 +1763,15 @@
       }
     },
     "KOSDAQ": {
-      "score": -0.61891,
-      "text_pulse": -0.67588,
+      "score": -0.56953,
+      "text_pulse": -0.66596,
       "previous_final": -1.81191,
       "index": {
-        "price": 648.6,
+        "price": 651.2,
         "prev_close": 662.68,
-        "change": -14.08,
-        "change_pct": -2.12,
-        "as_of": "2026-07-30 12:31 KST",
+        "change": -11.48,
+        "change_pct": -1.73,
+        "as_of": "2026-07-30 12:41 KST",
         "live": true
       },
       "components": {
@@ -1784,9 +1781,9 @@
           "coverage": 0.1126
         },
         "news": {
-          "score": 0.37575,
+          "score": 0.40551,
           "observations": 220,
-          "coverage": 0.6956
+          "coverage": 0.6961
         },
         "news_hankyung": {
           "score": -0.46698,
@@ -1794,7 +1791,7 @@
           "coverage": 0.7273
         },
         "market": {
-          "score": -0.44797,
+          "score": -0.28023,
           "confidence": 1.0,
           "observations": 1802,
           "coverage": 1.0
@@ -1802,6 +1799,17 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "8904145ee8f765b5e5f1464fb978c3b8",
+            "published_at": "2026-07-30 12:31 KST",
+            "press": "파이낸셜뉴스",
+            "title": "SK 대표단 베트남 푸토성 방문..\"반도체 등 첨단 산업 발전에 기여하겠다\"",
+            "sentiment_score": 0.65551,
+            "associated_companies": 1,
+            "company_names": [
+              "ISC"
+            ]
+          },
           {
             "news_id": "586a9e770abea0bb05f0dd07ba032f9c",
             "published_at": "2026-07-30 12:04 KST",
@@ -2915,17 +2923,6 @@
             "company_names": [
               "LS증권"
             ]
-          },
-          {
-            "news_id": "3254c32fd3a86de59e6a85d1e0d6ff90",
-            "published_at": "2026-07-30 10:25 KST",
-            "press": "전자신문",
-            "title": "스캐터랩, AI 캐릭터 챗봇 '제타' 크리에이터 콘테스트 개최",
-            "sentiment_score": 0.53802,
-            "associated_companies": 1,
-            "company_names": [
-              "바른손이앤에이"
-            ]
           }
         ],
         "hankyung": [
@@ -3072,19 +3069,19 @@
   "sources": {
     "discussion": {
       "latest_event": "2026-07-30 12:20 KST",
-      "latest_seen": "2026-07-30 12:31 KST",
-      "active_minutes": 208,
+      "latest_seen": "2026-07-30 12:33 KST",
+      "active_minutes": 210,
       "observations": 43837
     },
     "news": {
-      "latest_event": "2026-07-30 12:21 KST",
-      "latest_seen": "2026-07-30 12:31 KST",
-      "active_minutes": 193,
-      "observations": 2318
+      "latest_event": "2026-07-30 12:31 KST",
+      "latest_seen": "2026-07-30 12:41 KST",
+      "active_minutes": 196,
+      "observations": 2333
     },
     "market": {
       "latest_event": "2026-07-30",
-      "latest_seen": "2026-07-30 12:31 KST",
+      "latest_seen": "2026-07-30 12:41 KST",
       "active_minutes": null,
       "intraday": true,
       "status_record_available": true
