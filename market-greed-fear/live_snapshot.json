@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30 12:11 KST",
+  "as_of": "2026-07-30 12:21 KST",
   "event_date": "2026-07-30",
   "market_session": {
     "status": "trading",
@@ -8,27 +8,27 @@
   },
   "boards": {
     "KOSPI": {
-      "score": -1.02495,
-      "text_pulse": -1.46238,
+      "score": -1.087,
+      "text_pulse": -1.47413,
       "previous_final": -3.0681,
       "index": {
-        "price": 5639.48,
+        "price": 5605.2,
         "prev_close": 5663.24,
-        "change": -23.76,
-        "change_pct": -0.42,
-        "as_of": "2026-07-30 12:11 KST",
+        "change": -58.04,
+        "change_pct": -1.02,
+        "as_of": "2026-07-30 12:21 KST",
         "live": true
       },
       "components": {
         "discussion": {
-          "score": -2.19063,
-          "observations": 29389,
-          "coverage": 0.1396
+          "score": -2.19942,
+          "observations": 29621,
+          "coverage": 0.1395
         },
         "news": {
-          "score": -0.00589,
-          "observations": 1622,
-          "coverage": 0.8409
+          "score": -0.02355,
+          "observations": 1630,
+          "coverage": 0.8416
         },
         "news_hankyung": {
           "score": -0.58853,
@@ -36,7 +36,7 @@
           "coverage": 0.8257
         },
         "market": {
-          "score": 0.28737,
+          "score": 0.0744,
           "confidence": 1.0,
           "observations": 915,
           "coverage": 1.0
@@ -44,6 +44,105 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "3e6b9b186d85760b6e529c662998648e",
+            "published_at": "2026-07-30 12:10 KST",
+            "press": "중앙일보",
+            "title": "삼성물산, 시공능력평가 13년 연속 1위…GS·현엔 약진에 상위권 재편",
+            "sentiment_score": 0.53583,
+            "associated_companies": 8,
+            "company_names": [
+              "DL이앤씨",
+              "GS",
+              "GS건설",
+              "IPARK현대산업개발",
+              "POSCO홀딩스",
+              "삼성E&A",
+              "삼성물산",
+              "현대건설"
+            ]
+          },
+          {
+            "news_id": "b93210e943281973795f1532874809e2",
+            "published_at": "2026-07-30 12:10 KST",
+            "press": "데일리안",
+            "title": "갤럭시 밑지고 팔았다…삼성전자 MX \"하반기 '프리미엄' 앞세워 적자 탈출\"",
+            "sentiment_score": 0.46802,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "ea9ba611c3cb78b65d0367e2f19ca22d",
+            "published_at": "2026-07-30 12:08 KST",
+            "press": "SBS",
+            "title": "삼성전자, 2분기 영업익 89조…코스피 반등 시도",
+            "sentiment_score": 0.65551,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "460605e2c0bfb89dd01ead70a52b57dc",
+            "published_at": "2026-07-30 12:06 KST",
+            "press": "머니투데이",
+            "title": "삼성전자, 빅테크 5곳과 장기계약 완료…최소 5년간 캐파 70% 확보",
+            "sentiment_score": 0.64051,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "1668c9daf3820b1c3289efc79c2f0e06",
+            "published_at": "2026-07-30 12:04 KST",
+            "press": "문화일보",
+            "title": "영국언론 “한국, 국가 자본주의·투기성향 결합한 실험장”",
+            "sentiment_score": 0.31177,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "586a9e770abea0bb05f0dd07ba032f9c",
+            "published_at": "2026-07-30 12:04 KST",
+            "press": "SBS Biz",
+            "title": "콜마비앤에이치, 글로벌·올영 효과에 2분기 영업익 12%↑",
+            "sentiment_score": 0.68051,
+            "associated_companies": 1,
+            "company_names": [
+              "콜마홀딩스"
+            ]
+          },
+          {
+            "news_id": "c8b534d64312e5cdea6414a4675bef14",
+            "published_at": "2026-07-30 12:04 KST",
+            "press": "문화일보",
+            "title": "‘AI낙관론 붕괴 공포’ 하루는 버텼지만… 개미들, 연이틀 던졌다",
+            "sentiment_score": 0.28052,
+            "associated_companies": 2,
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "e45d7b5c7dc071441fda0a34c5a1d6f7",
+            "published_at": "2026-07-30 12:04 KST",
+            "press": "문화일보",
+            "title": "“밸류에이션 의미 잃은 과매도 구간… 시장불신 해소가 우선”",
+            "sentiment_score": 0.36885,
+            "associated_companies": 3,
+            "company_names": [
+              "삼성전자",
+              "유안타증권",
+              "하나금융지주"
+            ]
+          },
           {
             "news_id": "6b8f3ac17fbe20f70cc9e2cf74caf144",
             "published_at": "2026-07-30 12:02 KST",
@@ -484,6 +583,17 @@
             "associated_companies": 1,
             "company_names": [
               "삼성전자"
+            ]
+          },
+          {
+            "news_id": "553222c2f46c67e05f7d343613be09ac",
+            "published_at": "2026-07-30 11:55 KST",
+            "press": "EBN",
+            "title": "팜젠사이언스, ISO 37001 인증 획득…전 사업부문 윤리경영 강화",
+            "sentiment_score": 0.66551,
+            "associated_companies": 1,
+            "company_names": [
+              "팜젠사이언스"
             ]
           },
           {
@@ -1135,106 +1245,6 @@
               "SK하이닉스",
               "삼성전자"
             ]
-          },
-          {
-            "news_id": "89e70a79a8c17c210b2713d4499136ea",
-            "published_at": "2026-07-30 11:41 KST",
-            "press": "아시아경제",
-            "title": "삼성SDS, 클라우드·물류 호조…2분기 매출 전년比 5.9% ↑",
-            "sentiment_score": 0.68551,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성에스디에스"
-            ]
-          },
-          {
-            "news_id": "b3ca3a36c5763e55b0776d762d6ab7cc",
-            "published_at": "2026-07-30 11:41 KST",
-            "press": "SBS Biz",
-            "title": "유한양행, 혈당 유산균 멕시코 출시…중남미 공략 '시동'",
-            "sentiment_score": 0.66551,
-            "associated_companies": 1,
-            "company_names": [
-              "유한양행"
-            ]
-          },
-          {
-            "news_id": "0c0021b1145221036beb59f6d4581569",
-            "published_at": "2026-07-30 11:40 KST",
-            "press": "이데일리",
-            "title": "“中 ESS 업체 美 시장 확대 제한적…현지 생산·SI 역량 강화”-LG에너지솔루션 컨콜",
-            "sentiment_score": 0.51052,
-            "associated_companies": 1,
-            "company_names": [
-              "LG에너지솔루션"
-            ]
-          },
-          {
-            "news_id": "69004a34777c006e7e0aa7c4deda357e",
-            "published_at": "2026-07-30 11:40 KST",
-            "press": "이코노미스트",
-            "title": "KT, 해킹 과징금 539억 폭탄…행정소송 선례 속 업계 \"개인정보 잔혹사 시선 엄중\"",
-            "sentiment_score": 0.20864,
-            "associated_companies": 2,
-            "company_names": [
-              "KT",
-              "SK텔레콤"
-            ]
-          },
-          {
-            "news_id": "801c3f55a7dd7169c851be19030614ec",
-            "published_at": "2026-07-30 11:39 KST",
-            "press": "SBS Biz",
-            "title": "삼성전자 \"美테일러 2공장 올해말 착공...2030년 양산 목표\"",
-            "sentiment_score": 0.56551,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "966feb8e03be04f528e5d67f3ee4e7bc",
-            "published_at": "2026-07-30 11:39 KST",
-            "press": "KBS",
-            "title": "삼성전자 “메모리 생산능력 최대 70%까지 장기계약 계획”",
-            "sentiment_score": 0.66551,
-            "associated_companies": 1,
-            "company_names": [
-              "삼성전자"
-            ]
-          },
-          {
-            "news_id": "b396a49c1f6abd061f13fd182bf6fad5",
-            "published_at": "2026-07-30 11:39 KST",
-            "press": "이데일리",
-            "title": "“AI 데이터센터 전력망 병목…빅테크와 BTM 사업 논의”-LG에너지솔루션 컨콜",
-            "sentiment_score": 0.54551,
-            "associated_companies": 1,
-            "company_names": [
-              "LG에너지솔루션"
-            ]
-          },
-          {
-            "news_id": "cdfae0d96d501c5369c1d2057c82c29d",
-            "published_at": "2026-07-30 11:39 KST",
-            "press": "스포츠조선",
-            "title": "크래프톤, 도쿄 시부야서 첫 글로벌 브랜드 캠페인…'미메시스' 앞세워 IP 경쟁력 알려",
-            "sentiment_score": 0.65551,
-            "associated_companies": 1,
-            "company_names": [
-              "크래프톤"
-            ]
-          },
-          {
-            "news_id": "5f06807646491154fbf1fe04edd68ffc",
-            "published_at": "2026-07-30 11:38 KST",
-            "press": "아시아경제",
-            "title": "카카오페이손보, '펫보험' 4개월 만에 계약 1만건 돌파",
-            "sentiment_score": 0.61301,
-            "associated_companies": 1,
-            "company_names": [
-              "카카오페이"
-            ]
           }
         ],
         "hankyung": [
@@ -1760,27 +1770,27 @@
       }
     },
     "KOSDAQ": {
-      "score": -0.62045,
-      "text_pulse": -0.68712,
+      "score": -0.65483,
+      "text_pulse": -0.67588,
       "previous_final": -1.81191,
       "index": {
-        "price": 648.45,
+        "price": 646.35,
         "prev_close": 662.68,
-        "change": -14.23,
-        "change_pct": -2.15,
-        "as_of": "2026-07-30 12:11 KST",
+        "change": -16.33,
+        "change_pct": -2.46,
+        "as_of": "2026-07-30 12:21 KST",
         "live": true
       },
       "components": {
         "discussion": {
-          "score": -1.20395,
-          "observations": 11030,
-          "coverage": 0.1128
+          "score": -1.2017,
+          "observations": 11048,
+          "coverage": 0.1126
         },
         "news": {
-          "score": 0.34655,
-          "observations": 217,
-          "coverage": 0.6946
+          "score": 0.37575,
+          "observations": 220,
+          "coverage": 0.6956
         },
         "news_hankyung": {
           "score": -0.46698,
@@ -1788,7 +1798,7 @@
           "coverage": 0.7273
         },
         "market": {
-          "score": -0.42046,
+          "score": -0.59167,
           "confidence": 1.0,
           "observations": 1802,
           "coverage": 1.0
@@ -1796,6 +1806,28 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "586a9e770abea0bb05f0dd07ba032f9c",
+            "published_at": "2026-07-30 12:04 KST",
+            "press": "SBS Biz",
+            "title": "콜마비앤에이치, 글로벌·올영 효과에 2분기 영업익 12%↑",
+            "sentiment_score": 0.68051,
+            "associated_companies": 1,
+            "company_names": [
+              "콜마비앤에이치"
+            ]
+          },
+          {
+            "news_id": "0baeed4768748a657cfb41823d0683bd",
+            "published_at": "2026-07-30 12:02 KST",
+            "press": "머니투데이",
+            "title": "디지털대성, 자사주 63만주 소각·100억 추가 매입",
+            "sentiment_score": 0.68051,
+            "associated_companies": 1,
+            "company_names": [
+              "디지털대성"
+            ]
+          },
           {
             "news_id": "6b8f3ac17fbe20f70cc9e2cf74caf144",
             "published_at": "2026-07-30 12:02 KST",
@@ -1982,6 +2014,17 @@
             ]
           },
           {
+            "news_id": "553222c2f46c67e05f7d343613be09ac",
+            "published_at": "2026-07-30 11:55 KST",
+            "press": "EBN",
+            "title": "팜젠사이언스, ISO 37001 인증 획득…전 사업부문 윤리경영 강화",
+            "sentiment_score": 0.65551,
+            "associated_companies": 1,
+            "company_names": [
+              "고려신용정보"
+            ]
+          },
+          {
             "news_id": "b9f722dfc1fe11e28ec3951a98c8a8e7",
             "published_at": "2026-07-30 11:52 KST",
             "press": "SBS Biz",
@@ -1990,6 +2033,17 @@
             "associated_companies": 1,
             "company_names": [
               "TS인베스트먼트"
+            ]
+          },
+          {
+            "news_id": "b3745dc46366c8a35c457838d2ee0210",
+            "published_at": "2026-07-30 11:51 KST",
+            "press": "EBN",
+            "title": "현대바이오 '제프티', 인간 폐포 오가노이드서 H1N1 억제효과 확인",
+            "sentiment_score": 0.69551,
+            "associated_companies": 1,
+            "company_names": [
+              "현대바이오"
             ]
           },
           {
@@ -2876,51 +2930,6 @@
             "company_names": [
               "바른손이앤에이"
             ]
-          },
-          {
-            "news_id": "19d3af94b8031ea1832723c93c71a3ad",
-            "published_at": "2026-07-30 10:24 KST",
-            "press": "전자신문",
-            "title": "CJ메조미디어, AI 광고 플랫폼 '애들리' SaaS로 개편…예측모델 확대",
-            "sentiment_score": 0.57801,
-            "associated_companies": 1,
-            "company_names": [
-              "CJ ENM"
-            ]
-          },
-          {
-            "news_id": "490ca8da1dc43565b36909eaaaf0a015",
-            "published_at": "2026-07-30 10:24 KST",
-            "press": "전자신문",
-            "title": "국순당, 횡성양조장서 '주향로 2026 오픈 데이' 개최",
-            "sentiment_score": 0.55302,
-            "associated_companies": 1,
-            "company_names": [
-              "국순당"
-            ]
-          },
-          {
-            "news_id": "b1c39f0cba7bc0cd921efe544f9538e0",
-            "published_at": "2026-07-30 10:24 KST",
-            "press": "헤럴드경제",
-            "title": "“과징금 폭탄 ‘남의 일’ 아냐” 기업들 ‘초긴장’",
-            "sentiment_score": 0.26364,
-            "associated_companies": 2,
-            "company_names": [
-              "CJ ENM",
-              "예스24"
-            ]
-          },
-          {
-            "news_id": "0bd6604286cad46a4e554227342a91a1",
-            "published_at": "2026-07-30 10:23 KST",
-            "press": "한국경제",
-            "title": "한스바이오메드, 국산 가슴보형물 ‘바운스’ 공급 확대…연내 100곳 목표",
-            "sentiment_score": 0.70051,
-            "associated_companies": 1,
-            "company_names": [
-              "한스바이오메드"
-            ]
           }
         ],
         "hankyung": [
@@ -3066,20 +3075,20 @@
   },
   "sources": {
     "discussion": {
-      "latest_event": "2026-07-30 12:08 KST",
-      "latest_seen": "2026-07-30 12:11 KST",
-      "active_minutes": 189,
-      "observations": 40791
+      "latest_event": "2026-07-30 12:17 KST",
+      "latest_seen": "2026-07-30 12:21 KST",
+      "active_minutes": 199,
+      "observations": 41041
     },
     "news": {
-      "latest_event": "2026-07-30 12:10 KST",
-      "latest_seen": "2026-07-30 12:11 KST",
-      "active_minutes": 183,
-      "observations": 2278
+      "latest_event": "2026-07-30 12:18 KST",
+      "latest_seen": "2026-07-30 12:21 KST",
+      "active_minutes": 189,
+      "observations": 2295
     },
     "market": {
       "latest_event": "2026-07-30",
-      "latest_seen": "2026-07-30 12:11 KST",
+      "latest_seen": "2026-07-30 12:21 KST",
       "active_minutes": null,
       "intraday": true,
       "status_record_available": true
