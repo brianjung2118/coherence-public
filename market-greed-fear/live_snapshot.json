@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30 23:00 KST",
+  "as_of": "2026-07-30 23:05 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -10,12 +10,12 @@
         "change_pct": -1.23,
         "prev_close": 5663.24
       },
-      "score": -1.13476,
+      "score": -1.07565,
       "components": {
         "news": {
-          "score": 0.11241,
-          "coverage": 0.8429,
-          "observations": 3143
+          "score": 0.10316,
+          "coverage": 0.843,
+          "observations": 3145
         },
         "market": {
           "score": 0.10936,
@@ -24,9 +24,9 @@
           "observations": 915
         },
         "discussion": {
-          "score": -2.38041,
-          "coverage": 0.1283,
-          "observations": 62328
+          "score": -2.25755,
+          "coverage": 0.1291,
+          "observations": 62875
         },
         "news_hankyung": {
           "score": -0.48044,
@@ -34,7 +34,7 @@
           "observations": 134
         }
       },
-      "text_pulse": -1.54947,
+      "text_pulse": -1.47065,
       "news_articles": {
         "all": [
           {
@@ -59,6 +59,29 @@
               "SK하이닉스"
             ],
             "sentiment_score": 0.49926,
+            "associated_companies": 2
+          },
+          {
+            "press": "데일리안",
+            "title": "BPA, HD현대삼호와 ‘피지컬 AI’ 공동 개발 MOU",
+            "news_id": "c1af6825fe2936d4524b75466e287d70",
+            "published_at": "2026-07-30 22:19 KST",
+            "company_names": [
+              "HD현대"
+            ],
+            "sentiment_score": 0.71052,
+            "associated_companies": 1
+          },
+          {
+            "press": "문화일보",
+            "title": "ETF의 아버지 “레버리지 ETF, 하지 않는 것이 최선”",
+            "news_id": "c41b469e1b799b22971fe793cea43cbb",
+            "published_at": "2026-07-30 22:13 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.32114,
             "associated_companies": 2
           },
           {
@@ -1180,28 +1203,6 @@
               "한국항공우주"
             ],
             "sentiment_score": 0.67051,
-            "associated_companies": 1
-          },
-          {
-            "press": "서울경제",
-            "title": "[속보] 최태원 회장, SK하이닉스 주식 3620주 매수…“책임경영의 일환”",
-            "news_id": "f458ccef65d32b8f10bbd6fe90e8c09f",
-            "published_at": "2026-07-30 19:19 KST",
-            "company_names": [
-              "SK하이닉스"
-            ],
-            "sentiment_score": 0.48302,
-            "associated_companies": 1
-          },
-          {
-            "press": "뉴스1",
-            "title": "SK이노 \"원유 조달 당분간 이상 無\"…조달선 다변화로 하반기 방어",
-            "news_id": "cdeac8fe3869a3b093c490638f46dff3",
-            "published_at": "2026-07-30 19:18 KST",
-            "company_names": [
-              "SK이노베이션"
-            ],
-            "sentiment_score": 0.63801,
             "associated_companies": 1
           }
         ],
@@ -2419,7 +2420,7 @@
         "change_pct": -2.7,
         "prev_close": 662.68
       },
-      "score": -1.00324,
+      "score": -0.90605,
       "components": {
         "news": {
           "score": 0.1747,
@@ -2433,9 +2434,9 @@
           "observations": 1802
         },
         "discussion": {
-          "score": -1.78213,
-          "coverage": 0.1096,
-          "observations": 22619
+          "score": -1.58776,
+          "coverage": 0.1105,
+          "observations": 23068
         },
         "news_hankyung": {
           "score": 0.09844,
@@ -2443,7 +2444,7 @@
           "observations": 29
         }
       },
-      "text_pulse": -1.12985,
+      "text_pulse": -1.00027,
       "news_articles": {
         "all": [
           {
@@ -3891,10 +3892,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-30 22:58 KST",
-      "latest_event": "2026-07-30 22:57 KST",
-      "observations": 4676,
-      "active_minutes": 446
+      "latest_seen": "2026-07-30 23:03 KST",
+      "latest_event": "2026-07-30 23:00 KST",
+      "observations": 4691,
+      "active_minutes": 448
     },
     "market": {
       "intraday": true,
@@ -3904,10 +3905,10 @@
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-30 22:38 KST",
-      "latest_event": "2026-07-30 22:07 KST",
-      "observations": 85849,
-      "active_minutes": 563
+      "latest_seen": "2026-07-30 23:05 KST",
+      "latest_event": "2026-07-30 23:04 KST",
+      "observations": 86851,
+      "active_minutes": 568
     }
   },
   "event_date": "2026-07-30",
@@ -3920,6 +3921,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-30 23:00 KST"
+    "attempted_at": "2026-07-30 23:05 KST"
   }
 }
