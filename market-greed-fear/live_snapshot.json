@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-31 06:00 KST",
+  "as_of": "2026-07-31 06:06 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -13,9 +13,9 @@
       "score": null,
       "components": {
         "news": {
-          "score": -1.60307,
-          "coverage": 0.8106,
-          "observations": 52
+          "score": -1.88701,
+          "coverage": 0.784,
+          "observations": 89
         },
         "market": {
           "score": null,
@@ -24,19 +24,399 @@
           "observations": 0
         },
         "discussion": {
-          "score": 3.01489,
-          "coverage": 0.2039,
-          "observations": 1824
+          "score": 3.54847,
+          "coverage": 0.2087,
+          "observations": 2051
         },
         "news_hankyung": {
-          "score": null,
-          "coverage": 0.0,
+          "score": -4.1971,
+          "coverage": 1.0,
           "observations": 0
         }
       },
-      "text_pulse": 1.47557,
+      "text_pulse": 1.73664,
       "news_articles": {
         "all": [
+          {
+            "press": "조선비즈",
+            "title": "윤구 구글코리아 사장 “소비자 시선 체류 시간 1.2초, 광고 후 기도하는 마케팅은 끝났다”",
+            "news_id": "301509a68b6e4b331f43758f2c3ae38d",
+            "published_at": "2026-07-31 06:02 KST",
+            "company_names": [
+              "NC",
+              "삼성전자",
+              "크래프톤"
+            ],
+            "sentiment_score": 0.48885,
+            "associated_companies": 3
+          },
+          {
+            "press": "세계일보",
+            "title": "“시간 두면 우상향” 최태원, 하닉 주식 48억어치 첫 매수 [뉴스 투데이]",
+            "news_id": "4edc5cc417b13d61cbc31cc9649ec3f6",
+            "published_at": "2026-07-31 06:02 KST",
+            "company_names": [
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.55802,
+            "associated_companies": 1
+          },
+          {
+            "press": "서울경제",
+            "title": "시니어를 안전 전문가로…현대엘리베이터, ‘안전마스터 트랙’ 추진",
+            "news_id": "031274875c93860c9baa4462f68a738d",
+            "published_at": "2026-07-31 06:01 KST",
+            "company_names": [
+              "현대엘리베이터"
+            ],
+            "sentiment_score": 0.55802,
+            "associated_companies": 1
+          },
+          {
+            "press": "서울경제",
+            "title": "하이닉스 하락 맞췄던 BNK, 이번엔 삼전 목표가도 하향 [줍줍리포트]",
+            "news_id": "7f2f73badded07371673b1f973affe87",
+            "published_at": "2026-07-31 06:01 KST",
+            "company_names": [
+              "BNK금융지주",
+              "SK하이닉스",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.32593,
+            "associated_companies": 3
+          },
+          {
+            "press": "한국경제",
+            "title": "하나둘 기술 빼가더니…삼전닉스 파랗게 질리게 한 '中반도체 회사'",
+            "news_id": "c20c32c829d48b71494db6eb95fd0151",
+            "published_at": "2026-07-31 06:00 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.35052,
+            "associated_companies": 2
+          },
+          {
+            "press": "아시아경제",
+            "title": "[1mm금융톡]국책은행 지방 이전설에 금융권 들썩…“집단행동 확대도 검토”",
+            "news_id": "0a414b695f6fbb1cbee1674404c1bc2a",
+            "published_at": "2026-07-31 06:00 KST",
+            "company_names": [
+              "기업은행"
+            ],
+            "sentiment_score": 0.27802,
+            "associated_companies": 1
+          },
+          {
+            "press": "서울경제",
+            "title": "롯데손해보험 공개매각 전환…금융지주와 셈법 맞으려면 [시그널INSIDE]",
+            "news_id": "1512e1268c4af7dcab5e835c8def5387",
+            "published_at": "2026-07-31 06:00 KST",
+            "company_names": [
+              "롯데손해보험"
+            ],
+            "sentiment_score": 0.46802,
+            "associated_companies": 1
+          },
+          {
+            "press": "뉴스1",
+            "title": "[단독] 단일종목 레버리지 '사실상 상폐' 방안 나왔다…업계 도입 검토 착수",
+            "news_id": "314598d72a759f1422836209ed1688d9",
+            "published_at": "2026-07-31 06:00 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.33427,
+            "associated_companies": 2
+          },
+          {
+            "press": "뉴시스",
+            "title": "SKT 'T끼리 온가족할인' 상품 막 내린다…내일부터 신규 판매 중단",
+            "news_id": "68aeea2c284b98152df9a86755f7fa5e",
+            "published_at": "2026-07-31 06:00 KST",
+            "company_names": [
+              "SK텔레콤"
+            ],
+            "sentiment_score": 0.48052,
+            "associated_companies": 1
+          },
+          {
+            "press": "동행미디어 시대",
+            "title": "[시대인터뷰]\"과학이 곧 국방…신무기 개발·운용할 10만 기술병 키우자\"",
+            "news_id": "737caed163ce5ca27a4d08adae807acd",
+            "published_at": "2026-07-31 06:00 KST",
+            "company_names": [
+              "삼성전자"
+            ],
+            "sentiment_score": 0.52802,
+            "associated_companies": 1
+          },
+          {
+            "press": "뉴스1",
+            "title": "중동발 원가 상승 본격 반영…한전 재무 개선 '제동'",
+            "news_id": "766fd0fb55fe13ecaba8b5eb57d4ac15",
+            "published_at": "2026-07-31 06:00 KST",
+            "company_names": [
+              "한국전력",
+              "한화투자증권"
+            ],
+            "sentiment_score": 0.27364,
+            "associated_companies": 2
+          },
+          {
+            "press": "뉴스1",
+            "title": "단일종목 레버리지 어떻게 달라지나…오늘부터 '현금 3000만원' 있어야 매수",
+            "news_id": "79f754a7679790a541b876187b51ffeb",
+            "published_at": "2026-07-31 06:00 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.52426,
+            "associated_companies": 2
+          },
+          {
+            "press": "뉴시스",
+            "title": "'역대급 실적'에도 삼성전자보다 더 떨어진 SK하이닉스…무슨 차이?",
+            "news_id": "9536e166e63fa861e67bb0e1ab61a14e",
+            "published_at": "2026-07-31 06:00 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.37301,
+            "associated_companies": 2
+          },
+          {
+            "press": "KBS",
+            "title": "오늘부터 삼전닉스 레버리지 규제 강화…“현금 3천만 원 있어야”",
+            "news_id": "c794d08cb93e4cd556b58b9ae876b2c8",
+            "published_at": "2026-07-31 06:00 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.37926,
+            "associated_companies": 2
+          },
+          {
+            "press": "연합뉴스",
+            "title": "[반려동물] 병원비 걱정에 '어릴 때부터'…펫보험 경쟁 불붙었다",
+            "news_id": "f3d4b8ce784097b097e560d65f9b4a99",
+            "published_at": "2026-07-31 06:00 KST",
+            "company_names": [
+              "카카오페이"
+            ],
+            "sentiment_score": 0.61301,
+            "associated_companies": 1
+          },
+          {
+            "press": "파이낸셜뉴스",
+            "title": "한화시스템, K2·M-SAM 수출로 이익 체력 확인…하반기 개발비 부담-신한證",
+            "news_id": "4a7b0f42d212021352a14fb9cb4a9507",
+            "published_at": "2026-07-31 05:59 KST",
+            "company_names": [
+              "신한지주",
+              "한화생명",
+              "한화시스템"
+            ],
+            "sentiment_score": 0.68385,
+            "associated_companies": 3
+          },
+          {
+            "press": "연합뉴스",
+            "title": "뉴욕증시, 반도체주 반등에 강세 마감…하이닉스ADR 18%↑(종합)",
+            "news_id": "e32c7463a1f39019f96a30b645639a7a",
+            "published_at": "2026-07-31 05:58 KST",
+            "company_names": [
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.58552,
+            "associated_companies": 1
+          },
+          {
+            "press": "아시아경제",
+            "title": "[뉴욕증시]반도체주 강세에 일제히 상승…아마존 시간 외 6%↑",
+            "news_id": "8217e30cf90576222f21413fee83a320",
+            "published_at": "2026-07-31 05:48 KST",
+            "company_names": [
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.67551,
+            "associated_companies": 1
+          },
+          {
+            "press": "뉴스1",
+            "title": "MS가 살린 AI 랠리…나스닥 2.8%↑, 6거래일 만에 반등[뉴욕마감]",
+            "news_id": "1c73049230b8cc0b2f615379ee2bc79f",
+            "published_at": "2026-07-31 05:44 KST",
+            "company_names": [
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.60301,
+            "associated_companies": 1
+          },
+          {
+            "press": "파이낸셜뉴스",
+            "title": "\"실적 60조 내고 주가 폭락?\"...분통 터진 개미들 '국민과 주주' 창당 선언",
+            "news_id": "baf768463f228c1bbc3f70a64a56590d",
+            "published_at": "2026-07-31 05:40 KST",
+            "company_names": [
+              "NAVER",
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.25114,
+            "associated_companies": 2
+          },
+          {
+            "press": "서울경제",
+            "title": "한화그룹 수석부회장에 김동관…3세 승계 탄력[biz-플러스]",
+            "news_id": "687d8e894c2b6abd1ccd38e01d02fe44",
+            "published_at": "2026-07-31 05:31 KST",
+            "company_names": [
+              "한화",
+              "한화생명",
+              "한화시스템",
+              "한화에어로스페이스"
+            ],
+            "sentiment_score": 0.54239,
+            "associated_companies": 4
+          },
+          {
+            "press": "연합뉴스TV",
+            "title": "한화 김동관, 수석부회장 승진…후계자 공고화",
+            "news_id": "9f2251583a81a1d8d6b44efac0efb9f9",
+            "published_at": "2026-07-31 05:31 KST",
+            "company_names": [
+              "한화",
+              "한화비전",
+              "한화생명"
+            ],
+            "sentiment_score": 0.53635,
+            "associated_companies": 3
+          },
+          {
+            "press": "조선일보",
+            "title": "원금 보장에 연 8% 수익 준다던 증권사, 계좌 열었더니",
+            "news_id": "d7195437f42c7b44adc212bdc4992b32",
+            "published_at": "2026-07-31 05:31 KST",
+            "company_names": [
+              "LG에너지솔루션",
+              "미래에셋증권",
+              "한국금융지주"
+            ],
+            "sentiment_score": 0.49135,
+            "associated_companies": 3
+          },
+          {
+            "press": "뉴시스",
+            "title": "SK온, 2분기 영업익 '사상 최대'…'구조 재편·원가 절감' 통했다",
+            "news_id": "fa7ffe5003bfa5e782539e072df8315a",
+            "published_at": "2026-07-31 05:20 KST",
+            "company_names": [
+              "SK이노베이션"
+            ],
+            "sentiment_score": 0.68551,
+            "associated_companies": 1
+          },
+          {
+            "press": "동행미디어 시대",
+            "title": "\"공포에 털지 말고 분할매수\"…전문가가 꼽은 '반등 포인트'는",
+            "news_id": "870a3deadf0f536773d98e75a37afa18",
+            "published_at": "2026-07-31 05:10 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자",
+              "하나금융지주"
+            ],
+            "sentiment_score": 0.41635,
+            "associated_companies": 3
+          },
+          {
+            "press": "서울신문",
+            "title": "현대차그룹, 자율주행개발센터장에 권정현 영입",
+            "news_id": "141a0dc2ca977b846463a7d400623beb",
+            "published_at": "2026-07-31 05:05 KST",
+            "company_names": [
+              "삼성전자",
+              "현대차"
+            ],
+            "sentiment_score": 0.53302,
+            "associated_companies": 2
+          },
+          {
+            "press": "동행미디어 시대",
+            "title": "'삼전·닉스' 쏠림에 갇히고 제도에 발목… 시장 신뢰 세우려면",
+            "news_id": "39c38e41eb32ca04163b4bebbfd02b9a",
+            "published_at": "2026-07-31 05:05 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.29927,
+            "associated_companies": 2
+          },
+          {
+            "press": "서울신문",
+            "title": "삼전 반도체만 89.2조 벌었다… “내년도 공급 부족”",
+            "news_id": "822d2f1adfb2f4f4f31af2f358654c0d",
+            "published_at": "2026-07-31 05:05 KST",
+            "company_names": [
+              "삼성전자"
+            ],
+            "sentiment_score": 0.66051,
+            "associated_companies": 1
+          },
+          {
+            "press": "서울신문",
+            "title": "대한전선 2분기 ‘역대 최대 실적’… 상반기에 벌써 1년치 벌었다",
+            "news_id": "c1f4dafc0678cd7a04b170144a2ccec0",
+            "published_at": "2026-07-31 05:05 KST",
+            "company_names": [
+              "대한전선"
+            ],
+            "sentiment_score": 0.68551,
+            "associated_companies": 1
+          },
+          {
+            "press": "서울신문",
+            "title": "김동관, 한화그룹 수석부회장으로… 3세 경영체제 본궤도",
+            "news_id": "d26b9d00153885ab8607159ae7d97c89",
+            "published_at": "2026-07-31 05:05 KST",
+            "company_names": [
+              "한화",
+              "한화생명",
+              "한화시스템",
+              "한화에어로스페이스"
+            ],
+            "sentiment_score": 0.53364,
+            "associated_companies": 4
+          },
+          {
+            "press": "서울신문",
+            "title": "도수치료 4만원대로 묶이자… ‘닮은꼴 비급여’ 청구액 3배로",
+            "news_id": "e35e001e86870e3d3104f9353063f530",
+            "published_at": "2026-07-31 05:05 KST",
+            "company_names": [
+              "한화손해보험",
+              "흥국화재"
+            ],
+            "sentiment_score": 0.33927,
+            "associated_companies": 2
+          },
+          {
+            "press": "서울신문",
+            "title": "프리미엄 제품 확대·AI 대전환·로봇… 돌파구 찾는 삼전 DX",
+            "news_id": "2ce761875cd08e220725be5d2ff613ee",
+            "published_at": "2026-07-31 05:04 KST",
+            "company_names": [
+              "삼성전자"
+            ],
+            "sentiment_score": 0.43301,
+            "associated_companies": 1
+          },
           {
             "press": "세계일보",
             "title": "[경제 단신] 롯데百, 명동에 초대형 미디어파사드 외",
@@ -655,7 +1035,20 @@
             "associated_companies": 5
           }
         ],
-        "hankyung": []
+        "hankyung": [
+          {
+            "press": "한국경제",
+            "title": "하나둘 기술 빼가더니…삼전닉스 파랗게 질리게 한 '中반도체 회사'",
+            "news_id": "c20c32c829d48b71494db6eb95fd0151",
+            "published_at": "2026-07-31 06:00 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.35052,
+            "associated_companies": 2
+          }
+        ]
       },
       "previous_final": -1.59018
     },
@@ -671,9 +1064,9 @@
       "score": null,
       "components": {
         "news": {
-          "score": 0.44458,
-          "coverage": 0.875,
-          "observations": 3
+          "score": -1.00231,
+          "coverage": 0.8182,
+          "observations": 4
         },
         "market": {
           "score": null,
@@ -682,19 +1075,41 @@
           "observations": 0
         },
         "discussion": {
-          "score": 0.79877,
-          "coverage": 0.1878,
-          "observations": 362
+          "score": 1.34932,
+          "coverage": 0.204,
+          "observations": 495
         },
         "news_hankyung": {
-          "score": null,
+          "score": -1.34455,
           "coverage": 0.0,
           "observations": 0
         }
       },
-      "text_pulse": 0.68071,
+      "text_pulse": 0.56544,
       "news_articles": {
         "all": [
+          {
+            "press": "서울경제",
+            "title": "하이닉스 하락 맞췄던 BNK, 이번엔 삼전 목표가도 하향 [줍줍리포트]",
+            "news_id": "7f2f73badded07371673b1f973affe87",
+            "published_at": "2026-07-31 06:01 KST",
+            "company_names": [
+              "에프앤가이드"
+            ],
+            "sentiment_score": 0.33552,
+            "associated_companies": 1
+          },
+          {
+            "press": "뉴스1",
+            "title": "중동발 원가 상승 본격 반영…한전 재무 개선 '제동'",
+            "news_id": "766fd0fb55fe13ecaba8b5eb57d4ac15",
+            "published_at": "2026-07-31 06:00 KST",
+            "company_names": [
+              "삼미금속"
+            ],
+            "sentiment_score": 0.30051,
+            "associated_companies": 1
+          },
           {
             "press": "머니투데이",
             "title": "영수증 촬영 그만… 실손청구 간편해진다",
@@ -750,10 +1165,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 05:46 KST",
-      "latest_event": "2026-07-31 05:10 KST",
-      "observations": 117,
-      "active_minutes": 13
+      "latest_seen": "2026-07-31 06:03 KST",
+      "latest_event": "2026-07-31 06:02 KST",
+      "observations": 189,
+      "active_minutes": 16
     },
     "market": {
       "intraday": false,
@@ -763,10 +1178,10 @@
       "status_record_available": false
     },
     "discussion": {
-      "latest_seen": "2026-07-31 05:41 KST",
-      "latest_event": "2026-07-31 05:01 KST",
-      "observations": 2196,
-      "active_minutes": 32
+      "latest_seen": "2026-07-31 06:05 KST",
+      "latest_event": "2026-07-31 06:04 KST",
+      "observations": 2561,
+      "active_minutes": 36
     }
   },
   "event_date": "2026-07-31",
@@ -779,6 +1194,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 06:00 KST"
+    "attempted_at": "2026-07-31 06:06 KST"
   }
 }
