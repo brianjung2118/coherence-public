@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30 16:06 KST",
+  "as_of": "2026-07-30 16:11 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -10,12 +10,12 @@
         "change_pct": -1.23,
         "prev_close": 5663.24
       },
-      "score": -1.13579,
+      "score": -1.14135,
       "components": {
         "news": {
-          "score": 0.28739,
-          "coverage": 0.8534,
-          "observations": 2436
+          "score": 0.28617,
+          "coverage": 0.853,
+          "observations": 2445
         },
         "market": {
           "score": 0.10936,
@@ -24,19 +24,30 @@
           "observations": 915
         },
         "discussion": {
-          "score": -2.46995,
-          "coverage": 0.1312,
-          "observations": 48053
+          "score": -2.48046,
+          "coverage": 0.1313,
+          "observations": 48237
         },
         "news_hankyung": {
-          "score": 0.40032,
-          "coverage": 0.8162,
-          "observations": 78
+          "score": 0.4047,
+          "coverage": 0.8042,
+          "observations": 79
         }
       },
-      "text_pulse": -1.55084,
+      "text_pulse": -1.55825,
       "news_articles": {
         "all": [
+          {
+            "press": "한국경제",
+            "title": "바나나우유부터 연꽃 화장품까지…국제행사, 한국 브랜드 쇼케이스로",
+            "news_id": "f8783288ff4554b84efa6bb04fc76b92",
+            "published_at": "2026-07-30 16:06 KST",
+            "company_names": [
+              "빙그레"
+            ],
+            "sentiment_score": 0.64551,
+            "associated_companies": 1
+          },
           {
             "press": "국민일보",
             "title": "반등 없었다…‘연이틀 급락’ 코스피, 또 1%대 하락",
@@ -55,6 +66,17 @@
             ],
             "sentiment_score": 0.42857,
             "associated_companies": 9
+          },
+          {
+            "press": "서울경제",
+            "title": "SK이노베이션, 윤활유·배터리 앞세워 2분기 영업익 3조원 돌파",
+            "news_id": "288c695c285328c0a27ad35df31a1cad",
+            "published_at": "2026-07-30 16:02 KST",
+            "company_names": [
+              "SK이노베이션"
+            ],
+            "sentiment_score": 0.68551,
+            "associated_companies": 1
           },
           {
             "press": "전자신문",
@@ -128,6 +150,17 @@
             ],
             "sentiment_score": 0.52468,
             "associated_companies": 3
+          },
+          {
+            "press": "뉴시스",
+            "title": "SK이노베이션, 2Q 영업익 3.5조 '흑자 전환'…\"윤활유 사업이 견인\"",
+            "news_id": "b183e0e085dd19060689b87cefdabfd8",
+            "published_at": "2026-07-30 16:01 KST",
+            "company_names": [
+              "SK이노베이션"
+            ],
+            "sentiment_score": 0.58552,
+            "associated_companies": 1
           },
           {
             "press": "데일리안",
@@ -313,6 +346,17 @@
             "associated_companies": 1
           },
           {
+            "press": "파이낸셜뉴스",
+            "title": "케이뱅크, 상반기 순익 601억원 전년비 29%↓...\"비이자이익 감소 영향\"",
+            "news_id": "73f50ee59fd150bc13248099557a650e",
+            "published_at": "2026-07-30 15:58 KST",
+            "company_names": [
+              "케이뱅크"
+            ],
+            "sentiment_score": 0.51551,
+            "associated_companies": 1
+          },
+          {
             "press": "뉴스1",
             "title": "국민성장펀드, LG디스플레이 OLED 신기술 설비 1.3조 저리대출",
             "news_id": "18316fca5bf4cbbdcfb8f1113b33b328",
@@ -326,6 +370,17 @@
             "associated_companies": 3
           },
           {
+            "press": "디지털타임스",
+            "title": "대한전선, 2분기 영업익 608억…전년比 113%↑ ‘사상 최대’",
+            "news_id": "6e984a5f65d894ddf68574cf739c157d",
+            "published_at": "2026-07-30 15:57 KST",
+            "company_names": [
+              "대한전선"
+            ],
+            "sentiment_score": 0.68551,
+            "associated_companies": 1
+          },
+          {
             "press": "파이낸셜뉴스",
             "title": "홍지선 차관 \"모빌리티 혁신, 현장 제안을 실질적 성과로 연결\"",
             "news_id": "9725e83c629af82f25b578c03218448b",
@@ -336,6 +391,17 @@
             ],
             "sentiment_score": 0.68802,
             "associated_companies": 2
+          },
+          {
+            "press": "동행미디어 시대",
+            "title": "개인사업자 대출 확대에도…케이뱅크 상반기 순익 28.7% 감소",
+            "news_id": "cd7e6a8d5221a72229f522b08fa0d60a",
+            "published_at": "2026-07-30 15:57 KST",
+            "company_names": [
+              "케이뱅크"
+            ],
+            "sentiment_score": 0.36301,
+            "associated_companies": 1
           },
           {
             "press": "조세일보",
@@ -363,6 +429,17 @@
             "associated_companies": 1
           },
           {
+            "press": "뉴시스",
+            "title": "KB국민카드, '캐치! 티니핑' 담은 카드 2종 선봬",
+            "news_id": "4bbe521e11a3a28bbbe9debf5e5165f6",
+            "published_at": "2026-07-30 15:56 KST",
+            "company_names": [
+              "KB금융"
+            ],
+            "sentiment_score": 0.55302,
+            "associated_companies": 1
+          },
+          {
             "press": "디지털데일리",
             "title": "삼성SDI, 2분기 영업익 2038억원…7개 분기 적자 뚫고 '어닝 서프라이즈'",
             "news_id": "73bc4406129534191169b1493a0c9ee8",
@@ -382,6 +459,17 @@
               "셀트리온"
             ],
             "sentiment_score": 0.57551,
+            "associated_companies": 1
+          },
+          {
+            "press": "파이낸셜뉴스",
+            "title": "DL이앤씨, 상반기 영업익 1594억…전년比 53%↑",
+            "news_id": "598d886f07d61d45cc21fc4237f9c016",
+            "published_at": "2026-07-30 15:55 KST",
+            "company_names": [
+              "DL이앤씨"
+            ],
+            "sentiment_score": 0.67551,
             "associated_companies": 1
           },
           {
@@ -498,6 +586,17 @@
               "삼양식품"
             ],
             "sentiment_score": 0.57551,
+            "associated_companies": 1
+          },
+          {
+            "press": "뉴시스",
+            "title": "케이뱅크, 상반기 순이익 601억원…전년比 28.6%↓",
+            "news_id": "587b774429e931bc3e2efab32a2b6c33",
+            "published_at": "2026-07-30 15:53 KST",
+            "company_names": [
+              "케이뱅크"
+            ],
+            "sentiment_score": 0.48551,
             "associated_companies": 1
           },
           {
@@ -1130,113 +1229,20 @@
             ],
             "sentiment_score": 0.56802,
             "associated_companies": 1
-          },
-          {
-            "press": "아이뉴스24",
-            "title": "케이뱅크, 상반기 당기순익 601억원⋯전년 동기 대비 28.7%↓",
-            "news_id": "4fd2d96c8fc84bd92bfdce44f8bb0ff6",
-            "published_at": "2026-07-30 15:42 KST",
-            "company_names": [
-              "케이뱅크"
-            ],
-            "sentiment_score": 0.34302,
-            "associated_companies": 1
-          },
-          {
-            "press": "뉴스1",
-            "title": "\"시장금리 오르는데\"…케이뱅크, 기업예금 금리 최대 0.39% 인하",
-            "news_id": "679b25dab5da2cb021db03089390f753",
-            "published_at": "2026-07-30 15:42 KST",
-            "company_names": [
-              "케이뱅크"
-            ],
-            "sentiment_score": 0.49551,
-            "associated_companies": 1
-          },
-          {
-            "press": "블로터",
-            "title": "삼성SDS, '직접투자·지분투자·DBO'로 AIDC 사업 다각화",
-            "news_id": "8d6ef642d2cb5c66493c8d2645abb821",
-            "published_at": "2026-07-30 15:42 KST",
-            "company_names": [
-              "삼성에스디에스"
-            ],
-            "sentiment_score": 0.67551,
-            "associated_companies": 1
-          },
-          {
-            "press": "데일리안",
-            "title": "롯데이노베이트, 2분기 영업익 124억원…전년비 54.3%↑",
-            "news_id": "bb6cf0e0647245dd0295edc1d442f4a8",
-            "published_at": "2026-07-30 15:42 KST",
-            "company_names": [
-              "롯데이노베이트"
-            ],
-            "sentiment_score": 0.69551,
-            "associated_companies": 1
-          },
-          {
-            "press": "연합뉴스",
-            "title": "대신증권, 해외주식 잔고화면에 환차손익·매입환율 표시",
-            "news_id": "dff41685ca55fc5aaed26329dfa3b647",
-            "published_at": "2026-07-30 15:42 KST",
-            "company_names": [
-              "대신증권"
-            ],
-            "sentiment_score": 0.54802,
-            "associated_companies": 1
-          },
-          {
-            "press": "머니투데이",
-            "title": "韓 증시 변동성에 놀란 영국?...BOE, 런던 IB '亞 AI 주식 쏠림' 점검",
-            "news_id": "f5818f8dc06e79c4bbec9875bdf2b927",
-            "published_at": "2026-07-30 15:42 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.27739,
-            "associated_companies": 2
-          },
-          {
-            "press": "YTN",
-            "title": "LG전자 2분기 최대 실적...매출 23.8조·영업익 1.6조",
-            "news_id": "319c4111c139716f30cee073ea9f8312",
-            "published_at": "2026-07-30 15:41 KST",
-            "company_names": [
-              "LG전자"
-            ],
-            "sentiment_score": 0.67051,
-            "associated_companies": 1
-          },
-          {
-            "press": "디지털타임스",
-            "title": "[속보] “단일 레버리지 자연사 시켜야”…‘ETF 아버지’ 거듭 경고",
-            "news_id": "867e81d2229f4046d75df89be8056b87",
-            "published_at": "2026-07-30 15:41 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.29364,
-            "associated_companies": 2
-          },
-          {
-            "press": "연합뉴스",
-            "title": "[특징주] 방산주, 중동 긴장 재격화에 강세(종합)",
-            "news_id": "f9f97eaa993406f2610e3af24924626e",
-            "published_at": "2026-07-30 15:41 KST",
-            "company_names": [
-              "LIG디펜스앤에어로스페이스",
-              "SNT다이내믹스",
-              "한국항공우주",
-              "한화에어로스페이스"
-            ],
-            "sentiment_score": 0.58239,
-            "associated_companies": 4
           }
         ],
         "hankyung": [
+          {
+            "press": "한국경제",
+            "title": "바나나우유부터 연꽃 화장품까지…국제행사, 한국 브랜드 쇼케이스로",
+            "news_id": "f8783288ff4554b84efa6bb04fc76b92",
+            "published_at": "2026-07-30 16:06 KST",
+            "company_names": [
+              "빙그레"
+            ],
+            "sentiment_score": 0.64551,
+            "associated_companies": 1
+          },
           {
             "press": "한국경제",
             "title": "삼성 '19조 투자' 끌어낸 구미…휴머노이드 로봇 혁신 이끈다",
@@ -2099,12 +2105,12 @@
         "change_pct": -2.7,
         "prev_close": 662.68
       },
-      "score": -0.89195,
+      "score": -0.89138,
       "components": {
         "news": {
-          "score": 0.1677,
-          "coverage": 0.7058,
-          "observations": 322
+          "score": 0.17689,
+          "coverage": 0.7065,
+          "observations": 324
         },
         "market": {
           "score": -0.62339,
@@ -2113,19 +2119,30 @@
           "observations": 1802
         },
         "discussion": {
-          "score": -1.55605,
+          "score": -1.5595,
           "coverage": 0.1106,
-          "observations": 18023
+          "observations": 18101
         },
         "news_hankyung": {
-          "score": 0.18533,
-          "coverage": 0.6304,
-          "observations": 20
+          "score": 0.31335,
+          "coverage": 0.6383,
+          "observations": 21
         }
       },
-      "text_pulse": -0.98147,
+      "text_pulse": -0.98071,
       "news_articles": {
         "all": [
+          {
+            "press": "한국경제",
+            "title": "60조 전기 선박, 소형 전기차 시장 경북이 선점한다",
+            "news_id": "019a0b8f0d63f6c85d81c7bbda9214ef",
+            "published_at": "2026-07-30 16:07 KST",
+            "company_names": [
+              "스피어"
+            ],
+            "sentiment_score": 0.68051,
+            "associated_companies": 1
+          },
           {
             "press": "전자신문",
             "title": "제이브이엠, 2분기 매출 493억원 역대 최대…수출 비중 내수 첫 추월",
@@ -2224,6 +2241,17 @@
               "테크윙"
             ],
             "sentiment_score": 0.69551,
+            "associated_companies": 1
+          },
+          {
+            "press": "뉴시스",
+            "title": "KB국민카드, '캐치! 티니핑' 담은 카드 2종 선봬",
+            "news_id": "4bbe521e11a3a28bbbe9debf5e5165f6",
+            "published_at": "2026-07-30 15:56 KST",
+            "company_names": [
+              "SAMG엔터"
+            ],
+            "sentiment_score": 0.54302,
             "associated_companies": 1
           },
           {
@@ -3233,31 +3261,20 @@
             ],
             "sentiment_score": 0.55551,
             "associated_companies": 2
-          },
-          {
-            "press": "더팩트",
-            "title": "한미사이언스 계열사 제이브이엠, 2분기 영업익 135억, 24% 증가",
-            "news_id": "683155936b94c4c0ef07d1598cde2bed",
-            "published_at": "2026-07-30 14:11 KST",
-            "company_names": [
-              "제이브이엠"
-            ],
-            "sentiment_score": 0.68551,
-            "associated_companies": 1
-          },
-          {
-            "press": "이코노미스트",
-            "title": "파두, 'FMS 2026' 기조연설…차세대 Gen6 SSD 실물 최초 공개",
-            "news_id": "8a83f3c23c799e579ef5f3e870861a69",
-            "published_at": "2026-07-30 14:11 KST",
-            "company_names": [
-              "파두"
-            ],
-            "sentiment_score": 0.63052,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
+          {
+            "press": "한국경제",
+            "title": "60조 전기 선박, 소형 전기차 시장 경북이 선점한다",
+            "news_id": "019a0b8f0d63f6c85d81c7bbda9214ef",
+            "published_at": "2026-07-30 16:07 KST",
+            "company_names": [
+              "스피어"
+            ],
+            "sentiment_score": 0.68051,
+            "associated_companies": 1
+          },
           {
             "press": "한국경제",
             "title": "'제조 AX' 올라탄 포항…철강·소재 데이터로 최적 공정 찾는다",
@@ -3501,10 +3518,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-30 16:06 KST",
-      "latest_event": "2026-07-30 16:04 KST",
-      "observations": 3545,
-      "active_minutes": 298
+      "latest_seen": "2026-07-30 16:11 KST",
+      "latest_event": "2026-07-30 16:07 KST",
+      "observations": 3547,
+      "active_minutes": 301
     },
     "market": {
       "intraday": true,
@@ -3514,10 +3531,10 @@
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-30 16:06 KST",
-      "latest_event": "2026-07-30 16:04 KST",
-      "observations": 66845,
-      "active_minutes": 329
+      "latest_seen": "2026-07-30 16:11 KST",
+      "latest_event": "2026-07-30 16:05 KST",
+      "observations": 67107,
+      "active_minutes": 334
     }
   },
   "event_date": "2026-07-30",
@@ -3530,6 +3547,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-30 16:06 KST"
+    "attempted_at": "2026-07-30 16:11 KST"
   }
 }
