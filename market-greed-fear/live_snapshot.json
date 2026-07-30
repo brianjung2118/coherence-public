@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-31 08:10 KST",
+  "as_of": "2026-07-31 08:16 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -13,9 +13,9 @@
       "score": null,
       "components": {
         "news": {
-          "score": -1.17695,
-          "coverage": 0.7855,
-          "observations": 189
+          "score": -1.03331,
+          "coverage": 0.7877,
+          "observations": 202
         },
         "market": {
           "score": null,
@@ -24,9 +24,9 @@
           "observations": 0
         },
         "discussion": {
-          "score": 4.22516,
-          "coverage": 0.2102,
-          "observations": 4453
+          "score": 4.15018,
+          "coverage": 0.2097,
+          "observations": 4526
         },
         "news_hankyung": {
           "score": -0.87572,
@@ -34,12 +34,45 @@
           "observations": 7
         }
       },
-      "text_pulse": 2.42445,
+      "text_pulse": 2.42235,
       "news_articles": {
         "all": [
           {
+            "press": "이데일리",
+            "title": "셀트리온, 이탈리아 신규 제품 직판 본격화…옴리클로 처방 확대",
+            "news_id": "307f8d6b9aa948e9aa68eb682622860a",
+            "published_at": "2026-07-31 08:11 KST",
+            "company_names": [
+              "셀트리온"
+            ],
+            "sentiment_score": 0.67551,
+            "associated_companies": 1
+          },
+          {
+            "press": "아시아경제",
+            "title": "[단독]중복상장 막았더니…코스피 기업공개 25년만에 최저",
+            "news_id": "5f2427ecc36b9e4a4f87ce7d5297a055",
+            "published_at": "2026-07-31 08:10 KST",
+            "company_names": [
+              "케이뱅크"
+            ],
+            "sentiment_score": 0.38051,
+            "associated_companies": 1
+          },
+          {
+            "press": "뉴스1",
+            "title": "전 직원이 무려 17일간 여름휴가 떠난다…'꿈의 직장' 어디",
+            "news_id": "8a8820bcd4414632a5077195306e809a",
+            "published_at": "2026-07-31 08:10 KST",
+            "company_names": [
+              "HD현대"
+            ],
+            "sentiment_score": 0.48801,
+            "associated_companies": 1
+          },
+          {
             "press": "한국경제",
-            "title": "오늘부터 3000만원 있어야 단일 레버리지 산다…보완책 효과 있을까",
+            "title": "오늘부터 '3000만원' 있어야 단일 레버리지 산다…효과 있을까",
             "news_id": "ce241d857984232aca551e4136dd3359",
             "published_at": "2026-07-31 08:08 KST",
             "company_names": [
@@ -49,6 +82,97 @@
             ],
             "sentiment_score": 0.56551,
             "associated_companies": 3
+          },
+          {
+            "press": "지디넷코리아",
+            "title": "적자 터널 빠져나온 삼성SDI, 2분기 영업익 2038억원",
+            "news_id": "37b97c2a04248b9165bb5c39d2b618de",
+            "published_at": "2026-07-31 08:08 KST",
+            "company_names": [
+              "삼성SDI"
+            ],
+            "sentiment_score": 0.67551,
+            "associated_companies": 1
+          },
+          {
+            "press": "헤럴드경제",
+            "title": "韓-칠레 기업인, 핵심광물·디지털·친환경에너지 등 고도화 논의",
+            "news_id": "6f18271d6f186febdf2f775ad2d91863",
+            "published_at": "2026-07-31 08:08 KST",
+            "company_names": [
+              "LG전자",
+              "LS",
+              "NAVER",
+              "OCI홀딩스",
+              "POSCO홀딩스",
+              "SK바이오팜",
+              "한화오션",
+              "현대차"
+            ],
+            "sentiment_score": 0.57176,
+            "associated_companies": 8
+          },
+          {
+            "press": "연합뉴스",
+            "title": "한-칠레 기업인들 \"최초의 파트너 넘어 미래협력 파트너 되자\"",
+            "news_id": "82a3edf1b86fcadcd7def0a2719c2ef1",
+            "published_at": "2026-07-31 08:08 KST",
+            "company_names": [
+              "LG전자",
+              "LS",
+              "NAVER",
+              "OCI홀딩스",
+              "SK바이오팜",
+              "한화오션",
+              "현대차"
+            ],
+            "sentiment_score": 0.6423,
+            "associated_companies": 7
+          },
+          {
+            "press": "서울경제",
+            "title": "[속보]프리마켓서 삼성전자 15%·SK하닉 17% 급등",
+            "news_id": "d204df8e71692c3e609eea50160628a9",
+            "published_at": "2026-07-31 08:08 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.61302,
+            "associated_companies": 2
+          },
+          {
+            "press": "뉴스1",
+            "title": "[속보] \"반도체株 달린다\"…프리마켓서 SK하닉 17%·삼전 13%대 급등",
+            "news_id": "1ed8c5f01f16a179c3a4b8a5b3a33b50",
+            "published_at": "2026-07-31 08:06 KST",
+            "company_names": [
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.57302,
+            "associated_companies": 1
+          },
+          {
+            "press": "이데일리",
+            "title": "[속보]SK하이닉스, 31일 프리장서 15%대 급등",
+            "news_id": "69bcf519b9fd3a6d5dca01f47a4851e0",
+            "published_at": "2026-07-31 08:06 KST",
+            "company_names": [
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.56802,
+            "associated_companies": 1
+          },
+          {
+            "press": "뉴시스",
+            "title": "[속보]프리마켓서 삼전 15%·SK하닉 17% 급등",
+            "news_id": "7ac6a02b337de3ef77ebe2227fc1d3cc",
+            "published_at": "2026-07-31 08:02 KST",
+            "company_names": [
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.53551,
+            "associated_companies": 1
           },
           {
             "press": "이데일리",
@@ -188,6 +312,24 @@
             "associated_companies": 2
           },
           {
+            "press": "EBN",
+            "title": "반도체·조선이 사람 불렀다…고용 늘어난 산업도시, 분양시장도 '들썩'",
+            "news_id": "f2c670c13d2420437c96f83ecfa458e6",
+            "published_at": "2026-07-31 07:51 KST",
+            "company_names": [
+              "LG화학",
+              "SK하이닉스",
+              "두산에너빌리티",
+              "삼성전자",
+              "한화에어로스페이스",
+              "한화오션",
+              "현대로템",
+              "현대차"
+            ],
+            "sentiment_score": 0.62083,
+            "associated_companies": 8
+          },
+          {
             "press": "데일리안",
             "title": "사전공시 없이 살 수 있는 '최대치'…최태원, 폭락장서 SK하이닉스에 48억 베팅",
             "news_id": "2fb9488f5032fc87bac339ba7c813750",
@@ -255,6 +397,18 @@
             ],
             "sentiment_score": 0.55802,
             "associated_companies": 1
+          },
+          {
+            "press": "EBN",
+            "title": "상반기 정비사업 휩쓴 '톱5'…하반기엔 청약시장서 다시 맞붙는다",
+            "news_id": "f518d4b4f18c8624de58a2c0e834f8f0",
+            "published_at": "2026-07-31 07:45 KST",
+            "company_names": [
+              "GS건설",
+              "삼성물산"
+            ],
+            "sentiment_score": 0.65051,
+            "associated_companies": 2
           },
           {
             "press": "문화일보",
@@ -1072,153 +1226,12 @@
             ],
             "sentiment_score": 0.67551,
             "associated_companies": 1
-          },
-          {
-            "press": "뉴시스",
-            "title": "SKT 'T끼리 온가족할인' 상품 막 내린다…내일부터 신규 판매 중단",
-            "news_id": "68aeea2c284b98152df9a86755f7fa5e",
-            "published_at": "2026-07-31 06:00 KST",
-            "company_names": [
-              "SK텔레콤"
-            ],
-            "sentiment_score": 0.48052,
-            "associated_companies": 1
-          },
-          {
-            "press": "동행미디어 시대",
-            "title": "[시대인터뷰]\"과학이 곧 국방…신무기 개발·운용할 10만 기술병 키우자\"",
-            "news_id": "737caed163ce5ca27a4d08adae807acd",
-            "published_at": "2026-07-31 06:00 KST",
-            "company_names": [
-              "삼성전자"
-            ],
-            "sentiment_score": 0.52802,
-            "associated_companies": 1
-          },
-          {
-            "press": "뉴스1",
-            "title": "중동발 원가 상승 본격 반영…한전 재무 개선 '제동'",
-            "news_id": "766fd0fb55fe13ecaba8b5eb57d4ac15",
-            "published_at": "2026-07-31 06:00 KST",
-            "company_names": [
-              "한국전력",
-              "한화투자증권"
-            ],
-            "sentiment_score": 0.27364,
-            "associated_companies": 2
-          },
-          {
-            "press": "뉴스1",
-            "title": "단일종목 레버리지 어떻게 달라지나…오늘부터 '현금 3000만원' 있어야 매수",
-            "news_id": "79f754a7679790a541b876187b51ffeb",
-            "published_at": "2026-07-31 06:00 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.52426,
-            "associated_companies": 2
-          },
-          {
-            "press": "뉴시스",
-            "title": "'역대급 실적'에도 삼성전자보다 더 떨어진 SK하이닉스…무슨 차이?",
-            "news_id": "9536e166e63fa861e67bb0e1ab61a14e",
-            "published_at": "2026-07-31 06:00 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.37301,
-            "associated_companies": 2
-          },
-          {
-            "press": "KBS",
-            "title": "오늘부터 삼전닉스 레버리지 규제 강화…“현금 3천만 원 있어야”",
-            "news_id": "c794d08cb93e4cd556b58b9ae876b2c8",
-            "published_at": "2026-07-31 06:00 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.37926,
-            "associated_companies": 2
-          },
-          {
-            "press": "경향신문",
-            "title": "인천공항 면세점 쇼핑앱 ‘에어스타’ 활성화 지원···과도한 마케팅 논란",
-            "news_id": "cc55423522daf4a0d45c43e2ffc050db",
-            "published_at": "2026-07-31 06:00 KST",
-            "company_names": [
-              "신세계"
-            ],
-            "sentiment_score": 0.36551,
-            "associated_companies": 1
-          },
-          {
-            "press": "뉴시스",
-            "title": "현대·GS '7조 클럽' 양강…삼성은 강남권에 '래미안 벨트'",
-            "news_id": "cfa32fa87373f6c4978418d04e67518a",
-            "published_at": "2026-07-31 06:00 KST",
-            "company_names": [
-              "GS",
-              "GS건설",
-              "삼성물산",
-              "현대건설"
-            ],
-            "sentiment_score": 0.65051,
-            "associated_companies": 4
-          },
-          {
-            "press": "연합뉴스",
-            "title": "[반려동물] 병원비 걱정에 '어릴 때부터'…펫보험 경쟁 불붙었다",
-            "news_id": "f3d4b8ce784097b097e560d65f9b4a99",
-            "published_at": "2026-07-31 06:00 KST",
-            "company_names": [
-              "카카오페이"
-            ],
-            "sentiment_score": 0.61301,
-            "associated_companies": 1
-          },
-          {
-            "press": "EBN",
-            "title": "SKT·KT 이어 LGU+도 '조 단위 투자'…AIDC 패권 경쟁 격화",
-            "news_id": "f593b710f1bab3a37e8b4c951a56274a",
-            "published_at": "2026-07-31 06:00 KST",
-            "company_names": [
-              "SK텔레콤"
-            ],
-            "sentiment_score": 0.54302,
-            "associated_companies": 1
-          },
-          {
-            "press": "파이낸셜뉴스",
-            "title": "한화시스템, K2·M-SAM 수출로 이익 체력 확인…하반기 개발비 부담-신한證",
-            "news_id": "4a7b0f42d212021352a14fb9cb4a9507",
-            "published_at": "2026-07-31 05:59 KST",
-            "company_names": [
-              "신한지주",
-              "한화생명",
-              "한화시스템"
-            ],
-            "sentiment_score": 0.68385,
-            "associated_companies": 3
-          },
-          {
-            "press": "연합뉴스",
-            "title": "뉴욕증시, 반도체주 반등에 강세 마감…하이닉스ADR 18%↑(종합)",
-            "news_id": "e32c7463a1f39019f96a30b645639a7a",
-            "published_at": "2026-07-31 05:58 KST",
-            "company_names": [
-              "SK하이닉스"
-            ],
-            "sentiment_score": 0.58552,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
           {
             "press": "한국경제",
-            "title": "오늘부터 3000만원 있어야 단일 레버리지 산다…보완책 효과 있을까",
+            "title": "오늘부터 '3000만원' 있어야 단일 레버리지 산다…효과 있을까",
             "news_id": "ce241d857984232aca551e4136dd3359",
             "published_at": "2026-07-31 08:08 KST",
             "company_names": [
@@ -1333,9 +1346,9 @@
       "score": null,
       "components": {
         "news": {
-          "score": -1.04903,
-          "coverage": 0.7429,
-          "observations": 18
+          "score": -0.90667,
+          "coverage": 0.7436,
+          "observations": 21
         },
         "market": {
           "score": null,
@@ -1349,14 +1362,47 @@
           "observations": 1178
         },
         "news_hankyung": {
-          "score": -1.34455,
-          "coverage": 0.3333,
-          "observations": 1
+          "score": -2.65255,
+          "coverage": 0.5,
+          "observations": 2
         }
       },
-      "text_pulse": 1.19154,
+      "text_pulse": 1.23899,
       "news_articles": {
         "all": [
+          {
+            "press": "한국경제",
+            "title": "가짜 흑자 믿고 샀다가 '반토막'…대법, 차바이오텍 허위공시 배상 확정",
+            "news_id": "fc744fe49673c1ce8da3ac58ba231adc",
+            "published_at": "2026-07-31 08:12 KST",
+            "company_names": [
+              "차바이오텍"
+            ],
+            "sentiment_score": 0.28676,
+            "associated_companies": 1
+          },
+          {
+            "press": "머니투데이",
+            "title": "이스트시큐리티, AWS '셀렉트 티어' 획득…클라우드·AI 보안 사업 확대",
+            "news_id": "ca008cdef9b58674db87164a670fa338",
+            "published_at": "2026-07-31 08:07 KST",
+            "company_names": [
+              "이스트소프트"
+            ],
+            "sentiment_score": 0.66551,
+            "associated_companies": 1
+          },
+          {
+            "press": "아시아경제",
+            "title": "[비즈리더]전춘섭 예선테크 대표 \"흑자 기업으로 완전 탈바꿈…기업가치 재평가 받을 시간\"",
+            "news_id": "d29ae40e9c30e27bb10ad196c456282b",
+            "published_at": "2026-07-31 08:05 KST",
+            "company_names": [
+              "예선테크"
+            ],
+            "sentiment_score": 0.66051,
+            "associated_companies": 1
+          },
           {
             "press": "데일리안",
             "title": "SK디앤디, 1367억 유상증자 승부수…악재만은 아니다",
@@ -1597,6 +1643,17 @@
         "hankyung": [
           {
             "press": "한국경제",
+            "title": "가짜 흑자 믿고 샀다가 '반토막'…대법, 차바이오텍 허위공시 배상 확정",
+            "news_id": "fc744fe49673c1ce8da3ac58ba231adc",
+            "published_at": "2026-07-31 08:12 KST",
+            "company_names": [
+              "차바이오텍"
+            ],
+            "sentiment_score": 0.28676,
+            "associated_companies": 1
+          },
+          {
+            "press": "한국경제",
             "title": "주가 반토막 났는데…\"지금이 매수 기회\" 외친 이 종목 [종목+]",
             "news_id": "6355f0dbe837032d334e436a4c3cd5e4",
             "published_at": "2026-07-31 06:30 KST",
@@ -1613,9 +1670,9 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 08:10 KST",
-      "latest_event": "2026-07-31 08:08 KST",
-      "observations": 372,
+      "latest_seen": "2026-07-31 08:15 KST",
+      "latest_event": "2026-07-31 08:12 KST",
+      "observations": 395,
       "active_minutes": 48
     },
     "market": {
@@ -1626,10 +1683,10 @@
       "status_record_available": false
     },
     "discussion": {
-      "latest_seen": "2026-07-31 08:09 KST",
-      "latest_event": "2026-07-31 08:08 KST",
-      "observations": 5662,
-      "active_minutes": 69
+      "latest_seen": "2026-07-31 08:16 KST",
+      "latest_event": "2026-07-31 08:11 KST",
+      "observations": 5735,
+      "active_minutes": 74
     }
   },
   "event_date": "2026-07-31",
@@ -1642,6 +1699,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 08:10 KST"
+    "attempted_at": "2026-07-31 08:16 KST"
   }
 }
