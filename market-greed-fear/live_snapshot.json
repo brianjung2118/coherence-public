@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30 12:41 KST",
+  "as_of": "2026-07-30 12:52 KST",
   "event_date": "2026-07-30",
   "market_session": {
     "status": "trading",
@@ -8,15 +8,15 @@
   },
   "boards": {
     "KOSPI": {
-      "score": -1.06368,
-      "text_pulse": -1.55973,
+      "score": -1.01747,
+      "text_pulse": -1.56217,
       "previous_final": -3.0681,
       "index": {
-        "price": 5666.8,
+        "price": 5691.69,
         "prev_close": 5663.24,
-        "change": 3.56,
-        "change_pct": 0.06,
-        "as_of": "2026-07-30 12:41 KST",
+        "change": 28.45,
+        "change_pct": 0.5,
+        "as_of": "2026-07-30 12:52 KST",
         "live": true
       },
       "components": {
@@ -26,9 +26,9 @@
           "coverage": 0.1386
         },
         "news": {
-          "score": 0.00794,
-          "observations": 1644,
-          "coverage": 0.8415
+          "score": 0.00063,
+          "observations": 1652,
+          "coverage": 0.8391
         },
         "news_hankyung": {
           "score": -0.60011,
@@ -36,7 +36,7 @@
           "coverage": 0.8108
         },
         "market": {
-          "score": 0.42446,
+          "score": 0.61662,
           "confidence": 1.0,
           "observations": 915,
           "coverage": 1.0
@@ -44,6 +44,63 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "ee44917c8511475d43d0ad4d2418b830",
+            "published_at": "2026-07-30 12:46 KST",
+            "press": "서울경제",
+            "title": "조현범 한국앤컴퍼니 회장, 오늘 가석방...렌터카 사업 M&A 직접 챙길 듯",
+            "sentiment_score": 0.27426,
+            "associated_companies": 1,
+            "company_names": [
+              "한국앤컴퍼니"
+            ]
+          },
+          {
+            "news_id": "e74452886c619d8034076ef58ccf905b",
+            "published_at": "2026-07-30 12:38 KST",
+            "press": "뉴시스",
+            "title": "10대 건설사 1천가구 이상 대단지 출격…성남·수원 등 연내 13곳",
+            "sentiment_score": 0.55302,
+            "associated_companies": 1,
+            "company_names": [
+              "DL이앤씨"
+            ]
+          },
+          {
+            "news_id": "6202f6b87a58527a269e26627867b665",
+            "published_at": "2026-07-30 12:33 KST",
+            "press": "연합뉴스",
+            "title": "한섬, '나이키스킴스' 2026 여름 두 번째 에디션 선봬",
+            "sentiment_score": 0.56052,
+            "associated_companies": 2,
+            "company_names": [
+              "한섬",
+              "현대백화점"
+            ]
+          },
+          {
+            "news_id": "a45c97ca9e23857c5c57754d0e96fe1a",
+            "published_at": "2026-07-30 12:33 KST",
+            "press": "노컷뉴스",
+            "title": "중국 저가 공세·고관세 장벽…정의선이 던진 해법은?",
+            "sentiment_score": 0.58052,
+            "associated_companies": 1,
+            "company_names": [
+              "현대차"
+            ]
+          },
+          {
+            "news_id": "945aee2d672be1cdae4b43ac4cf4ef97",
+            "published_at": "2026-07-30 12:32 KST",
+            "press": "연합뉴스",
+            "title": "한섬, '나이키스킴스' 2026 여름 두 번째 에디션 선봬",
+            "sentiment_score": 0.56052,
+            "associated_companies": 2,
+            "company_names": [
+              "한섬",
+              "현대백화점"
+            ]
+          },
           {
             "news_id": "2d0656c8a6bf1e56fcc60cc9c186b7aa",
             "published_at": "2026-07-30 12:31 KST",
@@ -113,6 +170,18 @@
             ]
           },
           {
+            "news_id": "1617b95b1aff56e95a67308dc34b9217",
+            "published_at": "2026-07-30 12:22 KST",
+            "press": "EBN",
+            "title": "카카오페이손보 펫보험, 출시 4개월 만에 계약 1만 건 돌파",
+            "sentiment_score": 0.61302,
+            "associated_companies": 2,
+            "company_names": [
+              "카카오",
+              "카카오페이"
+            ]
+          },
+          {
             "news_id": "a13d81443745757a810a1769ec6acc9d",
             "published_at": "2026-07-30 12:22 KST",
             "press": "KBS",
@@ -156,6 +225,28 @@
             "associated_companies": 1,
             "company_names": [
               "KT"
+            ]
+          },
+          {
+            "news_id": "5651ac2821a88831881a5c5990aead4e",
+            "published_at": "2026-07-30 12:16 KST",
+            "press": "EBN",
+            "title": "대한조선, 2분기 영업익 952억원...전년 대비 52.3%↑",
+            "sentiment_score": 0.69051,
+            "associated_companies": 1,
+            "company_names": [
+              "대한조선"
+            ]
+          },
+          {
+            "news_id": "989e0d879114bc8bd77e511f7bdac86e",
+            "published_at": "2026-07-30 12:15 KST",
+            "press": "EBN",
+            "title": "GS건설, 건축·주택 부진…목동 수주전 향방 가를 '윤슬자이'",
+            "sentiment_score": 0.40302,
+            "associated_companies": 1,
+            "company_names": [
+              "GS건설"
             ]
           },
           {
@@ -1149,95 +1240,6 @@
             "company_names": [
               "삼성전자"
             ]
-          },
-          {
-            "news_id": "8fd4273a3b4acf0f727fdd3c7236bbc0",
-            "published_at": "2026-07-30 11:44 KST",
-            "press": "아시아경제",
-            "title": "세아베스틸지주, 2분기 영업익 605억원…전년비 35%↑",
-            "sentiment_score": 0.70051,
-            "associated_companies": 1,
-            "company_names": [
-              "세아베스틸지주"
-            ]
-          },
-          {
-            "news_id": "faf9ec76aea9958cfd77f5ff80eb8760",
-            "published_at": "2026-07-30 11:44 KST",
-            "press": "문화일보",
-            "title": "롯데웰푸드, 의성 농특산물 판로 확대 업무협약",
-            "sentiment_score": 0.56802,
-            "associated_companies": 1,
-            "company_names": [
-              "롯데웰푸드"
-            ]
-          },
-          {
-            "news_id": "458f58c9508a2d5c81b59039fd8d7290",
-            "published_at": "2026-07-30 11:43 KST",
-            "press": "뉴스1",
-            "title": "LG엔솔, ESS 힘입어 흑전…\"연매출 20% 가이던스 달성할 것\"(종합2)",
-            "sentiment_score": 0.68551,
-            "associated_companies": 1,
-            "company_names": [
-              "LG에너지솔루션"
-            ]
-          },
-          {
-            "news_id": "5863df108747fe53a0aeb9656dd99757",
-            "published_at": "2026-07-30 11:43 KST",
-            "press": "머니투데이",
-            "title": "동국제강그룹, 미래건축인재 육성 '럭스틸리에' 임명",
-            "sentiment_score": 0.55302,
-            "associated_companies": 1,
-            "company_names": [
-              "동국홀딩스"
-            ]
-          },
-          {
-            "news_id": "9ee1dea5b37b5936ce0d2c86609a8e19",
-            "published_at": "2026-07-30 11:43 KST",
-            "press": "문화일보",
-            "title": "하이닉스 단 1주 이상거래에… 가상자산시장서 830억원 강제청산 사태",
-            "sentiment_score": 0.22301,
-            "associated_companies": 1,
-            "company_names": [
-              "SK하이닉스"
-            ]
-          },
-          {
-            "news_id": "a972a931f6305a13a1da18a4a4cbf028",
-            "published_at": "2026-07-30 11:43 KST",
-            "press": "연합뉴스",
-            "title": "하이닉스 1주 하한가에 가상자산 파생상품 800억대 청산 쓰나미",
-            "sentiment_score": 0.21614,
-            "associated_companies": 2,
-            "company_names": [
-              "SK하이닉스",
-              "신한지주"
-            ]
-          },
-          {
-            "news_id": "ada04176c1e15c3ed72c778ebca74078",
-            "published_at": "2026-07-30 11:43 KST",
-            "press": "연합뉴스",
-            "title": "SKT, 에어 요금제 혜택 강화…통신비 부담 낮춘다",
-            "sentiment_score": 0.59552,
-            "associated_companies": 1,
-            "company_names": [
-              "SK텔레콤"
-            ]
-          },
-          {
-            "news_id": "b9fda336135cd8391d1100baf57f6acc",
-            "published_at": "2026-07-30 11:43 KST",
-            "press": "헤럴드경제",
-            "title": "남동발전 사장에 최구식 전 의원 유력 [H-EXCLUSIVE]",
-            "sentiment_score": 0.53051,
-            "associated_companies": 1,
-            "company_names": [
-              "한국전력"
-            ]
           }
         ],
         "hankyung": [
@@ -1763,15 +1765,15 @@
       }
     },
     "KOSDAQ": {
-      "score": -0.56953,
-      "text_pulse": -0.66596,
+      "score": -0.5114,
+      "text_pulse": -0.66927,
       "previous_final": -1.81191,
       "index": {
-        "price": 651.2,
+        "price": 654.51,
         "prev_close": 662.68,
-        "change": -11.48,
-        "change_pct": -1.73,
-        "as_of": "2026-07-30 12:41 KST",
+        "change": -8.17,
+        "change_pct": -1.23,
+        "as_of": "2026-07-30 12:52 KST",
         "live": true
       },
       "components": {
@@ -1781,9 +1783,9 @@
           "coverage": 0.1126
         },
         "news": {
-          "score": 0.40551,
+          "score": 0.39559,
           "observations": 220,
-          "coverage": 0.6961
+          "coverage": 0.6949
         },
         "news_hankyung": {
           "score": -0.46698,
@@ -1791,7 +1793,7 @@
           "coverage": 0.7273
         },
         "market": {
-          "score": -0.28023,
+          "score": -0.03781,
           "confidence": 1.0,
           "observations": 1802,
           "coverage": 1.0
@@ -3074,14 +3076,14 @@
       "observations": 43837
     },
     "news": {
-      "latest_event": "2026-07-30 12:31 KST",
-      "latest_seen": "2026-07-30 12:41 KST",
-      "active_minutes": 196,
-      "observations": 2333
+      "latest_event": "2026-07-30 12:46 KST",
+      "latest_seen": "2026-07-30 12:52 KST",
+      "active_minutes": 200,
+      "observations": 2353
     },
     "market": {
       "latest_event": "2026-07-30",
-      "latest_seen": "2026-07-30 12:41 KST",
+      "latest_seen": "2026-07-30 12:52 KST",
       "active_minutes": null,
       "intraday": true,
       "status_record_available": true
