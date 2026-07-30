@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30 19:42 KST",
+  "as_of": "2026-07-30 19:47 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -10,12 +10,12 @@
         "change_pct": -1.23,
         "prev_close": 5663.24
       },
-      "score": -1.2599,
+      "score": -1.25998,
       "components": {
         "news": {
-          "score": 0.15238,
+          "score": 0.15205,
           "coverage": 0.842,
-          "observations": 3066
+          "observations": 3071
         },
         "market": {
           "score": 0.10936,
@@ -29,14 +29,72 @@
           "observations": 57898
         },
         "news_hankyung": {
-          "score": -0.3703,
-          "coverage": 0.8133,
-          "observations": 127
+          "score": -0.35822,
+          "coverage": 0.8146,
+          "observations": 128
         }
       },
-      "text_pulse": -1.71632,
+      "text_pulse": -1.71643,
       "news_articles": {
         "all": [
+          {
+            "press": "한국경제",
+            "title": "최태원 SK하이닉스 주식 장내매수…48억원 산 이유는?",
+            "news_id": "c7628c82ebcdec39662810a382f93361",
+            "published_at": "2026-07-30 19:45 KST",
+            "company_names": [
+              "SK스퀘어",
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.50552,
+            "associated_companies": 2
+          },
+          {
+            "press": "데일리안",
+            "title": "조현범 한국앤컴퍼니 회장, 가석방 출소…경영 복귀 시점은 미정",
+            "news_id": "4644dcb6af7a1f7ee67e6a07023eb69a",
+            "published_at": "2026-07-30 19:39 KST",
+            "company_names": [
+              "한국앤컴퍼니",
+              "한온시스템"
+            ],
+            "sentiment_score": 0.30176,
+            "associated_companies": 2
+          },
+          {
+            "press": "헤럴드경제",
+            "title": "“메모리는 계속 우상향” 최태원, SK하이닉스 48억 규모 장내매수…“책임경영 차원”",
+            "news_id": "6fbf54e970be0cf8a106bbe30f00063c",
+            "published_at": "2026-07-30 19:33 KST",
+            "company_names": [
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.54051,
+            "associated_companies": 1
+          },
+          {
+            "press": "머니투데이",
+            "title": "최태원, SK하이닉스 주식 첫 48억원 매수…책임 경영 의지",
+            "news_id": "dd07add6b4d6417ba15ad03fb7cf0337",
+            "published_at": "2026-07-30 19:33 KST",
+            "company_names": [
+              "SK스퀘어",
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.58552,
+            "associated_companies": 2
+          },
+          {
+            "press": "SBS",
+            "title": "최태원, SK하이닉스 주식 48억 규모 장내매수…\"책임경영 차원\"",
+            "news_id": "f46849195f3f2e192ecb2b65224e5126",
+            "published_at": "2026-07-30 19:32 KST",
+            "company_names": [
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.47802,
+            "associated_companies": 1
+          },
           {
             "press": "MBN",
             "title": "SK하이닉스 주가 반토막 나자 최태원 나섰다⋯48억 규모 매수",
@@ -911,7 +969,7 @@
           },
           {
             "press": "한국경제",
-            "title": "삼성 DX부문 출범 후 첫 적자…하반기 폴더블로 반전 노린다",
+            "title": "칩플레이션에 수익성 직격탄…삼성DX, 하반기 반전 노린다",
             "news_id": "83cc039c9b263154fd8ffd4f99699397",
             "published_at": "2026-07-30 18:18 KST",
             "company_names": [
@@ -1136,68 +1194,21 @@
             ],
             "sentiment_score": 0.63801,
             "associated_companies": 1
-          },
-          {
-            "press": "한국일보",
-            "title": "'트리플 코어' 포스코홀딩스 2분기 실적 순항… \"하반기에도 수익성 개선\"",
-            "news_id": "4bf8d74e42ad5f7b71d54d1a5051ec86",
-            "published_at": "2026-07-30 18:11 KST",
-            "company_names": [
-              "POSCO홀딩스",
-              "포스코인터내셔널",
-              "포스코퓨처엠"
-            ],
-            "sentiment_score": 0.56801,
-            "associated_companies": 3
-          },
-          {
-            "press": "파이낸셜뉴스",
-            "title": "\"고맙다 ESS\" K배터리 3사, 2분기 나란히 적자 탈출",
-            "news_id": "83a6fb88da6c85f14ece258e34b42ce9",
-            "published_at": "2026-07-30 18:11 KST",
-            "company_names": [
-              "LG에너지솔루션",
-              "SK이노베이션",
-              "삼성SDI"
-            ],
-            "sentiment_score": 0.67885,
-            "associated_companies": 3
-          },
-          {
-            "press": "파이낸셜뉴스",
-            "title": "빅테크 10곳 러브콜.. 삼성전기 '파죽지세'",
-            "news_id": "da7aafb6cc2640c845c6ed9617dc2617",
-            "published_at": "2026-07-30 18:11 KST",
-            "company_names": [
-              "삼성전기"
-            ],
-            "sentiment_score": 0.67051,
-            "associated_companies": 1
-          },
-          {
-            "press": "파이낸셜뉴스",
-            "title": "중남미 거점 찾은 정의선 \"현대차 더 큰 도약 위해 지원\"",
-            "news_id": "dbf7674fa6b5239a03b4617beaf2fd0b",
-            "published_at": "2026-07-30 18:11 KST",
-            "company_names": [
-              "현대차"
-            ],
-            "sentiment_score": 0.67051,
-            "associated_companies": 1
-          },
-          {
-            "press": "부산일보",
-            "title": "삼성전자, 2분기 영업이익 89조 원 ‘분기 최대 실적’",
-            "news_id": "186f5776815b3555161545e02f92ec18",
-            "published_at": "2026-07-30 18:10 KST",
-            "company_names": [
-              "삼성전자"
-            ],
-            "sentiment_score": 0.52802,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
+          {
+            "press": "한국경제",
+            "title": "최태원 SK하이닉스 주식 장내매수…48억원 산 이유는?",
+            "news_id": "c7628c82ebcdec39662810a382f93361",
+            "published_at": "2026-07-30 19:45 KST",
+            "company_names": [
+              "SK스퀘어",
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.50552,
+            "associated_companies": 2
+          },
           {
             "press": "한국경제",
             "title": "SK하이닉스 우상향 자신한 최태원…48억원어치 첫 장내 매수",
@@ -1332,7 +1343,7 @@
           },
           {
             "press": "한국경제",
-            "title": "삼성 DX부문 출범 후 첫 적자…하반기 폴더블로 반전 노린다",
+            "title": "칩플레이션에 수익성 직격탄…삼성DX, 하반기 반전 노린다",
             "news_id": "83cc039c9b263154fd8ffd4f99699397",
             "published_at": "2026-07-30 18:18 KST",
             "company_names": [
@@ -2377,17 +2388,6 @@
               "삼성전자"
             ],
             "sentiment_score": 0.64051,
-            "associated_companies": 1
-          },
-          {
-            "press": "한국경제",
-            "title": "[속보] 삼성전자, 2분기 영업익 1813% '폭증'…89조원 달성",
-            "news_id": "d62bc5c783e21d9d425e9c152b2d5d5c",
-            "published_at": "2026-07-30 08:48 KST",
-            "company_names": [
-              "삼성전자"
-            ],
-            "sentiment_score": 0.62552,
             "associated_companies": 1
           }
         ]
@@ -3876,10 +3876,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-30 19:42 KST",
-      "latest_event": "2026-07-30 19:31 KST",
-      "observations": 4537,
-      "active_minutes": 416
+      "latest_seen": "2026-07-30 19:47 KST",
+      "latest_event": "2026-07-30 19:45 KST",
+      "observations": 4553,
+      "active_minutes": 420
     },
     "market": {
       "intraday": true,
@@ -3905,6 +3905,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-30 19:42 KST"
+    "attempted_at": "2026-07-30 19:47 KST"
   }
 }
