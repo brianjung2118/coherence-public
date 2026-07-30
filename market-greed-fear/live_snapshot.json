@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30 19:47 KST",
+  "as_of": "2026-07-30 19:52 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -10,12 +10,12 @@
         "change_pct": -1.23,
         "prev_close": 5663.24
       },
-      "score": -1.25998,
+      "score": -1.25641,
       "components": {
         "news": {
-          "score": 0.15205,
-          "coverage": 0.842,
-          "observations": 3071
+          "score": 0.16633,
+          "coverage": 0.8422,
+          "observations": 3076
         },
         "market": {
           "score": 0.10936,
@@ -34,12 +34,34 @@
           "observations": 128
         }
       },
-      "text_pulse": -1.71643,
+      "text_pulse": -1.71167,
       "news_articles": {
         "all": [
           {
+            "press": "데일리안",
+            "title": "최태원, SK하이닉스 주식 48억원 첫 매입…주가 급락에 책임경영",
+            "news_id": "9ae292474fc5460f77651ef5d672b2cf",
+            "published_at": "2026-07-30 19:51 KST",
+            "company_names": [
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.55551,
+            "associated_companies": 1
+          },
+          {
+            "press": "대전일보",
+            "title": "\"샀다 팔았다 말라\" 최태원, SK하이닉스 48억 샀다",
+            "news_id": "3730dce24666d4397a7e996c3bd3a530",
+            "published_at": "2026-07-30 19:48 KST",
+            "company_names": [
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.55302,
+            "associated_companies": 1
+          },
+          {
             "press": "한국경제",
-            "title": "최태원 SK하이닉스 주식 장내매수…48억원 산 이유는?",
+            "title": "최태원, SK하이닉스 주식 장내매수…48억원어치 산 이유",
             "news_id": "c7628c82ebcdec39662810a382f93361",
             "published_at": "2026-07-30 19:45 KST",
             "company_names": [
@@ -47,6 +69,40 @@
               "SK하이닉스"
             ],
             "sentiment_score": 0.50552,
+            "associated_companies": 2
+          },
+          {
+            "press": "더스쿠프",
+            "title": "삼전 3분기 연속 '역대급 실적' 쐈지만… 반도체 고점론에 막힌 주가",
+            "news_id": "92b1224b6de82b81b69dd37f74e1e402",
+            "published_at": "2026-07-30 19:45 KST",
+            "company_names": [
+              "삼성전자"
+            ],
+            "sentiment_score": 0.66551,
+            "associated_companies": 1
+          },
+          {
+            "press": "아시아경제",
+            "title": "최태원, SK하이닉스 주식 48억 규모 장내매수",
+            "news_id": "f9c33a470e22b3d492b13ece79927034",
+            "published_at": "2026-07-30 19:45 KST",
+            "company_names": [
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.55302,
+            "associated_companies": 1
+          },
+          {
+            "press": "경향신문",
+            "title": "최태원, 처음으로 SK하이닉스 주식 샀다…“책임경영 차원”",
+            "news_id": "860aabd6782adf62f4e086e4996c4b81",
+            "published_at": "2026-07-30 19:43 KST",
+            "company_names": [
+              "SK스퀘어",
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.41677,
             "associated_companies": 2
           },
           {
@@ -1137,69 +1193,12 @@
             ],
             "sentiment_score": 0.29302,
             "associated_companies": 1
-          },
-          {
-            "press": "서울경제",
-            "title": "멈추지 않는 CXMT 여파…SK하이닉스·마이크론 주가 흔든다",
-            "news_id": "321f0251e0a3efd4bb26ae725f7bf2d9",
-            "published_at": "2026-07-30 18:13 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.33676,
-            "associated_companies": 2
-          },
-          {
-            "press": "파이낸셜뉴스",
-            "title": "\"취업 지원\" 삼성 청년희망배움터 개강식",
-            "news_id": "805b5a36e2362ff4914fda4367d08056",
-            "published_at": "2026-07-30 18:12 KST",
-            "company_names": [
-              "삼성전자"
-            ],
-            "sentiment_score": 0.53051,
-            "associated_companies": 1
-          },
-          {
-            "press": "디지털데일리",
-            "title": "포스코홀딩스, 철강 버티고 리튬 살아났다…'3대 성장축' 성과 가시화(종합)",
-            "news_id": "c90c64fba55aae28ed90c7b7ba56db0e",
-            "published_at": "2026-07-30 18:12 KST",
-            "company_names": [
-              "POSCO홀딩스",
-              "포스코인터내셔널"
-            ],
-            "sentiment_score": 0.67301,
-            "associated_companies": 2
-          },
-          {
-            "press": "한국경제",
-            "title": "'긴급진단, 한국 증시는 어디로 가는가'",
-            "news_id": "da0dd291aff636da5df55e82c6a618f8",
-            "published_at": "2026-07-30 18:11 KST",
-            "company_names": [
-              "대신증권"
-            ],
-            "sentiment_score": 0.48801,
-            "associated_companies": 1
-          },
-          {
-            "press": "EBN",
-            "title": "LG엔솔, 2Q 영업익 1133억…북미 ESS 성장 업고 흑자전환",
-            "news_id": "dde5207d4f2de59bc6e791c0c65a3803",
-            "published_at": "2026-07-30 18:11 KST",
-            "company_names": [
-              "LG에너지솔루션"
-            ],
-            "sentiment_score": 0.63801,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
           {
             "press": "한국경제",
-            "title": "최태원 SK하이닉스 주식 장내매수…48억원 산 이유는?",
+            "title": "최태원, SK하이닉스 주식 장내매수…48억원어치 산 이유",
             "news_id": "c7628c82ebcdec39662810a382f93361",
             "published_at": "2026-07-30 19:45 KST",
             "company_names": [
@@ -1456,7 +1455,7 @@
           },
           {
             "press": "한국경제",
-            "title": "\"코스피 역사적 저평가 진입…낙폭 큰 대형주 관심\"",
+            "title": "\"지금은 팔 때 아냐\"…개미들 비명 쏟아졌는데 '반전' 전망",
             "news_id": "a9682682a91abe3abef730711e0d01d4",
             "published_at": "2026-07-30 17:47 KST",
             "company_names": [
@@ -2714,7 +2713,7 @@
           },
           {
             "press": "한국경제",
-            "title": "코스닥 망가졌는데 벤처엔 돈 쏟아진다",
+            "title": "벤처 활활, 코스닥 꽁꽁…성장 통로 막힌다",
             "news_id": "f8cb0c3ae83e48ffab61e7cde9910421",
             "published_at": "2026-07-30 17:46 KST",
             "company_names": [
@@ -3602,7 +3601,7 @@
           },
           {
             "press": "한국경제",
-            "title": "코스닥 망가졌는데 벤처엔 돈 쏟아진다",
+            "title": "벤처 활활, 코스닥 꽁꽁…성장 통로 막힌다",
             "news_id": "f8cb0c3ae83e48ffab61e7cde9910421",
             "published_at": "2026-07-30 17:46 KST",
             "company_names": [
@@ -3876,10 +3875,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-30 19:47 KST",
-      "latest_event": "2026-07-30 19:45 KST",
-      "observations": 4553,
-      "active_minutes": 420
+      "latest_seen": "2026-07-30 19:52 KST",
+      "latest_event": "2026-07-30 19:51 KST",
+      "observations": 4559,
+      "active_minutes": 422
     },
     "market": {
       "intraday": true,
@@ -3905,6 +3904,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-30 19:47 KST"
+    "attempted_at": "2026-07-30 19:52 KST"
   }
 }
