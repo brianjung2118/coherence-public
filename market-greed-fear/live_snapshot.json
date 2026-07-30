@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30 18:50 KST",
+  "as_of": "2026-07-30 18:56 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -10,12 +10,12 @@
         "change_pct": -1.23,
         "prev_close": 5663.24
       },
-      "score": -1.27441,
+      "score": -1.27437,
       "components": {
         "news": {
-          "score": 0.11937,
+          "score": 0.11951,
           "coverage": 0.841,
-          "observations": 3029
+          "observations": 3030
         },
         "market": {
           "score": 0.10936,
@@ -34,9 +34,20 @@
           "observations": 124
         }
       },
-      "text_pulse": -1.73566,
+      "text_pulse": -1.73562,
       "news_articles": {
         "all": [
+          {
+            "press": "조선비즈",
+            "title": "LG디스플레이, 국민성장펀드 1조5000억원 확보… OLED에 3조원 투자",
+            "news_id": "590ebeb01d4e82e0a89595c90348bd76",
+            "published_at": "2026-07-30 18:48 KST",
+            "company_names": [
+              "LG디스플레이"
+            ],
+            "sentiment_score": 0.68051,
+            "associated_companies": 1
+          },
           {
             "press": "디지털데일리",
             "title": "'분사 이래 최대 성과' SK온, 본원적 경쟁력 확보한다…\"ESS 역량 확보\"",
@@ -1194,17 +1205,6 @@
             ],
             "sentiment_score": 0.67051,
             "associated_companies": 2
-          },
-          {
-            "press": "디지털타임스",
-            "title": "한은, ‘프로젝트 아고라’ 실거래 테스트…국가 간 결제 평균 1분20초",
-            "news_id": "0eba78e6e69e850ede210c98216d18f2",
-            "published_at": "2026-07-30 18:00 KST",
-            "company_names": [
-              "하나금융지주"
-            ],
-            "sentiment_score": 0.57302,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
@@ -3885,10 +3885,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-30 18:45 KST",
-      "latest_event": "2026-07-30 18:42 KST",
-      "observations": 4457,
-      "active_minutes": 397
+      "latest_seen": "2026-07-30 18:55 KST",
+      "latest_event": "2026-07-30 18:52 KST",
+      "observations": 4470,
+      "active_minutes": 401
     },
     "market": {
       "intraday": true,
@@ -3914,6 +3914,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-30 18:50 KST"
+    "attempted_at": "2026-07-30 18:56 KST"
   }
 }
