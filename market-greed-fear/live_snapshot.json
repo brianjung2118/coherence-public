@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30 21:44 KST",
+  "as_of": "2026-07-30 21:49 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -10,12 +10,12 @@
         "change_pct": -1.23,
         "prev_close": 5663.24
       },
-      "score": -1.17289,
+      "score": -1.17233,
       "components": {
         "news": {
-          "score": 0.13363,
-          "coverage": 0.8437,
-          "observations": 3122
+          "score": 0.13589,
+          "coverage": 0.8432,
+          "observations": 3124
         },
         "market": {
           "score": 0.10936,
@@ -34,9 +34,22 @@
           "observations": 130
         }
       },
-      "text_pulse": -1.60031,
+      "text_pulse": -1.59956,
       "news_articles": {
         "all": [
+          {
+            "press": "EBN",
+            "title": "[EBN 오늘(30일) 이슈 종합] 한화에어로 대표에 이부환, 삼성전자 DX 상반기 매출 100조원 돌파 등",
+            "news_id": "769f06384e01156e0b2868c3bf5f5332",
+            "published_at": "2026-07-30 21:25 KST",
+            "company_names": [
+              "DL이앤씨",
+              "삼성전자",
+              "한화에어로스페이스"
+            ],
+            "sentiment_score": 0.67218,
+            "associated_companies": 3
+          },
           {
             "press": "EBN",
             "title": "한은, 토큰화 원화 2000만원 이체…'프로젝트 아고라' 테스트",
@@ -1196,18 +1209,6 @@
             ],
             "sentiment_score": 0.54151,
             "associated_companies": 5
-          },
-          {
-            "press": "매일신문",
-            "title": "2차 피해 나온 KT 정보유출 과징금 540억원…\"쿠팡·SKT 차별하냐\" 목소리 확산, 왜?",
-            "news_id": "92c353ef7bc4493927b5516e4a63f5e1",
-            "published_at": "2026-07-30 18:40 KST",
-            "company_names": [
-              "KT",
-              "SK텔레콤"
-            ],
-            "sentiment_score": 0.24489,
-            "associated_companies": 2
           }
         ],
         "hankyung": [
@@ -3892,9 +3893,9 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-30 21:44 KST",
-      "latest_event": "2026-07-30 21:43 KST",
-      "observations": 4637,
+      "latest_seen": "2026-07-30 21:50 KST",
+      "latest_event": "2026-07-30 21:44 KST",
+      "observations": 4640,
       "active_minutes": 444
     },
     "market": {
@@ -3921,6 +3922,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-30 21:44 KST"
+    "attempted_at": "2026-07-30 21:49 KST"
   }
 }
