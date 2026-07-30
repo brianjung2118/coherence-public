@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30 19:18 KST",
+  "as_of": "2026-07-30 19:24 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -10,12 +10,12 @@
         "change_pct": -1.23,
         "prev_close": 5663.24
       },
-      "score": -1.28291,
+      "score": -1.27748,
       "components": {
         "news": {
-          "score": 0.10546,
-          "coverage": 0.8414,
-          "observations": 3041
+          "score": 0.1243,
+          "coverage": 0.8415,
+          "observations": 3048
         },
         "market": {
           "score": 0.10936,
@@ -24,9 +24,9 @@
           "observations": 915
         },
         "discussion": {
-          "score": -2.67322,
-          "coverage": 0.1285,
-          "observations": 56899
+          "score": -2.67179,
+          "coverage": 0.1284,
+          "observations": 56932
         },
         "news_hankyung": {
           "score": -0.3703,
@@ -34,9 +34,77 @@
           "observations": 127
         }
       },
-      "text_pulse": -1.74699,
+      "text_pulse": -1.73976,
       "news_articles": {
         "all": [
+          {
+            "press": "서울경제",
+            "title": "[속보] 최태원 회장, SK하이닉스 주식 3620주 매수…“책임경영의 일환”",
+            "news_id": "f458ccef65d32b8f10bbd6fe90e8c09f",
+            "published_at": "2026-07-30 19:19 KST",
+            "company_names": [
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.48302,
+            "associated_companies": 1
+          },
+          {
+            "press": "뉴스1",
+            "title": "SK이노 \"원유 조달 당분간 이상 無\"…조달선 다변화로 하반기 방어",
+            "news_id": "cdeac8fe3869a3b093c490638f46dff3",
+            "published_at": "2026-07-30 19:18 KST",
+            "company_names": [
+              "SK이노베이션"
+            ],
+            "sentiment_score": 0.63801,
+            "associated_companies": 1
+          },
+          {
+            "press": "뉴시스",
+            "title": "최태원 회장, 직접 나섰다…SK하이닉스株 48억원어치 첫 매수 \"책임경영 의지\"",
+            "news_id": "93ffadef47a1b24c582f662afd8db7da",
+            "published_at": "2026-07-30 19:15 KST",
+            "company_names": [
+              "SK스퀘어",
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.59052,
+            "associated_companies": 2
+          },
+          {
+            "press": "아이뉴스24",
+            "title": "최태원 SK그룹 회장, SK하이닉스 주식 3620주 장내매수",
+            "news_id": "85cefa37ca2e9831246cf6bd9afd50ec",
+            "published_at": "2026-07-30 19:14 KST",
+            "company_names": [
+              "SK",
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.63552,
+            "associated_companies": 2
+          },
+          {
+            "press": "동아일보",
+            "title": "[속보]최태원 회장, SK하이닉스 주식 3620주 매수",
+            "news_id": "fe67d8c35b2dc8ecf391dd2517c0f5f0",
+            "published_at": "2026-07-30 19:14 KST",
+            "company_names": [
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.57302,
+            "associated_companies": 1
+          },
+          {
+            "press": "디지털타임스",
+            "title": "[속보] 최태원 회장, SK하이닉스 3620주 매수",
+            "news_id": "225b09b311ca6420d6b206747ef7096c",
+            "published_at": "2026-07-30 19:13 KST",
+            "company_names": [
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.58301,
+            "associated_companies": 1
+          },
           {
             "press": "한국경제",
             "title": "[속보] 최태원 회장, SK하이닉스 주식 3620주 장내 매수",
@@ -47,6 +115,18 @@
             ],
             "sentiment_score": 0.50052,
             "associated_companies": 1
+          },
+          {
+            "press": "머니투데이",
+            "title": "최태원 SK회장, SK하이닉스 주식 3620주 장내매수",
+            "news_id": "2c202844bb4a846f8951fd45fceca2a2",
+            "published_at": "2026-07-30 19:12 KST",
+            "company_names": [
+              "SK",
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.58052,
+            "associated_companies": 2
           },
           {
             "press": "이데일리",
@@ -1122,88 +1202,6 @@
               "삼성전자"
             ],
             "sentiment_score": 0.31989,
-            "associated_companies": 2
-          },
-          {
-            "press": "연합뉴스TV",
-            "title": "코스피, 연이틀 급락 후 또 하락…개미 '팔자'",
-            "news_id": "56943d928e74d26db2c12e90423e7cbe",
-            "published_at": "2026-07-30 18:04 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.40552,
-            "associated_companies": 2
-          },
-          {
-            "press": "조선비즈",
-            "title": "오리온, 여름 성수기 맞아 감자스낵 글로벌 공략 강화",
-            "news_id": "5b77c95fd91ea1fb3742213407b8ec2b",
-            "published_at": "2026-07-30 18:04 KST",
-            "company_names": [
-              "오리온"
-            ],
-            "sentiment_score": 0.67051,
-            "associated_companies": 1
-          },
-          {
-            "press": "한국경제",
-            "title": "[한경에세이] 멜버른행 비행기는 어디에?",
-            "news_id": "44b3c29d620df2cc6d71e0f59feb9fd0",
-            "published_at": "2026-07-30 18:03 KST",
-            "company_names": [
-              "대한항공"
-            ],
-            "sentiment_score": 0.54302,
-            "associated_companies": 1
-          },
-          {
-            "press": "파이낸셜뉴스",
-            "title": "삼성SDS, 클라우드 앞세워 2분기 매출 3.7조 돌파",
-            "news_id": "130f2febf84f60d095c66665edad3434",
-            "published_at": "2026-07-30 18:03 KST",
-            "company_names": [
-              "삼성에스디에스",
-              "삼성증권",
-              "삼성카드"
-            ],
-            "sentiment_score": 0.68385,
-            "associated_companies": 3
-          },
-          {
-            "press": "조선비즈",
-            "title": "HS효성첨단소재, 2분기 영업이익 776억원…전년比 32%↑",
-            "news_id": "71a459276ce978d705e1588740c21629",
-            "published_at": "2026-07-30 18:03 KST",
-            "company_names": [
-              "HS효성첨단소재"
-            ],
-            "sentiment_score": 0.69551,
-            "associated_companies": 1
-          },
-          {
-            "press": "뉴시스",
-            "title": "HS효성, 2분기 영업이익 301.7% 급증…첨단소재 실적 개선 견인",
-            "news_id": "79d895b993e727c4c8e11879578ef60a",
-            "published_at": "2026-07-30 18:03 KST",
-            "company_names": [
-              "HS효성",
-              "HS효성첨단소재"
-            ],
-            "sentiment_score": 0.70051,
-            "associated_companies": 2
-          },
-          {
-            "press": "KBS",
-            "title": "삼성전자, 2분기 반도체 89.2조 흑자…코스피 또 하락",
-            "news_id": "7fe6f9c0bcf0405cdb12f2efd41c8619",
-            "published_at": "2026-07-30 18:03 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.48052,
             "associated_companies": 2
           }
         ],
@@ -2427,9 +2425,9 @@
           "observations": 1802
         },
         "discussion": {
-          "score": -1.68798,
-          "coverage": 0.1103,
-          "observations": 21150
+          "score": -1.68799,
+          "coverage": 0.1102,
+          "observations": 21159
         },
         "news_hankyung": {
           "score": 0.09844,
@@ -2437,7 +2435,7 @@
           "observations": 29
         }
       },
-      "text_pulse": -1.07942,
+      "text_pulse": -1.07943,
       "news_articles": {
         "all": [
           {
@@ -3886,10 +3884,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-30 19:18 KST",
-      "latest_event": "2026-07-30 19:12 KST",
-      "observations": 4496,
-      "active_minutes": 408
+      "latest_seen": "2026-07-30 19:23 KST",
+      "latest_event": "2026-07-30 19:22 KST",
+      "observations": 4513,
+      "active_minutes": 411
     },
     "market": {
       "intraday": true,
@@ -3899,10 +3897,10 @@
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-30 19:18 KST",
-      "latest_event": "2026-07-30 19:11 KST",
-      "observations": 78918,
-      "active_minutes": 440
+      "latest_seen": "2026-07-30 19:24 KST",
+      "latest_event": "2026-07-30 19:15 KST",
+      "observations": 78960,
+      "active_minutes": 446
     }
   },
   "event_date": "2026-07-30",
@@ -3915,6 +3913,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-30 19:18 KST"
+    "attempted_at": "2026-07-30 19:24 KST"
   }
 }
