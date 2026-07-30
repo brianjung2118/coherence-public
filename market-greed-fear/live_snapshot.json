@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-31 07:13 KST",
+  "as_of": "2026-07-31 07:18 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -13,9 +13,9 @@
       "score": null,
       "components": {
         "news": {
-          "score": -1.5439,
-          "coverage": 0.7809,
-          "observations": 137
+          "score": -1.54233,
+          "coverage": 0.7815,
+          "observations": 138
         },
         "market": {
           "score": null,
@@ -24,19 +24,30 @@
           "observations": 0
         },
         "discussion": {
-          "score": 3.83133,
-          "coverage": 0.2153,
-          "observations": 2917
+          "score": 3.79822,
+          "coverage": 0.2142,
+          "observations": 2978
         },
         "news_hankyung": {
-          "score": -1.92885,
-          "coverage": 0.8667,
-          "observations": 3
+          "score": -1.95779,
+          "coverage": 0.875,
+          "observations": 4
         }
       },
-      "text_pulse": 2.03959,
+      "text_pulse": 2.01803,
       "news_articles": {
         "all": [
+          {
+            "press": "한국경제",
+            "title": "\"AI 투자손실에 마진콜 직면\"…헤지펀드 시추에이셔널, 시타델에 자산 매각",
+            "news_id": "f31569b8af3049efe3f9c237bf0a52bf",
+            "published_at": "2026-07-31 07:17 KST",
+            "company_names": [
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.48302,
+            "associated_companies": 1
+          },
           {
             "press": "한국경제",
             "title": "반도체주 반등에 일제 상승…나스닥 2.8%↑ [뉴욕증시 브리핑]",
@@ -1220,20 +1231,20 @@
             ],
             "sentiment_score": 0.57302,
             "associated_companies": 2
-          },
-          {
-            "press": "연합뉴스TV",
-            "title": "LG전자 2분기 영업이익 1조6천억…분기 기준 역대 최대",
-            "news_id": "356dfc72b0f7626d693ed69f90cd1db5",
-            "published_at": "2026-07-31 00:42 KST",
-            "company_names": [
-              "LG전자"
-            ],
-            "sentiment_score": 0.67051,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
+          {
+            "press": "한국경제",
+            "title": "\"AI 투자손실에 마진콜 직면\"…헤지펀드 시추에이셔널, 시타델에 자산 매각",
+            "news_id": "f31569b8af3049efe3f9c237bf0a52bf",
+            "published_at": "2026-07-31 07:17 KST",
+            "company_names": [
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.48302,
+            "associated_companies": 1
+          },
           {
             "press": "한국경제",
             "title": "반도체주 반등에 일제 상승…나스닥 2.8%↑ [뉴욕증시 브리핑]",
@@ -1505,10 +1516,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 07:13 KST",
-      "latest_event": "2026-07-31 07:12 KST",
-      "observations": 273,
-      "active_minutes": 34
+      "latest_seen": "2026-07-31 07:18 KST",
+      "latest_event": "2026-07-31 07:17 KST",
+      "observations": 275,
+      "active_minutes": 36
     },
     "market": {
       "intraday": false,
@@ -1518,10 +1529,10 @@
       "status_record_available": false
     },
     "discussion": {
-      "latest_seen": "2026-07-31 07:11 KST",
-      "latest_event": "2026-07-31 07:04 KST",
-      "observations": 3663,
-      "active_minutes": 54
+      "latest_seen": "2026-07-31 07:18 KST",
+      "latest_event": "2026-07-31 07:05 KST",
+      "observations": 3724,
+      "active_minutes": 60
     }
   },
   "event_date": "2026-07-31",
@@ -1534,6 +1545,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 07:13 KST"
+    "attempted_at": "2026-07-31 07:18 KST"
   }
 }
