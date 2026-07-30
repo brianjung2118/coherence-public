@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30 22:50 KST",
+  "as_of": "2026-07-30 22:55 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -10,12 +10,12 @@
         "change_pct": -1.23,
         "prev_close": 5663.24
       },
-      "score": -1.13514,
+      "score": -1.13495,
       "components": {
         "news": {
-          "score": 0.1109,
-          "coverage": 0.8428,
-          "observations": 3141
+          "score": 0.11165,
+          "coverage": 0.8429,
+          "observations": 3142
         },
         "market": {
           "score": 0.10936,
@@ -29,14 +29,26 @@
           "observations": 62328
         },
         "news_hankyung": {
-          "score": -0.50278,
-          "coverage": 0.8173,
-          "observations": 132
+          "score": -0.49105,
+          "coverage": 0.8185,
+          "observations": 133
         }
       },
-      "text_pulse": -1.54998,
+      "text_pulse": -1.54973,
       "news_articles": {
         "all": [
+          {
+            "press": "한국경제",
+            "title": "최태원, 하이닉스 주식 48억 매수",
+            "news_id": "1235edb3ad8d53e5cee01b1dd600519a",
+            "published_at": "2026-07-30 22:49 KST",
+            "company_names": [
+              "SK스퀘어",
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.49926,
+            "associated_companies": 2
+          },
           {
             "press": "한국경제",
             "title": "국회 찾은 하남 주민들 \"용인 반도체에 왜 우리 아이들이…\" [이시은의 상시국감]",
@@ -1191,21 +1203,21 @@
             ],
             "sentiment_score": 0.59052,
             "associated_companies": 2
-          },
-          {
-            "press": "아이뉴스24",
-            "title": "최태원 SK그룹 회장, SK하이닉스 주식 3620주 장내매수",
-            "news_id": "85cefa37ca2e9831246cf6bd9afd50ec",
-            "published_at": "2026-07-30 19:14 KST",
-            "company_names": [
-              "SK",
-              "SK하이닉스"
-            ],
-            "sentiment_score": 0.63552,
-            "associated_companies": 2
           }
         ],
         "hankyung": [
+          {
+            "press": "한국경제",
+            "title": "최태원, 하이닉스 주식 48억 매수",
+            "news_id": "1235edb3ad8d53e5cee01b1dd600519a",
+            "published_at": "2026-07-30 22:49 KST",
+            "company_names": [
+              "SK스퀘어",
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.49926,
+            "associated_companies": 2
+          },
           {
             "press": "한국경제",
             "title": "국회 찾은 하남 주민들 \"용인 반도체에 왜 우리 아이들이…\" [이시은의 상시국감]",
@@ -2391,17 +2403,6 @@
               "더본코리아"
             ],
             "sentiment_score": 0.57302,
-            "associated_companies": 1
-          },
-          {
-            "press": "한국경제",
-            "title": "美 금리 동결에도 '국채 발작'…\"국장 운명은 결국 삼전닉스 실적\" [분석+]",
-            "news_id": "5441a62f324d8f99317b0e2434b97423",
-            "published_at": "2026-07-30 08:57 KST",
-            "company_names": [
-              "삼성전자"
-            ],
-            "sentiment_score": 0.51301,
             "associated_companies": 1
           }
         ]
@@ -3892,7 +3893,7 @@
       "latest_seen": "2026-07-30 22:50 KST",
       "latest_event": "2026-07-30 22:49 KST",
       "observations": 4675,
-      "active_minutes": 446
+      "active_minutes": 445
     },
     "market": {
       "intraday": true,
@@ -3918,6 +3919,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-30 22:50 KST"
+    "attempted_at": "2026-07-30 22:55 KST"
   }
 }
