@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30 16:27 KST",
+  "as_of": "2026-07-30 16:32 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -10,12 +10,12 @@
         "change_pct": -1.23,
         "prev_close": 5663.24
       },
-      "score": -1.16796,
+      "score": -1.17308,
       "components": {
         "news": {
-          "score": 0.19428,
-          "coverage": 0.847,
-          "observations": 2589
+          "score": 0.19556,
+          "coverage": 0.8463,
+          "observations": 2596
         },
         "market": {
           "score": 0.10936,
@@ -24,9 +24,9 @@
           "observations": 915
         },
         "discussion": {
-          "score": -2.48774,
-          "coverage": 0.1312,
-          "observations": 48548
+          "score": -2.49862,
+          "coverage": 0.1308,
+          "observations": 49210
         },
         "news_hankyung": {
           "score": 0.35461,
@@ -34,9 +34,31 @@
           "observations": 83
         }
       },
-      "text_pulse": -1.59373,
+      "text_pulse": -1.60056,
       "news_articles": {
         "all": [
+          {
+            "press": "파이낸셜뉴스",
+            "title": "미주·유럽 성장..아모레퍼시픽, 외형-수익 완연한 반등..2Q 영업익 53%↑",
+            "news_id": "a5455cbbcf27a0e9cdccb07e1c8702eb",
+            "published_at": "2026-07-30 16:28 KST",
+            "company_names": [
+              "아모레퍼시픽"
+            ],
+            "sentiment_score": 0.67551,
+            "associated_companies": 1
+          },
+          {
+            "press": "동아일보",
+            "title": "HD한국조선해양, 美에 스마트 조선소 노하우 전수",
+            "news_id": "e98f3428a9fd8275fc26f1ce6bd79d17",
+            "published_at": "2026-07-30 16:28 KST",
+            "company_names": [
+              "HD한국조선해양"
+            ],
+            "sentiment_score": 0.68051,
+            "associated_companies": 1
+          },
           {
             "press": "한국경제",
             "title": "매출 9.5% 줄었는데…DL이앤씨 영업이익 26% 늘었다",
@@ -46,6 +68,17 @@
               "DL이앤씨"
             ],
             "sentiment_score": 0.63552,
+            "associated_companies": 1
+          },
+          {
+            "press": "데일리안",
+            "title": "7분기 만에 흑자 낸 삼성SDI…\"연내 추가 수주 기대해도 좋다\" (종합)",
+            "news_id": "62bb767eeeecd2598905b037168789a7",
+            "published_at": "2026-07-30 16:25 KST",
+            "company_names": [
+              "삼성SDI"
+            ],
+            "sentiment_score": 0.67551,
             "associated_companies": 1
           },
           {
@@ -117,6 +150,17 @@
               "HL만도"
             ],
             "sentiment_score": 0.67051,
+            "associated_companies": 1
+          },
+          {
+            "press": "디지털데일리",
+            "title": "[종합]부활 신호탄 쏜 삼성SDI, 하반기 '각형·원통형' 기반 새 판 짠다",
+            "news_id": "7b5eabdb9159464dfe80ab50e63d0186",
+            "published_at": "2026-07-30 16:21 KST",
+            "company_names": [
+              "삼성SDI"
+            ],
+            "sentiment_score": 0.67551,
             "associated_companies": 1
           },
           {
@@ -990,6 +1034,17 @@
             "associated_companies": 3
           },
           {
+            "press": "EBN",
+            "title": "유한양행, 2Q 영업익 34.7%↑…렉라자 효과에 역대 최대 실적",
+            "news_id": "bb83ea67e893c494f046a0b1ceee7eb9",
+            "published_at": "2026-07-30 16:09 KST",
+            "company_names": [
+              "유한양행"
+            ],
+            "sentiment_score": 0.67051,
+            "associated_companies": 1
+          },
+          {
             "press": "연합뉴스",
             "title": "'역대급 실적' 반도체 투매 계속…하닉 5%대 급락, 사흘간 27%↓(종합2보)",
             "news_id": "13bd138b0402abbdae33eb25d2794727",
@@ -1138,64 +1193,6 @@
             ],
             "sentiment_score": 0.54551,
             "associated_companies": 3
-          },
-          {
-            "press": "SBS",
-            "title": "미국 금리 동결·외국인 주식 순매수…원·달러 환율 1,430원대로",
-            "news_id": "04ebc932cdc5e594f508ad961cd941b7",
-            "published_at": "2026-07-30 16:07 KST",
-            "company_names": [
-              "SK하이닉스"
-            ],
-            "sentiment_score": 0.43551,
-            "associated_companies": 1
-          },
-          {
-            "press": "디지털데일리",
-            "title": "SK이노베이션, 2분기 영업익 3조4873억원 '깜짝 실적'…SK온 흑자 전환이 견인",
-            "news_id": "3f41286f09a35fffc1cfcee06d0d5afa",
-            "published_at": "2026-07-30 16:07 KST",
-            "company_names": [
-              "SK이노베이션"
-            ],
-            "sentiment_score": 0.68551,
-            "associated_companies": 1
-          },
-          {
-            "press": "동행미디어 시대",
-            "title": "정부가 의무매입 판 깔아줬더니…입찰 짜고친 바이오연료 업체들",
-            "news_id": "83166106d0425a91382ba08491913174",
-            "published_at": "2026-07-30 16:07 KST",
-            "company_names": [
-              "DS단석",
-              "SK",
-              "SK케미칼",
-              "애경케미칼"
-            ],
-            "sentiment_score": 0.21333,
-            "associated_companies": 4
-          },
-          {
-            "press": "비즈워치",
-            "title": "삼성SDI, 흑자 냈지만 전기차는 여전히 적자",
-            "news_id": "8407b1931ebc6501d773fa8e57812514",
-            "published_at": "2026-07-30 16:07 KST",
-            "company_names": [
-              "삼성SDI"
-            ],
-            "sentiment_score": 0.66051,
-            "associated_companies": 1
-          },
-          {
-            "press": "디지털타임스",
-            "title": "동부건설, 남부내륙철도·고양창릉 민참사업 수주…“올 수주액 2조원 돌파”",
-            "news_id": "928d84d1de529233f1c5159d11253070",
-            "published_at": "2026-07-30 16:07 KST",
-            "company_names": [
-              "동부건설"
-            ],
-            "sentiment_score": 0.69051,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
@@ -2098,9 +2095,9 @@
       "score": -0.88514,
       "components": {
         "news": {
-          "score": 0.20091,
-          "coverage": 0.6975,
-          "observations": 335
+          "score": 0.20089,
+          "coverage": 0.6959,
+          "observations": 336
         },
         "market": {
           "score": -0.62339,
@@ -3505,10 +3502,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-30 16:27 KST",
-      "latest_event": "2026-07-30 16:25 KST",
-      "observations": 3728,
-      "active_minutes": 310
+      "latest_seen": "2026-07-30 16:32 KST",
+      "latest_event": "2026-07-30 16:31 KST",
+      "observations": 3766,
+      "active_minutes": 311
     },
     "market": {
       "intraday": true,
@@ -3518,10 +3515,10 @@
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-30 16:27 KST",
-      "latest_event": "2026-07-30 16:16 KST",
-      "observations": 67461,
-      "active_minutes": 347
+      "latest_seen": "2026-07-30 16:32 KST",
+      "latest_event": "2026-07-30 16:21 KST",
+      "observations": 68123,
+      "active_minutes": 346
     }
   },
   "event_date": "2026-07-30",
@@ -3534,6 +3531,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-30 16:27 KST"
+    "attempted_at": "2026-07-30 16:32 KST"
   }
 }
