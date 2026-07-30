@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30 22:11 KST",
+  "as_of": "2026-07-30 22:17 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -10,12 +10,12 @@
         "change_pct": -1.23,
         "prev_close": 5663.24
       },
-      "score": -1.17041,
+      "score": -1.16738,
       "components": {
         "news": {
-          "score": 0.1133,
+          "score": 0.1109,
           "coverage": 0.8428,
-          "observations": 3140
+          "observations": 3141
         },
         "market": {
           "score": 0.10936,
@@ -24,22 +24,33 @@
           "observations": 915
         },
         "discussion": {
-          "score": -2.45214,
-          "coverage": 0.1274,
-          "observations": 61657
+          "score": -2.44489,
+          "coverage": 0.1275,
+          "observations": 61697
         },
         "news_hankyung": {
-          "score": -0.46101,
-          "coverage": 0.8167,
-          "observations": 131
+          "score": -0.50278,
+          "coverage": 0.8173,
+          "observations": 132
         }
       },
-      "text_pulse": -1.59699,
+      "text_pulse": -1.59296,
       "news_articles": {
         "all": [
           {
             "press": "한국경제",
-            "title": "\"최악 국면 진입, AI 버블 붕괴 전조 가능성\"…외신이 본 위기의 K증시",
+            "title": "국회 찾은 하남 주민들 \"용인 반도체에 왜 우리 아이들이…\" [이시은의 상시국감]",
+            "news_id": "9c5a5ea6ceae9651b2c455849f72d098",
+            "published_at": "2026-07-30 22:12 KST",
+            "company_names": [
+              "한국전력"
+            ],
+            "sentiment_score": 0.24552,
+            "associated_companies": 1
+          },
+          {
+            "press": "한국경제",
+            "title": "\"올해 번 돈 다 날릴 판\"…외신도 주목한 60대 불개미 '절규'",
             "news_id": "d0033af82a6a502ddf2f365fd8c848d9",
             "published_at": "2026-07-30 22:00 KST",
             "company_names": [
@@ -1192,23 +1203,23 @@
             ],
             "sentiment_score": 0.63552,
             "associated_companies": 2
-          },
-          {
-            "press": "동아일보",
-            "title": "[속보]최태원 회장, SK하이닉스 주식 3620주 매수",
-            "news_id": "fe67d8c35b2dc8ecf391dd2517c0f5f0",
-            "published_at": "2026-07-30 19:14 KST",
-            "company_names": [
-              "SK하이닉스"
-            ],
-            "sentiment_score": 0.57302,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
           {
             "press": "한국경제",
-            "title": "\"최악 국면 진입, AI 버블 붕괴 전조 가능성\"…외신이 본 위기의 K증시",
+            "title": "국회 찾은 하남 주민들 \"용인 반도체에 왜 우리 아이들이…\" [이시은의 상시국감]",
+            "news_id": "9c5a5ea6ceae9651b2c455849f72d098",
+            "published_at": "2026-07-30 22:12 KST",
+            "company_names": [
+              "한국전력"
+            ],
+            "sentiment_score": 0.24552,
+            "associated_companies": 1
+          },
+          {
+            "press": "한국경제",
+            "title": "\"올해 번 돈 다 날릴 판\"…외신도 주목한 60대 불개미 '절규'",
             "news_id": "d0033af82a6a502ddf2f365fd8c848d9",
             "published_at": "2026-07-30 22:00 KST",
             "company_names": [
@@ -2391,17 +2402,6 @@
               "삼성전자"
             ],
             "sentiment_score": 0.51301,
-            "associated_companies": 1
-          },
-          {
-            "press": "한국경제",
-            "title": "작년에만 8740억…'1조 클럽' 눈앞에 둔 오리온 감자칩",
-            "news_id": "887fae322f5a7d9dbc6897fd41b71440",
-            "published_at": "2026-07-30 08:54 KST",
-            "company_names": [
-              "오리온"
-            ],
-            "sentiment_score": 0.67051,
             "associated_companies": 1
           }
         ]
@@ -3889,10 +3889,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-30 22:07 KST",
-      "latest_event": "2026-07-30 22:00 KST",
-      "observations": 4672,
-      "active_minutes": 443
+      "latest_seen": "2026-07-30 22:16 KST",
+      "latest_event": "2026-07-30 22:12 KST",
+      "observations": 4673,
+      "active_minutes": 444
     },
     "market": {
       "intraday": true,
@@ -3902,10 +3902,10 @@
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-30 22:10 KST",
-      "latest_event": "2026-07-30 22:03 KST",
-      "observations": 85178,
-      "active_minutes": 538
+      "latest_seen": "2026-07-30 22:17 KST",
+      "latest_event": "2026-07-30 22:04 KST",
+      "observations": 85218,
+      "active_minutes": 544
     }
   },
   "event_date": "2026-07-30",
@@ -3918,6 +3918,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-30 22:11 KST"
+    "attempted_at": "2026-07-30 22:17 KST"
   }
 }
