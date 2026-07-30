@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-31 08:52 KST",
+  "as_of": "2026-07-31 08:57 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -13,9 +13,9 @@
       "score": null,
       "components": {
         "news": {
-          "score": -0.26957,
-          "coverage": 0.8148,
-          "observations": 285
+          "score": -0.15475,
+          "coverage": 0.8152,
+          "observations": 290
         },
         "market": {
           "score": null,
@@ -34,9 +34,43 @@
           "observations": 7
         }
       },
-      "text_pulse": 2.49728,
+      "text_pulse": 2.53555,
       "news_articles": {
         "all": [
+          {
+            "press": "조선비즈",
+            "title": "무더위 속 겨울 아우터 쇼핑…LF몰, 역시즌 라이브 거래액 쑥",
+            "news_id": "5e264251ed0f8172ee2125fc0144d308",
+            "published_at": "2026-07-31 08:50 KST",
+            "company_names": [
+              "LF"
+            ],
+            "sentiment_score": 0.61301,
+            "associated_companies": 1
+          },
+          {
+            "press": "뉴스1",
+            "title": "삼성 갤럭시Z8 시리즈, 사전구매자 절반이1030…'크림' 최고 인기",
+            "news_id": "3b2073200934214e19fde394fd6eea04",
+            "published_at": "2026-07-31 08:49 KST",
+            "company_names": [
+              "삼성전자"
+            ],
+            "sentiment_score": 0.60301,
+            "associated_companies": 1
+          },
+          {
+            "press": "서울경제",
+            "title": "한투증권, 삼성전자 목표주가 59만→65만 원 상향[줍줍리포트]",
+            "news_id": "f01e1a85ec049f14418d70ad4e61e058",
+            "published_at": "2026-07-31 08:47 KST",
+            "company_names": [
+              "삼성전자",
+              "한국금융지주"
+            ],
+            "sentiment_score": 0.66802,
+            "associated_companies": 2
+          },
           {
             "press": "뉴스1",
             "title": "삼성생명, 퇴직연금 수수료 '무료'…자산관리 서비스 강화",
@@ -46,6 +80,17 @@
               "삼성생명"
             ],
             "sentiment_score": 0.59301,
+            "associated_companies": 1
+          },
+          {
+            "press": "머니투데이",
+            "title": "'여권 크기' 갤럭시 Z 폴드8, MZ 눈길 사로잡다…\"사전 예약 추천\"",
+            "news_id": "8e04d2f1350e4abcf4ad86a481bef9e9",
+            "published_at": "2026-07-31 08:44 KST",
+            "company_names": [
+              "삼성전자"
+            ],
+            "sentiment_score": 0.62052,
             "associated_companies": 1
           },
           {
@@ -63,6 +108,17 @@
             ],
             "sentiment_score": 0.61718,
             "associated_companies": 6
+          },
+          {
+            "press": "연합뉴스",
+            "title": "삼성전자, 갤럭시 Z 시리즈 1030세대 예약 인기",
+            "news_id": "f5b387cb735196362b0262c3451ef699",
+            "published_at": "2026-07-31 08:43 KST",
+            "company_names": [
+              "삼성전자"
+            ],
+            "sentiment_score": 0.55302,
+            "associated_companies": 1
           },
           {
             "press": "더팩트",
@@ -1169,62 +1225,6 @@
             ],
             "sentiment_score": 0.67051,
             "associated_companies": 2
-          },
-          {
-            "press": "뉴스1",
-            "title": "[속보] \"반도체株 달린다\"…프리마켓서 SK하닉 17%·삼전 13%대 급등",
-            "news_id": "1ed8c5f01f16a179c3a4b8a5b3a33b50",
-            "published_at": "2026-07-31 08:06 KST",
-            "company_names": [
-              "SK하이닉스"
-            ],
-            "sentiment_score": 0.57302,
-            "associated_companies": 1
-          },
-          {
-            "press": "이데일리",
-            "title": "[속보]SK하이닉스, 31일 프리장서 15%대 급등",
-            "news_id": "69bcf519b9fd3a6d5dca01f47a4851e0",
-            "published_at": "2026-07-31 08:06 KST",
-            "company_names": [
-              "SK하이닉스"
-            ],
-            "sentiment_score": 0.56802,
-            "associated_companies": 1
-          },
-          {
-            "press": "뉴시스",
-            "title": "[속보]프리마켓서 삼전 15%·SK하닉 17% 급등",
-            "news_id": "7ac6a02b337de3ef77ebe2227fc1d3cc",
-            "published_at": "2026-07-31 08:02 KST",
-            "company_names": [
-              "SK하이닉스"
-            ],
-            "sentiment_score": 0.53551,
-            "associated_companies": 1
-          },
-          {
-            "press": "이데일리",
-            "title": "삼성전기, MLCC 가격 인상은 큰 사건…주가 조정은 충분-IBK",
-            "news_id": "beb5405eabd7c85f5db81ecae43cec73",
-            "published_at": "2026-07-31 08:02 KST",
-            "company_names": [
-              "기업은행",
-              "삼성전기"
-            ],
-            "sentiment_score": 0.50301,
-            "associated_companies": 2
-          },
-          {
-            "press": "아시아경제",
-            "title": "[굿모닝 증시]美, 반도체주 동반 폭등으로 강세…韓도 반등 예상",
-            "news_id": "d4278b6b657ed82974845f3a3acf69ba",
-            "published_at": "2026-07-31 08:02 KST",
-            "company_names": [
-              "키움증권"
-            ],
-            "sentiment_score": 0.64551,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
@@ -1345,9 +1345,9 @@
       "score": null,
       "components": {
         "news": {
-          "score": -0.73821,
-          "coverage": 0.7458,
-          "observations": 28
+          "score": -0.521,
+          "coverage": 0.7619,
+          "observations": 32
         },
         "market": {
           "score": null,
@@ -1366,9 +1366,53 @@
           "observations": 3
         }
       },
-      "text_pulse": 1.29514,
+      "text_pulse": 1.36755,
       "news_articles": {
         "all": [
+          {
+            "press": "이데일리",
+            "title": "플랜티넷, 첫 중간배당 도입…\"연 배당수익률 10% 기대\"",
+            "news_id": "f4fd27277b95a96676b5b71b431d0cdd",
+            "published_at": "2026-07-31 08:51 KST",
+            "company_names": [
+              "플랜티넷"
+            ],
+            "sentiment_score": 0.65051,
+            "associated_companies": 1
+          },
+          {
+            "press": "전자신문",
+            "title": "리가켐바이오, 파트너사 익수다 'IKS04' 美 FDA IND 승인",
+            "news_id": "10af05bffc8e7eca9e14a005c54ee7d8",
+            "published_at": "2026-07-31 08:49 KST",
+            "company_names": [
+              "리가켐바이오"
+            ],
+            "sentiment_score": 0.69551,
+            "associated_companies": 1
+          },
+          {
+            "press": "머니투데이",
+            "title": "\"신혼여행도 1대 1 맞춤 시대\"… 노랑풍선, 유럽 허니문 라인업 강화",
+            "news_id": "377f7377dd6d1ba387d29d07254904fc",
+            "published_at": "2026-07-31 08:48 KST",
+            "company_names": [
+              "노랑풍선"
+            ],
+            "sentiment_score": 0.66551,
+            "associated_companies": 1
+          },
+          {
+            "press": "아시아경제",
+            "title": "선익시스템, 국책은행 'A+' 신용등급 획득",
+            "news_id": "d5686591f6679cb0d48f6e8f5cc6893f",
+            "published_at": "2026-07-31 08:47 KST",
+            "company_names": [
+              "선익시스템"
+            ],
+            "sentiment_score": 0.70552,
+            "associated_companies": 1
+          },
           {
             "press": "연합뉴스",
             "title": "[AI픽] NC AI, 에이전틱 AI 국책사업 주관기관 선정",
@@ -1815,10 +1859,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 08:52 KST",
+      "latest_seen": "2026-07-31 08:54 KST",
       "latest_event": "2026-07-31 08:51 KST",
-      "observations": 533,
-      "active_minutes": 65
+      "observations": 542,
+      "active_minutes": 66
     },
     "market": {
       "intraday": false,
@@ -1844,6 +1888,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 08:52 KST"
+    "attempted_at": "2026-07-31 08:57 KST"
   }
 }
