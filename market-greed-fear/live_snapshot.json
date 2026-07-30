@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-31 08:05 KST",
+  "as_of": "2026-07-31 08:10 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -13,9 +13,9 @@
       "score": null,
       "components": {
         "news": {
-          "score": -1.43714,
-          "coverage": 0.7847,
-          "observations": 181
+          "score": -1.17695,
+          "coverage": 0.7855,
+          "observations": 189
         },
         "market": {
           "score": null,
@@ -24,19 +24,32 @@
           "observations": 0
         },
         "discussion": {
-          "score": 4.31142,
-          "coverage": 0.211,
-          "observations": 4337
+          "score": 4.22516,
+          "coverage": 0.2102,
+          "observations": 4453
         },
         "news_hankyung": {
-          "score": -0.84987,
-          "coverage": 0.9,
-          "observations": 6
+          "score": -0.87572,
+          "coverage": 0.913,
+          "observations": 7
         }
       },
-      "text_pulse": 2.39524,
+      "text_pulse": 2.42445,
       "news_articles": {
         "all": [
+          {
+            "press": "한국경제",
+            "title": "오늘부터 3000만원 있어야 단일 레버리지 산다…보완책 효과 있을까",
+            "news_id": "ce241d857984232aca551e4136dd3359",
+            "published_at": "2026-07-31 08:08 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자",
+              "유안타증권"
+            ],
+            "sentiment_score": 0.56551,
+            "associated_companies": 3
+          },
           {
             "press": "이데일리",
             "title": "삼성전기, MLCC 가격 인상은 큰 사건…주가 조정은 충분-IBK",
@@ -255,6 +268,17 @@
             "associated_companies": 1
           },
           {
+            "press": "이데일리",
+            "title": "\"갈수록 얇고 견고\"…삼성이 공개한 '폴더블 혁신' 철학[모닝폰]",
+            "news_id": "b5921d032db4e304fac972f5617b44f8",
+            "published_at": "2026-07-31 07:43 KST",
+            "company_names": [
+              "삼성전자"
+            ],
+            "sentiment_score": 0.64551,
+            "associated_companies": 1
+          },
+          {
             "press": "동행미디어 시대",
             "title": "최태원, 하이닉스 주식 '최대치' 48억 매수…책임경영 의지 빛났다",
             "news_id": "d9574656ae82eda9482ef668f8815597",
@@ -372,6 +396,17 @@
             "associated_companies": 1
           },
           {
+            "press": "조세일보",
+            "title": "뉴욕증시, 반도체주 '폭등' 일제히 상승...하이닉스ADR 18%↑",
+            "news_id": "88ec36292d6607f3d40cda21772f895f",
+            "published_at": "2026-07-31 07:36 KST",
+            "company_names": [
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.66051,
+            "associated_companies": 1
+          },
+          {
             "press": "데일리안",
             "title": "잠실·서울역 복합개발 속도 내는데…수서·대전은 ‘난항’",
             "news_id": "89439872c2ca2ff9ce3e1c202b53b8ec",
@@ -465,6 +500,28 @@
             "associated_companies": 1
           },
           {
+            "press": "세계일보",
+            "title": "뉴욕증시, 반도체주 반등에 일제히 상승…하이닉스ADR 18%↑",
+            "news_id": "ee2512c5ca06fef7b2706a98a5813fa0",
+            "published_at": "2026-07-31 07:17 KST",
+            "company_names": [
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.66551,
+            "associated_companies": 1
+          },
+          {
+            "press": "머니투데이",
+            "title": "코스피 야간선물 '상한가 마감'…MS 실적발표 훈풍",
+            "news_id": "d5a7fd1cffa7e59c77f1fd03d013e102",
+            "published_at": "2026-07-31 07:16 KST",
+            "company_names": [
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.68051,
+            "associated_companies": 1
+          },
+          {
             "press": "아시아경제",
             "title": "10초에 1개씩 불티나게 팔린 이유 알겠네…라면에 우유 부었더니 '맵찔이'도 순삭[먹어보니]",
             "news_id": "8406b08fda95ab12a575e8420e89414d",
@@ -509,6 +566,18 @@
               "신한지주"
             ],
             "sentiment_score": 0.41551,
+            "associated_companies": 2
+          },
+          {
+            "press": "데일리안",
+            "title": "주식 안 했더니 수익률 1위?…폭락장에 뜬 ‘무손실 투자’",
+            "news_id": "02e61cc1cb927aed80aff230e3247582",
+            "published_at": "2026-07-31 07:06 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.47302,
             "associated_companies": 2
           },
           {
@@ -1144,81 +1213,22 @@
             ],
             "sentiment_score": 0.58552,
             "associated_companies": 1
-          },
-          {
-            "press": "머니투데이",
-            "title": "유럽서 국내만큼 팔린 기아 PV5…PBV 승부수 통했다",
-            "news_id": "7eb0ebfa98082fac7b02c2ff26a2c703",
-            "published_at": "2026-07-31 05:50 KST",
-            "company_names": [
-              "기아"
-            ],
-            "sentiment_score": 0.67051,
-            "associated_companies": 1
-          },
-          {
-            "press": "아시아경제",
-            "title": "[뉴욕증시]반도체주 강세에 일제히 상승…아마존 시간 외 6%↑",
-            "news_id": "8217e30cf90576222f21413fee83a320",
-            "published_at": "2026-07-31 05:48 KST",
-            "company_names": [
-              "SK하이닉스"
-            ],
-            "sentiment_score": 0.67551,
-            "associated_companies": 1
-          },
-          {
-            "press": "뉴스1",
-            "title": "MS가 살린 AI 랠리…나스닥 2.8%↑, 6거래일 만에 반등[뉴욕마감]",
-            "news_id": "1c73049230b8cc0b2f615379ee2bc79f",
-            "published_at": "2026-07-31 05:44 KST",
-            "company_names": [
-              "SK하이닉스"
-            ],
-            "sentiment_score": 0.60301,
-            "associated_companies": 1
-          },
-          {
-            "press": "파이낸셜뉴스",
-            "title": "\"실적 60조 내고 주가 폭락?\"...분통 터진 개미들 '국민과 주주' 창당 선언",
-            "news_id": "baf768463f228c1bbc3f70a64a56590d",
-            "published_at": "2026-07-31 05:40 KST",
-            "company_names": [
-              "NAVER",
-              "SK하이닉스"
-            ],
-            "sentiment_score": 0.25114,
-            "associated_companies": 2
-          },
-          {
-            "press": "서울경제",
-            "title": "한화그룹 수석부회장에 김동관…3세 승계 탄력[biz-플러스]",
-            "news_id": "687d8e894c2b6abd1ccd38e01d02fe44",
-            "published_at": "2026-07-31 05:31 KST",
-            "company_names": [
-              "한화",
-              "한화생명",
-              "한화시스템",
-              "한화에어로스페이스"
-            ],
-            "sentiment_score": 0.54239,
-            "associated_companies": 4
-          },
-          {
-            "press": "연합뉴스TV",
-            "title": "한화 김동관, 수석부회장 승진…후계자 공고화",
-            "news_id": "9f2251583a81a1d8d6b44efac0efb9f9",
-            "published_at": "2026-07-31 05:31 KST",
-            "company_names": [
-              "한화",
-              "한화비전",
-              "한화생명"
-            ],
-            "sentiment_score": 0.53635,
-            "associated_companies": 3
           }
         ],
         "hankyung": [
+          {
+            "press": "한국경제",
+            "title": "오늘부터 3000만원 있어야 단일 레버리지 산다…보완책 효과 있을까",
+            "news_id": "ce241d857984232aca551e4136dd3359",
+            "published_at": "2026-07-31 08:08 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자",
+              "유안타증권"
+            ],
+            "sentiment_score": 0.56551,
+            "associated_companies": 3
+          },
           {
             "press": "한국경제",
             "title": "\"삼성전자, HBM·파운드리 경쟁력 회복…주주환원 재확인\"-다올",
@@ -1323,9 +1333,9 @@
       "score": null,
       "components": {
         "news": {
-          "score": -1.01595,
-          "coverage": 0.7647,
-          "observations": 17
+          "score": -1.04903,
+          "coverage": 0.7429,
+          "observations": 18
         },
         "market": {
           "score": null,
@@ -1340,11 +1350,11 @@
         },
         "news_hankyung": {
           "score": -1.34455,
-          "coverage": 0.5,
-          "observations": 0
+          "coverage": 0.3333,
+          "observations": 1
         }
       },
-      "text_pulse": 1.20256,
+      "text_pulse": 1.19154,
       "news_articles": {
         "all": [
           {
@@ -1603,10 +1613,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 08:04 KST",
-      "latest_event": "2026-07-31 08:02 KST",
-      "observations": 370,
-      "active_minutes": 46
+      "latest_seen": "2026-07-31 08:10 KST",
+      "latest_event": "2026-07-31 08:08 KST",
+      "observations": 372,
+      "active_minutes": 48
     },
     "market": {
       "intraday": false,
@@ -1616,10 +1626,10 @@
       "status_record_available": false
     },
     "discussion": {
-      "latest_seen": "2026-07-31 08:05 KST",
-      "latest_event": "2026-07-31 08:05 KST",
-      "observations": 5546,
-      "active_minutes": 65
+      "latest_seen": "2026-07-31 08:09 KST",
+      "latest_event": "2026-07-31 08:08 KST",
+      "observations": 5662,
+      "active_minutes": 69
     }
   },
   "event_date": "2026-07-31",
@@ -1632,6 +1642,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 08:05 KST"
+    "attempted_at": "2026-07-31 08:10 KST"
   }
 }
