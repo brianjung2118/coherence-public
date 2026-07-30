@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30 15:45 KST",
+  "as_of": "2026-07-30 15:50 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -10,12 +10,12 @@
         "change_pct": -1.23,
         "prev_close": 5663.24
       },
-      "score": -1.15944,
+      "score": -1.11773,
       "components": {
         "news": {
-          "score": 0.28377,
-          "coverage": 0.8543,
-          "observations": 2336
+          "score": 0.3243,
+          "coverage": 0.8541,
+          "observations": 2341
         },
         "market": {
           "score": 0.10936,
@@ -24,17 +24,17 @@
           "observations": 915
         },
         "discussion": {
-          "score": -2.51544,
-          "coverage": 0.1326,
-          "observations": 44321
+          "score": -2.45229,
+          "coverage": 0.1318,
+          "observations": 46571
         },
         "news_hankyung": {
-          "score": 0.22087,
+          "score": 0.24612,
           "coverage": 0.8133,
           "observations": 74
         }
       },
-      "text_pulse": -1.58237,
+      "text_pulse": -1.52676,
       "news_articles": {
         "all": [
           {
@@ -57,6 +57,17 @@
               "삼성에스디에스"
             ],
             "sentiment_score": 0.67551,
+            "associated_companies": 1
+          },
+          {
+            "press": "데일리안",
+            "title": "롯데이노베이트, 2분기 영업익 124억원…전년비 54.3%↑",
+            "news_id": "bb6cf0e0647245dd0295edc1d442f4a8",
+            "published_at": "2026-07-30 15:42 KST",
+            "company_names": [
+              "롯데이노베이트"
+            ],
+            "sentiment_score": 0.69551,
             "associated_companies": 1
           },
           {
@@ -394,6 +405,17 @@
             "associated_companies": 1
           },
           {
+            "press": "뉴스1",
+            "title": "DL이앤씨, 2Q 영업익 1594억원…전년비 26% 증가(1보)",
+            "news_id": "a22412ff250238e915da9889c126dca7",
+            "published_at": "2026-07-30 15:34 KST",
+            "company_names": [
+              "DL이앤씨"
+            ],
+            "sentiment_score": 0.67551,
+            "associated_companies": 1
+          },
+          {
             "press": "뉴시스",
             "title": "[속보]SK하닉, 5.64% 내린 132만원선 마감…삼전도 0.72% 하락",
             "news_id": "ef1ca54aa06678df897a8ea1b240532b",
@@ -402,6 +424,17 @@
               "SK하이닉스"
             ],
             "sentiment_score": 0.30551,
+            "associated_companies": 1
+          },
+          {
+            "press": "국제신문",
+            "title": "[속보]“코스피, 최악 통과중”…대신증권‘5700→8200→9300’ 제시",
+            "news_id": "0bf29a8bae1dce9374b6fe8c432b76b3",
+            "published_at": "2026-07-30 15:32 KST",
+            "company_names": [
+              "대신증권"
+            ],
+            "sentiment_score": 0.44301,
             "associated_companies": 1
           },
           {
@@ -728,6 +761,17 @@
             ],
             "sentiment_score": 0.63552,
             "associated_companies": 2
+          },
+          {
+            "press": "EBN",
+            "title": "\"전 세대 4베이 판상형 적용\"…포스코이앤씨, '더샵 트리센트' 분양 돌입",
+            "news_id": "ba625de264b5348e8a1da25d8c87c294",
+            "published_at": "2026-07-30 15:22 KST",
+            "company_names": [
+              "POSCO홀딩스"
+            ],
+            "sentiment_score": 0.53302,
+            "associated_companies": 1
           },
           {
             "press": "한국경제",
@@ -1170,56 +1214,6 @@
             ],
             "sentiment_score": 0.68051,
             "associated_companies": 2
-          },
-          {
-            "press": "JTBC",
-            "title": "KT 2억원대 '유령 결제' 사건, 과징금 539억...SKT보다 적은 이유?",
-            "news_id": "dc9dbbaf506f48d1d1f1bc89fe324e70",
-            "published_at": "2026-07-30 15:15 KST",
-            "company_names": [
-              "KT",
-              "SK텔레콤"
-            ],
-            "sentiment_score": 0.22739,
-            "associated_companies": 2
-          },
-          {
-            "press": "뉴시스",
-            "title": "한화그룹, 김동관 수석부회장 체제로 강화…계열사 대표진도 새 판",
-            "news_id": "4d3a458a86ac7d0717154acab103cd9a",
-            "published_at": "2026-07-30 15:14 KST",
-            "company_names": [
-              "한화",
-              "한화생명",
-              "한화솔루션",
-              "한화시스템",
-              "한화에어로스페이스",
-              "한화오션"
-            ],
-            "sentiment_score": 0.5026,
-            "associated_companies": 6
-          },
-          {
-            "press": "뉴스1",
-            "title": "삼성전기 \"내년 MLCC 수요 7배↑ …10여개 고객사와 장기공급계약\"",
-            "news_id": "4d5089a50fbb90d25998087aec292679",
-            "published_at": "2026-07-30 15:14 KST",
-            "company_names": [
-              "삼성전기"
-            ],
-            "sentiment_score": 0.67051,
-            "associated_companies": 1
-          },
-          {
-            "press": "지디넷코리아",
-            "title": "다쏘시스템 CEO, 부산 방문…테크노 센터 개소",
-            "news_id": "634c438268c407689091afb8ff0b0d26",
-            "published_at": "2026-07-30 15:14 KST",
-            "company_names": [
-              "한화오션"
-            ],
-            "sentiment_score": 0.59052,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
@@ -2019,12 +2013,12 @@
         "change_pct": -2.7,
         "prev_close": 662.68
       },
-      "score": -0.93569,
+      "score": -0.91925,
       "components": {
         "news": {
-          "score": 0.12395,
-          "coverage": 0.7257,
-          "observations": 306
+          "score": 0.10993,
+          "coverage": 0.726,
+          "observations": 307
         },
         "market": {
           "score": -0.62339,
@@ -2033,19 +2027,30 @@
           "observations": 1802
         },
         "discussion": {
-          "score": -1.62166,
+          "score": -1.58177,
           "coverage": 0.1098,
           "observations": 16378
         },
         "news_hankyung": {
-          "score": 0.02263,
-          "coverage": 0.7222,
-          "observations": 18
+          "score": -0.02158,
+          "coverage": 0.7297,
+          "observations": 19
         }
       },
-      "text_pulse": -1.03979,
+      "text_pulse": -1.01787,
       "news_articles": {
         "all": [
+          {
+            "press": "한국경제",
+            "title": "DGIST, 로봇·의료·산업 아우른 AI대학 신설…글로벌 융합 인재 기른다",
+            "news_id": "7eb201ffc77acacd01428c8be119e994",
+            "published_at": "2026-07-30 15:47 KST",
+            "company_names": [
+              "디지아이"
+            ],
+            "sentiment_score": 0.59301,
+            "associated_companies": 1
+          },
           {
             "press": "블로터",
             "title": "삼성SDS, '직접투자·지분투자·DBO'로 AIDC 사업 다각화",
@@ -3170,20 +3175,20 @@
             ],
             "sentiment_score": 0.3744,
             "associated_companies": 9
-          },
-          {
-            "press": "서울경제",
-            "title": "바이오연료 9.7조 입찰 담합…공정위, 7개 업체에 최대 1.9조 과징금 예고",
-            "news_id": "c77047a3c12a8ab61483626acba961bd",
-            "published_at": "2026-07-30 13:50 KST",
-            "company_names": [
-              "KG에코솔루션"
-            ],
-            "sentiment_score": 0.22676,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
+          {
+            "press": "한국경제",
+            "title": "DGIST, 로봇·의료·산업 아우른 AI대학 신설…글로벌 융합 인재 기른다",
+            "news_id": "7eb201ffc77acacd01428c8be119e994",
+            "published_at": "2026-07-30 15:47 KST",
+            "company_names": [
+              "디지아이"
+            ],
+            "sentiment_score": 0.59301,
+            "associated_companies": 1
+          },
           {
             "press": "한국경제",
             "title": "경마공원 개장·K팝 돔 추진…영천, 산업·관광 도시로 재탄생한다",
@@ -3404,10 +3409,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-30 15:43 KST",
-      "latest_event": "2026-07-30 15:42 KST",
-      "observations": 3367,
-      "active_minutes": 282
+      "latest_seen": "2026-07-30 15:50 KST",
+      "latest_event": "2026-07-30 15:47 KST",
+      "observations": 3373,
+      "active_minutes": 286
     },
     "market": {
       "intraday": true,
@@ -3417,10 +3422,10 @@
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-30 15:45 KST",
+      "latest_seen": "2026-07-30 15:50 KST",
       "latest_event": "2026-07-30 15:32 KST",
-      "observations": 61369,
-      "active_minutes": 316
+      "observations": 63619,
+      "active_minutes": 321
     }
   },
   "event_date": "2026-07-30",
@@ -3433,6 +3438,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-30 15:45 KST"
+    "attempted_at": "2026-07-30 15:50 KST"
   }
 }
