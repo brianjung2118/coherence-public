@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30 17:35 KST",
+  "as_of": "2026-07-30 17:41 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -10,12 +10,12 @@
         "change_pct": -1.23,
         "prev_close": 5663.24
       },
-      "score": -1.24368,
+      "score": -1.24579,
       "components": {
         "news": {
-          "score": 0.13408,
-          "coverage": 0.8416,
-          "observations": 2837
+          "score": 0.12562,
+          "coverage": 0.8418,
+          "observations": 2841
         },
         "market": {
           "score": 0.10936,
@@ -29,14 +29,61 @@
           "observations": 53673
         },
         "news_hankyung": {
-          "score": 0.40976,
-          "coverage": 0.8037,
-          "observations": 91
+          "score": 0.16115,
+          "coverage": 0.81,
+          "observations": 95
         }
       },
-      "text_pulse": -1.69469,
+      "text_pulse": -1.69751,
       "news_articles": {
         "all": [
+          {
+            "press": "한국경제",
+            "title": "하나·신한금융, 잠실 복합시설에 4조 PF 추진",
+            "news_id": "0a23c41a4f7843543178e547b5431ed2",
+            "published_at": "2026-07-30 17:40 KST",
+            "company_names": [
+              "IPARK현대산업개발",
+              "신한지주",
+              "하나금융지주"
+            ],
+            "sentiment_score": 0.58552,
+            "associated_companies": 3
+          },
+          {
+            "press": "한국경제",
+            "title": "\"먹으면 꿀잠 자요\"…슬립푸드 제품 눈길",
+            "news_id": "dcd94023e14da61e03cc65a157011853",
+            "published_at": "2026-07-30 17:39 KST",
+            "company_names": [
+              "대원제약"
+            ],
+            "sentiment_score": 0.68551,
+            "associated_companies": 1
+          },
+          {
+            "press": "한국경제",
+            "title": "몸무게·체온 맞춘 매트리스·베개…침실로 들어온 첨단기술",
+            "news_id": "921c1dfe44c6f33d0fe708a2eb32026f",
+            "published_at": "2026-07-30 17:38 KST",
+            "company_names": [
+              "POSCO홀딩스"
+            ],
+            "sentiment_score": 0.62052,
+            "associated_companies": 1
+          },
+          {
+            "press": "한국경제",
+            "title": "[사설] 기업 도산 역대 최대…벼랑끝 내몰린 제조·건설업",
+            "news_id": "7a8da92b04ec2fa94129506e459708b2",
+            "published_at": "2026-07-30 17:37 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.24614,
+            "associated_companies": 2
+          },
           {
             "press": "한국경제",
             "title": "형지, 본사까지 매물로…웨어러블 로봇 '승부수'",
@@ -1167,53 +1214,56 @@
             ],
             "sentiment_score": 0.63052,
             "associated_companies": 3
-          },
-          {
-            "press": "이데일리",
-            "title": "카카오 노사, 임금협상 잠정 합의…창사 첫 파업 갈등 일단락 수순",
-            "news_id": "aa26d00a404faecaf064a9c25b1599ad",
-            "published_at": "2026-07-30 16:56 KST",
-            "company_names": [
-              "카카오"
-            ],
-            "sentiment_score": 0.51551,
-            "associated_companies": 1
-          },
-          {
-            "press": "데일리안",
-            "title": "[컨콜] LG전자 \"해상운임 3분기 정점…4분기부터 완화 전망\"",
-            "news_id": "b48b61eb432475a5fedda0f0c1841930",
-            "published_at": "2026-07-30 16:56 KST",
-            "company_names": [
-              "LG전자"
-            ],
-            "sentiment_score": 0.52302,
-            "associated_companies": 1
-          },
-          {
-            "press": "조선비즈",
-            "title": "[컨콜] LG전자 “LG마그나 멕시코 공장 매출 비중 40% 이상… 헝가리 내년 1월 양산”",
-            "news_id": "0a25e7faf87644261f6f647a8588ea69",
-            "published_at": "2026-07-30 16:55 KST",
-            "company_names": [
-              "LG전자"
-            ],
-            "sentiment_score": 0.67051,
-            "associated_companies": 1
-          },
-          {
-            "press": "서울신문",
-            "title": "LG전자 2분기 기준 매출·영업익 역대 최대…“로봇 액추에이터, 하반기 수주 활동 전개”",
-            "news_id": "44bc26a1553508ffdf34b42246de75bf",
-            "published_at": "2026-07-30 16:55 KST",
-            "company_names": [
-              "LG전자"
-            ],
-            "sentiment_score": 0.67051,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
+          {
+            "press": "한국경제",
+            "title": "하나·신한금융, 잠실 복합시설에 4조 PF 추진",
+            "news_id": "0a23c41a4f7843543178e547b5431ed2",
+            "published_at": "2026-07-30 17:40 KST",
+            "company_names": [
+              "IPARK현대산업개발",
+              "신한지주",
+              "하나금융지주"
+            ],
+            "sentiment_score": 0.58552,
+            "associated_companies": 3
+          },
+          {
+            "press": "한국경제",
+            "title": "\"먹으면 꿀잠 자요\"…슬립푸드 제품 눈길",
+            "news_id": "dcd94023e14da61e03cc65a157011853",
+            "published_at": "2026-07-30 17:39 KST",
+            "company_names": [
+              "대원제약"
+            ],
+            "sentiment_score": 0.68551,
+            "associated_companies": 1
+          },
+          {
+            "press": "한국경제",
+            "title": "몸무게·체온 맞춘 매트리스·베개…침실로 들어온 첨단기술",
+            "news_id": "921c1dfe44c6f33d0fe708a2eb32026f",
+            "published_at": "2026-07-30 17:38 KST",
+            "company_names": [
+              "POSCO홀딩스"
+            ],
+            "sentiment_score": 0.62052,
+            "associated_companies": 1
+          },
+          {
+            "press": "한국경제",
+            "title": "[사설] 기업 도산 역대 최대…벼랑끝 내몰린 제조·건설업",
+            "news_id": "7a8da92b04ec2fa94129506e459708b2",
+            "published_at": "2026-07-30 17:37 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.24614,
+            "associated_companies": 2
+          },
           {
             "press": "한국경제",
             "title": "형지, 본사까지 매물로…웨어러블 로봇 '승부수'",
@@ -3603,10 +3653,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-30 17:35 KST",
-      "latest_event": "2026-07-30 17:34 KST",
-      "observations": 4122,
-      "active_minutes": 337
+      "latest_seen": "2026-07-30 17:41 KST",
+      "latest_event": "2026-07-30 17:40 KST",
+      "observations": 4135,
+      "active_minutes": 342
     },
     "market": {
       "intraday": true,
@@ -3616,10 +3666,10 @@
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-30 17:35 KST",
+      "latest_seen": "2026-07-30 17:37 KST",
       "latest_event": "2026-07-30 17:17 KST",
       "observations": 73751,
-      "active_minutes": 385
+      "active_minutes": 387
     }
   },
   "event_date": "2026-07-30",
@@ -3632,6 +3682,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-30 17:35 KST"
+    "attempted_at": "2026-07-30 17:41 KST"
   }
 }
