@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-31 06:58 KST",
+  "as_of": "2026-07-31 07:03 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -13,9 +13,9 @@
       "score": null,
       "components": {
         "news": {
-          "score": -1.93847,
-          "coverage": 0.7663,
-          "observations": 107
+          "score": -1.95539,
+          "coverage": 0.7647,
+          "observations": 112
         },
         "market": {
           "score": null,
@@ -24,9 +24,9 @@
           "observations": 0
         },
         "discussion": {
-          "score": 3.68723,
-          "coverage": 0.217,
-          "observations": 2488
+          "score": 3.74968,
+          "coverage": 0.2152,
+          "observations": 2774
         },
         "news_hankyung": {
           "score": -2.88089,
@@ -34,9 +34,33 @@
           "observations": 2
         }
       },
-      "text_pulse": 1.812,
+      "text_pulse": 1.84799,
       "news_articles": {
         "all": [
+          {
+            "press": "서울경제",
+            "title": "홍콩 상장 앞둔 코리, 북경한미에 갚을 돈 두 배…한미약품 재무 리스크 되나 [재무 포커스]",
+            "news_id": "7020e0ab713d8f2b304c89b6e844ba3f",
+            "published_at": "2026-07-31 07:01 KST",
+            "company_names": [
+              "한미사이언스",
+              "한미약품"
+            ],
+            "sentiment_score": 0.30551,
+            "associated_companies": 2
+          },
+          {
+            "press": "뉴스1",
+            "title": "\"3개 매장 돌았는데 품절\"…제주 한정판 유니클로 티셔츠 '불티'",
+            "news_id": "7e3e5969a013a342cc5a62a018415061",
+            "published_at": "2026-07-31 06:50 KST",
+            "company_names": [
+              "롯데쇼핑",
+              "제주항공"
+            ],
+            "sentiment_score": 0.60176,
+            "associated_companies": 2
+          },
           {
             "press": "한국경제",
             "title": "주가 반토막 났는데…\"지금이 매수 기회\" 외친 이 종목 [종목+]",
@@ -64,6 +88,19 @@
               "SK텔레콤"
             ],
             "sentiment_score": 0.33635,
+            "associated_companies": 3
+          },
+          {
+            "press": "데일리안",
+            "title": "[오늘 부동산] 청약통장 가입자 이탈 지속…한 달만 10만명 줄어",
+            "news_id": "b98c310112471d287c3e747e740e6ee8",
+            "published_at": "2026-07-31 06:13 KST",
+            "company_names": [
+              "GS건설",
+              "삼성물산",
+              "현대건설"
+            ],
+            "sentiment_score": 0.44135,
             "associated_companies": 3
           },
           {
@@ -277,6 +314,17 @@
             ],
             "sentiment_score": 0.37926,
             "associated_companies": 2
+          },
+          {
+            "press": "경향신문",
+            "title": "인천공항 면세점 쇼핑앱 ‘에어스타’ 활성화 지원···과도한 마케팅 논란",
+            "news_id": "cc55423522daf4a0d45c43e2ffc050db",
+            "published_at": "2026-07-31 06:00 KST",
+            "company_names": [
+              "신세계"
+            ],
+            "sentiment_score": 0.36551,
+            "associated_companies": 1
           },
           {
             "press": "뉴시스",
@@ -1267,9 +1315,9 @@
           "observations": 0
         },
         "discussion": {
-          "score": 1.34932,
-          "coverage": 0.204,
-          "observations": 495
+          "score": 1.73105,
+          "coverage": 0.1934,
+          "observations": 667
         },
         "news_hankyung": {
           "score": -1.34455,
@@ -1277,7 +1325,7 @@
           "observations": 0
         }
       },
-      "text_pulse": 0.46218,
+      "text_pulse": 0.71667,
       "news_articles": {
         "all": [
           {
@@ -1402,10 +1450,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 06:45 KST",
-      "latest_event": "2026-07-31 06:42 KST",
-      "observations": 207,
-      "active_minutes": 27
+      "latest_seen": "2026-07-31 07:03 KST",
+      "latest_event": "2026-07-31 07:02 KST",
+      "observations": 246,
+      "active_minutes": 30
     },
     "market": {
       "intraday": false,
@@ -1415,10 +1463,10 @@
       "status_record_available": false
     },
     "discussion": {
-      "latest_seen": "2026-07-31 06:27 KST",
-      "latest_event": "2026-07-31 06:04 KST",
-      "observations": 2998,
-      "active_minutes": 44
+      "latest_seen": "2026-07-31 07:03 KST",
+      "latest_event": "2026-07-31 07:02 KST",
+      "observations": 3460,
+      "active_minutes": 47
     }
   },
   "event_date": "2026-07-31",
@@ -1431,6 +1479,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 06:58 KST"
+    "attempted_at": "2026-07-31 07:03 KST"
   }
 }
