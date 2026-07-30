@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30 22:55 KST",
+  "as_of": "2026-07-30 23:00 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -10,12 +10,12 @@
         "change_pct": -1.23,
         "prev_close": 5663.24
       },
-      "score": -1.13495,
+      "score": -1.13476,
       "components": {
         "news": {
-          "score": 0.11165,
+          "score": 0.11241,
           "coverage": 0.8429,
-          "observations": 3142
+          "observations": 3143
         },
         "market": {
           "score": 0.10936,
@@ -29,14 +29,26 @@
           "observations": 62328
         },
         "news_hankyung": {
-          "score": -0.49105,
-          "coverage": 0.8185,
-          "observations": 133
+          "score": -0.48044,
+          "coverage": 0.8196,
+          "observations": 134
         }
       },
-      "text_pulse": -1.54973,
+      "text_pulse": -1.54947,
       "news_articles": {
         "all": [
+          {
+            "press": "한국경제",
+            "title": "최태원 SK하닉 48억 줍줍에…곡소리 내던 개미들 '안도'",
+            "news_id": "8f8a61f538f602f7f10a5c680bebafdd",
+            "published_at": "2026-07-30 22:57 KST",
+            "company_names": [
+              "SK스퀘어",
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.51301,
+            "associated_companies": 2
+          },
           {
             "press": "한국경제",
             "title": "최태원, 하이닉스 주식 48억 매수",
@@ -1191,21 +1203,21 @@
             ],
             "sentiment_score": 0.63801,
             "associated_companies": 1
-          },
+          }
+        ],
+        "hankyung": [
           {
-            "press": "뉴시스",
-            "title": "최태원 회장, 직접 나섰다…SK하이닉스株 48억원어치 첫 매수 \"책임경영 의지\"",
-            "news_id": "93ffadef47a1b24c582f662afd8db7da",
-            "published_at": "2026-07-30 19:15 KST",
+            "press": "한국경제",
+            "title": "최태원 SK하닉 48억 줍줍에…곡소리 내던 개미들 '안도'",
+            "news_id": "8f8a61f538f602f7f10a5c680bebafdd",
+            "published_at": "2026-07-30 22:57 KST",
             "company_names": [
               "SK스퀘어",
               "SK하이닉스"
             ],
-            "sentiment_score": 0.59052,
+            "sentiment_score": 0.51301,
             "associated_companies": 2
-          }
-        ],
-        "hankyung": [
+          },
           {
             "press": "한국경제",
             "title": "최태원, 하이닉스 주식 48억 매수",
@@ -2392,17 +2404,6 @@
               "삼성전자"
             ],
             "sentiment_score": 0.56802,
-            "associated_companies": 1
-          },
-          {
-            "press": "한국경제",
-            "title": "\"장애 청년 자립 돕는다\"…더본코리아, '빽다방 난곡나눔점' 오픈",
-            "news_id": "aae9468978d80ccbf17ba6c52c83be53",
-            "published_at": "2026-07-30 08:57 KST",
-            "company_names": [
-              "더본코리아"
-            ],
-            "sentiment_score": 0.57302,
             "associated_companies": 1
           }
         ]
@@ -3890,10 +3891,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-30 22:50 KST",
-      "latest_event": "2026-07-30 22:49 KST",
-      "observations": 4675,
-      "active_minutes": 445
+      "latest_seen": "2026-07-30 22:58 KST",
+      "latest_event": "2026-07-30 22:57 KST",
+      "observations": 4676,
+      "active_minutes": 446
     },
     "market": {
       "intraday": true,
@@ -3919,6 +3920,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-30 22:55 KST"
+    "attempted_at": "2026-07-30 23:00 KST"
   }
 }
