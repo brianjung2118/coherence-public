@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30 19:36 KST",
+  "as_of": "2026-07-30 19:42 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -10,12 +10,12 @@
         "change_pct": -1.23,
         "prev_close": 5663.24
       },
-      "score": -1.25951,
+      "score": -1.2599,
       "components": {
         "news": {
-          "score": 0.15391,
-          "coverage": 0.8419,
-          "observations": 3065
+          "score": 0.15238,
+          "coverage": 0.842,
+          "observations": 3066
         },
         "market": {
           "score": 0.10936,
@@ -34,7 +34,7 @@
           "observations": 127
         }
       },
-      "text_pulse": -1.71581,
+      "text_pulse": -1.71632,
       "news_articles": {
         "all": [
           {
@@ -215,6 +215,17 @@
             "associated_companies": 1
           },
           {
+            "press": "KBS",
+            "title": "충청권에 392조 원 투자…지원방안 논의 시작",
+            "news_id": "a53c1afc3992c7d46e6601167663726d",
+            "published_at": "2026-07-30 19:24 KST",
+            "company_names": [
+              "삼성전기"
+            ],
+            "sentiment_score": 0.54302,
+            "associated_companies": 1
+          },
+          {
             "press": "동행미디어 시대",
             "title": "배재규 한투운용 대표 \"단일종목 레버리지, 하지 않는 게 최선\"",
             "news_id": "495e30883784a919ed3c097f268f4d0d",
@@ -330,7 +341,7 @@
           },
           {
             "press": "한국경제",
-            "title": "[속보] 최태원, SK하이닉스 주식 3620주 장내매수…48억 규모",
+            "title": "SK하이닉스 우상향 자신한 최태원…48억원어치 첫 장내 매수",
             "news_id": "52484ea9b479c1f728c083c07dfb7aab",
             "published_at": "2026-07-30 19:12 KST",
             "company_names": [
@@ -1184,23 +1195,12 @@
             ],
             "sentiment_score": 0.52802,
             "associated_companies": 1
-          },
-          {
-            "press": "비즈워치",
-            "title": "SK이노, 영업익 3.5조 '깜짝 실적'…'아픈 손가락' SK온의 반전",
-            "news_id": "8d681dc4ecbb01d9daf8cc4a1d00d1c1",
-            "published_at": "2026-07-30 18:10 KST",
-            "company_names": [
-              "SK이노베이션"
-            ],
-            "sentiment_score": 0.67051,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
           {
             "press": "한국경제",
-            "title": "[속보] 최태원, SK하이닉스 주식 3620주 장내매수…48억 규모",
+            "title": "SK하이닉스 우상향 자신한 최태원…48억원어치 첫 장내 매수",
             "news_id": "52484ea9b479c1f728c083c07dfb7aab",
             "published_at": "2026-07-30 19:12 KST",
             "company_names": [
@@ -3876,10 +3876,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-30 19:33 KST",
+      "latest_seen": "2026-07-30 19:42 KST",
       "latest_event": "2026-07-30 19:31 KST",
-      "observations": 4536,
-      "active_minutes": 413
+      "observations": 4537,
+      "active_minutes": 416
     },
     "market": {
       "intraday": true,
@@ -3889,10 +3889,10 @@
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-30 19:36 KST",
+      "latest_seen": "2026-07-30 19:38 KST",
       "latest_event": "2026-07-30 19:17 KST",
       "observations": 79926,
-      "active_minutes": 456
+      "active_minutes": 458
     }
   },
   "event_date": "2026-07-30",
@@ -3905,6 +3905,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-30 19:36 KST"
+    "attempted_at": "2026-07-30 19:42 KST"
   }
 }
