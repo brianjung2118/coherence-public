@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30 12:21 KST",
+  "as_of": "2026-07-30 12:31 KST",
   "event_date": "2026-07-30",
   "market_session": {
     "status": "trading",
@@ -8,35 +8,35 @@
   },
   "boards": {
     "KOSPI": {
-      "score": -1.087,
-      "text_pulse": -1.47413,
+      "score": -1.12021,
+      "text_pulse": -1.56821,
       "previous_final": -3.0681,
       "index": {
-        "price": 5605.2,
+        "price": 5632.5,
         "prev_close": 5663.24,
-        "change": -58.04,
-        "change_pct": -1.02,
-        "as_of": "2026-07-30 12:21 KST",
+        "change": -30.74,
+        "change_pct": -0.54,
+        "as_of": "2026-07-30 12:31 KST",
         "live": true
       },
       "components": {
         "discussion": {
-          "score": -2.19942,
-          "observations": 29621,
-          "coverage": 0.1395
+          "score": -2.34356,
+          "observations": 32417,
+          "coverage": 0.1386
         },
         "news": {
-          "score": -0.02355,
-          "observations": 1630,
-          "coverage": 0.8416
+          "score": -0.01749,
+          "observations": 1635,
+          "coverage": 0.8408
         },
         "news_hankyung": {
-          "score": -0.58853,
-          "observations": 49,
-          "coverage": 0.8257
+          "score": -0.60011,
+          "observations": 50,
+          "coverage": 0.8108
         },
         "market": {
-          "score": 0.0744,
+          "score": 0.22378,
           "confidence": 1.0,
           "observations": 915,
           "coverage": 1.0
@@ -44,6 +44,50 @@
       },
       "news_articles": {
         "all": [
+          {
+            "news_id": "62dad8cb593dc0b0f68a9f5a3b808b54",
+            "published_at": "2026-07-30 12:14 KST",
+            "press": "연합뉴스",
+            "title": "'펨토셀해킹' KT에 과징금 540억…악성코드 감염 추가조사 진행(종합)",
+            "sentiment_score": 0.20302,
+            "associated_companies": 1,
+            "company_names": [
+              "KT"
+            ]
+          },
+          {
+            "news_id": "b0c049c07c406bb6b3396a3fe57d30a0",
+            "published_at": "2026-07-30 12:14 KST",
+            "press": "문화일보",
+            "title": "개미 ‘패닉셀’… 오늘도 1.9조 던졌다",
+            "sentiment_score": 0.46052,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성전자"
+            ]
+          },
+          {
+            "news_id": "1eac152ac3cb63d94d23d06c99673437",
+            "published_at": "2026-07-30 12:12 KST",
+            "press": "문화일보",
+            "title": "‘개인정보 유출·무단결제’ KT에 과징금 540억",
+            "sentiment_score": 0.19051,
+            "associated_companies": 1,
+            "company_names": [
+              "LG유플러스"
+            ]
+          },
+          {
+            "news_id": "d63d85ea12d0e57f844ef3036a124ee1",
+            "published_at": "2026-07-30 12:12 KST",
+            "press": "문화일보",
+            "title": "삼전 2분기 영업익 89조…“메모리 70% 5년이상 계약” 피크아웃 대응",
+            "sentiment_score": 0.66551,
+            "associated_companies": 1,
+            "company_names": [
+              "삼성전자"
+            ]
+          },
           {
             "news_id": "3e6b9b186d85760b6e529c662998648e",
             "published_at": "2026-07-30 12:10 KST",
@@ -1197,54 +1241,6 @@
               "SK하이닉스",
               "삼성전자"
             ]
-          },
-          {
-            "news_id": "47e694fb68134a5d4ec0d08207105a30",
-            "published_at": "2026-07-30 11:41 KST",
-            "press": "문화일보",
-            "title": "널뛰기 장세에도 금융주는 선방… 기초체력·주주환원 덕분",
-            "sentiment_score": 0.56177,
-            "associated_companies": 4,
-            "company_names": [
-              "KB금융",
-              "신한지주",
-              "우리금융지주",
-              "하나금융지주"
-            ]
-          },
-          {
-            "news_id": "63eb530365888cb48ea173f2cc0485b6",
-            "published_at": "2026-07-30 11:41 KST",
-            "press": "서울경제",
-            "title": "LG엔솔, ESS 매출 4.6배 증가…하반기 출하량 50% 늘린다",
-            "sentiment_score": 0.68551,
-            "associated_companies": 1,
-            "company_names": [
-              "LG에너지솔루션"
-            ]
-          },
-          {
-            "news_id": "704131abf0fc7aad8b66d40b253f1ec6",
-            "published_at": "2026-07-30 11:41 KST",
-            "press": "뉴시스",
-            "title": "[컨콜] LG엔솔 \"하반기 ESS 생산 두 배\"…매출 20% 성장 자신",
-            "sentiment_score": 0.68551,
-            "associated_companies": 1,
-            "company_names": [
-              "LG에너지솔루션"
-            ]
-          },
-          {
-            "news_id": "7c166cc7f8fe97c5ba0996e3bc5ad3de",
-            "published_at": "2026-07-30 11:41 KST",
-            "press": "연합뉴스TV",
-            "title": "삼성전자 2분기 반도체 영업익 89.2조…완제품 첫 적자",
-            "sentiment_score": 0.45927,
-            "associated_companies": 2,
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ]
           }
         ],
         "hankyung": [
@@ -1770,15 +1766,15 @@
       }
     },
     "KOSDAQ": {
-      "score": -0.65483,
+      "score": -0.61891,
       "text_pulse": -0.67588,
       "previous_final": -1.81191,
       "index": {
-        "price": 646.35,
+        "price": 648.6,
         "prev_close": 662.68,
-        "change": -16.33,
-        "change_pct": -2.46,
-        "as_of": "2026-07-30 12:21 KST",
+        "change": -14.08,
+        "change_pct": -2.12,
+        "as_of": "2026-07-30 12:31 KST",
         "live": true
       },
       "components": {
@@ -1798,7 +1794,7 @@
           "coverage": 0.7273
         },
         "market": {
-          "score": -0.59167,
+          "score": -0.44797,
           "confidence": 1.0,
           "observations": 1802,
           "coverage": 1.0
@@ -3075,20 +3071,20 @@
   },
   "sources": {
     "discussion": {
-      "latest_event": "2026-07-30 12:17 KST",
-      "latest_seen": "2026-07-30 12:21 KST",
-      "active_minutes": 199,
-      "observations": 41041
+      "latest_event": "2026-07-30 12:20 KST",
+      "latest_seen": "2026-07-30 12:31 KST",
+      "active_minutes": 208,
+      "observations": 43837
     },
     "news": {
-      "latest_event": "2026-07-30 12:18 KST",
-      "latest_seen": "2026-07-30 12:21 KST",
-      "active_minutes": 189,
-      "observations": 2295
+      "latest_event": "2026-07-30 12:21 KST",
+      "latest_seen": "2026-07-30 12:31 KST",
+      "active_minutes": 193,
+      "observations": 2318
     },
     "market": {
       "latest_event": "2026-07-30",
-      "latest_seen": "2026-07-30 12:21 KST",
+      "latest_seen": "2026-07-30 12:31 KST",
       "active_minutes": null,
       "intraday": true,
       "status_record_available": true
