@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30 17:56 KST",
+  "as_of": "2026-07-30 18:02 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -10,12 +10,12 @@
         "change_pct": -1.23,
         "prev_close": 5663.24
       },
-      "score": -1.23661,
+      "score": -1.24641,
       "components": {
         "news": {
-          "score": 0.16234,
-          "coverage": 0.8416,
-          "observations": 2906
+          "score": 0.15777,
+          "coverage": 0.8418,
+          "observations": 2911
         },
         "market": {
           "score": 0.10936,
@@ -24,19 +24,44 @@
           "observations": 915
         },
         "discussion": {
-          "score": -2.60908,
-          "coverage": 0.1294,
-          "observations": 53673
+          "score": -2.62639,
+          "coverage": 0.1293,
+          "observations": 54021
         },
         "news_hankyung": {
-          "score": 0.11632,
-          "coverage": 0.8023,
-          "observations": 107
+          "score": 0.11801,
+          "coverage": 0.8015,
+          "observations": 110
         }
       },
-      "text_pulse": -1.68527,
+      "text_pulse": -1.69834,
       "news_articles": {
         "all": [
+          {
+            "press": "한국경제",
+            "title": "[부고] 권영자씨 별세 外",
+            "news_id": "2475b60a8b2ff0020847c4f5337c881d",
+            "published_at": "2026-07-30 17:59 KST",
+            "company_names": [
+              "삼성에스디에스"
+            ],
+            "sentiment_score": 0.25551,
+            "associated_companies": 1
+          },
+          {
+            "press": "한국경제",
+            "title": "한화家 3형제 모두 승진…김동관 수석부회장으로",
+            "news_id": "c4bb168525837904d1c4bd30fd5c90a8",
+            "published_at": "2026-07-30 17:56 KST",
+            "company_names": [
+              "한화",
+              "한화생명",
+              "한화시스템",
+              "한화에어로스페이스"
+            ],
+            "sentiment_score": 0.53739,
+            "associated_companies": 4
+          },
           {
             "press": "한국경제",
             "title": "\"캐릭터 풀네임은?\"…'퀴즈'로 리셀러 걸러낸다",
@@ -597,6 +622,26 @@
             "associated_companies": 1
           },
           {
+            "press": "EBN",
+            "title": "[1% 초고수의 선택] '네오티스' 사고 '셀트리온' 팔았다",
+            "news_id": "bbb730a208634290f4959b0699ae4d70",
+            "published_at": "2026-07-30 17:39 KST",
+            "company_names": [
+              "HD건설기계",
+              "HD현대일렉트릭",
+              "OCI홀딩스",
+              "SK스퀘어",
+              "금호타이어",
+              "두산퓨얼셀",
+              "미래에셋증권",
+              "삼성에스디에스",
+              "셀트리온",
+              "현대차"
+            ],
+            "sentiment_score": 0.42777,
+            "associated_companies": 10
+          },
+          {
             "press": "이데일리",
             "title": "한독, 상반기 영업익 ‘흑자전환’…신규 항암제 매출 본격화",
             "news_id": "b5306497fc87f62ff64b86eb6b9dced0",
@@ -618,6 +663,17 @@
             ],
             "sentiment_score": 0.68802,
             "associated_companies": 2
+          },
+          {
+            "press": "EBN",
+            "title": "[Telecom & Now] KT, 기업전용 5G에 '갤럭시 워치' 연동",
+            "news_id": "9a3b28c3ff0dbd95add24ed194b038e9",
+            "published_at": "2026-07-30 17:38 KST",
+            "company_names": [
+              "삼성전자"
+            ],
+            "sentiment_score": 0.57551,
+            "associated_companies": 1
           },
           {
             "press": "한국경제",
@@ -1175,54 +1231,34 @@
             ],
             "sentiment_score": 0.52885,
             "associated_companies": 3
-          },
-          {
-            "press": "동행미디어 시대",
-            "title": "DL이앤씨, 2분기 영업익 1594억원…주택 원가율 개선에 26% 증가",
-            "news_id": "9cccb40e4ae3e7a16b6aa6f369000554",
-            "published_at": "2026-07-30 17:20 KST",
-            "company_names": [
-              "DL이앤씨"
-            ],
-            "sentiment_score": 0.67551,
-            "associated_companies": 1
-          },
-          {
-            "press": "연합뉴스",
-            "title": "삼성전자, 반도체 스타트업 투자·기술 확보에 8천억 출자",
-            "news_id": "67566f7588a59ade2f3db37985c555d5",
-            "published_at": "2026-07-30 17:19 KST",
-            "company_names": [
-              "삼성전자"
-            ],
-            "sentiment_score": 0.59052,
-            "associated_companies": 1
-          },
-          {
-            "press": "아이뉴스24",
-            "title": "케이뱅크 \"두나무와 법인 입출금 거래 협의해 사업 확대\"",
-            "news_id": "78a77bfef008e172ecd49af4538bb3ad",
-            "published_at": "2026-07-30 17:19 KST",
-            "company_names": [
-              "NAVER",
-              "케이뱅크"
-            ],
-            "sentiment_score": 0.62051,
-            "associated_companies": 2
-          },
-          {
-            "press": "전자신문",
-            "title": "금투업계, 단일종목 레버리지 자율 규제…LP 거래량도 축소",
-            "news_id": "17d96b6fd5ed67a2d46dc1976eed9c48",
-            "published_at": "2026-07-30 17:18 KST",
-            "company_names": [
-              "한화생명"
-            ],
-            "sentiment_score": 0.40552,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
+          {
+            "press": "한국경제",
+            "title": "[부고] 권영자씨 별세 外",
+            "news_id": "2475b60a8b2ff0020847c4f5337c881d",
+            "published_at": "2026-07-30 17:59 KST",
+            "company_names": [
+              "삼성에스디에스"
+            ],
+            "sentiment_score": 0.25551,
+            "associated_companies": 1
+          },
+          {
+            "press": "한국경제",
+            "title": "한화家 3형제 모두 승진…김동관 수석부회장으로",
+            "news_id": "c4bb168525837904d1c4bd30fd5c90a8",
+            "published_at": "2026-07-30 17:56 KST",
+            "company_names": [
+              "한화",
+              "한화생명",
+              "한화시스템",
+              "한화에어로스페이스"
+            ],
+            "sentiment_score": 0.53739,
+            "associated_companies": 4
+          },
           {
             "press": "한국경제",
             "title": "\"캐릭터 풀네임은?\"…'퀴즈'로 리셀러 걸러낸다",
@@ -2401,11 +2437,11 @@
         "change_pct": -2.7,
         "prev_close": 662.68
       },
-      "score": -0.94426,
+      "score": -0.95929,
       "components": {
         "news": {
-          "score": 0.13098,
-          "coverage": 0.679,
+          "score": 0.11904,
+          "coverage": 0.68,
           "observations": 376
         },
         "market": {
@@ -2415,9 +2451,9 @@
           "observations": 1802
         },
         "discussion": {
-          "score": -1.64232,
+          "score": -1.6664,
           "coverage": 0.1112,
-          "observations": 19265
+          "observations": 19376
         },
         "news_hankyung": {
           "score": 0.1713,
@@ -2425,7 +2461,7 @@
           "observations": 26
         }
       },
-      "text_pulse": -1.05122,
+      "text_pulse": -1.07125,
       "news_articles": {
         "all": [
           {
@@ -2516,6 +2552,19 @@
             ],
             "sentiment_score": 0.50552,
             "associated_companies": 1
+          },
+          {
+            "press": "EBN",
+            "title": "[1% 초고수의 선택] '네오티스' 사고 '셀트리온' 팔았다",
+            "news_id": "bbb730a208634290f4959b0699ae4d70",
+            "published_at": "2026-07-30 17:39 KST",
+            "company_names": [
+              "RFHIC",
+              "네오티스",
+              "디앤디파마텍"
+            ],
+            "sentiment_score": 0.43468,
+            "associated_companies": 3
           },
           {
             "press": "동아사이언스",
@@ -3535,17 +3584,6 @@
             ],
             "sentiment_score": 0.53426,
             "associated_companies": 2
-          },
-          {
-            "press": "전자신문",
-            "title": "조정일 코나아이 회장 “사회 현상 꿰뚫는 선구안으로 메탈카드·지역화폐 사업 등 일궈”",
-            "news_id": "1f42fefd6d9c1c4757e61b58ec428b73",
-            "published_at": "2026-07-30 15:37 KST",
-            "company_names": [
-              "코나아이"
-            ],
-            "sentiment_score": 0.57801,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
@@ -3836,10 +3874,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-30 17:56 KST",
-      "latest_event": "2026-07-30 17:55 KST",
-      "observations": 4240,
-      "active_minutes": 354
+      "latest_seen": "2026-07-30 18:02 KST",
+      "latest_event": "2026-07-30 18:00 KST",
+      "observations": 4257,
+      "active_minutes": 360
     },
     "market": {
       "intraday": true,
@@ -3849,10 +3887,10 @@
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-30 17:37 KST",
-      "latest_event": "2026-07-30 17:17 KST",
-      "observations": 73751,
-      "active_minutes": 387
+      "latest_seen": "2026-07-30 18:02 KST",
+      "latest_event": "2026-07-30 18:02 KST",
+      "observations": 74241,
+      "active_minutes": 389
     }
   },
   "event_date": "2026-07-30",
@@ -3865,6 +3903,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-30 17:56 KST"
+    "attempted_at": "2026-07-30 18:02 KST"
   }
 }
