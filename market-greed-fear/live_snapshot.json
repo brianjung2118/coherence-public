@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30 19:08 KST",
+  "as_of": "2026-07-30 19:13 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -10,12 +10,12 @@
         "change_pct": -1.23,
         "prev_close": 5663.24
       },
-      "score": -1.28087,
+      "score": -1.28476,
       "components": {
         "news": {
-          "score": 0.11839,
-          "coverage": 0.8411,
-          "observations": 3032
+          "score": 0.10546,
+          "coverage": 0.8414,
+          "observations": 3041
         },
         "market": {
           "score": 0.10936,
@@ -24,19 +24,137 @@
           "observations": 915
         },
         "discussion": {
-          "score": -2.67562,
+          "score": -2.67693,
           "coverage": 0.1285,
-          "observations": 56823
+          "observations": 56855
         },
         "news_hankyung": {
-          "score": -0.38988,
-          "coverage": 0.8127,
-          "observations": 126
+          "score": -0.3703,
+          "coverage": 0.8133,
+          "observations": 127
         }
       },
-      "text_pulse": -1.74428,
+      "text_pulse": -1.74946,
       "news_articles": {
         "all": [
+          {
+            "press": "한국경제",
+            "title": "[속보] 최태원 회장, SK하이닉스 주식 3620주 장내 매수",
+            "news_id": "52484ea9b479c1f728c083c07dfb7aab",
+            "published_at": "2026-07-30 19:12 KST",
+            "company_names": [
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.50052,
+            "associated_companies": 1
+          },
+          {
+            "press": "이데일리",
+            "title": "[속보]최태원 회장, SK하이닉스 3620주 매수",
+            "news_id": "eecfe992e8e252a2aafa1157d19bfb2c",
+            "published_at": "2026-07-30 19:11 KST",
+            "company_names": [
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.52051,
+            "associated_companies": 1
+          },
+          {
+            "press": "한국일보",
+            "title": "'K뷰티 전통 강자' 아모레·LG생건, 중국 대신 북미·유럽 잡고 '실적 반등'",
+            "news_id": "2715cd21fe5a989ce1e0ffec29ecaa93",
+            "published_at": "2026-07-30 19:10 KST",
+            "company_names": [
+              "아모레퍼시픽"
+            ],
+            "sentiment_score": 0.67551,
+            "associated_companies": 1
+          },
+          {
+            "press": "서울경제",
+            "title": "실증용 클로이드 양산…LG전자, ‘피지컬 AI’ 속도전",
+            "news_id": "3bc050987b9ae4668e6f9fc4925980eb",
+            "published_at": "2026-07-30 19:10 KST",
+            "company_names": [
+              "LG전자"
+            ],
+            "sentiment_score": 0.67051,
+            "associated_companies": 1
+          },
+          {
+            "press": "연합뉴스TV",
+            "title": "시원한 컨테이너에 간식차 등장…산업현장 '여름나기'",
+            "news_id": "976c9ff68db94259e67178f5c305d769",
+            "published_at": "2026-07-30 19:10 KST",
+            "company_names": [
+              "HD현대중공업",
+              "S-Oil",
+              "현대차"
+            ],
+            "sentiment_score": 0.43218,
+            "associated_companies": 3
+          },
+          {
+            "press": "SBS Biz",
+            "title": "[이슈체크] \"메모리 가격, 감산이 만든 환상\"…반도체 급락, 예견된 미래였나? (이주완 애널리스트)",
+            "news_id": "1838a0624a3de60ed6548ae872aab184",
+            "published_at": "2026-07-30 19:06 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.45552,
+            "associated_companies": 2
+          },
+          {
+            "press": "SBS Biz",
+            "title": "[집중진단] \"코스피 진짜 바닥은 어디인가?\"…사흘 새 17% 폭락, 반대매매 급증",
+            "news_id": "b38ff8c79892ab62acbbef69e990143f",
+            "published_at": "2026-07-30 19:06 KST",
+            "company_names": [
+              "SK하이닉스",
+              "iM금융지주",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.40552,
+            "associated_companies": 3
+          },
+          {
+            "press": "JTBC",
+            "title": "[더in터뷰] 국민 원성 산 '레버리지 ETF'…정부 대책엔 \"너무 늦었다\"",
+            "news_id": "e8d44cfef5dd69dd5bcc3726904ac212",
+            "published_at": "2026-07-30 19:04 KST",
+            "company_names": [
+              "SK",
+              "SK하이닉스",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.33427,
+            "associated_companies": 3
+          },
+          {
+            "press": "JIBS",
+            "title": "코스피, 사흘째 약세.. 7월 34% 급락 '세계 최대 낙폭'",
+            "news_id": "0bb82b1f186e9bc2504ece9150313f18",
+            "published_at": "2026-07-30 19:03 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.35552,
+            "associated_companies": 2
+          },
+          {
+            "press": "세계일보",
+            "title": "반도체가 다한 실적… 中 공세 대항·DX 적자 개선 숙제 [뉴스 투데이]",
+            "news_id": "15421a216a9d115cad0bbb41dd5df8cf",
+            "published_at": "2026-07-30 19:02 KST",
+            "company_names": [
+              "삼성전자"
+            ],
+            "sentiment_score": 0.54551,
+            "associated_companies": 1
+          },
           {
             "press": "한국경제",
             "title": "[단독] 레버리지ETF 변동성 키웠나…외국인 '초고빈도매매' 조사",
@@ -1087,128 +1205,20 @@
             ],
             "sentiment_score": 0.48052,
             "associated_companies": 2
-          },
-          {
-            "press": "YTN",
-            "title": "일본 강진에도 항공편 정상...여행업계는 '여진 변수' 촉각",
-            "news_id": "d841eeb0f45bea6934f09a1bda6a29de",
-            "published_at": "2026-07-30 18:03 KST",
-            "company_names": [
-              "대한항공",
-              "트리니티항공",
-              "하나투어"
-            ],
-            "sentiment_score": 0.46802,
-            "associated_companies": 3
-          },
-          {
-            "press": "kbc광주방송",
-            "title": "'역대급 실적'도 못 막은 반도체 투매…하이닉스 사흘 새 27% 폭락",
-            "news_id": "f9860341d348ebb5b492d670aa0badc1",
-            "published_at": "2026-07-30 18:03 KST",
-            "company_names": [
-              "SK하이닉스",
-              "대신증권",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.32135,
-            "associated_companies": 3
-          },
-          {
-            "press": "EBN",
-            "title": "삼성전자, 반도체·DX 스타트업에 8000억원 출자",
-            "news_id": "b31063298d68fa7058d0d1c0533a6044",
-            "published_at": "2026-07-30 18:02 KST",
-            "company_names": [
-              "삼성전자"
-            ],
-            "sentiment_score": 0.65051,
-            "associated_companies": 1
-          },
-          {
-            "press": "이데일리",
-            "title": "한은, '디지털토큰 결제' 실거래 성공…국가 간 결제 평균 1분 20초",
-            "news_id": "1d25d371569d7e7a0a6d992e23925802",
-            "published_at": "2026-07-30 18:02 KST",
-            "company_names": [
-              "신한지주"
-            ],
-            "sentiment_score": 0.67051,
-            "associated_companies": 1
-          },
-          {
-            "press": "서울경제",
-            "title": "공시 족쇄 풀리는 하닉, 주주환원 카드 꺼내나",
-            "news_id": "c4870131aac755fae01a3e5d5662dd90",
-            "published_at": "2026-07-30 18:02 KST",
-            "company_names": [
-              "SK하이닉스"
-            ],
-            "sentiment_score": 0.47802,
-            "associated_companies": 1
-          },
-          {
-            "press": "아이뉴스24",
-            "title": "해외서 날아오른 불닭…삼양식품 '3조 클럽' 코앞",
-            "news_id": "0a9c4f6a4b5bb91b66e28d88af4af719",
-            "published_at": "2026-07-30 18:01 KST",
-            "company_names": [
-              "CJ제일제당",
-              "농심",
-              "삼양식품"
-            ],
-            "sentiment_score": 0.66218,
-            "associated_companies": 3
-          },
-          {
-            "press": "데일리안",
-            "title": "SK하이닉스 단 1주에…무기한선물 800억원 청산",
-            "news_id": "4e437bb091d015dbb404861ab33c1de6",
-            "published_at": "2026-07-30 18:01 KST",
-            "company_names": [
-              "SK하이닉스",
-              "신한지주"
-            ],
-            "sentiment_score": 0.22989,
-            "associated_companies": 2
-          },
-          {
-            "press": "한국일보",
-            "title": "폭락 청구서 이제부터… 반대매매 340% 급증, 33조 빚투도 위태",
-            "news_id": "6ee8e8fd1edb206d0e2503849e2ed363",
-            "published_at": "2026-07-30 18:01 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.29551,
-            "associated_companies": 2
-          },
-          {
-            "press": "디지털타임스",
-            "title": "LG유플러스, 여름 휴가철 로밍·멤버십 혜택 확대…와이파이 연결되면 통화 무료",
-            "news_id": "720e65b598c5b83082182c18ab9f5e6f",
-            "published_at": "2026-07-30 18:01 KST",
-            "company_names": [
-              "LG유플러스"
-            ],
-            "sentiment_score": 0.62552,
-            "associated_companies": 1
-          },
-          {
-            "press": "전자신문",
-            "title": "한국은행, 글로벌 토큰화 결제 첫 실거래…국가 간 이체 1분 20초 만에 완료",
-            "news_id": "97b2cb59f0989f2611ab4d55a35eaea3",
-            "published_at": "2026-07-30 18:01 KST",
-            "company_names": [
-              "신한지주",
-              "하나금융지주"
-            ],
-            "sentiment_score": 0.64302,
-            "associated_companies": 2
           }
         ],
         "hankyung": [
+          {
+            "press": "한국경제",
+            "title": "[속보] 최태원 회장, SK하이닉스 주식 3620주 장내 매수",
+            "news_id": "52484ea9b479c1f728c083c07dfb7aab",
+            "published_at": "2026-07-30 19:12 KST",
+            "company_names": [
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.50052,
+            "associated_companies": 1
+          },
           {
             "press": "한국경제",
             "title": "[단독] 레버리지ETF 변동성 키웠나…외국인 '초고빈도매매' 조사",
@@ -2389,18 +2399,6 @@
             ],
             "sentiment_score": 0.62552,
             "associated_companies": 1
-          },
-          {
-            "press": "한국경제",
-            "title": "\"한국항공우주, 2분기 실적 시장 기대치 밑돌아…목표가↓\"-대신",
-            "news_id": "e0ff3ed75a1e3595599fd5ba114128bb",
-            "published_at": "2026-07-30 08:42 KST",
-            "company_names": [
-              "대신증권",
-              "한국항공우주"
-            ],
-            "sentiment_score": 0.37301,
-            "associated_companies": 2
           }
         ]
       },
@@ -2415,11 +2413,11 @@
         "change_pct": -2.7,
         "prev_close": 662.68
       },
-      "score": -0.96545,
+      "score": -0.9678,
       "components": {
         "news": {
-          "score": 0.13839,
-          "coverage": 0.6824,
+          "score": 0.13769,
+          "coverage": 0.683,
           "observations": 391
         },
         "market": {
@@ -2429,9 +2427,9 @@
           "observations": 1802
         },
         "discussion": {
-          "score": -1.6884,
+          "score": -1.69275,
           "coverage": 0.1103,
-          "observations": 21088
+          "observations": 21121
         },
         "news_hankyung": {
           "score": 0.09844,
@@ -2439,9 +2437,31 @@
           "observations": 29
         }
       },
-      "text_pulse": -1.07947,
+      "text_pulse": -1.08261,
       "news_articles": {
         "all": [
+          {
+            "press": "SBS Biz",
+            "title": "[집중진단] \"코스피 진짜 바닥은 어디인가?\"…사흘 새 17% 폭락, 반대매매 급증",
+            "news_id": "b38ff8c79892ab62acbbef69e990143f",
+            "published_at": "2026-07-30 19:06 KST",
+            "company_names": [
+              "LS증권"
+            ],
+            "sentiment_score": 0.42301,
+            "associated_companies": 1
+          },
+          {
+            "press": "JTBC",
+            "title": "[더in터뷰] 국민 원성 산 '레버리지 ETF'…정부 대책엔 \"너무 늦었다\"",
+            "news_id": "e8d44cfef5dd69dd5bcc3726904ac212",
+            "published_at": "2026-07-30 19:04 KST",
+            "company_names": [
+              "LS증권"
+            ],
+            "sentiment_score": 0.35052,
+            "associated_companies": 1
+          },
           {
             "press": "이데일리",
             "title": "씨이랩, GPU 장비 발주 착수…AI 컴퓨팅 자원 사업 본격화",
@@ -3542,28 +3562,6 @@
             ],
             "sentiment_score": 0.69551,
             "associated_companies": 1
-          },
-          {
-            "press": "뉴시스",
-            "title": "KB국민카드, '캐치! 티니핑' 담은 카드 2종 선봬",
-            "news_id": "4bbe521e11a3a28bbbe9debf5e5165f6",
-            "published_at": "2026-07-30 15:56 KST",
-            "company_names": [
-              "SAMG엔터"
-            ],
-            "sentiment_score": 0.54302,
-            "associated_companies": 1
-          },
-          {
-            "press": "뉴스1",
-            "title": "삼성, '청년희망배움터' 개강식",
-            "news_id": "ecac11de31842ba0a285450cb6a9efd1",
-            "published_at": "2026-07-30 15:55 KST",
-            "company_names": [
-              "멀티캠퍼스"
-            ],
-            "sentiment_score": 0.52302,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
@@ -3888,10 +3886,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-30 19:05 KST",
-      "latest_event": "2026-07-30 19:00 KST",
-      "observations": 4486,
-      "active_minutes": 406
+      "latest_seen": "2026-07-30 19:13 KST",
+      "latest_event": "2026-07-30 19:12 KST",
+      "observations": 4496,
+      "active_minutes": 408
     },
     "market": {
       "intraday": true,
@@ -3901,10 +3899,10 @@
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-30 19:08 KST",
-      "latest_event": "2026-07-30 19:03 KST",
-      "observations": 78780,
-      "active_minutes": 432
+      "latest_seen": "2026-07-30 19:13 KST",
+      "latest_event": "2026-07-30 19:08 KST",
+      "observations": 78845,
+      "active_minutes": 436
     }
   },
   "event_date": "2026-07-30",
@@ -3917,6 +3915,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-30 19:08 KST"
+    "attempted_at": "2026-07-30 19:13 KST"
   }
 }
