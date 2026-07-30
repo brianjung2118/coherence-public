@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30 17:25 KST",
+  "as_of": "2026-07-30 17:30 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -10,12 +10,12 @@
         "change_pct": -1.23,
         "prev_close": 5663.24
       },
-      "score": -1.23393,
+      "score": -1.23404,
       "components": {
         "news": {
-          "score": 0.13299,
+          "score": 0.13285,
           "coverage": 0.8432,
-          "observations": 2814
+          "observations": 2815
         },
         "market": {
           "score": 0.10936,
@@ -24,19 +24,30 @@
           "observations": 915
         },
         "discussion": {
-          "score": -2.58904,
-          "coverage": 0.1302,
-          "observations": 51552
+          "score": -2.58918,
+          "coverage": 0.1299,
+          "observations": 52251
         },
         "news_hankyung": {
-          "score": 0.44653,
-          "coverage": 0.8048,
-          "observations": 87
+          "score": 0.41432,
+          "coverage": 0.8057,
+          "observations": 88
         }
       },
-      "text_pulse": -1.6817,
+      "text_pulse": -1.68184,
       "news_articles": {
         "all": [
+          {
+            "press": "한국경제",
+            "title": "영풍, 미국선 \"친환경 제련소\" 소개하더니…정작 오염 정보는 '비공개'",
+            "news_id": "0b3d51a0fdab99e0190828c94b04bc8c",
+            "published_at": "2026-07-30 17:29 KST",
+            "company_names": [
+              "영풍"
+            ],
+            "sentiment_score": 0.23552,
+            "associated_companies": 1
+          },
           {
             "press": "노컷뉴스",
             "title": "국민성장펀드, 'OLED 초격차' LG디스플레이에 1.5조 저리대출",
@@ -1192,21 +1203,20 @@
             ],
             "sentiment_score": 0.57302,
             "associated_companies": 1
-          },
-          {
-            "press": "파이낸셜뉴스",
-            "title": "배재규 \"단일종목 레버리지 ETF, 자연사시켜야\"",
-            "news_id": "6e2cecfe272b24af460789c84b326577",
-            "published_at": "2026-07-30 16:50 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.30427,
-            "associated_companies": 2
           }
         ],
         "hankyung": [
+          {
+            "press": "한국경제",
+            "title": "영풍, 미국선 \"친환경 제련소\" 소개하더니…정작 오염 정보는 '비공개'",
+            "news_id": "0b3d51a0fdab99e0190828c94b04bc8c",
+            "published_at": "2026-07-30 17:29 KST",
+            "company_names": [
+              "영풍"
+            ],
+            "sentiment_score": 0.23552,
+            "associated_companies": 1
+          },
           {
             "press": "한국경제",
             "title": "삼성·현대 시공능력평가 1·2위…GS도 약진",
@@ -2157,12 +2167,12 @@
         "change_pct": -2.7,
         "prev_close": 662.68
       },
-      "score": -0.91352,
+      "score": -0.9124,
       "components": {
         "news": {
-          "score": 0.25406,
-          "coverage": 0.6788,
-          "observations": 362
+          "score": 0.25843,
+          "coverage": 0.6791,
+          "observations": 363
         },
         "market": {
           "score": -0.62339,
@@ -2171,9 +2181,9 @@
           "observations": 1802
         },
         "discussion": {
-          "score": -1.64237,
+          "score": -1.64232,
           "coverage": 0.1112,
-          "observations": 19264
+          "observations": 19265
         },
         "news_hankyung": {
           "score": 0.11526,
@@ -2181,7 +2191,7 @@
           "observations": 22
         }
       },
-      "text_pulse": -1.01023,
+      "text_pulse": -1.00874,
       "news_articles": {
         "all": [
           {
@@ -2259,6 +2269,17 @@
               "강스템바이오텍"
             ],
             "sentiment_score": 0.55302,
+            "associated_companies": 1
+          },
+          {
+            "press": "EBN",
+            "title": "OLED 초격차·HBM 공급망에 1조5000억원…국민성장펀드 지원",
+            "news_id": "a029700981fe8dc6eb528c50c8119b0f",
+            "published_at": "2026-07-30 16:57 KST",
+            "company_names": [
+              "테크윙"
+            ],
+            "sentiment_score": 0.70051,
             "associated_companies": 1
           },
           {
@@ -3294,17 +3315,6 @@
             ],
             "sentiment_score": 0.63052,
             "associated_companies": 1
-          },
-          {
-            "press": "kbc광주방송",
-            "title": "[속보] 국민 56% \"이재명 정부, 부동산정책 잘못하고 있다\"…서울 거주자 51% \"6개월 뒤 집값 상승\"",
-            "news_id": "c2701a117b6f3ed2946d21bd93725fc4",
-            "published_at": "2026-07-30 15:12 KST",
-            "company_names": [
-              "엠브레인"
-            ],
-            "sentiment_score": 0.45552,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
@@ -3562,9 +3572,9 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-30 17:25 KST",
-      "latest_event": "2026-07-30 17:24 KST",
-      "observations": 4076,
+      "latest_seen": "2026-07-30 17:30 KST",
+      "latest_event": "2026-07-30 17:29 KST",
+      "observations": 4081,
       "active_minutes": 333
     },
     "market": {
@@ -3575,10 +3585,10 @@
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-30 17:25 KST",
+      "latest_seen": "2026-07-30 17:30 KST",
       "latest_event": "2026-07-30 17:17 KST",
-      "observations": 71629,
-      "active_minutes": 375
+      "observations": 72329,
+      "active_minutes": 380
     }
   },
   "event_date": "2026-07-30",
@@ -3591,6 +3601,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-30 17:25 KST"
+    "attempted_at": "2026-07-30 17:30 KST"
   }
 }
