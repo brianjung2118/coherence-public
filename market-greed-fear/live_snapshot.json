@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30 18:56 KST",
+  "as_of": "2026-07-30 19:02 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -10,12 +10,12 @@
         "change_pct": -1.23,
         "prev_close": 5663.24
       },
-      "score": -1.27437,
+      "score": -1.27788,
       "components": {
         "news": {
-          "score": 0.11951,
-          "coverage": 0.841,
-          "observations": 3030
+          "score": 0.11839,
+          "coverage": 0.8411,
+          "observations": 3032
         },
         "market": {
           "score": 0.10936,
@@ -24,19 +24,43 @@
           "observations": 915
         },
         "discussion": {
-          "score": -2.66318,
-          "coverage": 0.1288,
-          "observations": 56064
+          "score": -2.66964,
+          "coverage": 0.1287,
+          "observations": 56466
         },
         "news_hankyung": {
-          "score": -0.38389,
-          "coverage": 0.8102,
-          "observations": 124
+          "score": -0.38988,
+          "coverage": 0.8127,
+          "observations": 126
         }
       },
-      "text_pulse": -1.73562,
+      "text_pulse": -1.7403,
       "news_articles": {
         "all": [
+          {
+            "press": "한국경제",
+            "title": "[단독] 레버리지ETF 변동성 키웠나…외국인 '초고빈도매매' 조사",
+            "news_id": "105add142e7bfb58f9d79f87449e62de",
+            "published_at": "2026-07-30 19:00 KST",
+            "company_names": [
+              "유안타증권",
+              "한국금융지주"
+            ],
+            "sentiment_score": 0.34676,
+            "associated_companies": 2
+          },
+          {
+            "press": "한국경제",
+            "title": "[단독] 0.001초만에 수천번 주문…증시 흔드는 '초단타 알고리즘'",
+            "news_id": "20cd50a59f2c3c1c5d69ed863649b8b4",
+            "published_at": "2026-07-30 19:00 KST",
+            "company_names": [
+              "유안타증권",
+              "한국금융지주"
+            ],
+            "sentiment_score": 0.33552,
+            "associated_companies": 2
+          },
           {
             "press": "조선비즈",
             "title": "LG디스플레이, 국민성장펀드 1조5000억원 확보… OLED에 3조원 투자",
@@ -1182,32 +1206,33 @@
             ],
             "sentiment_score": 0.64302,
             "associated_companies": 2
-          },
-          {
-            "press": "헤럴드경제",
-            "title": "토큰화된 지급준비금으로 은행 간 이체…한은, ‘프로젝트 아고라’ 실거래 테스트 참여",
-            "news_id": "ba398a73ee7f666d7faa09cf7777928a",
-            "published_at": "2026-07-30 18:01 KST",
-            "company_names": [
-              "하나금융지주"
-            ],
-            "sentiment_score": 0.55051,
-            "associated_companies": 1
-          },
-          {
-            "press": "서울경제",
-            "title": "국경 넘는 돈, 1분20초면 끝…한은 ‘토큰 결제’ 실거래 성공",
-            "news_id": "c56005aa84f44a3996d55e3c6f2d2abe",
-            "published_at": "2026-07-30 18:01 KST",
-            "company_names": [
-              "신한지주",
-              "하나금융지주"
-            ],
-            "sentiment_score": 0.67051,
-            "associated_companies": 2
           }
         ],
         "hankyung": [
+          {
+            "press": "한국경제",
+            "title": "[단독] 레버리지ETF 변동성 키웠나…외국인 '초고빈도매매' 조사",
+            "news_id": "105add142e7bfb58f9d79f87449e62de",
+            "published_at": "2026-07-30 19:00 KST",
+            "company_names": [
+              "유안타증권",
+              "한국금융지주"
+            ],
+            "sentiment_score": 0.34676,
+            "associated_companies": 2
+          },
+          {
+            "press": "한국경제",
+            "title": "[단독] 0.001초만에 수천번 주문…증시 흔드는 '초단타 알고리즘'",
+            "news_id": "20cd50a59f2c3c1c5d69ed863649b8b4",
+            "published_at": "2026-07-30 19:00 KST",
+            "company_names": [
+              "유안타증권",
+              "한국금융지주"
+            ],
+            "sentiment_score": 0.33552,
+            "associated_companies": 2
+          },
           {
             "press": "한국경제",
             "title": "한화, 43세 김동관 수석부회장 체제로…3형제 계열사 책임경영",
@@ -2376,28 +2401,6 @@
             ],
             "sentiment_score": 0.37301,
             "associated_companies": 2
-          },
-          {
-            "press": "한국경제",
-            "title": "대웅제약 톡신 ‘나보타’, 쿠웨이트 첫 공급…중동 7개국 진출",
-            "news_id": "24b50bd463e4d40ccb88f9efa5dcd6f8",
-            "published_at": "2026-07-30 08:42 KST",
-            "company_names": [
-              "대웅제약"
-            ],
-            "sentiment_score": 0.70552,
-            "associated_companies": 1
-          },
-          {
-            "press": "한국경제",
-            "title": "한국은 반도체만 '세계 1위'…\"중국이 나머지 싹쓸이했다\" [도쿄나우]",
-            "news_id": "15abca69a240f1d799ecab64d89d4cef",
-            "published_at": "2026-07-30 08:40 KST",
-            "company_names": [
-              "LG에너지솔루션"
-            ],
-            "sentiment_score": 0.51551,
-            "associated_companies": 1
           }
         ]
       },
@@ -2412,7 +2415,7 @@
         "change_pct": -2.7,
         "prev_close": 662.68
       },
-      "score": -0.95547,
+      "score": -0.96703,
       "components": {
         "news": {
           "score": 0.13839,
@@ -2426,9 +2429,9 @@
           "observations": 1802
         },
         "discussion": {
-          "score": -1.66845,
-          "coverage": 0.1104,
-          "observations": 20411
+          "score": -1.69156,
+          "coverage": 0.1106,
+          "observations": 20577
         },
         "news_hankyung": {
           "score": 0.09844,
@@ -2436,7 +2439,7 @@
           "observations": 29
         }
       },
-      "text_pulse": -1.06617,
+      "text_pulse": -1.08158,
       "news_articles": {
         "all": [
           {
@@ -3885,10 +3888,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-30 18:55 KST",
-      "latest_event": "2026-07-30 18:52 KST",
-      "observations": 4470,
-      "active_minutes": 401
+      "latest_seen": "2026-07-30 19:03 KST",
+      "latest_event": "2026-07-30 19:00 KST",
+      "observations": 4485,
+      "active_minutes": 406
     },
     "market": {
       "intraday": true,
@@ -3898,10 +3901,10 @@
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-30 18:40 KST",
-      "latest_event": "2026-07-30 18:13 KST",
-      "observations": 77329,
-      "active_minutes": 424
+      "latest_seen": "2026-07-30 19:02 KST",
+      "latest_event": "2026-07-30 19:02 KST",
+      "observations": 77906,
+      "active_minutes": 426
     }
   },
   "event_date": "2026-07-30",
@@ -3914,6 +3917,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-30 18:56 KST"
+    "attempted_at": "2026-07-30 19:02 KST"
   }
 }
