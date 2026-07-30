@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-31 08:26 KST",
+  "as_of": "2026-07-31 08:31 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -13,9 +13,9 @@
       "score": null,
       "components": {
         "news": {
-          "score": -0.85575,
-          "coverage": 0.7992,
-          "observations": 219
+          "score": -0.80233,
+          "coverage": 0.8,
+          "observations": 220
         },
         "market": {
           "score": null,
@@ -24,9 +24,9 @@
           "observations": 0
         },
         "discussion": {
-          "score": 3.96068,
-          "coverage": 0.2099,
-          "observations": 4716
+          "score": 3.88071,
+          "coverage": 0.2053,
+          "observations": 6708
         },
         "news_hankyung": {
           "score": -0.87572,
@@ -34,7 +34,7 @@
           "observations": 7
         }
       },
-      "text_pulse": 2.3552,
+      "text_pulse": 2.3197,
       "news_articles": {
         "all": [
           {
@@ -361,6 +361,18 @@
               "삼성전자"
             ],
             "sentiment_score": 0.61302,
+            "associated_companies": 2
+          },
+          {
+            "press": "EBN",
+            "title": "美 반도체주 반등에 삼성·SK하이닉스도 급등…프리마켓 장 초반 15%대 급등",
+            "news_id": "00c8f3cdc163220158f47761b99fd10f",
+            "published_at": "2026-07-31 08:07 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.67051,
             "associated_companies": 2
           },
           {
@@ -1220,17 +1232,6 @@
             ],
             "sentiment_score": 0.68051,
             "associated_companies": 1
-          },
-          {
-            "press": "연합뉴스",
-            "title": "'AI 투자손실' 헤지펀드 시추에이셔널, 시타델에 자산 매각",
-            "news_id": "5098a24eac8245a8d87d308e2c14254c",
-            "published_at": "2026-07-31 06:17 KST",
-            "company_names": [
-              "SK하이닉스"
-            ],
-            "sentiment_score": 0.40802,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
@@ -1698,10 +1699,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 08:23 KST",
+      "latest_seen": "2026-07-31 08:30 KST",
       "latest_event": "2026-07-31 08:21 KST",
-      "observations": 418,
-      "active_minutes": 53
+      "observations": 419,
+      "active_minutes": 54
     },
     "market": {
       "intraday": false,
@@ -1711,10 +1712,10 @@
       "status_record_available": false
     },
     "discussion": {
-      "latest_seen": "2026-07-31 08:25 KST",
+      "latest_seen": "2026-07-31 08:29 KST",
       "latest_event": "2026-07-31 08:19 KST",
-      "observations": 5925,
-      "active_minutes": 81
+      "observations": 7917,
+      "active_minutes": 79
     }
   },
   "event_date": "2026-07-31",
@@ -1727,6 +1728,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 08:26 KST"
+    "attempted_at": "2026-07-31 08:31 KST"
   }
 }
