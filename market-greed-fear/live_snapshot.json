@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-30 21:27 KST",
+  "as_of": "2026-07-30 21:33 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -10,12 +10,12 @@
         "change_pct": -1.23,
         "prev_close": 5663.24
       },
-      "score": -1.18349,
+      "score": -1.17289,
       "components": {
         "news": {
-          "score": 0.13374,
-          "coverage": 0.8439,
-          "observations": 3121
+          "score": 0.13363,
+          "coverage": 0.8437,
+          "observations": 3122
         },
         "market": {
           "score": 0.10936,
@@ -24,9 +24,9 @@
           "observations": 915
         },
         "discussion": {
-          "score": -2.48852,
-          "coverage": 0.1272,
-          "observations": 60602
+          "score": -2.46728,
+          "coverage": 0.1275,
+          "observations": 61200
         },
         "news_hankyung": {
           "score": -0.35573,
@@ -34,9 +34,20 @@
           "observations": 130
         }
       },
-      "text_pulse": -1.61443,
+      "text_pulse": -1.60031,
       "news_articles": {
         "all": [
+          {
+            "press": "EBN",
+            "title": "한은, 토큰화 원화 2000만원 이체…'프로젝트 아고라' 테스트",
+            "news_id": "2c2b9dcbe174355e52f1bd37ab9d4c61",
+            "published_at": "2026-07-30 21:08 KST",
+            "company_names": [
+              "하나금융지주"
+            ],
+            "sentiment_score": 0.57051,
+            "associated_companies": 1
+          },
           {
             "press": "연합뉴스TV",
             "title": "\"무서워 주식 앱 못 켜\"…개인 투자자들 '비명'",
@@ -1197,17 +1208,6 @@
             ],
             "sentiment_score": 0.24489,
             "associated_companies": 2
-          },
-          {
-            "press": "서울경제",
-            "title": "김종건 목동8단지 조합장 “14개 단지 중 첫 입주 목표” [인터뷰]",
-            "news_id": "e6399e0ed4c8491a096807cf67e7cf14",
-            "published_at": "2026-07-30 18:40 KST",
-            "company_names": [
-              "대우건설"
-            ],
-            "sentiment_score": 0.55551,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
@@ -3892,10 +3892,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-30 21:21 KST",
+      "latest_seen": "2026-07-30 21:31 KST",
       "latest_event": "2026-07-30 21:17 KST",
-      "observations": 4634,
-      "active_minutes": 440
+      "observations": 4635,
+      "active_minutes": 442
     },
     "market": {
       "intraday": true,
@@ -3905,10 +3905,10 @@
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-30 21:27 KST",
+      "latest_seen": "2026-07-30 21:33 KST",
       "latest_event": "2026-07-30 21:09 KST",
-      "observations": 83752,
-      "active_minutes": 518
+      "observations": 84350,
+      "active_minutes": 523
     }
   },
   "event_date": "2026-07-30",
@@ -3921,6 +3921,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-30 21:27 KST"
+    "attempted_at": "2026-07-30 21:33 KST"
   }
 }
