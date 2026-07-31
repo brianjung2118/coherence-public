@@ -1,32 +1,32 @@
 {
-  "as_of": "2026-07-31 13:56 KST",
+  "as_of": "2026-07-31 14:01 KST",
   "boards": {
     "KOSPI": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 13:56 KST",
-        "price": 6502.2,
-        "change": 908.64,
-        "change_pct": 16.24,
+        "as_of": "2026-07-31 14:01 KST",
+        "price": 6495.7,
+        "change": 902.14,
+        "change_pct": 16.13,
         "prev_close": 5593.56
       },
-      "score": 2.55948,
+      "score": 2.56431,
       "components": {
         "news": {
-          "score": 0.49925,
-          "coverage": 0.8334,
-          "observations": 1059
+          "score": 0.50202,
+          "coverage": 0.8335,
+          "observations": 1060
         },
         "market": {
-          "score": 4.21257,
+          "score": 4.17524,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 915
         },
         "discussion": {
-          "score": 2.76304,
-          "coverage": 0.1681,
-          "observations": 33566
+          "score": 2.78999,
+          "coverage": 0.1673,
+          "observations": 34199
         },
         "news_hankyung": {
           "score": -0.10127,
@@ -34,7 +34,7 @@
           "observations": 30
         }
       },
-      "text_pulse": 2.00844,
+      "text_pulse": 2.02733,
       "news_articles": {
         "all": [
           {
@@ -463,6 +463,17 @@
               "SK오션플랜트"
             ],
             "sentiment_score": 0.68551,
+            "associated_companies": 1
+          },
+          {
+            "press": "EBN",
+            "title": "코오롱글로벌, 도시정비·비주택 수주 확대…실적 턴어라운드 청신호",
+            "news_id": "70cfbcfce45e19856c1f82df5d7da2d3",
+            "published_at": "2026-07-31 13:34 KST",
+            "company_names": [
+              "코오롱글로벌"
+            ],
+            "sentiment_score": 0.69051,
             "associated_companies": 1
           },
           {
@@ -1170,18 +1181,6 @@
             ],
             "sentiment_score": 0.64551,
             "associated_companies": 1
-          },
-          {
-            "press": "문화일보",
-            "title": "“AI 치킨게임 계속”… 미국 빅테크 실적이 말했다",
-            "news_id": "76b4fee0f55d62660d58c3fb458b44ef",
-            "published_at": "2026-07-31 12:01 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.51926,
-            "associated_companies": 2
           }
         ],
         "hankyung": [
@@ -1524,13 +1523,13 @@
     "KOSDAQ": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 13:56 KST",
-        "price": 712.3,
-        "change": 67.52,
+        "as_of": "2026-07-31 14:01 KST",
+        "price": 712.27,
+        "change": 67.49,
         "change_pct": 10.47,
         "prev_close": 644.78
       },
-      "score": 2.27767,
+      "score": 2.28883,
       "components": {
         "news": {
           "score": 0.76426,
@@ -1538,15 +1537,15 @@
           "observations": 169
         },
         "market": {
-          "score": 3.43211,
+          "score": 3.43248,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 1801
         },
         "discussion": {
-          "score": 2.45715,
-          "coverage": 0.1315,
-          "observations": 13592
+          "score": 2.47929,
+          "coverage": 0.1313,
+          "observations": 13727
         },
         "news_hankyung": {
           "score": -0.19745,
@@ -1554,7 +1553,7 @@
           "observations": 6
         }
       },
-      "text_pulse": 1.89285,
+      "text_pulse": 1.90761,
       "news_articles": {
         "all": [
           {
@@ -2798,23 +2797,23 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 13:56 KST",
-      "latest_event": "2026-07-31 13:52 KST",
-      "observations": 1785,
-      "active_minutes": 180
+      "latest_seen": "2026-07-31 14:01 KST",
+      "latest_event": "2026-07-31 14:00 KST",
+      "observations": 1790,
+      "active_minutes": 182
     },
     "market": {
       "intraday": true,
-      "latest_seen": "2026-07-31 13:56 KST",
+      "latest_seen": "2026-07-31 14:01 KST",
       "latest_event": "2026-07-31",
       "active_minutes": null,
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-31 13:30 KST",
-      "latest_event": "2026-07-31 13:05 KST",
-      "observations": 47678,
-      "active_minutes": 225
+      "latest_seen": "2026-07-31 14:01 KST",
+      "latest_event": "2026-07-31 14:01 KST",
+      "observations": 48475,
+      "active_minutes": 226
     }
   },
   "event_date": "2026-07-31",
@@ -2827,6 +2826,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 13:56 KST"
+    "attempted_at": "2026-07-31 14:01 KST"
   }
 }
