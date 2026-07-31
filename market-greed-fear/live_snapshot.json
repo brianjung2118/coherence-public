@@ -1,42 +1,53 @@
 {
-  "as_of": "2026-07-31 10:16 KST",
+  "as_of": "2026-07-31 10:21 KST",
   "boards": {
     "KOSPI": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 10:16 KST",
-        "price": 6505.36,
-        "change": 911.8,
-        "change_pct": 16.3,
+        "as_of": "2026-07-31 10:21 KST",
+        "price": 6516.89,
+        "change": 923.33,
+        "change_pct": 16.51,
         "prev_close": 5593.56
       },
-      "score": 2.8766,
+      "score": 2.90129,
       "components": {
         "news": {
-          "score": 0.39703,
-          "coverage": 0.8415,
-          "observations": 631
+          "score": 0.38821,
+          "coverage": 0.8416,
+          "observations": 632
         },
         "market": {
-          "score": 4.08131,
+          "score": 4.13921,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 915
         },
         "discussion": {
-          "score": 3.51403,
-          "coverage": 0.1793,
-          "observations": 17114
+          "score": 3.53887,
+          "coverage": 0.1794,
+          "observations": 17376
         },
         "news_hankyung": {
-          "score": -1.13903,
-          "coverage": 0.8627,
-          "observations": 18
+          "score": -1.23156,
+          "coverage": 0.8654,
+          "observations": 19
         }
       },
-      "text_pulse": 2.47503,
+      "text_pulse": 2.48865,
       "news_articles": {
         "all": [
+          {
+            "press": "한국경제",
+            "title": "신장식 \"당권 경쟁에 혁신당 쓰지 말라...조국은 '전략자산'\"",
+            "news_id": "07c1e3f207feb55889eb722745e9d51f",
+            "published_at": "2026-07-31 10:18 KST",
+            "company_names": [
+              "SBS"
+            ],
+            "sentiment_score": 0.34052,
+            "associated_companies": 1
+          },
           {
             "press": "헤럴드경제",
             "title": "네이버TV, 14년 만에 역사 속으로…숏폼 서비스로 콘텐츠 이전",
@@ -1209,23 +1220,20 @@
             ],
             "sentiment_score": 0.53051,
             "associated_companies": 1
-          },
-          {
-            "press": "서울신문",
-            "title": "[서울데이터랩]코스피 6,228.14로 급반등…반도체 대형주 급등에 외국인 순매수",
-            "news_id": "0dc4ebc421bcd14ed3c836702f2d2f93",
-            "published_at": "2026-07-31 09:46 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전기",
-              "삼성전자",
-              "현대차"
-            ],
-            "sentiment_score": 0.63364,
-            "associated_companies": 4
           }
         ],
         "hankyung": [
+          {
+            "press": "한국경제",
+            "title": "신장식 \"당권 경쟁에 혁신당 쓰지 말라...조국은 '전략자산'\"",
+            "news_id": "07c1e3f207feb55889eb722745e9d51f",
+            "published_at": "2026-07-31 10:18 KST",
+            "company_names": [
+              "SBS"
+            ],
+            "sentiment_score": 0.34052,
+            "associated_companies": 1
+          },
           {
             "press": "한국경제",
             "title": "\"절반 이상 1030세대가 샀다\"…MZ 몰린 '여권폰' 돌풍",
@@ -1456,13 +1464,13 @@
     "KOSDAQ": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 10:16 KST",
-        "price": 708.42,
-        "change": 63.64,
-        "change_pct": 9.87,
+        "as_of": "2026-07-31 10:21 KST",
+        "price": 708.18,
+        "change": 63.4,
+        "change_pct": 9.83,
         "prev_close": 644.78
       },
-      "score": 2.20703,
+      "score": 2.2047,
       "components": {
         "news": {
           "score": 0.46368,
@@ -1470,15 +1478,15 @@
           "observations": 102
         },
         "market": {
-          "score": 3.25821,
+          "score": 3.25049,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 1801
         },
         "discussion": {
-          "score": 2.55312,
-          "coverage": 0.1395,
-          "observations": 7625
+          "score": 2.55231,
+          "coverage": 0.1394,
+          "observations": 7664
         },
         "news_hankyung": {
           "score": -0.64226,
@@ -1486,7 +1494,7 @@
           "observations": 5
         }
       },
-      "text_pulse": 1.85664,
+      "text_pulse": 1.8561,
       "news_articles": {
         "all": [
           {
@@ -2705,23 +2713,23 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 10:15 KST",
-      "latest_event": "2026-07-31 10:12 KST",
-      "observations": 1084,
-      "active_minutes": 106
+      "latest_seen": "2026-07-31 10:19 KST",
+      "latest_event": "2026-07-31 10:18 KST",
+      "observations": 1085,
+      "active_minutes": 107
     },
     "market": {
       "intraday": true,
-      "latest_seen": "2026-07-31 10:16 KST",
+      "latest_seen": "2026-07-31 10:21 KST",
       "latest_event": "2026-07-31",
       "active_minutes": null,
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-31 10:16 KST",
-      "latest_event": "2026-07-31 10:11 KST",
-      "observations": 24967,
-      "active_minutes": 121
+      "latest_seen": "2026-07-31 10:21 KST",
+      "latest_event": "2026-07-31 10:14 KST",
+      "observations": 25268,
+      "active_minutes": 126
     }
   },
   "event_date": "2026-07-31",
@@ -2734,6 +2742,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 10:16 KST"
+    "attempted_at": "2026-07-31 10:21 KST"
   }
 }
