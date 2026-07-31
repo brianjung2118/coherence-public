@@ -1,42 +1,143 @@
 {
-  "as_of": "2026-07-31 08:57 KST",
+  "as_of": "2026-07-31 09:03 KST",
   "boards": {
     "KOSPI": {
       "index": {
-        "live": false,
-        "as_of": null,
-        "price": 5593.56,
-        "change": null,
-        "change_pct": 0.0,
+        "live": true,
+        "as_of": "2026-07-31 09:02 KST",
+        "price": 6354.2,
+        "change": 760.64,
+        "change_pct": 13.6,
         "prev_close": 5593.56
       },
-      "score": null,
+      "score": 2.74573,
       "components": {
         "news": {
-          "score": -0.15475,
-          "coverage": 0.8152,
-          "observations": 290
+          "score": -0.13506,
+          "coverage": 0.8161,
+          "observations": 298
         },
         "market": {
-          "score": null,
-          "coverage": 0.0,
-          "confidence": 0.0,
-          "observations": 0
+          "score": 3.52154,
+          "coverage": 1.0,
+          "confidence": 1.0,
+          "observations": 915
         },
         "discussion": {
-          "score": 3.88071,
-          "coverage": 0.2053,
-          "observations": 6708
+          "score": 3.79822,
+          "coverage": 0.1948,
+          "observations": 7979
         },
         "news_hankyung": {
-          "score": -0.87572,
-          "coverage": 0.913,
-          "observations": 7
+          "score": -0.88367,
+          "coverage": 0.9167,
+          "observations": 8
         }
       },
-      "text_pulse": 2.53555,
+      "text_pulse": 2.48713,
       "news_articles": {
         "all": [
+          {
+            "press": "조선비즈",
+            "title": "신한證 “키움증권, 사상 최대 실적…역대 최대 주주환원 기대”",
+            "news_id": "9fd3ec6f62a5c086696ef920c06b3b3a",
+            "published_at": "2026-07-31 09:00 KST",
+            "company_names": [
+              "신한지주",
+              "키움증권"
+            ],
+            "sentiment_score": 0.55302,
+            "associated_companies": 2
+          },
+          {
+            "press": "헤럴드경제",
+            "title": "거제 최초 하이엔드 브랜드 ‘센트레빌 아스테리움 거제’ 분양",
+            "news_id": "a5d3e22ed199328aca81b5e0e19c9f85",
+            "published_at": "2026-07-31 09:00 KST",
+            "company_names": [
+              "동부건설"
+            ],
+            "sentiment_score": 0.60052,
+            "associated_companies": 1
+          },
+          {
+            "press": "한국경제",
+            "title": "김택진이 상하이까지 날아간 까닭…'아이온2'에 건 엔씨의 중국 승부",
+            "news_id": "38d82c9922ab95d3fe37164ccb3738bb",
+            "published_at": "2026-07-31 08:59 KST",
+            "company_names": [
+              "NC"
+            ],
+            "sentiment_score": 0.57801,
+            "associated_companies": 1
+          },
+          {
+            "press": "조선비즈",
+            "title": "대우건설, 연천군 숲에서 플로깅 봉사활동",
+            "news_id": "66b33655a4bc28b72dd329c83c645d0e",
+            "published_at": "2026-07-31 08:59 KST",
+            "company_names": [
+              "대우건설"
+            ],
+            "sentiment_score": 0.55051,
+            "associated_companies": 1
+          },
+          {
+            "press": "아시아경제",
+            "title": "진시스템, 경보전기 지분 인수…AIDC 전력 인프라 시장 진출",
+            "news_id": "3fe48b0df843ab3371c260969be14c6b",
+            "published_at": "2026-07-31 08:58 KST",
+            "company_names": [
+              "한국전력"
+            ],
+            "sentiment_score": 0.59801,
+            "associated_companies": 1
+          },
+          {
+            "press": "이데일리",
+            "title": "진시스템, 경보전기 인수…AI 데이터센터 전력 인프라 시장 진출",
+            "news_id": "749c3fd00ae42adf9c48ed48c39f95ea",
+            "published_at": "2026-07-31 08:57 KST",
+            "company_names": [
+              "한국전력"
+            ],
+            "sentiment_score": 0.59801,
+            "associated_companies": 1
+          },
+          {
+            "press": "뉴스1",
+            "title": "SKT, 피지컬 AI 스타트업 8개사 손잡고 생태계 확장",
+            "news_id": "b7629a03381499ff2a47d976ecaba352",
+            "published_at": "2026-07-31 08:57 KST",
+            "company_names": [
+              "SK텔레콤",
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.64301,
+            "associated_companies": 2
+          },
+          {
+            "press": "뉴스1",
+            "title": "NC AI, AI 국책사업 선정…스스로 일하는 AI 확보 나서",
+            "news_id": "9d7da473bf791750e4338d2fed644ae9",
+            "published_at": "2026-07-31 08:55 KST",
+            "company_names": [
+              "NC"
+            ],
+            "sentiment_score": 0.66551,
+            "associated_companies": 1
+          },
+          {
+            "press": "뉴시스",
+            "title": "기아, 알바니아·짐바브웨 '그린라이트 프로젝트' 완료…\"현지 자립 지원\"",
+            "news_id": "1c42b0e56fb432f326a924ee764f56c2",
+            "published_at": "2026-07-31 08:51 KST",
+            "company_names": [
+              "기아"
+            ],
+            "sentiment_score": 0.65051,
+            "associated_companies": 1
+          },
           {
             "press": "조선비즈",
             "title": "무더위 속 겨울 아우터 쇼핑…LF몰, 역시즌 라이브 거래액 쑥",
@@ -671,6 +772,17 @@
             "associated_companies": 4
           },
           {
+            "press": "EBN",
+            "title": "[Tech & Now] 삼성전자, 갤럭시 Z 시리즈 사전 혜택 '종료 D-3'…1030세대 예약 인기 등",
+            "news_id": "92f44e13adc01ed59bcb21971b31d423",
+            "published_at": "2026-07-31 08:26 KST",
+            "company_names": [
+              "삼성전자"
+            ],
+            "sentiment_score": 0.55551,
+            "associated_companies": 1
+          },
+          {
             "press": "이데일리",
             "title": "삼성전자, 제주서 가정용 히트펌프 보일러 공급…고효율 난방시장 공략",
             "news_id": "9acf520a39c64cbe114fc2049089a51f",
@@ -1097,137 +1209,20 @@
             ],
             "sentiment_score": 0.65051,
             "associated_companies": 1
-          },
-          {
-            "press": "연합뉴스",
-            "title": "키움증권 \"LG엔솔, ESS 마진 불확실성 지속될듯…목표가 하향\"",
-            "news_id": "dfdf6315743579f61b796357234ea153",
-            "published_at": "2026-07-31 08:12 KST",
-            "company_names": [
-              "LG에너지솔루션",
-              "키움증권"
-            ],
-            "sentiment_score": 0.32927,
-            "associated_companies": 2
-          },
-          {
-            "press": "이데일리",
-            "title": "셀트리온, 이탈리아 신규 제품 직판 본격화…옴리클로 처방 확대",
-            "news_id": "307f8d6b9aa948e9aa68eb682622860a",
-            "published_at": "2026-07-31 08:11 KST",
-            "company_names": [
-              "셀트리온"
-            ],
-            "sentiment_score": 0.67551,
-            "associated_companies": 1
-          },
-          {
-            "press": "아시아경제",
-            "title": "[단독]중복상장 막았더니…코스피 기업공개 25년만에 최저",
-            "news_id": "5f2427ecc36b9e4a4f87ce7d5297a055",
-            "published_at": "2026-07-31 08:10 KST",
-            "company_names": [
-              "케이뱅크"
-            ],
-            "sentiment_score": 0.38051,
-            "associated_companies": 1
-          },
-          {
-            "press": "뉴스1",
-            "title": "전 직원이 무려 17일간 여름휴가 떠난다…'꿈의 직장' 어디",
-            "news_id": "8a8820bcd4414632a5077195306e809a",
-            "published_at": "2026-07-31 08:10 KST",
-            "company_names": [
-              "HD현대"
-            ],
-            "sentiment_score": 0.48801,
-            "associated_companies": 1
-          },
-          {
-            "press": "한국경제",
-            "title": "오늘부터 '3000만원' 있어야 단일 레버리지 산다…효과 있을까",
-            "news_id": "ce241d857984232aca551e4136dd3359",
-            "published_at": "2026-07-31 08:08 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자",
-              "유안타증권"
-            ],
-            "sentiment_score": 0.56551,
-            "associated_companies": 3
-          },
-          {
-            "press": "지디넷코리아",
-            "title": "적자 터널 빠져나온 삼성SDI, 2분기 영업익 2038억원",
-            "news_id": "37b97c2a04248b9165bb5c39d2b618de",
-            "published_at": "2026-07-31 08:08 KST",
-            "company_names": [
-              "삼성SDI"
-            ],
-            "sentiment_score": 0.67551,
-            "associated_companies": 1
-          },
-          {
-            "press": "헤럴드경제",
-            "title": "韓-칠레 기업인, 핵심광물·디지털·친환경에너지 등 고도화 논의",
-            "news_id": "6f18271d6f186febdf2f775ad2d91863",
-            "published_at": "2026-07-31 08:08 KST",
-            "company_names": [
-              "LG전자",
-              "LS",
-              "NAVER",
-              "OCI홀딩스",
-              "POSCO홀딩스",
-              "SK바이오팜",
-              "한화오션",
-              "현대차"
-            ],
-            "sentiment_score": 0.57176,
-            "associated_companies": 8
-          },
-          {
-            "press": "연합뉴스",
-            "title": "한-칠레 기업인들 \"최초의 파트너 넘어 미래협력 파트너 되자\"",
-            "news_id": "82a3edf1b86fcadcd7def0a2719c2ef1",
-            "published_at": "2026-07-31 08:08 KST",
-            "company_names": [
-              "LG전자",
-              "LS",
-              "NAVER",
-              "OCI홀딩스",
-              "SK바이오팜",
-              "한화오션",
-              "현대차"
-            ],
-            "sentiment_score": 0.6423,
-            "associated_companies": 7
-          },
-          {
-            "press": "서울경제",
-            "title": "[속보]프리마켓서 삼성전자 15%·SK하닉 17% 급등",
-            "news_id": "d204df8e71692c3e609eea50160628a9",
-            "published_at": "2026-07-31 08:08 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.61302,
-            "associated_companies": 2
-          },
-          {
-            "press": "EBN",
-            "title": "美 반도체주 반등에 삼성전자·SK하이닉스 프리마켓서 동반급등",
-            "news_id": "00c8f3cdc163220158f47761b99fd10f",
-            "published_at": "2026-07-31 08:07 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.67051,
-            "associated_companies": 2
           }
         ],
         "hankyung": [
+          {
+            "press": "한국경제",
+            "title": "김택진이 상하이까지 날아간 까닭…'아이온2'에 건 엔씨의 중국 승부",
+            "news_id": "38d82c9922ab95d3fe37164ccb3738bb",
+            "published_at": "2026-07-31 08:59 KST",
+            "company_names": [
+              "NC"
+            ],
+            "sentiment_score": 0.57801,
+            "associated_companies": 1
+          },
           {
             "press": "한국경제",
             "title": "오늘부터 '3000만원' 있어야 단일 레버리지 산다…효과 있을까",
@@ -1335,40 +1330,97 @@
     },
     "KOSDAQ": {
       "index": {
-        "live": false,
-        "as_of": null,
-        "price": 644.78,
-        "change": null,
-        "change_pct": 0.0,
+        "live": true,
+        "as_of": "2026-07-31 09:02 KST",
+        "price": 677.52,
+        "change": 32.74,
+        "change_pct": 5.08,
         "prev_close": 644.78
       },
-      "score": null,
+      "score": 1.54724,
       "components": {
         "news": {
-          "score": -0.521,
-          "coverage": 0.7619,
-          "observations": 32
+          "score": -0.25749,
+          "coverage": 0.7534,
+          "observations": 36
         },
         "market": {
-          "score": null,
-          "coverage": 0.0,
-          "confidence": 0.0,
-          "observations": 0
+          "score": 2.14882,
+          "coverage": 1.0,
+          "confidence": 1.0,
+          "observations": 1801
         },
         "discussion": {
-          "score": 2.31182,
-          "coverage": 0.191,
-          "observations": 1178
+          "score": 2.14882,
+          "coverage": 0.1559,
+          "observations": 2194
         },
         "news_hankyung": {
-          "score": -1.35585,
-          "coverage": 0.6,
-          "observations": 3
+          "score": -0.495,
+          "coverage": 0.6667,
+          "observations": 4
         }
       },
-      "text_pulse": 1.36755,
+      "text_pulse": 1.34672,
       "news_articles": {
         "all": [
+          {
+            "press": "한국경제",
+            "title": "“수박 손질 맡겨주세요”…매출 90% 뛴 백화점 과일 서비스 [프라이스&]",
+            "news_id": "4141004025c5342b6058527e419ddb71",
+            "published_at": "2026-07-31 09:00 KST",
+            "company_names": [
+              "EG"
+            ],
+            "sentiment_score": 0.64551,
+            "associated_companies": 1
+          },
+          {
+            "press": "아시아경제",
+            "title": "진시스템, 경보전기 지분 인수…AIDC 전력 인프라 시장 진출",
+            "news_id": "3fe48b0df843ab3371c260969be14c6b",
+            "published_at": "2026-07-31 08:58 KST",
+            "company_names": [
+              "진시스템"
+            ],
+            "sentiment_score": 0.62801,
+            "associated_companies": 1
+          },
+          {
+            "press": "이데일리",
+            "title": "진시스템, 경보전기 인수…AI 데이터센터 전력 인프라 시장 진출",
+            "news_id": "749c3fd00ae42adf9c48ed48c39f95ea",
+            "published_at": "2026-07-31 08:57 KST",
+            "company_names": [
+              "진시스템"
+            ],
+            "sentiment_score": 0.63301,
+            "associated_companies": 1
+          },
+          {
+            "press": "뉴스1",
+            "title": "SKT, 피지컬 AI 스타트업 8개사 손잡고 생태계 확장",
+            "news_id": "b7629a03381499ff2a47d976ecaba352",
+            "published_at": "2026-07-31 08:57 KST",
+            "company_names": [
+              "마키나락스",
+              "씨메스로보틱스",
+              "유일로보틱스"
+            ],
+            "sentiment_score": 0.65551,
+            "associated_companies": 3
+          },
+          {
+            "press": "뉴스1",
+            "title": "NC AI, AI 국책사업 선정…스스로 일하는 AI 확보 나서",
+            "news_id": "9d7da473bf791750e4338d2fed644ae9",
+            "published_at": "2026-07-31 08:55 KST",
+            "company_names": [
+              "가비아"
+            ],
+            "sentiment_score": 0.66551,
+            "associated_companies": 1
+          },
           {
             "press": "이데일리",
             "title": "플랜티넷, 첫 중간배당 도입…\"연 배당수익률 10% 기대\"",
@@ -1821,6 +1873,17 @@
         "hankyung": [
           {
             "press": "한국경제",
+            "title": "“수박 손질 맡겨주세요”…매출 90% 뛴 백화점 과일 서비스 [프라이스&]",
+            "news_id": "4141004025c5342b6058527e419ddb71",
+            "published_at": "2026-07-31 09:00 KST",
+            "company_names": [
+              "EG"
+            ],
+            "sentiment_score": 0.64551,
+            "associated_companies": 1
+          },
+          {
+            "press": "한국경제",
             "title": "\"구내식당서 대극천 복숭아를\"…CJ프레시웨이, 온브릭스와 맞손",
             "news_id": "28442360d8a01c356f833ef839aed42b",
             "published_at": "2026-07-31 08:45 KST",
@@ -1859,35 +1922,35 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 08:54 KST",
-      "latest_event": "2026-07-31 08:51 KST",
-      "observations": 542,
-      "active_minutes": 66
+      "latest_seen": "2026-07-31 09:03 KST",
+      "latest_event": "2026-07-31 09:01 KST",
+      "observations": 578,
+      "active_minutes": 70
     },
     "market": {
-      "intraday": false,
-      "latest_seen": null,
-      "latest_event": null,
+      "intraday": true,
+      "latest_seen": "2026-07-31 09:02 KST",
+      "latest_event": "2026-07-31",
       "active_minutes": null,
-      "status_record_available": false
+      "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-31 08:29 KST",
-      "latest_event": "2026-07-31 08:19 KST",
-      "observations": 7917,
-      "active_minutes": 79
+      "latest_seen": "2026-07-31 09:03 KST",
+      "latest_event": "2026-07-31 09:02 KST",
+      "observations": 10243,
+      "active_minutes": 82
     }
   },
   "event_date": "2026-07-31",
   "market_session": {
-    "reason": "awaiting_market_confirmation",
-    "status": "unconfirmed",
-    "market_component_available": false
+    "reason": "market_record_available",
+    "status": "trading",
+    "market_component_available": true
   },
   "methodology_fingerprint": "7d642ce2e96ee32e430cf6533e2e540917d045dd0bbfa05a61e5bf3d87992f86",
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 08:57 KST"
+    "attempted_at": "2026-07-31 09:03 KST"
   }
 }
