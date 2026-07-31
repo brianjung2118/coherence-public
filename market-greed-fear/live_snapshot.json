@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-07-31 09:44 KST",
+  "as_of": "2026-07-31 09:49 KST",
   "boards": {
     "KOSPI": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 09:44 KST",
-        "price": 6408.33,
-        "change": 814.77,
-        "change_pct": 14.57,
+        "as_of": "2026-07-31 09:49 KST",
+        "price": 6390.91,
+        "change": 797.35,
+        "change_pct": 14.25,
         "prev_close": 5593.56
       },
-      "score": 2.64323,
+      "score": 2.63101,
       "components": {
         "news": {
-          "score": 0.11916,
-          "coverage": 0.8441,
-          "observations": 502
+          "score": 0.17428,
+          "coverage": 0.8428,
+          "observations": 509
         },
         "market": {
-          "score": 3.68996,
+          "score": 3.58594,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 915
@@ -34,7 +34,7 @@
           "observations": 14
         }
       },
-      "text_pulse": 2.29432,
+      "text_pulse": 2.3127,
       "news_articles": {
         "all": [
           {
@@ -106,6 +106,17 @@
               "한국콜마"
             ],
             "sentiment_score": 0.68051,
+            "associated_companies": 1
+          },
+          {
+            "press": "뉴스1",
+            "title": "신라스테이, '세계청년대회' 국내외 주요 참가자 숙박 지원",
+            "news_id": "3f2796b81e33cb64ea43d67c2bfeaea3",
+            "published_at": "2026-07-31 09:40 KST",
+            "company_names": [
+              "호텔신라"
+            ],
+            "sentiment_score": 0.66551,
             "associated_companies": 1
           },
           {
@@ -330,6 +341,28 @@
             "associated_companies": 2
           },
           {
+            "press": "이코노미스트",
+            "title": "데이터로 ‘틈새 수요’ 찾았다…GS25, ‘유어스로얄밀크티’ 선봬",
+            "news_id": "0b607ac94cf860ecbda2c2ad915290f9",
+            "published_at": "2026-07-31 09:36 KST",
+            "company_names": [
+              "GS리테일"
+            ],
+            "sentiment_score": 0.59552,
+            "associated_companies": 1
+          },
+          {
+            "press": "조선비즈",
+            "title": "[특징주] 한미반도체, 美 반도체 반등 힘입어 21%대 급등",
+            "news_id": "4d3a781ad39d22f839bd5bb2ad481af6",
+            "published_at": "2026-07-31 09:36 KST",
+            "company_names": [
+              "한미반도체"
+            ],
+            "sentiment_score": 0.68551,
+            "associated_companies": 1
+          },
+          {
             "press": "연합뉴스TV",
             "title": "[속보] 코스피 13%대 폭등…단숨에 6,300선 회복",
             "news_id": "8374cf4c3fec8a41016244c6eb53a8c0",
@@ -467,6 +500,17 @@
             ],
             "sentiment_score": 0.65885,
             "associated_companies": 3
+          },
+          {
+            "press": "블로터",
+            "title": "[모바일 온에어] '폴더블 신드롬' 갤럭시 Z8, 1030 취향 저격",
+            "news_id": "6e7045cb8b16a575388af7484b5d4d12",
+            "published_at": "2026-07-31 09:33 KST",
+            "company_names": [
+              "삼성전자"
+            ],
+            "sentiment_score": 0.65051,
+            "associated_companies": 1
           },
           {
             "press": "전자신문",
@@ -1058,6 +1102,19 @@
             "associated_companies": 2
           },
           {
+            "press": "EBN",
+            "title": "[Telecom & Now] SKT, 피지컬 AI 스타트업 8개사와 협력…로보틱스 생태계 강화 등",
+            "news_id": "a1eba195a538574b3d27d6d476ebce65",
+            "published_at": "2026-07-31 09:24 KST",
+            "company_names": [
+              "SK",
+              "SK텔레콤",
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.57218,
+            "associated_companies": 3
+          },
+          {
             "press": "이데일리",
             "title": "KT, AI 반도체 손잡고 '온디바이스 AI' 승부수…EV·CCTV 인프라 공략",
             "news_id": "1d4d5cd75e709f547763af28a3d041c6",
@@ -1160,64 +1217,6 @@
               "현대차"
             ],
             "sentiment_score": 0.56676,
-            "associated_companies": 2
-          },
-          {
-            "press": "뉴시스",
-            "title": "현대차·기아, 칠레 한국의 거리에 순찰차 기증",
-            "news_id": "2fb19c3c81ad9fea3c4f2eb5ec6bfb1b",
-            "published_at": "2026-07-31 09:23 KST",
-            "company_names": [
-              "기아",
-              "현대차"
-            ],
-            "sentiment_score": 0.56676,
-            "associated_companies": 2
-          },
-          {
-            "press": "연합뉴스",
-            "title": "반등한 코스피",
-            "news_id": "65d7db7aecd5cb9013474f121fe38266",
-            "published_at": "2026-07-31 09:23 KST",
-            "company_names": [
-              "하나금융지주"
-            ],
-            "sentiment_score": 0.57302,
-            "associated_companies": 1
-          },
-          {
-            "press": "뉴시스",
-            "title": "현대차·기아, 칠레 한국의 거리에 순찰차 기증",
-            "news_id": "6a6a83c9d837e6bd86f6257e9acec7ac",
-            "published_at": "2026-07-31 09:23 KST",
-            "company_names": [
-              "기아",
-              "현대차"
-            ],
-            "sentiment_score": 0.58052,
-            "associated_companies": 2
-          },
-          {
-            "press": "연합뉴스",
-            "title": "반등한 코스피",
-            "news_id": "8a4d97b328461a094d9e8d2afb907713",
-            "published_at": "2026-07-31 09:23 KST",
-            "company_names": [
-              "하나금융지주"
-            ],
-            "sentiment_score": 0.57302,
-            "associated_companies": 1
-          },
-          {
-            "press": "뉴시스",
-            "title": "현대차·기아, 칠레 한국의 거리에 순찰차 기증",
-            "news_id": "90b673c853a82785476cae35216fd065",
-            "published_at": "2026-07-31 09:23 KST",
-            "company_names": [
-              "기아",
-              "현대차"
-            ],
-            "sentiment_score": 0.58052,
             "associated_companies": 2
           }
         ],
@@ -1419,21 +1418,21 @@
     "KOSDAQ": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 09:44 KST",
-        "price": 700.03,
-        "change": 55.25,
-        "change_pct": 8.57,
+        "as_of": "2026-07-31 09:49 KST",
+        "price": 698.22,
+        "change": 53.44,
+        "change_pct": 8.29,
         "prev_close": 644.78
       },
-      "score": 1.65198,
+      "score": 1.64804,
       "components": {
         "news": {
-          "score": 0.04988,
-          "coverage": 0.686,
-          "observations": 76
+          "score": 0.09057,
+          "coverage": 0.6948,
+          "observations": 78
         },
         "market": {
-          "score": 2.9316,
+          "score": 2.87512,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 1801
@@ -1449,7 +1448,7 @@
           "observations": 5
         }
       },
-      "text_pulse": 1.22545,
+      "text_pulse": 1.23901,
       "news_articles": {
         "all": [
           {
@@ -1479,6 +1478,28 @@
             ],
             "sentiment_score": 0.58552,
             "associated_companies": 3
+          },
+          {
+            "press": "지디넷코리아",
+            "title": "선익시스템, 국책은행 'A+' 신용등급 획득…공급망 동반성장 추진",
+            "news_id": "d7097d1b19395fcf84a0028ca93216f4",
+            "published_at": "2026-07-31 09:39 KST",
+            "company_names": [
+              "선익시스템"
+            ],
+            "sentiment_score": 0.71052,
+            "associated_companies": 1
+          },
+          {
+            "press": "데일리안",
+            "title": "AI가 부른 자석 특수… 제이에스링크, '비중국 벨트' 짠다",
+            "news_id": "b077622a981b41dba5fe5a39ed3e46de",
+            "published_at": "2026-07-31 09:38 KST",
+            "company_names": [
+              "제이에스링크"
+            ],
+            "sentiment_score": 0.67051,
+            "associated_companies": 1
           },
           {
             "press": "SBS Biz",
@@ -1652,6 +1673,19 @@
             "associated_companies": 1
           },
           {
+            "press": "EBN",
+            "title": "[Telecom & Now] SKT, 피지컬 AI 스타트업 8개사와 협력…로보틱스 생태계 강화 등",
+            "news_id": "a1eba195a538574b3d27d6d476ebce65",
+            "published_at": "2026-07-31 09:24 KST",
+            "company_names": [
+              "마키나락스",
+              "씨메스로보틱스",
+              "유일로보틱스"
+            ],
+            "sentiment_score": 0.58052,
+            "associated_companies": 3
+          },
+          {
             "press": "뉴시스",
             "title": "DXVX-포항공대, 71억 규모 'NGS' 국책과제 선정",
             "news_id": "5f1fdea276c879a4819aea68c9e9c4cd",
@@ -1765,6 +1799,17 @@
               "유일로보틱스"
             ],
             "sentiment_score": 0.68551,
+            "associated_companies": 1
+          },
+          {
+            "press": "EBN",
+            "title": "증권가 일제히 \"AI 투자 피크아웃 우려 상당 부분 완화\"",
+            "news_id": "60dec95e994c18251eb8a9d0fa148cc4",
+            "published_at": "2026-07-31 09:16 KST",
+            "company_names": [
+              "LS증권"
+            ],
+            "sentiment_score": 0.66551,
             "associated_companies": 1
           },
           {
@@ -2618,14 +2663,14 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 09:43 KST",
-      "latest_event": "2026-07-31 09:42 KST",
-      "observations": 883,
-      "active_minutes": 90
+      "latest_seen": "2026-07-31 09:47 KST",
+      "latest_event": "2026-07-31 09:44 KST",
+      "observations": 887,
+      "active_minutes": 92
     },
     "market": {
       "intraday": true,
-      "latest_seen": "2026-07-31 09:44 KST",
+      "latest_seen": "2026-07-31 09:49 KST",
       "latest_event": "2026-07-31",
       "active_minutes": null,
       "status_record_available": true
@@ -2647,6 +2692,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 09:44 KST"
+    "attempted_at": "2026-07-31 09:49 KST"
   }
 }
