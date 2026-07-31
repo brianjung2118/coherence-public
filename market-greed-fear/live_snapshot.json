@@ -1,32 +1,32 @@
 {
-  "as_of": "2026-07-31 12:17 KST",
+  "as_of": "2026-07-31 12:22 KST",
   "boards": {
     "KOSPI": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 12:17 KST",
-        "price": 6389.28,
-        "change": 795.72,
-        "change_pct": 14.23,
+        "as_of": "2026-07-31 12:22 KST",
+        "price": 6421.49,
+        "change": 827.93,
+        "change_pct": 14.8,
         "prev_close": 5593.56
       },
-      "score": 2.54192,
+      "score": 2.5768,
       "components": {
         "news": {
-          "score": 0.36742,
-          "coverage": 0.8282,
-          "observations": 970
+          "score": 0.36732,
+          "coverage": 0.8284,
+          "observations": 971
         },
         "market": {
-          "score": 3.686,
+          "score": 3.82335,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 915
         },
         "discussion": {
-          "score": 3.05712,
+          "score": 3.05827,
           "coverage": 0.1724,
-          "observations": 29508
+          "observations": 29516
         },
         "news_hankyung": {
           "score": -1.18224,
@@ -34,9 +34,21 @@
           "observations": 25
         }
       },
-      "text_pulse": 2.16056,
+      "text_pulse": 2.16129,
       "news_articles": {
         "all": [
+          {
+            "press": "파이낸셜뉴스",
+            "title": "베일 벗은 '디에이치 방배’… 차세대 커뮤니티 플랫폼 ‘H 컬처클럽’ 하이엔드 라이프스타일 선보여",
+            "news_id": "e5ed05740f870d297db5afa8c30c4779",
+            "published_at": "2026-07-31 12:12 KST",
+            "company_names": [
+              "현대건설",
+              "현대백화점"
+            ],
+            "sentiment_score": 0.57052,
+            "associated_companies": 2
+          },
           {
             "press": "조선비즈",
             "title": "카카오모빌리티, TS와 데이터 기반 교통안전 협력 확대",
@@ -1220,17 +1232,6 @@
             ],
             "sentiment_score": 0.59801,
             "associated_companies": 2
-          },
-          {
-            "press": "데일리안",
-            "title": "\"100년에 한 번 있을 홍수\"…‘칩플레이션’에 엇갈린 삼성-애플",
-            "news_id": "198ee87f126493058f8f9c42472f0be4",
-            "published_at": "2026-07-31 11:20 KST",
-            "company_names": [
-              "삼성전자"
-            ],
-            "sentiment_score": 0.44801,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
@@ -1521,13 +1522,13 @@
     "KOSDAQ": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 12:17 KST",
-        "price": 704.07,
-        "change": 59.29,
-        "change_pct": 9.2,
+        "as_of": "2026-07-31 12:22 KST",
+        "price": 706.67,
+        "change": 61.89,
+        "change_pct": 9.6,
         "prev_close": 644.78
       },
-      "score": 2.25664,
+      "score": 2.27805,
       "components": {
         "news": {
           "score": 0.74337,
@@ -1535,7 +1536,7 @@
           "observations": 157
         },
         "market": {
-          "score": 3.10614,
+          "score": 3.19178,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 1801
@@ -2776,23 +2777,23 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 12:15 KST",
+      "latest_seen": "2026-07-31 12:22 KST",
       "latest_event": "2026-07-31 12:14 KST",
-      "observations": 1616,
-      "active_minutes": 153
+      "observations": 1617,
+      "active_minutes": 154
     },
     "market": {
       "intraday": true,
-      "latest_seen": "2026-07-31 12:17 KST",
+      "latest_seen": "2026-07-31 12:22 KST",
       "latest_event": "2026-07-31",
       "active_minutes": null,
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-31 12:17 KST",
+      "latest_seen": "2026-07-31 12:22 KST",
       "latest_event": "2026-07-31 12:06 KST",
-      "observations": 42015,
-      "active_minutes": 183
+      "observations": 42023,
+      "active_minutes": 188
     }
   },
   "event_date": "2026-07-31",
@@ -2805,6 +2806,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 12:17 KST"
+    "attempted_at": "2026-07-31 12:22 KST"
   }
 }
