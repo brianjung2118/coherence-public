@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-31 17:00 KST",
+  "as_of": "2026-07-31 17:05 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -10,12 +10,12 @@
         "change_pct": 17.91,
         "prev_close": 5593.56
       },
-      "score": 3.44227,
+      "score": 3.4339,
       "components": {
         "news": {
-          "score": 1.10674,
-          "coverage": 0.8409,
-          "observations": 1677
+          "score": 1.1132,
+          "coverage": 0.8365,
+          "observations": 1698
         },
         "market": {
           "score": 4.61783,
@@ -24,9 +24,9 @@
           "observations": 915
         },
         "discussion": {
-          "score": 4.02226,
-          "coverage": 0.1698,
-          "observations": 48946
+          "score": 4.00227,
+          "coverage": 0.1686,
+          "observations": 49925
         },
         "news_hankyung": {
           "score": 0.24997,
@@ -34,9 +34,251 @@
           "observations": 45
         }
       },
-      "text_pulse": 3.05042,
+      "text_pulse": 3.03925,
       "news_articles": {
         "all": [
+          {
+            "press": "한겨레",
+            "title": "중국 대신 북미·유럽…글로벌 사업 성장축 바꾼 아모레·LG생건",
+            "news_id": "55ca5442a6cda394b4a448b16d6ae9a6",
+            "published_at": "2026-07-31 17:02 KST",
+            "company_names": [
+              "LG생활건강",
+              "아모레퍼시픽"
+            ],
+            "sentiment_score": 0.60801,
+            "associated_companies": 2
+          },
+          {
+            "press": "서울경제",
+            "title": "GC녹십자, 2분기 영업익 94% 급감…독감백신 매출 이연 영향",
+            "news_id": "9c7ab6894ce371ada7a98f4e2d854c39",
+            "published_at": "2026-07-31 17:02 KST",
+            "company_names": [
+              "녹십자",
+              "녹십자홀딩스"
+            ],
+            "sentiment_score": 0.42802,
+            "associated_companies": 2
+          },
+          {
+            "press": "조선비즈",
+            "title": "‘율곡 인수전 승기’ VIG파트너스, 인수금융 주선사로 KB국민은행 선정",
+            "news_id": "5596073276e16c543f3c928ee0e639c5",
+            "published_at": "2026-07-31 17:01 KST",
+            "company_names": [
+              "KB금융"
+            ],
+            "sentiment_score": 0.59552,
+            "associated_companies": 1
+          },
+          {
+            "press": "디지털데일리",
+            "title": "K9·천무 날개…영업익 1조 넘은 한화에어로, 글로벌 영토 확장 가속(종합)",
+            "news_id": "7c833b614d76412ce6d10ea6184d5e78",
+            "published_at": "2026-07-31 17:01 KST",
+            "company_names": [
+              "기아",
+              "한화에어로스페이스",
+              "한화오션"
+            ],
+            "sentiment_score": 0.67551,
+            "associated_companies": 3
+          },
+          {
+            "press": "디지털데일리",
+            "title": "중국 공세 커진 남미…현대차 정의선 직접 나섰다",
+            "news_id": "d3774c37aee88fe0f59226844e76331f",
+            "published_at": "2026-07-31 17:01 KST",
+            "company_names": [
+              "현대차"
+            ],
+            "sentiment_score": 0.61301,
+            "associated_companies": 1
+          },
+          {
+            "press": "이데일리",
+            "title": "엘앤씨바이오, 1400억 규모 유상증자…동탄 생산기지 확충",
+            "news_id": "1c4e91776d6334d61f6ad10d66ae619f",
+            "published_at": "2026-07-31 17:00 KST",
+            "company_names": [
+              "유진투자증권"
+            ],
+            "sentiment_score": 0.53802,
+            "associated_companies": 1
+          },
+          {
+            "press": "머니투데이",
+            "title": "LG화학, 글로벌 마케팅 고도화에 '리캐치' 활용…\"데이터로 발굴\"",
+            "news_id": "7ee1345c9587c57bb8059458e9a8fefa",
+            "published_at": "2026-07-31 17:00 KST",
+            "company_names": [
+              "LG화학"
+            ],
+            "sentiment_score": 0.58052,
+            "associated_companies": 1
+          },
+          {
+            "press": "SBS Biz",
+            "title": "[투자 노하우] 삼성전기, 2분기 연결 기준 매출 3조 4572억원",
+            "news_id": "ffbb1b2b350a69ae6d3eab1b8275eb96",
+            "published_at": "2026-07-31 17:00 KST",
+            "company_names": [
+              "삼성전기"
+            ],
+            "sentiment_score": 0.53802,
+            "associated_companies": 1
+          },
+          {
+            "press": "주간동아",
+            "title": "역대급 ‘롤러코스피’ 연출한 한 주… 외국인, 삼전닉스 3조8000억 팔아",
+            "news_id": "388be8a8756ad3a4f1a54436350ad8c2",
+            "published_at": "2026-07-31 16:59 KST",
+            "company_names": [
+              "SK스퀘어",
+              "SK하이닉스",
+              "삼성전기",
+              "키움증권"
+            ],
+            "sentiment_score": 0.58739,
+            "associated_companies": 4
+          },
+          {
+            "press": "조선비즈",
+            "title": "현대제철 노사, 임단협 잠정 합의… 성과급 300%·현금 500만원",
+            "news_id": "88f53e9cdde27f5f16d996ddb45076b8",
+            "published_at": "2026-07-31 16:59 KST",
+            "company_names": [
+              "현대제철"
+            ],
+            "sentiment_score": 0.52551,
+            "associated_companies": 1
+          },
+          {
+            "press": "머니투데이",
+            "title": "\"복잡한 우대금리 없다\"…기업은행, 연 4.9% 중저신용자 전용 대출 출시",
+            "news_id": "01ccafed518fa4b4154fb706eebfe0c4",
+            "published_at": "2026-07-31 16:58 KST",
+            "company_names": [
+              "기업은행"
+            ],
+            "sentiment_score": 0.53302,
+            "associated_companies": 1
+          },
+          {
+            "press": "파이낸셜뉴스",
+            "title": "최윤범 회장 \"한-칠레, 핵심광물·청정에너지 협력 확대해야\"",
+            "news_id": "2df98373669b38f8c7c145c28c5bd545",
+            "published_at": "2026-07-31 16:58 KST",
+            "company_names": [
+              "고려아연"
+            ],
+            "sentiment_score": 0.63801,
+            "associated_companies": 1
+          },
+          {
+            "press": "아시아경제",
+            "title": "HD현대, 2분기 영업이익 4조 돌파…조선·정유가 실적 견인",
+            "news_id": "5c3c209e131ee423d017a0a19eedd13f",
+            "published_at": "2026-07-31 16:57 KST",
+            "company_names": [
+              "HD한국조선해양",
+              "HD현대",
+              "HD현대마린솔루션",
+              "HD현대일렉트릭"
+            ],
+            "sentiment_score": 0.69551,
+            "associated_companies": 4
+          },
+          {
+            "press": "동행미디어 시대",
+            "title": "유한·대웅·한미 웃고, 녹십자·종근당 울었다…제약 빅5 희비 갈린 이유",
+            "news_id": "e375bb0056a2331a172aa794032b7774",
+            "published_at": "2026-07-31 16:57 KST",
+            "company_names": [
+              "녹십자",
+              "대웅",
+              "대웅제약",
+              "유한양행",
+              "종근당",
+              "한미약품"
+            ],
+            "sentiment_score": 0.55385,
+            "associated_companies": 6
+          },
+          {
+            "press": "조선일보",
+            "title": "단일종목 레버리지 상품 규제 첫날, 거래대금 ‘뚝’…12조원대서 3조원대로 급감",
+            "news_id": "b98e912cbf01c7f0a96b17a02f2deba3",
+            "published_at": "2026-07-31 16:56 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자",
+              "신한지주"
+            ],
+            "sentiment_score": 0.36635,
+            "associated_companies": 3
+          },
+          {
+            "press": "머니투데이",
+            "title": "LG화학 석화·첨단 '쌍끌이'에 3개 분기만에 흑자전환",
+            "news_id": "fc972c1b7aba0706824bbd787b182bf3",
+            "published_at": "2026-07-31 16:56 KST",
+            "company_names": [
+              "LG화학"
+            ],
+            "sentiment_score": 0.68551,
+            "associated_companies": 1
+          },
+          {
+            "press": "SBS Biz",
+            "title": "HD현대, 2분기 영업익 4.1조원…조선·정유·전력기기 전 부문 견조",
+            "news_id": "569b8c7074b3e2f8ad551f951f651266",
+            "published_at": "2026-07-31 16:54 KST",
+            "company_names": [
+              "HD한국조선해양",
+              "HD현대",
+              "HD현대마린솔루션"
+            ],
+            "sentiment_score": 0.69885,
+            "associated_companies": 3
+          },
+          {
+            "press": "SBS Biz",
+            "title": "현대제철 노사 임단협 잠정합의…기본급 8만원 인상·성과급 300%",
+            "news_id": "8603424555b332fb7bf04a40111d1196",
+            "published_at": "2026-07-31 16:54 KST",
+            "company_names": [
+              "현대제철"
+            ],
+            "sentiment_score": 0.51052,
+            "associated_companies": 1
+          },
+          {
+            "press": "뉴시스",
+            "title": "\"ESG 강화\"…한미, 재생에너지 전환 본격화",
+            "news_id": "aa364339919e1ebd314e34cdf45d945d",
+            "published_at": "2026-07-31 16:54 KST",
+            "company_names": [
+              "한미사이언스",
+              "한미약품",
+              "현대건설"
+            ],
+            "sentiment_score": 0.68385,
+            "associated_companies": 3
+          },
+          {
+            "press": "SBS Biz",
+            "title": "삼성전자, 차세대 'EHS 올인원' 히트펌프 실증 공개",
+            "news_id": "d06a0da8e768c943c1470a0a88a223b4",
+            "published_at": "2026-07-31 16:54 KST",
+            "company_names": [
+              "삼성물산",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.59801,
+            "associated_companies": 2
+          },
           {
             "press": "조선비즈",
             "title": "풍산, 2분기 영업익 1252억… 전년比 33.8% 증가",
@@ -57,6 +299,17 @@
               "셀트리온"
             ],
             "sentiment_score": 0.67551,
+            "associated_companies": 1
+          },
+          {
+            "press": "블로터",
+            "title": "현대건설, 주택 수익성 개선 이면 '플랜트 원가부담·수주 편중'",
+            "news_id": "dd25bff19bc989c479ce0f8166f6e638",
+            "published_at": "2026-07-31 16:52 KST",
+            "company_names": [
+              "현대건설"
+            ],
+            "sentiment_score": 0.39802,
             "associated_companies": 1
           },
           {
@@ -976,252 +1229,6 @@
             ],
             "sentiment_score": 0.59801,
             "associated_companies": 1
-          },
-          {
-            "press": "연합뉴스",
-            "title": "삼성전자, 제주서 차세대 'EHS 올인원' 히트펌프 실증 현장 공개",
-            "news_id": "507bc68d266d6345ca0ee91f7689f0a4",
-            "published_at": "2026-07-31 16:30 KST",
-            "company_names": [
-              "삼성전자"
-            ],
-            "sentiment_score": 0.57302,
-            "associated_companies": 1
-          },
-          {
-            "press": "연합뉴스",
-            "title": "삼성전자, 제주서 차세대 'EHS 올인원' 히트펌프 실증 현장 공개",
-            "news_id": "744f7d0c08c323579d38fb59a699e351",
-            "published_at": "2026-07-31 16:30 KST",
-            "company_names": [
-              "삼성전자"
-            ],
-            "sentiment_score": 0.57302,
-            "associated_companies": 1
-          },
-          {
-            "press": "데일리안",
-            "title": "'코인 아닙니다'…코스피 시총 1~5위, 26% 넘게 올라 등 [7/31(금) 데일리안 퇴근길 뉴스]",
-            "news_id": "7b200acde013847b079f17f2a8e28d33",
-            "published_at": "2026-07-31 16:30 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.56926,
-            "associated_companies": 2
-          },
-          {
-            "press": "연합뉴스",
-            "title": "삼성전자, 제주서 차세대 'EHS 올인원' 히트펌프 실증 현장 공개",
-            "news_id": "87d76e230c218a09ca1acf7ba147fab6",
-            "published_at": "2026-07-31 16:30 KST",
-            "company_names": [
-              "삼성전자"
-            ],
-            "sentiment_score": 0.57302,
-            "associated_companies": 1
-          },
-          {
-            "press": "아이뉴스24",
-            "title": "750B 초거대부터 최대 처리 토큰 수 100만개까지…'독파모 4강' 스펙 비교",
-            "news_id": "adf4e51e827a1759ad25e43417648d5f",
-            "published_at": "2026-07-31 16:30 KST",
-            "company_names": [
-              "LG",
-              "SK텔레콤"
-            ],
-            "sentiment_score": 0.57427,
-            "associated_companies": 2
-          },
-          {
-            "press": "서울신문",
-            "title": "한화에어로스페이스, 분기 영업이익 1조원 첫 돌파…9조원대 매출도 ‘역대 최고’",
-            "news_id": "e5a01135ab3809067f9f5e12048722fb",
-            "published_at": "2026-07-31 16:30 KST",
-            "company_names": [
-              "한화시스템",
-              "한화에어로스페이스",
-              "한화오션"
-            ],
-            "sentiment_score": 0.68052,
-            "associated_companies": 3
-          },
-          {
-            "press": "아시아경제",
-            "title": "모백스 컨소시엄, 포스코플로우 광양 CTS Yard 밀폐화 에어돔 EPC 사업 수주",
-            "news_id": "fa6606592b74af3a9774a42185e61ce8",
-            "published_at": "2026-07-31 16:30 KST",
-            "company_names": [
-              "POSCO홀딩스"
-            ],
-            "sentiment_score": 0.67051,
-            "associated_companies": 1
-          },
-          {
-            "press": "아이뉴스24",
-            "title": "'배틀그라운드 모바일'에 '스파이더맨' 뜬다",
-            "news_id": "55bbd23cf52f71eb39b4a7b432952853",
-            "published_at": "2026-07-31 16:29 KST",
-            "company_names": [
-              "크래프톤"
-            ],
-            "sentiment_score": 0.56302,
-            "associated_companies": 1
-          },
-          {
-            "press": "뉴시스",
-            "title": "코스피 18년 만의 최고 상승률 이끈 外人…'9조 순매수' 신기록 배경은",
-            "news_id": "76c10aaec7140409b72ce0393b5486de",
-            "published_at": "2026-07-31 16:29 KST",
-            "company_names": [
-              "SK스퀘어",
-              "SK하이닉스",
-              "삼성전기"
-            ],
-            "sentiment_score": 0.65885,
-            "associated_companies": 3
-          },
-          {
-            "press": "파이낸셜뉴스",
-            "title": "HD현대 \"자사주 소각 주주 의견 듣고 밸류업 방향으로\"[컨콜]",
-            "news_id": "6206177d9ad2688df004f4ab94f25dd3",
-            "published_at": "2026-07-31 16:28 KST",
-            "company_names": [
-              "HD현대"
-            ],
-            "sentiment_score": 0.62301,
-            "associated_companies": 1
-          },
-          {
-            "press": "이데일리",
-            "title": "HBM4 앞세운 삼성, 수성 나선 SK…주도권 경쟁 본격화",
-            "news_id": "16cf59054a9560613bada1d717ca73cc",
-            "published_at": "2026-07-31 16:27 KST",
-            "company_names": [
-              "SK",
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.58635,
-            "associated_companies": 3
-          },
-          {
-            "press": "아시아경제",
-            "title": "[컨콜]HD현대 \"2분기 최대 실적...조선·건설기계 호조에 영업익 4.1조\"",
-            "news_id": "93bd95e6870ec33e004e147c38cc04f5",
-            "published_at": "2026-07-31 16:26 KST",
-            "company_names": [
-              "HD현대"
-            ],
-            "sentiment_score": 0.71052,
-            "associated_companies": 1
-          },
-          {
-            "press": "뉴시스",
-            "title": "거래량 74% 줄었다…'3000만원 규제' 통한 삼전닉스 레버리지ETF",
-            "news_id": "a40feb401c17288efb76893a74f99289",
-            "published_at": "2026-07-31 16:26 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.48801,
-            "associated_companies": 2
-          },
-          {
-            "press": "아시아경제",
-            "title": "삼성전자, 제주서 'EHS 올인원' 히트펌프 실증…냉난방·온수 통합 솔루션 공개",
-            "news_id": "0e4970b303e06516268419d0b094dd2a",
-            "published_at": "2026-07-31 16:25 KST",
-            "company_names": [
-              "삼성물산",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.64802,
-            "associated_companies": 2
-          },
-          {
-            "press": "SBS Biz",
-            "title": "단일 레버리지 보완 첫날…거래대금 '4분의 1' 수준 급감",
-            "news_id": "31cc271c7d1fc742c24aa3dcb9135537",
-            "published_at": "2026-07-31 16:25 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.43551,
-            "associated_companies": 2
-          },
-          {
-            "press": "데일리안",
-            "title": "'녹십자웰빙' 매각한 GC녹십자…2분기 매출 전년비 16%↓",
-            "news_id": "f284ea3ceb37d038119494b73d3c8060",
-            "published_at": "2026-07-31 16:25 KST",
-            "company_names": [
-              "녹십자홀딩스"
-            ],
-            "sentiment_score": 0.39802,
-            "associated_companies": 1
-          },
-          {
-            "press": "연합뉴스",
-            "title": "현대제철 노사 임단협 잠정 합의…성과급 300% 지급",
-            "news_id": "0c1a8752ec538f0ad08e64cd4fada3a6",
-            "published_at": "2026-07-31 16:24 KST",
-            "company_names": [
-              "현대제철"
-            ],
-            "sentiment_score": 0.50052,
-            "associated_companies": 1
-          },
-          {
-            "press": "파이낸셜뉴스",
-            "title": "HD현대베트남조선, 카인호아성서 11만5000t급 LNG 이중연료 LR2 유조선 건조 착수",
-            "news_id": "6e1739d250047b1445a922fab9972880",
-            "published_at": "2026-07-31 16:24 KST",
-            "company_names": [
-              "HD현대",
-              "HD현대중공업",
-              "유니온"
-            ],
-            "sentiment_score": 0.68551,
-            "associated_companies": 3
-          },
-          {
-            "press": "연합뉴스",
-            "title": "전남광주 반도체 '직접생산·연구개발' 인재양성 맞손",
-            "news_id": "bfa435dd28cd453f828df279cac673de",
-            "published_at": "2026-07-31 16:24 KST",
-            "company_names": [
-              "LG이노텍",
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.66718,
-            "associated_companies": 3
-          },
-          {
-            "press": "파이낸셜뉴스",
-            "title": "HD현대 \"HD현대오일뱅크, 2분기 비중동 원유 도입 비중 53%\"[컨콜]",
-            "news_id": "0f61ec483df28c2e16e1e99e0e7ea100",
-            "published_at": "2026-07-31 16:23 KST",
-            "company_names": [
-              "HD현대"
-            ],
-            "sentiment_score": 0.58552,
-            "associated_companies": 1
-          },
-          {
-            "press": "이데일리",
-            "title": "GC녹십자, 2분기 영업익 17억…전년比 93.8%↓",
-            "news_id": "6485aa2564ade302f42464ede5899504",
-            "published_at": "2026-07-31 16:23 KST",
-            "company_names": [
-              "녹십자홀딩스"
-            ],
-            "sentiment_score": 0.40052,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
@@ -1666,12 +1673,12 @@
         "change_pct": 11.63,
         "prev_close": 644.78
       },
-      "score": 2.39956,
+      "score": 2.38447,
       "components": {
         "news": {
-          "score": 0.84522,
-          "coverage": 0.703,
-          "observations": 292
+          "score": 0.91109,
+          "coverage": 0.7053,
+          "observations": 300
         },
         "market": {
           "score": 3.76015,
@@ -1680,9 +1687,9 @@
           "observations": 1801
         },
         "discussion": {
-          "score": 2.49644,
-          "coverage": 0.1306,
-          "observations": 19365
+          "score": 2.43332,
+          "coverage": 0.1303,
+          "observations": 20108
         },
         "news_hankyung": {
           "score": -0.13511,
@@ -1690,9 +1697,111 @@
           "observations": 9
         }
       },
-      "text_pulse": 1.94603,
+      "text_pulse": 1.92591,
       "news_articles": {
         "all": [
+          {
+            "press": "서울경제",
+            "title": "GC녹십자, 2분기 영업익 94% 급감…독감백신 매출 이연 영향",
+            "news_id": "9c7ab6894ce371ada7a98f4e2d854c39",
+            "published_at": "2026-07-31 17:02 KST",
+            "company_names": [
+              "녹십자웰빙"
+            ],
+            "sentiment_score": 0.42551,
+            "associated_companies": 1
+          },
+          {
+            "press": "이데일리",
+            "title": "엘앤씨바이오, 1400억 규모 유상증자…동탄 생산기지 확충",
+            "news_id": "1c4e91776d6334d61f6ad10d66ae619f",
+            "published_at": "2026-07-31 17:00 KST",
+            "company_names": [
+              "엘앤씨바이오"
+            ],
+            "sentiment_score": 0.53802,
+            "associated_companies": 1
+          },
+          {
+            "press": "헤럴드경제",
+            "title": "[단독] 에코프로에이치엔, 마이크론 美 아이다호 신규 팹 2000억대 RCS 수주 추진",
+            "news_id": "8b32479766502d5eb3e7278102c72660",
+            "published_at": "2026-07-31 17:00 KST",
+            "company_names": [
+              "에코프로",
+              "에코프로에이치엔"
+            ],
+            "sentiment_score": 0.69051,
+            "associated_companies": 2
+          },
+          {
+            "press": "이데일리",
+            "title": "SOOP \"배구단 운영비 年 50억~60억…수익화로 부담 상쇄\"[컨콜]",
+            "news_id": "cfee1eb621d783dd19d1e18da0ffeb49",
+            "published_at": "2026-07-31 17:00 KST",
+            "company_names": [
+              "SOOP"
+            ],
+            "sentiment_score": 0.52551,
+            "associated_companies": 1
+          },
+          {
+            "press": "조선비즈",
+            "title": "현대제철 노사, 임단협 잠정 합의… 성과급 300%·현금 500만원",
+            "news_id": "88f53e9cdde27f5f16d996ddb45076b8",
+            "published_at": "2026-07-31 16:59 KST",
+            "company_names": [
+              "ISC",
+              "인투셀"
+            ],
+            "sentiment_score": 0.53052,
+            "associated_companies": 2
+          },
+          {
+            "press": "이데일리",
+            "title": "엘앤씨바이오, 주주배정 유증 추진…\"글로벌 생산기지 구축\"",
+            "news_id": "df4fe26f0f7032811a3d90396ea85786",
+            "published_at": "2026-07-31 16:56 KST",
+            "company_names": [
+              "엘앤씨바이오"
+            ],
+            "sentiment_score": 0.67551,
+            "associated_companies": 1
+          },
+          {
+            "press": "SBS Biz",
+            "title": "현대제철 노사 임단협 잠정합의…기본급 8만원 인상·성과급 300%",
+            "news_id": "8603424555b332fb7bf04a40111d1196",
+            "published_at": "2026-07-31 16:54 KST",
+            "company_names": [
+              "ISC",
+              "인투셀"
+            ],
+            "sentiment_score": 0.51551,
+            "associated_companies": 2
+          },
+          {
+            "press": "뉴시스",
+            "title": "씨엔플러스, 최대주주 인스앤코 15억 규모 CB 전환청구",
+            "news_id": "c17eaa47931e229ff6ddb961867648da",
+            "published_at": "2026-07-31 16:54 KST",
+            "company_names": [
+              "씨엔플러스"
+            ],
+            "sentiment_score": 0.62801,
+            "associated_companies": 1
+          },
+          {
+            "press": "코메디닷컴",
+            "title": "엘앤씨바이오, 1406억원 유상증자…동탄 글로벌 생산기지 구축",
+            "news_id": "d5cfc07f045821a0e6758aff1c853999",
+            "published_at": "2026-07-31 16:53 KST",
+            "company_names": [
+              "엘앤씨바이오"
+            ],
+            "sentiment_score": 0.60301,
+            "associated_companies": 1
+          },
           {
             "press": "파이낸셜뉴스",
             "title": "SOOP, 2분기 영업익 전년보다 58% 감소한 126억원…하반기 유저 유입 확대",
@@ -1850,6 +1959,17 @@
               "에코프로비엠"
             ],
             "sentiment_score": 0.30301,
+            "associated_companies": 1
+          },
+          {
+            "press": "EBN",
+            "title": "SOOP, 2분기 매출 1038억원…AI·UI 개편으로 이용자 확대",
+            "news_id": "9f3762c58a0d7a1454078451563084d5",
+            "published_at": "2026-07-31 16:35 KST",
+            "company_names": [
+              "SOOP"
+            ],
+            "sentiment_score": 0.68051,
             "associated_companies": 1
           },
           {
@@ -2711,121 +2831,6 @@
             ],
             "sentiment_score": 0.68551,
             "associated_companies": 2
-          },
-          {
-            "press": "뉴시스",
-            "title": "\"상업화 성큼\"…온코닉, '자큐보' 인도서 허가 권고",
-            "news_id": "d714ecda0fc5d6c7e15169b2d28aacf8",
-            "published_at": "2026-07-31 14:47 KST",
-            "company_names": [
-              "쎄크",
-              "온코닉테라퓨틱스"
-            ],
-            "sentiment_score": 0.68551,
-            "associated_companies": 2
-          },
-          {
-            "press": "한국경제",
-            "title": "이엔셀, 보툴리눔 톡신 위탁생산 사업 진출 추진",
-            "news_id": "e5d90fa88f45039606f5b034876bc480",
-            "published_at": "2026-07-31 14:45 KST",
-            "company_names": [
-              "이엔셀"
-            ],
-            "sentiment_score": 0.68551,
-            "associated_companies": 1
-          },
-          {
-            "press": "연합뉴스",
-            "title": "[바이오스냅] 카이진, 일본 다이쇼제약과 신약 라이선스 계약",
-            "news_id": "e6a36d33ca614494084a8e1ee738a80e",
-            "published_at": "2026-07-31 14:45 KST",
-            "company_names": [
-              "온코닉테라퓨틱스",
-              "휴온스"
-            ],
-            "sentiment_score": 0.70051,
-            "associated_companies": 2
-          },
-          {
-            "press": "이데일리",
-            "title": "온코닉테라퓨틱스 ‘자큐보’, 인도서 품목허가 권고",
-            "news_id": "bf7181dcbfb259f9f5f22f826bff2882",
-            "published_at": "2026-07-31 14:42 KST",
-            "company_names": [
-              "쎄크",
-              "온코닉테라퓨틱스"
-            ],
-            "sentiment_score": 0.68551,
-            "associated_companies": 2
-          },
-          {
-            "press": "지디넷코리아",
-            "title": "올해로 10년차…컴투스, 글로벌 이스포츠 대회 'SWC'로 '서머너즈워' IP 저력 입증",
-            "news_id": "0dcded6b900ad19d6334f4c78a794307",
-            "published_at": "2026-07-31 14:41 KST",
-            "company_names": [
-              "컴투스"
-            ],
-            "sentiment_score": 0.65551,
-            "associated_companies": 1
-          },
-          {
-            "press": "파이낸셜뉴스",
-            "title": "온코닉 '자큐보', 인도 CDSCO 품목허가 권고… 연내 상업화 눈앞",
-            "news_id": "a5e9bcd7f74a8f87050126440f3e1249",
-            "published_at": "2026-07-31 14:41 KST",
-            "company_names": [
-              "쎄크",
-              "온코닉테라퓨틱스"
-            ],
-            "sentiment_score": 0.68551,
-            "associated_companies": 2
-          },
-          {
-            "press": "뉴시스",
-            "title": "제일파마홀딩스 \"임상 부서 컴플라이언스 교육\"",
-            "news_id": "e8836f7b31b6362d22cb0b2e484162e7",
-            "published_at": "2026-07-31 14:41 KST",
-            "company_names": [
-              "온코닉테라퓨틱스"
-            ],
-            "sentiment_score": 0.53051,
-            "associated_companies": 1
-          },
-          {
-            "press": "EBN",
-            "title": "엠비디, 코스닥 상장예심 통과…정밀의료 플랫폼 기업 도약 본격화",
-            "news_id": "1bd00b4efa76cb3f83e4e32eb55babf9",
-            "published_at": "2026-07-31 14:40 KST",
-            "company_names": [
-              "에스에프에이"
-            ],
-            "sentiment_score": 0.71052,
-            "associated_companies": 1
-          },
-          {
-            "press": "조선비즈",
-            "title": "영국 약대 유학생 위한 OSCE(임상실기시험) 합격 전략… 선배들이 직접 특강",
-            "news_id": "fd89317cbae66f8d331bd458c9eb130e",
-            "published_at": "2026-07-31 14:40 KST",
-            "company_names": [
-              "디지틀조선"
-            ],
-            "sentiment_score": 0.57051,
-            "associated_companies": 1
-          },
-          {
-            "press": "아시아경제",
-            "title": "사학연금, VC 1000억펀드 운용사 선정…IMM인베·아주IB·LB인베 등 5곳",
-            "news_id": "b0bbf842f72497b445f1e47a43215433",
-            "published_at": "2026-07-31 14:38 KST",
-            "company_names": [
-              "LB인베스트먼트",
-              "아주IB투자"
-            ],
-            "sentiment_score": 0.55427,
-            "associated_companies": 2
           }
         ],
         "hankyung": [
@@ -2953,10 +2958,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 16:59 KST",
-      "latest_event": "2026-07-31 16:52 KST",
-      "observations": 2793,
-      "active_minutes": 260
+      "latest_seen": "2026-07-31 17:03 KST",
+      "latest_event": "2026-07-31 17:02 KST",
+      "observations": 2841,
+      "active_minutes": 263
     },
     "market": {
       "intraday": true,
@@ -2966,10 +2971,10 @@
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-31 16:32 KST",
-      "latest_event": "2026-07-31 16:05 KST",
-      "observations": 69080,
-      "active_minutes": 322
+      "latest_seen": "2026-07-31 17:05 KST",
+      "latest_event": "2026-07-31 17:04 KST",
+      "observations": 70844,
+      "active_minutes": 327
     }
   },
   "event_date": "2026-07-31",
@@ -2982,6 +2987,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 17:00 KST"
+    "attempted_at": "2026-07-31 17:05 KST"
   }
 }
