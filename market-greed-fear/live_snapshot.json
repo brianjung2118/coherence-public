@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-07-31 12:38 KST",
+  "as_of": "2026-07-31 12:43 KST",
   "boards": {
     "KOSPI": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 12:38 KST",
-        "price": 6375.79,
-        "change": 782.23,
-        "change_pct": 13.98,
+        "as_of": "2026-07-31 12:43 KST",
+        "price": 6395.52,
+        "change": 801.96,
+        "change_pct": 14.34,
         "prev_close": 5593.56
       },
-      "score": 2.47041,
+      "score": 2.49462,
       "components": {
         "news": {
           "score": 0.38191,
-          "coverage": 0.8273,
-          "observations": 978
+          "coverage": 0.8274,
+          "observations": 979
         },
         "market": {
-          "score": 3.63787,
+          "score": 3.73469,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 915
@@ -37,6 +37,17 @@
       "text_pulse": 2.08126,
       "news_articles": {
         "all": [
+          {
+            "press": "뉴스1",
+            "title": "부산 공략 확대…한샘, 롯데 동래점 리뉴얼 오픈",
+            "news_id": "9ada6b2791bca039c6a0cb382e8869ec",
+            "published_at": "2026-07-31 12:39 KST",
+            "company_names": [
+              "한샘"
+            ],
+            "sentiment_score": 0.56802,
+            "associated_companies": 1
+          },
           {
             "press": "이데일리",
             "title": "LG CNS, LG전자에 ‘로봇 데이터 팩토리’…피지컬AI 대외 확장[컨콜]",
@@ -1206,17 +1217,6 @@
             ],
             "sentiment_score": 0.68551,
             "associated_companies": 1
-          },
-          {
-            "press": "EBN",
-            "title": "국내선 인바운드, 해외선 K팬덤…현대百 '더현대 글로벌' 키운다",
-            "news_id": "71874fd5631f98c497485757052c8b69",
-            "published_at": "2026-07-31 11:24 KST",
-            "company_names": [
-              "현대백화점"
-            ],
-            "sentiment_score": 0.68051,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
@@ -1507,13 +1507,13 @@
     "KOSDAQ": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 12:38 KST",
-        "price": 704.85,
-        "change": 60.07,
-        "change_pct": 9.32,
+        "as_of": "2026-07-31 12:43 KST",
+        "price": 705.97,
+        "change": 61.19,
+        "change_pct": 9.49,
         "prev_close": 644.78
       },
-      "score": 2.26361,
+      "score": 2.2754,
       "components": {
         "news": {
           "score": 0.74101,
@@ -1521,7 +1521,7 @@
           "observations": 158
         },
         "market": {
-          "score": 3.13638,
+          "score": 3.18352,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 1801
@@ -2764,14 +2764,14 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 12:36 KST",
-      "latest_event": "2026-07-31 12:31 KST",
-      "observations": 1628,
-      "active_minutes": 157
+      "latest_seen": "2026-07-31 12:42 KST",
+      "latest_event": "2026-07-31 12:41 KST",
+      "observations": 1637,
+      "active_minutes": 158
     },
     "market": {
       "intraday": true,
-      "latest_seen": "2026-07-31 12:38 KST",
+      "latest_seen": "2026-07-31 12:43 KST",
       "latest_event": "2026-07-31",
       "active_minutes": null,
       "status_record_available": true
@@ -2793,6 +2793,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 12:38 KST"
+    "attempted_at": "2026-07-31 12:43 KST"
   }
 }
