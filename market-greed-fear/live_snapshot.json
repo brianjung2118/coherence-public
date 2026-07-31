@@ -1,42 +1,133 @@
 {
-  "as_of": "2026-07-31 14:01 KST",
+  "as_of": "2026-07-31 14:07 KST",
   "boards": {
     "KOSPI": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 14:01 KST",
-        "price": 6495.7,
-        "change": 902.14,
-        "change_pct": 16.13,
+        "as_of": "2026-07-31 14:07 KST",
+        "price": 6524.92,
+        "change": 931.36,
+        "change_pct": 16.65,
         "prev_close": 5593.56
       },
-      "score": 2.56431,
+      "score": 2.56338,
       "components": {
         "news": {
-          "score": 0.50202,
-          "coverage": 0.8335,
-          "observations": 1060
+          "score": 0.50048,
+          "coverage": 0.8344,
+          "observations": 1070
         },
         "market": {
-          "score": 4.17524,
+          "score": 4.25413,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 915
         },
         "discussion": {
-          "score": 2.78999,
-          "coverage": 0.1673,
-          "observations": 34199
+          "score": 2.74946,
+          "coverage": 0.1657,
+          "observations": 35557
         },
         "news_hankyung": {
-          "score": -0.10127,
-          "coverage": 0.8452,
-          "observations": 30
+          "score": -0.11218,
+          "coverage": 0.8571,
+          "observations": 34
         }
       },
-      "text_pulse": 2.02733,
+      "text_pulse": 1.9998,
       "news_articles": {
         "all": [
+          {
+            "press": "이데일리",
+            "title": "한화에어로, 2분기 영업익 '1.4조'…방산 질주에 사상 첫 1조원 돌파 (종합)",
+            "news_id": "bef94558c16b46abf5c03e2f53d9e2be",
+            "published_at": "2026-07-31 14:02 KST",
+            "company_names": [
+              "한화시스템",
+              "한화에어로스페이스",
+              "한화오션"
+            ],
+            "sentiment_score": 0.68218,
+            "associated_companies": 3
+          },
+          {
+            "press": "아이뉴스24",
+            "title": "KNS \"저궤도 위성 신사업 진출⋯올해 흑자 전환\"",
+            "news_id": "4c6d75b91b3cf4325617c2a67faa09ad",
+            "published_at": "2026-07-31 14:01 KST",
+            "company_names": [
+              "KT"
+            ],
+            "sentiment_score": 0.67551,
+            "associated_companies": 1
+          },
+          {
+            "press": "지디넷코리아",
+            "title": "한빛소프트 '그라나도 에스파다M', '신암행어사' 협업 업데이트",
+            "news_id": "ee1d3f4534a3f2e38291137974effff4",
+            "published_at": "2026-07-31 14:01 KST",
+            "company_names": [
+              "NAVER"
+            ],
+            "sentiment_score": 0.59801,
+            "associated_companies": 1
+          },
+          {
+            "press": "이데일리",
+            "title": "NH투자증권, '연금자산 20조원 돌파' 불꽃 감사 이벤트 실시",
+            "news_id": "78326dd31b52a970290f2b87cef0404d",
+            "published_at": "2026-07-31 13:59 KST",
+            "company_names": [
+              "NH투자증권"
+            ],
+            "sentiment_score": 0.53551,
+            "associated_companies": 1
+          },
+          {
+            "press": "아시아경제",
+            "title": "HD현대마린엔진, 中 기업에 475억원 규모 선박엔진 공급",
+            "news_id": "c17ecdf4aeb3d506bad7c014764bc313",
+            "published_at": "2026-07-31 13:58 KST",
+            "company_names": [
+              "HD현대마린엔진"
+            ],
+            "sentiment_score": 0.69051,
+            "associated_companies": 1
+          },
+          {
+            "press": "연합뉴스",
+            "title": "한화엔진 2분기 영업이익 379억원…작년 동기 대비 12.2%↑",
+            "news_id": "2e20de5c7a02270079d770ed61c7e60d",
+            "published_at": "2026-07-31 13:55 KST",
+            "company_names": [
+              "한화엔진"
+            ],
+            "sentiment_score": 0.47552,
+            "associated_companies": 1
+          },
+          {
+            "press": "전자신문",
+            "title": "NH투자증권, 연금자산 20조원 돌파 이벤트…서울세계불꽃축제 관람권 추첨",
+            "news_id": "c5cfc7e1f777d4fbafc418f41bd1e1ea",
+            "published_at": "2026-07-31 13:55 KST",
+            "company_names": [
+              "NH투자증권"
+            ],
+            "sentiment_score": 0.53551,
+            "associated_companies": 1
+          },
+          {
+            "press": "데일리안",
+            "title": "LG화학, 2분기 영업익 5996억…전년비 25.8%↑",
+            "news_id": "5d1fc81525662852d1c4c8d67c4d46cd",
+            "published_at": "2026-07-31 13:53 KST",
+            "company_names": [
+              "LG에너지솔루션",
+              "LG화학"
+            ],
+            "sentiment_score": 0.59051,
+            "associated_companies": 2
+          },
           {
             "press": "OSEN",
             "title": "크래프톤, 2026년 상반기 매출·영업이익 역대 최고치 경신…전년 동기 대비 73.3%, 38.3% ↑",
@@ -1092,95 +1183,6 @@
             ],
             "sentiment_score": 0.44801,
             "associated_companies": 1
-          },
-          {
-            "press": "뉴스1",
-            "title": "코스피 장중 17% '역대 최고' 폭등…\"기술적 반등\" vs \"추세 전환\"",
-            "news_id": "3acc3be71933f1d03b66358ea88779cd",
-            "published_at": "2026-07-31 12:25 KST",
-            "company_names": [
-              "한국금융지주"
-            ],
-            "sentiment_score": 0.54302,
-            "associated_companies": 1
-          },
-          {
-            "press": "비즈워치",
-            "title": "'최태원 떴다'…SK하이닉스 장 초반 27% 급등",
-            "news_id": "5fc27803876726b79d044b54fbcf5474",
-            "published_at": "2026-07-31 12:25 KST",
-            "company_names": [
-              "SK하이닉스"
-            ],
-            "sentiment_score": 0.63801,
-            "associated_companies": 1
-          },
-          {
-            "press": "MBC",
-            "title": "오늘의 증시",
-            "news_id": "573a4901bb956d453491ad33f2f021eb",
-            "published_at": "2026-07-31 12:21 KST",
-            "company_names": [
-              "삼성증권"
-            ],
-            "sentiment_score": 0.50301,
-            "associated_companies": 1
-          },
-          {
-            "press": "스포츠경향",
-            "title": "‘17년 연속’ 무분규로 KGM, 2026년 임단협 협상 타결",
-            "news_id": "e6e8b51347310d040e39a6bfa14325b4",
-            "published_at": "2026-07-31 12:21 KST",
-            "company_names": [
-              "KG모빌리티"
-            ],
-            "sentiment_score": 0.66551,
-            "associated_companies": 1
-          },
-          {
-            "press": "아이뉴스24",
-            "title": "'야장 포차'로 변신한 꼬깔콘…롯데웰푸드, 팝업스토어로 2030 공략",
-            "news_id": "381636b6e978112f2d57b244607f20b6",
-            "published_at": "2026-07-31 12:20 KST",
-            "company_names": [
-              "롯데웰푸드"
-            ],
-            "sentiment_score": 0.56551,
-            "associated_companies": 1
-          },
-          {
-            "press": "뉴스1",
-            "title": "'개인정보 유출' 쿠팡에 1인당 10만원 배상 결정…수용 여부 주목",
-            "news_id": "747d4f203de6c31435514370f7b5b8b9",
-            "published_at": "2026-07-31 12:14 KST",
-            "company_names": [
-              "SK텔레콤"
-            ],
-            "sentiment_score": 0.35302,
-            "associated_companies": 1
-          },
-          {
-            "press": "파이낸셜뉴스",
-            "title": "베일 벗은 '디에이치 방배’… 차세대 커뮤니티 플랫폼 ‘H 컬처클럽’ 하이엔드 라이프스타일 선보여",
-            "news_id": "e5ed05740f870d297db5afa8c30c4779",
-            "published_at": "2026-07-31 12:12 KST",
-            "company_names": [
-              "현대건설",
-              "현대백화점"
-            ],
-            "sentiment_score": 0.57052,
-            "associated_companies": 2
-          },
-          {
-            "press": "조선비즈",
-            "title": "카카오모빌리티, TS와 데이터 기반 교통안전 협력 확대",
-            "news_id": "78477cbdce53339ebbc71276eb7fb2fd",
-            "published_at": "2026-07-31 12:06 KST",
-            "company_names": [
-              "카카오"
-            ],
-            "sentiment_score": 0.64551,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
@@ -1523,39 +1525,118 @@
     "KOSDAQ": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 14:01 KST",
-        "price": 712.27,
-        "change": 67.49,
-        "change_pct": 10.47,
+        "as_of": "2026-07-31 14:07 KST",
+        "price": 714.33,
+        "change": 69.55,
+        "change_pct": 10.79,
         "prev_close": 644.78
       },
-      "score": 2.28883,
+      "score": 2.23483,
       "components": {
         "news": {
-          "score": 0.76426,
-          "coverage": 0.7219,
-          "observations": 169
+          "score": 0.68841,
+          "coverage": 0.7279,
+          "observations": 175
         },
         "market": {
-          "score": 3.43248,
+          "score": 3.4956,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 1801
         },
         "discussion": {
-          "score": 2.47929,
-          "coverage": 0.1313,
-          "observations": 13727
+          "score": 2.37766,
+          "coverage": 0.1303,
+          "observations": 15215
         },
         "news_hankyung": {
           "score": -0.19745,
-          "coverage": 0.5,
+          "coverage": 0.52,
           "observations": 6
         }
       },
-      "text_pulse": 1.90761,
+      "text_pulse": 1.81458,
       "news_articles": {
         "all": [
+          {
+            "press": "아이뉴스24",
+            "title": "KNS \"저궤도 위성 신사업 진출⋯올해 흑자 전환\"",
+            "news_id": "4c6d75b91b3cf4325617c2a67faa09ad",
+            "published_at": "2026-07-31 14:01 KST",
+            "company_names": [
+              "아이앤씨",
+              "케이엔에스"
+            ],
+            "sentiment_score": 0.69802,
+            "associated_companies": 2
+          },
+          {
+            "press": "지디넷코리아",
+            "title": "한빛소프트 '그라나도 에스파다M', '신암행어사' 협업 업데이트",
+            "news_id": "ee1d3f4534a3f2e38291137974effff4",
+            "published_at": "2026-07-31 14:01 KST",
+            "company_names": [
+              "와이랩",
+              "한빛소프트"
+            ],
+            "sentiment_score": 0.60427,
+            "associated_companies": 2
+          },
+          {
+            "press": "동아일보",
+            "title": "부스터즈, ‘프론투라인’ 품고 글로벌 웰니스 웨어 시장 영토 확장",
+            "news_id": "fd92d016a9eb2b84e1ebd2d661761d84",
+            "published_at": "2026-07-31 13:59 KST",
+            "company_names": [
+              "FSN"
+            ],
+            "sentiment_score": 0.68551,
+            "associated_companies": 1
+          },
+          {
+            "press": "코메디닷컴",
+            "title": "대장암·위암 겨냥 리가켐바이오 신약 후보, 미국 1상 승인",
+            "news_id": "6c915ce13782fd17b322f65751354ec9",
+            "published_at": "2026-07-31 13:57 KST",
+            "company_names": [
+              "리가켐바이오"
+            ],
+            "sentiment_score": 0.69551,
+            "associated_companies": 1
+          },
+          {
+            "press": "뉴스1",
+            "title": "원텍, 중간배당 도입·자사주 지급…주주환원 확대",
+            "news_id": "1c0e8ea5d71e0556f0ee9eaf38c61cd0",
+            "published_at": "2026-07-31 13:55 KST",
+            "company_names": [
+              "원텍"
+            ],
+            "sentiment_score": 0.69051,
+            "associated_companies": 1
+          },
+          {
+            "press": "헤럴드경제",
+            "title": "에코프로비엠, 2분기 영업익 180억…전년비 63.2% ↓",
+            "news_id": "f5940831d1f934eab6bf7aee9b75dd55",
+            "published_at": "2026-07-31 13:53 KST",
+            "company_names": [
+              "에코프로비엠"
+            ],
+            "sentiment_score": 0.19301,
+            "associated_companies": 1
+          },
+          {
+            "press": "전자신문",
+            "title": "삼진엘앤디, 니나노컴퍼니와 드론·관련 기자재 신사업 추진 MOU 체결",
+            "news_id": "98652f89b152d99ac0443e08f1008487",
+            "published_at": "2026-07-31 13:52 KST",
+            "company_names": [
+              "삼진엘앤디"
+            ],
+            "sentiment_score": 0.69551,
+            "associated_companies": 1
+          },
           {
             "press": "이데일리",
             "title": "반도체 조정장 속 투심 돌아오나(?) 케이엠제약·레몬헬스케어 상한가 [바이오맥짚기]",
@@ -2627,84 +2708,6 @@
             ],
             "sentiment_score": 0.63052,
             "associated_companies": 1
-          },
-          {
-            "press": "이데일리",
-            "title": "엘앤케이바이오, ‘팩투스’로 美 최상위 병원 공략 계속",
-            "news_id": "ce784d15726fd74105e89f9059cf50b1",
-            "published_at": "2026-07-31 10:06 KST",
-            "company_names": [
-              "엘앤케이바이오"
-            ],
-            "sentiment_score": 0.70051,
-            "associated_companies": 1
-          },
-          {
-            "press": "EBN",
-            "title": "[Tech & Now] 플랜티넷, 상장 후 첫 중간배당…캠시스, 코라스로보틱스와 MOU",
-            "news_id": "d626ce7aa0cc1c1cc6763c017bcf089c",
-            "published_at": "2026-07-31 10:04 KST",
-            "company_names": [
-              "캠시스",
-              "플랜티넷"
-            ],
-            "sentiment_score": 0.60552,
-            "associated_companies": 2
-          },
-          {
-            "press": "서울신문",
-            "title": "최태원 ‘바닥 매수’ 통했다…SK하이닉스 하루 만에 평가익 10억원",
-            "news_id": "6e05f8807be7e83fd2e4240c6580959c",
-            "published_at": "2026-07-31 10:02 KST",
-            "company_names": [
-              "주성엔지니어링"
-            ],
-            "sentiment_score": 0.67551,
-            "associated_companies": 1
-          },
-          {
-            "press": "조선비즈",
-            "title": "리가켐바이오 기술 적용 ADC, 세 번째 美 임상 승인",
-            "news_id": "8e60397978a981925be59d5d19eecb98",
-            "published_at": "2026-07-31 10:02 KST",
-            "company_names": [
-              "리가켐바이오"
-            ],
-            "sentiment_score": 0.69551,
-            "associated_companies": 1
-          },
-          {
-            "press": "서울신문",
-            "title": "한국노동경제학회, 업무환경 실태조사 발표…“택배기사 휴무 보장의 핵심은 배송 대체인력”",
-            "news_id": "973bb0ae05e42e16c78ecce195851553",
-            "published_at": "2026-07-31 10:02 KST",
-            "company_names": [
-              "로젠"
-            ],
-            "sentiment_score": 0.50301,
-            "associated_companies": 1
-          },
-          {
-            "press": "전자신문",
-            "title": "한국노동경제학회, 택배기사 격주 5일 이하 업무비율 발표… '배송 대체인력' 운영 여부가 휴무 보장의 관건",
-            "news_id": "89fa188d6c6ad1a775188480e71e5a17",
-            "published_at": "2026-07-31 10:01 KST",
-            "company_names": [
-              "로젠"
-            ],
-            "sentiment_score": 0.45552,
-            "associated_companies": 1
-          },
-          {
-            "press": "노컷뉴스",
-            "title": "NC AI, 에이전틱 AI 국책사업 선정…자율형 AI 만든다",
-            "news_id": "768e8508b85f9a7f652f8d34196a7c69",
-            "published_at": "2026-07-31 10:00 KST",
-            "company_names": [
-              "가비아"
-            ],
-            "sentiment_score": 0.67551,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
@@ -2797,23 +2800,23 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 14:01 KST",
-      "latest_event": "2026-07-31 14:00 KST",
-      "observations": 1790,
-      "active_minutes": 182
+      "latest_seen": "2026-07-31 14:07 KST",
+      "latest_event": "2026-07-31 14:05 KST",
+      "observations": 1830,
+      "active_minutes": 188
     },
     "market": {
       "intraday": true,
-      "latest_seen": "2026-07-31 14:01 KST",
+      "latest_seen": "2026-07-31 14:07 KST",
       "latest_event": "2026-07-31",
       "active_minutes": null,
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-31 14:01 KST",
-      "latest_event": "2026-07-31 14:01 KST",
-      "observations": 48475,
-      "active_minutes": 226
+      "latest_seen": "2026-07-31 14:07 KST",
+      "latest_event": "2026-07-31 14:05 KST",
+      "observations": 51362,
+      "active_minutes": 232
     }
   },
   "event_date": "2026-07-31",
@@ -2826,6 +2829,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 14:01 KST"
+    "attempted_at": "2026-07-31 14:07 KST"
   }
 }
