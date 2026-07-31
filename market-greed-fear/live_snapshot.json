@@ -1,32 +1,32 @@
 {
-  "as_of": "2026-07-31 13:09 KST",
+  "as_of": "2026-07-31 13:14 KST",
   "boards": {
     "KOSPI": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 13:09 KST",
-        "price": 6380.84,
-        "change": 787.28,
-        "change_pct": 14.07,
+        "as_of": "2026-07-31 13:14 KST",
+        "price": 6386.6,
+        "change": 793.04,
+        "change_pct": 14.18,
         "prev_close": 5593.56
       },
-      "score": 2.438,
+      "score": 2.44557,
       "components": {
         "news": {
-          "score": 0.39361,
-          "coverage": 0.8279,
-          "observations": 986
+          "score": 0.40629,
+          "coverage": 0.8283,
+          "observations": 993
         },
         "market": {
-          "score": 3.68571,
+          "score": 3.70413,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 915
         },
         "discussion": {
-          "score": 2.83635,
-          "coverage": 0.1682,
-          "observations": 32510
+          "score": 2.83594,
+          "coverage": 0.1681,
+          "observations": 32558
         },
         "news_hankyung": {
           "score": -1.18224,
@@ -34,9 +34,65 @@
           "observations": 25
         }
       },
-      "text_pulse": 2.0221,
+      "text_pulse": 2.02606,
       "news_articles": {
         "all": [
+          {
+            "press": "더팩트",
+            "title": "iM금융, iM증권 완전자회사화 득실…순익 더 품지만 자본·희석 부담",
+            "news_id": "fb3c8a39cf7380af765b24a82723327f",
+            "published_at": "2026-07-31 13:11 KST",
+            "company_names": [
+              "iM금융지주"
+            ],
+            "sentiment_score": 0.46802,
+            "associated_companies": 1
+          },
+          {
+            "press": "뉴스1",
+            "title": "[속보] 한화에어로 2분기 영업이익 1조 3655억원, 전년 대비 58.5%↑",
+            "news_id": "b1748b2761cb25db6adc08c406fda488",
+            "published_at": "2026-07-31 13:08 KST",
+            "company_names": [
+              "한화에어로스페이스"
+            ],
+            "sentiment_score": 0.57551,
+            "associated_companies": 1
+          },
+          {
+            "press": "전자신문",
+            "title": "'증시 폭락' 참다 못한 주주들, 직접 정치판 뛰어들었다",
+            "news_id": "5852084b3a05fd929b1d3b8c419cc2e5",
+            "published_at": "2026-07-31 13:05 KST",
+            "company_names": [
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.36051,
+            "associated_companies": 1
+          },
+          {
+            "press": "TV조선",
+            "title": "SKT, 피지컬 AI 스타트업과 손잡고 로보틱스 생태계 키운다",
+            "news_id": "621d5e48f892c63405a64cc6a1ae657f",
+            "published_at": "2026-07-31 13:03 KST",
+            "company_names": [
+              "SK텔레콤",
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.66051,
+            "associated_companies": 2
+          },
+          {
+            "press": "디지털데일리",
+            "title": "삼성전자, 가정용 ‘EHS 히트펌프 보일러’ 공급 확대",
+            "news_id": "75eaa1e0e562705db862fa66042ef020",
+            "published_at": "2026-07-31 13:02 KST",
+            "company_names": [
+              "삼성전자"
+            ],
+            "sentiment_score": 0.66551,
+            "associated_companies": 1
+          },
           {
             "press": "아이뉴스24",
             "title": "포스코 장인화의 선택⋯리튬사업 8년 만에 분기 기준 첫 흑자",
@@ -75,6 +131,18 @@
             "associated_companies": 1
           },
           {
+            "press": "TV조선",
+            "title": "칠레 거리엔 우리 순찰차가 달린다…현대·기아차, 순찰용 전기차 기증",
+            "news_id": "9ba89a008512d5849f7549e1e990d882",
+            "published_at": "2026-07-31 12:59 KST",
+            "company_names": [
+              "기아",
+              "현대차"
+            ],
+            "sentiment_score": 0.63801,
+            "associated_companies": 2
+          },
+          {
             "press": "헤럴드경제",
             "title": "건설경기 침체에도 LX하우시스, 영업이익 329% 급증한 까닭은[중기+]",
             "news_id": "384cde8187230ee21e70fa36f1945b20",
@@ -95,6 +163,18 @@
             ],
             "sentiment_score": 0.66551,
             "associated_companies": 1
+          },
+          {
+            "press": "YTN",
+            "title": "코스피 10% 이상 폭등...단숨에 '6천 포인트' 회복 [뉴스나우]",
+            "news_id": "848304c041014165f67dae59bdb9904f",
+            "published_at": "2026-07-31 12:55 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.50552,
+            "associated_companies": 2
           },
           {
             "press": "뉴스1",
@@ -1141,84 +1221,6 @@
             ],
             "sentiment_score": 0.68802,
             "associated_companies": 2
-          },
-          {
-            "press": "뉴시스",
-            "title": "한샘, 롯데 동래점 리뉴얼 오픈…\"프리미엄 공간\"",
-            "news_id": "2635068d652c9cbf6527de901f460922",
-            "published_at": "2026-07-31 11:29 KST",
-            "company_names": [
-              "한샘"
-            ],
-            "sentiment_score": 0.56551,
-            "associated_companies": 1
-          },
-          {
-            "press": "헤럴드경제",
-            "title": "대우건설, 연천군서 ‘상생 플로깅’ 봉사",
-            "news_id": "76f133eab1a4e9c008ac5d25cd39a129",
-            "published_at": "2026-07-31 11:29 KST",
-            "company_names": [
-              "대우건설"
-            ],
-            "sentiment_score": 0.59301,
-            "associated_companies": 1
-          },
-          {
-            "press": "뉴시스",
-            "title": "카카오뱅크 노조, 첫 전일 파업 돌입…700여 명 참여",
-            "news_id": "91410c76c416308de2f32bae7b8801e9",
-            "published_at": "2026-07-31 11:29 KST",
-            "company_names": [
-              "카카오",
-              "카카오뱅크"
-            ],
-            "sentiment_score": 0.23802,
-            "associated_companies": 2
-          },
-          {
-            "press": "헤럴드경제",
-            "title": "동부건설, 8300억원대 철도·공공주택 수주",
-            "news_id": "a37a9c487095c6dcc59d562eeea8d30e",
-            "published_at": "2026-07-31 11:29 KST",
-            "company_names": [
-              "동부건설"
-            ],
-            "sentiment_score": 0.69051,
-            "associated_companies": 1
-          },
-          {
-            "press": "헤럴드경제",
-            "title": "삼양식품, 문체부와 관광객 유치 확대·관광 활성화 협약",
-            "news_id": "7316c21c21a81f3a134aa0e702a6c6ed",
-            "published_at": "2026-07-31 11:28 KST",
-            "company_names": [
-              "삼양식품"
-            ],
-            "sentiment_score": 0.65051,
-            "associated_companies": 1
-          },
-          {
-            "press": "뉴시스",
-            "title": "'완전 전기함정'으로 거듭나는 KDDX…한화오션, 본계약 맺고 본격 착수",
-            "news_id": "13e9e43171d9481837903f33b12007c2",
-            "published_at": "2026-07-31 11:27 KST",
-            "company_names": [
-              "한화오션"
-            ],
-            "sentiment_score": 0.68051,
-            "associated_companies": 1
-          },
-          {
-            "press": "뉴스1",
-            "title": "소버린 AI 생태계 앞서가는 중동…'보급률' 앞세운 한국도 존재감",
-            "news_id": "2995673e72158be34eb26a49a7e40ac1",
-            "published_at": "2026-07-31 11:27 KST",
-            "company_names": [
-              "SK텔레콤"
-            ],
-            "sentiment_score": 0.59801,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
@@ -1509,21 +1511,21 @@
     "KOSDAQ": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 13:09 KST",
-        "price": 707.11,
-        "change": 62.33,
+        "as_of": "2026-07-31 13:14 KST",
+        "price": 707.12,
+        "change": 62.34,
         "change_pct": 9.67,
         "prev_close": 644.78
       },
-      "score": 2.2226,
+      "score": 2.22318,
       "components": {
         "news": {
-          "score": 0.75183,
-          "coverage": 0.7251,
+          "score": 0.75169,
+          "coverage": 0.7264,
           "observations": 160
         },
         "market": {
-          "score": 3.22427,
+          "score": 3.22675,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 1801
@@ -1539,7 +1541,7 @@
           "observations": 6
         }
       },
-      "text_pulse": 1.88871,
+      "text_pulse": 1.88866,
       "news_articles": {
         "all": [
           {
@@ -1552,6 +1554,18 @@
             ],
             "sentiment_score": 0.62301,
             "associated_companies": 1
+          },
+          {
+            "press": "YTN",
+            "title": "코스피 10% 이상 폭등...단숨에 '6천 포인트' 회복 [뉴스나우]",
+            "news_id": "848304c041014165f67dae59bdb9904f",
+            "published_at": "2026-07-31 12:55 KST",
+            "company_names": [
+              "LS증권",
+              "YTN"
+            ],
+            "sentiment_score": 0.53051,
+            "associated_companies": 2
           },
           {
             "press": "머니투데이",
@@ -2677,18 +2691,6 @@
             ],
             "sentiment_score": 0.57551,
             "associated_companies": 1
-          },
-          {
-            "press": "서울신문",
-            "title": "[서울데이터랩]개장 직후 인기 검색 종목 20選",
-            "news_id": "bc5e4294a54fd35ca067477570cdf2c8",
-            "published_at": "2026-07-31 09:46 KST",
-            "company_names": [
-              "에코프로",
-              "주성엔지니어링"
-            ],
-            "sentiment_score": 0.69051,
-            "associated_companies": 2
           }
         ],
         "hankyung": [
@@ -2766,23 +2768,23 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 13:03 KST",
-      "latest_event": "2026-07-31 13:03 KST",
-      "observations": 1666,
-      "active_minutes": 162
+      "latest_seen": "2026-07-31 13:13 KST",
+      "latest_event": "2026-07-31 13:11 KST",
+      "observations": 1676,
+      "active_minutes": 165
     },
     "market": {
       "intraday": true,
-      "latest_seen": "2026-07-31 13:09 KST",
+      "latest_seen": "2026-07-31 13:14 KST",
       "latest_event": "2026-07-31",
       "active_minutes": null,
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-31 13:09 KST",
+      "latest_seen": "2026-07-31 13:14 KST",
       "latest_event": "2026-07-31 13:05 KST",
-      "observations": 46622,
-      "active_minutes": 207
+      "observations": 46670,
+      "active_minutes": 212
     }
   },
   "event_date": "2026-07-31",
@@ -2795,6 +2797,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 13:09 KST"
+    "attempted_at": "2026-07-31 13:14 KST"
   }
 }
