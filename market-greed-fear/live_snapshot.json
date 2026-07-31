@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-07-31 10:52 KST",
+  "as_of": "2026-07-31 10:57 KST",
   "boards": {
     "KOSPI": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 10:52 KST",
-        "price": 6381.89,
-        "change": 788.33,
-        "change_pct": 14.09,
+        "as_of": "2026-07-31 10:57 KST",
+        "price": 6375.16,
+        "change": 781.6,
+        "change_pct": 13.97,
         "prev_close": 5593.56
       },
-      "score": 2.8934,
+      "score": 2.88569,
       "components": {
         "news": {
-          "score": 0.47389,
-          "coverage": 0.8363,
-          "observations": 768
+          "score": 0.48005,
+          "coverage": 0.8339,
+          "observations": 788
         },
         "market": {
-          "score": 3.63288,
+          "score": 3.59589,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 915
@@ -34,9 +34,55 @@
           "observations": 22
         }
       },
-      "text_pulse": 2.6469,
+      "text_pulse": 2.64896,
       "news_articles": {
         "all": [
+          {
+            "press": "SBS Biz",
+            "title": "DL이앤씨, 2분기 영업이익 26% 증가…555억원 자사주 매입도 추진",
+            "news_id": "2bdd54a520e5739096c0afecf6b74255",
+            "published_at": "2026-07-31 10:52 KST",
+            "company_names": [
+              "DL이앤씨"
+            ],
+            "sentiment_score": 0.67551,
+            "associated_companies": 1
+          },
+          {
+            "press": "조선비즈",
+            "title": "팬오션, 2분기 영업이익 1937억… 전년比 27.4%↑",
+            "news_id": "74620f1caed4e518b2944d5f21308ab3",
+            "published_at": "2026-07-31 10:52 KST",
+            "company_names": [
+              "팬오션"
+            ],
+            "sentiment_score": 0.68551,
+            "associated_companies": 1
+          },
+          {
+            "press": "전자신문",
+            "title": "[ET특징주] 美 반도체 훈풍에 최태원 장내 매수까지… SK스퀘어, 주가 上",
+            "news_id": "81a8ff125b982ce56dc3d212a3a33916",
+            "published_at": "2026-07-31 10:52 KST",
+            "company_names": [
+              "SK",
+              "SK스퀘어",
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.68551,
+            "associated_companies": 3
+          },
+          {
+            "press": "이데일리",
+            "title": "고창훈 이엠앤아이 대표 “기술력·신사업 기반 기업가치 회복할 것\"",
+            "news_id": "9c5a8380612fc7c5c1ec1d3256deddad",
+            "published_at": "2026-07-31 10:51 KST",
+            "company_names": [
+              "LG에너지솔루션"
+            ],
+            "sentiment_score": 0.55802,
+            "associated_companies": 1
+          },
           {
             "press": "데일리안",
             "title": "25년 전 오늘 현대 떠난 하이닉스…최태원의 48억 승부수 [나우앤덴]",
@@ -73,6 +119,28 @@
             "associated_companies": 1
           },
           {
+            "press": "전자신문",
+            "title": "씨엔티테크, 해양바이오소재 알긴산 국산화 추진 '플랜트너'에 투자",
+            "news_id": "1b9e1514e2bdabed2807e17c757dd97e",
+            "published_at": "2026-07-31 10:49 KST",
+            "company_names": [
+              "유한양행"
+            ],
+            "sentiment_score": 0.63052,
+            "associated_companies": 1
+          },
+          {
+            "press": "뉴스1",
+            "title": "하나은행, 예·적금 기본금리 최대 0.3%P 인상…기준금리 상승 반영",
+            "news_id": "51ce3f4876e6ff6a54fea84468065205",
+            "published_at": "2026-07-31 10:49 KST",
+            "company_names": [
+              "하나금융지주"
+            ],
+            "sentiment_score": 0.48801,
+            "associated_companies": 1
+          },
+          {
             "press": "이데일리",
             "title": "日키옥시아, 순익 33배 전망에도 주가 60% 폭락…삼성·SK와 뭐가 달랐나",
             "news_id": "9f44cdd7fbbfca1b521cb104ba23a8b4",
@@ -81,6 +149,17 @@
               "SK"
             ],
             "sentiment_score": 0.47802,
+            "associated_companies": 1
+          },
+          {
+            "press": "뉴스1",
+            "title": "현대건설, 지속가능경영 보고서 발간…3100억 녹색채권 발행",
+            "news_id": "4790d77bbda7e59ef3da420bb9000eca",
+            "published_at": "2026-07-31 10:47 KST",
+            "company_names": [
+              "현대건설"
+            ],
+            "sentiment_score": 0.55051,
             "associated_companies": 1
           },
           {
@@ -106,6 +185,107 @@
             "associated_companies": 1
           },
           {
+            "press": "블로터",
+            "title": "농협금융, 지역밀착 생산적금융 12조 눈앞…이찬우표 '자본전략' 적중",
+            "news_id": "c61d340714d1add447d9c142b3c4c4ce",
+            "published_at": "2026-07-31 10:47 KST",
+            "company_names": [
+              "NH투자증권"
+            ],
+            "sentiment_score": 0.66051,
+            "associated_companies": 1
+          },
+          {
+            "press": "데일리안",
+            "title": "공정 지연·안전 위험 미리 잡는다…GS건설, 건설 AI 본격화",
+            "news_id": "cbb5f2d9a1954141ad9fbebb7d391c96",
+            "published_at": "2026-07-31 10:47 KST",
+            "company_names": [
+              "GS건설",
+              "NAVER"
+            ],
+            "sentiment_score": 0.65051,
+            "associated_companies": 2
+          },
+          {
+            "press": "뉴시스",
+            "title": "엔씨 '아이온2', 中 출사표…김택진 \"오래 기억될 게임 만들겠다\"(종합)",
+            "news_id": "9b06c87b76a68bc7ae717f8b5541dc3d",
+            "published_at": "2026-07-31 10:46 KST",
+            "company_names": [
+              "NC"
+            ],
+            "sentiment_score": 0.59801,
+            "associated_companies": 1
+          },
+          {
+            "press": "헤럴드경제",
+            "title": "깨끗한나라, 동남아 생리대 시장 공략 박차…현지화 전략",
+            "news_id": "dce70fd781a7bb121db56b52f4a64f91",
+            "published_at": "2026-07-31 10:46 KST",
+            "company_names": [
+              "깨끗한나라"
+            ],
+            "sentiment_score": 0.67051,
+            "associated_companies": 1
+          },
+          {
+            "press": "파이낸셜뉴스",
+            "title": "\"우리 아이가 동화 주인공\"…LGU+, 고객 사연으로 AI 동화 제작",
+            "news_id": "0d2fde249be1efe9f7edf0526b9ef031",
+            "published_at": "2026-07-31 10:45 KST",
+            "company_names": [
+              "LG유플러스",
+              "NAVER"
+            ],
+            "sentiment_score": 0.56177,
+            "associated_companies": 2
+          },
+          {
+            "press": "조선비즈",
+            "title": "한국콜마 中 무석공장, 식약처 품질 검증 통과… 해외 첫 사례",
+            "news_id": "5a6f820d9e6471c6b6d1eab465661c00",
+            "published_at": "2026-07-31 10:45 KST",
+            "company_names": [
+              "한국콜마"
+            ],
+            "sentiment_score": 0.66551,
+            "associated_companies": 1
+          },
+          {
+            "press": "이데일리",
+            "title": "신라스테이, 가톨릭 세계청년대회 지원",
+            "news_id": "836a49b7c9e8b66eb16971a1fa77fb67",
+            "published_at": "2026-07-31 10:45 KST",
+            "company_names": [
+              "호텔신라"
+            ],
+            "sentiment_score": 0.60052,
+            "associated_companies": 1
+          },
+          {
+            "press": "전자신문",
+            "title": "유한양행, 2분기 매출 6000억원 첫 돌파…'렉라자 효과'",
+            "news_id": "86e481e1fa0e95c6919aeac2f7329baf",
+            "published_at": "2026-07-31 10:45 KST",
+            "company_names": [
+              "유한양행"
+            ],
+            "sentiment_score": 0.67051,
+            "associated_companies": 1
+          },
+          {
+            "press": "연합뉴스",
+            "title": "KT·딥엑스·세솔 업무 협약식",
+            "news_id": "b41111590713a370bf464653363342b3",
+            "published_at": "2026-07-31 10:45 KST",
+            "company_names": [
+              "KT"
+            ],
+            "sentiment_score": 0.58052,
+            "associated_companies": 1
+          },
+          {
             "press": "한국경제",
             "title": "'수익률 439%' 헤지펀드도 AI 급락 못 버텨…시타델에 자산 매각",
             "news_id": "66c8a4a8968129e7c3d3440d8ccfe118",
@@ -126,6 +306,40 @@
               "SK하이닉스"
             ],
             "sentiment_score": 0.61926,
+            "associated_companies": 2
+          },
+          {
+            "press": "헤럴드경제",
+            "title": "동원시스템즈, 2분기 영업익 314억…전년비 21.1% ↑",
+            "news_id": "e7d1f11e8efcf9b4aed0a885d7b06f00",
+            "published_at": "2026-07-31 10:44 KST",
+            "company_names": [
+              "동원시스템즈"
+            ],
+            "sentiment_score": 0.59801,
+            "associated_companies": 1
+          },
+          {
+            "press": "이데일리",
+            "title": "아모레, 인도 델리서 '밋유어뷰티 아카데미'",
+            "news_id": "3ea82d1006c3fee4485cde598ed147bb",
+            "published_at": "2026-07-31 10:43 KST",
+            "company_names": [
+              "아모레퍼시픽"
+            ],
+            "sentiment_score": 0.56551,
+            "associated_companies": 1
+          },
+          {
+            "press": "매일신문",
+            "title": "\"최태원 매수했으니 주가 찐 바닥?\"…반토막 난 하이닉스, 분위기 반전 이어갈까",
+            "news_id": "5de1159e1b126c8eb7b1cdcb5dc5d88b",
+            "published_at": "2026-07-31 10:43 KST",
+            "company_names": [
+              "SK스퀘어",
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.54177,
             "associated_companies": 2
           },
           {
@@ -989,246 +1203,6 @@
             ],
             "sentiment_score": 0.62301,
             "associated_companies": 1
-          },
-          {
-            "press": "뉴시스",
-            "title": "\"꼬깔콘으로 즐기는 여름밤 야장 감성\" 롯데웰푸드, '낭만포차' 운영",
-            "news_id": "945dc15531c4a417f8fedca38d9bf57c",
-            "published_at": "2026-07-31 10:24 KST",
-            "company_names": [
-              "GS리테일",
-              "롯데웰푸드",
-              "롯데지주"
-            ],
-            "sentiment_score": 0.55968,
-            "associated_companies": 3
-          },
-          {
-            "press": "뉴스1",
-            "title": "LG CNS, AI 힘입어 매출 성장세 지속…수익성은 감소",
-            "news_id": "bb81fcddbc4f2cbd4031fbc577243641",
-            "published_at": "2026-07-31 10:23 KST",
-            "company_names": [
-              "LG씨엔에스",
-              "LX인터내셔널",
-              "두산"
-            ],
-            "sentiment_score": 0.47385,
-            "associated_companies": 3
-          },
-          {
-            "press": "아시아경제",
-            "title": "'돌아온 반도체' 코스피 16%대 폭등…상승률 역대 1위 찍었다",
-            "news_id": "17c7e2b18dfc1e9f65561f39369fac98",
-            "published_at": "2026-07-31 10:22 KST",
-            "company_names": [
-              "미래에셋증권",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.67551,
-            "associated_companies": 2
-          },
-          {
-            "press": "디지털데일리",
-            "title": "KT, 딥엑스·세솔과 MOU… 온디바이스 AIoT 사업 협력",
-            "news_id": "dd99948c5081fb73e58c41e5a26833ea",
-            "published_at": "2026-07-31 10:22 KST",
-            "company_names": [
-              "KT"
-            ],
-            "sentiment_score": 0.67051,
-            "associated_companies": 1
-          },
-          {
-            "press": "EBN",
-            "title": "[1% 초고수의 개장 선택] 'SK하이닉스' 사고 '삼성전자우' 줄였다",
-            "news_id": "c073ebec47e859fb15562bccdec15b5e",
-            "published_at": "2026-07-31 10:21 KST",
-            "company_names": [
-              "NAVER",
-              "SK스퀘어",
-              "SK하이닉스",
-              "미래에셋증권",
-              "삼성SDI",
-              "삼성전기",
-              "삼성전자",
-              "한미반도체",
-              "현대차",
-              "효성중공업"
-            ],
-            "sentiment_score": 0.39226,
-            "associated_companies": 10
-          },
-          {
-            "press": "더팩트",
-            "title": "IBK기업은행, 창립 65주년…장민영 \"따뜻한 IBK로 사회적 책임 다할 것\"",
-            "news_id": "0b5413384c81fe216f778d6d1d7742c1",
-            "published_at": "2026-07-31 10:21 KST",
-            "company_names": [
-              "기업은행"
-            ],
-            "sentiment_score": 0.59552,
-            "associated_companies": 1
-          },
-          {
-            "press": "파이낸셜뉴스",
-            "title": "KT, 딥엑스·세솔과 손잡고 NPU 기반 AIoT 시장 키운다",
-            "news_id": "1559e046d41a73022e9815c15b7ea574",
-            "published_at": "2026-07-31 10:21 KST",
-            "company_names": [
-              "KT"
-            ],
-            "sentiment_score": 0.67051,
-            "associated_companies": 1
-          },
-          {
-            "press": "이데일리",
-            "title": "교촌치킨, 인천펜타포트 락 축제 간다…MZ 접점 확대",
-            "news_id": "7df7260c78d89abeafe6c8bf36673150",
-            "published_at": "2026-07-31 10:21 KST",
-            "company_names": [
-              "교촌에프앤비"
-            ],
-            "sentiment_score": 0.55302,
-            "associated_companies": 1
-          },
-          {
-            "press": "노컷뉴스",
-            "title": "사흘 폭락 딛고 폭주하는 코스피…삼전닉스 20%대 급등[노컷네컷]",
-            "news_id": "9bc2e96c48b569fc13f02f8f6abb46b8",
-            "published_at": "2026-07-31 10:21 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자",
-              "하나금융지주"
-            ],
-            "sentiment_score": 0.47052,
-            "associated_companies": 3
-          },
-          {
-            "press": "헤럴드경제",
-            "title": "최태원이 사니 28% 올랐다…코인 수준 등락 삼전·닉스 [종목Pick]",
-            "news_id": "4d736f9d49f2b0eeee00a0b3c5400634",
-            "published_at": "2026-07-31 10:20 KST",
-            "company_names": [
-              "SK스퀘어",
-              "SK하이닉스",
-              "삼성전기",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.57177,
-            "associated_companies": 4
-          },
-          {
-            "press": "헤럴드경제",
-            "title": "한화생명, 글로벌 정보과학 인재 키운다…국제정보올림피아드 대표단 지원",
-            "news_id": "5ca10b8f23a1d46861a58e88eb25f58e",
-            "published_at": "2026-07-31 10:20 KST",
-            "company_names": [
-              "한화생명"
-            ],
-            "sentiment_score": 0.59552,
-            "associated_companies": 1
-          },
-          {
-            "press": "조세일보",
-            "title": "삼전·닉스, 최근 폭락 딛고 31일 폭등...중권사 반응은? [주가동향]",
-            "news_id": "7b83f20f4ad651d7954f6b4b89f59144",
-            "published_at": "2026-07-31 10:20 KST",
-            "company_names": [
-              "DB증권",
-              "NH투자증권",
-              "SK하이닉스",
-              "삼성전자",
-              "신한지주"
-            ],
-            "sentiment_score": 0.52652,
-            "associated_companies": 5
-          },
-          {
-            "press": "동행미디어 시대",
-            "title": "한화오션, KDDX 본 계약 체결…2023년 선도함 전력화 시동",
-            "news_id": "c892faf40a58ac3742b0a57a80129d18",
-            "published_at": "2026-07-31 10:20 KST",
-            "company_names": [
-              "한화오션"
-            ],
-            "sentiment_score": 0.68051,
-            "associated_companies": 1
-          },
-          {
-            "press": "연합뉴스",
-            "title": "한화생명, 정보 올림피아드 출전 영재 후원 나선다",
-            "news_id": "d999db378b350d571429493926f58395",
-            "published_at": "2026-07-31 10:20 KST",
-            "company_names": [
-              "한화생명"
-            ],
-            "sentiment_score": 0.57051,
-            "associated_companies": 1
-          },
-          {
-            "press": "뉴시스",
-            "title": "\"이런 폭등은 없었다\"…코스피, '역대 최대' 17%대 치솟으며 6500선 탈환",
-            "news_id": "19d1a424bd06b40fb16147f1a2930d86",
-            "published_at": "2026-07-31 10:19 KST",
-            "company_names": [
-              "SK스퀘어",
-              "SK하이닉스",
-              "삼성물산",
-              "삼성전기",
-              "삼성전자",
-              "키움증권",
-              "현대차"
-            ],
-            "sentiment_score": 0.6523,
-            "associated_companies": 7
-          },
-          {
-            "press": "스포츠동아",
-            "title": "플랜트너, 투자 유치 발판으로 알긴산 국산화 사업 본격 확대",
-            "news_id": "1b4285f5b37fb24dcdb917a551c0c9d5",
-            "published_at": "2026-07-31 10:19 KST",
-            "company_names": [
-              "유한양행"
-            ],
-            "sentiment_score": 0.67051,
-            "associated_companies": 1
-          },
-          {
-            "press": "아시아경제",
-            "title": "최태원, SK하이닉스 첫 자사주 매수…SK그룹 \"최대 공시 한도 수준 매입\"",
-            "news_id": "a7a7c5ba179c8ce142e77f1b187649b7",
-            "published_at": "2026-07-31 10:19 KST",
-            "company_names": [
-              "SK하이닉스"
-            ],
-            "sentiment_score": 0.54302,
-            "associated_companies": 1
-          },
-          {
-            "press": "한국경제",
-            "title": "신장식 \"당권 경쟁에 혁신당 쓰지 말라…조국은 '전략자산'\"",
-            "news_id": "07c1e3f207feb55889eb722745e9d51f",
-            "published_at": "2026-07-31 10:18 KST",
-            "company_names": [
-              "SBS"
-            ],
-            "sentiment_score": 0.34052,
-            "associated_companies": 1
-          },
-          {
-            "press": "아시아경제",
-            "title": "중견·중소 주택업계, 내달 전국 공급 물량 4600가구 그쳐",
-            "news_id": "24f7320d2fb4f81c89815d65004923ee",
-            "published_at": "2026-07-31 10:18 KST",
-            "company_names": [
-              "POSCO홀딩스",
-              "SK하이닉스",
-              "한국금융지주"
-            ],
-            "sentiment_score": 0.44468,
-            "associated_companies": 3
           }
         ],
         "hankyung": [
@@ -1497,21 +1471,21 @@
     "KOSDAQ": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 10:52 KST",
-        "price": 700.05,
-        "change": 55.27,
-        "change_pct": 8.57,
+        "as_of": "2026-07-31 10:57 KST",
+        "price": 699.58,
+        "change": 54.8,
+        "change_pct": 8.5,
         "prev_close": 644.78
       },
-      "score": 2.16297,
+      "score": 2.16424,
       "components": {
         "news": {
-          "score": 0.63767,
-          "coverage": 0.7262,
-          "observations": 127
+          "score": 0.65145,
+          "coverage": 0.7237,
+          "observations": 132
         },
         "market": {
-          "score": 2.90958,
+          "score": 2.90088,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 1801
@@ -1527,9 +1501,20 @@
           "observations": 5
         }
       },
-      "text_pulse": 1.91409,
+      "text_pulse": 1.91869,
       "news_articles": {
         "all": [
+          {
+            "press": "이데일리",
+            "title": "고창훈 이엠앤아이 대표 “기술력·신사업 기반 기업가치 회복할 것\"",
+            "news_id": "9c5a8380612fc7c5c1ec1d3256deddad",
+            "published_at": "2026-07-31 10:51 KST",
+            "company_names": [
+              "이엠앤아이"
+            ],
+            "sentiment_score": 0.56302,
+            "associated_companies": 1
+          },
           {
             "press": "서울경제",
             "title": "SKT, 피지컬 AI 스타트업 8개사 손잡고 로보틱스 생태계 확장 [로보 인사이트]",
@@ -1542,6 +1527,50 @@
             ],
             "sentiment_score": 0.67551,
             "associated_companies": 3
+          },
+          {
+            "press": "머니투데이",
+            "title": "미국, 중국산 첨단로봇 봉쇄… 티로보틱스, 북미 대규모 레퍼런스로 대체재 부각",
+            "news_id": "b2e6c1611d21b8019bf8333b2ea07913",
+            "published_at": "2026-07-31 10:45 KST",
+            "company_names": [
+              "티로보틱스"
+            ],
+            "sentiment_score": 0.68551,
+            "associated_companies": 1
+          },
+          {
+            "press": "디지털타임스",
+            "title": "AI시대 핵심소재기업 제이에스링크…글로벌 확장 가속화",
+            "news_id": "38760771b4c67bb3ad10d9d1c7189151",
+            "published_at": "2026-07-31 10:43 KST",
+            "company_names": [
+              "제이에스링크"
+            ],
+            "sentiment_score": 0.67051,
+            "associated_companies": 1
+          },
+          {
+            "press": "서울경제",
+            "title": "바디텍메드, 美진단검사의학회 참가…북미 시장 공략 강화",
+            "news_id": "b0b8a45cc92366821e18e7ecf6e6c150",
+            "published_at": "2026-07-31 10:42 KST",
+            "company_names": [
+              "바디텍메드"
+            ],
+            "sentiment_score": 0.68051,
+            "associated_companies": 1
+          },
+          {
+            "press": "머니투데이",
+            "title": "파수AI, 2분기 영업이익 10억원…매출 22.7% 늘며 흑자전환",
+            "news_id": "fd78be3f9db94944b4edb01fc518c87b",
+            "published_at": "2026-07-31 10:42 KST",
+            "company_names": [
+              "파수AI"
+            ],
+            "sentiment_score": 0.69051,
+            "associated_companies": 1
           },
           {
             "press": "노컷뉴스",
@@ -2631,62 +2660,6 @@
             ],
             "sentiment_score": 0.70051,
             "associated_companies": 1
-          },
-          {
-            "press": "뉴시스",
-            "title": "젝시믹스, 여름 시즌오프 시작…최대 10% 쿠폰·균일가 행사",
-            "news_id": "2dff3364dbdefcc32c3d2411919556a2",
-            "published_at": "2026-07-31 09:10 KST",
-            "company_names": [
-              "젝시믹스"
-            ],
-            "sentiment_score": 0.55302,
-            "associated_companies": 1
-          },
-          {
-            "press": "머니투데이",
-            "title": "폴라리스우노, 브레이드용 원사 美 안전성 검증 완료… 북미 대형 유통망 공략",
-            "news_id": "b3951de5f677df95742d4bd00e93b188",
-            "published_at": "2026-07-31 09:10 KST",
-            "company_names": [
-              "폴라리스우노"
-            ],
-            "sentiment_score": 0.69551,
-            "associated_companies": 1
-          },
-          {
-            "press": "한국경제",
-            "title": "리가켐바이오 항체약물접합체 기술 적용한 익수다 ‘IKS04’, 미국 임상 1상 진입",
-            "news_id": "02c06a24c1eac2ea6927cdc9c5fee02b",
-            "published_at": "2026-07-31 09:09 KST",
-            "company_names": [
-              "리가켐바이오"
-            ],
-            "sentiment_score": 0.69551,
-            "associated_companies": 1
-          },
-          {
-            "press": "뉴스1",
-            "title": "이사·혼수철 온다…에이스침대, '더드림페어' 진행",
-            "news_id": "0afa59d5956659fe3edd3e14765bb829",
-            "published_at": "2026-07-31 09:07 KST",
-            "company_names": [
-              "에이스침대",
-              "웰크론"
-            ],
-            "sentiment_score": 0.53302,
-            "associated_companies": 2
-          },
-          {
-            "press": "이데일리",
-            "title": "뉴로메카, \"'시장·제품·스케일업' 3축 성장 전략 본격화\"",
-            "news_id": "24f9cc5c668584cd9f1914eddd7569ad",
-            "published_at": "2026-07-31 09:07 KST",
-            "company_names": [
-              "뉴로메카"
-            ],
-            "sentiment_score": 0.68551,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
@@ -2752,14 +2725,14 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 10:52 KST",
-      "latest_event": "2026-07-31 10:51 KST",
-      "observations": 1290,
-      "active_minutes": 120
+      "latest_seen": "2026-07-31 10:53 KST",
+      "latest_event": "2026-07-31 10:52 KST",
+      "observations": 1305,
+      "active_minutes": 121
     },
     "market": {
       "intraday": true,
-      "latest_seen": "2026-07-31 10:52 KST",
+      "latest_seen": "2026-07-31 10:57 KST",
       "latest_event": "2026-07-31",
       "active_minutes": null,
       "status_record_available": true
@@ -2781,6 +2754,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 10:52 KST"
+    "attempted_at": "2026-07-31 10:57 KST"
   }
 }
