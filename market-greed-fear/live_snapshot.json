@@ -1,32 +1,32 @@
 {
-  "as_of": "2026-07-31 13:25 KST",
+  "as_of": "2026-07-31 13:30 KST",
   "boards": {
     "KOSPI": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 13:25 KST",
-        "price": 6446.48,
-        "change": 852.92,
-        "change_pct": 15.25,
+        "as_of": "2026-07-31 13:30 KST",
+        "price": 6440.17,
+        "change": 846.61,
+        "change_pct": 15.14,
         "prev_close": 5593.56
       },
-      "score": 2.50858,
+      "score": 2.47213,
       "components": {
         "news": {
           "score": 0.4228,
-          "coverage": 0.83,
-          "observations": 1006
+          "coverage": 0.8301,
+          "observations": 1007
         },
         "market": {
-          "score": 3.94533,
+          "score": 3.93963,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 915
         },
         "discussion": {
-          "score": 2.83309,
-          "coverage": 0.168,
-          "observations": 32600
+          "score": 2.76304,
+          "coverage": 0.1681,
+          "observations": 33566
         },
         "news_hankyung": {
           "score": -1.18224,
@@ -34,7 +34,7 @@
           "observations": 25
         }
       },
-      "text_pulse": 2.02966,
+      "text_pulse": 1.98296,
       "news_articles": {
         "all": [
           {
@@ -206,6 +206,17 @@
             "published_at": "2026-07-31 13:10 KST",
             "company_names": [
               "LG유플러스"
+            ],
+            "sentiment_score": 0.53051,
+            "associated_companies": 1
+          },
+          {
+            "press": "EBN",
+            "title": "IBK기업은행, 중·저신용자 연 4.9% 포용대출 출시",
+            "news_id": "f288fcf7f1624bd5df1d75e6fbab5fe9",
+            "published_at": "2026-07-31 13:09 KST",
+            "company_names": [
+              "기업은행"
             ],
             "sentiment_score": 0.53051,
             "associated_companies": 1
@@ -1209,17 +1220,6 @@
             ],
             "sentiment_score": 0.52614,
             "associated_companies": 4
-          },
-          {
-            "press": "뉴스1",
-            "title": "팬오션, 2분기 영업이익 1937억원…전년 대비 57%↑ '깜짝 실적'",
-            "news_id": "191b792a845f67b4340a46553877c857",
-            "published_at": "2026-07-31 11:33 KST",
-            "company_names": [
-              "팬오션"
-            ],
-            "sentiment_score": 0.69051,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
@@ -1510,13 +1510,13 @@
     "KOSDAQ": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 13:25 KST",
-        "price": 710.64,
-        "change": 65.86,
-        "change_pct": 10.21,
+        "as_of": "2026-07-31 13:30 KST",
+        "price": 711.84,
+        "change": 67.06,
+        "change_pct": 10.4,
         "prev_close": 644.78
       },
-      "score": 2.25803,
+      "score": 2.26999,
       "components": {
         "news": {
           "score": 0.75112,
@@ -1524,7 +1524,7 @@
           "observations": 161
         },
         "market": {
-          "score": 3.36671,
+          "score": 3.41454,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 1801
@@ -2769,23 +2769,23 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 13:25 KST",
+      "latest_seen": "2026-07-31 13:30 KST",
       "latest_event": "2026-07-31 13:23 KST",
-      "observations": 1701,
-      "active_minutes": 168
+      "observations": 1702,
+      "active_minutes": 170
     },
     "market": {
       "intraday": true,
-      "latest_seen": "2026-07-31 13:25 KST",
+      "latest_seen": "2026-07-31 13:30 KST",
       "latest_event": "2026-07-31",
       "active_minutes": null,
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-31 13:25 KST",
+      "latest_seen": "2026-07-31 13:30 KST",
       "latest_event": "2026-07-31 13:05 KST",
-      "observations": 46712,
-      "active_minutes": 222
+      "observations": 47678,
+      "active_minutes": 225
     }
   },
   "event_date": "2026-07-31",
@@ -2798,6 +2798,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 13:25 KST"
+    "attempted_at": "2026-07-31 13:30 KST"
   }
 }
