@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-31 15:36 KST",
+  "as_of": "2026-07-31 15:41 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -10,12 +10,12 @@
         "change_pct": 17.91,
         "prev_close": 5593.56
       },
-      "score": 3.31001,
+      "score": 3.30967,
       "components": {
         "news": {
-          "score": 0.77048,
-          "coverage": 0.8433,
-          "observations": 1399
+          "score": 0.76909,
+          "coverage": 0.8428,
+          "observations": 1400
         },
         "market": {
           "score": 4.61783,
@@ -29,14 +29,25 @@
           "observations": 44964
         },
         "news_hankyung": {
-          "score": -0.12069,
-          "coverage": 0.8571,
-          "observations": 38
+          "score": -0.10916,
+          "coverage": 0.8416,
+          "observations": 39
         }
       },
-      "text_pulse": 2.87407,
+      "text_pulse": 2.87361,
       "news_articles": {
         "all": [
+          {
+            "press": "한국경제",
+            "title": "\"일상 속 행동이 돈 되는 시대\"…5000억 엑시트한 젊은 '연쇄창업가'가 토스와 손잡은 이유",
+            "news_id": "b8e399dbf74866524e859430654b5bbc",
+            "published_at": "2026-07-31 15:37 KST",
+            "company_names": [
+              "카카오"
+            ],
+            "sentiment_score": 0.62052,
+            "associated_companies": 1
+          },
           {
             "press": "뉴시스",
             "title": "[속보]SK하닉, 171.8만원에 '상한가' 마감…삼전도 27% 올랐다",
@@ -1193,20 +1204,20 @@
             ],
             "sentiment_score": 0.53302,
             "associated_companies": 1
-          },
-          {
-            "press": "데일리안",
-            "title": "기업은행, 중·저신용자 대상 '착한금리 포용대출' 출시…최저 연 4.7%",
-            "news_id": "3bb417892530c199285479922eff2472",
-            "published_at": "2026-07-31 15:04 KST",
-            "company_names": [
-              "기업은행"
-            ],
-            "sentiment_score": 0.55802,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
+          {
+            "press": "한국경제",
+            "title": "\"일상 속 행동이 돈 되는 시대\"…5000억 엑시트한 젊은 '연쇄창업가'가 토스와 손잡은 이유",
+            "news_id": "b8e399dbf74866524e859430654b5bbc",
+            "published_at": "2026-07-31 15:37 KST",
+            "company_names": [
+              "카카오"
+            ],
+            "sentiment_score": 0.62052,
+            "associated_companies": 1
+          },
           {
             "press": "한국경제",
             "title": "호텔신라, 2분기 영업이익 611억원…전년비 606% 증가",
@@ -2880,10 +2891,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 15:36 KST",
-      "latest_event": "2026-07-31 15:34 KST",
-      "observations": 2382,
-      "active_minutes": 221
+      "latest_seen": "2026-07-31 15:40 KST",
+      "latest_event": "2026-07-31 15:39 KST",
+      "observations": 2384,
+      "active_minutes": 222
     },
     "market": {
       "intraday": true,
@@ -2909,6 +2920,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 15:36 KST"
+    "attempted_at": "2026-07-31 15:41 KST"
   }
 }
