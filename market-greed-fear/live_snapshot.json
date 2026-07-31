@@ -1,32 +1,32 @@
 {
-  "as_of": "2026-07-31 14:17 KST",
+  "as_of": "2026-07-31 14:22 KST",
   "boards": {
     "KOSPI": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 14:17 KST",
-        "price": 6539.9,
-        "change": 946.34,
-        "change_pct": 16.92,
+        "as_of": "2026-07-31 14:22 KST",
+        "price": 6551.6,
+        "change": 958.04,
+        "change_pct": 17.13,
         "prev_close": 5593.56
       },
-      "score": 2.60391,
+      "score": 2.63025,
       "components": {
         "news": {
-          "score": 0.48892,
-          "coverage": 0.8347,
-          "observations": 1095
+          "score": 0.527,
+          "coverage": 0.8341,
+          "observations": 1107
         },
         "market": {
-          "score": 4.32034,
+          "score": 4.35046,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 915
         },
         "discussion": {
-          "score": 2.8032,
-          "coverage": 0.1658,
-          "observations": 35923
+          "score": 2.82177,
+          "coverage": 0.1659,
+          "observations": 36029
         },
         "news_hankyung": {
           "score": -0.11218,
@@ -34,9 +34,126 @@
           "observations": 34
         }
       },
-      "text_pulse": 2.03177,
+      "text_pulse": 2.05684,
       "news_articles": {
         "all": [
+          {
+            "press": "전자신문",
+            "title": "한화에어로, 2Q 영업익 1조3655억원…분기 기준 1조 첫 돌파",
+            "news_id": "cd62ce145fe477f11c949e70423f4900",
+            "published_at": "2026-07-31 14:21 KST",
+            "company_names": [
+              "한화시스템",
+              "한화에어로스페이스",
+              "한화오션"
+            ],
+            "sentiment_score": 0.68218,
+            "associated_companies": 3
+          },
+          {
+            "press": "더팩트",
+            "title": "한화에어로, 2분기 영업익 1조3655억원…전년비 59%↑",
+            "news_id": "d7d58838c7ce26042ff6523522ad88f4",
+            "published_at": "2026-07-31 14:21 KST",
+            "company_names": [
+              "한화시스템",
+              "한화에어로스페이스",
+              "한화오션"
+            ],
+            "sentiment_score": 0.68052,
+            "associated_companies": 3
+          },
+          {
+            "press": "이데일리",
+            "title": "\"석유화학, 올해부터 고부가제품 본격적 확대\"-LG화학 컨콜",
+            "news_id": "40b6d57e20d345307e7228f0332dbd0e",
+            "published_at": "2026-07-31 14:20 KST",
+            "company_names": [
+              "LG화학"
+            ],
+            "sentiment_score": 0.62052,
+            "associated_companies": 1
+          },
+          {
+            "press": "디지털데일리",
+            "title": "시총 2위 SK하이닉스, 장중 상한가 도달…171만8000원",
+            "news_id": "5ce15284356fbc278e6a8ee9723d3e83",
+            "published_at": "2026-07-31 14:20 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.66802,
+            "associated_companies": 2
+          },
+          {
+            "press": "조선비즈",
+            "title": "[속보] SK하이닉스 장중 ‘상한가’ 터치…29.95% 오른 171만8000원",
+            "news_id": "53f2bfbfc425218c7e6e0471c6b91181",
+            "published_at": "2026-07-31 14:19 KST",
+            "company_names": [
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.56802,
+            "associated_companies": 1
+          },
+          {
+            "press": "서울신문",
+            "title": "[속보]“최태원이 승자” SK하이닉스 상한가…171만 8000원",
+            "news_id": "822d967d25dbc44bdfc3528e4ec7ab2b",
+            "published_at": "2026-07-31 14:18 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.67301,
+            "associated_companies": 2
+          },
+          {
+            "press": "SBS Biz",
+            "title": "셀트리온 '옴리클로' 이탈리아 15개 지역서 판매",
+            "news_id": "252f2a8d284745b4eeb8250685d6eddb",
+            "published_at": "2026-07-31 14:16 KST",
+            "company_names": [
+              "셀트리온"
+            ],
+            "sentiment_score": 0.67551,
+            "associated_companies": 1
+          },
+          {
+            "press": "전자신문",
+            "title": "링크브릭스 호라이즌-AI, 차세대 에이전틱 AI '보라' 한·미·일 삼국 동시 클로즈 베타 돌입",
+            "news_id": "cc9536655238786f969c1ed937e2a055",
+            "published_at": "2026-07-31 14:16 KST",
+            "company_names": [
+              "NAVER",
+              "카카오"
+            ],
+            "sentiment_score": 0.56052,
+            "associated_companies": 2
+          },
+          {
+            "press": "이데일리",
+            "title": "[속보]SK하이닉스, 31일 장중 상한가 도달…171만8000원",
+            "news_id": "7eeda404e3dc96e1fff37439f0d3e10e",
+            "published_at": "2026-07-31 14:15 KST",
+            "company_names": [
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.55802,
+            "associated_companies": 1
+          },
+          {
+            "press": "연합뉴스",
+            "title": "[르포] 중국어 명령에 에어컨 '척척'…현대차 상하이 사용자경험 스튜디오",
+            "news_id": "fb743573dceaf835c180d037ad5e14d7",
+            "published_at": "2026-07-31 14:15 KST",
+            "company_names": [
+              "현대차"
+            ],
+            "sentiment_score": 0.59052,
+            "associated_companies": 1
+          },
           {
             "press": "파이낸셜뉴스",
             "title": "KAI 지분 14.64%까지 확보한 한화에어로 \"금융자산으로 분류\"[컨콜]",
@@ -1081,119 +1198,6 @@
             ],
             "sentiment_score": 0.69051,
             "associated_companies": 1
-          },
-          {
-            "press": "뉴스1",
-            "title": "부산은행 '일용직 건설근로자 우대대출' 출시…\"생활안정 지원\"",
-            "news_id": "764cf4f7c936f7effea989e11a7cda30",
-            "published_at": "2026-07-31 13:24 KST",
-            "company_names": [
-              "BNK금융지주"
-            ],
-            "sentiment_score": 0.54802,
-            "associated_companies": 1
-          },
-          {
-            "press": "뉴시스",
-            "title": "한화에어로 2Q 영업익 1.4조 육박…방산 호조에 59% 증가",
-            "news_id": "40f8458c4ea5d4a1d4b95fa31a4505a5",
-            "published_at": "2026-07-31 13:22 KST",
-            "company_names": [
-              "한화에어로스페이스"
-            ],
-            "sentiment_score": 0.67551,
-            "associated_companies": 1
-          },
-          {
-            "press": "헤럴드경제",
-            "title": "BNK부산은행, ‘일용직 건설근로자 우대 대출’ 출시",
-            "news_id": "bcaa0e4a02f66cf3f3947115031e0ca3",
-            "published_at": "2026-07-31 13:22 KST",
-            "company_names": [
-              "BNK금융지주"
-            ],
-            "sentiment_score": 0.55051,
-            "associated_companies": 1
-          },
-          {
-            "press": "헤럴드경제",
-            "title": "한화에어로스페이스, 2분기 영업익 1조3655억…전년비 58.5% ↑",
-            "news_id": "494d211c3f5bd815a1ca58c56fe81112",
-            "published_at": "2026-07-31 13:21 KST",
-            "company_names": [
-              "한화에어로스페이스"
-            ],
-            "sentiment_score": 0.59552,
-            "associated_companies": 1
-          },
-          {
-            "press": "EBN",
-            "title": "[위클리 해상운임] 성수기 힘 빠진 컨선...벌크는 선형별 혼조",
-            "news_id": "63ad96364e057d5bbfcd73fb8b3eba18",
-            "published_at": "2026-07-31 13:20 KST",
-            "company_names": [
-              "HMM"
-            ],
-            "sentiment_score": 0.39052,
-            "associated_companies": 1
-          },
-          {
-            "press": "이데일리",
-            "title": "씨메스로보틱스, SKT 피지컬 AI 간담회 참석…협력 확대 논의",
-            "news_id": "d4465c49f4ebc37ef2e04e7a7200992d",
-            "published_at": "2026-07-31 13:20 KST",
-            "company_names": [
-              "SK텔레콤",
-              "SK하이닉스"
-            ],
-            "sentiment_score": 0.60926,
-            "associated_companies": 2
-          },
-          {
-            "press": "헤럴드경제",
-            "title": "LG화학, 2분기 영업익 5996억…전년비 25.8% ↑",
-            "news_id": "6f170c0b74ab5e46e809dbd4ef1fe8f1",
-            "published_at": "2026-07-31 13:19 KST",
-            "company_names": [
-              "LG화학"
-            ],
-            "sentiment_score": 0.68051,
-            "associated_companies": 1
-          },
-          {
-            "press": "뉴시스",
-            "title": "주가 급락·주주환원 불만에…최태원, 48억 SK하이닉스 주식 첫 매수",
-            "news_id": "b371358332e1a276655320b2f720b9b5",
-            "published_at": "2026-07-31 13:17 KST",
-            "company_names": [
-              "SK스퀘어",
-              "SK하이닉스"
-            ],
-            "sentiment_score": 0.51052,
-            "associated_companies": 2
-          },
-          {
-            "press": "전자신문",
-            "title": "[ET특징주]삼성전기, 2분기 어닝 서프라이즈에 상승세",
-            "news_id": "b966d9d8cfb0ed8b63abf25bbe3f2e9a",
-            "published_at": "2026-07-31 13:16 KST",
-            "company_names": [
-              "교보증권",
-              "삼성전기"
-            ],
-            "sentiment_score": 0.67551,
-            "associated_companies": 2
-          },
-          {
-            "press": "전자신문",
-            "title": "[ET특징주]한미반도체, 美 반도체주 급반등에 상승세",
-            "news_id": "c7bddbc39cb42338a14d20333c74a7c0",
-            "published_at": "2026-07-31 13:16 KST",
-            "company_names": [
-              "한미반도체"
-            ],
-            "sentiment_score": 0.69051,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
@@ -1536,29 +1540,29 @@
     "KOSDAQ": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 14:17 KST",
-        "price": 716.46,
-        "change": 71.68,
-        "change_pct": 11.12,
+        "as_of": "2026-07-31 14:22 KST",
+        "price": 717.93,
+        "change": 73.15,
+        "change_pct": 11.34,
         "prev_close": 644.78
       },
-      "score": 2.1876,
+      "score": 2.21001,
       "components": {
         "news": {
-          "score": 0.66363,
-          "coverage": 0.7304,
+          "score": 0.65101,
+          "coverage": 0.7315,
           "observations": 179
         },
         "market": {
-          "score": 3.57609,
+          "score": 3.64263,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 1801
         },
         "discussion": {
-          "score": 2.25535,
+          "score": 2.27321,
           "coverage": 0.1304,
-          "observations": 15304
+          "observations": 15318
         },
         "news_hankyung": {
           "score": -0.19745,
@@ -1566,9 +1570,31 @@
           "observations": 6
         }
       },
-      "text_pulse": 1.72477,
+      "text_pulse": 1.73247,
       "news_articles": {
         "all": [
+          {
+            "press": "전자신문",
+            "title": "링크브릭스 호라이즌-AI, 차세대 에이전틱 AI '보라' 한·미·일 삼국 동시 클로즈 베타 돌입",
+            "news_id": "cc9536655238786f969c1ed937e2a055",
+            "published_at": "2026-07-31 14:16 KST",
+            "company_names": [
+              "한글과컴퓨터"
+            ],
+            "sentiment_score": 0.57551,
+            "associated_companies": 1
+          },
+          {
+            "press": "연합뉴스",
+            "title": "[르포] 중국어 명령에 에어컨 '척척'…현대차 상하이 사용자경험 스튜디오",
+            "news_id": "fb743573dceaf835c180d037ad5e14d7",
+            "published_at": "2026-07-31 14:15 KST",
+            "company_names": [
+              "유니슨"
+            ],
+            "sentiment_score": 0.54802,
+            "associated_companies": 1
+          },
           {
             "press": "이데일리",
             "title": "예탁원 \"8월 상장사 45곳 1억8078만주 의무보유등록 해제”",
@@ -2697,28 +2723,6 @@
             ],
             "sentiment_score": 0.69051,
             "associated_companies": 8
-          },
-          {
-            "press": "이데일리",
-            "title": "나노, 북미 AI 데이터센터용 고밀도 복합촉매 첫 수주",
-            "news_id": "7fa3e99868641e74073b82edf76ef5f9",
-            "published_at": "2026-07-31 10:12 KST",
-            "company_names": [
-              "나노"
-            ],
-            "sentiment_score": 0.69551,
-            "associated_companies": 1
-          },
-          {
-            "press": "이데일리",
-            "title": "박셀바이오 배우균 의학본부장, KSMO 2026 젊은 연구자상 수상…NK세포 성과 인정",
-            "news_id": "e701351d275e8d1fb2c1d1b7d5683654",
-            "published_at": "2026-07-31 10:11 KST",
-            "company_names": [
-              "박셀바이오"
-            ],
-            "sentiment_score": 0.68551,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
@@ -2811,23 +2815,23 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 14:16 KST",
-      "latest_event": "2026-07-31 14:12 KST",
-      "observations": 1871,
-      "active_minutes": 192
+      "latest_seen": "2026-07-31 14:22 KST",
+      "latest_event": "2026-07-31 14:21 KST",
+      "observations": 1899,
+      "active_minutes": 193
     },
     "market": {
       "intraday": true,
-      "latest_seen": "2026-07-31 14:17 KST",
+      "latest_seen": "2026-07-31 14:22 KST",
       "latest_event": "2026-07-31",
       "active_minutes": null,
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-31 14:17 KST",
-      "latest_event": "2026-07-31 14:13 KST",
-      "observations": 51817,
-      "active_minutes": 242
+      "latest_seen": "2026-07-31 14:22 KST",
+      "latest_event": "2026-07-31 14:17 KST",
+      "observations": 51937,
+      "active_minutes": 246
     }
   },
   "event_date": "2026-07-31",
@@ -2840,6 +2844,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 14:17 KST"
+    "attempted_at": "2026-07-31 14:22 KST"
   }
 }
