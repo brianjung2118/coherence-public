@@ -1,45 +1,118 @@
 {
-  "as_of": "2026-07-31 11:08 KST",
+  "as_of": "2026-07-31 11:13 KST",
   "boards": {
     "KOSPI": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 11:08 KST",
-        "price": 6353.23,
-        "change": 759.67,
-        "change_pct": 13.58,
+        "as_of": "2026-07-31 11:13 KST",
+        "price": 6331.77,
+        "change": 738.21,
+        "change_pct": 13.2,
         "prev_close": 5593.56
       },
-      "score": 2.81567,
+      "score": 2.77583,
       "components": {
         "news": {
-          "score": 0.41037,
-          "coverage": 0.8309,
-          "observations": 822
+          "score": 0.37946,
+          "coverage": 0.8317,
+          "observations": 834
         },
         "market": {
-          "score": 3.53018,
+          "score": 3.43536,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 915
         },
         "discussion": {
-          "score": 3.66106,
-          "coverage": 0.1773,
-          "observations": 24062
+          "score": 3.64424,
+          "coverage": 0.1774,
+          "observations": 24357
         },
         "news_hankyung": {
-          "score": -1.16877,
-          "coverage": 0.8571,
+          "score": -1.18224,
+          "coverage": 0.806,
           "observations": 25
         }
       },
-      "text_pulse": 2.5775,
+      "text_pulse": 2.55598,
       "news_articles": {
         "all": [
           {
+            "press": "SBS Biz",
+            "title": "대형 롤러코스터 탄 반도체…여기가 바닥일까?",
+            "news_id": "2f0c7e53e62d7dd745a847144fba42d1",
+            "published_at": "2026-07-31 11:12 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.43051,
+            "associated_companies": 2
+          },
+          {
+            "press": "주간동아",
+            "title": "최태원 주식 산 다음날, SK하이닉스 상한가 목전까지 급등",
+            "news_id": "b4f45b55bb04b2f1a4bb7a0e160cdb29",
+            "published_at": "2026-07-31 11:12 KST",
+            "company_names": [
+              "SK스퀘어",
+              "SK하이닉스",
+              "삼성전기",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.65676,
+            "associated_companies": 4
+          },
+          {
+            "press": "지디넷코리아",
+            "title": "[컨콜] LG CNS \"2분기 영업익 감소, 일시 프로젝트·투자 탓\"",
+            "news_id": "ed9a599ef00ebf317928d367a562691d",
+            "published_at": "2026-07-31 11:10 KST",
+            "company_names": [
+              "LG씨엔에스"
+            ],
+            "sentiment_score": 0.45802,
+            "associated_companies": 1
+          },
+          {
+            "press": "블로터",
+            "title": "\"같은 호황, 다른 승부수\"…전력 빅3, 30조 일감 속 3색 셈법",
+            "news_id": "19514ea33f33f8c24c6a15711af51809",
+            "published_at": "2026-07-31 11:08 KST",
+            "company_names": [
+              "HD현대일렉트릭",
+              "LS ELECTRIC",
+              "효성중공업"
+            ],
+            "sentiment_score": 0.67551,
+            "associated_companies": 3
+          },
+          {
+            "press": "연합뉴스",
+            "title": "'삼전 사장 출신' 고동진, '반도체는 52시간제 예외'법 발의",
+            "news_id": "57051d8db308ee4b259673081f93c819",
+            "published_at": "2026-07-31 11:07 KST",
+            "company_names": [
+              "삼성전자"
+            ],
+            "sentiment_score": 0.39052,
+            "associated_companies": 1
+          },
+          {
+            "press": "연합뉴스",
+            "title": "단일 레버리지 보완 첫날 효과는?…오전 거래활발, 50%대 폭등",
+            "news_id": "5ba027b8acdfb7eecde305e7ba6d8f24",
+            "published_at": "2026-07-31 11:06 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.55052,
+            "associated_companies": 2
+          },
+          {
             "press": "한국경제",
-            "title": "삼성, 런던에 '술집' 연 이유가…\"갤럭시 일병 구하기\" 총력전",
+            "title": "삼성, 런던에 '술집' 열었다…\"갤럭시 일병 구하기\" 총력전",
             "news_id": "cb8c91e8a78eb14d9744a6bba44da7f5",
             "published_at": "2026-07-31 11:05 KST",
             "company_names": [
@@ -47,6 +120,57 @@
             ],
             "sentiment_score": 0.55551,
             "associated_companies": 1
+          },
+          {
+            "press": "지디넷코리아",
+            "title": "네오플, 던파 방치형 신작 '프로젝트 DL' 개발 착수",
+            "news_id": "5b30383a79e8f6a5a03cc680c486c7a0",
+            "published_at": "2026-07-31 11:05 KST",
+            "company_names": [
+              "DL"
+            ],
+            "sentiment_score": 0.55302,
+            "associated_companies": 1
+          },
+          {
+            "press": "블로터",
+            "title": "삼성물산 소액주주 손배소, 10월 선고…6년8개월 만에 결론",
+            "news_id": "b9cd429ff9c24255876c936e510f3277",
+            "published_at": "2026-07-31 11:05 KST",
+            "company_names": [
+              "삼성물산",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.34802,
+            "associated_companies": 2
+          },
+          {
+            "press": "마이데일리",
+            "title": "1276억 쓴 KT, ‘펨토셀 우회 접속’ 11개월간 왜 몰랐나",
+            "news_id": "ebd99ec2f61f5b8911d32f0283f197c1",
+            "published_at": "2026-07-31 11:04 KST",
+            "company_names": [
+              "KT",
+              "LG유플러스",
+              "SK텔레콤",
+              "롯데관광개발"
+            ],
+            "sentiment_score": 0.2827,
+            "associated_companies": 4
+          },
+          {
+            "press": "이데일리",
+            "title": "현대엔지니어링, 新가치체계 선포…\"공간·에너지 통합 가치 창출 본격화\"",
+            "news_id": "ec2a155b37ab5572781fe1583cf609ee",
+            "published_at": "2026-07-31 11:04 KST",
+            "company_names": [
+              "기아",
+              "현대건설",
+              "현대모비스",
+              "현대차"
+            ],
+            "sentiment_score": 0.68551,
+            "associated_companies": 4
           },
           {
             "press": "한국경제",
@@ -58,6 +182,20 @@
             ],
             "sentiment_score": 0.68551,
             "associated_companies": 1
+          },
+          {
+            "press": "동아일보",
+            "title": "코스피, 장중 17% 폭등해 6500선 회복… 외국인 8조 원어치 순매수",
+            "news_id": "9348a739e440614c30df97f00b766583",
+            "published_at": "2026-07-31 11:03 KST",
+            "company_names": [
+              "SK스퀘어",
+              "SK하이닉스",
+              "삼성전기",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.65176,
+            "associated_companies": 4
           },
           {
             "press": "헤럴드경제",
@@ -96,6 +234,17 @@
             ],
             "sentiment_score": 0.52051,
             "associated_companies": 4
+          },
+          {
+            "press": "더팩트",
+            "title": "대우건설, 연천군과 '푸른 연천 상생 플로깅'",
+            "news_id": "dd8089990755ea6611ffc0b53500e2a8",
+            "published_at": "2026-07-31 11:02 KST",
+            "company_names": [
+              "대우건설"
+            ],
+            "sentiment_score": 0.56302,
+            "associated_companies": 1
           },
           {
             "press": "머니투데이",
@@ -1060,153 +1209,12 @@
             ],
             "sentiment_score": 0.61801,
             "associated_companies": 1
-          },
-          {
-            "press": "조선일보",
-            "title": "사흘 연속 추락했던 코스피, 하루만에 17% 폭등...다시 상승장 진입?",
-            "news_id": "3725a9d8f0b59a3fe55ab149a39cd41b",
-            "published_at": "2026-07-31 10:33 KST",
-            "company_names": [
-              "SK하이닉스",
-              "미래에셋증권",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.42635,
-            "associated_companies": 3
-          },
-          {
-            "press": "머니투데이",
-            "title": "한화오션, KDDX 선도함 본계약…2032년 해군 인도",
-            "news_id": "979af6b38b93f16804930af83f35240c",
-            "published_at": "2026-07-31 10:33 KST",
-            "company_names": [
-              "한화오션"
-            ],
-            "sentiment_score": 0.68051,
-            "associated_companies": 1
-          },
-          {
-            "press": "세계일보",
-            "title": "드론·사이버전 대비한 7000t급 국산 구축함…한화오션, KDDX 본격 착수",
-            "news_id": "c90c27d56993f215b94153ec198371ed",
-            "published_at": "2026-07-31 10:33 KST",
-            "company_names": [
-              "한화오션"
-            ],
-            "sentiment_score": 0.68051,
-            "associated_companies": 1
-          },
-          {
-            "press": "뉴시스",
-            "title": "유진투자증권, 'ATP 서울오픈' 2년 연속 타이틀스폰서",
-            "news_id": "cecc0711cdaf7b5d290c97071f4d55fe",
-            "published_at": "2026-07-31 10:33 KST",
-            "company_names": [
-              "유진투자증권"
-            ],
-            "sentiment_score": 0.57551,
-            "associated_companies": 1
-          },
-          {
-            "press": "연합뉴스TV",
-            "title": "[뉴스초점] 코스피 13%대 폭등…극심한 변동성 장세",
-            "news_id": "d1f0ca9bcb50827bf2401e62ee624c9e",
-            "published_at": "2026-07-31 10:33 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.35552,
-            "associated_companies": 2
-          },
-          {
-            "press": "시사저널",
-            "title": "\"우상향 믿어라\" 최태원, SK하이닉스 주식 첫 직접 매수…반도체주 '들썩'",
-            "news_id": "72dd6a7385b7b38d8a2dba9b463ef6d3",
-            "published_at": "2026-07-31 10:32 KST",
-            "company_names": [
-              "SK스퀘어",
-              "SK하이닉스",
-              "삼성전기",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.59739,
-            "associated_companies": 4
-          },
-          {
-            "press": "아시아경제",
-            "title": "배터리 3사 다시 질주하나…시장 침체 뚫고 흑자전환 성공",
-            "news_id": "9060fd512e5c687eaed7beea9dbfdea5",
-            "published_at": "2026-07-31 10:32 KST",
-            "company_names": [
-              "LG에너지솔루션",
-              "SK이노베이션",
-              "삼성SDI"
-            ],
-            "sentiment_score": 0.68052,
-            "associated_companies": 3
-          },
-          {
-            "press": "서울경제",
-            "title": "기아, 알바니아·짐바브웨서 인프라 지원 사업 마무리",
-            "news_id": "f0efd169052fdc5e9380e40294e15aa1",
-            "published_at": "2026-07-31 10:32 KST",
-            "company_names": [
-              "기아"
-            ],
-            "sentiment_score": 0.58801,
-            "associated_companies": 1
-          },
-          {
-            "press": "SBS",
-            "title": "[자막뉴스] \"훔친 기술!\" 대한민국 발칵 뒤집혔지만…삼전닉스 턱밑까지 따라와 \"어쩔 건데?\"",
-            "news_id": "f1b94638ae5cec93762340215015841b",
-            "published_at": "2026-07-31 10:32 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.45176,
-            "associated_companies": 2
-          },
-          {
-            "press": "연합뉴스TV",
-            "title": "최태원 회장, SK하이닉스 저점 매수로 하루 만에 12억 평가이익",
-            "news_id": "404d270d515bd1d5813ab2b47c92e50b",
-            "published_at": "2026-07-31 10:31 KST",
-            "company_names": [
-              "SK하이닉스"
-            ],
-            "sentiment_score": 0.56051,
-            "associated_companies": 1
-          },
-          {
-            "press": "뉴스1",
-            "title": "장민영 기업은행장 \"ON-IBK로 온기 전한다…2030년까지 30조 지원\"",
-            "news_id": "662d790df98fc2ebe863ba0ff2a42999",
-            "published_at": "2026-07-31 10:31 KST",
-            "company_names": [
-              "기업은행"
-            ],
-            "sentiment_score": 0.54051,
-            "associated_companies": 1
-          },
-          {
-            "press": "뉴시스",
-            "title": "현대차·기아, 칠레 한인회에 순찰차용 아이오닉5·EV5 지원",
-            "news_id": "6a7f16d5ebca0acebe169100edc50cbb",
-            "published_at": "2026-07-31 10:31 KST",
-            "company_names": [
-              "현대차"
-            ],
-            "sentiment_score": 0.65051,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
           {
             "press": "한국경제",
-            "title": "삼성, 런던에 '술집' 연 이유가…\"갤럭시 일병 구하기\" 총력전",
+            "title": "삼성, 런던에 '술집' 열었다…\"갤럭시 일병 구하기\" 총력전",
             "news_id": "cb8c91e8a78eb14d9744a6bba44da7f5",
             "published_at": "2026-07-31 11:05 KST",
             "company_names": [
@@ -1491,39 +1499,50 @@
     "KOSDAQ": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 11:08 KST",
-        "price": 701.35,
-        "change": 56.57,
-        "change_pct": 8.77,
+        "as_of": "2026-07-31 11:13 KST",
+        "price": 700.65,
+        "change": 55.87,
+        "change_pct": 8.66,
         "prev_close": 644.78
       },
-      "score": 2.19009,
+      "score": 2.18093,
       "components": {
         "news": {
-          "score": 0.75029,
-          "coverage": 0.7273,
-          "observations": 137
+          "score": 0.74539,
+          "coverage": 0.7275,
+          "observations": 138
         },
         "market": {
-          "score": 2.94956,
+          "score": 2.92071,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 1801
         },
         "discussion": {
-          "score": 2.53026,
-          "coverage": 0.1367,
-          "observations": 10296
+          "score": 2.52881,
+          "coverage": 0.1369,
+          "observations": 10336
         },
         "news_hankyung": {
-          "score": -0.64226,
-          "coverage": 0.3125,
-          "observations": 5
+          "score": -0.19745,
+          "coverage": 0.3684,
+          "observations": 6
         }
       },
-      "text_pulse": 1.93694,
+      "text_pulse": 1.93434,
       "news_articles": {
         "all": [
+          {
+            "press": "지디넷코리아",
+            "title": "네오플, 던파 방치형 신작 '프로젝트 DL' 개발 착수",
+            "news_id": "5b30383a79e8f6a5a03cc680c486c7a0",
+            "published_at": "2026-07-31 11:05 KST",
+            "company_names": [
+              "넥슨게임즈"
+            ],
+            "sentiment_score": 0.54802,
+            "associated_companies": 1
+          },
           {
             "press": "머니투데이",
             "title": "이엠앤아이, 인도 배터리 수주에 중수 매출 35억 올려…차세대 소재 개발 추진",
@@ -2668,22 +2687,21 @@
             ],
             "sentiment_score": 0.68551,
             "associated_companies": 1
-          },
-          {
-            "press": "SBS Biz",
-            "title": "SKT, 피지컬 AI 스타트업 8곳과 맞손…로봇 생태계 키운다",
-            "news_id": "0c5072407448112cac62e51687e4dbc9",
-            "published_at": "2026-07-31 09:17 KST",
-            "company_names": [
-              "마키나락스",
-              "씨메스로보틱스",
-              "유일로보틱스"
-            ],
-            "sentiment_score": 0.67718,
-            "associated_companies": 3
           }
         ],
         "hankyung": [
+          {
+            "press": "한국경제",
+            "title": "달바 키운 FTSE도 점찍었다...'K아이언맨' 로봇株는",
+            "news_id": "01b06365e90cb06711ea61a1338134f1",
+            "published_at": "2026-07-31 09:17 KST",
+            "company_names": [
+              "리브스메드",
+              "스톤브릿지벤처스"
+            ],
+            "sentiment_score": 0.64551,
+            "associated_companies": 2
+          },
           {
             "press": "한국경제",
             "title": "리가켐바이오 항체약물접합체 기술 적용한 익수다 ‘IKS04’, 미국 임상 1상 진입",
@@ -2746,23 +2764,23 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 11:06 KST",
-      "latest_event": "2026-07-31 11:05 KST",
-      "observations": 1364,
+      "latest_seen": "2026-07-31 11:13 KST",
+      "latest_event": "2026-07-31 11:12 KST",
+      "observations": 1410,
       "active_minutes": 127
     },
     "market": {
       "intraday": true,
-      "latest_seen": "2026-07-31 11:08 KST",
+      "latest_seen": "2026-07-31 11:13 KST",
       "latest_event": "2026-07-31",
       "active_minutes": null,
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-31 11:08 KST",
-      "latest_event": "2026-07-31 11:05 KST",
-      "observations": 34695,
-      "active_minutes": 142
+      "latest_seen": "2026-07-31 11:13 KST",
+      "latest_event": "2026-07-31 11:07 KST",
+      "observations": 35030,
+      "active_minutes": 147
     }
   },
   "event_date": "2026-07-31",
@@ -2775,6 +2793,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 11:08 KST"
+    "attempted_at": "2026-07-31 11:13 KST"
   }
 }
