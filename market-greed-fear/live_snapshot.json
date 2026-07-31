@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-31 17:15 KST",
+  "as_of": "2026-07-31 17:21 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -10,12 +10,12 @@
         "change_pct": 17.91,
         "prev_close": 5593.56
       },
-      "score": 3.42154,
+      "score": 3.42103,
       "components": {
         "news": {
-          "score": 1.07108,
-          "coverage": 0.8371,
-          "observations": 1711
+          "score": 1.07112,
+          "coverage": 0.8373,
+          "observations": 1715
         },
         "market": {
           "score": 4.61783,
@@ -24,19 +24,41 @@
           "observations": 915
         },
         "discussion": {
-          "score": 3.99861,
+          "score": 3.99758,
           "coverage": 0.1686,
-          "observations": 50019
+          "observations": 50045
         },
         "news_hankyung": {
-          "score": 0.24997,
-          "coverage": 0.8348,
-          "observations": 45
+          "score": 0.24909,
+          "coverage": 0.8376,
+          "observations": 47
         }
       },
-      "text_pulse": 3.02277,
+      "text_pulse": 3.0221,
       "news_articles": {
         "all": [
+          {
+            "press": "한국경제",
+            "title": "한대희 \"상가 성공하려면 브랜드·집객력 검증된 임차인 채워야\"",
+            "news_id": "da33e02ae7bd27c3901a7922acd1a056",
+            "published_at": "2026-07-31 17:20 KST",
+            "company_names": [
+              "현대백화점"
+            ],
+            "sentiment_score": 0.53802,
+            "associated_companies": 1
+          },
+          {
+            "press": "한국경제",
+            "title": "8월 2.7만가구 일반분양 쏟아진다",
+            "news_id": "126445bfcaa8e891517b16b9db88acf6",
+            "published_at": "2026-07-31 17:18 KST",
+            "company_names": [
+              "현대건설"
+            ],
+            "sentiment_score": 0.57302,
+            "associated_companies": 1
+          },
           {
             "press": "더팩트",
             "title": "GC녹십자 2분기 영업익 17억, 93.8% 줄어",
@@ -69,6 +91,17 @@
               "종근당"
             ],
             "sentiment_score": 0.46052,
+            "associated_companies": 1
+          },
+          {
+            "press": "블로터",
+            "title": "넷마블네오 100% 품은 넷마블…방준혁 지분 24%대로 감소",
+            "news_id": "274c8158ab2ef0459699076fb0ac07a3",
+            "published_at": "2026-07-31 17:10 KST",
+            "company_names": [
+              "넷마블"
+            ],
+            "sentiment_score": 0.47552,
             "associated_companies": 1
           },
           {
@@ -653,6 +686,17 @@
             "associated_companies": 2
           },
           {
+            "press": "EBN",
+            "title": "F&F, 2Q 영업익 2.9%↑...MLB·해외 성장 힘입어 실적 개선",
+            "news_id": "05c4a0c88a32556e62683dae20a04fe6",
+            "published_at": "2026-07-31 16:47 KST",
+            "company_names": [
+              "F&F"
+            ],
+            "sentiment_score": 0.69051,
+            "associated_companies": 1
+          },
+          {
             "press": "마이데일리",
             "title": "SOOP, 2분기 영업익 126억원…전년比 57.9% 감소",
             "news_id": "d70da1a10441f97c01e14c199ab77d29",
@@ -1180,56 +1224,31 @@
             ],
             "sentiment_score": 0.37551,
             "associated_companies": 2
-          },
-          {
-            "press": "동행미디어 시대",
-            "title": "금융위, 내년 금융체계상 중요 은행·은행지주 10곳 선정…전년 동일",
-            "news_id": "e4efbae7ec85f87f6857b3b4a1a40ba4",
-            "published_at": "2026-07-31 16:37 KST",
-            "company_names": [
-              "KB금융",
-              "신한지주",
-              "우리금융지주",
-              "하나금융지주"
-            ],
-            "sentiment_score": 0.50114,
-            "associated_companies": 4
-          },
-          {
-            "press": "파이낸셜뉴스",
-            "title": "SK하이닉스, 주주 달래기 나설까…환원책에 쏠린 눈",
-            "news_id": "0af4a3f3c0635facac5fb825850d1d2a",
-            "published_at": "2026-07-31 16:36 KST",
-            "company_names": [
-              "SK하이닉스"
-            ],
-            "sentiment_score": 0.60052,
-            "associated_companies": 1
-          },
-          {
-            "press": "아이뉴스24",
-            "title": "최윤범 고려아연 회장 \"칠레 핵심광물·청정에너지, 韓과 미래 협력 기회\"",
-            "news_id": "6f2565d282c384dc0e2130ce6bea5d14",
-            "published_at": "2026-07-31 16:36 KST",
-            "company_names": [
-              "고려아연"
-            ],
-            "sentiment_score": 0.60052,
-            "associated_companies": 1
-          },
-          {
-            "press": "블로터",
-            "title": "LG화학, 비메모리 CCL 글로벌 3개사 공급…전자소재 사업 확장",
-            "news_id": "82390fdcbabe794054b41f0adfa05a06",
-            "published_at": "2026-07-31 16:36 KST",
-            "company_names": [
-              "LG화학"
-            ],
-            "sentiment_score": 0.68551,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
+          {
+            "press": "한국경제",
+            "title": "한대희 \"상가 성공하려면 브랜드·집객력 검증된 임차인 채워야\"",
+            "news_id": "da33e02ae7bd27c3901a7922acd1a056",
+            "published_at": "2026-07-31 17:20 KST",
+            "company_names": [
+              "현대백화점"
+            ],
+            "sentiment_score": 0.53802,
+            "associated_companies": 1
+          },
+          {
+            "press": "한국경제",
+            "title": "8월 2.7만가구 일반분양 쏟아진다",
+            "news_id": "126445bfcaa8e891517b16b9db88acf6",
+            "published_at": "2026-07-31 17:18 KST",
+            "company_names": [
+              "현대건설"
+            ],
+            "sentiment_score": 0.57302,
+            "associated_companies": 1
+          },
           {
             "press": "한국경제",
             "title": "41% 대 39%…\"삼전이 SK하닉 제친다\" 개미들 술렁",
@@ -1671,12 +1690,12 @@
         "change_pct": 11.63,
         "prev_close": 644.78
       },
-      "score": 2.36973,
+      "score": 2.36749,
       "components": {
         "news": {
-          "score": 0.88385,
-          "coverage": 0.7033,
-          "observations": 302
+          "score": 0.8749,
+          "coverage": 0.7024,
+          "observations": 303
         },
         "market": {
           "score": 3.76015,
@@ -1695,7 +1714,7 @@
           "observations": 9
         }
       },
-      "text_pulse": 1.90626,
+      "text_pulse": 1.90328,
       "news_articles": {
         "all": [
           {
@@ -2955,10 +2974,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 17:15 KST",
-      "latest_event": "2026-07-31 17:12 KST",
-      "observations": 2875,
-      "active_minutes": 265
+      "latest_seen": "2026-07-31 17:21 KST",
+      "latest_event": "2026-07-31 17:20 KST",
+      "observations": 2877,
+      "active_minutes": 268
     },
     "market": {
       "intraday": true,
@@ -2968,10 +2987,10 @@
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-31 17:15 KST",
+      "latest_seen": "2026-07-31 17:21 KST",
       "latest_event": "2026-07-31 17:05 KST",
-      "observations": 71016,
-      "active_minutes": 337
+      "observations": 71042,
+      "active_minutes": 343
     }
   },
   "event_date": "2026-07-31",
@@ -2984,6 +3003,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 17:15 KST"
+    "attempted_at": "2026-07-31 17:21 KST"
   }
 }
