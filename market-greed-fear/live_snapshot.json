@@ -1,21 +1,21 @@
 {
-  "as_of": "2026-07-31 15:20 KST",
+  "as_of": "2026-07-31 15:25 KST",
   "boards": {
     "KOSPI": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 15:20 KST",
+        "as_of": "2026-07-31 15:25 KST",
         "price": 6615.6,
         "change": 1022.04,
         "change_pct": 18.27,
         "prev_close": 5593.56
       },
-      "score": 3.06364,
+      "score": 3.08039,
       "components": {
         "news": {
-          "score": 0.74723,
-          "coverage": 0.8397,
-          "observations": 1331
+          "score": 0.78963,
+          "coverage": 0.842,
+          "observations": 1357
         },
         "market": {
           "score": 4.71256,
@@ -24,9 +24,9 @@
           "observations": 915
         },
         "discussion": {
-          "score": 3.39737,
+          "score": 3.40969,
           "coverage": 0.1688,
-          "observations": 41686
+          "observations": 41860
         },
         "news_hankyung": {
           "score": -0.1573,
@@ -34,9 +34,317 @@
           "observations": 37
         }
       },
-      "text_pulse": 2.51399,
+      "text_pulse": 2.53633,
       "news_articles": {
         "all": [
+          {
+            "press": "비즈워치",
+            "title": "한화에어로, 분기 영업익 첫 1조 돌파…항공우주 흑전 유독 빛났다",
+            "news_id": "85ad237160d7ee8b016963e814130f60",
+            "published_at": "2026-07-31 15:22 KST",
+            "company_names": [
+              "한화시스템",
+              "한화에어로스페이스",
+              "한화오션"
+            ],
+            "sentiment_score": 0.68218,
+            "associated_companies": 3
+          },
+          {
+            "press": "디지털데일리",
+            "title": "“최태원 사자마자 상한가”…SK하이닉스 하루 만에 13억원 평가이익",
+            "news_id": "b040e06c8921105c982d054790f9cd12",
+            "published_at": "2026-07-31 15:22 KST",
+            "company_names": [
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.67551,
+            "associated_companies": 1
+          },
+          {
+            "press": "국민일보",
+            "title": "카카오뱅크, 인터넷은행 첫 파업에 700여명 참여… 임금·성과급 갈등 지속",
+            "news_id": "ea5945c398eaac4234789e7eb89fbf16",
+            "published_at": "2026-07-31 15:22 KST",
+            "company_names": [
+              "카카오뱅크"
+            ],
+            "sentiment_score": 0.24677,
+            "associated_companies": 1
+          },
+          {
+            "press": "블로터",
+            "title": "IPARK현대산업개발, 지역 연계·생활 밀착형 '사회공헌' 확대",
+            "news_id": "5e81239c86dec7cd8ff2e7f75e1a012f",
+            "published_at": "2026-07-31 15:21 KST",
+            "company_names": [
+              "HDC",
+              "IPARK현대산업개발",
+              "깨끗한나라"
+            ],
+            "sentiment_score": 0.58552,
+            "associated_companies": 3
+          },
+          {
+            "press": "지디넷코리아",
+            "title": "래블업, 코스닥 상장예심 통과…AI 인프라 해외 공략 속도",
+            "news_id": "c268e40ee9f189f89a7132d8b0e59b8a",
+            "published_at": "2026-07-31 15:21 KST",
+            "company_names": [
+              "삼성전자",
+              "신한지주",
+              "현대모비스"
+            ],
+            "sentiment_score": 0.67551,
+            "associated_companies": 3
+          },
+          {
+            "press": "파이낸셜뉴스",
+            "title": "서울시, 목동13단지 재건축 통합심의 '보류'",
+            "news_id": "d98a7f37fb37ffef71d4d919181bbc94",
+            "published_at": "2026-07-31 15:21 KST",
+            "company_names": [
+              "DL",
+              "DL이앤씨",
+              "IPARK현대산업개발",
+              "대우건설",
+              "삼성물산"
+            ],
+            "sentiment_score": 0.47452,
+            "associated_companies": 5
+          },
+          {
+            "press": "더팩트",
+            "title": "호텔신라, 2분기 영업이익 611억원…전년比 606% 증가",
+            "news_id": "ebe2b94faf9f825fa8959018869682b0",
+            "published_at": "2026-07-31 15:20 KST",
+            "company_names": [
+              "호텔신라"
+            ],
+            "sentiment_score": 0.58052,
+            "associated_companies": 1
+          },
+          {
+            "press": "머니투데이",
+            "title": "최윤범 고려아연 회장, 칠레에 핵심광물·청정에너지 협력 제안",
+            "news_id": "85cb701192b9a3fc084c17195ce7a125",
+            "published_at": "2026-07-31 15:19 KST",
+            "company_names": [
+              "고려아연"
+            ],
+            "sentiment_score": 0.62052,
+            "associated_companies": 1
+          },
+          {
+            "press": "경향신문",
+            "title": "SK하이닉스, 상한가 기록 ···‘최태원 구조대’ 통했나",
+            "news_id": "fa9d62bd1e4ba4a3d366970b42c7923b",
+            "published_at": "2026-07-31 15:19 KST",
+            "company_names": [
+              "SK",
+              "SK스퀘어",
+              "SK하이닉스",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.68301,
+            "associated_companies": 4
+          },
+          {
+            "press": "더팩트",
+            "title": "최윤범 고려아연 회장, 칠레 비즈니스 라운드테이블 참석…\"광물·에너지 협력\"",
+            "news_id": "fb0b47959d09ace81a3d267fde35d1ed",
+            "published_at": "2026-07-31 15:19 KST",
+            "company_names": [
+              "고려아연"
+            ],
+            "sentiment_score": 0.62052,
+            "associated_companies": 1
+          },
+          {
+            "press": "데일리안",
+            "title": "KT, 딥엑스·세솔과 'AI 엣지 박스' 개발…산업 현장 AX 확대",
+            "news_id": "0f08a54274f19fab6b8ba62c4eeea92d",
+            "published_at": "2026-07-31 15:18 KST",
+            "company_names": [
+              "KT"
+            ],
+            "sentiment_score": 0.67051,
+            "associated_companies": 1
+          },
+          {
+            "press": "이코노미스트",
+            "title": "청라 아파트 3년 새 71% 상승…청라하늘대교 개통 최대수혜지 된 영종 분양 단지",
+            "news_id": "2de01366551d6fc63fab8976dd1fa8c2",
+            "published_at": "2026-07-31 15:18 KST",
+            "company_names": [
+              "대한항공"
+            ],
+            "sentiment_score": 0.63052,
+            "associated_companies": 1
+          },
+          {
+            "press": "중앙일보",
+            "title": "“3000만원 넣으면 3억 된다” 미친 척하고 사라는 이 종목",
+            "news_id": "1fcbc0cc221cbd75963bda9e95e09fe6",
+            "published_at": "2026-07-31 15:17 KST",
+            "company_names": [
+              "HD현대일렉트릭",
+              "LS ELECTRIC",
+              "SK하이닉스",
+              "삼성전자",
+              "효성중공업"
+            ],
+            "sentiment_score": 0.50901,
+            "associated_companies": 5
+          },
+          {
+            "press": "뉴스1",
+            "title": "문체부-삼양식품, 한국관광 글로벌 도약 업무협약식",
+            "news_id": "2f1dcd71c0851d57b8886db876b83e9f",
+            "published_at": "2026-07-31 15:17 KST",
+            "company_names": [
+              "삼양식품"
+            ],
+            "sentiment_score": 0.58301,
+            "associated_companies": 1
+          },
+          {
+            "press": "뉴스1",
+            "title": "'한국관광 글로벌 도약을 위해'",
+            "news_id": "8a48debf3446a39d1a24e16185b933ba",
+            "published_at": "2026-07-31 15:17 KST",
+            "company_names": [
+              "삼양식품"
+            ],
+            "sentiment_score": 0.57051,
+            "associated_companies": 1
+          },
+          {
+            "press": "뉴스1",
+            "title": "한국관광 글로벌 도약을 위한 업무협약식",
+            "news_id": "bf83671f3c789b0640d02dbdc301d50d",
+            "published_at": "2026-07-31 15:17 KST",
+            "company_names": [
+              "삼양식품"
+            ],
+            "sentiment_score": 0.56551,
+            "associated_companies": 1
+          },
+          {
+            "press": "연합뉴스",
+            "title": "'사용자 경험 스튜디오 상하이' 건물 외관",
+            "news_id": "c51ab419867206a056e326a077deb02b",
+            "published_at": "2026-07-31 15:17 KST",
+            "company_names": [
+              "현대차"
+            ],
+            "sentiment_score": 0.55302,
+            "associated_companies": 1
+          },
+          {
+            "press": "파이낸셜뉴스",
+            "title": "KAI, 국산 AI 반도체로 무인기 '피지컬 AI' 띄운다... 953억 국책과제 방산 주관",
+            "news_id": "0e3717a7aa15a9bb12d73e93d9e08573",
+            "published_at": "2026-07-31 15:16 KST",
+            "company_names": [
+              "삼성전자",
+              "한국항공우주"
+            ],
+            "sentiment_score": 0.66802,
+            "associated_companies": 2
+          },
+          {
+            "press": "아이뉴스24",
+            "title": "LG화학, 석화 반등·첨단소재 회복…2Q 영업익 5996억원",
+            "news_id": "93b8f84f1574eb81a81f447cebe33ffa",
+            "published_at": "2026-07-31 15:16 KST",
+            "company_names": [
+              "LG화학"
+            ],
+            "sentiment_score": 0.68551,
+            "associated_companies": 1
+          },
+          {
+            "press": "연합뉴스",
+            "title": "'사용자 경험 스튜디오 상하이' 1층 전시물",
+            "news_id": "b68343f333132c1b1a6e8f222600a4bf",
+            "published_at": "2026-07-31 15:16 KST",
+            "company_names": [
+              "현대차"
+            ],
+            "sentiment_score": 0.57302,
+            "associated_companies": 1
+          },
+          {
+            "press": "연합뉴스",
+            "title": "'사용자 경험 스튜디오 상하이' 1층 전시물",
+            "news_id": "b8dd60124f01ef479dd010d185607c14",
+            "published_at": "2026-07-31 15:16 KST",
+            "company_names": [
+              "현대차"
+            ],
+            "sentiment_score": 0.57302,
+            "associated_companies": 1
+          },
+          {
+            "press": "뉴스1",
+            "title": "전북 기업 10곳, '국내 1000대 기업' 유지…상위 200위권 '전무'",
+            "news_id": "9d60561057f86855205e9d3afa1e2932",
+            "published_at": "2026-07-31 15:15 KST",
+            "company_names": [
+              "JB금융지주",
+              "미원에스씨"
+            ],
+            "sentiment_score": 0.50801,
+            "associated_companies": 2
+          },
+          {
+            "press": "머니투데이",
+            "title": "한국해운협회, BNK금융그룹과 업무협약…\"부·울·경 지속성장 기여\"",
+            "news_id": "221488a94d76cf69a418c0397f081457",
+            "published_at": "2026-07-31 15:14 KST",
+            "company_names": [
+              "BNK금융지주"
+            ],
+            "sentiment_score": 0.60052,
+            "associated_companies": 1
+          },
+          {
+            "press": "더팩트",
+            "title": "\"야구장에서 해수욕장까지\"…한국타이어, 사회공헌 활동 '확대'",
+            "news_id": "856d38645bca644c65052c3f2171a1cf",
+            "published_at": "2026-07-31 15:14 KST",
+            "company_names": [
+              "두산",
+              "한국타이어앤테크놀로지"
+            ],
+            "sentiment_score": 0.61926,
+            "associated_companies": 2
+          },
+          {
+            "press": "데일리안",
+            "title": "[주간분양] 부산·강릉·아산 등 청약 접수…수도권은 숨 고르기",
+            "news_id": "9197d6ace0bea8a4d09b15833a5d460d",
+            "published_at": "2026-07-31 15:14 KST",
+            "company_names": [
+              "POSCO홀딩스",
+              "동부건설"
+            ],
+            "sentiment_score": 0.53926,
+            "associated_companies": 2
+          },
+          {
+            "press": "데일리안",
+            "title": "\"또 다른 세상 만날 땐 잠시 꺼두셔도 좋습니다\"…한석규 '스피드011' 광고 부활",
+            "news_id": "96894c867f7e03401e0a50ad42cb372e",
+            "published_at": "2026-07-31 15:13 KST",
+            "company_names": [
+              "SK텔레콤",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.58552,
+            "associated_companies": 2
+          },
           {
             "press": "데일리안",
             "title": "롯데, 신사업 속도…AI 소재·바이오·원롯데로 성장동력 강화",
@@ -120,6 +428,21 @@
             ],
             "sentiment_score": 0.28426,
             "associated_companies": 1
+          },
+          {
+            "press": "MBC",
+            "title": "SK하이닉스 장중 상한가‥코스피·코스닥 '불기둥'",
+            "news_id": "7fd12181b3ebc9fda8325625b8c44eca",
+            "published_at": "2026-07-31 15:10 KST",
+            "company_names": [
+              "SK스퀘어",
+              "SK하이닉스",
+              "삼성전기",
+              "삼성전자",
+              "키움증권"
+            ],
+            "sentiment_score": 0.60752,
+            "associated_companies": 5
           },
           {
             "press": "중앙일보",
@@ -906,329 +1229,6 @@
             ],
             "sentiment_score": 0.62052,
             "associated_companies": 2
-          },
-          {
-            "press": "뉴스1",
-            "title": "K반도체, 해외로 수출",
-            "news_id": "4ad4c42969a6f001283f8811c1ff446f",
-            "published_at": "2026-07-31 15:00 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.62427,
-            "associated_companies": 2
-          },
-          {
-            "press": "뉴시스",
-            "title": "삼성전자·SK하이닉스 반도체 수출 현장",
-            "news_id": "4fb259d6814d4ab9f112a56a8569f688",
-            "published_at": "2026-07-31 15:00 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.55302,
-            "associated_companies": 2
-          },
-          {
-            "press": "뉴시스",
-            "title": "삼성전자·SK하이닉스 반도체 수출 현장",
-            "news_id": "4fdc0b9c1d971bdc717b1fbc940bd417",
-            "published_at": "2026-07-31 15:00 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.55302,
-            "associated_companies": 2
-          },
-          {
-            "press": "뉴스1",
-            "title": "해외로 수출되는 삼전닉스 반도체",
-            "news_id": "55f16175b205b5f6ce0d67562d1b687e",
-            "published_at": "2026-07-31 15:00 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.57676,
-            "associated_companies": 2
-          },
-          {
-            "press": "뉴스1",
-            "title": "수출되는 K반도체",
-            "news_id": "575ec43f1591f7319bb590d684680881",
-            "published_at": "2026-07-31 15:00 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.55926,
-            "associated_companies": 2
-          },
-          {
-            "press": "뉴스1",
-            "title": "수출되는 K반도체",
-            "news_id": "5bb272c50b3f11f3ce73a93adb36cb84",
-            "published_at": "2026-07-31 15:00 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.55926,
-            "associated_companies": 2
-          },
-          {
-            "press": "뉴스1",
-            "title": "항공기에 탑재된 삼전닉스 반도체",
-            "news_id": "5f951f1af66f986605c553a1b81304cc",
-            "published_at": "2026-07-31 15:00 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.59676,
-            "associated_companies": 2
-          },
-          {
-            "press": "뉴스1",
-            "title": "해외로 수출되는 삼전닉스 반도체",
-            "news_id": "605374aa2059fb95a894e46fe7a67f5e",
-            "published_at": "2026-07-31 15:00 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.58427,
-            "associated_companies": 2
-          },
-          {
-            "press": "뉴스1",
-            "title": "귀하신 반도체",
-            "news_id": "60f5349257a5a43c45de9a495cd19ef7",
-            "published_at": "2026-07-31 15:00 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.56926,
-            "associated_companies": 2
-          },
-          {
-            "press": "뉴스1",
-            "title": "수출되는 K반도체",
-            "news_id": "6eedce3d517680cc57057c326133dc8e",
-            "published_at": "2026-07-31 15:00 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.57176,
-            "associated_companies": 2
-          },
-          {
-            "press": "뉴시스",
-            "title": "삼성전자·SK하이닉스 반도체 수출 현장",
-            "news_id": "76e428dbd9d6271609cefab916568a97",
-            "published_at": "2026-07-31 15:00 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.55302,
-            "associated_companies": 2
-          },
-          {
-            "press": "뉴스1",
-            "title": "항공기에 탑재되는 삼전닉스 반도체",
-            "news_id": "76ee8cc0e91a1ecbe0fbe17b4412b516",
-            "published_at": "2026-07-31 15:00 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.54801,
-            "associated_companies": 2
-          },
-          {
-            "press": "뉴스1",
-            "title": "해외로 수출되는 삼전닉스 반도체",
-            "news_id": "8570e53e2a402882a44b3bf625dc2cee",
-            "published_at": "2026-07-31 15:00 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.57676,
-            "associated_companies": 2
-          },
-          {
-            "press": "뉴스1",
-            "title": "해외로 수출되는 삼전닉스 반도체",
-            "news_id": "89e6a23944bd814e9a88d82f0f8d7d13",
-            "published_at": "2026-07-31 15:00 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.58427,
-            "associated_companies": 2
-          },
-          {
-            "press": "서울경제",
-            "title": "SK오션플랜트, 유럽 해상변전소 하부구조물 수주…1억 1071만弗 규모",
-            "news_id": "8ac900bf4cb68d55e3d8f44f9e3c4f40",
-            "published_at": "2026-07-31 15:00 KST",
-            "company_names": [
-              "SK오션플랜트"
-            ],
-            "sentiment_score": 0.68551,
-            "associated_companies": 1
-          },
-          {
-            "press": "뉴시스",
-            "title": "화물기에 반도체 적재하는 관계자들",
-            "news_id": "90182731c3060a527ce163a37b2cbe73",
-            "published_at": "2026-07-31 15:00 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.50551,
-            "associated_companies": 2
-          },
-          {
-            "press": "뉴시스",
-            "title": "화물기에 반도체 적재하는 관계자들",
-            "news_id": "99fe1558c663a51af2c67bb76e615249",
-            "published_at": "2026-07-31 15:00 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.50551,
-            "associated_companies": 2
-          },
-          {
-            "press": "뉴스1",
-            "title": "K반도체, 해외로 수출",
-            "news_id": "9b3d80ff2a6625dc22949bdd029f16ec",
-            "published_at": "2026-07-31 15:00 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.62427,
-            "associated_companies": 2
-          },
-          {
-            "press": "뉴스1",
-            "title": "해외로 수출되는 삼전닉스 반도체",
-            "news_id": "a0906e363cbd35ce21c2a0459312c388",
-            "published_at": "2026-07-31 15:00 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.58427,
-            "associated_companies": 2
-          },
-          {
-            "press": "뉴스1",
-            "title": "수출되는 K반도체",
-            "news_id": "a16a18435518e12ac7c46bf539ec6d8e",
-            "published_at": "2026-07-31 15:00 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.55926,
-            "associated_companies": 2
-          },
-          {
-            "press": "뉴스1",
-            "title": "수출되는 K반도체",
-            "news_id": "bb52ccc492098d1377221461eda0dcb5",
-            "published_at": "2026-07-31 15:00 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.55926,
-            "associated_companies": 2
-          },
-          {
-            "press": "뉴시스",
-            "title": "화물기에 반도체 적재하는 관계자들",
-            "news_id": "bce8872c5915dc1311de3d51b8240d74",
-            "published_at": "2026-07-31 15:00 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.50551,
-            "associated_companies": 2
-          },
-          {
-            "press": "뉴스1",
-            "title": "해외로 수출되는 삼전닉스 반도체",
-            "news_id": "bf91eca7f609f9cecbf942bd63f3e32a",
-            "published_at": "2026-07-31 15:00 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.57676,
-            "associated_companies": 2
-          },
-          {
-            "press": "뉴스1",
-            "title": "항공기에 탑재되는 삼전닉스 반도체",
-            "news_id": "c2c31de83bcf4ec17125081b6ec95926",
-            "published_at": "2026-07-31 15:00 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.54801,
-            "associated_companies": 2
-          },
-          {
-            "press": "머니투데이",
-            "title": "KAI 국산 반도체로 '피지컬 AI' 본격화…무인기 자율제어 개발",
-            "news_id": "ce3f284cbf256d438d57f9a103248953",
-            "published_at": "2026-07-31 15:00 KST",
-            "company_names": [
-              "삼성전자",
-              "한국항공우주"
-            ],
-            "sentiment_score": 0.66802,
-            "associated_companies": 2
-          },
-          {
-            "press": "뉴스1",
-            "title": "해외로 수출되는 삼전닉스 반도체",
-            "news_id": "d5a9af1f55ce919cf7e666227a4dac81",
-            "published_at": "2026-07-31 15:00 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.57676,
-            "associated_companies": 2
-          },
-          {
-            "press": "뉴스1",
-            "title": "항공기에 탑재된 삼전닉스 반도체",
-            "news_id": "d9180a7211b32b76029ea4a05779e8a5",
-            "published_at": "2026-07-31 15:00 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.59676,
-            "associated_companies": 2
           }
         ],
         "hankyung": [
@@ -1595,18 +1595,18 @@
     "KOSDAQ": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 15:20 KST",
+        "as_of": "2026-07-31 15:25 KST",
         "price": 720.54,
         "change": 75.76,
         "change_pct": 11.75,
         "prev_close": 644.78
       },
-      "score": 2.45377,
+      "score": 2.44827,
       "components": {
         "news": {
-          "score": 1.02728,
-          "coverage": 0.7461,
-          "observations": 231
+          "score": 1.00529,
+          "coverage": 0.7474,
+          "observations": 234
         },
         "market": {
           "score": 3.78967,
@@ -1625,9 +1625,42 @@
           "observations": 9
         }
       },
-      "text_pulse": 2.00847,
+      "text_pulse": 2.00114,
       "news_articles": {
         "all": [
+          {
+            "press": "지디넷코리아",
+            "title": "전배문 오브젠 대표, 유용희 대표에 보통주 20만주 증여…전문경영인 체제 강화",
+            "news_id": "0981b11ce2c5fc96a8ab63ea5b31866e",
+            "published_at": "2026-07-31 15:15 KST",
+            "company_names": [
+              "오브젠"
+            ],
+            "sentiment_score": 0.58052,
+            "associated_companies": 1
+          },
+          {
+            "press": "뉴스1",
+            "title": "전북 기업 10곳, '국내 1000대 기업' 유지…상위 200위권 '전무'",
+            "news_id": "9d60561057f86855205e9d3afa1e2932",
+            "published_at": "2026-07-31 15:15 KST",
+            "company_names": [
+              "하림"
+            ],
+            "sentiment_score": 0.51301,
+            "associated_companies": 1
+          },
+          {
+            "press": "블로터",
+            "title": "동일스틸럭스, 대선조선 지분 전량 처분…워크아웃 본궤도",
+            "news_id": "3e1e6de6d1df2e3cef1355ccd2f3a1a4",
+            "published_at": "2026-07-31 15:14 KST",
+            "company_names": [
+              "동일스틸럭스"
+            ],
+            "sentiment_score": 0.45302,
+            "associated_companies": 1
+          },
           {
             "press": "이데일리",
             "title": "얼라인, 금감원에 가비아 공개매수 진정…“핵심 정보 빠졌다”",
@@ -2738,43 +2771,6 @@
             ],
             "sentiment_score": 0.64551,
             "associated_companies": 1
-          },
-          {
-            "press": "서울경제",
-            "title": "■‘상위 1% 초고수’ SK하이닉스 순매도 1위…삼성전기·제주반도체 순매수[주식 초고수는 지금]",
-            "news_id": "8d653532a1392cfd1150914e65f9072f",
-            "published_at": "2026-07-31 11:34 KST",
-            "company_names": [
-              "브이엠",
-              "제주반도체"
-            ],
-            "sentiment_score": 0.53676,
-            "associated_companies": 2
-          },
-          {
-            "press": "매일신문",
-            "title": "8월 중 에이피알·대한조선·마키나락스 등 1억8078만주 의무보유등록 해제",
-            "news_id": "0dd150d56340ba09c6a477078cc49f8c",
-            "published_at": "2026-07-31 11:33 KST",
-            "company_names": [
-              "롤링스톤",
-              "마키나락스",
-              "삼양컴텍",
-              "파두"
-            ],
-            "sentiment_score": 0.53177,
-            "associated_companies": 4
-          },
-          {
-            "press": "뉴스1",
-            "title": "팬오션, 2분기 영업이익 1937억원…전년 대비 57%↑ '깜짝 실적'",
-            "news_id": "191b792a845f67b4340a46553877c857",
-            "published_at": "2026-07-31 11:33 KST",
-            "company_names": [
-              "에프앤가이드"
-            ],
-            "sentiment_score": 0.68051,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
@@ -2902,23 +2898,23 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 15:15 KST",
-      "latest_event": "2026-07-31 15:12 KST",
-      "observations": 2268,
-      "active_minutes": 214
+      "latest_seen": "2026-07-31 15:23 KST",
+      "latest_event": "2026-07-31 15:22 KST",
+      "observations": 2307,
+      "active_minutes": 216
     },
     "market": {
       "intraday": true,
-      "latest_seen": "2026-07-31 15:20 KST",
+      "latest_seen": "2026-07-31 15:25 KST",
       "latest_event": "2026-07-31",
       "active_minutes": null,
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-31 15:20 KST",
-      "latest_event": "2026-07-31 15:14 KST",
-      "observations": 59972,
-      "active_minutes": 277
+      "latest_seen": "2026-07-31 15:25 KST",
+      "latest_event": "2026-07-31 15:17 KST",
+      "observations": 60146,
+      "active_minutes": 282
     }
   },
   "event_date": "2026-07-31",
@@ -2931,6 +2927,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 15:20 KST"
+    "attempted_at": "2026-07-31 15:25 KST"
   }
 }
