@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-07-31 14:54 KST",
+  "as_of": "2026-07-31 14:59 KST",
   "boards": {
     "KOSPI": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 14:54 KST",
-        "price": 6585.5,
-        "change": 991.94,
-        "change_pct": 17.73,
+        "as_of": "2026-07-31 14:59 KST",
+        "price": 6613.86,
+        "change": 1020.3,
+        "change_pct": 18.24,
         "prev_close": 5593.56
       },
-      "score": 2.87118,
+      "score": 2.89916,
       "components": {
         "news": {
-          "score": 0.63365,
-          "coverage": 0.8347,
-          "observations": 1250
+          "score": 0.63168,
+          "coverage": 0.8344,
+          "observations": 1251
         },
         "market": {
-          "score": 4.57342,
+          "score": 4.68733,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 915
@@ -34,7 +34,7 @@
           "observations": 36
         }
       },
-      "text_pulse": 2.30376,
+      "text_pulse": 2.30311,
       "news_articles": {
         "all": [
           {
@@ -249,6 +249,17 @@
               "NC"
             ],
             "sentiment_score": 0.56302,
+            "associated_companies": 1
+          },
+          {
+            "press": "연합뉴스",
+            "title": "[바이오스냅] 카이진, 일본 다이쇼제약과 신약 라이선스 계약",
+            "news_id": "e6a36d33ca614494084a8e1ee738a80e",
+            "published_at": "2026-07-31 14:45 KST",
+            "company_names": [
+              "셀트리온"
+            ],
+            "sentiment_score": 0.67551,
             "associated_companies": 1
           },
           {
@@ -1179,17 +1190,6 @@
             ],
             "sentiment_score": 0.57051,
             "associated_companies": 2
-          },
-          {
-            "press": "세계일보",
-            "title": "‘여름 수요 잡아라’…MZ 몰리는 ‘페스티벌’, 소비자 접점 무대로 [트렌드]",
-            "news_id": "31c67e5fc65183633a5837980862cd82",
-            "published_at": "2026-07-31 14:24 KST",
-            "company_names": [
-              "하이트진로"
-            ],
-            "sentiment_score": 0.63301,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
@@ -1543,21 +1543,21 @@
     "KOSDAQ": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 14:54 KST",
-        "price": 720.45,
-        "change": 75.67,
-        "change_pct": 11.74,
+        "as_of": "2026-07-31 14:59 KST",
+        "price": 723.18,
+        "change": 78.4,
+        "change_pct": 12.16,
         "prev_close": 644.78
       },
-      "score": 2.3118,
+      "score": 2.33863,
       "components": {
         "news": {
-          "score": 0.95901,
-          "coverage": 0.7362,
-          "observations": 218
+          "score": 0.96549,
+          "coverage": 0.7391,
+          "observations": 221
         },
         "market": {
-          "score": 3.74178,
+          "score": 3.84263,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 1801
@@ -1568,14 +1568,26 @@
           "observations": 15318
         },
         "news_hankyung": {
-          "score": -0.11026,
-          "coverage": 0.5714,
-          "observations": 8
+          "score": 0.2286,
+          "coverage": 0.6,
+          "observations": 9
         }
       },
-      "text_pulse": 1.83514,
+      "text_pulse": 1.8373,
       "news_articles": {
         "all": [
+          {
+            "press": "한국경제",
+            "title": "온코닉테라퓨틱스 위식도역류질환 신약 ‘자큐보’, 인도 품목허가 권고",
+            "news_id": "0320b6c5714347bfe54b25b4cf8ab1ea",
+            "published_at": "2026-07-31 14:54 KST",
+            "company_names": [
+              "쎄크",
+              "온코닉테라퓨틱스"
+            ],
+            "sentiment_score": 0.68551,
+            "associated_companies": 2
+          },
           {
             "press": "한국일보",
             "title": "이 대통령도 찾은 칠레 '한국의 거리'… 현대차그룹 순찰차가 누빈다",
@@ -1647,6 +1659,18 @@
             "associated_companies": 2
           },
           {
+            "press": "뉴시스",
+            "title": "\"상업화 성큼\"…온코닉, '자큐보' 인도서 허가 권고",
+            "news_id": "d714ecda0fc5d6c7e15169b2d28aacf8",
+            "published_at": "2026-07-31 14:47 KST",
+            "company_names": [
+              "쎄크",
+              "온코닉테라퓨틱스"
+            ],
+            "sentiment_score": 0.68551,
+            "associated_companies": 2
+          },
+          {
             "press": "한국경제",
             "title": "이엔셀, 보툴리눔 톡신 위탁생산 사업 진출 추진",
             "news_id": "e5d90fa88f45039606f5b034876bc480",
@@ -1656,6 +1680,18 @@
             ],
             "sentiment_score": 0.68551,
             "associated_companies": 1
+          },
+          {
+            "press": "연합뉴스",
+            "title": "[바이오스냅] 카이진, 일본 다이쇼제약과 신약 라이선스 계약",
+            "news_id": "e6a36d33ca614494084a8e1ee738a80e",
+            "published_at": "2026-07-31 14:45 KST",
+            "company_names": [
+              "온코닉테라퓨틱스",
+              "휴온스"
+            ],
+            "sentiment_score": 0.70051,
+            "associated_companies": 2
           },
           {
             "press": "이데일리",
@@ -2687,42 +2723,21 @@
             ],
             "sentiment_score": 0.56551,
             "associated_companies": 1
-          },
-          {
-            "press": "이데일리",
-            "title": "K-공연 이어 영상까지…데이원드림, RWA 본격화",
-            "news_id": "24da03d821085cfadfeb751379bde400",
-            "published_at": "2026-07-31 11:08 KST",
-            "company_names": [
-              "컴투스홀딩스"
-            ],
-            "sentiment_score": 0.61301,
-            "associated_companies": 1
-          },
-          {
-            "press": "헤럴드경제",
-            "title": "녹십자웰빙, 2분기 영업익 46억…전년비 9.6% ↑",
-            "news_id": "2e2189b3164b5b817a11e4a7423af969",
-            "published_at": "2026-07-31 11:08 KST",
-            "company_names": [
-              "녹십자웰빙"
-            ],
-            "sentiment_score": 0.64551,
-            "associated_companies": 1
-          },
-          {
-            "press": "지디넷코리아",
-            "title": "네오플, 던파 방치형 신작 '프로젝트 DL' 개발 착수",
-            "news_id": "5b30383a79e8f6a5a03cc680c486c7a0",
-            "published_at": "2026-07-31 11:05 KST",
-            "company_names": [
-              "넥슨게임즈"
-            ],
-            "sentiment_score": 0.54802,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
+          {
+            "press": "한국경제",
+            "title": "온코닉테라퓨틱스 위식도역류질환 신약 ‘자큐보’, 인도 품목허가 권고",
+            "news_id": "0320b6c5714347bfe54b25b4cf8ab1ea",
+            "published_at": "2026-07-31 14:54 KST",
+            "company_names": [
+              "쎄크",
+              "온코닉테라퓨틱스"
+            ],
+            "sentiment_score": 0.68551,
+            "associated_companies": 2
+          },
           {
             "press": "한국경제",
             "title": "이엔셀, 보툴리눔 톡신 위탁생산 사업 진출 추진",
@@ -2823,14 +2838,14 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 14:53 KST",
-      "latest_event": "2026-07-31 14:51 KST",
-      "observations": 2109,
-      "active_minutes": 205
+      "latest_seen": "2026-07-31 14:55 KST",
+      "latest_event": "2026-07-31 14:54 KST",
+      "observations": 2110,
+      "active_minutes": 206
     },
     "market": {
       "intraday": true,
-      "latest_seen": "2026-07-31 14:54 KST",
+      "latest_seen": "2026-07-31 14:59 KST",
       "latest_event": "2026-07-31",
       "active_minutes": null,
       "status_record_available": true
@@ -2852,6 +2867,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 14:54 KST"
+    "attempted_at": "2026-07-31 14:59 KST"
   }
 }
