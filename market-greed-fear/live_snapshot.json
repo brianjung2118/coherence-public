@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-07-31 10:37 KST",
+  "as_of": "2026-07-31 10:42 KST",
   "boards": {
     "KOSPI": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 10:36 KST",
-        "price": 6428.07,
-        "change": 834.51,
-        "change_pct": 14.92,
+        "as_of": "2026-07-31 10:42 KST",
+        "price": 6403.99,
+        "change": 810.43,
+        "change_pct": 14.49,
         "prev_close": 5593.56
       },
-      "score": 2.93186,
+      "score": 2.90628,
       "components": {
         "news": {
-          "score": 0.41818,
-          "coverage": 0.8403,
-          "observations": 718
+          "score": 0.42199,
+          "coverage": 0.8374,
+          "observations": 719
         },
         "market": {
-          "score": 3.84245,
+          "score": 3.73633,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 915
@@ -34,9 +34,21 @@
           "observations": 20
         }
       },
-      "text_pulse": 2.62833,
+      "text_pulse": 2.6296,
       "news_articles": {
         "all": [
+          {
+            "press": "서울신문",
+            "title": "코스피 17% ‘역대 최대’ 폭등…레버리지는 50% ‘불기둥’",
+            "news_id": "66645604be5d0fd19ff9e7c9d4d13714",
+            "published_at": "2026-07-31 10:40 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.63926,
+            "associated_companies": 2
+          },
           {
             "press": "시사저널",
             "title": "\"우상향 믿어라\" 최태원, SK하이닉스 주식 첫 직접 매수…반도체주 '들썩'",
@@ -1224,18 +1236,6 @@
             ],
             "sentiment_score": 0.67802,
             "associated_companies": 2
-          },
-          {
-            "press": "부산일보",
-            "title": "코스피, 15%대 ‘폭등’…삼전닉스 20%대 ‘불기둥’",
-            "news_id": "1d5de6942cd759c3634ade8efe461418",
-            "published_at": "2026-07-31 10:03 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.52926,
-            "associated_companies": 2
           }
         ],
         "hankyung": [
@@ -1493,13 +1493,13 @@
     "KOSDAQ": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 10:36 KST",
-        "price": 699.66,
-        "change": 54.88,
-        "change_pct": 8.51,
+        "as_of": "2026-07-31 10:42 KST",
+        "price": 699.84,
+        "change": 55.06,
+        "change_pct": 8.54,
         "prev_close": 644.78
       },
-      "score": 2.17455,
+      "score": 2.17241,
       "components": {
         "news": {
           "score": 0.66151,
@@ -1507,7 +1507,7 @@
           "observations": 119
         },
         "market": {
-          "score": 2.93209,
+          "score": 2.9235,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 1801
@@ -2747,14 +2747,14 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 10:36 KST",
-      "latest_event": "2026-07-31 10:32 KST",
-      "observations": 1212,
-      "active_minutes": 113
+      "latest_seen": "2026-07-31 10:42 KST",
+      "latest_event": "2026-07-31 10:40 KST",
+      "observations": 1218,
+      "active_minutes": 114
     },
     "market": {
       "intraday": true,
-      "latest_seen": "2026-07-31 10:36 KST",
+      "latest_seen": "2026-07-31 10:42 KST",
       "latest_event": "2026-07-31",
       "active_minutes": null,
       "status_record_available": true
@@ -2776,6 +2776,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 10:37 KST"
+    "attempted_at": "2026-07-31 10:42 KST"
   }
 }
