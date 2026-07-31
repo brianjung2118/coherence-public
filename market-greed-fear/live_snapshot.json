@@ -1,32 +1,32 @@
 {
-  "as_of": "2026-07-31 12:01 KST",
+  "as_of": "2026-07-31 12:06 KST",
   "boards": {
     "KOSPI": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 12:01 KST",
-        "price": 6365.66,
-        "change": 772.1,
-        "change_pct": 13.8,
+        "as_of": "2026-07-31 12:06 KST",
+        "price": 6379.86,
+        "change": 786.3,
+        "change_pct": 14.06,
         "prev_close": 5593.56
       },
-      "score": 2.60339,
+      "score": 2.53255,
       "components": {
         "news": {
-          "score": 0.39761,
-          "coverage": 0.8274,
-          "observations": 959
+          "score": 0.35383,
+          "coverage": 0.8282,
+          "observations": 969
         },
         "market": {
-          "score": 3.60019,
+          "score": 3.66587,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 915
         },
         "discussion": {
-          "score": 3.20789,
-          "coverage": 0.176,
-          "observations": 27483
+          "score": 3.05525,
+          "coverage": 0.1725,
+          "observations": 29282
         },
         "news_hankyung": {
           "score": -1.18224,
@@ -34,9 +34,106 @@
           "observations": 25
         }
       },
-      "text_pulse": 2.27113,
+      "text_pulse": 2.15477,
       "news_articles": {
         "all": [
+          {
+            "press": "문화일보",
+            "title": "“AI 치킨게임 계속”… 미국 빅테크 실적이 말했다",
+            "news_id": "76b4fee0f55d62660d58c3fb458b44ef",
+            "published_at": "2026-07-31 12:01 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.51926,
+            "associated_companies": 2
+          },
+          {
+            "press": "문화일보",
+            "title": "김동관 한화 수석부회장 승진… 장남중심 그룹 경영체제 강화",
+            "news_id": "ad8dbbd3cc864db998b89fffc3f90f8d",
+            "published_at": "2026-07-31 12:00 KST",
+            "company_names": [
+              "한화",
+              "한화생명",
+              "한화솔루션",
+              "한화시스템",
+              "한화에어로스페이스",
+              "한화오션"
+            ],
+            "sentiment_score": 0.57343,
+            "associated_companies": 6
+          },
+          {
+            "press": "뉴스1",
+            "title": "\"돈 복사의 날\" vs \"도박판 떠난다\"…코스피 폭등 '환호 반, 불안 반'",
+            "news_id": "29f036f3c77b84544b506cec1774a25f",
+            "published_at": "2026-07-31 11:59 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.37926,
+            "associated_companies": 2
+          },
+          {
+            "press": "문화일보",
+            "title": "“숏폼 보기 딱”… 삼성 폴더블, 10~30대 예약 절반 넘어",
+            "news_id": "92b358171cdf1f5835bd8787d928e508",
+            "published_at": "2026-07-31 11:59 KST",
+            "company_names": [
+              "삼성전자"
+            ],
+            "sentiment_score": 0.57551,
+            "associated_companies": 1
+          },
+          {
+            "press": "문화일보",
+            "title": "칠레 리튬·브라질 희토류…포스코 8년 투자 ‘빛’",
+            "news_id": "e1c3cd5656b5968e88591e2272e29cb4",
+            "published_at": "2026-07-31 11:59 KST",
+            "company_names": [
+              "POSCO홀딩스"
+            ],
+            "sentiment_score": 0.67051,
+            "associated_companies": 1
+          },
+          {
+            "press": "한겨레21",
+            "title": "증시 ‘공공의 적’, 레버리지 손본다",
+            "news_id": "75b085c753881228b3acbeef31d2390d",
+            "published_at": "2026-07-31 11:58 KST",
+            "company_names": [
+              "SK",
+              "SK하이닉스",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.39718,
+            "associated_companies": 3
+          },
+          {
+            "press": "연합뉴스",
+            "title": "충남도, AI 산업 뒷받침할 전력·용수·인력 기반 함께 챙긴다",
+            "news_id": "f4be1193b08d08dae44135c1bac43008",
+            "published_at": "2026-07-31 11:57 KST",
+            "company_names": [
+              "한국전력"
+            ],
+            "sentiment_score": 0.65051,
+            "associated_companies": 1
+          },
+          {
+            "press": "조선비즈",
+            "title": "SK하이닉스 노사, 성과급 일부 자사주 지급에 이견… 적자 시 임금 조정도 쟁점",
+            "news_id": "82743d39f7dc007d2b8106800e99d3f5",
+            "published_at": "2026-07-31 11:54 KST",
+            "company_names": [
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.30177,
+            "associated_companies": 1
+          },
           {
             "press": "경기일보",
             "title": "교촌치킨, 인천펜타포트에 ‘에너지 스테이션’ 연다",
@@ -47,6 +144,18 @@
             ],
             "sentiment_score": 0.54051,
             "associated_companies": 1
+          },
+          {
+            "press": "연합뉴스",
+            "title": "신세계면세점, 온라인몰에 '달바' 등 뷰티·웰니스 브랜드 강화",
+            "news_id": "d378b100e8d0ce34bd6a53531af15d02",
+            "published_at": "2026-07-31 11:52 KST",
+            "company_names": [
+              "달바글로벌",
+              "신세계"
+            ],
+            "sentiment_score": 0.61801,
+            "associated_companies": 2
           },
           {
             "press": "헤럴드경제",
@@ -1122,110 +1231,6 @@
             ],
             "sentiment_score": 0.31927,
             "associated_companies": 1
-          },
-          {
-            "press": "뉴스1",
-            "title": "한화오션, KDDX 선도함 건조 최종 계약 체결…2032년 인도(종합)",
-            "news_id": "34c736c421621397326a0015c66b3851",
-            "published_at": "2026-07-31 11:19 KST",
-            "company_names": [
-              "HD현대중공업",
-              "한화오션"
-            ],
-            "sentiment_score": 0.68802,
-            "associated_companies": 2
-          },
-          {
-            "press": "파이낸셜뉴스",
-            "title": "IMF보다 더 떨어졌다더니 하루 만에 역대 최대 반등…코스피, 기록이 기록을 덮었다 [종합]",
-            "news_id": "ff626a727c484938c27f81972de994aa",
-            "published_at": "2026-07-31 11:19 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.51052,
-            "associated_companies": 2
-          },
-          {
-            "press": "서울경제",
-            "title": "LG, 국내 최대 7500억 매개변수 ‘K-엑사원 2.0’ 공개…中 모델 성능 넘었다",
-            "news_id": "7e807656e4e35dd2b19219bbdcc364df",
-            "published_at": "2026-07-31 11:18 KST",
-            "company_names": [
-              "LG"
-            ],
-            "sentiment_score": 0.67051,
-            "associated_companies": 1
-          },
-          {
-            "press": "조선비즈",
-            "title": "조선 ‘빅 3’ 수익성 가른 환 헤지... 삼성중공업은 고환율 효과 못누려",
-            "news_id": "d62e2484519d2c8afa043ebda4dc5df3",
-            "published_at": "2026-07-31 11:18 KST",
-            "company_names": [
-              "HD현대중공업",
-              "삼성중공업",
-              "한화오션"
-            ],
-            "sentiment_score": 0.53218,
-            "associated_companies": 3
-          },
-          {
-            "press": "아시아경제",
-            "title": "희귀질환 넘어 자가면역 신시장 '활짝'…K바이오도 잰걸음",
-            "news_id": "5912c7a5bbfce18df0f4ff2dcc9de613",
-            "published_at": "2026-07-31 11:17 KST",
-            "company_names": [
-              "셀트리온",
-              "한올바이오파마"
-            ],
-            "sentiment_score": 0.68802,
-            "associated_companies": 2
-          },
-          {
-            "press": "조선비즈",
-            "title": "카카오게임즈, K-판타지 MMORPG ‘도깨비의세계’ 10월 출시",
-            "news_id": "6ff3f1cb7f6b09682aab3cfa613ea6c1",
-            "published_at": "2026-07-31 11:17 KST",
-            "company_names": [
-              "NAVER"
-            ],
-            "sentiment_score": 0.56051,
-            "associated_companies": 1
-          },
-          {
-            "press": "JTBC",
-            "title": "SK하이닉스 \"적자 나면 임금 조정\" 노조 \"사실상 삭감\" 반발…노사협상 난항",
-            "news_id": "bac5824e16b787efc80f07614cdb10d9",
-            "published_at": "2026-07-31 11:17 KST",
-            "company_names": [
-              "SK하이닉스"
-            ],
-            "sentiment_score": 0.27302,
-            "associated_companies": 1
-          },
-          {
-            "press": "뉴시스",
-            "title": "이엠앤아이, 주주서한…\"기술력·신사업 바탕 기업가치 회복\"",
-            "news_id": "25643c1fbed9de7bd380214fe11977d6",
-            "published_at": "2026-07-31 11:16 KST",
-            "company_names": [
-              "LG에너지솔루션"
-            ],
-            "sentiment_score": 0.57051,
-            "associated_companies": 1
-          },
-          {
-            "press": "MBC",
-            "title": "SK하이닉스 노사협상 평행선‥성과급 지급방식 이견",
-            "news_id": "5c72927500b268cf583eed6d1b68e8a1",
-            "published_at": "2026-07-31 11:15 KST",
-            "company_names": [
-              "SK하이닉스"
-            ],
-            "sentiment_score": 0.29801,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
@@ -1516,29 +1521,29 @@
     "KOSDAQ": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 12:01 KST",
-        "price": 704.37,
-        "change": 59.59,
-        "change_pct": 9.24,
+        "as_of": "2026-07-31 12:06 KST",
+        "price": 704.54,
+        "change": 59.76,
+        "change_pct": 9.27,
         "prev_close": 644.78
       },
-      "score": 2.22392,
+      "score": 2.25427,
       "components": {
         "news": {
-          "score": 0.74195,
-          "coverage": 0.7202,
-          "observations": 155
+          "score": 0.74337,
+          "coverage": 0.7209,
+          "observations": 156
         },
         "market": {
-          "score": 3.1039,
+          "score": 3.09709,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 1801
         },
         "discussion": {
-          "score": 2.52492,
-          "coverage": 0.137,
-          "observations": 10363
+          "score": 2.58831,
+          "coverage": 0.1332,
+          "observations": 12040
         },
         "news_hankyung": {
           "score": -0.19745,
@@ -1546,9 +1551,20 @@
           "observations": 6
         }
       },
-      "text_pulse": 1.9306,
+      "text_pulse": 1.97333,
       "news_articles": {
         "all": [
+          {
+            "press": "아시아경제",
+            "title": "GC녹십자웰빙, 상반기 매출 1012억원…전년比 37.4% 증가",
+            "news_id": "5b074b60488663ff8a2ac9e2e8f2d232",
+            "published_at": "2026-07-31 11:53 KST",
+            "company_names": [
+              "녹십자웰빙"
+            ],
+            "sentiment_score": 0.70051,
+            "associated_companies": 1
+          },
           {
             "press": "경기일보",
             "title": "‘사랑의 하츄핑’ 개봉 앞두고…SAMG엔터, 프리미어 상영·팝업 운영",
@@ -2682,17 +2698,6 @@
             ],
             "sentiment_score": 0.65551,
             "associated_companies": 1
-          },
-          {
-            "press": "EBN",
-            "title": "빅테크 훈풍 K반도체로…증권가 \"실적은 안도·AI 투자 속도는 변수\"",
-            "news_id": "a63a1dde196ee3bb9578e11d9fba2813",
-            "published_at": "2026-07-31 09:42 KST",
-            "company_names": [
-              "LS증권"
-            ],
-            "sentiment_score": 0.66551,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
@@ -2770,23 +2775,23 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 12:01 KST",
-      "latest_event": "2026-07-31 12:00 KST",
-      "observations": 1573,
-      "active_minutes": 147
+      "latest_seen": "2026-07-31 12:05 KST",
+      "latest_event": "2026-07-31 12:02 KST",
+      "observations": 1601,
+      "active_minutes": 149
     },
     "market": {
       "intraday": true,
-      "latest_seen": "2026-07-31 12:01 KST",
+      "latest_seen": "2026-07-31 12:06 KST",
       "latest_event": "2026-07-31",
       "active_minutes": null,
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-31 12:01 KST",
-      "latest_event": "2026-07-31 12:01 KST",
-      "observations": 38188,
-      "active_minutes": 167
+      "latest_seen": "2026-07-31 12:06 KST",
+      "latest_event": "2026-07-31 12:04 KST",
+      "observations": 41765,
+      "active_minutes": 172
     }
   },
   "event_date": "2026-07-31",
@@ -2799,6 +2804,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 12:01 KST"
+    "attempted_at": "2026-07-31 12:06 KST"
   }
 }
