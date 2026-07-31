@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-31 15:46 KST",
+  "as_of": "2026-07-31 15:51 KST",
   "boards": {
     "KOSPI": {
       "index": {
@@ -10,12 +10,12 @@
         "change_pct": 17.91,
         "prev_close": 5593.56
       },
-      "score": 3.44539,
+      "score": 3.44681,
       "components": {
         "news": {
-          "score": 0.85007,
-          "coverage": 0.8432,
-          "observations": 1432
+          "score": 0.85574,
+          "coverage": 0.8433,
+          "observations": 1433
         },
         "market": {
           "score": 4.61783,
@@ -29,14 +29,27 @@
           "observations": 44964
         },
         "news_hankyung": {
-          "score": -0.01999,
-          "coverage": 0.835,
-          "observations": 40
+          "score": 0.10644,
+          "coverage": 0.8396,
+          "observations": 41
         }
       },
-      "text_pulse": 3.05458,
+      "text_pulse": 3.05647,
       "news_articles": {
         "all": [
+          {
+            "press": "한국경제",
+            "title": "SK하이닉스, 17년 만에 상한가 '쾅'…삼성전자도 26% '폭등' [종합]",
+            "news_id": "5d93fc6d6f34261ca53217d74a3b9bf6",
+            "published_at": "2026-07-31 15:46 KST",
+            "company_names": [
+              "SK스퀘어",
+              "SK하이닉스",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.61385,
+            "associated_companies": 3
+          },
           {
             "press": "세계일보",
             "title": "[속보] SK하이닉스 사상 첫 상한가 마감…171만8000원",
@@ -1194,20 +1207,22 @@
             ],
             "sentiment_score": 0.50901,
             "associated_companies": 5
-          },
-          {
-            "press": "뉴스1",
-            "title": "문체부-삼양식품, 한국관광 글로벌 도약 업무협약식",
-            "news_id": "2f1dcd71c0851d57b8886db876b83e9f",
-            "published_at": "2026-07-31 15:17 KST",
-            "company_names": [
-              "삼양식품"
-            ],
-            "sentiment_score": 0.58301,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
+          {
+            "press": "한국경제",
+            "title": "SK하이닉스, 17년 만에 상한가 '쾅'…삼성전자도 26% '폭등' [종합]",
+            "news_id": "5d93fc6d6f34261ca53217d74a3b9bf6",
+            "published_at": "2026-07-31 15:46 KST",
+            "company_names": [
+              "SK스퀘어",
+              "SK하이닉스",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.61385,
+            "associated_companies": 3
+          },
           {
             "press": "한국경제",
             "title": "\"일상 속 행동이 돈 되는 시대\"…5000억 엑시트한 젊은 '연쇄창업가'가 토스와 손잡은 이유",
@@ -2888,10 +2903,10 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 15:45 KST",
-      "latest_event": "2026-07-31 15:44 KST",
-      "observations": 2428,
-      "active_minutes": 225
+      "latest_seen": "2026-07-31 15:51 KST",
+      "latest_event": "2026-07-31 15:50 KST",
+      "observations": 2431,
+      "active_minutes": 227
     },
     "market": {
       "intraday": true,
@@ -2917,6 +2932,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 15:46 KST"
+    "attempted_at": "2026-07-31 15:51 KST"
   }
 }
