@@ -1,42 +1,53 @@
 {
-  "as_of": "2026-07-31 10:05 KST",
+  "as_of": "2026-07-31 10:10 KST",
   "boards": {
     "KOSPI": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 10:05 KST",
-        "price": 6530.57,
-        "change": 937.01,
-        "change_pct": 16.75,
+        "as_of": "2026-07-31 10:10 KST",
+        "price": 6527.57,
+        "change": 934.01,
+        "change_pct": 16.7,
         "prev_close": 5593.56
       },
-      "score": 2.82397,
+      "score": 2.8666,
       "components": {
         "news": {
-          "score": 0.35571,
-          "coverage": 0.8399,
-          "observations": 606
+          "score": 0.34873,
+          "coverage": 0.8406,
+          "observations": 610
         },
         "market": {
-          "score": 4.09906,
+          "score": 4.13574,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 915
         },
         "discussion": {
-          "score": 3.42055,
-          "coverage": 0.1791,
-          "observations": 15868
+          "score": 3.49096,
+          "coverage": 0.1795,
+          "observations": 16725
         },
         "news_hankyung": {
-          "score": -1.12336,
-          "coverage": 0.86,
-          "observations": 17
+          "score": -1.13903,
+          "coverage": 0.8627,
+          "observations": 18
         }
       },
-      "text_pulse": 2.39894,
+      "text_pulse": 2.44355,
       "news_articles": {
         "all": [
+          {
+            "press": "한국경제",
+            "title": "\"절반 이상 1030세대가 샀다\"…MZ 몰린 '여권폰' 돌풍",
+            "news_id": "0efe9a0c6a4b689151d7aa621a33f68e",
+            "published_at": "2026-07-31 10:09 KST",
+            "company_names": [
+              "삼성전자"
+            ],
+            "sentiment_score": 0.59552,
+            "associated_companies": 1
+          },
           {
             "press": "파이낸셜뉴스",
             "title": "카카오뱅크 노조 첫 파업 돌입...조합원 700명 이상 참여",
@@ -73,6 +84,18 @@
             ],
             "sentiment_score": 0.67051,
             "associated_companies": 1
+          },
+          {
+            "press": "서울신문",
+            "title": "한국노동경제학회, 업무환경 실태조사 발표…“택배기사 휴무 보장의 핵심은 배송 대체인력”",
+            "news_id": "973bb0ae05e42e16c78ecce195851553",
+            "published_at": "2026-07-31 10:02 KST",
+            "company_names": [
+              "CJ",
+              "한진"
+            ],
+            "sentiment_score": 0.48801,
+            "associated_companies": 2
           },
           {
             "press": "조선비즈",
@@ -227,8 +250,19 @@
             "associated_companies": 2
           },
           {
+            "press": "뉴시스",
+            "title": "창립 65주년 맞은 IBK기업은행…\"2030년까지 포용금융 30조 지원\"",
+            "news_id": "d3ed3af96eb2446e30bc301272a8ce85",
+            "published_at": "2026-07-31 09:59 KST",
+            "company_names": [
+              "기업은행"
+            ],
+            "sentiment_score": 0.57551,
+            "associated_companies": 1
+          },
+          {
             "press": "한국경제",
-            "title": "[단독]\"속옷 팔아서라도 하이닉스 사라\"…주식 유튜버 찌른 20대 구속 송치",
+            "title": "[단독] \"속옷 팔아서라도 하이닉스\"…주식 유튜버 찌른 20대 구속 송치",
             "news_id": "66412179c52b941261ac4ed5b9198e1f",
             "published_at": "2026-07-31 09:58 KST",
             "company_names": [
@@ -476,6 +510,17 @@
           },
           {
             "press": "헤럴드경제",
+            "title": "[단독] 대상 식자재몰 ‘베스트온’, 서비스 종료…갑자기 왜?",
+            "news_id": "a689ff8033a05a458579ec3c2dfa12c2",
+            "published_at": "2026-07-31 09:53 KST",
+            "company_names": [
+              "대상"
+            ],
+            "sentiment_score": 0.40052,
+            "associated_companies": 1
+          },
+          {
+            "press": "헤럴드경제",
             "title": "AI·클라우드 달고 날아올랐다…LG CNS, 상반기 매출 ‘3조’ 육박",
             "news_id": "a8cb8191d92d54befbc0e82c20c9970b",
             "published_at": "2026-07-31 09:53 KST",
@@ -565,6 +610,17 @@
               "한국콜마"
             ],
             "sentiment_score": 0.68051,
+            "associated_companies": 1
+          },
+          {
+            "press": "머니투데이",
+            "title": "장민영 기업은행장 \"사회적 책임다하는 은행으로 거듭\"",
+            "news_id": "8810c9315a6635458d24f2bad680d32e",
+            "published_at": "2026-07-31 09:52 KST",
+            "company_names": [
+              "기업은행"
+            ],
+            "sentiment_score": 0.54802,
             "associated_companies": 1
           },
           {
@@ -1168,68 +1224,23 @@
             ],
             "sentiment_score": 0.53989,
             "associated_companies": 4
-          },
-          {
-            "press": "MBC",
-            "title": "오늘의 증시",
-            "news_id": "43d5576c2afa120db09178f9b0d9c9f4",
-            "published_at": "2026-07-31 09:41 KST",
-            "company_names": [
-              "삼성증권"
-            ],
-            "sentiment_score": 0.50052,
-            "associated_companies": 1
-          },
-          {
-            "press": "헤럴드경제",
-            "title": "[단독] SK하이닉스, 노조에 성과급 절반 이상 주식 지급 제안…“적자 땐 임금 조정” 제안도",
-            "news_id": "510696ff033f9be41c3df9c4bef09520",
-            "published_at": "2026-07-31 09:41 KST",
-            "company_names": [
-              "SK하이닉스"
-            ],
-            "sentiment_score": 0.29552,
-            "associated_companies": 1
-          },
-          {
-            "press": "파이낸셜뉴스",
-            "title": "'널뛰기'로는 부족했다…5600→6400, 코스피 덮친 '초변동성 쓰나미' [fn오전시황]",
-            "news_id": "62177051142b5d60862b1b39e3829540",
-            "published_at": "2026-07-31 09:41 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.35801,
-            "associated_companies": 2
-          },
-          {
-            "press": "지디넷코리아",
-            "title": "[속보] LG CNS, 올해 상반기 영업익 2221억…전년比 1.1%↑",
-            "news_id": "aaa038032665e0fb5b4872d1482022f6",
-            "published_at": "2026-07-31 09:41 KST",
-            "company_names": [
-              "LG씨엔에스"
-            ],
-            "sentiment_score": 0.68551,
-            "associated_companies": 1
-          },
-          {
-            "press": "뉴시스",
-            "title": "아모레퍼시픽, 인도서 첫 '밋유어뷰티 아카데미' 운영",
-            "news_id": "d11a29ef5353d211c81f2f7cac107c48",
-            "published_at": "2026-07-31 09:41 KST",
-            "company_names": [
-              "아모레퍼시픽"
-            ],
-            "sentiment_score": 0.58052,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
           {
             "press": "한국경제",
-            "title": "[단독]\"속옷 팔아서라도 하이닉스 사라\"…주식 유튜버 찌른 20대 구속 송치",
+            "title": "\"절반 이상 1030세대가 샀다\"…MZ 몰린 '여권폰' 돌풍",
+            "news_id": "0efe9a0c6a4b689151d7aa621a33f68e",
+            "published_at": "2026-07-31 10:09 KST",
+            "company_names": [
+              "삼성전자"
+            ],
+            "sentiment_score": 0.59552,
+            "associated_companies": 1
+          },
+          {
+            "press": "한국경제",
+            "title": "[단독] \"속옷 팔아서라도 하이닉스\"…주식 유튜버 찌른 20대 구속 송치",
             "news_id": "66412179c52b941261ac4ed5b9198e1f",
             "published_at": "2026-07-31 09:58 KST",
             "company_names": [
@@ -1446,29 +1457,29 @@
     "KOSDAQ": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 10:05 KST",
-        "price": 705.28,
-        "change": 60.5,
-        "change_pct": 9.38,
+        "as_of": "2026-07-31 10:10 KST",
+        "price": 706.5,
+        "change": 61.72,
+        "change_pct": 9.57,
         "prev_close": 644.78
       },
-      "score": 2.17329,
+      "score": 2.16134,
       "components": {
         "news": {
-          "score": 0.34819,
-          "coverage": 0.6972,
-          "observations": 93
+          "score": 0.34752,
+          "coverage": 0.6957,
+          "observations": 94
         },
         "market": {
-          "score": 3.12237,
+          "score": 3.18439,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 1801
         },
         "discussion": {
-          "score": 2.6113,
-          "coverage": 0.1401,
-          "observations": 7223
+          "score": 2.55674,
+          "coverage": 0.1397,
+          "observations": 7579
         },
         "news_hankyung": {
           "score": -0.64226,
@@ -1476,7 +1487,7 @@
           "observations": 5
         }
       },
-      "text_pulse": 1.85693,
+      "text_pulse": 1.82033,
       "news_articles": {
         "all": [
           {
@@ -1499,6 +1510,17 @@
               "리가켐바이오"
             ],
             "sentiment_score": 0.69551,
+            "associated_companies": 1
+          },
+          {
+            "press": "서울신문",
+            "title": "한국노동경제학회, 업무환경 실태조사 발표…“택배기사 휴무 보장의 핵심은 배송 대체인력”",
+            "news_id": "973bb0ae05e42e16c78ecce195851553",
+            "published_at": "2026-07-31 10:02 KST",
+            "company_names": [
+              "로젠"
+            ],
+            "sentiment_score": 0.50301,
             "associated_companies": 1
           },
           {
@@ -2617,17 +2639,6 @@
             ],
             "sentiment_score": 0.66051,
             "associated_companies": 1
-          },
-          {
-            "press": "데일리안",
-            "title": "SK디앤디, 1367억 유상증자 승부수…악재만은 아니다",
-            "news_id": "1706ed902a4f8b423b79876f30c36d69",
-            "published_at": "2026-07-31 08:01 KST",
-            "company_names": [
-              "한국기업평가"
-            ],
-            "sentiment_score": 0.35802,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
@@ -2693,23 +2704,23 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 10:05 KST",
-      "latest_event": "2026-07-31 10:02 KST",
-      "observations": 1025,
-      "active_minutes": 102
+      "latest_seen": "2026-07-31 10:10 KST",
+      "latest_event": "2026-07-31 10:09 KST",
+      "observations": 1027,
+      "active_minutes": 103
     },
     "market": {
       "intraday": true,
-      "latest_seen": "2026-07-31 10:05 KST",
+      "latest_seen": "2026-07-31 10:10 KST",
       "latest_event": "2026-07-31",
       "active_minutes": null,
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-31 10:05 KST",
-      "latest_event": "2026-07-31 10:04 KST",
-      "observations": 23294,
-      "active_minutes": 110
+      "latest_seen": "2026-07-31 10:10 KST",
+      "latest_event": "2026-07-31 10:08 KST",
+      "observations": 24532,
+      "active_minutes": 115
     }
   },
   "event_date": "2026-07-31",
@@ -2722,6 +2733,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 10:05 KST"
+    "attempted_at": "2026-07-31 10:10 KST"
   }
 }
