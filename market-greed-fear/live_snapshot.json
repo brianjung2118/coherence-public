@@ -1,32 +1,32 @@
 {
-  "as_of": "2026-07-31 12:22 KST",
+  "as_of": "2026-07-31 12:27 KST",
   "boards": {
     "KOSPI": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 12:22 KST",
-        "price": 6421.49,
-        "change": 827.93,
-        "change_pct": 14.8,
+        "as_of": "2026-07-31 12:27 KST",
+        "price": 6409.87,
+        "change": 816.31,
+        "change_pct": 14.59,
         "prev_close": 5593.56
       },
-      "score": 2.5768,
+      "score": 2.52696,
       "components": {
         "news": {
-          "score": 0.36732,
-          "coverage": 0.8284,
-          "observations": 971
+          "score": 0.36538,
+          "coverage": 0.8285,
+          "observations": 973
         },
         "market": {
-          "score": 3.82335,
+          "score": 3.78241,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 915
         },
         "discussion": {
-          "score": 3.05827,
-          "coverage": 0.1724,
-          "observations": 29516
+          "score": 2.98003,
+          "coverage": 0.1718,
+          "observations": 30108
         },
         "news_hankyung": {
           "score": -1.18224,
@@ -34,9 +34,31 @@
           "observations": 25
         }
       },
-      "text_pulse": 2.16129,
+      "text_pulse": 2.10848,
       "news_articles": {
         "all": [
+          {
+            "press": "아이뉴스24",
+            "title": "'야장 포차'로 변신한 꼬깔콘…롯데웰푸드, 팝업스토어로 2030 공략",
+            "news_id": "381636b6e978112f2d57b244607f20b6",
+            "published_at": "2026-07-31 12:20 KST",
+            "company_names": [
+              "롯데웰푸드"
+            ],
+            "sentiment_score": 0.56551,
+            "associated_companies": 1
+          },
+          {
+            "press": "뉴스1",
+            "title": "'개인정보 유출' 쿠팡에 1인당 10만원 배상 결정…수용 여부 주목",
+            "news_id": "747d4f203de6c31435514370f7b5b8b9",
+            "published_at": "2026-07-31 12:14 KST",
+            "company_names": [
+              "SK텔레콤"
+            ],
+            "sentiment_score": 0.35302,
+            "associated_companies": 1
+          },
           {
             "press": "파이낸셜뉴스",
             "title": "베일 벗은 '디에이치 방배’… 차세대 커뮤니티 플랫폼 ‘H 컬처클럽’ 하이엔드 라이프스타일 선보여",
@@ -1209,29 +1231,6 @@
             ],
             "sentiment_score": 0.68551,
             "associated_companies": 1
-          },
-          {
-            "press": "신동아",
-            "title": "삼호개발, 지반조성·포장 4년 연속 1위…비결은 장비·교육·상생",
-            "news_id": "a925169ae9f8f33e5443a2e150f1afb9",
-            "published_at": "2026-07-31 11:21 KST",
-            "company_names": [
-              "삼호개발"
-            ],
-            "sentiment_score": 0.60801,
-            "associated_companies": 1
-          },
-          {
-            "press": "동아일보",
-            "title": "“현장 데이터를 AI로 활용”…GS건설, 데이터 플랫폼 ‘스노우플레이크’ 도입",
-            "news_id": "e5a4408796c01f6946fa2e0e8a5f8faf",
-            "published_at": "2026-07-31 11:21 KST",
-            "company_names": [
-              "GS건설",
-              "NAVER"
-            ],
-            "sentiment_score": 0.59801,
-            "associated_companies": 2
           }
         ],
         "hankyung": [
@@ -1522,13 +1521,13 @@
     "KOSDAQ": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 12:22 KST",
-        "price": 706.67,
-        "change": 61.89,
-        "change_pct": 9.6,
+        "as_of": "2026-07-31 12:27 KST",
+        "price": 705.89,
+        "change": 61.11,
+        "change_pct": 9.48,
         "prev_close": 644.78
       },
-      "score": 2.27805,
+      "score": 2.2705,
       "components": {
         "news": {
           "score": 0.74337,
@@ -1536,7 +1535,7 @@
           "observations": 157
         },
         "market": {
-          "score": 3.19178,
+          "score": 3.16155,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 1801
@@ -2777,23 +2776,23 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 12:22 KST",
-      "latest_event": "2026-07-31 12:14 KST",
-      "observations": 1617,
-      "active_minutes": 154
+      "latest_seen": "2026-07-31 12:23 KST",
+      "latest_event": "2026-07-31 12:20 KST",
+      "observations": 1619,
+      "active_minutes": 155
     },
     "market": {
       "intraday": true,
-      "latest_seen": "2026-07-31 12:22 KST",
+      "latest_seen": "2026-07-31 12:27 KST",
       "latest_event": "2026-07-31",
       "active_minutes": null,
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-31 12:22 KST",
+      "latest_seen": "2026-07-31 12:27 KST",
       "latest_event": "2026-07-31 12:06 KST",
-      "observations": 42023,
-      "active_minutes": 188
+      "observations": 42615,
+      "active_minutes": 193
     }
   },
   "event_date": "2026-07-31",
@@ -2806,6 +2805,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 12:22 KST"
+    "attempted_at": "2026-07-31 12:27 KST"
   }
 }
