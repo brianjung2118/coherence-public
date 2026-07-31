@@ -1,32 +1,32 @@
 {
-  "as_of": "2026-07-31 11:56 KST",
+  "as_of": "2026-07-31 12:01 KST",
   "boards": {
     "KOSPI": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 11:56 KST",
-        "price": 6383.17,
-        "change": 789.61,
-        "change_pct": 14.12,
+        "as_of": "2026-07-31 12:01 KST",
+        "price": 6365.66,
+        "change": 772.1,
+        "change_pct": 13.8,
         "prev_close": 5593.56
       },
-      "score": 2.60189,
+      "score": 2.60339,
       "components": {
         "news": {
-          "score": 0.39373,
+          "score": 0.39761,
           "coverage": 0.8274,
-          "observations": 957
+          "observations": 959
         },
         "market": {
-          "score": 3.65139,
+          "score": 3.60019,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 915
         },
         "discussion": {
-          "score": 3.18122,
-          "coverage": 0.1762,
-          "observations": 27339
+          "score": 3.20789,
+          "coverage": 0.176,
+          "observations": 27483
         },
         "news_hankyung": {
           "score": -1.18224,
@@ -34,7 +34,7 @@
           "observations": 25
         }
       },
-      "text_pulse": 2.25206,
+      "text_pulse": 2.27113,
       "news_articles": {
         "all": [
           {
@@ -508,6 +508,20 @@
             "associated_companies": 1
           },
           {
+            "press": "EBN",
+            "title": "[컨콜] LG CNS \"금융 차세대 프로젝트 본궤도…하반기 실적 견인\"",
+            "news_id": "e978a30cf45fe6b59d5412ccc835d224",
+            "published_at": "2026-07-31 11:36 KST",
+            "company_names": [
+              "KB금융",
+              "LG씨엔에스",
+              "미래에셋생명",
+              "신한지주"
+            ],
+            "sentiment_score": 0.68551,
+            "associated_companies": 4
+          },
+          {
             "press": "뉴스1",
             "title": "\"AI 돈 번다\" 코스피 6300 'V자 반등'…삼전 20% 넘겨 '사상 최대'[장중시황]",
             "news_id": "5c2d3c9d3a974e2f2211615a7f902a63",
@@ -592,6 +606,17 @@
               "LS"
             ],
             "sentiment_score": 0.69051,
+            "associated_companies": 1
+          },
+          {
+            "press": "EBN",
+            "title": "현대엔지니어링, 새 가치체계 선포…\"공간과 에너지 잇는다\"",
+            "news_id": "c1836602abe6819f44055a811f223484",
+            "published_at": "2026-07-31 11:33 KST",
+            "company_names": [
+              "현대건설"
+            ],
+            "sentiment_score": 0.58552,
             "associated_companies": 1
           },
           {
@@ -1201,28 +1226,6 @@
             ],
             "sentiment_score": 0.29801,
             "associated_companies": 1
-          },
-          {
-            "press": "코메디닷컴",
-            "title": "셀트리온 옴리클로, 이탈리아 15개 지역 진입…7곳선 단독 공급",
-            "news_id": "c2e4696ac016c7fe7c399bd77349d5e3",
-            "published_at": "2026-07-31 11:15 KST",
-            "company_names": [
-              "셀트리온"
-            ],
-            "sentiment_score": 0.67551,
-            "associated_companies": 1
-          },
-          {
-            "press": "EBN",
-            "title": "[제약가 상속자들⑥] 승계 마친 '일양약품 3세' 정유석...이젠 '경영 능력' 증명할 차례",
-            "news_id": "edfc7894294908322b694390e9fea784",
-            "published_at": "2026-07-31 11:14 KST",
-            "company_names": [
-              "일양약품"
-            ],
-            "sentiment_score": 0.53302,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
@@ -1513,13 +1516,13 @@
     "KOSDAQ": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 11:56 KST",
-        "price": 705.28,
-        "change": 60.5,
-        "change_pct": 9.38,
+        "as_of": "2026-07-31 12:01 KST",
+        "price": 704.37,
+        "change": 59.59,
+        "change_pct": 9.24,
         "prev_close": 644.78
       },
-      "score": 2.22836,
+      "score": 2.22392,
       "components": {
         "news": {
           "score": 0.74195,
@@ -1527,15 +1530,15 @@
           "observations": 155
         },
         "market": {
-          "score": 3.11385,
+          "score": 3.1039,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 1801
         },
         "discussion": {
-          "score": 2.52881,
-          "coverage": 0.1369,
-          "observations": 10336
+          "score": 2.52492,
+          "coverage": 0.137,
+          "observations": 10363
         },
         "news_hankyung": {
           "score": -0.19745,
@@ -1543,7 +1546,7 @@
           "observations": 6
         }
       },
-      "text_pulse": 1.93319,
+      "text_pulse": 1.9306,
       "news_articles": {
         "all": [
           {
@@ -2767,23 +2770,23 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 11:53 KST",
-      "latest_event": "2026-07-31 11:52 KST",
-      "observations": 1570,
-      "active_minutes": 145
+      "latest_seen": "2026-07-31 12:01 KST",
+      "latest_event": "2026-07-31 12:00 KST",
+      "observations": 1573,
+      "active_minutes": 147
     },
     "market": {
       "intraday": true,
-      "latest_seen": "2026-07-31 11:56 KST",
+      "latest_seen": "2026-07-31 12:01 KST",
       "latest_event": "2026-07-31",
       "active_minutes": null,
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-31 11:32 KST",
-      "latest_event": "2026-07-31 11:18 KST",
-      "observations": 38012,
-      "active_minutes": 166
+      "latest_seen": "2026-07-31 12:01 KST",
+      "latest_event": "2026-07-31 12:01 KST",
+      "observations": 38188,
+      "active_minutes": 167
     }
   },
   "event_date": "2026-07-31",
@@ -2796,6 +2799,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 11:56 KST"
+    "attempted_at": "2026-07-31 12:01 KST"
   }
 }
