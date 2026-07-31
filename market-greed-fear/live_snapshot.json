@@ -1,32 +1,32 @@
 {
-  "as_of": "2026-07-31 14:07 KST",
+  "as_of": "2026-07-31 14:12 KST",
   "boards": {
     "KOSPI": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 14:07 KST",
-        "price": 6524.92,
-        "change": 931.36,
-        "change_pct": 16.65,
+        "as_of": "2026-07-31 14:12 KST",
+        "price": 6517.94,
+        "change": 924.38,
+        "change_pct": 16.53,
         "prev_close": 5593.56
       },
-      "score": 2.56338,
+      "score": 2.56735,
       "components": {
         "news": {
-          "score": 0.50048,
-          "coverage": 0.8344,
-          "observations": 1070
+          "score": 0.50045,
+          "coverage": 0.8341,
+          "observations": 1071
         },
         "market": {
-          "score": 4.25413,
+          "score": 4.23102,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 915
         },
         "discussion": {
-          "score": 2.74946,
+          "score": 2.76895,
           "coverage": 0.1657,
-          "observations": 35557
+          "observations": 35795
         },
         "news_hankyung": {
           "score": -0.11218,
@@ -34,9 +34,20 @@
           "observations": 34
         }
       },
-      "text_pulse": 1.9998,
+      "text_pulse": 2.01279,
       "news_articles": {
         "all": [
+          {
+            "press": "이데일리",
+            "title": "카카오엔터, ‘유부녀 킬러’ 베리즈 팬 커뮤니티 오픈",
+            "news_id": "b09366e9c2792af08ca8cfabad14e71c",
+            "published_at": "2026-07-31 14:08 KST",
+            "company_names": [
+              "카카오"
+            ],
+            "sentiment_score": 0.56551,
+            "associated_companies": 1
+          },
           {
             "press": "이데일리",
             "title": "한화에어로, 2분기 영업익 '1.4조'…방산 질주에 사상 첫 1조원 돌파 (종합)",
@@ -1172,17 +1183,6 @@
             ],
             "sentiment_score": 0.66802,
             "associated_companies": 2
-          },
-          {
-            "press": "세계일보",
-            "title": "SK하이닉스 개미 구하기 위해 최대한의 주식을 샀다…최태원 ‘49억 매입’ 배경은",
-            "news_id": "25cd1cecf4883536e61c5ff1aa93b855",
-            "published_at": "2026-07-31 12:25 KST",
-            "company_names": [
-              "SK하이닉스"
-            ],
-            "sentiment_score": 0.44801,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
@@ -1525,29 +1525,29 @@
     "KOSDAQ": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 14:07 KST",
-        "price": 714.33,
-        "change": 69.55,
-        "change_pct": 10.79,
+        "as_of": "2026-07-31 14:12 KST",
+        "price": 715.07,
+        "change": 70.29,
+        "change_pct": 10.9,
         "prev_close": 644.78
       },
-      "score": 2.23483,
+      "score": 2.20825,
       "components": {
         "news": {
-          "score": 0.68841,
-          "coverage": 0.7279,
-          "observations": 175
+          "score": 0.67599,
+          "coverage": 0.7263,
+          "observations": 176
         },
         "market": {
-          "score": 3.4956,
+          "score": 3.52443,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 1801
         },
         "discussion": {
-          "score": 2.37766,
-          "coverage": 0.1303,
-          "observations": 15215
+          "score": 2.31629,
+          "coverage": 0.1305,
+          "observations": 15251
         },
         "news_hankyung": {
           "score": -0.19745,
@@ -1555,7 +1555,7 @@
           "observations": 6
         }
       },
-      "text_pulse": 1.81458,
+      "text_pulse": 1.76952,
       "news_articles": {
         "all": [
           {
@@ -2800,23 +2800,23 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 14:07 KST",
-      "latest_event": "2026-07-31 14:05 KST",
-      "observations": 1830,
-      "active_minutes": 188
+      "latest_seen": "2026-07-31 14:12 KST",
+      "latest_event": "2026-07-31 14:08 KST",
+      "observations": 1832,
+      "active_minutes": 190
     },
     "market": {
       "intraday": true,
-      "latest_seen": "2026-07-31 14:07 KST",
+      "latest_seen": "2026-07-31 14:12 KST",
       "latest_event": "2026-07-31",
       "active_minutes": null,
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-31 14:07 KST",
-      "latest_event": "2026-07-31 14:05 KST",
-      "observations": 51362,
-      "active_minutes": 232
+      "latest_seen": "2026-07-31 14:12 KST",
+      "latest_event": "2026-07-31 14:08 KST",
+      "observations": 51636,
+      "active_minutes": 237
     }
   },
   "event_date": "2026-07-31",
@@ -2825,10 +2825,10 @@
     "status": "trading",
     "market_component_available": true
   },
-  "methodology_fingerprint": "7d642ce2e96ee32e430cf6533e2e540917d045dd0bbfa05a61e5bf3d87992f86",
+  "methodology_fingerprint": "15c207b37f00fe1fe3fc2158a8dbfee12006247304e895aac62f48fb5b9d746f",
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 14:07 KST"
+    "attempted_at": "2026-07-31 14:12 KST"
   }
 }
