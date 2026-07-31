@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-07-31 13:46 KST",
+  "as_of": "2026-07-31 13:51 KST",
   "boards": {
     "KOSPI": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 13:46 KST",
-        "price": 6487.44,
-        "change": 893.88,
-        "change_pct": 15.98,
+        "as_of": "2026-07-31 13:51 KST",
+        "price": 6481.82,
+        "change": 888.26,
+        "change_pct": 15.88,
         "prev_close": 5593.56
       },
-      "score": 2.53224,
+      "score": 2.533,
       "components": {
         "news": {
-          "score": 0.47052,
-          "coverage": 0.8322,
-          "observations": 1037
+          "score": 0.48156,
+          "coverage": 0.8326,
+          "observations": 1038
         },
         "market": {
-          "score": 4.13237,
+          "score": 4.12438,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 915
@@ -29,12 +29,12 @@
           "observations": 33566
         },
         "news_hankyung": {
-          "score": -0.17367,
-          "coverage": 0.8354,
-          "observations": 29
+          "score": -0.10127,
+          "coverage": 0.8452,
+          "observations": 30
         }
       },
-      "text_pulse": 1.99886,
+      "text_pulse": 2.00255,
       "news_articles": {
         "all": [
           {
@@ -1540,13 +1540,13 @@
     "KOSDAQ": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 13:46 KST",
-        "price": 711.77,
-        "change": 66.99,
-        "change_pct": 10.39,
+        "as_of": "2026-07-31 13:51 KST",
+        "price": 710.91,
+        "change": 66.13,
+        "change_pct": 10.26,
         "prev_close": 644.78
       },
-      "score": 2.27849,
+      "score": 2.272,
       "components": {
         "news": {
           "score": 0.77764,
@@ -1554,7 +1554,7 @@
           "observations": 166
         },
         "market": {
-          "score": 3.42202,
+          "score": 3.39607,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 1801
@@ -2813,14 +2813,14 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 13:46 KST",
-      "latest_event": "2026-07-31 13:45 KST",
-      "observations": 1754,
-      "active_minutes": 176
+      "latest_seen": "2026-07-31 13:51 KST",
+      "latest_event": "2026-07-31 13:50 KST",
+      "observations": 1756,
+      "active_minutes": 177
     },
     "market": {
       "intraday": true,
-      "latest_seen": "2026-07-31 13:46 KST",
+      "latest_seen": "2026-07-31 13:51 KST",
       "latest_event": "2026-07-31",
       "active_minutes": null,
       "status_record_available": true
@@ -2842,6 +2842,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 13:46 KST"
+    "attempted_at": "2026-07-31 13:51 KST"
   }
 }
