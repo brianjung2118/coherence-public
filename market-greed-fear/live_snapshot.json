@@ -1,32 +1,32 @@
 {
-  "as_of": "2026-07-31 12:11 KST",
+  "as_of": "2026-07-31 12:17 KST",
   "boards": {
     "KOSPI": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 12:11 KST",
-        "price": 6391.49,
-        "change": 797.93,
-        "change_pct": 14.27,
+        "as_of": "2026-07-31 12:17 KST",
+        "price": 6389.28,
+        "change": 795.72,
+        "change_pct": 14.23,
         "prev_close": 5593.56
       },
-      "score": 2.54649,
+      "score": 2.54192,
       "components": {
         "news": {
-          "score": 0.35383,
+          "score": 0.36742,
           "coverage": 0.8282,
-          "observations": 969
+          "observations": 970
         },
         "market": {
-          "score": 3.71056,
+          "score": 3.686,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 915
         },
         "discussion": {
-          "score": 3.06079,
-          "coverage": 0.1725,
-          "observations": 29431
+          "score": 3.05712,
+          "coverage": 0.1724,
+          "observations": 29508
         },
         "news_hankyung": {
           "score": -1.18224,
@@ -34,9 +34,20 @@
           "observations": 25
         }
       },
-      "text_pulse": 2.15847,
+      "text_pulse": 2.16056,
       "news_articles": {
         "all": [
+          {
+            "press": "조선비즈",
+            "title": "카카오모빌리티, TS와 데이터 기반 교통안전 협력 확대",
+            "news_id": "78477cbdce53339ebbc71276eb7fb2fd",
+            "published_at": "2026-07-31 12:06 KST",
+            "company_names": [
+              "카카오"
+            ],
+            "sentiment_score": 0.64551,
+            "associated_companies": 1
+          },
           {
             "press": "문화일보",
             "title": "“AI 치킨게임 계속”… 미국 빅테크 실적이 말했다",
@@ -1220,17 +1231,6 @@
             ],
             "sentiment_score": 0.44801,
             "associated_companies": 1
-          },
-          {
-            "press": "SBS Biz",
-            "title": "'적자 나면 임금 삭감' 꺼낸 SK하이닉스…노사 갈등 재점화",
-            "news_id": "08e7d6613c35daf347762bed688f4238",
-            "published_at": "2026-07-31 11:19 KST",
-            "company_names": [
-              "SK하이닉스"
-            ],
-            "sentiment_score": 0.31927,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
@@ -1521,21 +1521,21 @@
     "KOSDAQ": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 12:11 KST",
-        "price": 705.54,
-        "change": 60.76,
-        "change_pct": 9.42,
+        "as_of": "2026-07-31 12:17 KST",
+        "price": 704.07,
+        "change": 59.29,
+        "change_pct": 9.2,
         "prev_close": 644.78
       },
-      "score": 2.26991,
+      "score": 2.25664,
       "components": {
         "news": {
           "score": 0.74337,
-          "coverage": 0.7209,
-          "observations": 156
+          "coverage": 0.7222,
+          "observations": 157
         },
         "market": {
-          "score": 3.15919,
+          "score": 3.10614,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 1801
@@ -1554,6 +1554,18 @@
       "text_pulse": 1.97348,
       "news_articles": {
         "all": [
+          {
+            "press": "아시아경제",
+            "title": "에이스침대, '더드림페어' 프로모션…침대 구매하면 침구세트 증정",
+            "news_id": "a1bec7bb88ca476a41b29629af997948",
+            "published_at": "2026-07-31 12:08 KST",
+            "company_names": [
+              "에이스침대",
+              "웰크론"
+            ],
+            "sentiment_score": 0.52801,
+            "associated_companies": 2
+          },
           {
             "press": "아시아경제",
             "title": "GC녹십자웰빙, 상반기 매출 1012억원…전년比 37.4% 증가",
@@ -2687,17 +2699,6 @@
             ],
             "sentiment_score": 0.60552,
             "associated_companies": 1
-          },
-          {
-            "press": "조선비즈",
-            "title": "데브시스터즈, ‘쿠키런: 크럼블’ 출시 첫날 국내 앱스토어 인기 1위 올라",
-            "news_id": "a42f7c6f707237384289748bb7e7ca09",
-            "published_at": "2026-07-31 09:43 KST",
-            "company_names": [
-              "데브시스터즈"
-            ],
-            "sentiment_score": 0.65551,
-            "associated_companies": 1
           }
         ],
         "hankyung": [
@@ -2775,23 +2776,23 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 12:07 KST",
-      "latest_event": "2026-07-31 12:05 KST",
-      "observations": 1602,
-      "active_minutes": 150
+      "latest_seen": "2026-07-31 12:15 KST",
+      "latest_event": "2026-07-31 12:14 KST",
+      "observations": 1616,
+      "active_minutes": 153
     },
     "market": {
       "intraday": true,
-      "latest_seen": "2026-07-31 12:11 KST",
+      "latest_seen": "2026-07-31 12:17 KST",
       "latest_event": "2026-07-31",
       "active_minutes": null,
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-31 12:12 KST",
-      "latest_event": "2026-07-31 12:04 KST",
-      "observations": 41938,
-      "active_minutes": 178
+      "latest_seen": "2026-07-31 12:17 KST",
+      "latest_event": "2026-07-31 12:06 KST",
+      "observations": 42015,
+      "active_minutes": 183
     }
   },
   "event_date": "2026-07-31",
@@ -2804,6 +2805,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 12:11 KST"
+    "attempted_at": "2026-07-31 12:17 KST"
   }
 }
