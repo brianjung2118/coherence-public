@@ -1,32 +1,32 @@
 {
-  "as_of": "2026-07-31 09:13 KST",
+  "as_of": "2026-07-31 09:18 KST",
   "boards": {
     "KOSPI": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 09:13 KST",
-        "price": 6309.77,
-        "change": 716.21,
-        "change_pct": 12.8,
+        "as_of": "2026-07-31 09:18 KST",
+        "price": 6298.25,
+        "change": 704.69,
+        "change_pct": 12.6,
         "prev_close": 5593.56
       },
-      "score": 2.59434,
+      "score": 2.52688,
       "components": {
         "news": {
-          "score": -0.02104,
-          "coverage": 0.8207,
-          "observations": 346
+          "score": -0.11656,
+          "coverage": 0.823,
+          "observations": 360
         },
         "market": {
-          "score": 3.24575,
+          "score": 3.21015,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 915
         },
         "discussion": {
-          "score": 3.57631,
-          "coverage": 0.1885,
-          "observations": 8989
+          "score": 3.50696,
+          "coverage": 0.1884,
+          "observations": 9122
         },
         "news_hankyung": {
           "score": -0.75734,
@@ -34,9 +34,32 @@
           "observations": 10
         }
       },
-      "text_pulse": 2.3772,
+      "text_pulse": 2.29912,
       "news_articles": {
         "all": [
+          {
+            "press": "이데일리",
+            "title": "쓰리디팩토리, 한·미 조선 공동 R&D 주관기관 선정...MASGA 핵심 기술개발 참여",
+            "news_id": "13c6de1a04a50a0170a6dd8b457b83a7",
+            "published_at": "2026-07-31 09:12 KST",
+            "company_names": [
+              "HD한국조선해양",
+              "한화오션"
+            ],
+            "sentiment_score": 0.68551,
+            "associated_companies": 2
+          },
+          {
+            "press": "헤럴드경제",
+            "title": "현대차·기아, 칠레 한인사회에 전기 순찰차 기증…‘한국의 거리’ 치안 지원",
+            "news_id": "2400ca6d5930af942a1399f88d5013b5",
+            "published_at": "2026-07-31 09:11 KST",
+            "company_names": [
+              "현대차"
+            ],
+            "sentiment_score": 0.64051,
+            "associated_companies": 1
+          },
           {
             "press": "채널A",
             "title": "최태원, SK하이닉스 첫 직접 투자…최대치 48억 매수",
@@ -74,6 +97,28 @@
             "associated_companies": 2
           },
           {
+            "press": "아시아경제",
+            "title": "[오늘의신상]밀크티 매출 111% 껑충 GS25의 신제품 '유어스로얄밀크티'",
+            "news_id": "3e49664ab740f880810687848c43df5b",
+            "published_at": "2026-07-31 09:09 KST",
+            "company_names": [
+              "GS리테일"
+            ],
+            "sentiment_score": 0.61801,
+            "associated_companies": 1
+          },
+          {
+            "press": "파이낸셜뉴스",
+            "title": "한화생명, 국제정보올림피아드 후원…AI·디지털 인재 육성 나선다",
+            "news_id": "43f069c74e43d1ec082a0cc3ba67dfef",
+            "published_at": "2026-07-31 09:09 KST",
+            "company_names": [
+              "한화생명"
+            ],
+            "sentiment_score": 0.58301,
+            "associated_companies": 1
+          },
+          {
             "press": "이데일리",
             "title": "'명동사옥 1층' 문 연 삼양식품…불닭 '페포 라운지' 관광객 발길",
             "news_id": "494281f5681c4f24960ab2a62b6a0732",
@@ -82,6 +127,28 @@
               "삼양식품"
             ],
             "sentiment_score": 0.61301,
+            "associated_companies": 1
+          },
+          {
+            "press": "헤럴드경제",
+            "title": "셀트리온 신규 바이오시밀러, 이탈리아 직판 질주…유럽 점유율 확대 가속",
+            "news_id": "b2613c2f714d0f0408ed913a688ee573",
+            "published_at": "2026-07-31 09:09 KST",
+            "company_names": [
+              "셀트리온"
+            ],
+            "sentiment_score": 0.67551,
+            "associated_companies": 1
+          },
+          {
+            "press": "뉴스1",
+            "title": "[속보] SK하이닉스 장 초반 28%대 급등 '170만' 목전 터치",
+            "news_id": "2afdd1009a68a6635e0d0b09aeaa0744",
+            "published_at": "2026-07-31 09:08 KST",
+            "company_names": [
+              "SK하이닉스"
+            ],
+            "sentiment_score": 0.56551,
             "associated_companies": 1
           },
           {
@@ -108,6 +175,17 @@
             "associated_companies": 2
           },
           {
+            "press": "이데일리",
+            "title": "뉴로메카, \"'시장·제품·스케일업' 3축 성장 전략 본격화\"",
+            "news_id": "24f9cc5c668584cd9f1914eddd7569ad",
+            "published_at": "2026-07-31 09:07 KST",
+            "company_names": [
+              "디아이"
+            ],
+            "sentiment_score": 0.69051,
+            "associated_companies": 1
+          },
+          {
             "press": "뉴시스",
             "title": "대우건설, 연천군에서 '상생 플로깅' 봉사활동",
             "news_id": "5846a48a863b634306cae43b23711f39",
@@ -127,6 +205,29 @@
               "SNT모티브"
             ],
             "sentiment_score": 0.35552,
+            "associated_companies": 1
+          },
+          {
+            "press": "연합뉴스",
+            "title": "[속보] 삼성전자·SK하이닉스, 20% 안팎 폭등",
+            "news_id": "98d780ce3e388c7b5d85d9a4ffff4dc8",
+            "published_at": "2026-07-31 09:07 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.37177,
+            "associated_companies": 2
+          },
+          {
+            "press": "디지털데일리",
+            "title": "GS25, RTD 컵음료 첫 PB 밀크티 출시…커피 대체 수요 공략",
+            "news_id": "afb680125fd516345e8c55eee07dba6e",
+            "published_at": "2026-07-31 09:07 KST",
+            "company_names": [
+              "GS리테일"
+            ],
+            "sentiment_score": 0.58552,
             "associated_companies": 1
           },
           {
@@ -205,6 +306,18 @@
             "associated_companies": 2
           },
           {
+            "press": "조선비즈",
+            "title": "[속보] 코스피 14% 상승해 6350선 돌파…삼성전자 21%·SK하이닉스 27% 폭등",
+            "news_id": "7d9f49c61337d03178a2bf53bec18282",
+            "published_at": "2026-07-31 09:05 KST",
+            "company_names": [
+              "SK하이닉스",
+              "삼성전자"
+            ],
+            "sentiment_score": 0.54676,
+            "associated_companies": 2
+          },
+          {
             "press": "동행미디어 시대",
             "title": "[속보] 삼성전자 22%·SK하이닉스 27% 급등",
             "news_id": "c53026a3954ad285b3c07aac6213ec34",
@@ -215,6 +328,17 @@
             ],
             "sentiment_score": 0.61301,
             "associated_companies": 2
+          },
+          {
+            "press": "지디넷코리아",
+            "title": "상반기 서버해킹 487건..DDoS·랜섬웨어 증가",
+            "news_id": "1c86adf7ae49a396766d07c9bbda1ea4",
+            "published_at": "2026-07-31 09:04 KST",
+            "company_names": [
+              "SK스퀘어"
+            ],
+            "sentiment_score": 0.48801,
+            "associated_companies": 1
           },
           {
             "press": "블로터",
@@ -237,6 +361,18 @@
               "삼성전자"
             ],
             "sentiment_score": 0.58177,
+            "associated_companies": 2
+          },
+          {
+            "press": "뉴스1",
+            "title": "펜타포트부터 맥주축제까지…식음료업계, 축제 마케팅 '활발'",
+            "news_id": "e7b032a25d0aec6a84303ea3acb37732",
+            "published_at": "2026-07-31 09:04 KST",
+            "company_names": [
+              "롯데칠성",
+              "하이트진로"
+            ],
+            "sentiment_score": 0.56801,
             "associated_companies": 2
           },
           {
@@ -263,6 +399,17 @@
             "associated_companies": 2
           },
           {
+            "press": "뉴스1",
+            "title": "\"AI 못 다루면 승진 못한다\"…삼성전자, 임원평가 배점 10배 높여",
+            "news_id": "871c4ae0e4e0c0f2b63b2b52c0946053",
+            "published_at": "2026-07-31 09:03 KST",
+            "company_names": [
+              "삼성전자"
+            ],
+            "sentiment_score": 0.53051,
+            "associated_companies": 1
+          },
+          {
             "press": "조선비즈",
             "title": "삼성전자, 제주도에 가정용 EHS 히트펌프 보일러 설치",
             "news_id": "f5b586a293d3f8612bfc8e4d7eba938a",
@@ -271,6 +418,17 @@
               "삼성전자"
             ],
             "sentiment_score": 0.66051,
+            "associated_companies": 1
+          },
+          {
+            "press": "뉴스1",
+            "title": "디 애퍼처, 더현대서울 팝업 오픈…올가을 신상품 공개",
+            "news_id": "1b5690dbdaaca49379a6f20d82741a3f",
+            "published_at": "2026-07-31 09:02 KST",
+            "company_names": [
+              "삼성물산"
+            ],
+            "sentiment_score": 0.57051,
             "associated_companies": 1
           },
           {
@@ -632,6 +790,17 @@
               "GS리테일"
             ],
             "sentiment_score": 0.60301,
+            "associated_companies": 1
+          },
+          {
+            "press": "EBN",
+            "title": "한컴라이프케어, 2Q 영업익 76억원…국방·로봇 호조에 상반기 '흑자전환'",
+            "news_id": "cf235dceeae36551587e3f420a7265b1",
+            "published_at": "2026-07-31 08:52 KST",
+            "company_names": [
+              "한컴라이프케어"
+            ],
+            "sentiment_score": 0.69051,
             "associated_companies": 1
           },
           {
@@ -1029,174 +1198,6 @@
             ],
             "sentiment_score": 0.61301,
             "associated_companies": 1
-          },
-          {
-            "press": "연합뉴스",
-            "title": "키움증권 \"포스코홀딩스 목표가 하향…리튬 가격 약세 반영\"",
-            "news_id": "8205ffdc7f3cfcc63ff83ed45bff5da8",
-            "published_at": "2026-07-31 08:31 KST",
-            "company_names": [
-              "POSCO홀딩스",
-              "키움증권",
-              "포스코인터내셔널"
-            ],
-            "sentiment_score": 0.44218,
-            "associated_companies": 3
-          },
-          {
-            "press": "연합뉴스",
-            "title": "삼성전자, 가정용 'EHS 히트펌프 보일러' 본격 공급",
-            "news_id": "8d74c5bc6e3f20c8381398389d4f0919",
-            "published_at": "2026-07-31 08:31 KST",
-            "company_names": [
-              "삼성전자"
-            ],
-            "sentiment_score": 0.60801,
-            "associated_companies": 1
-          },
-          {
-            "press": "헤럴드경제",
-            "title": "삼성전자, 제주 단독주택에 ‘EHS 히트펌프 보일러’ 본격 공급",
-            "news_id": "bf0c082c634bbf9e4884e9e14b424cb9",
-            "published_at": "2026-07-31 08:31 KST",
-            "company_names": [
-              "삼성전자"
-            ],
-            "sentiment_score": 0.66051,
-            "associated_companies": 1
-          },
-          {
-            "press": "SBS Biz",
-            "title": "[서학개미 브리핑] 국장 떠난 서학개미…美 주식 순매수 7배 급증",
-            "news_id": "c0409ae766484d49625208200691cc9f",
-            "published_at": "2026-07-31 08:31 KST",
-            "company_names": [
-              "SK하이닉스"
-            ],
-            "sentiment_score": 0.51551,
-            "associated_companies": 1
-          },
-          {
-            "press": "뉴스1",
-            "title": "정부, 전국 19만동 공장·창고 화재안전 조사…불연 외장재 의무화",
-            "news_id": "07765789f7750ef600cf2eefe553b191",
-            "published_at": "2026-07-31 08:30 KST",
-            "company_names": [
-              "기업은행"
-            ],
-            "sentiment_score": 0.51301,
-            "associated_companies": 1
-          },
-          {
-            "press": "파이낸셜뉴스",
-            "title": "엔씨, '아이온2' 중국 공략 시동…셩취게임즈와 맞손",
-            "news_id": "1e72804e2842f359c1ef29df86110644",
-            "published_at": "2026-07-31 08:30 KST",
-            "company_names": [
-              "NC"
-            ],
-            "sentiment_score": 0.59801,
-            "associated_companies": 1
-          },
-          {
-            "press": "아시아경제",
-            "title": "산은 등 16조 끌어모아 6000억 실탄…20조 전략형 국부펀드, 관치 논란 속 출발",
-            "news_id": "41fdc6886d96cc8e075bea45d8eb9ad3",
-            "published_at": "2026-07-31 08:30 KST",
-            "company_names": [
-              "기업은행"
-            ],
-            "sentiment_score": 0.36301,
-            "associated_companies": 1
-          },
-          {
-            "press": "이데일리",
-            "title": "NC AI, 494억 규모 '에이전틱 AI' 국책사업 주관…'자율 업무 AI' 개발",
-            "news_id": "731be9a34e8d031ac6a7099e9f9a8804",
-            "published_at": "2026-07-31 08:30 KST",
-            "company_names": [
-              "NC"
-            ],
-            "sentiment_score": 0.65551,
-            "associated_companies": 1
-          },
-          {
-            "press": "데일리안",
-            "title": "20조원 규모 전략형 국부펀드 신설…반도체·AI 등에 장기투자",
-            "news_id": "7ba0f8aa6a68e86492f79dac2c331b97",
-            "published_at": "2026-07-31 08:30 KST",
-            "company_names": [
-              "기업은행"
-            ],
-            "sentiment_score": 0.54802,
-            "associated_companies": 1
-          },
-          {
-            "press": "머니투데이",
-            "title": "'한국판 국부펀드' KIC로 통합…8월 '한국투자공사법' 개정안 발의",
-            "news_id": "bbbd18624c5163334cf7b76b574ca684",
-            "published_at": "2026-07-31 08:30 KST",
-            "company_names": [
-              "기업은행"
-            ],
-            "sentiment_score": 0.51802,
-            "associated_companies": 1
-          },
-          {
-            "press": "이데일리",
-            "title": "[마켓무버]AI 투자 신뢰 회복에 뉴욕증시 급등…나스닥 2.8%↑, 반도체 '슈퍼 랠리'",
-            "news_id": "d00f822b3ecdf8312d088dba7113a5b8",
-            "published_at": "2026-07-31 08:30 KST",
-            "company_names": [
-              "삼성전자"
-            ],
-            "sentiment_score": 0.66051,
-            "associated_companies": 1
-          },
-          {
-            "press": "뉴스1",
-            "title": "20조 원+α '한국판 국부펀드' 내년 가동…AI·반도체 등 만기 없는 직접투자",
-            "news_id": "dcc2d302458ab13d16d28f9694813e9f",
-            "published_at": "2026-07-31 08:30 KST",
-            "company_names": [
-              "기업은행"
-            ],
-            "sentiment_score": 0.59301,
-            "associated_companies": 1
-          },
-          {
-            "press": "머니투데이",
-            "title": "\"공장화재 막는다\"…대규모 실태조사, 벌금 최대 30% 신고포상금 추진",
-            "news_id": "e508f56cf6e34516e01900b8a12253f0",
-            "published_at": "2026-07-31 08:30 KST",
-            "company_names": [
-              "기업은행"
-            ],
-            "sentiment_score": 0.50052,
-            "associated_companies": 1
-          },
-          {
-            "press": "한국일보",
-            "title": "20조 규모 '전략형 국부펀드' 신설… 만기 없이 첨단산업 지분 확보",
-            "news_id": "fc43d484c8474353ea98e0bb45d8c154",
-            "published_at": "2026-07-31 08:30 KST",
-            "company_names": [
-              "기업은행"
-            ],
-            "sentiment_score": 0.56551,
-            "associated_companies": 1
-          },
-          {
-            "press": "연합뉴스",
-            "title": "IBK투자증권, LG전자 목표가↑…\"2분기 영업익 전망치 상회\"",
-            "news_id": "3c2623970284f25d60c0eb3e4cefc11a",
-            "published_at": "2026-07-31 08:29 KST",
-            "company_names": [
-              "LG이노텍",
-              "기업은행"
-            ],
-            "sentiment_score": 0.67051,
-            "associated_companies": 2
           }
         ],
         "hankyung": [
@@ -1342,29 +1343,29 @@
     "KOSDAQ": {
       "index": {
         "live": true,
-        "as_of": "2026-07-31 09:13 KST",
-        "price": 690.42,
-        "change": 45.64,
-        "change_pct": 7.08,
+        "as_of": "2026-07-31 09:18 KST",
+        "price": 691.9,
+        "change": 47.12,
+        "change_pct": 7.31,
         "prev_close": 644.78
       },
-      "score": 1.51644,
+      "score": 1.50892,
       "components": {
         "news": {
-          "score": -0.16228,
-          "coverage": 0.7826,
-          "observations": 48
+          "score": -0.24508,
+          "coverage": 0.8058,
+          "observations": 54
         },
         "market": {
-          "score": 2.60473,
+          "score": 2.64748,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 1801
         },
         "discussion": {
-          "score": 1.81166,
-          "coverage": 0.1459,
-          "observations": 3469
+          "score": 1.81665,
+          "coverage": 0.146,
+          "observations": 3492
         },
         "news_hankyung": {
           "score": 0.18731,
@@ -1372,9 +1373,31 @@
           "observations": 5
         }
       },
-      "text_pulse": 1.15368,
+      "text_pulse": 1.1294,
       "news_articles": {
         "all": [
+          {
+            "press": "뉴시스",
+            "title": "젝시믹스, 여름 시즌오프 시작…최대 10% 쿠폰·균일가 행사",
+            "news_id": "2dff3364dbdefcc32c3d2411919556a2",
+            "published_at": "2026-07-31 09:10 KST",
+            "company_names": [
+              "젝시믹스"
+            ],
+            "sentiment_score": 0.55302,
+            "associated_companies": 1
+          },
+          {
+            "press": "머니투데이",
+            "title": "폴라리스우노, 브레이드용 원사 美 안전성 검증 완료… 북미 대형 유통망 공략",
+            "news_id": "b3951de5f677df95742d4bd00e93b188",
+            "published_at": "2026-07-31 09:10 KST",
+            "company_names": [
+              "폴라리스우노"
+            ],
+            "sentiment_score": 0.69551,
+            "associated_companies": 1
+          },
           {
             "press": "한국경제",
             "title": "리가켐바이오 항체약물접합체 기술 적용한 익수다 ‘IKS04’, 미국 임상 1상 진입",
@@ -1384,6 +1407,29 @@
               "리가켐바이오"
             ],
             "sentiment_score": 0.69551,
+            "associated_companies": 1
+          },
+          {
+            "press": "뉴스1",
+            "title": "이사·혼수철 온다…에이스침대, '더드림페어' 진행",
+            "news_id": "0afa59d5956659fe3edd3e14765bb829",
+            "published_at": "2026-07-31 09:07 KST",
+            "company_names": [
+              "에이스침대",
+              "웰크론"
+            ],
+            "sentiment_score": 0.53302,
+            "associated_companies": 2
+          },
+          {
+            "press": "이데일리",
+            "title": "뉴로메카, \"'시장·제품·스케일업' 3축 성장 전략 본격화\"",
+            "news_id": "24f9cc5c668584cd9f1914eddd7569ad",
+            "published_at": "2026-07-31 09:07 KST",
+            "company_names": [
+              "뉴로메카"
+            ],
+            "sentiment_score": 0.68551,
             "associated_companies": 1
           },
           {
@@ -1398,6 +1444,31 @@
             ],
             "sentiment_score": 0.62468,
             "associated_companies": 3
+          },
+          {
+            "press": "지디넷코리아",
+            "title": "상반기 서버해킹 487건..DDoS·랜섬웨어 증가",
+            "news_id": "1c86adf7ae49a396766d07c9bbda1ea4",
+            "published_at": "2026-07-31 09:04 KST",
+            "company_names": [
+              "안랩",
+              "에스투더블유",
+              "이글루",
+              "지니언스"
+            ],
+            "sentiment_score": 0.48926,
+            "associated_companies": 4
+          },
+          {
+            "press": "이데일리",
+            "title": "아모텍, 유증 발행가액 8700원 확정…“AI MLCC 생산능력 확충 본격화”",
+            "news_id": "d2173358e4492d8897e96a28146650be",
+            "published_at": "2026-07-31 09:04 KST",
+            "company_names": [
+              "아모텍"
+            ],
+            "sentiment_score": 0.68551,
+            "associated_companies": 1
           },
           {
             "press": "지디넷코리아",
@@ -1419,6 +1490,17 @@
               "지투지바이오"
             ],
             "sentiment_score": 0.70051,
+            "associated_companies": 1
+          },
+          {
+            "press": "뉴시스",
+            "title": "리가켐 \"파트너사 ADC 후보물질, 美 임상 승인\"",
+            "news_id": "f6d264f92637c092e82ac206d751c9d0",
+            "published_at": "2026-07-31 09:02 KST",
+            "company_names": [
+              "리가켐바이오"
+            ],
+            "sentiment_score": 0.69551,
             "associated_companies": 1
           },
           {
@@ -2101,23 +2183,23 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-07-31 09:13 KST",
+      "latest_seen": "2026-07-31 09:18 KST",
       "latest_event": "2026-07-31 09:12 KST",
-      "observations": 650,
+      "observations": 656,
       "active_minutes": 78
     },
     "market": {
       "intraday": true,
-      "latest_seen": "2026-07-31 09:13 KST",
+      "latest_seen": "2026-07-31 09:18 KST",
       "latest_event": "2026-07-31",
       "active_minutes": null,
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-07-31 09:13 KST",
-      "latest_event": "2026-07-31 09:10 KST",
-      "observations": 12547,
-      "active_minutes": 92
+      "latest_seen": "2026-07-31 09:18 KST",
+      "latest_event": "2026-07-31 09:13 KST",
+      "observations": 12703,
+      "active_minutes": 97
     }
   },
   "event_date": "2026-07-31",
@@ -2130,6 +2212,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-07-31 09:13 KST"
+    "attempted_at": "2026-07-31 09:18 KST"
   }
 }
