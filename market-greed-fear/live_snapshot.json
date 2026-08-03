@@ -1,32 +1,32 @@
 {
-  "as_of": "2026-08-03 09:06 KST",
+  "as_of": "2026-08-03 09:12 KST",
   "boards": {
     "KOSPI": {
       "index": {
         "live": true,
-        "as_of": "2026-08-03 09:06 KST",
-        "price": 6290.52,
-        "change": -304.93,
-        "change_pct": -4.62,
+        "as_of": "2026-08-03 09:12 KST",
+        "price": 6292.02,
+        "change": -303.43,
+        "change_pct": -4.6,
         "prev_close": 6595.45
       },
-      "score": -0.31549,
+      "score": -0.3859,
       "components": {
         "news": {
-          "score": -1.86063,
-          "coverage": 0.7904,
-          "observations": 291
+          "score": -1.85836,
+          "coverage": 0.7927,
+          "observations": 294
         },
         "market": {
-          "score": -0.89497,
+          "score": -1.22297,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 915
         },
         "discussion": {
-          "score": 0.74683,
-          "coverage": 0.1374,
-          "observations": 3800
+          "score": 0.76886,
+          "coverage": 0.1386,
+          "observations": 4121
         },
         "news_hankyung": {
           "score": -1.12895,
@@ -34,9 +34,56 @@
           "observations": 14
         }
       },
-      "text_pulse": -0.12232,
+      "text_pulse": -0.10688,
       "news_articles": {
         "all": [
+          {
+            "press": "동행미디어 시대",
+            "title": "최윤범 고려아연 회장 \"도가니 정신으로 글로벌 핵심광물 플랫폼 도약\"",
+            "news_id": "71f21e7ae82370d73428386ddb0dc7a7",
+            "published_at": "2026-08-03 09:09 KST",
+            "company_names": [
+              "고려아연"
+            ],
+            "sentiment_score": 0.58301,
+            "associated_companies": 1
+          },
+          {
+            "press": "뉴스1",
+            "title": "\"테라와 과즙의 짜릿한 만남\"…하이트진로 '테라 스파클링' 출시",
+            "news_id": "c218fcb7c35c2d93204b051f29dbce8c",
+            "published_at": "2026-08-03 09:08 KST",
+            "company_names": [
+              "하이트진로"
+            ],
+            "sentiment_score": 0.57302,
+            "associated_companies": 1
+          },
+          {
+            "press": "파이낸셜뉴스",
+            "title": "\"K9 본격 납품에 하반기 더 강하다\" 한화에어로 목표가↑-다올",
+            "news_id": "a8c6576f3f071ee4de1aacbf189a5598",
+            "published_at": "2026-08-03 09:05 KST",
+            "company_names": [
+              "기아",
+              "다올투자증권",
+              "한화에어로스페이스",
+              "한화오션"
+            ],
+            "sentiment_score": 0.68051,
+            "associated_companies": 4
+          },
+          {
+            "press": "아시아경제",
+            "title": "스톤브릿지벤처스, 3250억원 'AI 글로벌 펀드' 결성…AUM 1조7000억원 확대",
+            "news_id": "73aff9787221100cc1123146a7a5fbe2",
+            "published_at": "2026-08-03 09:03 KST",
+            "company_names": [
+              "기업은행"
+            ],
+            "sentiment_score": 0.57302,
+            "associated_companies": 1
+          },
           {
             "press": "한국경제",
             "title": "'근거리 장보기 수요' 잡았다…GS25 신선강화형 매장 1000호점 돌파",
@@ -1133,54 +1180,6 @@
             ],
             "sentiment_score": 0.56551,
             "associated_companies": 1
-          },
-          {
-            "press": "한국경제",
-            "title": "대웅제약·DNC 에스테틱스, 메디컬 에스테틱 복합시술 임상전략 공유",
-            "news_id": "9939a97ff84e60879f777cf3cdec7218",
-            "published_at": "2026-08-03 08:39 KST",
-            "company_names": [
-              "대웅제약"
-            ],
-            "sentiment_score": 0.65551,
-            "associated_companies": 1
-          },
-          {
-            "press": "한국경제",
-            "title": "롯데관광개발, '관광기금 쇼크'에 CB 전환가 밑돌아…풋옵션 행사돼",
-            "news_id": "253605de942db9fad428de024a1a9cf6",
-            "published_at": "2026-08-03 08:39 KST",
-            "company_names": [
-              "GKL",
-              "롯데관광개발",
-              "신한지주"
-            ],
-            "sentiment_score": 0.32427,
-            "associated_companies": 3
-          },
-          {
-            "press": "한국경제",
-            "title": "[부고] 조태원(대신증권 고객솔루션부 부장)씨 장모상",
-            "news_id": "4dfba5ad9102de65ca44c7177791c1d6",
-            "published_at": "2026-08-03 08:39 KST",
-            "company_names": [
-              "SK하이닉스",
-              "대신증권"
-            ],
-            "sentiment_score": 0.26802,
-            "associated_companies": 2
-          },
-          {
-            "press": "문화일보",
-            "title": "[속보]김용범 형사고발“레버ETF 도입지시 직권남용”",
-            "news_id": "ddf0277ee0435b31cc2d9392951ca55a",
-            "published_at": "2026-08-03 08:38 KST",
-            "company_names": [
-              "SK하이닉스",
-              "삼성전자"
-            ],
-            "sentiment_score": 0.21239,
-            "associated_companies": 2
           }
         ],
         "hankyung": [
@@ -1343,29 +1342,29 @@
     "KOSDAQ": {
       "index": {
         "live": true,
-        "as_of": "2026-08-03 09:06 KST",
-        "price": 711.23,
-        "change": -8.53,
-        "change_pct": -1.19,
+        "as_of": "2026-08-03 09:12 KST",
+        "price": 709.22,
+        "change": -10.54,
+        "change_pct": -1.46,
         "prev_close": 719.76
       },
-      "score": 0.15721,
+      "score": 0.06672,
       "components": {
         "news": {
-          "score": -0.19346,
-          "coverage": 0.8131,
-          "observations": 47
+          "score": -0.19365,
+          "coverage": 0.8214,
+          "observations": 48
         },
         "market": {
-          "score": -0.09063,
+          "score": -0.45426,
           "coverage": 1.0,
           "confidence": 1.0,
           "observations": 1801
         },
         "discussion": {
-          "score": 0.45645,
-          "coverage": 0.1027,
-          "observations": 1723
+          "score": 0.45739,
+          "coverage": 0.1024,
+          "observations": 1728
         },
         "news_hankyung": {
           "score": 2.18377,
@@ -1373,9 +1372,34 @@
           "observations": 4
         }
       },
-      "text_pulse": 0.23982,
+      "text_pulse": 0.24038,
       "news_articles": {
         "all": [
+          {
+            "press": "뉴스1",
+            "title": "HLB파나진, 로슈 계열 신약연구소와 싱가포르 PNA 유통 독점 계약",
+            "news_id": "3a2674151bc645bf52d51f588bd995a7",
+            "published_at": "2026-08-03 09:03 KST",
+            "company_names": [
+              "HLB파나진"
+            ],
+            "sentiment_score": 0.69551,
+            "associated_companies": 1
+          },
+          {
+            "press": "아시아경제",
+            "title": "스톤브릿지벤처스, 3250억원 'AI 글로벌 펀드' 결성…AUM 1조7000억원 확대",
+            "news_id": "73aff9787221100cc1123146a7a5fbe2",
+            "published_at": "2026-08-03 09:03 KST",
+            "company_names": [
+              "노타",
+              "리브스메드",
+              "스톤브릿지벤처스",
+              "에스투더블유"
+            ],
+            "sentiment_score": 0.58239,
+            "associated_companies": 4
+          },
           {
             "press": "아이뉴스24",
             "title": "디렉셔널 무인가 영업, 금감원 부실조사·특혜 의혹…감사원 감사청구",
@@ -2216,23 +2240,23 @@
   },
   "sources": {
     "news": {
-      "latest_seen": "2026-08-03 09:04 KST",
-      "latest_event": "2026-08-03 09:03 KST",
-      "observations": 509,
-      "active_minutes": 70
+      "latest_seen": "2026-08-03 09:12 KST",
+      "latest_event": "2026-08-03 09:11 KST",
+      "observations": 523,
+      "active_minutes": 71
     },
     "market": {
       "intraday": true,
-      "latest_seen": "2026-08-03 09:06 KST",
+      "latest_seen": "2026-08-03 09:12 KST",
       "latest_event": "2026-08-03",
       "active_minutes": null,
       "status_record_available": true
     },
     "discussion": {
-      "latest_seen": "2026-08-03 09:06 KST",
-      "latest_event": "2026-08-03 09:05 KST",
-      "observations": 5556,
-      "active_minutes": 74
+      "latest_seen": "2026-08-03 09:12 KST",
+      "latest_event": "2026-08-03 09:08 KST",
+      "observations": 5882,
+      "active_minutes": 80
     }
   },
   "event_date": "2026-08-03",
@@ -2245,6 +2269,6 @@
   "delivery": {
     "database_status": "confirmed",
     "reason": null,
-    "attempted_at": "2026-08-03 09:06 KST"
+    "attempted_at": "2026-08-03 09:12 KST"
   }
 }
